@@ -1,0 +1,15 @@
+{
+  "name": "growth-marketplace",
+  "owner": {
+    "name": "AI Huevos",
+    "email": "hola@huevos.ai"
+  },
+  "plugins": [
+    {
+      "name": "growth-foundations",
+      "source": "./plugins/growth-foundations",
+      "description": "Frameworks fundamentales de B2B growth: ICP scoring, positioning, competitive analysis, y diagnóstico ClarQ. Toolkit gratuito para cualquier equipo B2B.",
+      "version": "1.0.0"
+    }
+  ]
+}
