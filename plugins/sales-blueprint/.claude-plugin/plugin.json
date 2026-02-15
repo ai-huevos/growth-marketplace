@@ -1,0 +1,9 @@
+{
+  "name": "sales-blueprint",
+  "version": "1.0.0",
+  "description": "B2B sales execution system: SPICED discovery, pipeline health scoring, proposal generation, and REKS coaching cadence. Based on Winning by Design methodology.",
+  "author": {
+    "name": "AI Huevos",
+    "email": "hola@huevos.ai"
+  }
+}

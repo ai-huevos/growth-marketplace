@@ -10,6 +10,18 @@
       "source": "./plugins/growth-foundations",
       "description": "Frameworks fundamentales de B2B growth: ICP scoring, positioning, competitive analysis, y diagnóstico ClarQ. Toolkit gratuito para cualquier equipo B2B.",
       "version": "1.0.0"
+    },
+    {
+      "name": "sales-blueprint",
+      "source": "./plugins/sales-blueprint",
+      "description": "31 blueprints de ventas B2B: SPICED, discovery, proposals, coaching, pipeline. Basado en metodología Winning by Design.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "copywriting-engine",
+      "source": "./plugins/copywriting-engine",
+      "description": "Motor de copywriting con 50K+ patrones: headlines, emails, landing pages, triggers psicológicos. Sistema de 4 fases con agentes especializados.",
+      "version": "1.0.0"
     }
   ]
 }
