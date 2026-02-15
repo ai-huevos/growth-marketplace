@@ -151,8 +151,8 @@ Estructura fija:
 ## Convenciones del Contenido
 
 ### Idioma
-- **TODO el contenido en español**. Sin excepciones.
-- No traducir a inglés bajo ninguna circunstancia.
+- **Spanish-first**. Todo contenido nuevo se crea en español.
+- Multi-language en roadmap (Phase 2: inglés, portugués).
 
 ### Triggers
 - Los skills documentan sus triggers en el README.md del plugin

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is in Spanish (do not translate).
+AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
 ## Architecture
 
@@ -45,7 +45,7 @@ plugins/
 
 ## Conventions
 
-- All content in **Spanish**. Never translate to English.
+- All content is **Spanish-first**. Base content created in Spanish. Multi-language expansion planned for Phase 2.
 - Plugin manifests use minimal fields: `name`, `version`, `description`, `author`.
 - Skills use `**Triggers**:` lists in README.md to document activation keywords.
 - Commands use `$ARGUMENTS` placeholder for user input in command .md files.
@@ -71,6 +71,7 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `09-inventario-contenido.md` | Complete 59-file inventory |
 | `10-decisiones-diseno.md` | 10 architectural decisions with rationale |
 | `11-gtm-skills-landscape.md` | GTM skills ecosystem, competitors, gaps, marketplace blueprint |
+| `12-validacion-mercado-deep-research.md` | Market validation: Reddit/community signals, thesis stress test, 90-day execution plan |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
 ### NotebookLM CLI (`nlm`)

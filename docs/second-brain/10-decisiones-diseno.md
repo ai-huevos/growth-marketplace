@@ -102,17 +102,18 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisión 8: Todo en Español
+## Decisión 8: Spanish-First (Multi-Language Roadmap)
 
-**Decisión**: Todo el contenido del marketplace está en español. Sin excepciones.
+**Decisión**: Todo contenido base se crea en español. La restricción "nunca traducir" se elimina. Multi-language planificado para Phase 2.
 
 **Rationale**:
 - El target principal son empresas LATAM ($50M+)
 - El mercado de herramientas B2B en español está desatendido
 - La terminología de ventas tiene matices culturales que se pierden en traducción
 - El brand AI Huevos es para el mercado hispanohablante
+- **Actualización (Feb 2026)**: La restricción absoluta bloqueaba crecimiento futuro. Spanish-first mantiene el diferenciador mientras permite expansión
 
-**Implicación**: Los keywords de trigger incluyen tanto español como inglés (ej: "propuesta" y "proposal") porque muchos equipos de ventas LATAM usan terminología mixta.
+**Implicación**: Los keywords de trigger incluyen tanto español como inglés (ej: "propuesta" y "proposal") porque muchos equipos de ventas LATAM usan terminología mixta. En Phase 2, se podrán generar versiones localizadas del contenido base.
 
 ---
 
@@ -144,11 +145,23 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisiones Futuras Pendientes
+## Decisiones Estratégicas Resueltas (Feb 2026)
 
-### Monetización de Plugins
-- `growth-foundations` es gratis. ¿Cuál será el modelo de pricing para los otros?
-- ¿Subscription? ¿One-time? ¿Tier-based?
+### Monetización de Plugins ✅
+- **Decisión**: Test interno en AI Huevos primero, escalar a venta cuando se valide el valor
+- `growth-foundations` sigue gratis como punto de entrada
+
+### Integración con CRM / MCP ✅
+- **Decisión**: Fase de research para identificar integraciones MCP de alto valor (CRM sync, data enrichment, analytics)
+- Ver doc 11, sección 8 para hallazgos detallados
+
+### Localización ✅
+- **Decisión**: Spanish-first (Phase 1), multi-language en Phase 2 (inglés, portugués)
+- Se elimina la restricción "nunca traducir"
+
+---
+
+## Decisiones Futuras Pendientes
 
 ### Nuevos Plugins Potenciales
 - Customer Success / Onboarding
@@ -156,14 +169,6 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 - Marketing Automation
 - GTM Strategy
 
-### Integración con CRM
-- ¿Conectar SPICED scores directamente con Salesforce/HubSpot?
-- ¿Importar datos de pipeline para el /pipeline command?
-
 ### Telemetría
 - ¿Trackear qué skills/commands se usan más?
 - ¿Medir la calidad de los outputs?
-
-### Localización
-- ¿Versión en portugués para Brasil?
-- ¿Versión en inglés para mercado global?

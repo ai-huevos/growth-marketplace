@@ -71,7 +71,7 @@ SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común
 
 ## Datos Clave del Proyecto
 
-- **Idioma**: Todo el contenido en español. Nunca traducir a inglés.
+- **Idioma**: Spanish-first. Contenido base en español. Roadmap multi-language en Phase 2.
 - **Archivos totales**: 59 (57 Markdown + 2 JSON)
 - **Skills**: 11 en total (3 + 4 + 4)
 - **Commands**: 9 en total (2 + 4 + 3)
