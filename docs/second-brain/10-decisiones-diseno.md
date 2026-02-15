@@ -1,0 +1,169 @@
+# Decisiones de Diseño y Rationale
+
+Este documento captura las decisiones arquitectónicas del proyecto, por qué se tomaron, y las implicaciones para el futuro.
+
+---
+
+## Decisión 1: Repositorio Solo de Contenido (Content-Only)
+
+**Decisión**: Todo el repositorio es Markdown y JSON. No hay código, build system, tests, ni dependencias.
+
+**Rationale**:
+- Los plugins de Claude Code son interpretados, no compilados — Claude lee los archivos Markdown como instrucciones
+- Elimina toda fricción de setup: clonar el repo es suficiente
+- Cualquier persona (no solo desarrolladores) puede contribuir — solo necesita saber Markdown
+- El versionado de contenido funciona perfectamente con git
+- No hay riesgo de dependencias rotas, vulnerabilidades de seguridad en packages, o build failures
+
+**Implicación**: La "calidad del código" se mide por la claridad y estructura del contenido, no por tests o coverage.
+
+---
+
+## Decisión 2: SPICED como Lenguaje Común
+
+**Decisión**: SPICED (Winning by Design) es el framework que conecta los 3 plugins en lugar de crear un framework propio.
+
+**Rationale**:
+- SPICED es una metodología probada con adopción en la industria de ventas B2B
+- Al usar un framework externo reconocido, los usuarios pueden traer su conocimiento previo
+- Crear un framework propio habría requerido validación adicional
+- SPICED mapea naturalmente al ciclo de venta: diagnosticar (ICP) → calificar (discovery) → gestionar (pipeline) → proponer (proposals) → mejorar (coaching)
+
+**Implicación**: Si el usuario no conoce SPICED, hay una curva de aprendizaje. El archivo `spiced-framework.md` actúa como onboarding.
+
+---
+
+## Decisión 3: Tres Plugins Separados (No Un Monolito)
+
+**Decisión**: El marketplace tiene 3 plugins independientes en lugar de un solo mega-plugin.
+
+**Rationale**:
+- **Modularidad**: Un equipo de marketing puede instalar solo `growth-foundations` sin necesitar las herramientas de ventas
+- **Pricing**: `growth-foundations` es gratis como punto de entrada (funnel), los otros pueden tener precio
+- **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar)
+- **Mantenimiento**: Se pueden actualizar independientemente
+
+**Trade-off**: Hay duplicación menor (SPICED se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/spiced-framework.md`.
+
+---
+
+## Decisión 4: Skills Activados por Triggers (No Solo Commands)
+
+**Decisión**: Los skills se activan automáticamente cuando Claude detecta keywords relevantes, además de poder invocarse manualmente.
+
+**Rationale**:
+- Reduce la fricción: el usuario no necesita memorizar comandos
+- Experiencia más natural: "ayúdame a analizar mi ICP" activa el skill sin `/icp`
+- Los commands siguen existiendo para invocación explícita y precisa
+
+**Implicación**: Los triggers deben ser lo suficientemente específicos para evitar falsos positivos. Se documentan en el README.md de cada plugin.
+
+---
+
+## Decisión 5: Datos Reales como Base del Copywriting Engine
+
+**Decisión**: El copywriting engine se basa en análisis de datos reales (38,737 headlines, 4,129 triggers, etc.) en lugar de "mejores prácticas" genéricas.
+
+**Rationale**:
+- Los datos dan credibilidad y diferenciación vs. otros frameworks de copywriting
+- Permiten rankear triggers por leverage objetivo (no opinión)
+- Los 50 fórmulas de headlines están validadas por datos, no inventadas
+- El scoring de copy tiene baseline empírica
+
+**Implicación**: Los datos necesitan actualizarse periódicamente. La fuente de los datos debe documentarse.
+
+---
+
+## Decisión 6: Pipeline de 4 Agentes (No Un Solo Agente de Copy)
+
+**Decisión**: El `/copy` command orquesta 4 agentes secuenciales en lugar de un solo agente que haga todo.
+
+**Rationale**:
+- **Separación de concerns**: Research ≠ análisis ≠ creatividad ≠ ejecución. Cada fase requiere un "modo de pensar" diferente
+- **Quality gates**: Cada fase tiene criterios de calidad que deben cumplirse antes de avanzar
+- **Debugging**: Si el copy final no es bueno, se puede identificar en qué fase falló
+- **Reusabilidad**: El Research Agent puede usarse independientemente para otros propósitos
+
+**Trade-off**: El pipeline es más lento que un agente único. Pero la calidad es consistentemente más alta.
+
+---
+
+## Decisión 7: Commands como Workflows Interactivos
+
+**Decisión**: Los commands no son one-shot (input → output) sino workflows interactivos multi-fase que guían al usuario.
+
+**Rationale**:
+- Los frameworks B2B son complejos — un simple prompt no captura toda la información necesaria
+- La interactividad permite al usuario pensar y aportar contexto en cada fase
+- El output es más relevante porque incorpora input específico del usuario
+- Simula la experiencia de trabajar con un consultor senior
+
+**Implicación**: Los commands requieren más tiempo del usuario, pero producen resultados significativamente mejores.
+
+---
+
+## Decisión 8: Todo en Español
+
+**Decisión**: Todo el contenido del marketplace está en español. Sin excepciones.
+
+**Rationale**:
+- El target principal son empresas LATAM ($50M+)
+- El mercado de herramientas B2B en español está desatendido
+- La terminología de ventas tiene matices culturales que se pierden en traducción
+- El brand AI Huevos es para el mercado hispanohablante
+
+**Implicación**: Los keywords de trigger incluyen tanto español como inglés (ej: "propuesta" y "proposal") porque muchos equipos de ventas LATAM usan terminología mixta.
+
+---
+
+## Decisión 9: Conceptos Propios en ClarQ (Fragile Giant)
+
+**Decisión**: El framework ClarQ incluye conceptos con nombres propios ("Juan Guillermo Problem", "Barbacha", "Caja Negra", "Blindaje").
+
+**Rationale**:
+- Los nombres propios hacen los conceptos memorables y compartibles
+- Crean un "vocabulario compartido" entre el consultor y el cliente
+- Son metáforas que el mercado LATAM entiende inmediatamente
+- Diferencian ClarQ de otros frameworks de madurez genéricos
+
+**Implicación**: Estos conceptos necesitan documentación clara para nuevos usuarios. Se explican dentro del command `/diagnostico`.
+
+---
+
+## Decisión 10: REKS Antes de SPICED en Coaching
+
+**Decisión**: El coaching usa REKS como primer filtro (Results → Effort → Knowledge → Skills) antes de evaluar SPICED skills.
+
+**Rationale**:
+- El 80% de los problemas de performance se diagnostican mal
+- Muchos managers asumen que el rep "no sabe vender" cuando el problema es de esfuerzo o motivación
+- REKS fuerza un diagnóstico estructurado antes de prescribir solución
+- Solo cuando REKS identifica Skills como el issue, tiene sentido evaluar SPICED
+
+**Implicación**: El coaching es un proceso de dos capas: REKS (diagnóstico de performance) → SPICED (diagnóstico de calidad de ejecución).
+
+---
+
+## Decisiones Futuras Pendientes
+
+### Monetización de Plugins
+- `growth-foundations` es gratis. ¿Cuál será el modelo de pricing para los otros?
+- ¿Subscription? ¿One-time? ¿Tier-based?
+
+### Nuevos Plugins Potenciales
+- Customer Success / Onboarding
+- Revenue Operations
+- Marketing Automation
+- GTM Strategy
+
+### Integración con CRM
+- ¿Conectar SPICED scores directamente con Salesforce/HubSpot?
+- ¿Importar datos de pipeline para el /pipeline command?
+
+### Telemetría
+- ¿Trackear qué skills/commands se usan más?
+- ¿Medir la calidad de los outputs?
+
+### Localización
+- ¿Versión en portugués para Brasil?
+- ¿Versión en inglés para mercado global?
