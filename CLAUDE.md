@@ -70,9 +70,44 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `08-frameworks-patrones.md` | Frameworks, templates, pattern libraries |
 | `09-inventario-contenido.md` | Complete 59-file inventory |
 | `10-decisiones-diseno.md` | 10 architectural decisions with rationale |
+| `11-gtm-skills-landscape.md` | GTM skills ecosystem, competitors, gaps, marketplace blueprint |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
-When adding new content to the marketplace, update the corresponding second-brain doc and re-upload to NotebookLM.
+### NotebookLM CLI (`nlm`)
+
+The `nlm` CLI tool provides direct access to the NotebookLM notebook. Use it to persist research outputs and knowledge.
+
+**Notebook alias**: `second-brain` (ID: `943410cf-1885-4802-a1e8-fe45cdfe6e26`)
+
+**Key commands**:
+```bash
+# List sources in notebook
+nlm source list second-brain
+
+# Add a local file as source (preferred for docs/second-brain/ files)
+nlm source add second-brain --file docs/second-brain/<filename>.md --title "<filename>.md" --wait
+
+# Add text content directly (for ad-hoc research outputs)
+nlm source add second-brain --text "content here" --title "Title" --wait
+
+# Add a URL as source
+nlm source add second-brain --url https://example.com --wait
+
+# Query the notebook
+nlm notebook query second-brain "question here"
+
+# List all notebooks
+nlm list notebooks
+```
+
+**Workflow for persisting research**:
+1. Write content to `docs/second-brain/` following the `NN-slug.md` naming convention
+2. Push to NotebookLM: `nlm source add second-brain --file docs/second-brain/<file>.md --title "<file>.md" --wait`
+3. Git commit the new doc
+
+When adding new content to the marketplace, always:
+1. Update or create the corresponding second-brain doc
+2. Push it to NotebookLM via `nlm source add`
 
 ## Git Workflow
 
