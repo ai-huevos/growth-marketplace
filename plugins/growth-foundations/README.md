@@ -38,5 +38,9 @@ Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario 
 ## Instalación
 
 ```bash
+# Agregar el marketplace (solo la primera vez)
+/plugin marketplace add ai-huevos/growth-marketplace
+
+# Instalar el plugin
 /plugin install growth-foundations@growth-marketplace
 ```

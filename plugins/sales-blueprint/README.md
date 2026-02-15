@@ -74,8 +74,12 @@ Todo el plugin esta construido sobre SPICED como lenguaje comun de diagnostico:
 
 SPICED conecta discovery (diagnosticar), pipeline (evaluar), proposals (presentar), y coaching (mejorar). Es el hilo conductor de todo el sistema.
 
-## Instalacion
+## Instalación
 
 ```bash
+# Agregar el marketplace (solo la primera vez)
+/plugin marketplace add ai-huevos/growth-marketplace
+
+# Instalar el plugin
 /plugin install sales-blueprint@growth-marketplace
 ```

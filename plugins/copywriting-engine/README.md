@@ -58,8 +58,12 @@ El comando `/copy` orquesta 4 agentes especializados:
 3. **Ideation Agent** — Genera conceptos creativos y messaging frameworks
 4. **Copy Output Agent** — Produce copy final optimizado con scoring y variaciones A/B
 
-## Instalacion
+## Instalación
 
 ```bash
+# Agregar el marketplace (solo la primera vez)
+/plugin marketplace add ai-huevos/growth-marketplace
+
+# Instalar el plugin
 /plugin install copywriting-engine@growth-marketplace
 ```

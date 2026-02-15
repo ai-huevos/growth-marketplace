@@ -4,6 +4,11 @@
   "description": "B2B sales execution system: SPICED discovery, pipeline health scoring, proposal generation, and REKS coaching cadence. Based on Winning by Design methodology.",
   "author": {
     "name": "AI Huevos",
-    "email": "hola@huevos.ai"
-  }
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["b2b", "sales", "spiced", "discovery", "pipeline", "proposals", "coaching", "spanish"]
 }

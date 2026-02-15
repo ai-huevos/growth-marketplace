@@ -4,6 +4,11 @@
   "description": "Motor de copywriting basado en datos: 38K headlines analizados, 4,129 triggers psicologicos, secuencias de email, landing pages y arquitectura de conversion. Sistema de 4 fases con agentes especializados.",
   "author": {
     "name": "AI Huevos",
-    "email": "hola@huevos.ai"
-  }
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["copywriting", "headlines", "email", "landing-pages", "persuasion", "spanish"]
 }

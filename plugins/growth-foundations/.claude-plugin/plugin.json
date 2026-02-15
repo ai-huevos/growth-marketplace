@@ -4,6 +4,11 @@
   "description": "B2B growth fundamentals: ICP scoring, positioning frameworks, competitive analysis, and ClarQ diagnostic. Free foundational toolkit for any B2B team.",
   "author": {
     "name": "AI Huevos",
-    "email": "hola@huevos.ai"
-  }
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["b2b", "icp", "positioning", "competitive-analysis", "growth", "spiced", "spanish"]
 }
