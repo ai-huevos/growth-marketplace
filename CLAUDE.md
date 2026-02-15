@@ -72,6 +72,9 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `10-decisiones-diseno.md` | 10 architectural decisions with rationale |
 | `11-gtm-skills-landscape.md` | GTM skills ecosystem, competitors, gaps, marketplace blueprint |
 | `12-validacion-mercado-deep-research.md` | Market validation: Reddit/community signals, thesis stress test, 90-day execution plan |
+| `13-distribucion-plugins-claude-code.md` | Plugin distribution channels, marketplace mechanics, Agent Skills open standard |
+| `14-flujos-usuario.md` | Complete user flows: discovery, install, activation, commands, agent pipelines, cross-plugin journeys |
+| `15-arquitectura-sistema.md` | System architecture: layers, data model, scoring system, design patterns, dependency diagrams |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
 ### NotebookLM CLI (`nlm`)
