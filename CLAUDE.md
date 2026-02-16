@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
+**Quick stats**: 5 plugins, 18 skills, 7 agents, 12 commands, 25 templates, ~127 content files.
+
+> **Note**: The root `README.md` only documents `growth-foundations` (1 of 5 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
+
 ## Architecture
 
 This is a **content-only repository** — no build system, no tests, no dependencies. All files are Markdown.
@@ -30,7 +34,7 @@ plugins/
 
 ### Marketplace Manifest
 
-`.claude-plugin/marketplace.json` at the repo root defines the plugin registry — published plugins, sources, categories, and keywords. Individual plugins have their own `.claude-plugin/plugin.json` manifests.
+`.claude-plugin/marketplace.json` at the repo root is the **authoritative plugin registry** — the single source of truth for published plugins, sources, categories, and keywords. Individual plugins have their own `.claude-plugin/plugin.json` manifests with per-plugin metadata.
 
 ### Plugins
 
@@ -47,6 +51,12 @@ plugins/
 `tools/plugin-factory/` — Meta-tool for analyzing repos and generating new marketplace plugins. Symlinked to `~/.claude/skills/plugin-factory/` for use as a user-level skill. Not a marketplace plugin itself.
 
 `tools/ingestion-orchestrator/` — Triage skill that analyzes incoming content against existing marketplace coverage. Symlinked to `~/.claude/skills/ingestion-orchestrator/`. Triggers: "ingest content", "triage research", "content triage", "ingerir contenido".
+
+**Active user-level skill symlinks** (`~/.claude/skills/`):
+- `plugin-factory/` → `tools/plugin-factory/`
+- `ingestion-orchestrator/` → `tools/ingestion-orchestrator/`
+- `conversational-pm/` → `plugins/conversational-pm/skills/project-management/`
+- `forensic-codebase-skill/` — standalone (not in this repo)
 
 ### Key Patterns
 
@@ -84,35 +94,12 @@ plugins/
 
 All project knowledge — architecture decisions, error patterns, dependency choices, discussions, and context — lives in the **NotebookLM notebook**. This file does NOT store knowledge. The notebook is the single source of truth.
 
-Source documents for the notebook are maintained in `docs/second-brain/`:
+Source documents are maintained in `docs/second-brain/` using the `NN-slug.md` naming convention (24 docs numbered 00–23, plus `GUIA-NOTEBOOKLM.md`). Filenames are self-descriptive — use `ls docs/second-brain/` to browse.
 
-| Document | Content |
-|----------|---------|
-| `00-proyecto-overview.md` | Vision, plugins, audience, key metrics |
-| `01-arquitectura-convenciones.md` | File structure, plugin anatomy, design patterns |
-| `02-metodologia-spiced.md` | SPICED framework: dimensions, scoring, cross-plugin connections |
-| `03-plugin-growth-foundations.md` | ICP, positioning, competitive analysis, ClarQ |
-| `04-plugin-sales-blueprint.md` | Discovery, pipeline, proposals, coaching, agents |
-| `05-plugin-copywriting-engine.md` | Headlines, emails, landing pages, triggers, agent pipeline |
-| `06-modelos-scoring.md` | All scoring models unified reference |
-| `07-sistema-agentes.md` | All 7 agents with workflow diagrams |
-| `08-frameworks-patrones.md` | Frameworks, templates, pattern libraries |
-| `09-inventario-contenido.md` | Complete 59-file inventory |
-| `10-decisiones-diseno.md` | 10 architectural decisions with rationale |
-| `11-gtm-skills-landscape.md` | GTM skills ecosystem, competitors, gaps, marketplace blueprint |
-| `12-validacion-mercado-deep-research.md` | Market validation: Reddit/community signals, thesis stress test, 90-day execution plan |
-| `13-distribucion-plugins-claude-code.md` | Plugin distribution channels, marketplace mechanics, Agent Skills open standard |
-| `14-flujos-usuario.md` | Complete user flows: discovery, install, activation, commands, agent pipelines, cross-plugin journeys |
-| `15-arquitectura-sistema.md` | System architecture: layers, data model, scoring system, design patterns, dependency diagrams |
-| `16-quiz-funnel-ask-method.md` | Quiz funnel skill: ASK Method adapted to B2B, bucket identification, lean stress test |
-| `17-research-plataforma-inteligencia-b2b.md` | Growth Intelligence Platform vision: semantic layer, knowledge graph roadmap, data flywheel |
-| `18-plugin-dotcom-secrets.md` | DotCom Secrets plugin: ESCALA, FLUJO, Alma branded stack, funnel optimization |
-| `19-deep-research-b2b-plugin-marketplace.md` | Deep research: plugin architecture, marketplace patterns, B2B AI landscape, LATAM opportunity |
-| `20-content-mavericks-ecosystem.md` | Content Mavericks: 7 frameworks (Ski Slope, Greatest Hits, AIDA, Three Jabs, ISL), 35+ modules, triage guide |
-| `21-plugin-conversational-pm.md` | Conversational PM plugin: agent roster, irrigation model, 3-level dashboards, SPICED project discovery |
-| `22-sistema-realidad-source-of-truth.md` | System audit: codebase vs NLM reconciliation, gaps, cleanup commands, E2E test plan |
-| `23-emyth-agentic-evolution.md` | E-Myth → Agentic: franchise prototype, 58 SOPs, process-to-agent mapping, 25-week roadmap |
-| `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
+**Key documents**:
+- `00-proyecto-overview.md` — Project vision, plugins, audience, key metrics
+- `22-sistema-realidad-source-of-truth.md` — **System source-of-truth**: codebase vs NLM reconciliation, E2E test plan
+- `GUIA-NOTEBOOKLM.md` — Step-by-step notebook setup guide
 
 ### Artifacts
 
@@ -149,6 +136,8 @@ nlm list notebooks
 1. Write content to `docs/second-brain/` following the `NN-slug.md` naming convention
 2. Push to NotebookLM: `nlm source add second-brain --file docs/second-brain/<file>.md --title "<file>.md" --wait`
 3. Git commit the new doc
+
+**CLI gotchas**: `source add` has no `-y` flag (non-interactive by default). `source delete` requires `-y` to confirm. Studio create commands need `echo y |` to bypass prompts.
 
 When adding new content to the marketplace, always:
 1. Update or create the corresponding second-brain doc
