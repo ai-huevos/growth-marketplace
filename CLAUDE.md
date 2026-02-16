@@ -28,13 +28,22 @@ plugins/
       <agent-name>.md            ← Agent definition with role, workflow phases, tools, and expected outputs
 ```
 
-### Three Plugin Types
+### Marketplace Manifest
+
+`.claude-plugin/marketplace.json` at the repo root defines the plugin registry — published plugins, sources, categories, and keywords. Individual plugins have their own `.claude-plugin/plugin.json` manifests.
+
+### Plugins
 
 | Plugin | Focus | Key Methodology |
 |--------|-------|-----------------|
-| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic | SPICED segmentation |
+| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels | SPICED segmentation, ASK Method |
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Winning by Design / SPICED |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
+| `conversational-pm` | B2B growth intelligence project orchestration | Agent roster (Architecture Plumber → Data Specialist → DB Architect → Implementation → Dashboard) |
+
+### Tools (non-plugin)
+
+`tools/plugin-factory/` — Meta-tool for analyzing repos and generating new marketplace plugins. Symlinked to `~/.claude/skills/plugin-factory/` for use as a user-level skill. Not a marketplace plugin itself.
 
 ### Key Patterns
 
@@ -75,7 +84,13 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `13-distribucion-plugins-claude-code.md` | Plugin distribution channels, marketplace mechanics, Agent Skills open standard |
 | `14-flujos-usuario.md` | Complete user flows: discovery, install, activation, commands, agent pipelines, cross-plugin journeys |
 | `15-arquitectura-sistema.md` | System architecture: layers, data model, scoring system, design patterns, dependency diagrams |
+| `16-quiz-funnel-ask-method.md` | Quiz funnel skill: ASK Method adapted to B2B, bucket identification, lean stress test |
+| `17-research-plataforma-inteligencia-b2b.md` | Growth Intelligence Platform vision: semantic layer, knowledge graph roadmap, data flywheel |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
+
+### Artifacts
+
+`docs/artifacts/` stores NotebookLM-generated outputs (PNG infographics, CSV inventories, JSON mindmaps, TXT slide decks). These are generated via `nlm studio` commands and downloaded for reference.
 
 ### NotebookLM CLI (`nlm`)
 

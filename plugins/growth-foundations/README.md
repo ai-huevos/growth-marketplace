@@ -19,6 +19,11 @@ Análisis competitivo estructurado usando Five Forces de Porter + mapa competiti
 
 **Triggers**: "competitive analysis", "competitors", "market landscape", "competitive intelligence", "market map"
 
+### quiz-funnel
+Diseño de quiz funnels para segmentar un mercado en 3-5 buckets accionables. Basado en el ASK Method adaptado a B2B e integrado con SPICED. Incluye frameworks de diseño de preguntas, scoring de buckets, y plan de stress test por <$500.
+
+**Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
+
 ## Commands
 
 ### /diagnostico
@@ -33,6 +38,13 @@ Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario 
 
 ```
 /icp [industria o contexto]
+```
+
+### /quiz
+Workshop interactivo para diseñar un quiz funnel. Guía al usuario por 8 fases: contexto, buckets, SMIQ, diseño del quiz, survey, stress test, métricas, y output final.
+
+```
+/quiz [industria, producto, o mercado target]
 ```
 
 ## Instalación

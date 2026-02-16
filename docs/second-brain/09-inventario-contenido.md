@@ -8,17 +8,17 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 | Métrica | Valor |
 |---------|-------|
-| Total de archivos | 59 |
-| Archivos Markdown | 57 |
+| Total de archivos | 72 |
+| Archivos Markdown | 70 |
 | Archivos JSON | 2 |
 | Plugins | 3 |
-| Skills | 11 |
-| Commands | 9 |
+| Skills | 12 |
+| Commands | 10 |
 | Agents | 6 |
-| Frameworks | 10+ |
-| Templates | 8 |
-| Pattern libraries | 4 |
-| Examples | 1 |
+| Frameworks | 13 |
+| Templates | 11 |
+| Pattern libraries | 6 |
+| Examples | 2 |
 
 ---
 
@@ -61,11 +61,27 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/competitive-analysis/SKILL.md` | Proceso de 6 pasos (Five Forces + mapa) |
 | `skills/competitive-analysis/frameworks/competitive-report-template.md` | Template de reporte competitivo |
 
+### Skill: quiz-funnel
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/quiz-funnel/SKILL.md` | ASK Method + SPICED, 5 pasos, bucket scoring |
+| `skills/quiz-funnel/frameworks/ask-method-fundamentals.md` | Core ASK Method: SMIQ, buckets, micro-compromisos, mapeo ASK↔SPICED |
+| `skills/quiz-funnel/frameworks/bucket-identification.md` | 4 tipos de buckets, regla del 80%, checklist de validación |
+| `skills/quiz-funnel/frameworks/question-design-framework.md` | 4 tipos de preguntas, reglas de diseño, 7 errores comunes |
+| `skills/quiz-funnel/frameworks/lean-stress-test.md` | Plan de 4 fases por <$500: research → survey → build → paid |
+| `skills/quiz-funnel/templates/quiz-blueprint-worksheet.md` | Template interactivo para workshop de quiz funnel |
+| `skills/quiz-funnel/templates/deep-dive-survey-template.md` | Encuesta de 12 preguntas para identificar buckets |
+| `skills/quiz-funnel/templates/bucket-scorecard.md` | Scorecard 0-100 con 5 criterios ponderados |
+| `skills/quiz-funnel/patterns/quiz-question-library.md` | **ARCHIVO CLAVE**: 53 preguntas reutilizables por tipo |
+| `skills/quiz-funnel/patterns/funnel-mechanics.md` | Flujos, email gates, outcome pages, métricas |
+| `skills/quiz-funnel/examples/b2b-saas-quiz-example.md` | Caso SalesPro completo con métricas de stress test |
+
 ### Commands
 | Archivo | Propósito |
 |---------|-----------|
 | `commands/diagnostico.md` | Assessment ClarQ 4 dimensiones, heatmap, 0-40 |
 | `commands/icp.md` | Workshop interactivo ICP, 6 fases |
+| `commands/quiz.md` | Workshop interactivo Quiz Funnel, 8 fases |
 
 ---
 

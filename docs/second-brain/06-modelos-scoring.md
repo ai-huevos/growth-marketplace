@@ -170,7 +170,42 @@ El 70% de los managers saltan directo a "necesitas mejorar tu discovery" sin ver
 
 ---
 
-## 5. Copy Quality Score (0-10)
+## 5. Bucket Scorecard (0-100 puntos)
+
+**Plugin**: growth-foundations (quiz-funnel)
+**Propósito**: Priorizar qué bucket construir primero al diseñar un quiz funnel.
+
+### Fórmula
+
+```
+Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decision × 0.15) + (Pain × 0.10)
+```
+
+### Criterios
+
+| # | Criterio | Peso | Qué mide |
+|---|----------|------|----------|
+| 1 | Volume | 30% | Tamaño del bucket dentro del mercado |
+| 2 | ICP Match | 25% | Alineación con el ICP definido |
+| 3 | Engagement | 20% | Nivel de interacción con marca/contenido |
+| 4 | Decision Readiness | 15% | Cercanía a una decisión de compra |
+| 5 | Pain Intensity | 10% | Intensidad del dolor del bucket |
+
+### Clasificación
+
+| Score | Tier | Acción |
+|-------|------|--------|
+| 80-100 | Tier 1 — Construir primero | Prioridad #1. Outcome page, email sequence, oferta específica. |
+| 60-79 | Tier 2 — Secundario | Construir después del Tier 1. Puede compartir recursos. |
+| 40-59 | Tier 3 — Nurture | No construir oferta dedicada. Nurture genérica. Revisitar en 90 días. |
+| 0-39 | Deprioritizar | No invertir recursos. No justifica quiz path propio. |
+
+### Relación con ICP Score
+El Bucket Scorecard opera DENTRO de un ICP ya definido. El ICP Score (0-100) califica cuentas; el Bucket Scorecard (0-100) prioriza segmentos dentro de esas cuentas calificadas.
+
+---
+
+## 6. Copy Quality Score (0-10)
 
 **Plugin**: copywriting-engine (copy-output-agent)
 **Propósito**: Evaluar la calidad de cada pieza de copy generada.
@@ -192,7 +227,7 @@ El 70% de los managers saltan directo a "necesitas mejorar tu discovery" sin ver
 
 ---
 
-## 6. Psychological Trigger Leverage (1-10)
+## 7. Psychological Trigger Leverage (1-10)
 
 **Plugin**: copywriting-engine (psychological-triggers)
 **Propósito**: Rankear la efectividad de cada trigger psicológico.
@@ -216,6 +251,9 @@ El 70% de los managers saltan directo a "necesitas mejorar tu discovery" sin ver
 
 ```
 ICP Score (0-100) ──────► Determina si la cuenta vale la pena
+        │
+        ▼
+Bucket Scorecard (0-100)► Segmenta DENTRO del ICP en buckets priorizados
         │
         ▼
 SPICED Score (5-30) ───► Evalúa la oportunidad específica

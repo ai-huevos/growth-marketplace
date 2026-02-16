@@ -1,0 +1,197 @@
+{
+  "name": "AI Huevos Growth Marketplace",
+  "children": [
+    {
+      "name": "Core Architecture",
+      "children": [
+        {
+          "name": "Nature",
+          "children": [
+            {
+              "name": "Content-only repository"
+            },
+            {
+              "name": "Markdown & JSON based"
+            },
+            {
+              "name": "Claude Code interpreted"
+            }
+          ]
+        },
+        {
+          "name": "Methodology",
+          "children": [
+            {
+              "name": "SPICED common language"
+            },
+            {
+              "name": "Framework-as-code"
+            },
+            {
+              "name": "Spanish-first"
+            }
+          ]
+        },
+        {
+          "name": "Components",
+          "children": [
+            {
+              "name": "Skills (Auto-triggered)"
+            },
+            {
+              "name": "Commands (Interactive workflows)"
+            },
+            {
+              "name": "Agents (Specialized roles)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plugin: growth-foundations",
+      "children": [
+        {
+          "name": "Skills",
+          "children": [
+            {
+              "name": "icp-analysis (SPICED scoring)"
+            },
+            {
+              "name": "positioning (Value Prop Canvas)"
+            },
+            {
+              "name": "competitive-analysis (Porter)"
+            },
+            {
+              "name": "quiz-funnel (ASK Method)"
+            }
+          ]
+        },
+        {
+          "name": "Commands",
+          "children": [
+            {
+              "name": "/diagnostico (ClarQ assessment)"
+            },
+            {
+              "name": "/icp (Interactive workshop)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plugin: sales-blueprint",
+      "children": [
+        {
+          "name": "Sales Skills",
+          "children": [
+            {
+              "name": "discovery-mastery (ACE opening)"
+            },
+            {
+              "name": "pipeline-management (Bowtie)"
+            },
+            {
+              "name": "proposal-generation (Trading checklist)"
+            },
+            {
+              "name": "coaching-cadence (REKS framework)"
+            }
+          ]
+        },
+        {
+          "name": "Agents",
+          "children": [
+            {
+              "name": "sdr-agent (Research & outreach)"
+            },
+            {
+              "name": "deal-strategist (Risk assessment)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plugin: copywriting-engine",
+      "children": [
+        {
+          "name": "Creative Skills",
+          "children": [
+            {
+              "name": "headline-mastery (50 formulas)"
+            },
+            {
+              "name": "email-sequences (Persuasion ladder)"
+            },
+            {
+              "name": "landing-pages (Conversion architecture)"
+            },
+            {
+              "name": "psychological-triggers (Leverage ranking)"
+            }
+          ]
+        },
+        {
+          "name": "4-Phase Agent Pipeline",
+          "children": [
+            {
+              "name": "Research Agent (Market intel)"
+            },
+            {
+              "name": "Insight Agent (Strategy)"
+            },
+            {
+              "name": "Ideation Agent (Concepts)"
+            },
+            {
+              "name": "Copy Output Agent (Final optimization)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scoring Systems",
+      "children": [
+        {
+          "name": "SPICED (0-30 opportunity quality)"
+        },
+        {
+          "name": "ICP (0-100 target fit)"
+        },
+        {
+          "name": "ClarQ (0-40 maturity)"
+        },
+        {
+          "name": "REKS (Performance diagnosis)"
+        },
+        {
+          "name": "Copy Quality (>7.5 target)"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem Integrations (MCP)",
+      "children": [
+        {
+          "name": "HubSpot (CRM sync)"
+        },
+        {
+          "name": "Apollo (Data enrichment)"
+        },
+        {
+          "name": "Notion (Output repository)"
+        },
+        {
+          "name": "Gong (Call analysis)"
+        },
+        {
+          "name": "Slack/Gmail (Communications)"
+        }
+      ]
+    }
+  ]
+}

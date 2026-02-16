@@ -64,7 +64,26 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 **Tipo**: Flujo psicológico de landing pages
 **Componentes**: Atención → Interés → Deseo → Confianza → Acción (10 secciones)
 
-### 10. Persuasion Ladder
+### 10. ASK Method (Ryan Levesque)
+**Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/ask-method-fundamentals.md`
+**Usado por**: quiz-funnel skill, /quiz command
+**Tipo**: Framework de segmentación de mercado via quiz funnels
+**Componentes**: SMIQ, Buckets, Micro-compromisos, Outcome Pages
+**Scoring**: Bucket Scorecard 0-100 (Volume 30%, ICP Match 25%, Engagement 20%, Decision 15%, Pain 10%)
+
+### 11. Question Design Framework
+**Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/question-design-framework.md`
+**Usado por**: quiz-funnel skill, /quiz command
+**Tipo**: Framework de diseño de preguntas para quizzes B2B
+**Componentes**: 4 tipos (Grease-the-wheels, Segmentación, SMIQ, Blind-spot), reglas por tipo, errores comunes
+
+### 12. Lean Stress Test
+**Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/lean-stress-test.md`
+**Usado por**: quiz-funnel skill, /quiz command
+**Tipo**: Plan de validación de quiz funnels en 4 fases por <$500
+**Componentes**: Desk Research ($0) → Deep Dive Survey ($0-50) → Build ($50-100) → Paid Validation ($300-350)
+
+### 13. Persuasion Ladder
 **Ubicación**: `copywriting-engine/skills/email-sequences/SKILL.md`
 **Usado por**: email-sequences skill
 **Tipo**: Escalación progresiva de persuasión en emails
@@ -114,7 +133,15 @@ Top 3 por leverage:
 **Ubicación**: `sales-blueprint/skills/discovery-mastery/frameworks/question-bank.md`
 **Contenido**: Banco de preguntas para discovery calls organizadas por industria y stakeholder/rol.
 
-### 6. Coaching Plays
+### 6. Quiz Question Library (53 preguntas)
+**Ubicación**: `growth-foundations/skills/quiz-funnel/patterns/quiz-question-library.md`
+**Contenido**: 53 preguntas reutilizables organizadas por tipo (grease-the-wheels, segmentación, SMIQ, blind-spot, urgencia/decisión). Adaptables a cualquier industria B2B.
+
+### 7. Funnel Mechanics
+**Ubicación**: `growth-foundations/skills/quiz-funnel/patterns/funnel-mechanics.md`
+**Contenido**: Arquitectura técnica del quiz funnel: hook pages, flujos (lineal y branching), email gates, outcome pages, email sequences por bucket, integración CRM, métricas por etapa.
+
+### 8. Coaching Plays
 **Ubicación**: `sales-blueprint/skills/coaching-cadence/frameworks/coaching-plays.md`
 **Contenido**: Los 8 modelos de coaching para diferentes situaciones diagnosticadas con REKS.
 
@@ -128,6 +155,9 @@ Top 3 por leverage:
 |----------|-----------|-----------|
 | ICP Worksheet | `icp-analysis/templates/icp-worksheet.md` | Workshop interactivo de ICP |
 | Competitive Report | `competitive-analysis/frameworks/competitive-report-template.md` | Reporte de análisis competitivo |
+| Quiz Blueprint Worksheet | `quiz-funnel/templates/quiz-blueprint-worksheet.md` | Worksheet completo del quiz funnel |
+| Deep Dive Survey | `quiz-funnel/templates/deep-dive-survey-template.md` | Encuesta de 12 preguntas para validar buckets |
+| Bucket Scorecard | `quiz-funnel/templates/bucket-scorecard.md` | Scorecard 0-100 para priorizar buckets |
 
 ### sales-blueprint
 
@@ -154,6 +184,7 @@ Top 3 por leverage:
 | Ejemplo | Ubicación | Qué demuestra |
 |---------|-----------|---------------|
 | Discovery ACME Cybersecurity | `discovery-mastery/examples/discovery-example.md` | Ejemplo completo de discovery call con SPICED aplicado |
+| SalesPro Quiz Funnel B2B SaaS | `quiz-funnel/examples/b2b-saas-quiz-example.md` | Quiz funnel completo con 3 buckets, 6 preguntas, outcome pages, stress test con métricas reales ($1.39 CPL, 60% completion) |
 
 ---
 

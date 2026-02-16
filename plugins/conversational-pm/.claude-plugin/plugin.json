@@ -1,0 +1,14 @@
+{
+  "name": "conversational-pm",
+  "version": "1.0.0",
+  "description": "Conversational Design Project Manager for B2B growth intelligence systems. Orchestrates specialist agents (architects, data engineers, implementors) through natural conversation to design, build, and deploy data-driven growth platforms.",
+  "author": {
+    "name": "AI Huevos",
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["project-management", "b2b", "data-architecture", "agents", "orchestration", "dashboards", "spanish"]
+}

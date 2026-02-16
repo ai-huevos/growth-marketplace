@@ -1,0 +1,166 @@
+{
+  "name": "AI Huevos Growth Marketplace",
+  "children": [
+    {
+      "name": "Architecture & Conventions",
+      "children": [
+        {
+          "name": "Content-only Repository"
+        },
+        {
+          "name": "Spanish-first Strategy"
+        },
+        {
+          "name": "Agent Skills Standard"
+        },
+        {
+          "name": "Plugin Manifests (JSON)"
+        },
+        {
+          "name": "Skill Definitions (Markdown/YAML)"
+        }
+      ]
+    },
+    {
+      "name": "Core Plugins",
+      "children": [
+        {
+          "name": "growth-foundations",
+          "children": [
+            {
+              "name": "ICP Analysis (SPICED scoring)"
+            },
+            {
+              "name": "Positioning (Value Prop Canvas)"
+            },
+            {
+              "name": "Competitive Analysis (Porter's 5 Forces)"
+            },
+            {
+              "name": "ClarQ Diagnostic (/diagnostico)"
+            },
+            {
+              "name": "Quiz Funnel (ASK Method)"
+            }
+          ]
+        },
+        {
+          "name": "sales-blueprint",
+          "children": [
+            {
+              "name": "Discovery Mastery (ACE Opening)"
+            },
+            {
+              "name": "Pipeline Management (Bowtie Model)"
+            },
+            {
+              "name": "Proposal Generation (Trading Checklist)"
+            },
+            {
+              "name": "Coaching Cadence (REKS Framework)"
+            },
+            {
+              "name": "SDR Agent & Deal Strategist"
+            }
+          ]
+        },
+        {
+          "name": "copywriting-engine",
+          "children": [
+            {
+              "name": "Headline Mastery (50 Formulas)"
+            },
+            {
+              "name": "Email Sequences (Persuasion Ladder)"
+            },
+            {
+              "name": "Landing Pages (10-Section Architecture)"
+            },
+            {
+              "name": "Psychological Triggers (10 Levers)"
+            },
+            {
+              "name": "4-Phase Agent Pipeline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Methodology",
+      "children": [
+        {
+          "name": "SPICED Diagnostic",
+          "children": [
+            {
+              "name": "Situation"
+            },
+            {
+              "name": "Pain"
+            },
+            {
+              "name": "Impact"
+            },
+            {
+              "name": "Critical Event"
+            },
+            {
+              "name": "Decision"
+            }
+          ]
+        },
+        {
+          "name": "REKS Performance",
+          "children": [
+            {
+              "name": "Results"
+            },
+            {
+              "name": "Effort"
+            },
+            {
+              "name": "Knowledge"
+            },
+            {
+              "name": "Skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scoring Models",
+      "children": [
+        {
+          "name": "ICP Score (0-100)"
+        },
+        {
+          "name": "ClarQ Maturity (0-40)"
+        },
+        {
+          "name": "SPICED Deal Score (5-30)"
+        },
+        {
+          "name": "Copy Quality Score (0-10)"
+        }
+      ]
+    },
+    {
+      "name": "Future Roadmap",
+      "children": [
+        {
+          "name": "MCP Integrations (HubSpot, Apollo, Notion)"
+        },
+        {
+          "name": "Multi-language Expansion (EN/PT)"
+        },
+        {
+          "name": "New Plugins (ABM, Enterprise Sales)"
+        },
+        {
+          "name": "B2B Intelligence Platform"
+        }
+      ]
+    }
+  ]
+}

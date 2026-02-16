@@ -10,8 +10,8 @@
 
 ## Componentes
 
-- 3 Skills: icp-analysis, positioning, competitive-analysis
-- 2 Commands: /diagnostico, /icp
+- 4 Skills: icp-analysis, positioning, competitive-analysis, quiz-funnel
+- 3 Commands: /diagnostico, /icp, /quiz
 - 0 Agents
 
 ---
@@ -97,6 +97,73 @@ Análisis competitivo estructurado usando Five Forces de Porter + mapa competiti
 
 ---
 
+## Skill 4: quiz-funnel
+
+**Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
+
+### Qué hace
+Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con SPICED. Incluye plan de validación lean por menos de $500.
+
+### ASK Method — Conceptos Clave
+- **SMIQ** (Single Most Important Question): La pregunta open-ended que revela el dolor core y segmenta naturalmente el mercado
+- **Buckets**: 3-5 segmentos de mercado que cubren >80% de la audiencia. Tipos: por journey, desafío, situación, u objetivo
+- **Micro-compromisos**: Cada pregunta del quiz genera reciprocidad, consistencia, y ownership
+
+### Proceso (5 pasos)
+1. **Descubrir SMIQ**: Encontrar la pregunta que mejor segmenta el mercado
+2. **Deep Dive Survey**: Encuesta de 8-12 preguntas para identificar patrones cualitativos
+3. **Identificar Buckets**: Agrupar respuestas en 3-5 segmentos (regla del 80%)
+4. **Diseñar Quiz**: 5-7 preguntas con progresión de micro-compromisos
+5. **Stress Test**: Validación en 4 fases por <$500 (desk research → survey → build → paid)
+
+### Estructura del Quiz (6 preguntas)
+
+| Posición | Tipo | Función |
+|----------|------|---------|
+| 1-2 | Grease-the-wheels | Calentar, micro-compromiso inicial |
+| 3 | Segmentación | Asignar bucket (pregunta clave) |
+| 4 | SMIQ | Descubrir dolor profundo (open-ended) |
+| 5 | Blind-spot | Revelar gap, generar urgencia |
+| 6 | Urgencia | Proxy del Critical Event (SPICED) |
+
+### Bucket Scorecard (0-100)
+
+```
+Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decision × 0.15) + (Pain × 0.10)
+```
+
+| Score | Tier | Acción |
+|-------|------|--------|
+| 80-100 | Tier 1 | Construir primero |
+| 60-79 | Tier 2 | Prioridad secundaria |
+| 40-59 | Tier 3 | Nurture / revisitar |
+| 0-39 | Deprioritizar | No construir aún |
+
+### Integración SPICED
+
+| SPICED | Conexión con Quiz Funnel |
+|--------|--------------------------|
+| Situation | El bucket define la situación del prospect dentro del ICP |
+| Pain | El SMIQ descubre el dolor core; buckets segmentan variaciones |
+| Impact | La outcome page comunica impacto de resolver el dolor |
+| Critical Event | Preguntas de urgencia como proxy |
+| Decision | Preguntas de presupuesto/proceso como proxy |
+
+### Archivos (11)
+- `SKILL.md`: Definición completa del skill
+- `frameworks/ask-method-fundamentals.md`: Core ASK Method + mapeo ASK↔SPICED
+- `frameworks/bucket-identification.md`: Cómo descubrir 3-5 buckets, checklist de validación
+- `frameworks/question-design-framework.md`: 4 tipos de preguntas, reglas, errores comunes
+- `frameworks/lean-stress-test.md`: Plan de validación <$500 en 4 fases
+- `templates/quiz-blueprint-worksheet.md`: Worksheet completo del workshop
+- `templates/deep-dive-survey-template.md`: Template de encuesta de 12 preguntas
+- `templates/bucket-scorecard.md`: Scorecard 0-100 para priorizar buckets
+- `patterns/quiz-question-library.md`: 53 preguntas reutilizables por tipo
+- `patterns/funnel-mechanics.md`: Flujos, email gates, outcome pages, seguimiento
+- `examples/b2b-saas-quiz-example.md`: Caso completo SalesPro con métricas reales
+
+---
+
 ## Command: /diagnostico
 
 **Uso**: `/diagnostico <empresa o descripción del negocio>`
@@ -151,9 +218,31 @@ Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario 
 
 ---
 
+## Command: /quiz
+
+**Uso**: `/quiz <industria, producto, o mercado target>`
+
+### Qué hace
+Workshop interactivo de 8 fases para diseñar un quiz funnel completo con el usuario.
+
+### Fases del Workshop (8)
+1. **Contexto**: Qué vendes, a quién, dolor, objetivo, presupuesto
+2. **Hipótesis de buckets**: Proponer 3-5 buckets, validar con usuario
+3. **SMIQ**: Diseñar la Single Most Important Question
+4. **Quiz design**: 6 preguntas + hook page + outcome pages
+5. **Deep Dive Survey** (opcional): Si buckets no están validados
+6. **Stress test plan**: Timeline + presupuesto
+7. **Métricas**: Definir criterios de éxito
+8. **Output final**: Quiz blueprint completo
+
+---
+
 ## Conexiones con Otros Plugins
 
 - El ICP Score alimenta al **SDR Agent** de sales-blueprint (Tier assignment)
+- El **quiz-funnel** segmenta DENTRO del ICP en buckets accionables — puente entre ICP y discovery
 - El **competitive analysis** produce battle cards usadas por el **Deal Strategist**
 - El **positioning** genera el messaging framework que usa el **copywriting-engine**
+- El **quiz funnel** genera hook pages y outcome pages que usa el **copywriting-engine** (`/headline`, `/copy`)
 - El **/diagnostico ClarQ** identifica la madurez operacional que determina qué otros plugins necesita el cliente
+- Los **tags de bucket** del quiz alimentan el CRM y mapean a etapas de **pipeline-management**

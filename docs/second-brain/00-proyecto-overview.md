@@ -25,8 +25,10 @@ Frameworks fundamentales de B2B growth para cualquier equipo. El punto de entrad
 | `icp-analysis` | Skill | Análisis de Ideal Customer Profile con scoring SPICED (0-100) |
 | `positioning` | Skill | Propuesta de valor, diferenciación, messaging framework |
 | `competitive-analysis` | Skill | Five Forces de Porter + mapa competitivo visual |
+| `quiz-funnel` | Skill | Quiz funnels ASK Method: SMIQ, buckets, stress test <$500 |
 | `/diagnostico` | Command | Assessment ClarQ: GTM, Revenue, Q2C, Capabilities (0-40) |
 | `/icp` | Command | Workshop interactivo para definir y scorear ICP |
+| `/quiz` | Command | Workshop interactivo para diseñar quiz funnel con buckets |
 
 ### 2. sales-blueprint
 Sistema completo de ejecución de ventas B2B basado en Winning by Design.
@@ -65,18 +67,18 @@ Motor de copywriting basado en datos reales: 38,737 headlines, 4,129 triggers ps
 
 SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común que conecta los tres plugins:
 
-- **growth-foundations** usa SPICED para **diagnosticar** el ICP
+- **growth-foundations** usa SPICED para **diagnosticar** el ICP y **segmentar** el mercado en buckets vía quiz funnels
 - **sales-blueprint** usa SPICED para **evaluar** oportunidades, gestionar pipeline, generar propuestas y coachear
 - **copywriting-engine** usa los insights de SPICED para **comunicar** con copy efectivo
 
 ## Datos Clave del Proyecto
 
 - **Idioma**: Spanish-first. Contenido base en español. Roadmap multi-language en Phase 2.
-- **Archivos totales**: 59 (57 Markdown + 2 JSON)
-- **Skills**: 11 en total (3 + 4 + 4)
-- **Commands**: 9 en total (2 + 4 + 3)
+- **Archivos totales**: 72 (70 Markdown + 2 JSON)
+- **Skills**: 12 en total (4 + 4 + 4)
+- **Commands**: 10 en total (3 + 4 + 3)
 - **Agents**: 6 en total (0 + 2 + 4)
-- **Frameworks**: SPICED, ICP Scoring, ClarQ, REKS, Value Proposition Canvas, Five Forces, Bowtie, ACE
+- **Frameworks**: SPICED, ICP Scoring, ClarQ, REKS, Value Proposition Canvas, Five Forces, Bowtie, ACE, ASK Method, Bucket Scorecard
 - **Datos analizados**: 38,737 headlines, 4,129 triggers, 2,245 CTAs, 1,570 propuestas de valor
 - **Licencia**: MIT
 - **Autor**: AI Huevos (huevos.ai)
@@ -101,6 +103,7 @@ Los **commands** se invocan manualmente con `/`:
 ```
 /diagnostico Empresa XYZ
 /icp SaaS B2B en LATAM
+/quiz Herramienta de analytics para equipos de ventas
 /discovery Acme Corp
 /propuesta Deal con Cliente ABC
 /pipeline Q4 2025
