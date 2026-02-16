@@ -24,6 +24,11 @@ Diseño de quiz funnels para segmentar un mercado en 3-5 buckets accionables. Ba
 
 **Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
 
+### content-strategy
+Sistema de 2 frameworks para planificar, priorizar y distribuir contenido B2B que genera leads cualificados. Combina **Ski Slope Strategy** (progresión de dificultad por etapa del funnel) y **Topic Triangle** (priorización de temas por potencial de revenue). Incluye 3 workflows adaptados a LATAM: calendario de contenido, distribución por partnerships, y SEO content mapping.
+
+**Triggers**: "content strategy", "estrategia de contenido", "ski slope", "topic triangle", "plan de contenido", "content calendar", "calendario de contenido", "content distribution", "contenido SEO"
+
 ## Commands
 
 ### /diagnostico

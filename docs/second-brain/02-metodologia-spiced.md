@@ -2,7 +2,7 @@
 
 ## Qué es SPICED
 
-SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje común entre ventas, CS y liderazgo para evaluar oportunidades. En el Growth Marketplace, SPICED es el hilo conductor que conecta los tres plugins.
+SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje común entre ventas, CS y liderazgo para evaluar oportunidades. En el Growth Marketplace, SPICED es el hilo conductor que conecta los 5 plugins — desde diagnóstico (growth-foundations) hasta ejecución de ventas (sales-blueprint), comunicación (copywriting-engine), funnels (dotcom-secrets), y orquestación de proyectos (conversational-pm).
 
 ## Principio Fundamental
 
@@ -149,6 +149,16 @@ SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje com�
 - El research de audiencia mapea directamente a Pain y Impact de SPICED
 - Los triggers psicológicos se seleccionan según la dimensión SPICED más fuerte del prospect
 - Las landing pages traducen el diagnóstico SPICED en copy de conversión
+
+### En dotcom-secrets
+- **ESCALA** (value ladder) se alinea con el journey SPICED: BAIT captura Situation, FRONTEND valida Pain, MIDDLE demuestra Impact, BACKEND resuelve Decision
+- **FLUJO** fase 1 (temperatura de tráfico) mapea al nivel de información SPICED disponible: tráfico frío = Situation baja, caliente = SPICED completo
+- **Funnel Architect**: Usa datos de negocio como proxy de SPICED para diseñar funnels con métricas objetivo por stage
+
+### En conversational-pm
+- SPICED se usa como framework de **project discovery**: el PM agent diagnostica el proyecto del cliente usando las 5 dimensiones
+- Situation = contexto del negocio, Pain = problemas operativos, Impact = ROI esperado, Critical Event = deadlines del proyecto, Decision = stakeholders y aprobaciones
+- Los dashboards de 3 niveles reportan salud del proyecto usando indicadores inspirados en SPICED scoring
 
 ## Los 5 Errores Comunes con SPICED
 

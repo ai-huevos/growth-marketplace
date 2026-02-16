@@ -4,6 +4,11 @@
 **Status**: Complete
 **Confidence Level**: High (85-95%) - Based on official documentation and current market data
 
+> **Related docs** (research trilogy):
+> - **doc-11**: Internal landscape — categories, gaps, MCP integrations
+> - **doc-12**: External validation — Reddit, communities, thesis stress test, 90-day plan
+> - **doc-19** (this): Technical research — plugin architecture, marketplace patterns, framework-to-plugin
+
 ---
 
 ## Table of Contents

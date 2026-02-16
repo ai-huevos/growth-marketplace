@@ -269,3 +269,19 @@ Copy Quality (0-10) ──► Mide la calidad del messaging
 ```
 
 Cada modelo alimenta al siguiente en el ciclo de ventas B2B.
+
+---
+
+## Score-as-Gate: Scores que Controlan Flujo
+
+Los scores no son solo métricas — funcionan como **gates** que bloquean o habilitan acciones en el marketplace:
+
+| Condición | Efecto |
+|-----------|--------|
+| ClarQ < 16 | Alerta "Fragile Giant", recomienda acciones inmediatas |
+| ICP < 40 | No califica como target, descartado de pipeline |
+| SPICED < 20 | Deal Strategist emite No-Go, no genera MAP |
+| SPICED < 23 | `/propuesta` bloqueado ("completa discovery primero") |
+| Headline < 7.5 | Copy rechazado, genera variaciones nuevas |
+
+> Ver también: `15-arquitectura-sistema.md` §7 para el contexto arquitectónico de scoring.

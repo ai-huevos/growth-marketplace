@@ -3,6 +3,11 @@
 > Documento de referencia: Validación exhaustiva de la tesis del marketplace GTM via investigación profunda en Reddit, LinkedIn, reportes de mercado e inteligencia competitiva.
 > Fecha: 2026-02-15
 > Fuentes: Perplexity Deep Research — r/gtmengineering, r/RevOps, r/sales, r/ClaudeAI, r/SaaS, r/GrowthHacking, LinkedIn, MarketsAndMarkets, SaaSMag, AnzuGlobal, MarketBetter, Agent37, MCPMarket, Allego, Frontiers in Psychology, y 35+ fuentes adicionales.
+>
+> **Relacionados**: Este doc es parte de una trilogía de research:
+> - **doc-11**: Landscape interno — categorías, gaps, MCP integrations
+> - **doc-12** (este): Validación externa — Reddit, comunidades, stress test de tesis, 90-day plan
+> - **doc-19**: Research técnico — plugin architecture, marketplace patterns, framework-to-plugin
 
 ---
 

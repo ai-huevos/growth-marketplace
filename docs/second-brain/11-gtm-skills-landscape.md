@@ -3,6 +3,11 @@
 > Documento de referencia: Paisaje completo del ecosistema de skills Claude Code para GTM, competidores, gaps, y blueprint del marketplace.
 > Fecha: 2026-02-15
 > Fuentes: anthropics/skills, SkillsMP, gtmagents, marketingskills, agentkits-marketing, 35+ fuentes de investigación GTM/RevOps.
+>
+> **Relacionados**: Este doc es parte de una trilogía de research:
+> - **doc-11** (este): Landscape interno — categorías, gaps, MCP integrations
+> - **doc-12**: Validación externa — Reddit, comunidades, stress test de tesis, 90-day plan
+> - **doc-19**: Research técnico — plugin architecture, marketplace patterns, framework-to-plugin
 
 ---
 

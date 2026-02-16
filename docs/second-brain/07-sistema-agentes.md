@@ -1,6 +1,6 @@
 # Sistema de Agentes — Arquitectura y Workflows
 
-El marketplace incluye 6 agentes especializados distribuidos en 2 plugins. Cada agente tiene un rol definido, workflow por fases, herramientas disponibles, y outputs estructurados.
+El marketplace incluye 7 agentes especializados distribuidos en 3 plugins. Cada agente tiene un rol definido, workflow por fases, herramientas disponibles, y outputs estructurados.
 
 ---
 
@@ -14,6 +14,7 @@ El marketplace incluye 6 agentes especializados distribuidos en 2 plugins. Cada 
 | Insight Agent | copywriting-engine | Análisis estratégico | Pipeline secuencial (Fase 2) |
 | Ideation Agent | copywriting-engine | Conceptos creativos | Pipeline secuencial (Fase 3) |
 | Copy Output Agent | copywriting-engine | Copy final optimizado | Pipeline secuencial (Fase 4) |
+| Funnel Architect | dotcom-secrets | Diseño de blueprints de funnel end-to-end | Workshop guiado (6 fases) |
 
 ---
 
@@ -199,6 +200,52 @@ Mínimo 3 contactos en 3 niveles. Si estamos single-threaded, ESE es el riesgo #
 
 ---
 
+## Patrón 3: Workshop Guiado (dotcom-secrets)
+
+Un agente que guía al usuario por un proceso de diseño multi-fase, integrando 3 metodologías (ESCALA, FLUJO, Alma) en un blueprint cohesivo.
+
+### Funnel Architect
+
+**Trigger**: Se invoca para diseñar sistemas de conversión end-to-end.
+
+**Flujo**:
+```
+Input: Contexto del negocio (qué vende, a quién, estado actual)
+    │
+    ▼
+Fase 1: Discovery ──► Info del negocio, estado del funnel, objetivo 90 días
+    │
+    ▼
+Fase 2: Diseño ESCALA ──► 4 tiers (BAIT, FRONTEND, MIDDLE, BACKEND)
+    │                       Ofertas, precios, entregables, triggers de ascensión
+    │
+    ▼
+Fase 3: Arquitectura FLUJO ──► 7 fases de conversión
+    │     Temperatura → Pre-frame → Squeeze → Frontend → OTOs → Nurture → High-ticket
+    │
+    ▼
+Fase 4: Estrategia Alma ──► Attractive Character + Soap Opera Sequence + Seinfeld Calendar
+    │
+    ▼
+Fase 5: Blueprint Integrado ──► Diagrama visual + ESCALA + FLUJO + Alma + tráfico + métricas
+    │
+    ▼
+Fase 6: Quality Gate ──► Checklist de completitud (ESCALA, FLUJO, Alma, LTV:CAC, plan 90 días)
+    │
+    ▼
+Output: ESCALA Blueprint + FLUJO Architecture + Alma Profile + Funnel Diagram +
+        Traffic Plan + 90-Day Action Plan + Metrics Dashboard
+```
+
+**Tipo de funnel seleccionado según tier**:
+- Lead Magnet Funnel (BAIT→FRONTEND)
+- Tripwire Funnel (FRONTEND con OTOs)
+- Webinar Funnel (MIDDLE)
+- Application Funnel (BACKEND)
+- Product Launch Funnel (lanzamientos)
+
+---
+
 ## Herramientas Disponibles para Agentes
 
 ### Sales-blueprint agents
@@ -211,14 +258,19 @@ Mínimo 3 contactos en 3 niveles. Si estamos single-threaded, ESE es el riesgo #
 - **WebFetch**: Información de websites y competencia
 - **Read/Glob/Grep**: Acceso a patrones, fórmulas y templates
 
+### Dotcom-secrets agents
+- **Read/Glob/Grep**: Acceso a frameworks ESCALA, FLUJO, Alma y templates del plugin
+- **WebSearch**: Research de industrias, competidores, benchmarks de conversión
+- **WebFetch**: Análisis de websites y funnels existentes
+
 ---
 
 ## Diferencia Clave entre Tipos de Agente
 
-| Aspecto | Sales Agents | Copy Agents |
-|---------|-------------|-------------|
-| Patrón | Independientes | Pipeline secuencial |
-| Invocación | Directa o via command | Orquestados por /copy |
-| Metodología base | SPICED | Trigger psychology |
-| Output principal | Análisis + acciones | Copy final + scoring |
-| Interacción con usuario | Solicitan info del deal | Reciben brief inicial |
+| Aspecto | Sales Agents | Copy Agents | Funnel Architect |
+|---------|-------------|-------------|-----------------|
+| Patrón | Independientes | Pipeline secuencial | Workshop guiado |
+| Invocación | Directa o via command | Orquestados por /copy | Directa o via triggers |
+| Metodología base | SPICED | Trigger psychology | ESCALA + FLUJO + Alma |
+| Output principal | Análisis + acciones | Copy final + scoring | Blueprint de funnel + plan 90 días |
+| Interacción con usuario | Solicitan info del deal | Reciben brief inicial | Guía por 6 fases iterativas |

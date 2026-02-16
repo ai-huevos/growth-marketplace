@@ -21,7 +21,7 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ## Decisión 2: SPICED como Lenguaje Común
 
-**Decisión**: SPICED (Winning by Design) es el framework que conecta los 3 plugins en lugar de crear un framework propio.
+**Decisión**: SPICED (Winning by Design) es el framework que conecta los 5 plugins en lugar de crear un framework propio.
 
 **Rationale**:
 - SPICED es una metodología probada con adopción en la industria de ventas B2B
@@ -33,17 +33,19 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisión 3: Tres Plugins Separados (No Un Monolito)
+## Decisión 3: Plugins Separados (No Un Monolito)
 
-**Decisión**: El marketplace tiene 3 plugins independientes en lugar de un solo mega-plugin.
+**Decisión**: El marketplace tiene plugins independientes en lugar de un solo mega-plugin. Inició con 3, ahora son 5.
 
 **Rationale**:
 - **Modularidad**: Un equipo de marketing puede instalar solo `growth-foundations` sin necesitar las herramientas de ventas
 - **Pricing**: `growth-foundations` es gratis como punto de entrada (funnel), los otros pueden tener precio
-- **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar)
+- **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar), dotcom-secrets (funnels), conversational-pm (orquestar)
 - **Mantenimiento**: Se pueden actualizar independientemente
 
 **Trade-off**: Hay duplicación menor (SPICED se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/spiced-framework.md`.
+
+**Evolución (Feb 2026)**: La modularidad validó la decisión — `dotcom-secrets` y `conversational-pm` se agregaron sin afectar plugins existentes. Cada nuevo plugin tiene un scope claro que no se solapa con los originales.
 
 ---
 
@@ -142,6 +144,34 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 - Solo cuando REKS identifica Skills como el issue, tiene sentido evaluar SPICED
 
 **Implicación**: El coaching es un proceso de dos capas: REKS (diagnóstico de performance) → SPICED (diagnóstico de calidad de ejecución).
+
+---
+
+## Decisión 11: Branded Frameworks (ESCALA/FLUJO/Alma)
+
+**Decisión**: El plugin dotcom-secrets adapta DotCom Secrets de Russell Brunson a B2B LATAM con nombres propios en español: ESCALA (value ladder), FLUJO (funnel phases), Alma (attractive character).
+
+**Rationale**:
+- Los nombres en español crean identidad propia y evitan confusión con el material original en inglés
+- ESCALA/FLUJO/Alma son acrónimos memorables que funcionan como vocabulario compartido
+- Permite adaptar los conceptos al contexto B2B (el original es más B2C/infoproductos)
+- Diferencia el plugin de otros que simplemente traducen DotCom Secrets
+
+**Implicación**: Requiere documentación clara de la equivalencia con los conceptos originales para usuarios familiarizados con DotCom Secrets.
+
+---
+
+## Decisión 12: Ingestion Orchestrator como Herramienta de Mantenimiento
+
+**Decisión**: Crear un orquestador de triage (`tools/ingestion-orchestrator/`) que analiza contenido entrante contra cobertura existente antes de integrar.
+
+**Rationale**:
+- El marketplace crece por absorción de frameworks externos — sin filtro, se convierte en un dump de contenido
+- El triage de 6 acciones (SKIP/ENRICH/MERGE/CREATE/TEMPLATIZE/REVERSE-ENGINEER) fuerza esencialismo
+- El modo self-audit permite detectar redundancias y gaps en contenido existente
+- Previene plugin bloat al hacer CREATE la opción de último recurso (solo si ENRICH no alcanza)
+
+**Trade-off**: Agrega una capa de proceso antes de integrar contenido. Pero el costo de contenido desorganizado es mayor que el costo del triage.
 
 ---
 

@@ -13,87 +13,84 @@ Todo el contenido son archivos Markdown con YAML frontmatter y archivos JSON de 
 ## Estructura de Directorios
 
 ```
-growth-marketplace/
+growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes, 127+ archivos
 ├── README.md                        ← Docs del marketplace
 ├── CLAUDE.md                        ← Instrucciones para Claude Code
 ├── .claude-plugin/
 │   └── marketplace.json             ← Manifiesto del marketplace
 ├── plugins/
-│   ├── growth-foundations/
-│   │   ├── .claude-plugin/
-│   │   │   └── plugin.json          ← Manifiesto del plugin
-│   │   ├── README.md                ← Docs del plugin
-│   │   ├── skills/
-│   │   │   ├── icp-analysis/
-│   │   │   │   ├── SKILL.md         ← Definición del skill
-│   │   │   │   ├── frameworks/      ← Metodologías referenciadas
-│   │   │   │   └── templates/       ← Templates de output
-│   │   │   ├── positioning/
-│   │   │   │   ├── SKILL.md
-│   │   │   │   └── frameworks/
-│   │   │   └── competitive-analysis/
-│   │   │       ├── SKILL.md
-│   │   │       └── frameworks/
-│   │   └── commands/
-│   │       ├── icp.md               ← Definición del command /icp
-│   │       └── diagnostico.md       ← Definición del command /diagnostico
-│   ├── sales-blueprint/
-│   │   ├── .claude-plugin/
-│   │   │   └── plugin.json
+│   ├── growth-foundations/          ← Diagnóstico + estrategia (gratuito, punto de entrada)
+│   │   ├── .claude-plugin/plugin.json
 │   │   ├── README.md
 │   │   ├── skills/
-│   │   │   ├── discovery-mastery/
-│   │   │   │   ├── SKILL.md
-│   │   │   │   ├── frameworks/
-│   │   │   │   ├── templates/
-│   │   │   │   └── examples/
-│   │   │   ├── pipeline-management/
-│   │   │   │   ├── SKILL.md
-│   │   │   │   ├── frameworks/
-│   │   │   │   └── templates/
-│   │   │   ├── proposal-generation/
-│   │   │   │   ├── SKILL.md
-│   │   │   │   └── templates/
-│   │   │   └── coaching-cadence/
-│   │   │       ├── SKILL.md
-│   │   │       ├── frameworks/
-│   │   │       └── templates/
+│   │   │   ├── icp-analysis/        ← ICP scoring basado en SPICED
+│   │   │   ├── positioning/         ← Value Proposition Canvas
+│   │   │   ├── competitive-analysis/ ← Five Forces + mapa competitivo
+│   │   │   ├── quiz-funnel/         ← ASK Method adaptado a B2B
+│   │   │   └── content-strategy/    ← Ski Slope + Topic Triangle
+│   │   └── commands/
+│   │       ├── diagnostico.md       ← /diagnostico (ClarQ assessment)
+│   │       ├── icp.md               ← /icp (workshop interactivo)
+│   │       └── quiz.md              ← /quiz (diseño de quiz funnel)
+│   ├── sales-blueprint/             ← Ejecución de ventas B2B
+│   │   ├── .claude-plugin/plugin.json
+│   │   ├── README.md
+│   │   ├── skills/
+│   │   │   ├── discovery-mastery/   ← SPICED discovery framework
+│   │   │   ├── pipeline-management/ ← Gestión de pipeline por SPICED score
+│   │   │   ├── proposal-generation/ ← Propuestas (requiere SPICED >= 23)
+│   │   │   └── coaching-cadence/    ← REKS → SPICED coaching
 │   │   ├── agents/
-│   │   │   ├── sdr-agent.md
-│   │   │   └── deal-strategist.md
+│   │   │   ├── sdr-agent.md         ← Prospecting + qualification
+│   │   │   └── deal-strategist.md   ← Análisis crítico de deals
 │   │   └── commands/
 │   │       ├── discovery.md
 │   │       ├── propuesta.md
 │   │       ├── pipeline.md
 │   │       └── coaching.md
-│   └── copywriting-engine/
-│       ├── .claude-plugin/
-│       │   └── plugin.json
+│   ├── copywriting-engine/          ← Copy de conversión basado en datos
+│   │   ├── .claude-plugin/plugin.json
+│   │   ├── README.md
+│   │   ├── skills/
+│   │   │   ├── headline-mastery/    ← 50 fórmulas validadas por datos
+│   │   │   ├── email-sequences/     ← Templates de email
+│   │   │   ├── landing-pages/       ← Arquitectura de conversión
+│   │   │   └── psychological-triggers/ ← 4,129 triggers analizados
+│   │   ├── agents/                  ← Pipeline secuencial de 4 agentes
+│   │   │   ├── research-agent.md
+│   │   │   ├── insight-agent.md
+│   │   │   ├── ideation-agent.md
+│   │   │   └── copy-output-agent.md
+│   │   └── commands/
+│   │       ├── copy.md              ← Orquesta el pipeline de 4 agentes
+│   │       ├── headline.md
+│   │       └── email-sequence.md
+│   ├── dotcom-secrets/              ← Funnels + value ladders (ESCALA/FLUJO/Alma)
+│   │   ├── .claude-plugin/plugin.json
+│   │   ├── README.md
+│   │   ├── skills/
+│   │   │   ├── escala/              ← Value ladder de 4 tiers
+│   │   │   ├── flujo/               ← 7 fases de conversión
+│   │   │   ├── alma/                ← Attractive Character + email strategy
+│   │   │   └── funnel-optimization/ ← Diagnóstico + optimización de funnels
+│   │   ├── agents/
+│   │   │   └── funnel-architect.md  ← Workshop guiado de diseño de funnel
+│   │   └── commands/
+│   │       ├── escala.md
+│   │       └── funnel-diagnosis.md
+│   └── conversational-pm/          ← Orquestación de proyectos B2B
+│       ├── .claude-plugin/plugin.json
 │       ├── README.md
-│       ├── skills/
-│       │   ├── headline-mastery/
-│       │   │   ├── SKILL.md
-│       │   │   └── patterns/
-│       │   ├── email-sequences/
-│       │   │   ├── SKILL.md
-│       │   │   └── templates/
-│       │   ├── landing-pages/
-│       │   │   ├── SKILL.md
-│       │   │   └── frameworks/
-│       │   └── psychological-triggers/
-│       │       ├── SKILL.md
-│       │       └── patterns/
-│       ├── agents/
-│       │   ├── research-agent.md
-│       │   ├── insight-agent.md
-│       │   ├── ideation-agent.md
-│       │   └── copy-output-agent.md
-│       └── commands/
-│           ├── copy.md
-│           ├── headline.md
-│           └── email-sequence.md
+│       └── skills/
+│           └── project-management/  ← PM agent con roster de 5 especialistas
+├── tools/                           ← Meta-herramientas (no son plugins)
+│   ├── plugin-factory/              ← Genera plugins desde repos existentes
+│   └── ingestion-orchestrator/      ← Triage de contenido entrante
 └── docs/
-    └── second-brain/                ← Documentación para NotebookLM
+    ├── second-brain/                ← 22 docs para NotebookLM
+    ├── artifacts/                   ← Outputs de NotebookLM (PNG, CSV, JSON)
+    ├── template-catalog.md          ← Índice de 25 templates
+    └── execution-log.md             ← Trace log de ejecuciones
 ```
 
 ## Anatomía de un Plugin
@@ -163,6 +160,8 @@ Estructura fija:
 - Skills referencian sus propios subdirectorios via rutas relativas
 - Commands referencian agents y skills del mismo plugin
 - El plugin `sales-blueprint` es especialmente interconnectado: discovery → pipeline → proposals → coaching
+- `dotcom-secrets` tiene cross-references internas fuertes: escala ↔ flujo ↔ alma, orquestados por funnel-architect
+- `conversational-pm` usa SPICED para project discovery, conectándose con sales-blueprint
 
 ### Scoring Models
 - ICP: 0-100 con tiers (80-100, 60-79, 40-59, 0-39)
