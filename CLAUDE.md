@@ -46,6 +46,8 @@ plugins/
 
 `tools/plugin-factory/` — Meta-tool for analyzing repos and generating new marketplace plugins. Symlinked to `~/.claude/skills/plugin-factory/` for use as a user-level skill. Not a marketplace plugin itself.
 
+`tools/ingestion-orchestrator/` — Triage skill that analyzes incoming content against existing marketplace coverage. Symlinked to `~/.claude/skills/ingestion-orchestrator/`. Triggers: "ingest content", "triage research", "content triage", "ingerir contenido".
+
 ### Key Patterns
 
 - **SPICED** is the common diagnostic language across all sales-oriented plugins (Situation, Pain, Impact, Critical Event, Decision). It connects discovery → pipeline → proposals → coaching.
@@ -89,6 +91,7 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `17-research-plataforma-inteligencia-b2b.md` | Growth Intelligence Platform vision: semantic layer, knowledge graph roadmap, data flywheel |
 | `18-plugin-dotcom-secrets.md` | DotCom Secrets plugin: ESCALA, FLUJO, Alma branded stack, funnel optimization |
 | `19-deep-research-b2b-plugin-marketplace.md` | Deep research: plugin architecture, marketplace patterns, B2B AI landscape, LATAM opportunity |
+| `20-content-mavericks-ecosystem.md` | Content Mavericks: 7 frameworks (Ski Slope, Greatest Hits, AIDA, Three Jabs, ISL), 35+ modules, triage guide |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
 ### Artifacts
@@ -130,6 +133,54 @@ nlm list notebooks
 When adding new content to the marketplace, always:
 1. Update or create the corresponding second-brain doc
 2. Push it to NotebookLM via `nlm source add`
+
+## Content Ingestion Protocol
+
+When new content arrives (frameworks, courses, guides, research), use the **ingestion-orchestrator** skill to triage it before any integration:
+
+1. **Invoke**: "ingest content" or "triage research" to activate the orchestrator
+2. **6-action triage**: Each piece of content gets classified as:
+   - **SKIP** — Already covered or not methodology
+   - **ENRICH** — Adds depth to existing skill
+   - **MERGE** — Combines into stronger framework
+   - **CREATE** — Fills a real gap (only if ENRICH can't cover it)
+   - **TEMPLATIZE** — Tactic → executable SOP template
+   - **REVERSE-ENGINEER** — Course/program → formalized methodology
+3. **Essentialism filter**: Always ask "Would removing this make the system worse?"
+4. **Confirm before executing**: Never auto-integrate — present triage report first
+5. **Slug recommendation**: Orchestrator recommends a clean slug (max 4 words, concept > title) for any second-brain doc
+6. **Registry sync**: After execution, update ALL registries — CLAUDE.md table, template-catalog, README files, execution-log
+7. **Self-audit mode**: Trigger "audit second-brain" to run the orchestrator against existing content — detects redundancies, gaps, stale data, and disconnections
+
+## Template Execution Protocol
+
+Templates are the **DNA** of the marketplace — they define output contracts (what must be delivered).
+
+- **Output is sacred**: The template's benchmark defines success, not subjective opinion
+- **Form varies, essence stays**: Agents fill client-specific variables but never alter the methodology core
+- **Every execution logs**: After running a template, append to `docs/execution-log.md` with: date, template ID, agent, context, adaptations, result, notes
+- **Evolution trigger**: 3+ executions missing benchmark → flag template for review in `docs/template-catalog.md`
+- **Template catalog**: `docs/template-catalog.md` indexes all executable templates across all plugins
+
+## Second-Brain Sync
+
+Use `scripts/second-brain-sync.sh` to automate adding files to the second-brain:
+
+```bash
+# Dry run — see what would happen
+./scripts/second-brain-sync.sh "My Research.md" --dry-run
+
+# Copy (keep original) + auto-upload to NLM
+./scripts/second-brain-sync.sh "My Research.md" --copy
+
+# Move + upload + git commit
+./scripts/second-brain-sync.sh "My Research.md" --git
+
+# Custom slug
+./scripts/second-brain-sync.sh notes.md --title "custom-slug-name"
+```
+
+The script auto-detects the next `NN-` number, generates a slug, moves/copies the file to `docs/second-brain/`, and uploads to NotebookLM.
 
 ## Git Workflow
 
