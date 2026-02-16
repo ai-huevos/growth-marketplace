@@ -1,0 +1,217 @@
+{
+  "name": "B2B Marketing & High-Performance Skills (2025-2026)",
+  "children": [
+    {
+      "name": "Marketing Skills Framework",
+      "children": [
+        {
+          "name": "5-Level Competency System",
+          "children": [
+            {
+              "name": "Level 0: Basic"
+            },
+            {
+              "name": "Level 1: Competent"
+            },
+            {
+              "name": "Level 2: Advanced"
+            },
+            {
+              "name": "Level 3: Expert"
+            },
+            {
+              "name": "Level 4: Industry Leader"
+            }
+          ]
+        },
+        {
+          "name": "Strategic Categories",
+          "children": [
+            {
+              "name": "Execution (Copywriting, Tech, Product Knowledge)"
+            },
+            {
+              "name": "Strategic (Analysis, Prioritization, Audience Insights)"
+            },
+            {
+              "name": "Leadership (Accountability, Feedback, Creativity)"
+            }
+          ]
+        },
+        {
+          "name": "Emerging Skills 2025",
+          "children": [
+            {
+              "name": "AI Integration"
+            },
+            {
+              "name": "Growth Marketing"
+            },
+            {
+              "name": "B2B/ABM Personalization"
+            },
+            {
+              "name": "Visual Communication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modern SEO & Discovery",
+      "children": [
+        {
+          "name": "Zero-Click Search",
+          "children": [
+            {
+              "name": "Visibility as KPI"
+            },
+            {
+              "name": "AI Overviews (SGE)"
+            },
+            {
+              "name": "Brand Citations"
+            }
+          ]
+        },
+        {
+          "name": "AI Optimization",
+          "children": [
+            {
+              "name": "AEO (Answer Engine Optimization)"
+            },
+            {
+              "name": "GEO (Generative Engine Optimization)"
+            },
+            {
+              "name": "Vector Embeddings & Semantic Relevance"
+            },
+            {
+              "name": "Passage-Level Optimization"
+            }
+          ]
+        },
+        {
+          "name": "Content Architecture",
+          "children": [
+            {
+              "name": "Topic Clusters (Pillar & Cluster Pages)"
+            },
+            {
+              "name": "E-E-A-T Signals"
+            },
+            {
+              "name": "Structured Data (JSON-LD)"
+            },
+            {
+              "name": "Ski Slope Strategy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B2B Sales Methodology (SPICED)",
+      "children": [
+        {
+          "name": "S: Situation (Context & Facts)"
+        },
+        {
+          "name": "P: Pain (Quantifiable & Qualitative)"
+        },
+        {
+          "name": "I: Impact (Rational & Emotional)"
+        },
+        {
+          "name": "C: Critical Event (Deadlines & Consequences)"
+        },
+        {
+          "name": "E: Decision (Process & Criteria)"
+        }
+      ]
+    },
+    {
+      "name": "GTM Operations & Teams",
+      "children": [
+        {
+          "name": "3-Pillar Architecture",
+          "children": [
+            {
+              "name": "Demand (Revenue/Pipeline)"
+            },
+            {
+              "name": "Brand (Awareness/Engagement)"
+            },
+            {
+              "name": "Product Marketing (Positioning/Enablement)"
+            }
+          ]
+        },
+        {
+          "name": "Organizational Maturity (ClarQ)",
+          "children": [
+            {
+              "name": "GTM Strategy"
+            },
+            {
+              "name": "Revenue Streams"
+            },
+            {
+              "name": "Quota-to-Cash (Q2C)"
+            },
+            {
+              "name": "Capabilities"
+            }
+          ]
+        },
+        {
+          "name": "Internal Marketing",
+          "children": [
+            {
+              "name": "Transparency in Objectives"
+            },
+            {
+              "name": "Show Your Work Culture"
+            },
+            {
+              "name": "Systematic Communication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Content & Copywriting Systems",
+      "children": [
+        {
+          "name": "Psychological Triggers",
+          "children": [
+            {
+              "name": "Scarcity & Urgency"
+            },
+            {
+              "name": "Social Proof"
+            },
+            {
+              "name": "Loss Aversion"
+            }
+          ]
+        },
+        {
+          "name": "Revenue Models",
+          "children": [
+            {
+              "name": "ESCALA Value Ladder"
+            },
+            {
+              "name": "Invisible Sales Letter (ISL)"
+            },
+            {
+              "name": "AIDA Article Templates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

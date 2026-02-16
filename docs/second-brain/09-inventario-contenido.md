@@ -2,7 +2,7 @@
 
 Mapa de cada archivo del repositorio con su propósito y relaciones.
 
-> **Nota**: El skill `content-strategy` (plugin copywriting-engine) está en desarrollo por otro agente en paralelo. Se estima que agregará ~10 archivos adicionales al inventario.
+> **Actualizado**: 2026-02-16. El skill `content-strategy` fue implementado en `growth-foundations` (no en copywriting-engine como se planeó originalmente). Incluye Ski Slope, Topic Triangle, 3 workflows LATAM.
 
 ---
 
@@ -10,28 +10,28 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 | Métrica | Valor |
 |---------|-------|
-| Total de archivos (plugins/) | 105 |
-| Archivos Markdown | 100 |
+| Total de archivos (plugins/) | 122 |
+| Archivos Markdown | 117 |
 | Archivos JSON | 5 |
 | Plugins | 5 |
-| Skills | 17 |
+| Skills | 18 |
 | Commands | 12 |
 | Agents | 7 |
-| Frameworks | 27 |
-| Templates | 19 |
-| Pattern libraries | 10 |
-| Examples | 3 |
+| Frameworks | 32 |
+| Templates | 25 |
+| Pattern libraries | 17 |
+| Examples | 6 |
 
 ### Desglose por Plugin
 
 | Plugin | Skills | Commands | Agents | Frameworks | Templates | Patterns | Examples | Total archivos |
 |--------|--------|----------|--------|------------|-----------|----------|----------|----------------|
-| growth-foundations | 4 | 3 | 0 | 8 | 4 | 2 | 1 | 24 |
+| growth-foundations | 6 | 3 | 0 | 11 | 6 | 3 | 5 | 36 |
 | sales-blueprint | 4 | 4 | 2 | 5 | 5 | 0 | 1 | 23 |
-| copywriting-engine | 4 | 3 | 4 | 1 | 3 | 3 | 0 | 20 |
-| dotcom-secrets | 4 | 2 | 1 | 10 | 7 | 5 | 1 | 32 |
+| copywriting-engine | 4 | 3 | 4 | 1 | 4 | 7 | 0 | 25 |
+| dotcom-secrets | 4 | 2 | 1 | 12 | 10 | 7 | 1 | 39 |
 | conversational-pm | 1 | 0 | 0 | 3 | 0 | 0 | 0 | 6 |
-| **Total** | **17** | **12** | **7** | **27** | **19** | **10** | **3** | **105** |
+| **Total** | **18** | **12** | **7** | **32** | **25** | **17** | **6** | **122** |
 
 ---
 
@@ -46,13 +46,13 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Plugin: growth-foundations (24 archivos)
+## Plugin: growth-foundations (36 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
 |---------|-----------|
 | `.claude-plugin/plugin.json` | Manifiesto: name, version 1.0.0, description, author |
-| `README.md` | 4 skills, 3 commands, triggers, instalación |
+| `README.md` | 6 skills, 3 commands, triggers, instalación |
 
 ### Skill: icp-analysis
 | Archivo | Propósito |
@@ -88,6 +88,21 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/quiz-funnel/patterns/quiz-question-library.md` | **ARCHIVO CLAVE**: 53 preguntas reutilizables por tipo |
 | `skills/quiz-funnel/patterns/funnel-mechanics.md` | Flujos, email gates, outcome pages, métricas |
 | `skills/quiz-funnel/examples/b2b-saas-quiz-example.md` | Caso SalesPro completo con métricas de stress test |
+
+### Skill: content-strategy
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/content-strategy/SKILL.md` | Ski Slope + Topic Triangle, 4 pasos, workflows LATAM |
+| `skills/content-strategy/frameworks/ski-slope-model.md` | Modelo Green Circle → Blue Square → Black Diamond |
+| `skills/content-strategy/frameworks/topic-triangle.md` | Selección de temas por CPC × tráfico × revenue |
+| `skills/content-strategy/frameworks/content-scaling-model.md` | Modelo de escalamiento de contenido |
+| `skills/content-strategy/templates/topic-priority-worksheet.md` | Worksheet para priorizar temas |
+| `skills/content-strategy/templates/aida-blog-post-template.md` | Template AIDA para blog posts |
+| `skills/content-strategy/templates/red-packet-partnership-sop.md` | SOP para partnerships de distribución |
+| `skills/content-strategy/patterns/content-difficulty-matrix.md` | Matriz de dificultad de contenido |
+| `skills/content-strategy/examples/workflow-b2b-saas-latam.md` | Workflow B2B SaaS pagos/cobranza LATAM |
+| `skills/content-strategy/examples/workflow-consulting-agency.md` | Workflow agencia de consultoría |
+| `skills/content-strategy/examples/workflow-solo-creator-spanish.md` | Workflow creator individual en español |
 
 ### Commands
 | Archivo | Propósito |
@@ -153,7 +168,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Plugin: copywriting-engine (20 archivos)
+## Plugin: copywriting-engine (25 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
@@ -167,6 +182,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/headline-mastery/SKILL.md` | Proceso de 6 pasos, target >7.5/10 |
 | `skills/headline-mastery/patterns/power-headlines.md` | **ARCHIVO CLAVE**: 50 fórmulas en 10 categorías con ejemplos |
 | `skills/headline-mastery/patterns/formulas.md` | Fórmulas adicionales |
+| `skills/headline-mastery/patterns/intro-hook-formulas.md` | Fórmulas de intro hooks para artículos |
 
 ### Skill: email-sequences
 | Archivo | Propósito |
@@ -175,6 +191,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/email-sequences/templates/cold-outreach.md` | Template para primer contacto |
 | `skills/email-sequences/templates/nurture.md` | Template para educación progresiva |
 | `skills/email-sequences/templates/reactivation.md` | Template para reactivación |
+| `skills/email-sequences/templates/900-word-sales-email.md` | Template de email de ventas largo (900 palabras) |
 
 ### Skill: landing-pages
 | Archivo | Propósito |
@@ -187,6 +204,9 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 |---------|-----------|
 | `skills/psychological-triggers/SKILL.md` | Proceso de 6 pasos para aplicar triggers |
 | `skills/psychological-triggers/patterns/trigger-library.md` | **ARCHIVO CLAVE**: 10 triggers con leverage, implementación, ética, combinaciones |
+| `skills/psychological-triggers/patterns/present-pain-framework.md` | Framework de dolor presente como gatillo |
+| `skills/psychological-triggers/patterns/three-brains-model.md` | Modelo de tres cerebros (reptiliano, límbico, neocortex) |
+| `skills/landing-pages/patterns/isl-page-archetype.md` | Arquetipo de página ISL (Invisible Sales Letter) |
 
 ### Agents
 | Archivo | Propósito |
@@ -205,7 +225,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Plugin: dotcom-secrets (32 archivos)
+## Plugin: dotcom-secrets (39 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
@@ -233,6 +253,10 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/flujo/templates/funnel-architecture-canvas.md` | Canvas para diseñar arquitectura de funnel |
 | `skills/flujo/patterns/latam-adaptations.md` | Adaptaciones específicas para mercado LATAM |
 | `skills/flujo/patterns/conversion-benchmarks.md` | Benchmarks de conversión por tipo de funnel y fase |
+| `skills/flujo/patterns/three-jabs-content-upgrades.md` | Content upgrades con estrategia Three Jabs |
+| `skills/flujo/patterns/tofu-bofu-campaign-structure.md` | Estructura de campañas TOFU/BOFU |
+| `skills/flujo/templates/micro-budget-ads-sop.md` | SOP de ads con micro-presupuesto |
+| `skills/flujo/frameworks/isl-methodology.md` | Metodología ISL (Invisible Sales Letter) |
 
 ### Skill: alma
 | Archivo | Propósito |
@@ -255,6 +279,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/funnel-optimization/templates/funnel-audit-report.md` | Template de auditoría de funnel |
 | `skills/funnel-optimization/templates/90-day-action-plan.md` | Plan de acción a 90 días |
 | `skills/funnel-optimization/patterns/ab-test-playbook.md` | Playbook de A/B testing para funnels |
+| `skills/funnel-optimization/templates/operation-nowhere-to-hide-sop.md` | SOP Operation Nowhere to Hide |
 
 ### Agent
 | Archivo | Propósito |

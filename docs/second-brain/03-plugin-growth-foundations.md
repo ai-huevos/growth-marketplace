@@ -10,7 +10,7 @@
 
 ## Componentes
 
-- 4 Skills: icp-analysis, positioning, competitive-analysis, quiz-funnel
+- 6 Skills: icp-analysis, positioning, competitive-analysis, quiz-funnel, content-strategy, (positioning sin subcarpetas)
 - 3 Commands: /diagnostico, /icp, /quiz
 - 0 Agents
 
@@ -234,6 +234,45 @@ Workshop interactivo de 8 fases para diseñar un quiz funnel completo con el usu
 6. **Stress test plan**: Timeline + presupuesto
 7. **Métricas**: Definir criterios de éxito
 8. **Output final**: Quiz blueprint completo
+
+---
+
+## Skill 5: content-strategy
+
+**Triggers**: "content strategy", "ski slope", "topic triangle", "content plan", "blog strategy", "LATAM content", "estrategia de contenido"
+
+### Qué hace
+Estrategia de contenidos B2B basada en Ski Slope Strategy (Green Circle → Blue Square → Black Diamond) + Topic Triangle para selección de temas por revenue potential. Incluye 3 workflows adaptados a LATAM.
+
+### Proceso (4 pasos)
+1. **Auditoría de contenido actual**: Mapear assets existentes al Ski Slope
+2. **Topic Triangle**: Seleccionar temas por CPC × tráfico × revenue potential
+3. **Content plan**: Crear calendario con progresión Green → Blue → Black
+4. **Distribución**: Red Packet partnerships + micro-budget ads
+
+### Frameworks
+- `frameworks/ski-slope-model.md`: Modelo de 3 niveles de dificultad/conversión
+- `frameworks/topic-triangle.md`: Selección de temas por revenue × tráfico
+- `frameworks/content-scaling-model.md`: Modelo de escalamiento de contenido
+
+### Templates
+- `templates/topic-priority-worksheet.md`: Worksheet para priorizar temas
+- `templates/aida-blog-post-template.md`: Template AIDA para blog posts
+- `templates/red-packet-partnership-sop.md`: SOP para partnerships de distribución
+
+### Patterns
+- `patterns/content-difficulty-matrix.md`: Matriz de dificultad de contenido
+
+### Examples (3 workflows LATAM)
+- `examples/workflow-b2b-saas-latam.md`: B2B SaaS pagos/cobranza LATAM
+- `examples/workflow-consulting-agency.md`: Agencia de consultoría
+- `examples/workflow-solo-creator-spanish.md`: Creator individual en español
+
+### Integración
+- El **Topic Triangle** usa datos de ICP (icp-analysis) para filtrar temas por buyer relevance
+- Los **blog posts** generados alimentan al `copywriting-engine` (`/headline`, `/copy`)
+- El **Ski Slope** mapea a las fases del `flujo` (dotcom-secrets): Green = TOFU, Blue = MOFU, Black = BOFU
+- Las **partnerships** (Red Packet) complementan el outreach del `sdr-agent` (sales-blueprint)
 
 ---
 

@@ -55,6 +55,23 @@ plugins/
 - **Cross-references**: Skills reference their own `frameworks/`, `templates/`, and `patterns/` subdirectories via relative paths. Commands reference agent files (e.g., `/copy` orchestrates 4 agents).
 - **Scoring models**: ICP uses 0-100 scoring with tiers. ClarQ uses 0-40 with color heatmap. Pipeline uses SPICED-based health indicators.
 
+### Commands
+
+| Command | Plugin | Purpose |
+|---------|--------|---------|
+| `/diagnostico` | growth-foundations | ClarQ assessment (GTM, Revenue, Q2C, Capabilities) |
+| `/icp` | growth-foundations | Interactive ICP definition + scoring workshop |
+| `/quiz` | growth-foundations | ASK Method quiz funnel builder |
+| `/discovery` | sales-blueprint | SPICED discovery session orchestrator |
+| `/pipeline` | sales-blueprint | Pipeline health analysis |
+| `/propuesta` | sales-blueprint | Proposal generation |
+| `/coaching` | sales-blueprint | Sales coaching session |
+| `/copy` | copywriting-engine | 4-agent copywriting pipeline |
+| `/headline` | copywriting-engine | Headline generation |
+| `/email-sequence` | copywriting-engine | Email sequence builder |
+| `/escala` | dotcom-secrets | ESCALA value ladder builder |
+| `/funnel-diagnosis` | dotcom-secrets | Funnel optimization diagnosis |
+
 ## Conventions
 
 - All content is **Spanish-first**. Base content created in Spanish. Multi-language expansion planned for Phase 2.
@@ -78,7 +95,7 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `04-plugin-sales-blueprint.md` | Discovery, pipeline, proposals, coaching, agents |
 | `05-plugin-copywriting-engine.md` | Headlines, emails, landing pages, triggers, agent pipeline |
 | `06-modelos-scoring.md` | All scoring models unified reference |
-| `07-sistema-agentes.md` | All 6 agents with workflow diagrams |
+| `07-sistema-agentes.md` | All 7 agents with workflow diagrams |
 | `08-frameworks-patrones.md` | Frameworks, templates, pattern libraries |
 | `09-inventario-contenido.md` | Complete 59-file inventory |
 | `10-decisiones-diseno.md` | 10 architectural decisions with rationale |
@@ -93,6 +110,8 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `19-deep-research-b2b-plugin-marketplace.md` | Deep research: plugin architecture, marketplace patterns, B2B AI landscape, LATAM opportunity |
 | `20-content-mavericks-ecosystem.md` | Content Mavericks: 7 frameworks (Ski Slope, Greatest Hits, AIDA, Three Jabs, ISL), 35+ modules, triage guide |
 | `21-plugin-conversational-pm.md` | Conversational PM plugin: agent roster, irrigation model, 3-level dashboards, SPICED project discovery |
+| `22-sistema-realidad-source-of-truth.md` | System audit: codebase vs NLM reconciliation, gaps, cleanup commands, E2E test plan |
+| `23-emyth-agentic-evolution.md` | E-Myth → Agentic: franchise prototype, 58 SOPs, process-to-agent mapping, 25-week roadmap |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
 ### Artifacts
