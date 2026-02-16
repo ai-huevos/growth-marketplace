@@ -40,6 +40,7 @@ plugins/
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Winning by Design / SPICED |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | B2B growth intelligence project orchestration | Agent roster (Architecture Plumber → Data Specialist → DB Architect → Implementation → Dashboard) |
+| `dotcom-secrets` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma (Russell Brunson adapted to B2B LATAM) |
 
 ### Tools (non-plugin)
 
@@ -86,6 +87,8 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `15-arquitectura-sistema.md` | System architecture: layers, data model, scoring system, design patterns, dependency diagrams |
 | `16-quiz-funnel-ask-method.md` | Quiz funnel skill: ASK Method adapted to B2B, bucket identification, lean stress test |
 | `17-research-plataforma-inteligencia-b2b.md` | Growth Intelligence Platform vision: semantic layer, knowledge graph roadmap, data flywheel |
+| `18-plugin-dotcom-secrets.md` | DotCom Secrets plugin: ESCALA, FLUJO, Alma branded stack, funnel optimization |
+| `19-deep-research-b2b-plugin-marketplace.md` | Deep research: plugin architecture, marketplace patterns, B2B AI landscape, LATAM opportunity |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
 ### Artifacts

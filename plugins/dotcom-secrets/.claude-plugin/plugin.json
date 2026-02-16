@@ -1,0 +1,14 @@
+{
+  "name": "dotcom-secrets",
+  "version": "1.0.0",
+  "description": "DotCom Secrets methodology for B2B: ESCALA value ladders, FLUJO funnel architecture, Alma brand character, and funnel optimization. Russell Brunson adapted to LATAM.",
+  "author": {
+    "name": "AI Huevos",
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["b2b", "funnels", "value-ladder", "escala", "flujo", "dotcom-secrets", "email-sequences", "conversion", "spanish"]
+}
