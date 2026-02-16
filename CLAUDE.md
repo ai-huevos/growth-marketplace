@@ -43,7 +43,7 @@ plugins/
 | `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | SPICED segmentation, ASK Method, Ski Slope Strategy |
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Winning by Design / SPICED |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
-| `conversational-pm` | B2B growth intelligence project orchestration | Agent roster (Architecture Plumber → Data Specialist → DB Architect → Implementation → Dashboard) |
+| `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | SPICED project discovery, Growth Diagnostic Router, Agent roster |
 | `dotcom-secrets` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma (Russell Brunson adapted to B2B LATAM) |
 
 ### Tools (non-plugin)

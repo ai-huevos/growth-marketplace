@@ -82,10 +82,47 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 |----|----------|-------|-----------------|-----------|
 | T-25 | 900-word-sales-email | email-sequences | Email ~900 palabras Present Pain + Three Brains | Venta sin llamada, CR > 2% |
 
+### Playbook Triage — Sprint 1 (2026-02-16)
+
+#### growth-foundations (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-26 | team-competency-assessment | icp-analysis | Mapa de calor 23 competencias × equipo + gaps + plan 30-60-90 | >90% precisión en evaluaciones |
+| T-28 | resource-audit | competitive-analysis | Score de recursos (4 dims) + channels filtrados + sistema 3-2-1 | Plan ejecutable en < 7 días |
+| T-31 | launch-playbook | positioning | Plan de lanzamiento con tier classification + 6-week rollout | PMM puede ejecutar sin otro doc |
+
+#### sales-blueprint (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-27 | marketing-sales-sla | pipeline-management | SLA bilateral mktg↔ventas con métricas + cadence | Ambos equipos firmaron |
+| T-33 | internal-comms-rhythm | coaching-cadence | Sistema de comms interna (weekly 5min + email + monthly) | Cualquier empleado explica qué hace mktg |
+
+#### dotcom-secrets (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-30 | lead-scoring-model | funnel-optimization | Modelo ICP Match (0-10) + Intent (0-10) con routing | SDR califica lead en < 2 min |
+| T-32 | community-launch-plan | alma | Plan de launch de comunidad (hooks, trial, engagement) | 100 miembros pagos en 90 días |
+
+#### conversational-pm (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-29 | team-design-canvas | project-management | Canvas equipo alineado a revenue con 3 pilares + funnel model | CEO aprueba estructura |
+
+#### copywriting-engine (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-34 | ai-prompt-patterns | psychological-triggers | 5 mega-prompts (JTBD, Hooks, CRO, Enemy, Multiplication) | Output usable en < 3 iteraciones |
+
 ---
 
 ## Estadísticas
 
-- **Total templates**: 25
-- **Por plugin**: growth-foundations (7), sales-blueprint (5), copywriting-engine (4), dotcom-secrets (9)
+- **Total templates**: 34
+- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), dotcom-secrets (11), conversational-pm (1)
 - **Última actualización**: 2026-02-16
+- **Sprint**: Playbook Triage — 9 nuevos templates de 10 playbooks B2B marketing
