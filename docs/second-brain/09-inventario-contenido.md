@@ -2,23 +2,36 @@
 
 Mapa de cada archivo del repositorio con su propósito y relaciones.
 
+> **Nota**: El skill `content-strategy` (plugin copywriting-engine) está en desarrollo por otro agente en paralelo. Se estima que agregará ~10 archivos adicionales al inventario.
+
 ---
 
 ## Estadísticas Generales
 
 | Métrica | Valor |
 |---------|-------|
-| Total de archivos | 72 |
-| Archivos Markdown | 70 |
-| Archivos JSON | 2 |
-| Plugins | 3 |
-| Skills | 12 |
-| Commands | 10 |
-| Agents | 6 |
-| Frameworks | 13 |
-| Templates | 11 |
-| Pattern libraries | 6 |
-| Examples | 2 |
+| Total de archivos (plugins/) | 105 |
+| Archivos Markdown | 100 |
+| Archivos JSON | 5 |
+| Plugins | 5 |
+| Skills | 17 |
+| Commands | 12 |
+| Agents | 7 |
+| Frameworks | 27 |
+| Templates | 19 |
+| Pattern libraries | 10 |
+| Examples | 3 |
+
+### Desglose por Plugin
+
+| Plugin | Skills | Commands | Agents | Frameworks | Templates | Patterns | Examples | Total archivos |
+|--------|--------|----------|--------|------------|-----------|----------|----------|----------------|
+| growth-foundations | 4 | 3 | 0 | 8 | 4 | 2 | 1 | 24 |
+| sales-blueprint | 4 | 4 | 2 | 5 | 5 | 0 | 1 | 23 |
+| copywriting-engine | 4 | 3 | 4 | 1 | 3 | 3 | 0 | 20 |
+| dotcom-secrets | 4 | 2 | 1 | 10 | 7 | 5 | 1 | 32 |
+| conversational-pm | 1 | 0 | 0 | 3 | 0 | 0 | 0 | 6 |
+| **Total** | **17** | **12** | **7** | **27** | **19** | **10** | **3** | **105** |
 
 ---
 
@@ -28,18 +41,18 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 |---------|------|-----------|
 | `README.md` | Docs | Overview del marketplace, instalación, lista de plugins |
 | `CLAUDE.md` | Config | Instrucciones para Claude Code (arquitectura, convenciones) |
-| `.claude-plugin/marketplace.json` | JSON | Manifiesto del marketplace (3 plugins registrados) |
+| `.claude-plugin/marketplace.json` | JSON | Manifiesto del marketplace (5 plugins registrados) |
 | `.claude/settings.local.json` | JSON | Permisos locales |
 
 ---
 
-## Plugin: growth-foundations
+## Plugin: growth-foundations (24 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
 |---------|-----------|
 | `.claude-plugin/plugin.json` | Manifiesto: name, version 1.0.0, description, author |
-| `README.md` | 3 skills, 2 commands, triggers, instalación |
+| `README.md` | 4 skills, 3 commands, triggers, instalación |
 
 ### Skill: icp-analysis
 | Archivo | Propósito |
@@ -85,7 +98,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Plugin: sales-blueprint
+## Plugin: sales-blueprint (23 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
@@ -140,7 +153,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Plugin: copywriting-engine
+## Plugin: copywriting-engine (20 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
@@ -192,7 +205,89 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Archivos Clave (Top 6)
+## Plugin: dotcom-secrets (32 archivos)
+
+### Configuración y Docs
+| Archivo | Propósito |
+|---------|-----------|
+| `.claude-plugin/plugin.json` | Manifiesto: version 1.0.0, DotCom Secrets B2B |
+| `README.md` | 4 skills, 2 commands, 1 agent, frameworks branded ESCALA/FLUJO/Alma |
+
+### Skill: escala
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/escala/SKILL.md` | Value ladder ESCALA de 4 niveles + RADAR discovery |
+| `skills/escala/frameworks/escala-framework.md` | **ARCHIVO CLAVE**: Framework ESCALA completo con niveles, pricing, transiciones |
+| `skills/escala/frameworks/product-funnel-fit.md` | Mapeo producto → funnel → tier ESCALA |
+| `skills/escala/templates/escala-canvas.md` | Canvas interactivo para diseñar value ladder |
+| `skills/escala/patterns/ltv-cac-calculator.md` | Calculadora LTV:CAC por tier |
+| `skills/escala/examples/b2b-agency-escala.md` | Caso real: agencia B2B con 4 tiers |
+
+### Skill: flujo
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/flujo/SKILL.md` | Funnel architecture FLUJO, 7 fases operativas |
+| `skills/flujo/frameworks/seven-phases.md` | **ARCHIVO CLAVE**: Las 7 fases del funnel operativo |
+| `skills/flujo/frameworks/traffic-types.md` | Tráfico frío, tibio, caliente — estrategias por tipo |
+| `skills/flujo/frameworks/funnel-type-selector.md` | Selector de tipo de funnel según objetivo y audiencia |
+| `skills/flujo/templates/funnel-architecture-canvas.md` | Canvas para diseñar arquitectura de funnel |
+| `skills/flujo/patterns/latam-adaptations.md` | Adaptaciones específicas para mercado LATAM |
+| `skills/flujo/patterns/conversion-benchmarks.md` | Benchmarks de conversión por tipo de funnel y fase |
+
+### Skill: alma
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/alma/SKILL.md` | Brand character + sistema de email IMAN |
+| `skills/alma/frameworks/acf-10-steps.md` | **ARCHIVO CLAVE**: Attractive Character Framework en 10 pasos |
+| `skills/alma/frameworks/iman-email-system.md` | Sistema IMAN: Soap Opera + Seinfeld sequences |
+| `skills/alma/templates/acf-worksheet.md` | Worksheet para desarrollar Attractive Character |
+| `skills/alma/templates/soap-opera-sequence.md` | Template de secuencia Soap Opera (5 emails narrativos) |
+| `skills/alma/templates/seinfeld-sequence.md` | Template de secuencia Seinfeld (entretenimiento + valor) |
+| `skills/alma/patterns/story-arc-library.md` | Biblioteca de arcos narrativos para storytelling |
+
+### Skill: funnel-optimization
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/funnel-optimization/SKILL.md` | Optimización de funnels existentes |
+| `skills/funnel-optimization/frameworks/funnel-health-dashboard.md` | Dashboard de salud del funnel |
+| `skills/funnel-optimization/frameworks/optimization-cycle.md` | Ciclo de optimización continua |
+| `skills/funnel-optimization/frameworks/scaling-strategy.md` | Estrategia de escalamiento post-optimización |
+| `skills/funnel-optimization/templates/funnel-audit-report.md` | Template de auditoría de funnel |
+| `skills/funnel-optimization/templates/90-day-action-plan.md` | Plan de acción a 90 días |
+| `skills/funnel-optimization/patterns/ab-test-playbook.md` | Playbook de A/B testing para funnels |
+
+### Agent
+| Archivo | Propósito |
+|---------|-----------|
+| `agents/funnel-architect.md` | Agente especialista en diseño y optimización de funnels |
+
+### Commands
+| Archivo | Propósito |
+|---------|-----------|
+| `commands/escala.md` | Workshop interactivo para diseñar value ladder ESCALA |
+| `commands/funnel-diagnosis.md` | Diagnóstico de funnel existente con recomendaciones |
+
+---
+
+## Plugin: conversational-pm (6 archivos)
+
+### Configuración y Docs
+| Archivo | Propósito |
+|---------|-----------|
+| `.claude-plugin/plugin.json` | Manifiesto: version 1.0.0, PM conversacional |
+| `README.md` | 1 skill, 5 agentes especialistas, modelo de irrigación |
+
+### Skill: project-management
+| Archivo | Propósito |
+|---------|-----------|
+| `skills/project-management/SKILL.md` | PM conversacional: SPICED discovery, despacho de 5 agentes, 5 fases |
+| `skills/project-management/frameworks/agent-roster.md` | Catálogo de agentes: Architecture Plumber, Data Specialist, DB Architect, Implementation, Dashboard Builder |
+| `skills/project-management/frameworks/architecture-patterns.md` | Patrones de arquitectura: pipelines, DBs (SQL vs Graph vs Hybrid), dashboards |
+| `skills/project-management/frameworks/project-templates.md` | Templates para diferentes tipos de proyectos |
+
+---
+
+## Archivos Clave (Top 8)
 
 Estos son los archivos más importantes del repositorio — los que concentran la mayor cantidad de conocimiento:
 
@@ -202,3 +297,5 @@ Estos son los archivos más importantes del repositorio — los que concentran l
 4. **`scoring-model.md`** — ICP scoring 0-100: 5 categorías, ejemplo real ACME
 5. **`reks-framework.md`** — REKS completo: árbol de decisión, scorecards, soluciones por nivel
 6. **`conversion-architecture.md`** — Estructura de 10 secciones para landing pages con trigger mapping
+7. **`escala-framework.md`** — Value ladder ESCALA de 4 niveles, RADAR discovery, pricing B2B LATAM
+8. **`agent-roster.md`** — Catálogo de 5 agentes especialistas del PM conversacional con inputs/outputs

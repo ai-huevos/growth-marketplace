@@ -36,7 +36,7 @@ plugins/
 
 | Plugin | Focus | Key Methodology |
 |--------|-------|-----------------|
-| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels | SPICED segmentation, ASK Method |
+| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | SPICED segmentation, ASK Method, Ski Slope Strategy |
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Winning by Design / SPICED |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | B2B growth intelligence project orchestration | Agent roster (Architecture Plumber → Data Specialist → DB Architect → Implementation → Dashboard) |
@@ -92,6 +92,7 @@ Source documents for the notebook are maintained in `docs/second-brain/`:
 | `18-plugin-dotcom-secrets.md` | DotCom Secrets plugin: ESCALA, FLUJO, Alma branded stack, funnel optimization |
 | `19-deep-research-b2b-plugin-marketplace.md` | Deep research: plugin architecture, marketplace patterns, B2B AI landscape, LATAM opportunity |
 | `20-content-mavericks-ecosystem.md` | Content Mavericks: 7 frameworks (Ski Slope, Greatest Hits, AIDA, Three Jabs, ISL), 35+ modules, triage guide |
+| `21-plugin-conversational-pm.md` | Conversational PM plugin: agent roster, irrigation model, 3-level dashboards, SPICED project discovery |
 | `GUIA-NOTEBOOKLM.md` | Step-by-step notebook setup guide |
 
 ### Artifacts

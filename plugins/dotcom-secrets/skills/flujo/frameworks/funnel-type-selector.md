@@ -221,6 +221,35 @@
 
 ---
 
+## Funnel de Página Única
+
+### Invisible Sales Letter (ISL)
+
+**Qué es**: Funnel de una sola página que educa mientras vende simultáneamente, eliminando la necesidad de funnels multi-paso complejos. Una página que transforma al prospecto de TOFU a BOFU en una sola sesión de lectura.
+
+**Cómo funciona**:
+1. Agitación del problema: describir el dolor de forma vívida y específica
+2. Educación paso a paso: enseñar la solución en 3-5 pasos claros
+3. Prueba social embebida: testimonios y resultados integrados en CADA paso (no al final)
+4. Presentación de la oferta: transición natural de la educación al producto/servicio
+5. Reversión de riesgo: garantía que elimina la ansiedad de compra
+6. CTA único: una sola acción, sin confusión ni múltiples opciones
+
+**Principio central**: Claridad = Certeza → Sin objeciones = Ventas rápidas. Cuanto más entiende el lector, más seguro se siente, menos objeciones quedan.
+
+**Cuándo usarlo**:
+- Tu oferta está en el rango $5 - $60,000 (funciona tanto low-ticket como high-ticket)
+- Tu audiencia resiste las páginas de venta tradicionales (demasiado agresivas)
+- El prospecto necesita educación antes de poder comprar
+- Funnels tradicionales se sienten demasiado agresivos para tu mercado
+- Quieres ventas consistentes sin depender de webinars o lanzamientos
+
+**Diferencia clave vs. otros funnels**: No separa la educación de la venta. El acto de educar ES el pitch. La prueba social no se acumula al final — se integra en cada paso de la educación.
+
+**Métricas objetivo**: 10-45 clientes/día (benchmark del caso de estudio original: 45 clientes en un solo día), 500-1,000 clientes/mes para low-ticket, 30-150 reuniones de venta/mes para high-ticket
+
+---
+
 ## Recomendaciones por Modelo B2B
 
 | Modelo de Negocio | Funnel Recomendado | Justificación |

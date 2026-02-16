@@ -15,7 +15,7 @@ Democratizar el acceso a metodologías de ventas B2B de clase mundial (Winning b
 - **Consultores** que usan Claude Code para servir clientes empresariales
 - **Empresas LATAM ($50M+)** buscando institucionalizar operaciones comerciales
 
-## Los Tres Plugins
+## Los Cinco Plugins
 
 ### 1. growth-foundations (Gratis)
 Frameworks fundamentales de B2B growth para cualquier equipo. El punto de entrada al marketplace.
@@ -63,21 +63,48 @@ Motor de copywriting basado en datos reales: 38,737 headlines, 4,129 triggers ps
 | `/headline` | Command | Generación rápida de 10+ titulares |
 | `/email-sequence` | Command | Constructor de secuencias 5-7 emails |
 
+### 4. dotcom-secrets
+Funnels de conversión B2B basados en DotCom Secrets de Russell Brunson, adaptados a LATAM con frameworks branded propios.
+
+| Componente | Tipo | Propósito |
+|-----------|------|-----------|
+| `escala` | Skill | Value ladder ESCALA de 4 niveles + RADAR discovery |
+| `flujo` | Skill | Funnel architecture FLUJO, 7 fases operativas |
+| `alma` | Skill | Brand character (ACF 10 pasos) + sistema email IMAN |
+| `funnel-optimization` | Skill | Optimización de funnels: health dashboard, ciclo, scaling |
+| `funnel-architect` | Agent | Agente especialista en diseño y optimización de funnels |
+| `/escala` | Command | Workshop interactivo para diseñar value ladder ESCALA |
+| `/funnel-diagnosis` | Command | Diagnóstico de funnel existente con recomendaciones |
+
+### 5. conversational-pm
+Project Manager conversacional para diseñar y construir sistemas de inteligencia de crecimiento B2B.
+
+| Componente | Tipo | Propósito |
+|-----------|------|-----------|
+| `project-management` | Skill | PM conversacional: SPICED discovery, despacho de 5 agentes especialistas, 5 fases |
+| Architecture Plumber | Agent (interno) | Diseña infraestructura y plataforma |
+| Data Specialist | Agent (interno) | Diseña pipelines ETL y flujo de datos |
+| Database Architect | Agent (interno) | Diseña almacenamiento (SQL, Graph, Hybrid) |
+| Implementation Agent | Agent (interno) | Construye, despliega, testea |
+| Dashboard Builder | Agent (interno) | Dashboards 3 niveles: Ejecutivo, Gerencial, Operacional |
+
 ## El Hilo Conductor: SPICED
 
-SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común que conecta los tres plugins:
+SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común que conecta los cinco plugins:
 
 - **growth-foundations** usa SPICED para **diagnosticar** el ICP y **segmentar** el mercado en buckets vía quiz funnels
 - **sales-blueprint** usa SPICED para **evaluar** oportunidades, gestionar pipeline, generar propuestas y coachear
 - **copywriting-engine** usa los insights de SPICED para **comunicar** con copy efectivo
+- **dotcom-secrets** usa SPICED vía RADAR para **posicionar** al prospect en el tier correcto del value ladder ESCALA
+- **conversational-pm** usa SPICED para **descubrir** requisitos de proyecto y clasificar complejidad antes de despachar agentes
 
 ## Datos Clave del Proyecto
 
 - **Idioma**: Spanish-first. Contenido base en español. Roadmap multi-language en Phase 2.
-- **Archivos totales**: 72 (70 Markdown + 2 JSON)
-- **Skills**: 12 en total (4 + 4 + 4)
-- **Commands**: 10 en total (3 + 4 + 3)
-- **Agents**: 6 en total (0 + 2 + 4)
+- **Archivos totales (plugins/)**: 105 (100 Markdown + 5 JSON)
+- **Skills**: 17 en total (4 + 4 + 4 + 4 + 1)
+- **Commands**: 12 en total (3 + 4 + 3 + 2 + 0)
+- **Agents**: 7 en total (0 + 2 + 4 + 1 + 0)
 - **Frameworks**: SPICED, ICP Scoring, ClarQ, REKS, Value Proposition Canvas, Five Forces, Bowtie, ACE, ASK Method, Bucket Scorecard
 - **Datos analizados**: 38,737 headlines, 4,129 triggers, 2,245 CTAs, 1,570 propuestas de valor
 - **Licencia**: MIT
@@ -93,6 +120,8 @@ SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común
 /plugin install growth-foundations@growth-marketplace
 /plugin install sales-blueprint@growth-marketplace
 /plugin install copywriting-engine@growth-marketplace
+/plugin install dotcom-secrets@growth-marketplace
+/plugin install conversational-pm@growth-marketplace
 ```
 
 ## Cómo se Usa

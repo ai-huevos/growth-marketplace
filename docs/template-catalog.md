@@ -61,10 +61,31 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 | T-18 | funnel-audit-report | funnel-optimization | Diagnóstico de salud del funnel | 6 secciones scored |
 | T-19 | 90-day-action-plan | funnel-optimization | Plan de ejecución por fases | 3 fases, tareas semanales |
 
+### Plugin: growth-foundations (content-strategy — NEW)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-20 | topic-priority-worksheet | content-strategy | Tabla de 20+ topics priorizados por CPC × Revenue × Traffic | Top 5 topics con score > 50 |
+| T-21 | aida-blog-post-template | content-strategy | Blog post completo estructura AIDA con 3 Jabs | Headline pasa test 5 seg |
+| T-22 | red-packet-partnership-sop | content-strategy | Partner list 50+ + outreach + assets + tracking | >20% response rate, >100 leads |
+
+### Plugin: dotcom-secrets (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-23 | micro-budget-ads-sop | flujo | Campaign setup $5/day + weekly optimization log | CPC < $1, 3-10 leads/day |
+| T-24 | operation-nowhere-to-hide-sop | funnel-optimization | Asset audit 10-50+ con UTMs + tracking dashboard | Links en 10+ assets, +20% traffic |
+
+### Plugin: copywriting-engine (nuevos)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-25 | 900-word-sales-email | email-sequences | Email ~900 palabras Present Pain + Three Brains | Venta sin llamada, CR > 2% |
+
 ---
 
 ## Estadísticas
 
-- **Total templates**: 19
-- **Por plugin**: growth-foundations (4), sales-blueprint (5), copywriting-engine (3), dotcom-secrets (7)
+- **Total templates**: 25
+- **Por plugin**: growth-foundations (7), sales-blueprint (5), copywriting-engine (4), dotcom-secrets (9)
 - **Última actualización**: 2026-02-16

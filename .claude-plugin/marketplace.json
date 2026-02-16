@@ -45,6 +45,15 @@
       "keywords": ["b2b", "funnels", "value-ladder", "escala", "flujo", "dotcom-secrets", "email-sequences", "conversion", "spanish"],
       "category": "productivity",
       "license": "MIT"
+    },
+    {
+      "name": "conversational-pm",
+      "source": "./plugins/conversational-pm",
+      "description": "Project Manager conversacional para sistemas de inteligencia B2B. SPICED discovery, 5 agentes especialistas, modelo de irrigación de datos, dashboards 3 niveles.",
+      "version": "1.0.0",
+      "keywords": ["b2b", "project-management", "agents", "data-intelligence", "dashboards", "spiced", "architecture", "spanish"],
+      "category": "productivity",
+      "license": "MIT"
     }
   ]
 }
