@@ -103,4 +103,4 @@ Todo lo de Level 2 +
 
 ---
 
-*Conecta con: IPEH Intelligence → competitive-analysis battle cards, IPEH Enablement → coaching-cadence sales tools, IPEH Launch → content-strategy Ski Slope para content series.*
+*Conecta con: IPEH Intelligence → competitive-analysis battle cards, IPEH Enablement → coaching-cadence sales tools, IPEH Launch → content-strategy PENDIENTE para content series.*

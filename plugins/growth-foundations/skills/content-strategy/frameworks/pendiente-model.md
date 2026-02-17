@@ -1,8 +1,8 @@
-# Ski Slope Model — Modelo de Progresión de Dificultad de Contenido
+# Modelo PENDIENTE — Modelo de Progresión de Dificultad de Contenido
 
 ## Concepto Central
 
-El Ski Slope Model mapea el contenido de marketing a tres niveles de dificultad, replicando la señalización de pistas de esquí. Cada nivel corresponde a una etapa del funnel y un nivel de intención del comprador.
+El Modelo PENDIENTE mapea el contenido de marketing a tres niveles de dificultad, replicando la señalización de pistas de esquí. Cada nivel corresponde a una etapa del funnel y un nivel de intención del comprador.
 
 La clave: **empezar por lo fácil (Green Circle) y progresar hacia lo difícil (Black Diamond)**, igual que un esquiador principiante no empieza en la pista más empinada.
 
@@ -51,7 +51,7 @@ La clave: **empezar por lo fácil (Green Circle) y progresar hacia lo difícil (
 
 **Métricas objetivo**:
 - Tasa de opt-in desde landing page: 20-40%
-- Tasa de opt-in desde blog post (Three Jabs): 10-25%
+- Tasa de opt-in desde blog post (TRIPLE VALOR): 10-25%
 - Email open rate de secuencia: >30%
 - Conversión de lead a MQL: 10-20%
 
@@ -92,7 +92,7 @@ La clave: **empezar por lo fácil (Green Circle) y progresar hacia lo difícil (
 No crear contenido Black Diamond hasta tener al menos 10 piezas Green Circle generando tráfico consistente. El BOFU sin TOFU no tiene audiencia.
 
 ### Regla 2: Cada Green Circle conecta con un Blue Square
-Cada blog post debe tener al menos un content upgrade (lead magnet) relacionado. Usar la estrategia Three Jabs: 3 CTAs por post.
+Cada blog post debe tener al menos un content upgrade (lead magnet) relacionado. Usar la estrategia TRIPLE VALOR: 3 CTAs por post.
 
 ### Regla 3: Black Diamond requiere datos reales
 Los case studies y calculadoras sin datos reales no convierten. Esperar a tener clientes con resultados documentables antes de crear contenido BOFU.

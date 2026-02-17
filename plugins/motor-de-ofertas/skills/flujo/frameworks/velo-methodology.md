@@ -1,6 +1,6 @@
-# Metodología ISL (Invisible Sales Letter)
+# Metodología VELO
 
-Metodología extraída del sistema ISL de Content Mavericks. Una carta de ventas invisible que educa mientras vende en una sola página.
+Metodología de carta de ventas invisible que educa mientras vende en una sola página.
 
 ---
 
@@ -10,11 +10,11 @@ Metodología extraída del sistema ISL de Content Mavericks. Una carta de ventas
 
 Cuanto más entiende el lector sobre cómo resuelves su problema, más certeza tiene de que funciona. Más certeza = menos objeciones = ventas más rápidas.
 
-La ISL NO separa educación de venta. El acto de enseñar ES el pitch.
+VELO NO separa educación de venta. El acto de enseñar ES el pitch.
 
 ---
 
-## Los 6 Pasos de la ISL
+## Los 6 Pasos de VELO
 
 ### 1. Agitación del Problema
 Describir el dolor de forma vívida y específica. El lector debe sentirse identificado inmediatamente. No generalizar — usar el lenguaje exacto que el prospecto usa para describir su frustración.

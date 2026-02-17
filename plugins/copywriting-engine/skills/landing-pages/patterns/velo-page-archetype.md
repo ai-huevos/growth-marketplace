@@ -1,16 +1,16 @@
-# Arquetipo de Página ISL (Invisible Sales Letter)
+# Arquetipo de Página VELO
 
-Formato de página única que educa mientras vende. A diferencia de una sales page tradicional (agresiva) o un blog post (sin CTA), la ISL combina ambos. Basado en el sistema Invisible Sales Letter de Content Mavericks.
+Formato de página única que educa mientras vende. A diferencia de una sales page tradicional (agresiva) o un blog post (sin CTA), VELO combina ambos.
 
 ## Principio Central
 
 > "Claridad = Certeza. Certeza elimina objeciones. Sin objeciones = Ventas rápidas."
 
-La ISL transforma al lector de TOFU (curioso sobre el resultado) a BOFU (listo para comprar) en una sola lectura. No empuja — educa hasta que la compra es la conclusión lógica.
+VELO transforma al lector de TOFU (curioso sobre el resultado) a BOFU (listo para comprar) en una sola lectura. No empuja — educa hasta que la compra es la conclusión lógica.
 
-## Cuándo Usar ISL vs Landing Page Tradicional
+## Cuándo Usar VELO vs Landing Page Tradicional
 
-| Criterio | ISL | Landing Page 10 Secciones |
+| Criterio | VELO | Landing Page 10 Secciones |
 |----------|-----|---------------------------|
 | **Rango de precio** | $5 - $60,000 | $0 - $5,000 |
 | **Tipo de oferta** | Servicios, coaching, consultoría, SaaS, cursos | Lead magnets, productos digitales, SaaS freemium |
@@ -19,9 +19,9 @@ La ISL transforma al lector de TOFU (curioso sobre el resultado) a BOFU (listo p
 | **Extensión** | 2,000-4,000 palabras (10-20 min lectura) | 800-1,500 palabras (3-5 min lectura) |
 | **Tono** | Educativo-consultivo | Persuasivo-directo |
 
-**Regla general**: Si tu oferta requiere que el prospecto ENTIENDA cómo trabajas antes de comprar, usa ISL. Si solo necesita entender QUÉ obtiene, usa landing page tradicional.
+**Regla general**: Si tu oferta requiere que el prospecto ENTIENDA cómo trabajas antes de comprar, usa VELO. Si solo necesita entender QUÉ obtiene, usa landing page tradicional.
 
-## Estructura de la ISL
+## Estructura de VELO
 
 ### Sección 1: Agitación del Problema
 
@@ -76,7 +76,7 @@ Para cada paso (5-7 pasos típicamente):
 
 **Objetivo**: UNA sola acción, repetida a lo largo de la página.
 
-- El mismo CTA aparece 3-5 veces en la ISL (no CTAs diferentes)
+- El mismo CTA aparece 3-5 veces en VELO (no CTAs diferentes)
 - Acción clara: "Agenda tu sesión" / "Empieza hoy" / "Solicita tu propuesta"
 - Botón con copy orientado a resultado, no a proceso ("Ver cómo funciona" > "Enviar formulario")
 - Extensión del CTA final: 50-100 palabras con refuerzo de urgencia legítima
@@ -94,6 +94,6 @@ Para cada paso (5-7 pasos típicamente):
 ## Conexión con el Ecosistema
 
 - **Input de**: Copywriting Engine (headlines, psychological triggers, email sequences)
-- **Output hacia**: FLUJO TOFU-BOFU (la ISL es el destino de ambas campañas)
-- **Complementa**: Operation Nowhere To Hide (distribuir ISL en todos los activos)
+- **Output hacia**: FLUJO TOFU-BOFU (VELO es el destino de ambas campañas)
+- **Complementa**: OPERACIÓN OMNIPRESENCIA (distribuir VELO en todos los activos)
 - **Se alimenta de**: Three Brains Model (estructura de persuasión), Present Pain Framework (opening)

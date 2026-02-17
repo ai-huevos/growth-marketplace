@@ -1,8 +1,8 @@
-# Topic Triangle — Framework de Priorización de Temas por Revenue
+# TRIÁNGULO DE INGRESOS — Framework de Priorización de Temas por Revenue
 
 ## Concepto Central
 
-El Topic Triangle es un sistema de priorización que selecciona temas de contenido basándose en su potencial de generar ingresos, no solo tráfico. Usa señales de intención comercial (CPC) como filtro inicial y luego puntúa cada tema en dos dimensiones.
+El TRIÁNGULO DE INGRESOS es un sistema de priorización que selecciona temas de contenido basándose en su potencial de generar ingresos, no solo tráfico. Usa señales de intención comercial (CPC) como filtro inicial y luego puntúa cada tema en dos dimensiones.
 
 > "No escribas sobre lo que es popular. Escribe sobre lo que es rentable."
 
@@ -68,7 +68,7 @@ Para la plantilla ejecutable que Claude puede completar con el usuario, leer `..
 
 ### Ejemplo 1: SaaS de CRM para PyMEs
 
-| Tema | CPC | Revenue (1-10) | Tráfico (1-10) | Score | Nivel Ski Slope |
+| Tema | CPC | Revenue (1-10) | Tráfico (1-10) | Score | Nivel PENDIENTE |
 |------|-----|----------------|-----------------|-------|-----------------|
 | "Mejor CRM para pequeñas empresas" | $12 | 10 | 7 | 70 | Black Diamond |
 | "Cómo organizar contactos de clientes" | $6 | 7 | 8 | 56 | Green Circle |
@@ -76,7 +76,7 @@ Para la plantilla ejecutable que Claude puede completar con el usuario, leer `..
 
 ### Ejemplo 2: Agencia de Marketing Digital
 
-| Tema | CPC | Revenue (1-10) | Tráfico (1-10) | Score | Nivel Ski Slope |
+| Tema | CPC | Revenue (1-10) | Tráfico (1-10) | Score | Nivel PENDIENTE |
 |------|-----|----------------|-----------------|-------|-----------------|
 | "Agencia de marketing digital precios" | $15 | 10 | 6 | 60 | Black Diamond |
 | "Cómo crear una estrategia de redes sociales" | $4 | 5 | 9 | 45 | Green Circle |
@@ -84,7 +84,7 @@ Para la plantilla ejecutable que Claude puede completar con el usuario, leer `..
 
 ### Ejemplo 3: Consultoría de Transformación Digital
 
-| Tema | CPC | Revenue (1-10) | Tráfico (1-10) | Score | Nivel Ski Slope |
+| Tema | CPC | Revenue (1-10) | Tráfico (1-10) | Score | Nivel PENDIENTE |
 |------|-----|----------------|-----------------|-------|-----------------|
 | "Consultoría de transformación digital" | $20 | 10 | 4 | 40 | Black Diamond |
 | "Qué es la transformación digital en empresas" | $5 | 6 | 9 | 54 | Green Circle |
@@ -92,10 +92,10 @@ Para la plantilla ejecutable que Claude puede completar con el usuario, leer `..
 
 ## Conexión con Greatest Hits Survey
 
-El Topic Triangle funciona mejor cuando se combina con validación cualitativa. El Greatest Hits Survey pregunta a tu audiencia "¿cuál es tu mayor desafío con [tema]?" y las respuestas informan:
+El TRIÁNGULO DE INGRESOS funciona mejor cuando se combina con validación cualitativa. El ENCUESTA DE RESONANCIA pregunta a tu audiencia "¿cuál es tu mayor desafío con [tema]?" y las respuestas informan:
 
 1. **Qué temas tienen demanda real** (no solo volumen de búsqueda)
 2. **Qué ángulo usar** (el lenguaje exacto de tu audiencia)
 3. **Qué content upgrades crear** (los problemas específicos que quieren resolver)
 
-Orden recomendado: Greatest Hits Survey → Topic Triangle → Ski Slope Mapping
+Orden recomendado: ENCUESTA DE RESONANCIA → TRIÁNGULO DE INGRESOS → Mapeo PENDIENTE

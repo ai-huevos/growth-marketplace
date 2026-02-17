@@ -88,7 +88,7 @@ La PM activa plugins y skills como herramientas. No ejecuta el trabajo técnico 
 | "No sé quién es mi cliente ideal" | `/icp` | ICP draft de la ingesta | Perfil ICP con scoring 0-100, 3 tiers |
 | "No sé si mi GTM funciona" | `/diagnostico` | Contexto de negocio | ClarQ heatmap (GTM/Revenue/Q2C/Capabilities) |
 | "No sé cómo cobrar / qué ofrecer" | `/escala` | Productos/servicios actuales | Value Ladder (Bait→Frontend→Backend) |
-| "No sé qué contenido crear" | `content-strategy` | ICP + positioning | Ski Slope plan + Topic Triangle |
+| "No sé qué contenido crear" | `content-strategy` | ICP + positioning | Plan PENDIENTE + TRIÁNGULO DE INGRESOS |
 | "Necesito copy para lanzar" | `/copy` | ICP + positioning + value prop | Landing page + email sequence |
 | "Necesito mejorar mi pipeline" | `/pipeline` | Datos de pipeline actuales | Health analysis con PULSO scoring |
 | "Necesito propuesta comercial" | `/propuesta` | PULSO discovery data | Propuesta con business case |
@@ -123,7 +123,7 @@ positioning → Value Prop Canvas
      ↓ (posicionamiento listo, falta monetización)
 /escala → Value Ladder
      ↓ (oferta diseñada, falta contenido)
-content-strategy → Ski Slope + Topic Triangle
+content-strategy → PENDIENTE + TRIÁNGULO DE INGRESOS
      ↓ (plan de contenido, falta copy)
 /copy → Landing page + email sequence
      ↓ (copy listo, falta pipeline de ventas)

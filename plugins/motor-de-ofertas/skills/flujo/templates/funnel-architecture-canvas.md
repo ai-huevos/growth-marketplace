@@ -219,7 +219,7 @@ Template fase por fase para planificar tu funnel completo. Claude completa este 
 
 **Objetivo**: Nurturing de no-compradores y ascensión de compradores por el value ladder.
 
-### Soap Opera Sequence (Primeros 5-7 Días)
+### Secuencia ORIGEN (Primeros 5-7 Días)
 
 | Día | Asunto (concepto) | Contenido principal | CTA |
 |-----|-------------------|--------------------|----|
@@ -257,7 +257,7 @@ Template fase por fase para planificar tu funnel completo. Claude completa este 
 
 ### Acciones
 
-- [ ] Escribir Soap Opera Sequence completa (5-7 emails)
+- [ ] Escribir Secuencia ORIGEN completa (5-7 emails)
 - [ ] Diseñar calendario de Seinfeld Sequence (primer mes)
 - [ ] Configurar segmentación automática por comportamiento
 - [ ] Definir triggers de ascensión en el email tool

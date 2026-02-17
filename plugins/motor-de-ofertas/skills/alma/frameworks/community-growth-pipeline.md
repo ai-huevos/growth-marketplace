@@ -168,7 +168,7 @@ Member-led event/expertise shared
 
 | Alma (existente) | Community Pipeline (nuevo) | Conexión |
 |-------------------|---------------------------|----------|
-| Attractive Character Framework (10 steps) | POV único para la comunidad | El character ES la voz de la comunidad |
+| Alma Character Framework (10 steps) | POV único para la comunidad | El character ES la voz de la comunidad |
 | IMAN email system (Soap Opera + Seinfeld) | Newsletter como hook #1-2 | Soap Opera = onboarding. Seinfeld = engagement. |
 | 4 archetipos de identity | Community persona | El archetype guía el tono de la comunidad |
 

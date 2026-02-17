@@ -1,6 +1,6 @@
 # Estructura de Campañas TOFU-BOFU
 
-Estructura de 2 campañas publicitarias para convertir tráfico frío en clientes usando la Invisible Sales Letter (ISL). Basado en el sistema ISL de Content Mavericks, integrado con FLUJO.
+Estructura de 2 campañas publicitarias para convertir tráfico frío en clientes usando VELO. Integrado con FLUJO.
 
 ## Principio Central
 
@@ -19,7 +19,7 @@ La estructura de 2 campañas separa la generación de awareness (TOFU) de la con
 | **Objetivo** | Tráfico o Engagement |
 | **Audiencia** | Fría: intereses, lookalikes, segmentación demográfica |
 | **Contenido** | Blog posts educativos, videos cortos, artículos con Three Jabs |
-| **Destino** | Artículo de blog o ISL directa |
+| **Destino** | Artículo de blog o VELO directa |
 | **Presupuesto** | 70% del presupuesto total |
 | **Formato de ad** | Imagen + copy corto (2-3 oraciones, alta curiosidad, bajo detalle) |
 
@@ -47,8 +47,8 @@ La estructura de 2 campañas separa la generación de awareness (TOFU) de la con
 |-----------|-------|
 | **Objetivo** | Conversiones |
 | **Audiencia** | Retargeting de engagers TOFU (7-30 días) |
-| **Contenido** | ISL page, testimonios, mini-ISL, caso de éxito |
-| **Destino** | ISL con pixel de conversión |
+| **Contenido** | Página VELO, testimonios, mini-VELO, caso de éxito |
+| **Destino** | VELO con pixel de conversión |
 | **Presupuesto** | 30% del presupuesto total |
 | **Formato de ad** | Social proof + CTA directo |
 
@@ -59,7 +59,7 @@ Retargetear a CUALQUIER persona que interactuó con TOFU:
 - Likes, comments, shares en ads TOFU
 - Video views (>50% del video)
 - Link clicks al contenido
-- Page views del blog/ISL (sin conversión)
+- Page views del blog/VELO (sin conversión)
 - Engagement con perfil de la página
 
 ### Ventana de Retargeting
@@ -100,7 +100,7 @@ Retargetear a CUALQUIER persona que interactuó con TOFU:
 
 ## Conexión con FLUJO
 
-- **Input de**: FLUJO Fase 1 (Temperatura del Tráfico) + ISL page completada
+- **Input de**: FLUJO Fase 1 (Temperatura del Tráfico) + página VELO completada
 - **Output hacia**: Pipeline de ventas, email sequences post-conversión
 - **Se potencia con**: Operation Nowhere To Hide (distribución orgánica complementaria)
 - **Depende de**: Three Jabs (content upgrades en los artículos TOFU)

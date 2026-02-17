@@ -5,7 +5,7 @@
 | Campo | Valor |
 |-------|-------|
 | **Tema / Keyword principal** | [keyword] |
-| **Nivel Ski Slope** | [Green Circle / Blue Square / Black Diamond] |
+| **Nivel PENDIENTE** | [Green Circle / Blue Square / Black Diamond] |
 | **ICP target** | [descripción del lector ideal] |
 | **Intención de búsqueda** | [informacional / comercial / transaccional] |
 | **CTA principal** | [oferta / lead magnet al que dirigir] |
