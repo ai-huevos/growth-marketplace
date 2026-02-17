@@ -49,7 +49,7 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 | T-11 | nurture | email-sequences | Secuencia de nurture (5-7 emails) | Click rate > 5% |
 | T-12 | reactivation | email-sequences | Secuencia de reactivación (3 emails) | Re-engagement > 10% |
 
-### Plugin: dotcom-secrets
+### Plugin: motor-de-ofertas
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
@@ -69,7 +69,7 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 | T-21 | aida-blog-post-template | content-strategy | Blog post completo estructura AIDA con 3 Jabs | Headline pasa test 5 seg |
 | T-22 | red-packet-partnership-sop | content-strategy | Partner list 50+ + outreach + assets + tracking | >20% response rate, >100 leads |
 
-### Plugin: dotcom-secrets (nuevos)
+### Plugin: motor-de-ofertas (nuevos)
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
@@ -99,7 +99,7 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 | T-27 | marketing-sales-sla | pipeline-management | SLA bilateral mktg↔ventas con métricas + cadence | Ambos equipos firmaron |
 | T-33 | internal-comms-rhythm | coaching-cadence | Sistema de comms interna (weekly 5min + email + monthly) | Cualquier empleado explica qué hace mktg |
 
-#### dotcom-secrets (nuevos)
+#### motor-de-ofertas (nuevos)
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
@@ -202,6 +202,6 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 ## Estadísticas
 
 - **Total templates**: 56
-- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), dotcom-secrets (11), conversational-pm (1), play-to-win (22)
+- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), motor-de-ofertas (11), conversational-pm (1), play-to-win (22)
 - **Última actualización**: 2026-02-17
 - **Sprint**: Play to Win Phase 2 — 10 nuevos templates (T-47 a T-56) de 5 skills planificados

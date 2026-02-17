@@ -6,7 +6,7 @@ version: 1.0.0
 
 # FLUJO — Funnel de Lanzamiento Único y Zonificado Optimizado
 
-Framework para diseñar, construir y optimizar funnels de venta completos, basado en la metodología de DotCom Secrets adaptada a B2B LATAM e integrada con el ecosistema de skills del marketplace.
+Framework para diseñar, construir y optimizar funnels de venta completos, basado en la metodología Motor de Ofertas (FLUJO, ESCALA, Alma) para B2B LATAM e integrada con el ecosistema de skills del marketplace.
 
 ## Filosofía: El Funnel es el Negocio
 
@@ -109,8 +109,8 @@ Para el árbol de decisión completo, leer `frameworks/funnel-type-selector.md`.
 |---------------|-------------------|
 | **Quiz Funnel** (growth-foundations) | Fase 3 — quiz como lead magnet que cualifica y segmenta |
 | **ICP Analysis** (growth-foundations) | Define la temperatura de tráfico y el dolor para el lead magnet |
-| **ALMA** (dotcom-secrets) | Fase 6 — attractive character y ascensión de valor |
-| **ESCALA** (dotcom-secrets) | Value ladder integrado con la secuencia de fases |
+| **ALMA** (motor-de-ofertas) | Fase 6 — attractive character y ascensión de valor |
+| **ESCALA** (motor-de-ofertas) | Value ladder integrado con la secuencia de fases |
 | **Discovery Mastery** (sales-blueprint) | Fase 7 — llamada de ventas high-ticket con PULSO |
 | **Pipeline Management** (sales-blueprint) | Tags de funnel alimentan pipeline, métricas de conversión |
 | **Copywriting Engine** | Copy de squeeze pages, sales pages, emails, OTOs |

@@ -6,7 +6,7 @@ version: 1.0.0
 
 # ESCALA
 
-Framework para disenar escaleras de valor B2B que maximizan el revenue por cliente a traves de una secuencia de ofertas ascendentes, basado en DotCom Secrets de Russell Brunson adaptado a contextos B2B LATAM.
+Framework para disenar escaleras de valor B2B que maximizan el revenue por cliente a traves de una secuencia de ofertas ascendentes, basado en Motor de Ofertas (ESCALA, FLUJO, Alma) para B2B LATAM.
 
 ## Filosofia: Quien Puede Gastar Mas, Gana
 

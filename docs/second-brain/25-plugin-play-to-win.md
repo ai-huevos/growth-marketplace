@@ -49,7 +49,7 @@ Pipeline de 6 fases: clasificación de problema (8 dominios) → análisis de co
 
 - **sales-blueprint**: play-to-win extiende el ciclo de ventas hacia post-venta y estrategia avanzada. sales-blueprint cubre discovery → pipeline → proposals → coaching. play-to-win cubre pre-discovery → deal strategy → CS ops → renewal.
 - **growth-foundations**: ICP y positioning alimentan el pre-discovery research.
-- **dotcom-secrets**: Los funnels de dotcom-secrets se optimizan con las métricas de CS health scoring.
+- **motor-de-ofertas**: Los funnels de motor-de-ofertas se optimizan con las métricas de CS health scoring.
 
 ## Fuente
 

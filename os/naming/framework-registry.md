@@ -24,7 +24,7 @@
 | Término Tercero | Propietario | Nombre Original GrowthOS | Acrónimo | Mapeo de Dimensiones |
 |----------------|-------------|--------------------------|----------|---------------------|
 | **SPICED** | Winning by Design | **PULSO** | **P**anorama, **U**rgencia, **L**ogro, **S**ituación crítica, **O**rganización | Situation→Panorama, Pain→Urgencia, Impact→Logro, Critical Event→Situación Crítica, Decision→Organización |
-| **dotcom-secrets** (plugin) | Russell Brunson | **motor-de-ofertas** | — | Plugin completo renombrado |
+| **dotcom-secrets** (plugin) | — | **motor-de-ofertas** | — | Plugin renombrado; ESCALA, FLUJO, Alma son acrónimos GrowthOS |
 | **ASK Method** | Ryan Levesque (™) | **SONDA** | **S**egmentación por **O**bservación **N**atural con **D**atos **A**ctivos | Metodología completa de quiz/survey funnels |
 | **Winning by Design** (marca) | WbD | **Metodología GrowthOS** | — | Reemplazar atribución de marca, no concepto |
 
@@ -38,9 +38,9 @@
 | **Bowtie Model** | Winning by Design | **CICLO** | **C**aptación, **I**ngreso, **C**onsolidación, **L**ealtad, **O**portunidad — ciclo completo de revenue | pipeline-management, customer-success-ops |
 | **ACE Opening** (Appreciate, Check, End Goal) | Winning by Design | **AVE** | **A**gradecimiento, **V**erificación de tiempo, **E**xpectativas — "Ave" = apertura que vuela | discovery-mastery, discovery-demo |
 | **SMIQ** (Single Most Important Question) | Ryan Levesque | **PREGUNTA RAÍZ** | La pregunta fundamental de segmentación | quiz-funnel |
-| **Soap Opera Sequence** | Russell Brunson | **Secuencia ORIGEN** | Secuencia narrativa de historia de origen | alma, flujo |
-| **Seinfeld Sequence** | Russell Brunson / NBC | **Secuencia PULSAR** | **P**ublicación **U**til y **L**igera con **S**torytelling, **A**cción, y **R**elevancia — ritmo de engagement diario | alma |
-| **ACF** (Attractive Character Framework) | Russell Brunson | **ALMA** (ya existe) | Solo eliminar referencias a ACF, ALMA ya es el nombre propio | alma |
+| **Soap Opera Sequence** | Third-party | **Secuencia ORIGEN** | Secuencia narrativa de historia de origen | alma, flujo |
+| **Seinfeld Sequence** | Third-party | **Secuencia PULSAR** | **P**ublicación **U**til y **L**igera con **S**torytelling, **A**cción, y **R**elevancia — ritmo de engagement diario | alma |
+| **ACF** (Attractive Character Framework) | Third-party | **ALMA** (ya existe) | Solo eliminar referencias a ACF, ALMA ya es el nombre propio | alma |
 | **ISL** (Invisible Sales Letter) | Content Mavericks | **VELO** | **V**enta **E**stratégica con **L**ectura **O**rgánica — venta invisible a través de contenido | flujo, landing-pages |
 | **Ski Slope Strategy** | Content Mavericks | **PENDIENTE** | Progresión de contenido por dificultad (verde → negro). "Pendiente" = slope en español | content-strategy |
 | **Topic Triangle** | Content Mavericks | **TRIÁNGULO DE INGRESOS** | Priorización de temas por potencial de revenue | content-strategy |

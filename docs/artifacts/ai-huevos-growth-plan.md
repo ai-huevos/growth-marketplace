@@ -12,7 +12,7 @@ El marketplace se compone de **122 archivos** versionados en Git, estructurados 
 | `growth-foundations` | 1.0.0 | Diagnóstico ClarQ y estrategia base (Ski Slope/Topic Triangle). | 6 |
 | `sales-blueprint` | 1.0.0 | Ejecución de ventas consultivas (PULSO/Metodología GrowthOS). | 4 |
 | `copywriting-engine` | 1.0.0 | Motor de persuasión basado en 38k+ titulares analizados. | 4 |
-| `dotcom-secrets` | 1.0.0 | Arquitectura de funnels y Escala de Valor (ESCALA/FLUJO). | 4 |
+| `motor-de-ofertas` | 1.0.0 | Arquitectura de funnels y Escala de Valor (ESCALA/FLUJO). | 4 |
 | `conversational-pm` | 1.0.0 | Orquestación de agentes mediante modelo de irrigación. | 1 |
 
 **Nota Arquitectónica:** El skill `content-strategy` ha sido consolidado en `growth-foundations` para alimentar directamente el **Topic Triangle**, priorizando temas con CPC >$10 para maximizar el retorno orgánico.

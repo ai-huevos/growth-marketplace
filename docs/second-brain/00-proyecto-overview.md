@@ -63,8 +63,8 @@ Motor de copywriting basado en datos reales: 38,737 headlines, 4,129 triggers ps
 | `/headline` | Command | Generación rápida de 10+ titulares |
 | `/email-sequence` | Command | Constructor de secuencias 5-7 emails |
 
-### 4. dotcom-secrets
-Funnels de conversión B2B basados en DotCom Secrets de Russell Brunson, adaptados a LATAM con frameworks branded propios.
+### 4. motor-de-ofertas
+Motor de Ofertas: funnels y escaleras de valor B2B para LATAM (ESCALA, FLUJO, Alma) con frameworks branded propios.
 
 | Componente | Tipo | Propósito |
 |-----------|------|-----------|
@@ -95,7 +95,7 @@ PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización) es el leng
 - **growth-foundations** usa PULSO para **diagnosticar** el ICP y **segmentar** el mercado en buckets vía quiz funnels
 - **sales-blueprint** usa PULSO para **evaluar** oportunidades, gestionar pipeline, generar propuestas y coachear
 - **copywriting-engine** usa los insights de PULSO para **comunicar** con copy efectivo
-- **dotcom-secrets** usa PULSO vía RADAR para **posicionar** al prospect en el tier correcto del value ladder ESCALA
+- **motor-de-ofertas** usa PULSO vía RADAR para **posicionar** al prospect en el tier correcto del value ladder ESCALA
 - **conversational-pm** usa PULSO para **descubrir** requisitos de proyecto y clasificar complejidad antes de despachar agentes
 
 ## Datos Clave del Proyecto
@@ -120,7 +120,7 @@ PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización) es el leng
 /plugin install growth-foundations@growth-marketplace
 /plugin install sales-blueprint@growth-marketplace
 /plugin install copywriting-engine@growth-marketplace
-/plugin install dotcom-secrets@growth-marketplace
+/plugin install motor-de-ofertas@growth-marketplace
 /plugin install conversational-pm@growth-marketplace
 ```
 

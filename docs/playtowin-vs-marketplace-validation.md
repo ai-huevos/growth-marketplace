@@ -24,7 +24,7 @@
 | **growth-foundations** | ICP, positioning, competitive, ClarQ, quiz, content strategy | ICP scoring 0–100, ClarQ 0–40, ASK quiz funnel, Ski Slope, Topic Triangle, content workflows |
 | **sales-blueprint** | Discovery, pipeline, propuesta, coaching | PULSO, ACE, discovery, pipeline Bowtie, proposal, REKS, coaching plays, SDR agent, deal-strategist |
 | **copywriting-engine** | Copy end-to-end | 4-agent pipeline, headlines, email sequences, landing pages, psychological triggers |
-| **dotcom-secrets** | Funnels, value ladder, alma de marca | ESCALA, FLUJO (7 fases), Alma (ACF, IMAN, SOAP), funnel optimization |
+| **motor-de-ofertas** | Funnels, value ladder, alma de marca | ESCALA, FLUJO (7 fases), Alma (ACF, IMAN, SOAP), funnel optimization |
 | **conversational-pm** | Orquestación proyectos B2B | Agent roster, project templates, architecture patterns |
 
 Más: ingestion-orchestrator (triage), template-catalog, execution-log, second-brain, triage-report-playbooks.
@@ -59,13 +59,13 @@ Conclusión: el núcleo “sales system” (PULSO, REKS, discovery, ICP, pipelin
 | **ClarQ** | growth-foundations: /diagnostico, 4 dimensiones (GTM, Revenue, Q2C, Capabilities), heatmap 0–40 | No existe “ClarQ” como diagnóstico operacional; Blueprint 26 es “How to Diagnose” (deal/opportunity), no org-wide. |
 | **Content strategy** (Ski Slope, Topic Triangle, Content Difficulty Matrix, workflows solo creator / agency / B2B SaaS) | growth-foundations: content-strategy | Solo “thought leadership” y “content-to-revenue” en GTM_STRATEGY; no frameworks con nombre ni workflows por tipo de equipo. |
 | **Copywriting-engine** completo | copywriting-engine: 4-agent pipeline, headline mastery, email sequences, landing pages, psychological triggers | Secuencias por bucket en GTM_STRATEGY; no engine de copy (headlines, landings, triggers, pipeline de 4 agentes). |
-| **dotcom-secrets**: ESCALA, FLUJO, Alma | dotcom-secrets: skills escala, flujo, alma; commands /escala, /funnel-diagnosis | No hay ESCALA (value ladder), FLUJO (7 fases, funnel type selector), ni Alma (ACF, IMAN, SOAP opera) como frameworks; el “funnel” en Play to Win es quiz → webinar → ofertas. |
-| **Funnel optimization** (ciclo, health dashboard, AB test, 90-day plan) | dotcom-secrets: funnel-optimization | No hay skill de “funnel optimization” ni diagnóstico de funnel más allá del quiz funnel. |
+| **motor-de-ofertas**: ESCALA, FLUJO, Alma | motor-de-ofertas: skills escala, flujo, alma; commands /escala, /funnel-diagnosis | No hay ESCALA (value ladder), FLUJO (7 fases, funnel type selector), ni Alma (ACF, IMAN, SOAP opera) como frameworks; el “funnel” en Play to Win es quiz → webinar → ofertas. |
+| **Funnel optimization** (ciclo, health dashboard, AB test, 90-day plan) | motor-de-ofertas: funnel-optimization | No hay skill de “funnel optimization” ni diagnóstico de funnel más allá del quiz funnel. |
 | **Competitive analysis** (Five Forces, battle cards, gap analysis) | growth-foundations: competitive-analysis | No hay bloque dedicado en Play to Win. |
 | **Conversational-PM** (agent roster, project templates) | conversational-pm | No aplica; Play to Win es sales/GTM, no orquestación de proyectos con agentes. |
 | **Ingestion / triage / template catalog / execution log** | docs y tools (ingestion-orchestrator, template-catalog, execution-log) | Son artefactos del propio marketplace; no son parte de la “estrategia Play to Win” como tal. |
 
-Resumen: **sí os quedáis por fuera en Play to Win** en: ClarQ, content strategy (Ski Slope, Topic Triangle, workflows), copywriting-engine completo, dotcom-secrets (ESCALA, FLUJO, Alma, funnel optimization), competitive analysis y todo lo que es “marketplace como producto” (ingestion, catalog, log).
+Resumen: **sí os quedáis por fuera en Play to Win** en: ClarQ, content strategy (Ski Slope, Topic Triangle, workflows), copywriting-engine completo, motor-de-ofertas (ESCALA, FLUJO, Alma, funnel optimization), competitive analysis y todo lo que es “marketplace como producto” (ingestion, catalog, log).
 
 ---
 
@@ -92,12 +92,12 @@ Resumen: Play to Win tiene **un marco de ejecución y GTM** (framework único, r
 
 **Respuesta corta**:  
 - **Desde Play to Win → repo**: El núcleo de la estrategia (sales system + quiz funnel) **sí** está conceptualizado; es la base de sales-blueprint y parte de growth-foundations.  
-- **Desde repo → Play to Win**: **No** está todo el repo conceptualizado en Play to Win. Faltan: ClarQ, content strategy (Ski Slope, Topic Triangle, workflows), copywriting-engine completo, dotcom-secrets (ESCALA, FLUJO, Alma, funnel optimization), competitive analysis y los artefactos de gobierno del marketplace (triage, catalog, execution log).
+- **Desde repo → Play to Win**: **No** está todo el repo conceptualizado en Play to Win. Faltan: ClarQ, content strategy (Ski Slope, Topic Triangle, workflows), copywriting-engine completo, motor-de-ofertas (ESCALA, FLUJO, Alma, funnel optimization), competitive analysis y los artefactos de gobierno del marketplace (triage, catalog, execution log).
 
 **Recomendaciones**
 
 1. **En Play to Win** (si quieres que refleje “todo el marketplace”):  
-   - Añadir una capa que referencie: ClarQ (/diagnostico), content-strategy (Ski Slope, Topic Triangle), copywriting-engine (4-agent, headlines, emails, landings), dotcom-secrets (ESCALA, FLUJO, Alma, funnel optimization), competitive-analysis.  
+   - Añadir una capa que referencie: ClarQ (/diagnostico), content-strategy (Ski Slope, Topic Triangle), copywriting-engine (4-agent, headlines, emails, landings), motor-de-ofertas (ESCALA, FLUJO, Alma, funnel optimization), competitive-analysis.  
    - Puede ser un **“Marketplace alignment index”** (un doc o sección en `master_index` / README) que mapee: Blueprint X / SALES_SYSTEM Part Y ↔ plugin/skill/command en growth-marketplace.
 
 2. **En el repo** (si quieres que la “estrategia Play to Win” sea explícita):  

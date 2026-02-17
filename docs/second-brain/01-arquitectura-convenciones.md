@@ -65,7 +65,7 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │       ├── copy.md              ← Orquesta el pipeline de 4 agentes
 │   │       ├── headline.md
 │   │       └── email-sequence.md
-│   ├── dotcom-secrets/              ← Funnels + value ladders (ESCALA/FLUJO/Alma)
+│   ├── motor-de-ofertas/              ← Funnels + value ladders (ESCALA/FLUJO/Alma)
 │   │   ├── .claude-plugin/plugin.json
 │   │   ├── README.md
 │   │   ├── skills/
@@ -160,7 +160,7 @@ Estructura fija:
 - Skills referencian sus propios subdirectorios via rutas relativas
 - Commands referencian agents y skills del mismo plugin
 - El plugin `sales-blueprint` es especialmente interconnectado: discovery → pipeline → proposals → coaching
-- `dotcom-secrets` tiene cross-references internas fuertes: escala ↔ flujo ↔ alma, orquestados por funnel-architect
+- `motor-de-ofertas` tiene cross-references internas fuertes: escala ↔ flujo ↔ alma, orquestados por funnel-architect
 - `conversational-pm` usa PULSO para project discovery, conectándose con sales-blueprint
 
 ### Scoring Models

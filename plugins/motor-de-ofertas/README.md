@@ -1,6 +1,6 @@
-# dotcom-secrets
+# motor-de-ofertas
 
-Metodologia DotCom Secrets de Russell Brunson adaptada a B2B LATAM. Plugin del [AI Huevos Growth Marketplace](../../README.md).
+Motor de Ofertas: sistema de escaleras de valor, funnels y personaje de marca para B2B LATAM. Plugin del [AI Huevos Growth Marketplace](../../README.md).
 
 Stack de frameworks branded: **ESCALA** (value ladder) → **FLUJO** (funnel architecture) → **Alma** (brand soul + email system).
 
@@ -62,5 +62,5 @@ Agente de arquitectura de funnels. Disena blueprints completos integrando FLUJO 
 /plugin marketplace add ai-huevos/growth-marketplace
 
 # Instalar el plugin
-/plugin install dotcom-secrets@growth-marketplace
+/plugin install motor-de-ofertas@growth-marketplace
 ```

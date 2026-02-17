@@ -220,7 +220,7 @@ Fecha: YYYY-MM-DD
 
 4. **Revisa** el inventario actual del marketplace:
    - `docs/template-catalog.md` — índice de templates
-   - Plugins: growth-foundations, sales-blueprint, copywriting-engine, dotcom-secrets, conversational-pm
+   - Plugins: growth-foundations, sales-blueprint, copywriting-engine, motor-de-ofertas, conversational-pm
    - Skills dentro de cada plugin (ver CLAUDE.md para la lista completa)
 5. **Para cada elemento**, determina el % de solapamiento con skills existentes
 
@@ -293,12 +293,12 @@ Reporte de Triage — Content Mavericks Ecosystem
 | 2 | Ski Slope Strategy    | CREATE           | growth-foundations/content-strategy| Llena gap crítico de content mktg |
 | 3 | Greatest Hits Survey  | ENRICH           | growth-foundations/icp-analysis   | Agrega método de audience research|
 | 4 | AIDA Article Template | ENRICH           | copywriting-engine/headline-mastery| Agrega fórmulas RPT/TRP/CPR      |
-| 5 | Three Jabs Strategy   | ENRICH           | dotcom-secrets/flujo             | Mecánicas de lead magnet          |
+| 5 | Three Jabs Strategy   | ENRICH           | motor-de-ofertas/flujo             | Mecánicas de lead magnet          |
 | 6 | Red Packet Partners   | TEMPLATIZE       | growth-foundations/positioning    | SOP de outreach de partnerships   |
-| 7 | $5 Hit Records        | TEMPLATIZE       | dotcom-secrets/flujo             | SOP de ad campaign low-budget     |
+| 7 | $5 Hit Records        | TEMPLATIZE       | motor-de-ofertas/flujo             | SOP de ad campaign low-budget     |
 | 8 | 900 Word Emails       | MERGE            | copywriting-engine/email-sequences| Patrón de email high-ticket       |
 | 9 | Viral Content Upgrades| TEMPLATIZE       | growth-foundations/content-strategy| SOP de viral sharing              |
-|10 | ISL System            | REVERSE-ENGINEER | dotcom-secrets/flujo             | 1-page funnel type para selector  |
+|10 | ISL System            | REVERSE-ENGINEER | motor-de-ofertas/flujo             | 1-page funnel type para selector  |
 |11 | CM Masters            | REVERSE-ENGINEER | Informa content-strategy         | Metodología de 3 etapas           |
 |12 | Greatest Hits Content | SKIP             | —                                | Superconjunto de módulos MTLC     |
 |13 | CM Elite              | SKIP             | —                                | Servicio, no metodología          |

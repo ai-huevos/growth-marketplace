@@ -12,7 +12,7 @@
 | `growth-foundations` | 6 | 0 | 3 | 6 | 11 | 3 | 5 |
 | `sales-blueprint` | 4 | 2 | 4 | 5 | 5 | 0 | 1 |
 | `copywriting-engine` | 4 | 4 | 3 | 4 | 1 | 7 | 0 |
-| `dotcom-secrets` | 4 | 1 | 2 | 10 | 12 | 7 | 1 |
+| `motor-de-ofertas` | 4 | 1 | 2 | 10 | 12 | 7 | 1 |
 | `conversational-pm` | 1 | 0 | 0 | 0 | 3 | 0 | 0 |
 | **TOTAL** | **18** | **7** | **12** | **25** | **32** | **17** | **6** |
 
@@ -40,7 +40,7 @@
 3. `landing-pages` — Arquitectura de conversión 10 secciones + ISL
 4. `psychological-triggers` — 10 gatillos psicológicos
 
-**dotcom-secrets (4):**
+**motor-de-ofertas (4):**
 1. `escala` — Value Ladder (Bait → Frontend → Backend)
 2. `flujo` — 7 fases del funnel + traffic types + ISL
 3. `alma` — Attractive Character Framework (ACF 10 steps) + IMAN email
@@ -58,7 +58,7 @@
 | `copy-output-agent` | copywriting-engine | Redacción final (Fase 4) |
 | `sdr-agent` | sales-blueprint | Investigación + outreach sequences |
 | `deal-strategist` | sales-blueprint | Análisis crítico de oportunidades |
-| `funnel-architect` | dotcom-secrets | Diseño de blueprints de embudos |
+| `funnel-architect` | motor-de-ofertas | Diseño de blueprints de embudos |
 
 ### Agentes de Roster (5 — definidos en `conversational-pm/frameworks/agent-roster.md`)
 | Agente | Responsabilidad |
@@ -82,8 +82,8 @@
 | `/copy` | copywriting-engine | Pipeline de 4 agentes |
 | `/headline` | copywriting-engine | Generación de headlines |
 | `/email-sequence` | copywriting-engine | Email sequence builder |
-| `/escala` | dotcom-secrets | ESCALA value ladder builder |
-| `/funnel-diagnosis` | dotcom-secrets | Funnel optimization diagnosis |
+| `/escala` | motor-de-ofertas | ESCALA value ladder builder |
+| `/funnel-diagnosis` | motor-de-ofertas | Funnel optimization diagnosis |
 
 ---
 
@@ -113,7 +113,7 @@
 # 10-decisiones-diseno (keep 406bf003, delete 6b21375c)
 # 11-gtm-skills-landscape (keep 05212fa3, delete 833ab219)
 # 12-validacion-mercado (keep 8ed2c1a1, delete ed9214bb)
-# 18-plugin-dotcom-secrets (keep 7dc9cfea, delete b0d0ba68)
+# 18-plugin-motor-de-ofertas (keep 7dc9cfea, delete b0d0ba68)
 # 19-deep-research (keep 649bab05, delete f58a0d01)
 ```
 
@@ -171,7 +171,7 @@
                          ▼
 ┌─────────────────────────────────────────────────────────────┐
 │            FASE 2: ARQUITECTURA DEL FUNNEL                  │
-│  dotcom-secrets                                              │
+│  motor-de-ofertas                                              │
 │  /escala → Value Ladder (Bait/Frontend/Backend)             │
 │  flujo → 7 fases del funnel + traffic types                 │
 │  alma → Attractive Character + voz de marca                 │

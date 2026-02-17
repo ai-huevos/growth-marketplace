@@ -157,8 +157,8 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 | **ICP Analysis** (growth-foundations) | Paso 1 — el ICP define las necesidades de contenido |
 | **Quiz Funnel** (growth-foundations) | Blue Square — quiz como lead magnet que cualifica y segmenta |
 | **Positioning** (growth-foundations) | Define el ángulo diferenciador del contenido vs. competencia |
-| **FLUJO** (dotcom-secrets) | Los niveles de Ski Slope alimentan las fases del funnel |
-| **ESCALA** (dotcom-secrets) | El value ladder define qué ofrecer en cada nivel |
+| **FLUJO** (motor-de-ofertas) | Los niveles de Ski Slope alimentan las fases del funnel |
+| **ESCALA** (motor-de-ofertas) | El value ladder define qué ofrecer en cada nivel |
 | **Copywriting Engine** | Templates AIDA para escribir cada pieza de contenido |
 | **Discovery Mastery** (sales-blueprint) | Black Diamond content prepara leads para la llamada de discovery |
 

@@ -44,7 +44,7 @@ plugins/
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Metodología GrowthOS / PULSO |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | PULSO project discovery, Growth Diagnostic Router, Agent roster |
-| `dotcom-secrets` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma (Russell Brunson adapted to B2B LATAM) |
+| `motor-de-ofertas` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma |
 | `play-to-win` | 11 skills: sales transformation, customer success, deal strategy, relationship mapping, renewal/expansion, pre-discovery research, product marketing, ICP/TAL, customer journey, discovery/demo, advanced techniques | Metodología GrowthOS full lifecycle (90-day transformation, CS Operating Model, Playbook Coach) |
 
 ### Tools (non-plugin)
@@ -80,8 +80,8 @@ plugins/
 | `/copy` | copywriting-engine | 4-agent copywriting pipeline |
 | `/headline` | copywriting-engine | Headline generation |
 | `/email-sequence` | copywriting-engine | Email sequence builder |
-| `/escala` | dotcom-secrets | ESCALA value ladder builder |
-| `/funnel-diagnosis` | dotcom-secrets | Funnel optimization diagnosis |
+| `/escala` | motor-de-ofertas | ESCALA value ladder builder |
+| `/funnel-diagnosis` | motor-de-ofertas | Funnel optimization diagnosis |
 | `/playbook` | play-to-win | GTM playbook synthesizer (AI Sales Coach) |
 | `/deal-analysis` | play-to-win | Win/loss PULSO analysis session |
 | `/kickoff` | play-to-win | Customer kickoff call orchestrator |

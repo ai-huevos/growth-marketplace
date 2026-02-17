@@ -29,7 +29,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | growth-foundations | 6 | 3 | 0 | 11 | 6 | 3 | 5 | 36 |
 | sales-blueprint | 4 | 4 | 2 | 5 | 5 | 0 | 1 | 23 |
 | copywriting-engine | 4 | 3 | 4 | 1 | 4 | 7 | 0 | 25 |
-| dotcom-secrets | 4 | 2 | 1 | 12 | 10 | 7 | 1 | 39 |
+| motor-de-ofertas | 4 | 2 | 1 | 12 | 10 | 7 | 1 | 39 |
 | conversational-pm | 1 | 0 | 0 | 3 | 0 | 0 | 0 | 6 |
 | **Total** | **18** | **12** | **7** | **32** | **25** | **17** | **6** | **122** |
 
@@ -225,12 +225,12 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 ---
 
-## Plugin: dotcom-secrets (39 archivos)
+## Plugin: motor-de-ofertas (39 archivos)
 
 ### Configuración y Docs
 | Archivo | Propósito |
 |---------|-----------|
-| `.claude-plugin/plugin.json` | Manifiesto: version 1.0.0, DotCom Secrets B2B |
+| `.claude-plugin/plugin.json` | Manifiesto: version 1.0.0, Motor de Ofertas B2B |
 | `README.md` | 4 skills, 2 commands, 1 agent, frameworks branded ESCALA/FLUJO/Alma |
 
 ### Skill: escala
