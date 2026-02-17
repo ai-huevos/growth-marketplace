@@ -81,20 +81,68 @@ Cuando `team_size <= 3`, la PM aplica reglas especiales:
 
 La PM activa plugins y skills como herramientas. No ejecuta el trabajo técnico — lo delega.
 
-### Tabla de Routing
+### Tabla de Routing Completa (29 Skills)
 
-| Necesidad detectada | Plugin/Command | Input que la PM prepara | Output esperado |
-|--------------------|----------------|------------------------|-----------------|
-| "No sé quién es mi cliente ideal" | `/icp` | ICP draft de la ingesta | Perfil ICP con scoring 0-100, 3 tiers |
-| "No sé si mi GTM funciona" | `/diagnostico` | Contexto de negocio | ClarQ heatmap (GTM/Revenue/Q2C/Capabilities) |
-| "No sé cómo cobrar / qué ofrecer" | `/escala` | Productos/servicios actuales | Value Ladder (Bait→Frontend→Backend) |
+#### Fase DEFINIR — Identidad, ICP y Posicionamiento
+
+| Necesidad detectada | Skill/Command | Input que la PM prepara | Output esperado |
+|--------------------|---------------|------------------------|-----------------|
+| "No sé quién es mi cliente ideal" | `/icp` (icp-analysis) | ICP draft de la ingesta | Perfil ICP con scoring 0-100, 3 tiers |
+| "Necesito una lista de cuentas objetivo" | `icp-tal` | ICP + criterios de empresa | Target Account List priorizada |
+| "Cómo me diferencio de la competencia" | `positioning` | ICP + oferta | Statement de posicionamiento único |
+| "Quién compite conmigo" | `competitive-analysis` | Industria + oferta | Landscape competitivo, battle cards |
+| "Necesito definir la voz de mi marca" | `alma` | Fundador/marca info | ACF profile, ORIGEN + PULSAR sequences |
+| "Cómo comunicar mi producto" | `product-marketing` | Producto + ICP | Messaging architecture, ARCO DE TRANSFORMACIÓN |
+
+#### Fase ATRAER — Contenido, Funnels y Lead Generation
+
+| Necesidad detectada | Skill/Command | Input que la PM prepara | Output esperado |
+|--------------------|---------------|------------------------|-----------------|
 | "No sé qué contenido crear" | `content-strategy` | ICP + positioning | Plan PENDIENTE + TRIÁNGULO DE INGRESOS |
-| "Necesito copy para lanzar" | `/copy` | ICP + positioning + value prop | Landing page + email sequence |
-| "Necesito mejorar mi pipeline" | `/pipeline` | Datos de pipeline actuales | Health analysis con PULSO scoring |
-| "Necesito propuesta comercial" | `/propuesta` | PULSO discovery data | Propuesta con business case |
-| "Necesito mejorar mi equipo" | coaching-cadence | Team assessment | ROCA diagnosis + coaching plan |
-| "Quiero diseñar mi funnel" | `/escala` + flujo | Value Ladder + traffic data | Funnel blueprint completo |
-| "Quiero construir comunidad" | alma → community pipeline | Brand voice + ICP | Community launch plan |
+| "Quiero un quiz para generar leads" | `/quiz` (quiz-funnel) | ICP + dolor principal | Quiz funnel con SONDA, PREGUNTA RAÍZ |
+| "Cómo estructurar mi oferta" | `/escala` (escala) | Productos/servicios actuales | Escalera de valor (BAIT→FRONTEND→MIDDLE→BACKEND) |
+| "Necesito diseñar mi funnel" | `flujo` | Value Ladder + traffic data | Funnel blueprint completo (7 fases) |
+| "Cómo optimizar mi funnel" | `funnel-optimization` | Funnel existente + métricas | Diagnóstico + plan de optimización |
+| "Necesito headlines que conviertan" | `headline-mastery` | ICP + oferta + contexto | Headlines optimizados por tipo |
+| "Necesito landing pages" | `landing-pages` | ICP + oferta + copy | Landing pages y VELO pages |
+
+#### Fase CONVERTIR — Discovery, Pipeline y Propuestas
+
+| Necesidad detectada | Skill/Command | Input que la PM prepara | Output esperado |
+|--------------------|---------------|------------------------|-----------------|
+| "Cómo hacer discovery calls" | `/discovery` (discovery-mastery) | Prospect info + contexto | Discovery playbook con AVE + PULSO |
+| "Cómo conectar discovery con demo" | `discovery-demo` | Discovery data + producto | Progression discovery→demo, VAGONES |
+| "Necesito research antes de llamar" | `pre-discovery-research` | Prospect company | Research report, stakeholder map inicial |
+| "Cómo mejorar mi pipeline" | `/pipeline` (pipeline-management) | Datos de pipeline actuales | Health analysis con ROCA scoring |
+| "Necesito propuesta comercial" | `/propuesta` (proposal-generation) | PULSO discovery data | Propuesta con business case |
+| "Cómo ganar más deals" | `/deal-analysis` (deal-strategy) | Deal data + contexto | Win/loss analysis, estrategia de deal |
+| "Cómo mapear stakeholders" | `relationship-mapping` | Stakeholders identificados | Mapa 3x3 de stakeholders |
+| "Técnicas avanzadas de cierre" | `advanced-techniques` | Contexto de deal | Técnicas específicas para el deal |
+| "Necesito secuencias de email" | `email-sequences` | ICP + oferta + funnel stage | Secuencias de email personalizadas |
+| "Triggers psicológicos en copy" | `psychological-triggers` | Copy + contexto | Análisis y optimización de triggers |
+
+#### Fase ESCALAR — Customer Success, Renovación y Transformación
+
+| Necesidad detectada | Skill/Command | Input que la PM prepara | Output esperado |
+|--------------------|---------------|------------------------|-----------------|
+| "Cómo retener clientes" | `customer-success-ops` | Clientes + métricas | CS Operating Model, PIC, health scoring |
+| "Cómo renovar y expandir" | `renewal-expansion` | Clientes + datos de uso | Renewal playbooks, expansion triggers |
+| "Cómo mejorar mi equipo de ventas" | `/coaching` (coaching-cadence) | Team assessment | ROCA diagnosis + coaching plan |
+| "Transformar mi equipo de ventas" | `sales-transformation` | Team + contexto | Playbooks, transformation plan |
+| "Mapear journey del cliente" | `customer-journey` | Clientes + datos | Journey map, MÉTODO DE 7 MOMENTOS |
+| "Optimizar mi funnel existente" | `funnel-optimization` | Funnel + métricas | Diagnóstico + plan de optimización |
+
+#### Comandos Transversales
+
+| Necesidad detectada | Command | Input que la PM prepara | Output esperado |
+|--------------------|---------|------------------------|-----------------|
+| "No sé si mi GTM funciona" | `/diagnostico` | Contexto de negocio | ClarQ heatmap (GTM/Revenue/Q2C/Capabilities) |
+| "Necesito copy completo" | `/copy` | ICP + positioning + value prop | Landing page + email sequence (4 agentes) |
+| "Iniciar GrowthOS" | `/os` | Ninguno (nuevo usuario) | Intake conversacional → routing a fase |
+| "Ver mi roadmap" | `/roadmap` | GCO existente | Roadmap de 90 días actualizado |
+| "Ver mi estado actual" | `/estado` | GCO existente | Estado actual (fase, skills, outputs) |
+| "Kickoff con cliente" | `/kickoff` | Cliente nuevo + contexto | Kickoff call orchestrator |
+| "Síntesis de playbook" | `/playbook` | Skills completados | GTM playbook synthesizer |
 
 ### Protocolo de Routing
 
