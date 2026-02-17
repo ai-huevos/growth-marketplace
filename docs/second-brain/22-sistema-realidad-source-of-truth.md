@@ -107,7 +107,7 @@
 ### Duplicados a Eliminar (IDs)
 ```
 # 01-arquitectura-convenciones (keep 262c5711, delete 525fa339)
-# 02-metodologia-spiced (keep 3a08b8fd, delete c1cb3631)
+# 02-metodologia-pulso (keep 3a08b8fd, delete c1cb3631)
 # 06-modelos-scoring (keep beb6056c, delete e442e79c)
 # 07-sistema-agentes (keep 3bd9b605, delete dc58ed24)
 # 10-decisiones-diseno (keep 406bf003, delete 6b21375c)
@@ -123,7 +123,7 @@
 # power-headlines.md → 0e278688 (ya existe en copywriting-engine/headline-mastery/patterns/)
 # roca-framework.md → 31d18bef (ya existe en sales-blueprint/coaching-cadence/frameworks/)
 # scoring-model.md → 993ccec7 (ya existe en growth-foundations/icp-analysis/frameworks/)
-# spiced-framework.md → fa10254c (ya existe en sales-blueprint/discovery-mastery/frameworks/)
+# pulso-framework.md → fa10254c (ya existe en sales-blueprint/discovery-mastery/frameworks/)
 # trigger-library.md → 7b9394e9 (ya existe en copywriting-engine/psychological-triggers/patterns/)
 # growth-marketplace-full-codebase.md → 9d9425e4 (stale pasted dump)
 # Untitled document → af134560 (basura)

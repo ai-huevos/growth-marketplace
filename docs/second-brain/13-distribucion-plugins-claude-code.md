@@ -123,7 +123,7 @@ my-plugin/
   "homepage": "https://github.com/...",
   "repository": "https://github.com/...",
   "license": "MIT",
-  "keywords": ["growth", "b2b", "sales", "marketing", "spiced"]
+  "keywords": ["growth", "b2b", "sales", "marketing", "pulso"]
 }
 ```
 
@@ -212,7 +212,7 @@ Un marketplace es un repositorio Git con un archivo `.claude-plugin/marketplace.
       "description": "ICP scoring, positioning, competitive analysis, ClarQ diagnostic",
       "version": "1.0.0",
       "category": "growth",
-      "tags": ["icp", "positioning", "spiced", "b2b"],
+      "tags": ["icp", "positioning", "pulso", "b2b"],
       "keywords": ["growth", "icp", "positioning", "competitive-analysis"]
     },
     {
@@ -221,7 +221,7 @@ Un marketplace es un repositorio Git con un archivo `.claude-plugin/marketplace.
       "description": "Discovery calls, pipeline management, proposals, sales coaching",
       "version": "1.0.0",
       "category": "sales",
-      "tags": ["sales", "pipeline", "discovery", "spiced"]
+      "tags": ["sales", "pipeline", "discovery", "pulso"]
     },
     {
       "name": "copywriting-engine",

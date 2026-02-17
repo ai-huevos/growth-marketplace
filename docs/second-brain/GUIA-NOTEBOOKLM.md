@@ -15,7 +15,7 @@ Sube los siguientes 11 archivos desde `docs/second-brain/` en este orden:
 |---|---------|-----------|-----------|
 | 1 | `00-proyecto-overview.md` | Visión general, plugins, audiencia, datos clave | Alta |
 | 2 | `01-arquitectura-convenciones.md` | Estructura de archivos, anatomía de plugins, patrones | Alta |
-| 3 | `02-metodologia-spiced.md` | PULSO completo: 5 dimensiones, scoring, conexiones | Alta |
+| 3 | `02-metodologia-pulso.md` | PULSO completo: 5 dimensiones, scoring, conexiones | Alta |
 
 ### Documentos por Plugin (subir segundo)
 | # | Archivo | Contenido | Prioridad |
@@ -39,7 +39,7 @@ También puedes subir directamente los archivos clave del repositorio:
 
 | Archivo | Por qué subirlo |
 |---------|-----------------|
-| `spiced-framework.md` | El framework más importante — detalle completo con scoring |
+| `pulso-framework.md` | El framework más importante — detalle completo con scoring |
 | `trigger-library.md` | Los 10 triggers con implementación detallada por canal |
 | `power-headlines.md` | Las 50 fórmulas de headlines con todos los ejemplos |
 | `reks-framework.md` | REKS completo con árbol de decisión y scorecards |

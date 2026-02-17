@@ -197,7 +197,7 @@ Campos mínimos por diseño:
   "version": "1.0.0",
   "description": "Descripción corta para discovery",
   "author": "AI Huevos <hola@huevos.ai>",
-  "keywords": ["b2b", "sales", "spiced"]
+  "keywords": ["b2b", "sales", "pulso"]
 }
 ```
 
@@ -290,7 +290,7 @@ sales-blueprint/skills/
 ├── discovery-mastery/     ← "discovery call", "PULSO"
 │   ├── SKILL.md
 │   ├── frameworks/
-│   │   ├── spiced-framework.md
+│   │   ├── pulso-framework.md
 │   │   └── question-bank.md
 │   ├── templates/
 │   │   └── call-prep.md
@@ -764,7 +764,7 @@ Nunca hay referencias CROSS-PLUGIN a nivel de archivos. La conexión cross-plugi
 ## Documentos relacionados
 
 - `01-arquitectura-convenciones.md` — Convenciones de archivos y estructura
-- `02-metodologia-spiced.md` — PULSO framework en detalle
+- `02-metodologia-pulso.md` — PULSO framework en detalle
 - `06-modelos-scoring.md` — Todos los modelos de scoring
 - `07-sistema-agentes.md` — Workflows de agentes con diagramas ASCII
 - `13-distribucion-plugins-claude-code.md` — Distribución y marketplace

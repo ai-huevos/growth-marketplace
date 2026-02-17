@@ -603,6 +603,6 @@ Todo conectado por PULSO como lenguaje común.
 ## Documentos relacionados
 
 - `01-arquitectura-convenciones.md` — Estructura técnica del repositorio
-- `02-metodologia-spiced.md` — PULSO en detalle
+- `02-metodologia-pulso.md` — PULSO en detalle
 - `07-sistema-agentes.md` — Workflows de los 6 agentes
 - `15-arquitectura-sistema.md` — Arquitectura técnica del sistema

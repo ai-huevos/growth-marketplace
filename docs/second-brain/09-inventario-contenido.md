@@ -125,7 +125,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | Archivo | Propósito |
 |---------|-----------|
 | `skills/discovery-mastery/SKILL.md` | ACE opening + PULSO diagnóstico + 7 Momentos |
-| `skills/discovery-mastery/frameworks/spiced-framework.md` | **ARCHIVO CLAVE**: Guía completa PULSO scoring (5 dimensiones, 1-5 cada una, errores comunes) |
+| `skills/discovery-mastery/frameworks/pulso-framework.md` | **ARCHIVO CLAVE**: Guía completa PULSO scoring (5 dimensiones, 1-5 cada una, errores comunes) |
 | `skills/discovery-mastery/frameworks/question-bank.md` | Banco de preguntas por industria/stakeholder |
 | `skills/discovery-mastery/templates/call-prep.md` | Template de preparación pre-call |
 | `skills/discovery-mastery/examples/discovery-example.md` | Ejemplo real: ACME Cybersecurity |
@@ -316,7 +316,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 Estos son los archivos más importantes del repositorio — los que concentran la mayor cantidad de conocimiento:
 
-1. **`spiced-framework.md`** — La biblia de PULSO: scoring completo, errores comunes, tabla consolidada
+1. **`pulso-framework.md`** — La biblia de PULSO: scoring completo, errores comunes, tabla consolidada
 2. **`trigger-library.md`** — Los 10 triggers psicológicos: leverage, implementación por canal, combinaciones, ética
 3. **`power-headlines.md`** — 50 fórmulas de headlines en 10 categorías con ejemplos accionables
 4. **`scoring-model.md`** — ICP scoring 0-100: 5 categorías, ejemplo real ACME

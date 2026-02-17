@@ -7,7 +7,7 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 ## Frameworks Metodológicos
 
 ### 1. PULSO (Metodología GrowthOS)
-**Ubicación**: `sales-blueprint/skills/discovery-mastery/frameworks/spiced-framework.md`
+**Ubicación**: `sales-blueprint/skills/discovery-mastery/frameworks/pulso-framework.md`
 **Usado por**: discovery-mastery, pipeline-management, proposal-generation, coaching-cadence, sdr-agent, deal-strategist
 **Tipo**: Framework de diagnóstico de oportunidades de venta
 **Componentes**: Situation, Pain, Impact, Critical Event, Decision

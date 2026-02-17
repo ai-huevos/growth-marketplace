@@ -42,7 +42,7 @@ Preparación y ejecución de discovery calls con apertura ACE, diagnóstico PULS
 
 ### Archivos
 - `SKILL.md`: Proceso completo
-- `frameworks/spiced-framework.md`: Guía completa de PULSO con scoring
+- `frameworks/pulso-framework.md`: Guía completa de PULSO con scoring
 - `frameworks/question-bank.md`: Banco de preguntas por industria/stakeholder
 - `templates/call-prep.md`: Template de preparación
 - `examples/discovery-example.md`: Ejemplo real (ACME Cybersecurity)

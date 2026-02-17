@@ -29,7 +29,7 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 - Crear un framework propio habría requerido validación adicional
 - PULSO mapea naturalmente al ciclo de venta: diagnosticar (ICP) → calificar (discovery) → gestionar (pipeline) → proponer (proposals) → mejorar (coaching)
 
-**Implicación**: Si el usuario no conoce PULSO, hay una curva de aprendizaje. El archivo `spiced-framework.md` actúa como onboarding.
+**Implicación**: Si el usuario no conoce PULSO, hay una curva de aprendizaje. El archivo `pulso-framework.md` actúa como onboarding.
 
 ---
 
@@ -43,7 +43,7 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 - **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar), motor-de-ofertas (funnels), conversational-pm (orquestar)
 - **Mantenimiento**: Se pueden actualizar independientemente
 
-**Trade-off**: Hay duplicación menor (PULSO se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/spiced-framework.md`.
+**Trade-off**: Hay duplicación menor (PULSO se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/pulso-framework.md`.
 
 **Evolución (Feb 2026)**: La modularidad validó la decisión — `motor-de-ofertas` y `conversational-pm` se agregaron sin afectar plugins existentes. Cada nuevo plugin tiene un scope claro que no se solapa con los originales.
 
