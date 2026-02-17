@@ -1,6 +1,6 @@
 # Framework: Hero's Journey Storytelling
 
-Sistema de storytelling para ventas B2B que transforma casos de exito en narrativas de 3 partes usando el Hero's Journey simplificado. Basado en Blueprint 22 de Winning by Design y la neurociencia del storytelling aplicada a contextos comerciales.
+Sistema de storytelling para ventas B2B que transforma casos de exito en narrativas de 3 partes usando el Hero's Journey simplificado. Basado en el concepto de Storytelling de la Metodología GrowthOS y la neurociencia del storytelling aplicada a contextos comerciales.
 
 ## Principios fundamentales
 
@@ -55,7 +55,7 @@ Una presentacion de features activa solo el area de Broca y Wernicke (procesamie
 El Hero's Journey clasico de Joseph Campbell tiene 12 etapas. Para ventas B2B, lo simplificamos en 3 partes que se pueden contar en menos de 2 minutos.
 
 ```
-PARTE 1: SITUATION          PARTE 2: PAIN              PARTE 3: IMPACT
+PARTE 1: PANORAMA           PARTE 2: URGENCIA          PARTE 3: LOGRO
 ─────────────────           ─────────────              ───────────────
 Hacer personal              Impacto negativo           El cliente es heroe
 
@@ -135,7 +135,7 @@ La diferencia entre un pitch y una historia de referencia es la percepcion del p
 >
 > Cuando Mark llego, se encontro con que su equipo de 12 reps cerraba solo el 15% de los deals. Pero lo peor no era el numero — era que nadie sabia *por que* perdian. Cada lunes, Mark revisaba un forecast que sabia que era ficcion. En la quarterly anterior, el CEO le pregunto directamente por que deberia seguir invirtiendo en el equipo de ventas. Mark no tuvo respuesta.
 >
-> Entonces Mark decidio hacer algo diferente. Implemento un proceso de calificacion basado en SPICED y empezo a analizar sus deals ganados y perdidos de forma sistematica. En 90 dias, descubrio que el 70% de su pipeline eran deals con menos de 2% de probabilidad de cerrar. Redireccion ese tiempo hacia deals calificados. El resultado: win rate del 15% al 28%, ciclo de ventas reducido en 35%, y forecast accuracy arriba del 90%. En la siguiente quarterly, el CEO le dijo: 'Esto es exactamente lo que necesitabamos.'
+> Entonces Mark decidio hacer algo diferente. Implemento un proceso de calificacion basado en PULSO y empezo a analizar sus deals ganados y perdidos de forma sistematica. En 90 dias, descubrio que el 70% de su pipeline eran deals con menos de 2% de probabilidad de cerrar. Redireccion ese tiempo hacia deals calificados. El resultado: win rate del 15% al 28%, ciclo de ventas reducido en 35%, y forecast accuracy arriba del 90%. En la siguiente quarterly, el CEO le dijo: 'Esto es exactamente lo que necesitabamos.'
 >
 > Laura, tu win rate esta en 18%. ¿Que pasaria si pudieras identificar cuales de tus deals actuales tienen menos de 2% de probabilidad de cerrar?"
 
@@ -162,7 +162,7 @@ logro [METRIC cuantificada] al [ACTION especifica].
 
 | SAM Statement | Contexto de uso |
 |--------------|-----------------|
-| "En una empresa SaaS de 200 personas con win rate del 15%, Mark (VP Sales) logro duplicar el win rate en 90 dias al implementar calificacion SPICED sistematica" | Email frio, apertura de call |
+| "En una empresa SaaS de 200 personas con win rate del 15%, Mark (VP Sales) logro duplicar el win rate en 90 dias al implementar calificacion PULSO sistematica" | Email frio, apertura de call |
 | "En un equipo CS de 8 personas con NRR del 85%, Ana (Director CS) logro llevar el NRR al 115% en 6 meses al implementar health scoring basado en impacto" | LinkedIn message, referral ask |
 | "En una startup Serie B con $2M ARR y ciclo de ventas de 180 dias, Carlos (CRO) logro reducir el ciclo a 90 dias al redisenar el proceso de stakeholder meetings" | Pitch deck, one-pager |
 

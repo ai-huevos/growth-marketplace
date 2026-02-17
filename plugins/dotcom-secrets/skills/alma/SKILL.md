@@ -94,15 +94,15 @@ Alma y Copywriting Engine son complementarios, no redundantes:
 
 Workflow ideal: Primero completar Alma (perfil + voz), luego usar Copywriting Engine para cada pieza de contenido, pasando el ACF profile como contexto.
 
-## Integración SPICED
+## Integración PULSO
 
-| SPICED | Conexión con Alma |
-|--------|-------------------|
-| **Situation** | El backstory del personaje debe reflejar una situación que el prospect reconozca como propia |
-| **Pain** | Los defectos y parábolas del personaje demuestran comprensión del dolor del prospect |
-| **Impact** | La historia de transformación del personaje muestra el impacto posible |
-| **Critical Event** | La Soap Opera crea urgencia emocional que funciona como critical event interno |
-| **Decision** | La confianza construida por el personaje reduce fricción en el proceso de decisión |
+| PULSO | Conexión con Alma |
+|-------|-------------------|
+| **Panorama** | El backstory del personaje debe reflejar una situación que el prospect reconozca como propia |
+| **Urgencia** | Los defectos y parábolas del personaje demuestran comprensión del dolor del prospect |
+| **Logro** | La historia de transformación del personaje muestra el impacto posible |
+| **Situación Crítica** | La Soap Opera crea urgencia emocional que funciona como situación crítica interna |
+| **Organización** | La confianza construida por el personaje reduce fricción en el proceso de decisión |
 
 ## Conexiones con otros skills
 

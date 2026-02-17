@@ -102,7 +102,7 @@ Convertir leads en clientes. Cubrir (o acercarse a cubrir) el costo de adquisici
 | **Playbook digital** | $97-$197 | 1-2 horas de lectura | "Playbook de Cold Outreach B2B con 50 templates" |
 | **Toolkit** | $147-$297 | Uso continuo | "Kit de 20 templates para propuestas B2B ganadoras" |
 | **Diagnostico basico** | $197-$297 | 1-2 horas | "Audit express de tu proceso de ventas" |
-| **Curso en linea** | $97-$297 | 5-10 horas | "Curso: Domina SPICED en 5 modulos" |
+| **Curso en linea** | $97-$297 | 5-10 horas | "Curso: Domina PULSO en 5 modulos" |
 
 ### Principio Clave del Frontend
 

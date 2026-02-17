@@ -95,7 +95,7 @@ Antes de cada acción, pregunta:
 - Plugin destino (existente o nuevo)
 - Nombre del skill propuesto
 - Estructura de archivos estimada
-- Conexiones con skills existentes (SPICED, cross-references)
+- Conexiones con skills existentes (PULSO, cross-references)
 
 ---
 
@@ -183,7 +183,7 @@ El orchestrator puede ejecutarse en **modo auditoría** sobre el contenido EXIST
    - **Redundancias**: Docs que cubren el mismo territorio (candidatos a MERGE)
    - **Gaps**: Skills sin documentación en second-brain, o vice versa
    - **Stale content**: Docs que referencian conteos o estados desactualizados (ej: "59 archivos" cuando hay 140+)
-   - **Desconexiones**: Skills que no conectan con el grafo SPICED
+   - **Desconexiones**: Skills que no conectan con el grafo PULSO
    - **Evolución pendiente**: Templates con 3+ ejecuciones sin benchmark (via execution-log)
 
 **Output del self-audit**:
@@ -203,7 +203,7 @@ Fecha: YYYY-MM-DD
 | 1 | REDUNDANCIA | doc-06 ↔ doc-15 | Scoring models duplicados | MERGE en un solo doc |
 | 2 | STALE | doc-09 | Dice 59 archivos, hay 140+ | UPDATE conteo |
 | 3 | GAP | funnel-architect agent | No documentado en doc-07 | ENRICH doc-07 |
-| 4 | DESCONEXIÓN | content-strategy (nuevo) | No conecta con SPICED | Definir puntos de conexión |
+| 4 | DESCONEXIÓN | content-strategy (nuevo) | No conecta con PULSO | Definir puntos de conexión |
 ```
 
 ---
@@ -312,6 +312,6 @@ Resumen: 3 ENRICH, 1 MERGE, 3 TEMPLATIZE, 2 REVERSE-ENGINEER, 1 CREATE, 3 SKIP
 
 1. **No crear skills por crear** — cada skill nuevo es deuda de mantenimiento
 2. **No enriquecer por completismo** — solo agrega lo que mejora la experiencia del usuario
-3. **No ignorar las conexiones** — todo skill nuevo debe conectarse al grafo existente (SPICED, cross-references)
+3. **No ignorar las conexiones** — todo skill nuevo debe conectarse al grafo existente (PULSO, cross-references)
 4. **No procesar sin confirmar** — siempre presenta el triage antes de ejecutar
 5. **No olvidar el log** — toda ejecución se registra en `docs/execution-log.md`

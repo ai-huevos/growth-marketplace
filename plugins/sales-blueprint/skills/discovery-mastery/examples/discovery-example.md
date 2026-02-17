@@ -1,14 +1,14 @@
-# Ejemplo: Discovery SPICED — ACME Cybersecurity
+# Ejemplo: Discovery PULSO — ACME Cybersecurity
 
-Ejemplo real de un diagnostico SPICED completo para una oportunidad enterprise.
+Ejemplo real de un diagnostico PULSO completo para una oportunidad enterprise.
 
 ## Contexto
 
 Una empresa de cybersecurity SaaS esta evaluando a ACME Corp como oportunidad. El contacto inicial es el VP de IT.
 
-## SPICED Completado
+## PULSO Completado
 
-### S — Situation
+### P — Panorama
 
 | Dato | Valor |
 |------|-------|
@@ -19,52 +19,52 @@ Una empresa de cybersecurity SaaS esta evaluando a ACME Corp como oportunidad. E
 | Herramientas actuales | Box, Salesforce, Google Workspace |
 | Evento reciente | Contratando 20% mas ingenieros en Q1, incrementando riesgo de filtracion |
 
-**Score Situation: 5/5** — Vision completa del contexto. Sabemos industria, tamano, herramientas, estructura y tendencia estrategica (migracion a cloud).
+**Score Panorama: 5/5** — Vision completa del contexto. Sabemos industria, tamano, herramientas, estructura y tendencia estrategica (migracion a cloud).
 
-### P — Pain
+### U — Urgencia
 
-**Pain Cuantificable**:
+**Urgencia Cuantificable**:
 - Perdiendo tiempo y eficiencia por la incapacidad de compartir datos externamente
 - Equipos aislados por la postura anti-cloud historica
 - 20% mas ingenieros = 20% mas endpoints sin proteccion adecuada
 
-**Pain Cualitativo**:
+**Urgencia Cualitativa**:
 - Ejecutivos senior preocupados por el potencial de breach o filtracion de datos
 - El VP de IT siente presion personal por la migracion a cloud que el impulso
 - Tension entre "necesitamos cloud para crecer" y "cloud nos expone"
 
-**Score Pain: 5/5** — Dolor cuantificado (ineficiencia medible) + cualitativo (preocupacion ejecutiva + presion personal del VP IT).
+**Score Urgencia: 5/5** — Dolor cuantificado (ineficiencia medible) + cualitativo (preocupacion ejecutiva + presion personal del VP IT).
 
-### I — Impact
+### L — Logro
 
-**Impact Racional**:
+**Logro Racional**:
 - Una filtracion de IP sensible resultaria en dano monetario y reputacional significativo
 - Sin proteccion, la expansion de workforce (20% mas ingenieros) multiplica el riesgo
 - Costo potencial de un breach: millones en remediacion + perdida de clientes + regulacion
 
-**Impact Emocional**:
+**Logro Emocional**:
 - El VP de IT que impulso cloud seria el responsable si hay un breach
 - Los ejecutivos senior necesitan dormir tranquilos sabiendo que los datos estan protegidos
 - El board quiere ver que la empresa es responsable con la gestion de riesgo
 
-**Score Impact: 4/5** — Impact claro racional y emocional, pero falta cuantificacion exacta del costo de un breach para ACME especificamente.
+**Score Logro: 4/5** — Logro claro racional y emocional, pero falta cuantificacion exacta del costo de un breach para ACME especificamente.
 
-### CE — Critical Event
+### S — Situación Crítica
 
 - **Board Deadline**: El Board of Directors quiere una solucion implementada para fin de Q2
 - **Headcount Growth**: Contratando 20% mas ingenieros en Q1, aumentando riesgo de filtracion cada semana que pasa
 - **Consecuencia de no actuar**: Cada semana sin solucion = mas endpoints expuestos + mas probabilidad de breach antes de que el board revise en Q2
 
-**Score Critical Event: 5/5** — Fecha especifica del board + crecimiento de workforce creando presion incremental + consecuencias claras.
+**Score Situación Crítica: 5/5** — Fecha especifica del board + crecimiento de workforce creando presion incremental + consecuencias claras.
 
-### D — Decision
+### O — Organización
 
-**Decision Criteria**:
+**Criterios de Organización**:
 - Debe integrarse con apps existentes (Box, Salesforce, Google)
 - Servicio completo con soporte de integracion
 - Cost-effective comparado con alternativas
 
-**Decision Process**:
+**Proceso de Organización**:
 - CFO firma todo contrato >$25K
 - Recomendado por VP de IT (nuestro contacto / champion)
 - Aprobacion requerida de CTO, CEO, y SVP de Producto
@@ -80,17 +80,17 @@ Una empresa de cybersecurity SaaS esta evaluando a ACME Corp como oportunidad. E
 | Influencer | SVP Product | Por validar |
 | Gatekeeper | Legal | Neutral — requiere redlines |
 
-**Score Decision: 4/5** — Proceso claro, criterios documentados, buying center mapeado. Falta acceso directo al CFO y validar sentimiento del CEO y SVP Product.
+**Score Organización: 4/5** — Proceso claro, criterios documentados, buying center mapeado. Falta acceso directo al CFO y validar sentimiento del CEO y SVP Product.
 
 ## Score Total
 
 | Dimension | Score |
 |-----------|-------|
-| Situation | 5 |
-| Pain | 5 |
-| Impact | 4 |
-| Critical Event | 5 |
-| Decision | 4 |
+| Panorama | 5 |
+| Urgencia | 5 |
+| Logro | 4 |
+| Situación Crítica | 5 |
+| Organización | 4 |
 | **TOTAL** | **23/30** |
 
 **Clasificacion: Oportunidad Activa** (23-30)
@@ -99,8 +99,8 @@ Una empresa de cybersecurity SaaS esta evaluando a ACME Corp como oportunidad. E
 
 Este deal esta en el umbral minimo de oportunidad activa. Para moverlo a un score mas alto:
 
-1. **Impact (4→5)**: Necesitamos cuantificar el costo exacto de un breach para ACME. Preguntar: "Han estimado el impacto financiero de una filtracion? Tienen seguro cyber?"
-2. **Decision (4→5)**: Necesitamos acceso al CFO y validar el sentimiento del CEO. Preguntar al VP IT: "Podemos incluir al CFO en la proxima reunion para discutir el business case?"
+1. **Logro (4→5)**: Necesitamos cuantificar el costo exacto de un breach para ACME. Preguntar: "Han estimado el impacto financiero de una filtracion? Tienen seguro cyber?"
+2. **Organización (4→5)**: Necesitamos acceso al CFO y validar el sentimiento del CEO. Preguntar al VP IT: "Podemos incluir al CFO en la proxima reunion para discutir el business case?"
 
 ## Proximos Pasos Generados
 
@@ -110,4 +110,4 @@ Este deal esta en el umbral minimo de oportunidad activa. Para moverlo a un scor
 
 ## Leccion
 
-Este ejemplo demuestra que un SPICED score de 23 es "oportunidad activa" pero no es un deal cerrado. Las dimensiones con score 4 son exactamente las areas donde necesitas invertir esfuerzo para avanzar el deal. SPICED no solo califica — te dice DONDE trabajar.
+Este ejemplo demuestra que un PULSO score de 23 es "oportunidad activa" pero no es un deal cerrado. Las dimensiones con score 4 son exactamente las areas donde necesitas invertir esfuerzo para avanzar el deal. PULSO no solo califica — te dice DONDE trabajar.

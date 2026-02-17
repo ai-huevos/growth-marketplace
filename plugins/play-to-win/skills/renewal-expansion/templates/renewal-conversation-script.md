@@ -1,7 +1,7 @@
 # Script de Conversacion de Renovacion
 
 > **Output Contract**: Preparacion completa para una conversacion de renovacion.
-> **Benchmark**: Las 6 secciones completadas, minimo 2 trade options preparadas, preguntas SPI personalizadas, storytelling seleccionado.
+> **Benchmark**: Las 6 secciones completadas, minimo 2 trade options preparadas, preguntas PUL personalizadas, storytelling seleccionado.
 
 ---
 
@@ -49,28 +49,28 @@
 | | | | | |
 | | | | | |
 
-### Historial SPICED (de la venta original y renovaciones previas)
+### Historial PULSO (de la venta original y renovaciones previas)
 
 | Dimension | Original | Actualizado |
 |-----------|----------|-------------|
-| **Situation** | | |
-| **Pain** | | |
-| **Impact** | | |
-| **Critical Event** | | |
-| **Decision process** | | |
+| **Panorama** | | |
+| **Urgencia** | | |
+| **Logro** | | |
+| **Situación Crítica** | | |
+| **Organización (proceso de decision)** | | |
 
-### Critical Events y Decision
+### Situaciones Criticas y Organización
 
 | Pregunta | Respuesta |
 |----------|-----------|
-| CE originales | |
-| Nuevos CE conocidos | |
+| Situaciones Criticas originales | |
+| Nuevas Situaciones Criticas conocidas | |
 | Proceso de decision previo (duracion, procurement, legal) | |
 | Han cambiado los stakeholders de decision? | Si / No / Desconocido |
 
 ### Preguntas SPI preparadas
 
-Lista 3-5 preguntas SPI especificas para esta cuenta:
+Lista 3-5 preguntas PUL especificas para esta cuenta:
 
 1. _________________________________________________
 2. _________________________________________________
@@ -119,7 +119,7 @@ Notas de agenda adicional del cliente: _________________________
 
 ---
 
-## Seccion 3: Review SPI
+## Seccion 3: Review PUL
 
 ### Preguntas de Situation
 
@@ -226,9 +226,9 @@ ________________________________________________________
 
 ---
 
-## Seccion 6: Critical Event, Decision & Next Steps
+## Seccion 6: Situación Crítica, Organización & Next Steps
 
-### Critical Events
+### Situaciones Criticas
 
 > "Hay algun evento o deadline nuevo que debamos considerar para la renovacion?"
 

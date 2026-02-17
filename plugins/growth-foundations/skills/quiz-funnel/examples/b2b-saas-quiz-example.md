@@ -105,7 +105,7 @@ Buckets 1-3 cubren el 90% del mercado. Bucket 4 se fusionó con Bucket 3 para el
 - C) Este mes
 - D) Ya debería estar resuelto
 
-*Propósito*: Proxy del Critical Event (SPICED). Prioriza leads para el equipo de ventas.
+*Propósito*: Proxy de la Situación Crítica (PULSO). Prioriza leads para el equipo de ventas.
 
 ### Email Gate
 **Headline**: "Tu diagnóstico está listo"
@@ -160,7 +160,7 @@ Buckets 1-3 cubren el 90% del mercado. Bucket 4 se fusionó con Bucket 3 para el
 
 ## Bucket Scorecard
 
-| Bucket | Volume (×0.30) | ICP Match (×0.25) | Engagement (×0.20) | Decision (×0.15) | Pain (×0.10) | **Score** |
+| Bucket | Volume (×0.30) | ICP Match (×0.25) | Engagement (×0.20) | Organización (×0.15) | Urgencia (×0.10) | **Score** |
 |--------|---------------|-------------------|--------------------|----|--------|-----------|
 | Pipeline | 80 × 0.30 = 24 | 85 × 0.25 = 21.25 | 70 × 0.20 = 14 | 60 × 0.15 = 9 | 85 × 0.10 = 8.5 | **76.75 — Tier 2** |
 | Conversión | 70 × 0.30 = 21 | 90 × 0.25 = 22.5 | 75 × 0.20 = 15 | 65 × 0.15 = 9.75 | 90 × 0.10 = 9 | **77.25 — Tier 2** |
@@ -204,9 +204,9 @@ Con 287 leads a $1.39/lead, 23 meetings booked, y distribución equilibrada de b
 
 ---
 
-## Integración SPICED
+## Integración PULSO
 
-| Bucket | Situation | Pain | Impact | Critical Event | Decision |
+| Bucket | Panorama | Urgencia | Logro | Situación Crítica | Organización |
 |--------|-----------|------|--------|---------------|----------|
 | Pipeline | Equipo de 10-30 vendedores sin suficientes oportunidades | No genera leads calificados suficientes | +40% pipeline en 90 días | Hiring season, board review | VP decide, CMO influye |
 | Conversión | Pipeline suficiente pero win rate <20% | Discovery calls superficiales, propuestas genéricas | +20-30% win rate | Quarter end, target review | VP decide, CRO influye |

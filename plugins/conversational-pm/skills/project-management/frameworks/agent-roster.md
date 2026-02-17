@@ -20,7 +20,7 @@ Catalogo de agentes especialistas que la PM puede despachar. Cada agente tiene u
 
 | Input | Descripcion | Fuente |
 |-------|-------------|--------|
-| `project_brief` | Resumen del proyecto (del descubrimiento SPICED) | PM |
+| `project_brief` | Resumen del proyecto (del descubrimiento PULSO) | PM |
 | `data_sources` | Lista de fuentes de datos a conectar | PM / Usuario |
 | `scale_requirements` | Volumen de datos, usuarios concurrentes, SLAs | PM |
 | `budget_constraints` | Limites de costo (infra, herramientas, licencias) | Usuario |

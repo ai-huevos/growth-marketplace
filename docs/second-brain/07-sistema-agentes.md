@@ -34,7 +34,7 @@ Input: Nombre de empresa/contacto
 Fase 1: Research ──► Datos de empresa, contacto, stack, compelling events
     │
     ▼
-Fase 2: Hipótesis SPICED ──► Score pre-contacto con nivel de confianza por dimensión
+Fase 2: Hipótesis PULSO ──► Score pre-contacto con nivel de confianza por dimensión
     │                          S=Alta, P=Media, I=Media-Baja, CE=Variable, D=Baja
     │
     ▼
@@ -47,7 +47,7 @@ Fase 4: Outreach ──► Email (max 100 palabras) + LinkedIn (max 50) + Call s
 Fase 5: Secuencia ──► Plan 14 días multi-touch
     │
     ▼
-Output: Prospect Brief + Hipótesis SPICED + Tier + Outreach Package + Secuencia
+Output: Prospect Brief + Hipótesis PULSO + Tier + Outreach Package + Secuencia
 ```
 
 **Reglas de outreach**:
@@ -74,13 +74,13 @@ Output: Prospect Brief + Hipótesis SPICED + Tier + Outreach Package + Secuencia
 
 **Flujo**:
 ```
-Input: Info del deal (básicos + SPICED + historia + competencia)
+Input: Info del deal (básicos + PULSO + historia + competencia)
     │
     ▼
-Fase 1: Intake ──► Si no hay SPICED, guiar a construirlo con discovery-mastery
+Fase 1: Intake ──► Si no hay PULSO, guiar a construirlo con discovery-mastery
     │
     ▼
-Fase 2: Análisis SPICED Crítico ──► Escepticismo profesional por dimensión
+Fase 2: Análisis PULSO Crítico ──► Escepticismo profesional por dimensión
     │     - "¿Dato de primera mano o inferido?"
     │     - "¿Es happy ears?"
     │     - "¿Múltiples personas confirman?"
@@ -92,12 +92,12 @@ Fase 3: Risk Assessment ──► Matriz de riesgos
     │
     ▼
 Fase 4: Recommendations ──► 3 categorías:
-    │     1. Dimensiones SPICED a reforzar + preguntas específicas
+    │     1. Dimensiones PULSO a reforzar + preguntas específicas
     │     2. Acciones tácticas (próximos 7 días)
     │     3. Decisión go/no-go con probabilidad realista
     │
     ▼
-Fase 5: MAP (si SPICED >= 20) ──► Mutual Action Plan con pasos, owners, fechas
+Fase 5: MAP (si PULSO >= 20) ──► Mutual Action Plan con pasos, owners, fechas
     │
     ▼
 Output: Assessment + Risk Matrix + Recommendations + Go/No-Go + MAP + Buying Center Map
@@ -271,6 +271,6 @@ Output: ESCALA Blueprint + FLUJO Architecture + Alma Profile + Funnel Diagram +
 |---------|-------------|-------------|-----------------|
 | Patrón | Independientes | Pipeline secuencial | Workshop guiado |
 | Invocación | Directa o via command | Orquestados por /copy | Directa o via triggers |
-| Metodología base | SPICED | Trigger psychology | ESCALA + FLUJO + Alma |
+| Metodología base | PULSO | Trigger psychology | ESCALA + FLUJO + Alma |
 | Output principal | Análisis + acciones | Copy final + scoring | Blueprint de funnel + plan 90 días |
 | Interacción con usuario | Solicitan info del deal | Reciben brief inicial | Guía por 6 fases iterativas |

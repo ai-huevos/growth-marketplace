@@ -1,6 +1,6 @@
 # Template: Propuesta Enterprise ($100K+ ACV)
 
-Template para propuestas de deals enterprise. Personalizar cada seccion con datos del SPICED del deal.
+Template para propuestas de deals enterprise. Personalizar cada seccion con datos del PULSO del deal.
 
 ---
 
@@ -20,35 +20,35 @@ Template para propuestas de deals enterprise. Personalizar cada seccion con dato
 
 [1 parrafo maximo. Resumen del problema, la solucion propuesta, y el resultado esperado. Escrito para alguien que solo lea esta pagina.]
 
-> [EMPRESA] enfrenta [PAIN PRINCIPAL del SPICED] que esta costando [IMPACTO CUANTIFICADO]. Esta propuesta presenta un plan para [OUTCOME PRINCIPAL] dentro de [TIMELINE alineado con CRITICAL EVENT], con un retorno estimado de [ROI]x sobre la inversion.
+> [EMPRESA] enfrenta [PAIN PRINCIPAL del PULSO] que esta costando [IMPACTO CUANTIFICADO]. Esta propuesta presenta un plan para [OUTCOME PRINCIPAL] dentro de [TIMELINE alineado con CRITICAL EVENT], con un retorno estimado de [ROI]x sobre la inversion.
 
 ---
 
 ## 1. Entendimiento de su Situacion
 
-*Basado en Situation + Pain del SPICED. Demuestra que entendiste su mundo.*
+*Basado en Panorama + Urgencia del PULSO. Demuestra que entendiste su mundo.*
 
 ### Contexto organizacional
-- [Dato de Situation: industria, tamano, estructura]
-- [Dato de Situation: herramientas actuales, iniciativas]
-- [Dato de Situation: contexto reciente relevante]
+- [Dato de Panorama: industria, tamano, estructura]
+- [Dato de Panorama: herramientas actuales, iniciativas]
+- [Dato de Panorama: contexto reciente relevante]
 
 ### Desafios identificados
 
-**Desafio 1: [Pain cuantificable]**
+**Desafio 1: [Urgencia cuantificable]**
 [Descripcion del dolor con datos especificos de las conversaciones de discovery]
 - Impacto medible: [metrica]
 - Areas afectadas: [equipos/procesos]
 
-**Desafio 2: [Pain cualitativo]**
+**Desafio 2: [Urgencia cualitativa]**
 [Descripcion del dolor emocional/organizacional]
 - Riesgo si no se actua: [consecuencia]
 
-**Desafio 3: [Pain adicional si aplica]**
+**Desafio 3: [Urgencia adicional si aplica]**
 [Descripcion]
 
 ### Costo de la inaccion
-Si no se abordan estos desafios antes de [CRITICAL EVENT]:
+Si no se abordan estos desafios antes de [SITUACIÓN CRÍTICA]:
 - [Consecuencia financiera cuantificada]
 - [Consecuencia operacional]
 - [Consecuencia estrategica/competitiva]
@@ -66,15 +66,15 @@ Si no se abordan estos desafios antes de [CRITICAL EVENT]:
 
 | Componente | Dolor que resuelve | Outcome esperado |
 |-----------|-------------------|------------------|
-| [Componente 1] | [Pain 1] | [Resultado medible] |
-| [Componente 2] | [Pain 2] | [Resultado medible] |
-| [Componente 3] | [Pain 3] | [Resultado medible] |
+| [Componente 1] | [Urgencia 1] | [Resultado medible] |
+| [Componente 2] | [Urgencia 2] | [Resultado medible] |
+| [Componente 3] | [Urgencia 3] | [Resultado medible] |
 
 ### Por que este approach
-[2-3 bullets explicando la logica detras de la solucion propuesta. Conectar con los criterios de Decision del SPICED.]
+[2-3 bullets explicando la logica detras de la solucion propuesta. Conectar con los criterios de Organización del PULSO.]
 
 ### Caso de exito relevante (Hero's Journey)
-> **[Empresa similar]** estaba en una situacion parecida: [Situation relatable]. Estaban [Pain con impacto negativo cuantificado]. Despues de implementar [solucion], lograron [Impact positivo con numeros]. [Nombre de pila del champion] comento: "[Quote breve]."
+> **[Empresa similar]** estaba en una situacion parecida: [Panorama relatable]. Estaban [Urgencia con impacto negativo cuantificado]. Despues de implementar [solucion], lograron [Logro positivo con numeros]. [Nombre de pila del champion] comento: "[Quote breve]."
 
 ---
 
@@ -132,8 +132,8 @@ Si no se abordan estos desafios antes de [CRITICAL EVENT]:
 |-----|---------|-----------|
 | Project Manager | [Nombre] | [TBD por empresa] |
 | Technical Lead | [Nombre] | [TBD] |
-| Executive Sponsor | [Nombre] | [Champion/DM del SPICED] |
-| Subject Matter Expert | [Nombre] | [Users del SPICED] |
+| Executive Sponsor | [Nombre] | [Champion/DM del deal] |
+| Subject Matter Expert | [Nombre] | [Users del deal] |
 
 ### Riesgos y Mitigacion
 
@@ -158,7 +158,7 @@ Si no se abordan estos desafios antes de [CRITICAL EVENT]:
 | **Inversion mensual** | **$___/mes** | **$___/mes** | **$___/mes** |
 | **Inversion anual** | **$___/ano** | **$___/ano** | **$___/ano** |
 
-*Recomendacion: **[Opcion recomendada]** basado en [razon conectada con Pain/Impact del SPICED].*
+*Recomendacion: **[Opcion recomendada]** basado en [razon conectada con Urgencia/Logro del PULSO].*
 
 ### ROI Estimado
 
@@ -174,13 +174,13 @@ Payback period:                   ___ meses
 - Contrato: [12/24/36] meses
 - Facturacion: [Mensual/Trimestral/Anual]
 - Forma de pago: [Transferencia/Tarjeta]
-- Inicio: [Fecha alineada con Critical Event]
+- Inicio: [Fecha alineada con Situación Crítica]
 
 ---
 
 ## 6. Criterios de Evaluacion
 
-*Basado en Decision Criteria del SPICED.*
+*Basado en Criterios de Organización del PULSO.*
 
 | Criterio (definido por [EMPRESA]) | Como lo cumplimos | Evidencia |
 |----------------------------------|-------------------|-----------|

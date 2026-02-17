@@ -35,7 +35,7 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
-| T-05 | call-prep | discovery-mastery | Prep sheet para llamada de discovery | 5 preguntas SPICED preparadas |
+| T-05 | call-prep | discovery-mastery | Prep sheet para llamada de discovery | 5 preguntas PULSO preparadas |
 | T-06 | pipeline-review | pipeline-management | Revisión de pipeline con health indicators | Todos los deals scored |
 | T-07 | enterprise-proposal | proposal-generation | Propuesta enterprise completa | 7+ secciones, ROI cuantificado |
 | T-08 | mid-market-proposal | proposal-generation | Propuesta mid-market | 5+ secciones, caso de negocio |
@@ -147,7 +147,7 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
-| T-43 | win-loss-analysis-template | deal-strategy | Análisis SPICED de win/loss con patrones de concentración y recomendaciones CRM | 12 secciones completas por deal |
+| T-43 | win-loss-analysis-template | deal-strategy | Análisis PULSO de win/loss con patrones de concentración y recomendaciones CRM | 12 secciones completas por deal |
 
 #### relationship-mapping
 
@@ -166,28 +166,28 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
-| T-47 | heros-journey-story-template | product-marketing | Historia de cliente en 3 partes (Situation → Pain → Impact) para discovery/demos | Historia < 2 min, impacto cuantificado, pregunta de cierre |
+| T-47 | heros-journey-story-template | product-marketing | Historia de cliente en 3 partes (Panorama → Urgencia → Logro) para discovery/demos | Historia < 2 min, impacto cuantificado, pregunta de cierre |
 | T-48 | impact-messaging-canvas | product-marketing | Canvas de mensajes de impacto con taglines, value props, y messaging por lifecycle | 3 tipos de impacto, tagline por tipo, 3+ stages cubiertos |
 
 #### icp-tal (Phase 2)
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
-| T-49 | icp-segment-worksheet | icp-tal | ICP documentado con segmentos priorizados y matriz firmográfica | SPICED completado, 3+ segmentos con conversion rates |
+| T-49 | icp-segment-worksheet | icp-tal | ICP documentado con segmentos priorizados y matriz firmográfica | PULSO completado, 3+ segmentos con conversion rates |
 | T-50 | tal-tiering-calculator | icp-tal | TAL calculado con tiers y account pod composition | 3 tiers con volúmenes, pod roles asignados |
 
 #### customer-journey (Phase 2)
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
-| T-51 | handoff-documentation-template | customer-journey | Documentación de handoff SPICED completa con plan de primera interacción | 5 dimensiones SPICED, reunión de transición completada |
+| T-51 | handoff-documentation-template | customer-journey | Documentación de handoff PULSO completa con plan de primera interacción | 5 dimensiones PULSO, reunión de transición completada |
 | T-52 | seven-moments-checklist | customer-journey | Evaluación de 7 Momentos Clave con gap analysis y plan de mejora | 7 momentos evaluados, 3+ acciones priorizadas |
 
 #### discovery-demo (Phase 2)
 
 | ID | Template | Skill | Output Contract | Benchmark |
 |----|----------|-------|-----------------|-----------|
-| T-53 | discovery-call-playbook | discovery-demo | Playbook de discovery call con ACE scripts, checklist 54 puntos, SPICED questions | ACE scripted, 5+ preguntas SPICED, next meeting secured |
+| T-53 | discovery-call-playbook | discovery-demo | Playbook de discovery call con ACE scripts, checklist 54 puntos, PULSO questions | ACE scripted, 5+ preguntas PULSO, next meeting secured |
 | T-54 | demo-execution-template | discovery-demo | Demo preparado con 3 puntos de impacto y plan de decision criteria | 3 demo points alineados a pains, impact questions por punto |
 
 #### advanced-techniques (Phase 2)

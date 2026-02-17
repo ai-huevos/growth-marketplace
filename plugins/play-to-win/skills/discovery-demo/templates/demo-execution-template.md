@@ -4,7 +4,7 @@ Template para preparar y ejecutar demos de impacto usando el framework Prescribe
 
 **Output Contract**: Demo preparado con estructura de 3 puntos, cada uno alineado a un dolor validado en discovery, con preguntas de impacto, historias de use-case, y plan de decision criteria emergente.
 
-**Benchmark**: SPICED summary from discovery documentado, 3 demo points alineados a dolores validados, 1 pregunta de impacto por punto, 1 historia de use-case por punto, decision criteria table preparada, next steps secured con fecha y stakeholders.
+**Benchmark**: PULSO summary from discovery documentado, 3 demo points alineados a dolores validados, 1 pregunta de logro/impacto por punto, 1 historia de use-case por punto, decision criteria table preparada, next steps secured con fecha y stakeholders.
 
 ---
 
@@ -80,7 +80,7 @@ Discovery findings ────────────────────�
 | # | Momento | Tiempo | Notas |
 |---|---------|--------|-------|
 | 1 | ACE + agenda | 3 min | ___ |
-| 2 | SPICED summary + validacion | 3 min | ___ |
+| 2 | PULSO summary + validacion | 3 min | ___ |
 | 3 | Layout/orientacion | 2 min | ___ |
 | 4 | Demo Point 1: ___ | 7 min | ___ |
 | 5 | Demo Point 2: ___ | 7 min | ___ |
@@ -92,7 +92,7 @@ Discovery findings ────────────────────�
 
 ---
 
-## Seccion 3: SPICED Summary from Discovery
+## Seccion 3: PULSO Summary from Discovery
 
 ### Conexion obligatoria con discovery
 
@@ -101,14 +101,14 @@ Completar con los hallazgos reales del discovery call previo:
 **Script de conexion**:
 > "Antes de mostrar nada, quiero confirmar que estamos alineados. En nuestra conversacion del [fecha]..."
 
-| SPICED | Lo que compartio el prospect | Script para el demo |
-|--------|----------------------------|---------------------|
-| **Situation** | ___ | "...compartiste que ___" |
-| **Pain 1** | ___ | "...y que eso les causaba ___" |
-| **Pain 2** | ___ | "...ademas de ___" |
-| **Impact** | ___ | "...lo cual impactaba en ___" |
-| **Critical Event** | ___ | "...y mencionaste que necesitaban resolverlo para ___" |
-| **Decision** | ___ | "...con ___ involucrados en la evaluacion" |
+| PULSO | Lo que compartio el prospect | Script para el demo |
+|-------|----------------------------|---------------------|
+| **Panorama** | ___ | "...compartiste que ___" |
+| **Urgencia 1** | ___ | "...y que eso les causaba ___" |
+| **Urgencia 2** | ___ | "...ademas de ___" |
+| **Logro** | ___ | "...lo cual impactaba en ___" |
+| **Situación Crítica** | ___ | "...y mencionaste que necesitaban resolverlo para ___" |
+| **Organización** | ___ | "...con ___ involucrados en la evaluacion" |
 
 **Cierre de validacion**:
 > "...Sigue siendo asi? Algo cambio desde nuestra ultima conversacion?"
@@ -419,7 +419,7 @@ Si el next step es propuesta formal:
 
 | Elemento de la propuesta | Fuente (del demo) |
 |-------------------------|-------------------|
-| Executive summary | SPICED summary + impact reconocido |
+| Executive summary | PULSO summary + logro reconocido |
 | Solucion propuesta | 3 demo points validados |
 | ROI estimado | Respuestas a impact questions |
 | Timeline | Critical Event del prospect |
@@ -437,8 +437,8 @@ Si el next step es propuesta formal:
 | **Plugin** | play-to-win |
 | **Version** | 1.0.0 |
 | **Frameworks usados** | `frameworks/demo-prescribe-framework.md`, `frameworks/ace-discovery-call.md` |
-| **Basado en** | Blueprint #24 (How to Demo), Blueprint #25 (Perfect Discovery Call) |
-| **Prerequisito** | Discovery call completado con SPICED findings documentados |
+| **Basado en** | Demo prescriptiva (Metodología GrowthOS), Discovery call perfecta (Metodología GrowthOS) |
+| **Prerequisito** | Discovery call completado con PULSO findings documentados |
 | **Output** | Demo Execution Plan completo |
 | **Tiempo estimado de preparacion** | 45-60 minutos |
 | **Nivel de complejidad** | Alto |

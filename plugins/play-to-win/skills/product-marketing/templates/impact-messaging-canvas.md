@@ -22,17 +22,17 @@ Alternativa principal (competidor o status quo): ___
 Diferenciador clave: ___
 ```
 
-### Contexto SPICED
+### Contexto PULSO
 
-Mapear la solucion contra las dimensiones SPICED para asegurar coherencia con el resto del ecosistema de ventas:
+Mapear la solucion contra las dimensiones PULSO para asegurar coherencia con el resto del ecosistema de ventas:
 
-| Dimension SPICED | Aplicacion al messaging | Detalle |
+| Dimension PULSO | Aplicacion al messaging | Detalle |
 |-----------------|------------------------|---------|
-| **Situation** | ¿En que situacion especifica es mas relevante este messaging? | ___ |
-| **Pain** | ¿Cual es el dolor principal que articula el messaging? | ___ |
-| **Impact** | ¿Que tipos de impacto (↓C, ↑E, ↑R) son mas fuertes? | ___ |
-| **Critical Event** | ¿Que triggers hacen este messaging urgente? | ___ |
-| **Decision** | ¿Que criterios de decision favorece el messaging? | ___ |
+| **Panorama** | ¿En que panorama especifico es mas relevante este messaging? | ___ |
+| **Urgencia** | ¿Cual es la urgencia principal que articula el messaging? | ___ |
+| **Logro** | ¿Que tipos de logro (↓C, ↑E, ↑R) son mas fuertes? | ___ |
+| **Situación Crítica** | ¿Que triggers hacen este messaging urgente? | ___ |
+| **Organización** | ¿Que criterios de decision favorece el messaging? | ___ |
 
 ---
 

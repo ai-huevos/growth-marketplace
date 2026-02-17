@@ -1,6 +1,6 @@
 # REKS Framework — Guia Completa
 
-REKS (Results, Effort, Knowledge, Skills) es el framework de diagnostico de performance de ventas de Winning by Design. Antes de coachear, diagnostica.
+REKS (Results, Effort, Knowledge, Skills) es el framework de diagnostico de performance de ventas de Metodología GrowthOS. Antes de coachear, diagnostica.
 
 ## Principio Fundamental
 
@@ -68,7 +68,7 @@ Diagnostico de esfuerzo:
 | **Industry** | Entiende las tendencias, regulaciones y desafios de la industria del prospect? | Discusion de caso |
 | **Compelling events** | Puede identificar critical events tipicos de su mercado? | Listar top 5 CE por industria |
 | **Competencia** | Conoce a los competidores, sus fortalezas y debilidades? | Battle card quiz |
-| **SPICED** | Puede explicar y usar SPICED correctamente? | Scorecard de un deal real |
+| **PULSO** | Puede explicar y usar PULSO correctamente? | Scorecard de un deal real |
 
 **Si Knowledge esta en target pero Results no (con Effort en target)**: El rep SABE pero no EJECUTA. Es un issue de Skills. Pasa a Skills.
 
@@ -88,11 +88,11 @@ Diagnostico de esfuerzo:
 | Skill | Como evaluarla | Score |
 |-------|---------------|-------|
 | **Abrir calls (ACE)** | Escuchar una call grabada. Uso ACE? Establecio agenda? | 1-5 |
-| **Discovery (SPICED)** | Revisar SPICED scorecard. Todas las dimensiones cubiertas? | 1-5 |
+| **Discovery (PULSO)** | Revisar PULSO scorecard. Todas las dimensiones cubiertas? | 1-5 |
 | **Demo** | Observar demo. Conecto features con pain del prospect? | 1-5 |
 | **Objection handling** | Roleplay de objeciones comunes. Respuestas efectivas? | 1-5 |
 | **Email writing** | Revisar 5 emails recientes. Son personalizados y orientados a outcomes? | 1-5 |
-| **Proposal writing** | Revisar ultima propuesta. Refleja el SPICED del deal? | 1-5 |
+| **Proposal writing** | Revisar ultima propuesta. Refleja el PULSO del deal? | 1-5 |
 | **Trading/Close** | Escuchar call de negociacion. Tradeo o solo dio descuento? | 1-5 |
 | **Follow-up** | Revisar tiempos de follow-up. <60 min post-call? | 1-5 |
 
@@ -134,7 +134,7 @@ KNOWLEDGE (certificaciones)
 - Competencia: [Pass/Fail]
 
 SKILLS (1-5 cada una)
-- Discovery (SPICED): ___
+- Discovery (PULSO): ___
 - Demo: ___
 - Objection handling: ___
 - Trading/Close: ___

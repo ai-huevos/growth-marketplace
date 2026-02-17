@@ -6,7 +6,7 @@
 - **Version**: 1.0.0
 - **Proposito**: Project Manager conversacional para diseñar y construir sistemas de inteligencia de crecimiento B2B
 - **Autor**: AI Huevos
-- **Metodologia base**: SPICED (discovery de requisitos) + Modelo de irrigación de datos + Agent Roster pattern
+- **Metodologia base**: PULSO (discovery de requisitos) + Modelo de irrigación de datos + Agent Roster pattern
 
 ## Componentes
 
@@ -41,15 +41,15 @@ La PM opera como punto de entrada único: escucha requisitos, traduce a arquitec
 | Fase | Nombre | Actividad |
 |------|--------|-----------|
 | 0 | Reconocimiento del contexto | Evaluar qué existe, qué se pide, qué falta |
-| 1 | Descubrimiento conversacional | SPICED adaptado a proyectos (5 dimensiones) |
+| 1 | Descubrimiento conversacional | PULSO adaptado a proyectos (5 dimensiones) |
 | 2 | Clasificación del proyecto | Tipo de sistema + nivel de complejidad |
 | 3 | Despacho de especialistas | Activar agentes según plan aprobado |
 | 4 | Revisión y control de calidad | Completitud, consistencia, seguridad, usabilidad, performance |
 | 5 | Entrega e integración | Consolidar, documentar, handoff |
 
-### SPICED Adaptado a Proyectos
+### PULSO Adaptado a Proyectos
 
-La PM reutiliza SPICED como framework de discovery pero adaptado al contexto de proyectos de datos:
+La PM reutiliza PULSO como framework de discovery pero adaptado al contexto de proyectos de datos:
 
 | Dimensión | Pregunta PM | Qué revela |
 |-----------|-------------|------------|
@@ -137,14 +137,14 @@ La PM siempre diseña dashboards para 3 audiencias:
 
 ---
 
-## Conexión SPICED Cross-Plugin
+## Conexión PULSO Cross-Plugin
 
 conversational-pm es el **orquestador** que conecta todos los demás plugins:
 
 | Plugin origen | Datos que irriga | Cómo los usa la PM |
 |---------------|------------------|---------------------|
 | growth-foundations | ICP scores, segmentos, ClarQ heatmap | Para definir a quién sirve el sistema |
-| sales-blueprint | Pipeline health, SPICED scores por deal | Para priorizar qué datos necesitan dashboards |
+| sales-blueprint | Pipeline health, PULSO scores por deal | Para priorizar qué datos necesitan dashboards |
 | copywriting-engine | Métricas de conversión, A/B results | Para alimentar dashboards de marketing |
 | dotcom-secrets | Funnel metrics, ESCALA tiers, email performance | Para conectar el embudo completo al sistema |
 

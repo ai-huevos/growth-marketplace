@@ -1,10 +1,10 @@
 # Indicadores de Salud por Deal
 
-Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. Basado en el SPICED score y comportamiento observable.
+Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. Basado en el PULSO score y comportamiento observable.
 
-## Indicadores por Dimension SPICED
+## Indicadores por Dimension PULSO
 
-### Situation
+### Panorama
 
 | Verde | Amarillo | Rojo |
 |-------|----------|------|
@@ -12,7 +12,7 @@ Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. B
 | Actualizada en ultimos 14 dias | Info tiene >30 dias sin actualizar | Info tiene >60 dias o nunca fue validada |
 | Multiples fuentes (LinkedIn, web, CRM, conversacion) | Solo de una fuente | Basada en suposiciones |
 
-### Pain
+### Urgencia
 
 | Verde | Amarillo | Rojo |
 |-------|----------|------|
@@ -21,7 +21,7 @@ Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. B
 | Multiples stakeholders confirman el dolor | Solo nuestro contacto lo confirma | Nadie mas en la cuenta sabe del dolor |
 | Costo de no actuar documentado | Costo estimado vagamente | Sin costo de inaccion |
 
-### Impact
+### Logro
 
 | Verde | Amarillo | Rojo |
 |-------|----------|------|
@@ -30,7 +30,7 @@ Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. B
 | Impact racional + emocional documentado | Solo racional | Solo features, no outcomes |
 | El prospect puede articularle el valor a su jefe | Entendio el valor pero no lo puede repetir | No entiende el valor diferenciado |
 
-### Critical Event
+### Situación Crítica
 
 | Verde | Amarillo | Rojo |
 |-------|----------|------|
@@ -39,7 +39,7 @@ Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. B
 | El prospect menciona la fecha proactivamente | La fecha salio por preguntas | Nosotros inventamos la urgencia |
 | Consecuencias de no actuar son graves y claras | Consecuencias moderadas | Sin consecuencias reales |
 
-### Decision
+### Organización
 
 | Verde | Amarillo | Rojo |
 |-------|----------|------|
@@ -110,20 +110,20 @@ Senales rojo/amarillo/verde para evaluar la salud de cada deal en el pipeline. B
 
 ## Decision Framework: Que Hacer con Cada Color
 
-### Deal Verde (Score SPICED 23-30)
+### Deal Verde (Score PULSO 23-30)
 - Avanzar a la siguiente etapa
 - Siguiente paso claro con fecha
 - Incluir en forecast (commit si esta en negotiation+)
 - Dedicar tiempo de calidad (no micromanagear)
 
-### Deal Amarillo (Score SPICED 15-22)
-- Identificar que dimension SPICED esta baja
+### Deal Amarillo (Score PULSO 15-22)
+- Identificar que dimension PULSO esta baja
 - Crear plan especifico para subir el score
 - Involucrar al manager/lider en strategia
 - Poner deadline: si no mejora en 2 semanas, reclasificar
 - NO incluir en forecast commit
 
-### Deal Rojo (Score SPICED 5-14)
+### Deal Rojo (Score PULSO 5-14)
 - Reuniion de 15 minutos con el rep para decidir:
   - Hay algun path realista a verde? (raro)
   - Se puede salvar con una accion especifica? (posible)

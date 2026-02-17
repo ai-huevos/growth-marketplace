@@ -5,7 +5,7 @@
     "email": "hola@huevos.ai"
   },
   "metadata": {
-    "description": "B2B growth, sales y copywriting frameworks como Claude Code plugins. Spanish-first. Metodología SPICED.",
+    "description": "B2B growth, sales y copywriting frameworks como Claude Code plugins. Spanish-first. Metodología PULSO.",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
@@ -15,16 +15,16 @@
       "source": "./plugins/growth-foundations",
       "description": "Frameworks fundamentales de B2B growth: ICP scoring, positioning, competitive analysis, y diagnóstico ClarQ.",
       "version": "1.0.0",
-      "keywords": ["b2b", "icp", "positioning", "competitive-analysis", "growth", "spiced", "spanish"],
+      "keywords": ["b2b", "icp", "positioning", "competitive-analysis", "growth", "pulso", "spanish"],
       "category": "productivity",
       "license": "MIT"
     },
     {
       "name": "sales-blueprint",
       "source": "./plugins/sales-blueprint",
-      "description": "Sistema de ejecución de ventas B2B: SPICED discovery, pipeline health, proposals, y coaching REKS. Winning by Design.",
+      "description": "Sistema de ejecución de ventas B2B: PULSO discovery, pipeline health, proposals, y coaching REKS. Metodología GrowthOS.",
       "version": "1.0.0",
-      "keywords": ["b2b", "sales", "spiced", "discovery", "pipeline", "proposals", "coaching", "spanish"],
+      "keywords": ["b2b", "sales", "pulso", "discovery", "pipeline", "proposals", "coaching", "spanish"],
       "category": "productivity",
       "license": "MIT"
     },
@@ -49,18 +49,18 @@
     {
       "name": "conversational-pm",
       "source": "./plugins/conversational-pm",
-      "description": "Project Manager conversacional para sistemas de inteligencia B2B. SPICED discovery, 5 agentes especialistas, modelo de irrigación de datos, dashboards 3 niveles.",
+      "description": "Project Manager conversacional para sistemas de inteligencia B2B. PULSO discovery, 5 agentes especialistas, modelo de irrigación de datos, dashboards 3 niveles.",
       "version": "1.0.0",
-      "keywords": ["b2b", "project-management", "agents", "data-intelligence", "dashboards", "spiced", "architecture", "spanish"],
+      "keywords": ["b2b", "project-management", "agents", "data-intelligence", "dashboards", "pulso", "architecture", "spanish"],
       "category": "productivity",
       "license": "MIT"
     },
     {
       "name": "play-to-win",
       "source": "./plugins/play-to-win",
-      "description": "Sistema completo Winning by Design — transformación de ventas B2B en 90 días. 11 skills: sales-transformation, customer-success-ops, pre-discovery-research, deal-strategy, relationship-mapping, renewal-expansion, product-marketing, icp-tal, customer-journey, discovery-demo, advanced-techniques. Playbook Coach AI integrado.",
+      "description": "Sistema completo Metodología GrowthOS — transformación de ventas B2B en 90 días. 11 skills: sales-transformation, customer-success-ops, pre-discovery-research, deal-strategy, relationship-mapping, renewal-expansion, product-marketing, icp-tal, customer-journey, discovery-demo, advanced-techniques. Playbook Coach AI integrado.",
       "version": "2.0.0",
-      "keywords": ["b2b", "winning-by-design", "customer-success", "deal-strategy", "relationship-mapping", "sales-transformation", "renewal", "pre-discovery", "product-marketing", "icp", "customer-journey", "discovery", "demo", "trading", "critical-events", "decision-criteria", "spiced", "spanish"],
+      "keywords": ["b2b", "growthOS-methodology","customer-success", "deal-strategy", "relationship-mapping", "sales-transformation", "renewal", "pre-discovery", "product-marketing", "icp", "customer-journey", "discovery", "demo", "trading", "critical-events", "decision-criteria", "pulso", "spanish"],
       "category": "productivity",
       "license": "MIT"
     }

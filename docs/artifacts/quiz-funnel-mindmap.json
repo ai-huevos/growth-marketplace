@@ -28,7 +28,7 @@
           "name": "growth-foundations",
           "children": [
             {
-              "name": "ICP Analysis (SPICED scoring)"
+              "name": "ICP Analysis (PULSO scoring)"
             },
             {
               "name": "Positioning (Value Prop Canvas)"
@@ -90,7 +90,7 @@
       "name": "Frameworks & Methodology",
       "children": [
         {
-          "name": "SPICED Diagnostic",
+          "name": "PULSO Diagnostic",
           "children": [
             {
               "name": "Situation"
@@ -138,7 +138,7 @@
           "name": "ClarQ Maturity (0-40)"
         },
         {
-          "name": "SPICED Deal Score (5-30)"
+          "name": "PULSO Deal Score (5-30)"
         },
         {
           "name": "Copy Quality Score (0-10)"

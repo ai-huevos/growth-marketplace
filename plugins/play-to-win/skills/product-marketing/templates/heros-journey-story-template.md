@@ -2,7 +2,7 @@
 
 Template para construir historias de clientes usando el Hero's Journey simplificado de 3 partes. Cada historia sigue el arco Situation → Pain → Impact, posicionando al cliente como heroe y al vendedor como guia.
 
-**Output Contract**: Historia completa de cliente en 3 partes (Situation → Pain → Impact) lista para usar en discovery calls, demos, y materiales de ventas.
+**Output Contract**: Historia completa de cliente en 3 partes (Panorama → Urgencia → Logro) lista para usar en discovery calls, demos, y materiales de ventas.
 **Benchmark**: Historia de menos de 2 minutos, con nombres reales, impacto cuantificado, y pregunta de cierre que genere engagement.
 
 ---
@@ -35,7 +35,7 @@ Pain principal del target: ___
 
 ---
 
-## Parte 1: Situation — Hacerlo Personal
+## Parte 1: Panorama — Hacerlo Personal
 
 El objetivo es que el prospect piense: *"Esa persona se parece a mi."*
 
@@ -77,7 +77,7 @@ _______________________________________________________________________________
 
 ---
 
-## Parte 2: Pain — El Impacto Negativo
+## Parte 2: Urgencia — El Impacto Negativo
 
 El objetivo es crear tension emocional. El prospect debe sentir el dolor del protagonista.
 
@@ -119,7 +119,7 @@ _______________________________________________________________________________
 
 ---
 
-## Parte 3: Impact — El Cliente como Heroe
+## Parte 3: Logro — El Cliente como Heroe
 
 El objetivo es mostrar la transformacion. El cliente es Luke Skywalker, tu eres Yoda.
 
@@ -181,24 +181,24 @@ Combinar las 3 partes en una narrativa fluida de menos de 2 minutos. Usar transi
 ### Borrador de la historia completa
 
 ```
-[Parte 1 — Situation]
+[Parte 1 — Panorama]
 _______________________________________________________________________________
 _______________________________________________________________________________
 _______________________________________________________________________________
 
-[Transicion a Pain — ej: "Pero cuando llego, se encontro con que..."]
+[Transicion a Urgencia — ej: "Pero cuando llego, se encontro con que..."]
 _______________________________________________________________________________
 
-[Parte 2 — Pain]
+[Parte 2 — Urgencia]
 _______________________________________________________________________________
 _______________________________________________________________________________
 _______________________________________________________________________________
 _______________________________________________________________________________
 
-[Transicion a Impact — ej: "Entonces [nombre] decidio hacer algo diferente..."]
+[Transicion a Logro — ej: "Entonces [nombre] decidio hacer algo diferente..."]
 _______________________________________________________________________________
 
-[Parte 3 — Impact]
+[Parte 3 — Logro]
 _______________________________________________________________________________
 _______________________________________________________________________________
 _______________________________________________________________________________
@@ -308,17 +308,17 @@ _______________________________________________________________________________
 
 ---
 
-## Integracion SPICED
+## Integracion PULSO
 
-Validar que la historia cubre las 5 dimensiones SPICED para maxima efectividad en ventas:
+Validar que la historia cubre las 5 dimensiones PULSO para maxima efectividad en ventas:
 
-| Dimension SPICED | Presente en la historia | Detalle |
+| Dimension PULSO | Presente en la historia | Detalle |
 |-----------------|------------------------|---------|
-| **Situation** | Si / No | ___ |
-| **Pain** | Si / No | ___ |
-| **Impact** | Si / No | ___ |
-| **Critical Event** | Si / No | ___ |
-| **Decision** | Si / No | ___ |
+| **Panorama** | Si / No | ___ |
+| **Urgencia** | Si / No | ___ |
+| **Logro** | Si / No | ___ |
+| **Situación Crítica** | Si / No | ___ |
+| **Organización** | Si / No | ___ |
 
 ---
 

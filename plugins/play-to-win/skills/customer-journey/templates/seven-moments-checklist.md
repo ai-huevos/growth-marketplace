@@ -19,7 +19,7 @@ Template para evaluar y mejorar la ejecucion de los 7 Momentos Clave del Metodo 
 | **Modelo de ventas** | [ ] High-velocity  [ ] Mid-market  [ ] Enterprise  [ ] PLG+Sales |
 | **ACV promedio** | $___ |
 | **Fuente de datos** | [ ] CRM  [ ] Gong/Chorus  [ ] Observacion directa  [ ] Encuesta interna  [ ] Otro: ___ |
-| **Metodologia baseline actual** | [ ] BANT  [ ] MEDDIC  [ ] SPICED  [ ] Ninguna formal  [ ] Otra: ___ |
+| **Metodologia baseline actual** | [ ] BANT  [ ] MEDDIC  [ ] PULSO  [ ] Ninguna formal  [ ] Otra: ___ |
 
 ---
 
@@ -60,7 +60,7 @@ Template para evaluar y mejorar la ejecucion de los 7 Momentos Clave del Metodo 
 |----------|:-----------:|-----------|-----------------|
 | Las reuniones de discovery duran 30+ minutos (no 15 min de checklist) | ___ | ___ | ___ |
 | El prospect habla 60%+ del tiempo en discovery | ___ | ___ | ___ |
-| No existe un "formulario de calificacion" rigido — hay guia SPICED flexible | ___ | ___ | ___ |
+| No existe un "formulario de calificacion" rigido — hay guia PULSO flexible | ___ | ___ | ___ |
 | La segunda reunion se gana con valor aportado, no con insistencia | ___ | ___ | ___ |
 | Los reps demuestran curiosidad genuina (preguntas de follow-up organicas) | ___ | ___ | ___ |
 
@@ -76,10 +76,10 @@ Template para evaluar y mejorar la ejecucion de los 7 Momentos Clave del Metodo 
 
 | Criterio | Score (1-5) | Evidencia | Gap identificado |
 |----------|:-----------:|-----------|-----------------|
-| La demo se pospone hasta completar SPICED minimo (S+P+I) | ___ | ___ | ___ |
+| La demo se pospone hasta completar PULSO minimo (P+U+L) | ___ | ___ | ___ |
 | Las demos son personalizadas al dolor especifico del prospect | ___ | ___ | ___ |
 | Los reps resisten la tentacion de pitchear cuando el prospect pregunta "¿que hacen?" | ___ | ___ | ___ |
-| Existe un proceso formal de diagnostico antes de prescripcion (SPICED, otro) | ___ | ___ | ___ |
+| Existe un proceso formal de diagnostico antes de prescripcion (PULSO, otro) | ___ | ___ | ___ |
 | La tasa de conversion demo→propuesta esta por encima del benchmark (>40%) | ___ | ___ | ___ |
 
 **Score promedio M3**: ___/5
@@ -114,7 +114,7 @@ Template para evaluar y mejorar la ejecucion de los 7 Momentos Clave del Metodo 
 |----------|:-----------:|-----------|-----------------|
 | El kickoff define milestones de negocio, no solo milestones tecnicos | ___ | ___ | ___ |
 | Existen Joint Impact Plans con fechas y responsables de ambos lados | ___ | ___ | ___ |
-| El handoff AE→CSM usa SPICED documentado (no empieza de cero) | ___ | ___ | ___ |
+| El handoff AE→CSM usa PULSO documentado (no empieza de cero) | ___ | ___ | ___ |
 | Hay checkpoints de progreso programados (no solo reactivos) | ___ | ___ | ___ |
 | El "go-live" se trata como inicio de medicion, no como fin del proceso | ___ | ___ | ___ |
 

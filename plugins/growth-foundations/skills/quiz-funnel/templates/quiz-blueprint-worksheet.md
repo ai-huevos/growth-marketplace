@@ -104,9 +104,9 @@ Template para que Claude complete con el usuario durante un workshop de Quiz Fun
 | Cost per lead | <$___ | <$___ |
 | CTA click rate (outcome page) | >___% | >___% |
 
-## 9. Integración con SPICED
+## 9. Integración con PULSO
 
-| Bucket | Situation | Pain | Impact | Critical Event | Decision |
+| Bucket | Panorama | Urgencia | Logro | Situación Crítica | Organización |
 |--------|-----------|------|--------|---------------|----------|
 | 1: ___ | ___ | ___ | ___ | ___ | ___ |
 | 2: ___ | ___ | ___ | ___ | ___ | ___ |

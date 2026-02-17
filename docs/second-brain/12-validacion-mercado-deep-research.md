@@ -13,9 +13,9 @@
 
 ## Resumen Ejecutivo
 
-1. **Tesis validada en 7 dimensiones**: Framework-as-code, SPICED como driver de adopción, GTM Engineer como rol emergente, LATAM como océano azul, HITL > autonomía, Claude Code en punto de inflexión, y fracaso de IA genérica en ventas.
+1. **Tesis validada en 7 dimensiones**: Framework-as-code, PULSO como driver de adopción, GTM Engineer como rol emergente, LATAM como océano azul, HITL > autonomía, Claude Code en punto de inflexión, y fracaso de IA genérica en ventas.
 2. **Riesgos identificados**: Término "skills" potencialmente técnico, marketplace sin infraestructura de pagos, fricción de instalación CLI, transición consulting→producto requiere disciplina.
-3. **Moats defensibles**: Coherencia metodológica SPICED, Spanish-first (ventaja de 2-3 años), 11 skills ya construidos, timing en curva de adopción Claude Code.
+3. **Moats defensibles**: Coherencia metodológica PULSO, Spanish-first (ventaja de 2-3 años), 11 skills ya construidos, timing en curva de adopción Claude Code.
 4. **Plan de 90 días con $350 de presupuesto**: 5 experimentos de validación → decisión go/no-go con señales de mercado reales.
 
 ---
@@ -140,19 +140,19 @@ Las barreras crean defensibilidad para jugadores locales:
 - "Building Executable Protocols: A Practical Implementation Framework" demuestra approach sistemático para convertir protocolos en sistemas ejecutables
 - Metodologías de product management explícitamente tratadas como "structured frameworks"
 
-**Nuestra ventaja**: No solo generamos código desde specs — **empaquetamos metodología GTM probada (SPICED) como skills instalables con aplicación coherente cross-tool**. Ningún competidor hace esto sistemáticamente.
+**Nuestra ventaja**: No solo generamos código desde specs — **empaquetamos metodología GTM probada (PULSO) como skills instalables con aplicación coherente cross-tool**. Ningún competidor hace esto sistemáticamente.
 
-### 4.2 SPICED/MEDDPICC como Driver de Adopción
+### 4.2 PULSO/MEDDPICC como Driver de Adopción
 
 **Validado con matices** (r/sales):
 
 - **MEDDPICC** se ve como método de **cualificación** — "It's for you, not for them"
-- **SPICED** se describe como **más consultivo** — "SPICED is more consultative"
+- **PULSO** se describe como **más consultivo** — "PULSO is more consultative"
 - **Enterprise sellers usan ambos** — "MEDDIC for management. Real talk for my prospects"
 
 **Hallazgo crítico**: La coherencia metodológica importa. Cita: *"MEDDPIC is your GPS. It just tells you where you are at a point in time. That's your sales process"*.
 
-**Implicación**: La coherencia SPICED discovery → pipeline → proposals → coaching es el diferenciador. Herramientas genéricas tratan cada interacción atómicamente.
+**Implicación**: La coherencia PULSO discovery → pipeline → proposals → coaching es el diferenciador. Herramientas genéricas tratan cada interacción atómicamente.
 
 ### 4.3 GTM Engineer como Rol Emergente
 
@@ -206,8 +206,8 @@ Path de transición probado:
 **Clave**: "It worked more effectively when the product addressed a specific issue...rather than attempting to create a product for the entire consulting suite"
 
 **Aplicación nuestra**:
-- Servicio de consultoría: Implementación de metodología SPICED para equipos GTM B2B
-- Producto: Skills SPICED empaquetados para Claude Code (self-serve)
+- Servicio de consultoría: Implementación de metodología PULSO para equipos GTM B2B
+- Producto: Skills PULSO empaquetados para Claude Code (self-serve)
 - Híbrido: Paquetes de implementación para enterprise + PLG para SMBs
 
 ### Modelo 2: Paquetes de Implementación
@@ -215,7 +215,7 @@ Path de transición probado:
 | Fase | Duración | Entregable |
 |------|----------|------------|
 | Discovery & Audit | 2-3 semanas | Análisis estado GTM actual, métricas, entrevistas |
-| Strategy Design | 2-4 semanas | Visión, prioridades, framework de diferenciación, mapeo SPICED |
+| Strategy Design | 2-4 semanas | Visión, prioridades, framework de diferenciación, mapeo PULSO |
 | Roadmap Planning | 1-2 semanas | Roadmap por fases para adopción de skills |
 | Execution & Optimize | 3-6 meses | Coaching, tracking de métricas, iteración |
 
@@ -225,7 +225,7 @@ Path de transición probado:
 
 **PLG para SMBs**:
 - Self-serve instalación de plugins Claude Code
-- Tier free con core SPICED discovery skill
+- Tier free con core PULSO discovery skill
 - Conversión freemium: 20-30%
 - Time to value: <5 minutos
 
@@ -233,7 +233,7 @@ Path de transición probado:
 - Usuario empieza con plugin free (PLG)
 - Engagement aumenta (datos de uso muestran cuenta de alto potencial)
 - Sales rep conecta para transición a enterprise
-- Suite SPICED completa + implementación + training
+- Suite PULSO completa + implementación + training
 
 **Métricas clave PLG**:
 - **Time to Value**: <5 min de signup a "wow, esto es útil"
@@ -315,13 +315,13 @@ Path de transición probado:
 
 ### Experimento 1: Reddit Problem Narrative (Semana 1-2)
 
-**Objetivo**: Validar demanda SPICED + Claude Code sin revelar producto.
+**Objetivo**: Validar demanda PULSO + Claude Code sin revelar producto.
 
 **Ejecución**:
 1. Unirse: r/gtmengineering, r/RevOps, r/sales, r/ClaudeAI
 2. 1 semana leyendo, comentando (build karma)
 3. Publicar Problem Narrative en r/gtmengineering:
-   - *"I've been using Claude Code to automate parts of my discovery process, but I find myself re-creating the same SPICED framework prompts for every call. Anyone else feel like AI tools miss the methodology piece? How are you handling this?"*
+   - *"I've been using Claude Code to automate parts of my discovery process, but I find myself re-creating the same PULSO framework prompts for every call. Anyone else feel like AI tools miss the methodology piece? How are you handling this?"*
 4. Trackear: Upvotes, comments pidiendo "qué solución existe?"
 5. DM a commenters engaged: preguntar qué pagarían
 
@@ -336,7 +336,7 @@ Path de transición probado:
 1. Landing page (Carrd/Typedream):
    - Headline: "B2B Sales Methodology as Executable Claude Code Skills—Built for GTM Engineers & Spanish-Speaking Teams"
    - CTA: "Join the private beta"
-   - Features: 11 skills, coherencia SPICED, Spanish-first
+   - Features: 11 skills, coherencia PULSO, Spanish-first
 2. Conversion tracking pixel
 3. $100 Reddit ads → r/gtmengineering, r/RevOps, r/ClaudeAI
 4. $100 LinkedIn ads → GTM Engineer + RevOps en Colombia, México, Brasil
@@ -346,13 +346,13 @@ Path de transición probado:
 
 ### Experimento 3: Concierge MVP con 5 Beta Users (Semana 3-6)
 
-**Objetivo**: Validar que skills SPICED resuelven problemas reales y usuarios pagarán.
+**Objetivo**: Validar que skills PULSO resuelven problemas reales y usuarios pagarán.
 
 **Ejecución**:
 1. Invitar 5 signups más engaged a concierge beta
 2. Instalar 11 skills manualmente en su Claude Code via Zoom
 3. Cobrar **$50 por beta** (valida willingness to pay)
-4. Walkthrough usando SPICED skills en 2-3 discovery calls reales
+4. Walkthrough usando PULSO skills en 2-3 discovery calls reales
 5. Exit interview: ¿Qué funcionó? ¿Qué no? ¿Cuánto pagarías mensualmente?
 
 **Criterio de éxito**: 5/5 completan onboarding, 4/5 reportan ahorro de tiempo, 3/5 pagarían $20-50/mes.
@@ -366,18 +366,18 @@ Path de transición probado:
 1. Identificar 50 empresas LATAM B2B SaaS ($50M+ revenue) via LinkedIn Sales Navigator
 2. Encontrar GTM/RevOps leaders en esas empresas
 3. DMs personalizados en español:
-   - *"Hola [Name], veo que tu equipo está escalando GTM en [Company]. Estoy construyendo habilidades de Claude Code específicamente para equipos de ventas B2B en LATAM—framework SPICED automatizado, discovery, pipeline, propuestas. Todo en español desde el inicio. ¿Te interesaría ver una demo de 15 minutos?"*
+   - *"Hola [Name], veo que tu equipo está escalando GTM en [Company]. Estoy construyendo habilidades de Claude Code específicamente para equipos de ventas B2B en LATAM—framework PULSO automatizado, discovery, pipeline, propuestas. Todo en español desde el inicio. ¿Te interesaría ver una demo de 15 minutos?"*
 4. Trackear: Response rate, demo requests, feedback sobre Spanish-first
 
 **Criterio de éxito**: 20%+ response rate (10+ respuestas), 5+ demo requests.
 **Presupuesto**: $80 (LinkedIn Sales Navigator 1 mes) | **Tiempo**: 15 horas
 
-### Experimento 5: Pre-Order SPICED Skills Bundle (Semana 6-12)
+### Experimento 5: Pre-Order PULSO Skills Bundle (Semana 6-12)
 
 **Objetivo**: Validar monetización y potencial de revenue inicial.
 
 **Ejecución**:
-1. Gumroad product page: "SPICED Skills Bundle for Claude Code"
+1. Gumroad product page: "PULSO Skills Bundle for Claude Code"
 2. Pricing experiment: $49 individual / $149 team / $297 enterprise + implementation
 3. Versión Spanish de landing page (A/B test automático)
 4. Tráfico desde email blast a waitlist + Reddit referential post
@@ -438,7 +438,7 @@ Path de transición probado:
 
 ### Validado ✅
 1. Framework-as-code existe en contextos académicos/enterprise — somos primeros en aplicar a GTM
-2. SPICED/MEDDPICC son drivers reales — usuarios quieren coherencia, no checkbox frameworks
+2. PULSO/MEDDPICC son drivers reales — usuarios quieren coherencia, no checkbox frameworks
 3. GTM Engineer emerge rápido — overlap con RevOps, requiere automation skills
 4. LATAM B2B masivamente underserved — $35B, 24.79% CAGR, cero competidores
 5. HITL aplasta autonomía total — 70% quit rate AI SDRs, co-pilot models ganan
@@ -452,7 +452,7 @@ Path de transición probado:
 4. Transición consulting→producto es difícil → resistir customización por cliente
 
 ### Moats Defensibles
-1. **Coherencia metodológica**: SPICED across discovery → pipeline → proposals → coaching
+1. **Coherencia metodológica**: PULSO across discovery → pipeline → proposals → coaching
 2. **Spanish-first**: Cero competidores English targeting LATAM; language + culture = 2-3 años de ventaja
 3. **Framework expertise**: 11 skills ya construidos; competidores empezarían desde cero
 4. **Timing**: Curva adopción Claude Code es 2026; estamos early pero no too early

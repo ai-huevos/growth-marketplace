@@ -6,7 +6,7 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 
 ## Frameworks Metodológicos
 
-### 1. SPICED (Winning by Design)
+### 1. PULSO (Metodología GrowthOS)
 **Ubicación**: `sales-blueprint/skills/discovery-mastery/frameworks/spiced-framework.md`
 **Usado por**: discovery-mastery, pipeline-management, proposal-generation, coaching-cadence, sdr-agent, deal-strategist
 **Tipo**: Framework de diagnóstico de oportunidades de venta
@@ -27,7 +27,7 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 **Componentes**: GTM Strategy, Revenue Streams, Q2C, Capabilities
 **Scoring**: 0-40 con heatmap de colores
 
-### 4. REKS (Winning by Design)
+### 4. REKS (Metodología GrowthOS)
 **Ubicación**: `sales-blueprint/skills/coaching-cadence/frameworks/reks-framework.md`
 **Usado por**: coaching-cadence, /coaching command
 **Tipo**: Framework de diagnóstico de performance
@@ -127,7 +127,7 @@ Top 3 por leverage:
 
 ### 4. Health Indicators
 **Ubicación**: `sales-blueprint/skills/pipeline-management/frameworks/health-indicators.md`
-**Contenido**: Indicadores rojo/amarillo/verde para evaluar deals en pipeline basado en SPICED scoring.
+**Contenido**: Indicadores rojo/amarillo/verde para evaluar deals en pipeline basado en PULSO scoring.
 
 ### 5. Question Bank
 **Ubicación**: `sales-blueprint/skills/discovery-mastery/frameworks/question-bank.md`
@@ -183,7 +183,7 @@ Top 3 por leverage:
 
 | Ejemplo | Ubicación | Qué demuestra |
 |---------|-----------|---------------|
-| Discovery ACME Cybersecurity | `discovery-mastery/examples/discovery-example.md` | Ejemplo completo de discovery call con SPICED aplicado |
+| Discovery ACME Cybersecurity | `discovery-mastery/examples/discovery-example.md` | Ejemplo completo de discovery call con PULSO aplicado |
 | SalesPro Quiz Funnel B2B SaaS | `quiz-funnel/examples/b2b-saas-quiz-example.md` | Quiz funnel completo con 3 buckets, 6 preguntas, outcome pages, stress test con métricas reales ($1.39 CPL, 60% completion) |
 
 ---
@@ -196,8 +196,8 @@ Las fórmulas de headlines más poderosas combinan 2 categorías + 2-3 triggers 
 - Triggers: Curiosity + Social Proof
 - Resultado: "7 razones por las que tu mejor vendedor está por renunciar"
 
-### SPICED → Proposal
-El diagnóstico SPICED se traduce directamente a secciones de la propuesta:
+### PULSO → Proposal
+El diagnóstico PULSO se traduce directamente a secciones de la propuesta:
 - Situation → Contexto del executive summary
 - Pain → Sección de diagnóstico
 - Impact → Business case / ROI

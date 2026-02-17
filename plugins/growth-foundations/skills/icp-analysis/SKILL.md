@@ -6,7 +6,7 @@ version: 1.0.0
 
 # ICP Analysis
 
-Framework para definir, documentar y scorear el Ideal Customer Profile (ICP) de una empresa B2B. Basado en la metodología SPICED aplicada a segmentación de clientes.
+Framework para definir, documentar y scorear el Ideal Customer Profile (ICP) de una empresa B2B. Basado en la metodología PULSO aplicada a segmentación de clientes.
 
 ## Cuándo usar este skill
 
@@ -17,17 +17,17 @@ Framework para definir, documentar y scorear el Ideal Customer Profile (ICP) de 
 
 ## Proceso de ICP Analysis
 
-### Paso 1: Diagnóstico SPICED del cliente ideal
+### Paso 1: Diagnóstico PULSO del cliente ideal
 
-Antes de definir el ICP, diagnosticar los mejores clientes actuales usando SPICED:
+Antes de definir el ICP, diagnosticar los mejores clientes actuales usando PULSO:
 
 | Dimensión | Pregunta para definir ICP |
 |-----------|--------------------------|
-| **S - Situation** | ¿Qué hechos, circunstancias y contexto comparten tus mejores clientes? (industria, tamaño, etapa, tecnología) |
-| **P - Pain** | ¿Qué dolor específico resuelves para ellos? ¿Cuál es el costo de no resolverlo? |
-| **I - Impact** | ¿Cómo impactas su negocio? ¿Qué outcomes logran contigo? |
-| **CE - Critical Event** | ¿Qué evento los empuja a comprar? (funding, regulación, crecimiento, crisis) |
-| **D - Decision** | ¿Cómo compran? ¿Quién decide? ¿Qué criterios usan? |
+| **P - Panorama** | ¿Qué hechos, circunstancias y contexto comparten tus mejores clientes? (industria, tamaño, etapa, tecnología) |
+| **U - Urgencia** | ¿Qué dolor específico resuelves para ellos? ¿Cuál es el costo de no resolverlo? |
+| **L - Logro** | ¿Cómo impactas su negocio? ¿Qué outcomes logran contigo? |
+| **S - Situación Crítica** | ¿Qué evento los empuja a comprar? (funding, regulación, crecimiento, crisis) |
+| **O - Organización** | ¿Cómo compran? ¿Quién decide? ¿Qué criterios usan? |
 
 ### Paso 2: Análisis cuantitativo (firmográfico)
 
@@ -70,17 +70,17 @@ Generar documento de ICP con esta estructura:
 - Tecnología: [lista]
 - Geografía: [regiones]
 
-### Pain principal que resolvemos
+### Urgencia principal que resolvemos
 [Descripción del dolor #1 con costo cuantificado]
 
-### Impact que generamos
+### Logro que generamos
 - Racional: [metric improvement]
 - Emocional: [personal benefit for buyer]
 
-### Critical Event típico
+### Situación Crítica típica
 [Evento que dispara la compra]
 
-### Decision Process
+### Organización (Proceso de Decisión)
 - Decision maker: [título]
 - Influencers: [títulos]
 - Criterios: [lista]
@@ -105,10 +105,10 @@ Resumen del scoring:
 | Categoría | Score | Peso |
 |-----------|-------|------|
 | Fit firmográfico | 0-30 | 30% |
-| Pain match | 0-25 | 25% |
-| Impact potential | 0-20 | 20% |
-| Decision readiness | 0-15 | 15% |
-| Critical event | 0-10 | 10% |
+| Urgencia match | 0-25 | 25% |
+| Logro potential | 0-20 | 20% |
+| Organización readiness | 0-15 | 15% |
+| Situación crítica | 0-10 | 10% |
 | **Total** | **0-100** | **100%** |
 
 **Clasificación**:

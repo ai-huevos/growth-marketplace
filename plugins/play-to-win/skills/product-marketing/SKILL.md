@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Product Marketing
 
-Sistema integrado de product marketing que combina Hero's Journey storytelling, establecimiento de impacto, value proposition canvas, positioning statements, y arquitectura de mensajes. Construido sobre la ciencia del storytelling aplicada a ventas B2B y la metodologia de impacto de Winning by Design. Transforma features tecnicas en narrativas que conectan emocionalmente y mueven decisiones de compra.
+Sistema integrado de product marketing que combina Hero's Journey storytelling, establecimiento de impacto, value proposition canvas, positioning statements, y arquitectura de mensajes. Construido sobre la ciencia del storytelling aplicada a ventas B2B y la metodologia de impacto de la Metodología GrowthOS. Transforma features tecnicas en narrativas que conectan emocionalmente y mueven decisiones de compra.
 
 ## Cuando usar este skill
 
@@ -80,7 +80,7 @@ El cerebro procesa historias de forma fundamentalmente diferente a datos y featu
 
 ### Estructura de 3 partes
 
-**Parte 1: Situation — Hacerlo Personal**
+**Parte 1: Panorama — Hacerlo Personal**
 
 El error clasico es empezar con la empresa. La historia debe empezar con la *persona*.
 
@@ -90,7 +90,7 @@ El error clasico es empezar con la empresa. La historia debe empezar con la *per
 | "El cliente tenia problemas de..." | "Mark llevaba 6 meses intentando resolver..." |
 | "La empresa facturo $10M..." | "Mark fue promovido hace un ano con el mandato de..." |
 
-**Parte 2: Pain — El Impacto Negativo**
+**Parte 2: Urgencia — El Impacto Negativo**
 
 Aqui se baja la montana rusa emocional. El prospect debe sentir el dolor del protagonista.
 
@@ -99,7 +99,7 @@ Aqui se baja la montana rusa emocional. El prospect debe sentir el dolor del pro
 | "Tenian baja conversion..." | "Mark veia como su equipo quemaba 70% del tiempo en deals que nunca cerraban..." |
 | "El proceso era ineficiente..." | "Cada lunes, Mark se sentaba frente a un forecast que sabia que era ficcion..." |
 
-**Parte 3: Impact — El Cliente es el Heroe**
+**Parte 3: Logro — El Cliente es el Heroe**
 
 El cliente es Luke Skywalker. Tu eres Yoda. El cliente logro el resultado — tu solo lo guiaste.
 
@@ -116,7 +116,7 @@ El SAM (Situation-Action-Metric) es la version comprimida de la historia complet
 En [SITUATION], [PERSONA] logro [METRIC] al [ACTION].
 ```
 
-Ejemplo: *"En una empresa SaaS de 200 personas con win rate del 15%, Mark logro aumentar el win rate a 28% en 90 dias al implementar un proceso de calificacion SPICED."*
+Ejemplo: *"En una empresa SaaS de 200 personas con win rate del 15%, Mark logro aumentar el win rate a 28% en 90 dias al implementar un proceso de calificacion PULSO."*
 
 ### Referencia de terceros vs. pitch directo
 
@@ -180,7 +180,7 @@ Experience tiene el runway mas largo de los 3 tipos de impacto:
 
 Ejemplos:
 - "Duplica el win rate de tu equipo de ventas sin contratar mas reps"
-- "Reduce el ciclo de ventas a la mitad con calificacion SPICED automatizada"
+- "Reduce el ciclo de ventas a la mitad con calificacion PULSO automatizada"
 - "Transforma forecasts de ficcion en predicciones con +90% de precision"
 
 ---
@@ -225,17 +225,17 @@ Para [PERSONA] que enfrenta [PAIN ESPECIFICO],
 como lo demuestra [EVIDENCIA].
 ```
 
-### Validacion SPICED de la value prop
+### Validacion PULSO de la value prop
 
-Cada value proposition debe poder responder a las 5 dimensiones SPICED:
+Cada value proposition debe poder responder a las 5 dimensiones PULSO:
 
 | Dimension | Pregunta de validacion |
 |-----------|----------------------|
-| **Situation** | ¿Para que situacion especifica es relevante esta value prop? |
-| **Pain** | ¿Articula claramente el dolor que resuelve? |
-| **Impact** | ¿Cuantifica el impacto en terminos de ↓Cost, ↑Experience, o ↑Revenue? |
-| **Critical Event** | ¿Existe un trigger que hace esta value prop urgente? |
-| **Decision** | ¿Diferencia claramente de alternativas? |
+| **Panorama** | ¿Para que panorama especifico es relevante esta value prop? |
+| **Urgencia** | ¿Articula claramente la urgencia que resuelve? |
+| **Logro** | ¿Cuantifica el logro en terminos de ↓Cost, ↑Experience, o ↑Revenue? |
+| **Situación Crítica** | ¿Existe un trigger que hace esta value prop urgente? |
+| **Organización** | ¿Diferencia claramente de alternativas? |
 
 ---
 
@@ -259,7 +259,7 @@ nosotros [DIFERENCIADOR CLAVE BASADO EN IMPACTO].
 | Dimension | Pregunta | Ejemplo |
 |-----------|----------|---------|
 | **Relevancia** | ¿Por que deberia importarme? | "Porque tu equipo pierde 40% del tiempo en deals que nunca cerraran" |
-| **Diferenciacion** | ¿Por que tu y no otro? | "Porque somos los unicos con calificacion SPICED nativa" |
+| **Diferenciacion** | ¿Por que tu y no otro? | "Porque somos los unicos con calificacion PULSO nativa" |
 | **Credibilidad** | ¿Por que deberia creerte? | "200+ equipos de ventas B2B en LATAM usan nuestra metodologia" |
 | **Urgencia** | ¿Por que ahora? | "Cada dia sin esto, tu equipo quema $2,000 en deals perdidos" |
 
@@ -349,5 +349,5 @@ Usar template: `templates/impact-messaging-canvas.md`
 ### Para Positioning y Value Prop:
 1. **Value Proposition Canvas** completo con evidencia
 2. **Positioning Statement** con las 4 dimensiones
-3. **Validacion SPICED** de la value prop
+3. **Validacion PULSO** de la value prop
 4. **Comparativa** impact-based vs alternativas

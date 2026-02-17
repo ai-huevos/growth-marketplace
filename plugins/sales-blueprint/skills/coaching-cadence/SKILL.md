@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Coaching Cadence
 
-Sistema de coaching de ventas basado en el framework REKS de Winning by Design. Incluye diagnostico de performance, cadencia semanal/mensual de coaching, y framework para conversaciones candidas.
+Sistema de coaching de ventas basado en el framework REKS de Metodología GrowthOS. Incluye diagnostico de performance, cadencia semanal/mensual de coaching, y framework para conversaciones candidas.
 
 ## Cuando usar este skill
 
@@ -18,7 +18,7 @@ Sistema de coaching de ventas basado en el framework REKS de Winning by Design. 
 
 ## Filosofia: Coaching es Diagnostico, No Instruccion
 
-Asi como en ventas se diagnostica con SPICED antes de prescribir, en coaching se diagnostica con REKS antes de entrenar. No asumas que sabes cual es el problema — diagnostica primero.
+Asi como en ventas se diagnostica con PULSO antes de prescribir, en coaching se diagnostica con REKS antes de entrenar. No asumas que sabes cual es el problema — diagnostica primero.
 
 ## Framework REKS
 
@@ -91,7 +91,7 @@ Este es el diagnostico paso a paso cuando un rep no esta en target:
 
 | Semana | Foco del 1:1 | Que cubrir |
 |--------|-------------|------------|
-| **Semana 1** | Pipeline + Business Plan | Review de pipeline con SPICED scoring, forecast, plan del mes |
+| **Semana 1** | Pipeline + Business Plan | Review de pipeline con PULSO scoring, forecast, plan del mes |
 | **Semana 2** | Skills + Call Review | Escuchar una call grabada, feedback REKS, roleplay de mejora |
 | **Semana 3** | Career Growth + Sales Coaching | Desarrollo profesional, motivacion, metas personales |
 | **Semana 4** | Pipeline Review + Skills Refresh | Cierre de mes, review de resultados, plan de siguiente mes |
@@ -136,16 +136,16 @@ Para el framework completo de conversaciones candidas y coaching plays, leer `fr
 3. **Deliver through questions**: En vez de "tu discovery es debil", preguntar "que information te falta despues de tus discoveries?"
 4. **Help take action**: No solo senalar el problema — ofrecer practica y recursos
 
-## Integracion con SPICED
+## Integracion con PULSO
 
-El coaching esta conectado con SPICED en todo momento:
+El coaching esta conectado con PULSO en todo momento:
 
-| Skill a coachear | Dimension SPICED | Metrica |
+| Skill a coachear | Dimension PULSO | Metrica |
 |-----------------|-----------------|---------|
-| Abrir calls (ACE) | Situation | % de calls donde se establece agenda |
-| Hacer preguntas de discovery | Pain + Impact | SPICED score promedio del rep |
-| Identificar urgencia | Critical Event | % de deals con CE documentado |
-| Mapear stakeholders | Decision | # contactos promedio por deal |
+| Abrir calls (ACE) | Panorama | % de calls donde se establece agenda |
+| Hacer preguntas de discovery | Urgencia + Logro | PULSO score promedio del rep |
+| Identificar urgencia | Situación Crítica | % de deals con SC documentada |
+| Mapear stakeholders | Organización | # contactos promedio por deal |
 | Escribir propuestas | Todas | Win rate en proposals enviadas |
 | Tradear en cierre | Decision | Descuento promedio otorgado |
 

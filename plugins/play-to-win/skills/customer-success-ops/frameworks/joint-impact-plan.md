@@ -10,7 +10,7 @@ El **Joint Impact Plan (JIP)** es un documento orientado al cliente que guia tod
 - Establezca metas claras
 - Sea creado **colaborativamente** con el cliente
 - Se revise y actualice periodicamente
-- Use SPICED como framework de validacion
+- Use PULSO como framework de validacion
 
 ## Filosofia: Impacto Recurrente como Norte
 
@@ -144,7 +144,7 @@ AFTER COMMIT    WITHIN 3 MONTHS    6-8 MONTHS       9-10 MONTHS
 ### Proceso de Swing-Through:
 
 1. Revisar el JIP actual — que se logro, que no
-2. Re-discovery usando SPICED si el cliente se ha desviado del plan
+2. Re-discovery usando PULSO si el cliente se ha desviado del plan
 3. Establecer nuevas metas para los proximos 12 meses
 4. Documentar nuevas responsabilidades y timelines
 5. Compartir el nuevo JIP con el cliente y stakeholders clave
@@ -155,9 +155,9 @@ AFTER COMMIT    WITHIN 3 MONTHS    6-8 MONTHS       9-10 MONTHS
 
 - **Tener el JIP listo y revisado**
 - Si el cliente se desvio del plan o esta en riesgo, **revisar el JIP para resetear metas**
-- Usar SPICED para re-discovery si es necesario
+- Usar PULSO para re-discovery si es necesario
 
-### Validacion SPICED durante revision del JIP:
+### Validacion PULSO durante revision del JIP:
 
 ```
 S — Situacion:     Reconfirmar que esta tratando de lograr el cliente
@@ -205,4 +205,4 @@ D — Decision:      "Quien mas se ve afectado por estas metas?"
 
 ---
 
-*Fuente: Blueprint #17 — The Joint Impact Plan + Blueprint #06 — CS Operating Model (O3), Winning by Design*
+*Fuente: The Joint Impact Plan + CS Operating Model (O3), Metodología GrowthOS*

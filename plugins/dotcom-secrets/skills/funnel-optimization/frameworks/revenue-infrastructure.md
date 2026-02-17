@@ -135,11 +135,11 @@ El ICP Match Score usa los mismos criterios que el ICP scoring (0-100) de `/icp`
 
 ---
 
-## Conexión SPICED
+## Conexión PULSO
 
-El lead scoring conecta con SPICED:
-- **ICP Match** = Situation (quién es) + Pain (qué necesita)
-- **Intent Score** = Critical Event (timing signals) + Decision (engagement level)
+El lead scoring conecta con PULSO:
+- **ICP Match** = Panorama (quién es) + Urgencia (qué necesita)
+- **Intent Score** = Situación Crítica (timing signals) + Organización (engagement level)
 - El MQL threshold es un **Score-as-Gate**: score < 11 = no pasa a ventas
 
 ---

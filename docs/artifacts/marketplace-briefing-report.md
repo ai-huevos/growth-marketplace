@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-The **AI Huevos Growth Marketplace** is a specialized ecosystem of Claude Code plugins designed to institutionalize B2B growth, sales, marketing, and operations frameworks. Positioned as a "framework-as-code" solution, the repository packages world-class methodologies—such as Winning by Design’s SPICED and Porter’s Five Forces—into installable skills, agents, and interactive commands.
+The **AI Huevos Growth Marketplace** is a specialized ecosystem of Claude Code plugins designed to institutionalize B2B growth, sales, marketing, and operations frameworks. Positioned as a "framework-as-code" solution, the repository packages world-class methodologies—such as Metodología GrowthOS’s PULSO and Porter’s Five Forces—into installable skills, agents, and interactive commands.
 
-The system is built on a **content-only architecture**, where Claude Code interprets structured Markdown files as executable instructions. It is explicitly **Spanish-first**, targeting the underserved LATAM B2B market ($50M+ revenue segment). The marketplace currently consists of three core plugins: `growth-foundations`, `sales-blueprint`, and `copywriting-engine`, all interconnected by a common diagnostic language (SPICED).
+The system is built on a **content-only architecture**, where Claude Code interprets structured Markdown files as executable instructions. It is explicitly **Spanish-first**, targeting the underserved LATAM B2B market ($50M+ revenue segment). The marketplace currently consists of three core plugins: `growth-foundations`, `sales-blueprint`, and `copywriting-engine`, all interconnected by a common diagnostic language (PULSO).
 
 ---
 
@@ -28,11 +28,11 @@ The marketplace operates under a "Content-as-Code" philosophy, eliminating techn
 
 ---
 
-## 2. Core Methodology: The SPICED Framework
+## 2. Core Methodology: The PULSO Framework
 
-SPICED is the "lingua franca" of the marketplace, connecting discovery, pipeline management, and proposal generation. It moves sales from a "checklist" mentality to a "diagnostic" one.
+PULSO is the "lingua franca" of the marketplace, connecting discovery, pipeline management, and proposal generation. It moves sales from a "checklist" mentality to a "diagnostic" one.
 
-### The 5 Dimensions of SPICED
+### The 5 Dimensions of PULSO
 1.  **S — Situation:** Objective facts (Industry, size, tools).
 2.  **P — Pain:** Both **Quantifiable** (lost hours/money) and **Qualitative** (frustration/fear).
 3.  **I — Impact:** Rational (ROI) and Emotional (personal gain/safety).
@@ -52,16 +52,16 @@ SPICED is the "lingua franca" of the marketplace, connecting discovery, pipeline
 
 ### A. growth-foundations (Entry Point)
 Provides fundamental frameworks for B2B strategy.
-*   **Key Skills:** `icp-analysis` (SPICED-based scoring), `positioning` (Value Prop Canvas), and `competitive-analysis`.
+*   **Key Skills:** `icp-analysis` (PULSO-based scoring), `positioning` (Value Prop Canvas), and `competitive-analysis`.
 *   **Command `/diagnostico`:** Uses the **ClarQ framework** to assess operational maturity (0-40 score) across four dimensions: GTM Strategy, Revenue Streams, Quota-to-Cash, and Capabilities.
 *   **Key Concepts:** Identifies operational risks like the **"Juan Guillermo Problem"** (knowledge silos) and **"Barbacha"** (operational leakage from manual processes).
 
 ### B. sales-blueprint (Execution)
-A complete system for sales execution based on Winning by Design methodologies.
-*   **Discovery Mastery:** Employs the **ACE Opening** (Appreciate, Check, End) and SPICED diagnosis.
+A complete system for sales execution based on Metodología GrowthOS methodologies.
+*   **Discovery Mastery:** Employs the **ACE Opening** (Appreciate, Check, End) and PULSO diagnosis.
 *   **Coaching Cadence:** Uses the **REKS Framework** (Results, Effort, Knowledge, Skills) to diagnose performance.
 *   **Specialized Agents:**
-    *   **SDR Agent:** Performs research, qualifies via SPICED, and prepares 14-day multi-touch outreach.
+    *   **SDR Agent:** Performs research, qualifies via PULSO, and prepares 14-day multi-touch outreach.
     *   **Deal Strategist:** Acts as a VP of Sales, providing professional skepticism to identify "happy ears" and pipeline risks.
 
 ### C. copywriting-engine (Communication)
@@ -100,7 +100,7 @@ To transform static frameworks into data-connected workflows, the following inte
 1.  **HubSpot (Priority 1):** Sourcing contact/company data for automated ICP scoring.
 2.  **Apollo.io (Priority 1):** Automated enrichment for prospecting and ICP validation.
 3.  **Notion (Priority 1):** Serving as the "output repository" for all skill-generated documents.
-4.  **Gong (Priority 2):** A "game-changer" for analyzing real sales calls against the SPICED framework.
+4.  **Gong (Priority 2):** A "game-changer" for analyzing real sales calls against the PULSO framework.
 
 ---
 
@@ -115,14 +115,14 @@ To transform static frameworks into data-connected workflows, the following inte
 
 ## 7. Important Quotes with Context
 
-> **"SPICED no es un checklist — es un diagnóstico. Cada dimensión revela una capa de la oportunidad. Sin las 5 dimensiones, no tienes un deal, tienes una esperanza."**
-*   *Context:* Found in the SPICED methodology document, emphasizing that incomplete qualification is the root of most pipeline failures.
+> **"PULSO no es un checklist — es un diagnóstico. Cada dimensión revela una capa de la oportunidad. Sin las 5 dimensiones, no tienes un deal, tienes una esperanza."**
+*   *Context:* Found in the PULSO methodology document, emphasizing that incomplete qualification is the root of most pipeline failures.
 
 > **"No entrenes a alguien en skills si el problema es de esfuerzo. No le des un playbook si el problema es que no sabe hacer la llamada."**
 *   *Context:* From the REKS framework guide, warning sales managers that 80% of performance issues are misdiagnosed.
 
 > **"Un 'compelling event' tiene fecha pero no consecuencia... Un 'critical event' tiene fecha + consecuencia."**
-*   *Context:* A key distinction in the SPICED dimensions to help sales reps identify genuine urgency versus arbitrary deadlines.
+*   *Context:* A key distinction in the PULSO dimensions to help sales reps identify genuine urgency versus arbitrary deadlines.
 
 > **"85% de los AI SDRs autónomos fallaron en 6 meses... El modelo human-in-the-loop es el que funciona."**
 *   *Context:* Strategic market research data justifying the co-pilot architecture of the marketplace versus fully autonomous agents.

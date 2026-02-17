@@ -1,6 +1,6 @@
 # Playbook Synthesis
 
-Template para generar un sales playbook personalizado basado en el contexto del negocio y los blueprints seleccionados. El playbook es el documento operativo que el equipo de ventas usa diariamente.
+Template para generar un sales playbook personalizado basado en el contexto del negocio y los frameworks seleccionados. El playbook es el documento operativo que el equipo de ventas usa diariamente.
 
 ## Output Contract
 
@@ -10,7 +10,7 @@ Template para generar un sales playbook personalizado basado en el contexto del 
 | **Secciones obligatorias** | Metodologia, Proceso Stage-by-Stage, Scripts, Objection Handling, Demo Framework, Metricas, Coaching |
 | **Customizacion** | Ejemplos, timelines, herramientas adaptadas al contexto del cliente |
 | **Longitud** | 15-20 paginas (suficiente para ser completo, no tanto para ser ignorado) |
-| **Blueprints integrados** | Minimo 2, maximo 4 blueprints sintetizados |
+| **Frameworks integrados** | Minimo 2, maximo 4 frameworks sintetizados |
 
 ## Benchmark
 
@@ -31,7 +31,7 @@ Un playbook de calidad debe:
 | **Cliente** | [Nombre de la empresa] |
 | **Fecha de creacion** | [Fecha] |
 | **Version** | [v1.0] |
-| **Blueprints integrados** | [Lista de blueprint #s y nombres] |
+| **Frameworks integrados** | [Lista de framework #s y nombres] |
 | **Contexto de negocio** | [Resumen en 2-3 oraciones] |
 | **Problema principal** | [El desafio GTM que este playbook resuelve] |
 | **Hipotesis** | [IF/THEN/BECAUSE — referencia a hypothesis card] |
@@ -43,19 +43,19 @@ Un playbook de calidad debe:
 ### Principios Fundamentales
 - Venta consultiva: diagnosticar antes de prescribir
 - Value-based selling: impacto racional + emocional
-- SPICED como lenguaje comun de diagnostico
+- PULSO como lenguaje comun de diagnostico
 - Proceso de decision del comprador (consensus-driven)
 - Optimizacion de lifetime value (no solo first deal)
 
-### Framework SPICED — Nuestro Lenguaje Comun
+### Framework PULSO — Nuestro Lenguaje Comun
 
 | Dimension | Que Descubrimos | Preguntas Tipo |
 |-----------|----------------|----------------|
-| **S — Situation** | Hechos, contexto, circunstancias | Industria, tamano, herramientas, estructura |
-| **P — Pain** | Desafios que traen al prospect | Cuantificable + cualitativo |
-| **I — Impact** | Como impactamos su negocio | Revenue up / Cost down / CX up + beneficio personal |
-| **CE — Critical Event** | Deadline para lograr el impact | Que pasa si no lo logran a tiempo? |
-| **D — Decision** | Proceso, comite, criterios | Quien firma, quien influye, que criterios |
+| **P — Panorama** | Hechos, contexto, circunstancias | Industria, tamano, herramientas, estructura |
+| **U — Urgencia** | Desafios que traen al prospect | Cuantificable + cualitativo |
+| **L — Logro** | Como impactamos su negocio | Revenue up / Cost down / CX up + beneficio personal |
+| **S — Situación Crítica** | Deadline para lograr el logro | Que pasa si no lo logran a tiempo? |
+| **O — Organización** | Proceso, comite, criterios | Quien firma, quien influye, que criterios |
 
 ### Nuestro ICP (Ideal Customer Profile)
 
@@ -65,9 +65,9 @@ Un playbook de calidad debe:
 | **Tamano** | [___] empleados | [___] empleados | [___] empleados |
 | **Revenue** | $[___] - $[___] | $[___] - $[___] | $[___] - $[___] |
 | **Tech Stack** | [___] | [___] | [___] |
-| **Pain Intensity** | [___]/10 | [___]/10 | [___]/10 |
-| **Impact Potential** | [___] | [___] | [___] |
-| **Critical Event** | [___] | [___] | [___] |
+| **Intensidad de Urgencia** | [___]/10 | [___]/10 | [___]/10 |
+| **Potencial de Logro** | [___] | [___] | [___] |
+| **Situación Crítica** | [___] | [___] | [___] |
 
 **Red Flags (Descalificar)**:
 - [ ] [Red flag 1]
@@ -109,26 +109,26 @@ Un playbook de calidad debe:
 
 | Campo | Detalle |
 |-------|---------|
-| **Objetivo** | Entender necesidades y diagnosticar con SPICED |
+| **Objetivo** | Entender necesidades y diagnosticar con PULSO |
 | **Duracion** | 3-7 dias |
 | **Owner** | SDR -> AE handoff |
 | **Entry Criteria** | Discovery agendada, decision maker engaged |
-| **Exit Criteria** | S + P + I descubiertos, impact articulado por prospect |
+| **Exit Criteria** | P + U + L descubiertos, logro articulado por prospect |
 
 **Actividades Clave**:
-1. Pre-call prep (research, SPICED hypothesis, stories preparadas)
+1. Pre-call prep (research, PULSO hypothesis, stories preparadas)
 2. ACE opening
-3. SPICED diagnosis (S -> P -> summarize -> Story -> I -> CE -> D)
+3. PULSO diagnosis (P -> U -> summarize -> Story -> L -> S -> O)
 4. Schedule next meeting + identify who else to invite
 
 **Assets Disponibles**:
 - [ ] Discovery call script (ver seccion 3)
-- [ ] SPICED question bank personalizado
+- [ ] PULSO question bank personalizado
 - [ ] Customer story library (10+ stories)
 - [ ] Pre-call prep checklist
 
 **Metricas**:
-- SPICED completion: > 90%
+- PULSO completion: > 90%
 - Talk-to-listen ratio: 30/70
 - Discovery-to-Demo conversion: > 60%
 
@@ -140,10 +140,10 @@ Un playbook de calidad debe:
 | **Duracion** | 7-14 dias |
 | **Owner** | AE + SE |
 | **Entry Criteria** | Impact cuantificado, demo solicitado |
-| **Exit Criteria** | CE establecido, D mapeado, stakeholders alineados |
+| **Exit Criteria** | Situación Crítica establecida, Organización mapeada, stakeholders alineados |
 
 **Actividades Clave**:
-1. Demo prep (customizar por SPICED, max 3 pain points)
+1. Demo prep (customizar por PULSO, max 3 urgencia points)
 2. Demo execution (pain -> solution -> impact por cada punto)
 3. Impact validation ("Si resolvemos esto, cual es el impacto total?")
 4. Decision criteria discussion + influence
@@ -173,12 +173,12 @@ Un playbook de calidad debe:
 **Actividades Clave**:
 1. Trading (9 pasos, no negociacion — ver seccion 6)
 2. Decision criteria influence (deprioritize/insert/improve)
-3. Critical Event timeline email (backward-mapping)
+3. Email de Situación Crítica con timeline (backward-mapping)
 4. Contract review + signature
 
 **Assets Disponibles**:
 - [ ] Trading menu (que tradear por que)
-- [ ] Critical Event timeline email template
+- [ ] Email template de Situación Crítica con timeline
 - [ ] Proposal template
 - [ ] Contract checklist
 
@@ -197,15 +197,15 @@ Un playbook de calidad debe:
 | **Entry Criteria** | Contrato firmado, kickoff agendado |
 | **Exit Criteria** | Primer milestone de valor alcanzado |
 
-**Handoff SPICED** (AE -> CSM):
+**Handoff PULSO** (AE -> CSM):
 
 | Elemento | Detalles Transferidos |
 |----------|----------------------|
-| **S** | [Situacion completa del cliente] |
-| **P** | [Dolores primarios y secundarios en palabras del cliente] |
-| **I** | [Impacto racional + emocional + cuantificado] |
-| **CE** | [Evento critico, fecha, consecuencia] |
-| **D** | [Proceso de decision, comite, criterios] |
+| **P** | [Panorama completo del cliente] |
+| **U** | [Urgencias primarias y secundarias en palabras del cliente] |
+| **L** | [Logro racional + emocional + cuantificado] |
+| **S** | [Situación Crítica, fecha, consecuencia] |
+| **O** | [Proceso de organización, comite, criterios] |
 | **Champion** | [Nombre, por que estan bought-in] |
 | **Concerns** | [Preocupaciones pendientes] |
 
@@ -234,7 +234,7 @@ Aqui lo que me gustaria cubrir: [agenda].
 Que mas quieres TU sacar de la reunion?"
 ```
 
-### Situation — Preguntas Cerradas (5 min)
+### Panorama — Preguntas Cerradas (5 min)
 ```
 "Estan en [industria], aproximadamente [X] empleados, correcto?"
 "Vi en LinkedIn que usan [herramienta]. Como les funciona?"
@@ -242,7 +242,7 @@ Que mas quieres TU sacar de la reunion?"
 "Note que estan contratando para [rol]. Cuenten..."
 ```
 
-### Pain — Preguntas Abiertas (7 min)
+### Urgencia — Preguntas Abiertas (7 min)
 ```
 "Directores como tu mencionan desafios con [X], [Y], [Z].
 Que tan importante es [X] para ti?"
@@ -252,7 +252,7 @@ Que tan importante es [X] para ti?"
 
 ### Summarize (1 min)
 ```
-"Entonces tienes [Situacion] causando [Dolor], lo que resulta en [consecuencia].
+"Entonces tienes [Panorama] causando [Urgencia], lo que resulta en [consecuencia].
 Lo capture bien?"
 ```
 
@@ -264,14 +264,14 @@ Despues de [tipo de solucion], lograron [impacto cuantificado].
 Te seria util algo asi?"
 ```
 
-### Impact (4 min)
+### Logro (4 min)
 ```
 "Como impacta [dolor] tu negocio? Revenue, costos, experiencia?"
 "Si resolvieras esto, que significaria para ti personalmente?"
 "Puedes cuantificar ese impacto? Cuanto vale?"
 ```
 
-### Critical Event (2 min)
+### Situación Crítica (2 min)
 ```
 "Cuando necesitas una solucion funcionando?"
 "Que pasa si pierdes esa fecha?"
@@ -279,7 +279,7 @@ Te seria util algo asi?"
 como podemos ayudarte a evitar eso?"
 ```
 
-### Decision (3 min)
+### Organización (3 min)
 ```
 "Has comprado algo similar antes? Como fue el proceso?"
 "Quien mas necesita opinar en esta decision?"
@@ -397,13 +397,13 @@ Que tan importante seria eso para tu equipo?"
 | Win Rate | [___]% | [___]% | [___]% | [R/E/K/S]: [Detalle] | [Accion] |
 | Sales Cycle | [___] dias | [___] dias | [___] dias | [R/E/K/S]: [Detalle] | [Accion] |
 | Avg Deal Size | $[___] | $[___] | $[___] | [R/E/K/S]: [Detalle] | [Accion] |
-| SPICED Completion | [___]% | 90% | [___]% | [R/E/K/S]: [Detalle] | [Accion] |
+| PULSO Completion | [___]% | 90% | [___]% | [R/E/K/S]: [Detalle] | [Accion] |
 
 ### Cadencia de Coaching
 
 | Frecuencia | Actividad | Foco |
 |-----------|-----------|------|
-| **Diaria** | Activity tracking, SPICED completion | Leading indicators |
+| **Diaria** | Activity tracking, PULSO completion | Leading indicators |
 | **Semanal** | 1-on-1 con REKS, pipeline review | Gap identification + coaching |
 | **Mensual** | Playbook updates, training gaps | Process improvement |
 | **Trimestral** | ICP refresh, strategy review | Strategic alignment |

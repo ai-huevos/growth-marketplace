@@ -23,7 +23,7 @@ Frameworks fundamentales de B2B growth para cualquier equipo.
 
 | Componente | Tipo | Descripción |
 |-----------|------|-------------|
-| `icp-analysis` | Skill | Análisis de Ideal Customer Profile con scoring SPICED |
+| `icp-analysis` | Skill | Análisis de Ideal Customer Profile con scoring PULSO |
 | `positioning` | Skill | Propuesta de valor, diferenciación, messaging framework |
 | `competitive-analysis` | Skill | Análisis competitivo con Five Forces + mapa de mercado |
 | `/diagnostico` | Command | Assessment ClarQ: GTM, Revenue, Q2C, Capabilities |

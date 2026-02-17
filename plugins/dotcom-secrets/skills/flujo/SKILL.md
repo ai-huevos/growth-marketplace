@@ -88,7 +88,7 @@ Para ofertas high-ticket ($5,000+), el funnel digital prepara pero no cierra. Se
 2. Llamada de discovery / demo
 3. Propuesta personalizada
 
-**Conexión**: Esta fase se integra con **discovery-mastery** del plugin sales-blueprint para ejecutar la llamada de discovery con metodología SPICED.
+**Conexión**: Esta fase se integra con **discovery-mastery** del plugin sales-blueprint para ejecutar la llamada de discovery con metodología PULSO.
 
 Para la metodología detallada fase por fase, leer `frameworks/seven-phases.md`.
 
@@ -111,7 +111,7 @@ Para el árbol de decisión completo, leer `frameworks/funnel-type-selector.md`.
 | **ICP Analysis** (growth-foundations) | Define la temperatura de tráfico y el dolor para el lead magnet |
 | **ALMA** (dotcom-secrets) | Fase 6 — attractive character y ascensión de valor |
 | **ESCALA** (dotcom-secrets) | Value ladder integrado con la secuencia de fases |
-| **Discovery Mastery** (sales-blueprint) | Fase 7 — llamada de ventas high-ticket con SPICED |
+| **Discovery Mastery** (sales-blueprint) | Fase 7 — llamada de ventas high-ticket con PULSO |
 | **Pipeline Management** (sales-blueprint) | Tags de funnel alimentan pipeline, métricas de conversión |
 | **Copywriting Engine** | Copy de squeeze pages, sales pages, emails, OTOs |
 

@@ -15,7 +15,7 @@
 | 3 | `/escala` | dotcom-secrets | 5 plugins como oferta base | Value Ladder (Bait→Frontend→Backend) |
 | 4 | `content-strategy` | growth-foundations | ICP + positioning de Tests 1-2 | Ski Slope plan + Topic Triangle |
 | 5 | `/copy` | copywriting-engine | ICP + positioning + value prop | Landing page copy + email sequence |
-| 6 | `/discovery` + `/propuesta` | sales-blueprint | Prospect ficticio | SPICED prep + propuesta comercial |
+| 6 | `/discovery` + `/propuesta` | sales-blueprint | Prospect ficticio | PULSO prep + propuesta comercial |
 
 ## AI Huevos — Input Data
 
@@ -33,7 +33,7 @@ Canal: Claude Code marketplace + distribución directa
 
 - [ ] Cada comando genera output completo sin errores
 - [ ] Los outputs se conectan (ICP → positioning → copy → propuesta)
-- [ ] SPICED score fluye consistentemente entre plugins
+- [ ] PULSO score fluye consistentemente entre plugins
 - [ ] Los templates producen documentos que un consultor usaría con un cliente real
 - [ ] El flujo completo se ejecuta en < 2 horas de sesión
 - [ ] El roadmap de 90 días es ejecutable por 2 personas
@@ -45,13 +45,13 @@ Canal: Claude Code marketplace + distribución directa
 - `test-03-escala.md` — Value Ladder
 - `test-04-content-strategy.md` — Ski Slope + Topic Triangle
 - `test-05-copy.md` — Landing page + email sequence
-- `test-06-discovery-propuesta.md` — SPICED prep + propuesta
+- `test-06-discovery-propuesta.md` — PULSO prep + propuesta
 - `gap-report.md` — Qué falló, qué necesita ajuste
 
 ## Instrucciones de Ejecución
 
 1. Activar la PM en modo Diagnostic: "diagnosticar negocio de AI Huevos"
-2. La PM conduce ingesta SPICED con los datos de arriba
+2. La PM conduce ingesta PULSO con los datos de arriba
 3. La PM diagnostica growth stage → Pre-Revenue
 4. La PM rutea secuencialmente: /diagnostico → /icp → /escala → content-strategy → /copy → /discovery + /propuesta
 5. Cada output se guarda en este directorio

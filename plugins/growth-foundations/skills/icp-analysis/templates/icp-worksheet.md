@@ -40,15 +40,15 @@ Listar los 3-5 peores clientes o deals perdidos:
 
 **Criterios de exclusión**: ___
 
-## 4. SPICED del cliente ideal
+## 4. PULSO del cliente ideal
 
 | Dimensión | Definición para nuestro ICP |
 |-----------|---------------------------|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** | ___ |
-| **Critical Event** | ___ |
-| **Decision** | ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** | ___ |
+| **Situación Crítica** | ___ |
+| **Organización** | ___ |
 
 ## 5. Criterios firmográficos
 

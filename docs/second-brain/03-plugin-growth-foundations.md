@@ -21,10 +21,10 @@
 **Triggers**: "ICP", "ideal customer profile", "target market", "customer segmentation", "qualify accounts"
 
 ### Qué hace
-Análisis de Ideal Customer Profile con scoring basado en SPICED. Define el cliente ideal usando datos firmográficos + cualitativos, y genera un scoring model para calificar oportunidades.
+Análisis de Ideal Customer Profile con scoring basado en PULSO. Define el cliente ideal usando datos firmográficos + cualitativos, y genera un scoring model para calificar oportunidades.
 
 ### Proceso (5 pasos)
-1. **Diagnóstico SPICED**: Usar segmentación SPICED para entender el mercado
+1. **Diagnóstico PULSO**: Usar segmentación PULSO para entender el mercado
 2. **Análisis firmográfico**: Industria, tamaño, revenue, geografía
 3. **Análisis cualitativo**: Pains, behaviors, triggers de compra
 4. **Documentación**: Generar perfil ICP completo
@@ -102,7 +102,7 @@ Análisis competitivo estructurado usando Five Forces de Porter + mapa competiti
 **Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
 
 ### Qué hace
-Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con SPICED. Incluye plan de validación lean por menos de $500.
+Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con PULSO. Incluye plan de validación lean por menos de $500.
 
 ### ASK Method — Conceptos Clave
 - **SMIQ** (Single Most Important Question): La pregunta open-ended que revela el dolor core y segmenta naturalmente el mercado
@@ -124,7 +124,7 @@ Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado
 | 3 | Segmentación | Asignar bucket (pregunta clave) |
 | 4 | SMIQ | Descubrir dolor profundo (open-ended) |
 | 5 | Blind-spot | Revelar gap, generar urgencia |
-| 6 | Urgencia | Proxy del Critical Event (SPICED) |
+| 6 | Urgencia | Proxy del Critical Event (PULSO) |
 
 ### Bucket Scorecard (0-100)
 
@@ -139,9 +139,9 @@ Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decisio
 | 40-59 | Tier 3 | Nurture / revisitar |
 | 0-39 | Deprioritizar | No construir aún |
 
-### Integración SPICED
+### Integración PULSO
 
-| SPICED | Conexión con Quiz Funnel |
+| PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
 | Situation | El bucket define la situación del prospect dentro del ICP |
 | Pain | El SMIQ descubre el dolor core; buckets segmentan variaciones |
@@ -151,7 +151,7 @@ Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decisio
 
 ### Archivos (11)
 - `SKILL.md`: Definición completa del skill
-- `frameworks/ask-method-fundamentals.md`: Core ASK Method + mapeo ASK↔SPICED
+- `frameworks/ask-method-fundamentals.md`: Core ASK Method + mapeo ASK↔PULSO
 - `frameworks/bucket-identification.md`: Cómo descubrir 3-5 buckets, checklist de validación
 - `frameworks/question-design-framework.md`: 4 tipos de preguntas, reglas, errores comunes
 - `frameworks/lean-stress-test.md`: Plan de validación <$500 en 4 fases
@@ -206,10 +206,10 @@ Genera un heatmap ASCII visual + score total + nivel + recomendaciones priorizad
 **Uso**: `/icp <industria o contexto>`
 
 ### Qué hace
-Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario paso a paso por el proceso de diagnóstico SPICED, análisis cuantitativo y cualitativo.
+Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario paso a paso por el proceso de diagnóstico PULSO, análisis cuantitativo y cualitativo.
 
 ### Fases del Workshop (6)
-1. **Diagnóstico SPICED**: Segmentación inicial
+1. **Diagnóstico PULSO**: Segmentación inicial
 2. **Firmográficos**: Industria, revenue, empleados, geografía
 3. **Pain Discovery**: Problemas que resuelve el producto
 4. **Impact Mapping**: ROI y beneficios emocionales

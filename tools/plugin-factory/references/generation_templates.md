@@ -138,7 +138,7 @@ Para el template completo que Claude puede llenar con el usuario, leer `template
 **Reglas**:
 - YAML frontmatter: `name` en kebab-case, `description` en ingles con triggers entre comillas
 - Contenido del body: todo en espanol
-- Tablas estilo SPICED: dimension en bold en primera columna
+- Tablas estilo PULSO: dimension en bold en primera columna
 - Cross-references: siempre con path relativo (`frameworks/`, `templates/`)
 - Scoring: incluir tabla resumen + clasificacion con tiers
 - Pasos numerados: "Paso 1:", "Paso 2:", etc. (no "Phase" ni "Step")

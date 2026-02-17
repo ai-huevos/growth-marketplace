@@ -132,7 +132,7 @@ my-plugin/
 ```yaml
 ---
 name: icp-scoring
-description: Analiza y puntúa perfiles de cliente ideal (ICP) usando segmentación SPICED. Usar cuando se necesite evaluar fit de mercado, priorizar segmentos, o construir perfiles de cliente.
+description: Analiza y puntúa perfiles de cliente ideal (ICP) usando segmentación PULSO. Usar cuando se necesite evaluar fit de mercado, priorizar segmentos, o construir perfiles de cliente.
 disable-model-invocation: false
 allowed-tools: Read, Grep, Glob, Write
 ---

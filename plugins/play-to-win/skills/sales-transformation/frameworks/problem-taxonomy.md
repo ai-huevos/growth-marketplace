@@ -27,8 +27,8 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | Competidores se posicionan mejor | Media | G2/Capterra reviews, competitive intel |
 | No hay taglines o one-liners memorables | Media | Preguntar a reps: "Cual es nuestro pitch de elevador?" |
 
-**Blueprints Primarios**: 22 (Storytelling/Hero's Journey), 27 (Impact Taglines)
-**Blueprints de Soporte**: 10 (SPICED), 28 (SaaS Sales Method)
+**Frameworks Primarios**: 22 (Storytelling/Hero's Journey), 27 (Impact Taglines)
+**Frameworks de Soporte**: 10 (PULSO), 28 (SaaS Sales Method)
 **Fase de Solucion**: Parte 0 — Product Marketing Fundamentals
 
 **Pre-requisito**: Ninguno. Este es el punto de partida fundamental.
@@ -54,7 +54,7 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | Reps no saben distinguir buen fit de mal fit | Media | Call reviews muestran qualification debil |
 | No hay datos cuantitativos de por que clientes compran | Media | Sin CRM analysis de patrones de win |
 
-**Blueprints Primarios**: 16 (ICP Development), 30 (SPICED Deep Dive)
+**Frameworks Primarios**: 16 (ICP Development), 30 (PULSO Deep Dive)
 **Fase de Solucion**: Parte 1 — Ideal Customer Profile
 
 **Pre-requisito**: Dominio 0 resuelto (positioning claro).
@@ -80,7 +80,7 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | Territorios desbalanceados | Media | >20% varianza en calidad de cuentas entre reps |
 | No se usa multi-threading | Media | Champion deja empresa = deal muerto |
 
-**Blueprints Primarios**: 13 (Stakeholder Mapping), 14 (Account Prioritization), 15 (TAL Sizing)
+**Frameworks Primarios**: 13 (Stakeholder Mapping), 14 (Account Prioritization), 15 (TAL Sizing)
 **Fase de Solucion**: Parte 2 — Target Account List + Stakeholders
 
 **Pre-requisito**: Dominio 1 resuelto (ICP definido).
@@ -107,14 +107,14 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | No hay entry/exit criteria para avanzar deals | Media | Deals "avanzan" sin validacion |
 | Equipo usa terminologia diferente | Media | SDR dice "qualified", AE dice "not ready" |
 
-**Blueprints Primarios**: 10 (SPICED Across Customer Journey), 28 (SaaS Sales Method)
+**Frameworks Primarios**: 10 (PULSO Across Customer Journey), 28 (SaaS Sales Method)
 **Fase de Solucion**: Parte 3 — Customer Journey Map
 
 **Pre-requisito**: Dominio 2 resuelto (cuentas asignadas, stakeholders mapeados).
 
 **Outputs que produce**:
 - Journey Map con 7 etapas (Awareness -> Expand)
-- SPICED Handoff Templates
+- PULSO Handoff Templates
 - Entry/Exit Criteria por etapa
 - Customer Experience Touchpoint Map
 - Handoff Quality Checklist
@@ -134,8 +134,8 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | No hay goals basados en actividades | Media | Reps no saben cuantos demos/calls necesitan |
 | Coaching es ad-hoc, no sistematico | Media | 1-on-1s no tienen estructura ni datos |
 
-**Blueprints Primarios**: 7 (REKS Goal-Setting), 9 (Sales Playbook)
-**Blueprints de Soporte**: 11 (Coaching Methods)
+**Frameworks Primarios**: 7 (REKS Goal-Setting), 9 (Sales Playbook)
+**Frameworks de Soporte**: 11 (Coaching Methods)
 **Fase de Solucion**: Parte 4 — Goal Setting + Sales Playbook
 
 **Pre-requisito**: Dominio 3 resuelto (journey mapeado, etapas definidas).
@@ -160,21 +160,21 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | Discovery calls son < 20 minutos | Alta | Call analytics (Gong/Chorus) |
 | Reps pitchean en vez de diagnosticar | Alta | Talk-to-listen ratio > 60% rep |
 | No se cuantifica el impacto ($) | Alta | <30% de opps tienen $ impact en CRM |
-| No se establece Critical Event | Media | Deals sin fecha de urgencia |
-| No se mapea el proceso de decision | Media | "Quien firma?" — "No se" |
+| No se establece Situación Crítica | Media | Deals sin fecha de urgencia |
+| No se mapea el proceso de organización | Media | "Quien firma?" — "No se" |
 
-**Blueprints Primarios**: 25 (Perfect Discovery Call), 26 (Diagnose Don't Prescribe), 30 (SPICED Deep Dive)
-**Blueprints de Soporte**: 22 (Storytelling)
+**Frameworks Primarios**: 25 (Perfect Discovery Call), 26 (Diagnose Don't Prescribe), 30 (PULSO Deep Dive)
+**Frameworks de Soporte**: 22 (Storytelling)
 **Fase de Solucion**: Parte 5 — Discovery Call Framework
 
 **Pre-requisito**: Dominio 4 resuelto (playbook existe, proceso documentado).
 
 **Outputs que produce**:
-- SPICED Discovery Question Bank personalizado
+- PULSO Discovery Question Bank personalizado
 - ACE Opening script
 - Customer Story Library (10+ stories, 3-part structure)
 - Discovery Call Checklist (before/during/after)
-- SPICED Completion Rate tracking
+- PULSO Completion Rate tracking
 
 ---
 
@@ -192,11 +192,11 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | No se influencian criterios de decision | Media | Prospect evalua con criterios del competidor |
 | No hay critical event timeline documentado | Media | Sin email de timeline backward-mapping |
 
-**Blueprints Primarios**: 24 (Demo Framework), 27 (Impact Selling)
-**Blueprints Avanzados**: 8 (Critical Events), 21 (Trading Framework), 22 (Storytelling), 23 (Decision Criteria)
+**Frameworks Primarios**: 24 (Demo Framework), 27 (Impact Selling)
+**Frameworks Avanzados**: 8 (Situaciones Críticas), 21 (Trading Framework), 22 (Storytelling), 23 (Criterios de Organización)
 **Fase de Solucion**: Partes 6 + 7 — Demo + Advanced Techniques
 
-**Pre-requisito**: Dominio 5 resuelto (discovery produce SPICED completo).
+**Pre-requisito**: Dominio 5 resuelto (discovery produce PULSO completo).
 
 **Outputs que produce**:
 - Demo Structure (pain-solution-impact, 3 demo points max)
@@ -245,9 +245,9 @@ Para un diagnostico rapido (antes del cuestionario completo de 105 preguntas), c
 | **Messaging** | No hay positioning | Existe pero inconsistente | Consistente pero no testado | Testado, validado, adoptado |
 | **Targeting** | "Vendemos a todos" | ICP informal, no documentado | ICP documentado, scoring basico | ICP data-driven, tiers, refresh trimestral |
 | **Coverage** | Sin TAL, sin asignaciones | TAL existe pero sin tiers | TAL tiered, asignado, 3x3 parcial | TAL + intent + 3x3 + multi-threading |
-| **Journey** | Sin etapas definidas | Etapas en CRM pero sin criteria | Journey documentado, handoffs definidos | SPICED handoffs, audited, <5% queja |
+| **Journey** | Sin etapas definidas | Etapas en CRM pero sin criteria | Journey documentado, handoffs definidos | PULSO handoffs, audited, <5% queja |
 | **Process** | Sin playbook | Playbook informal, no adoptado | Playbook documentado, >50% adoption | Playbook con metricas, >90% adoption |
-| **Discovery** | Sin estructura | BANT basico, <20 min calls | SPICED parcial, stories | SPICED completo, 90%+ completion |
+| **Discovery** | Sin estructura | BANT basico, <20 min calls | PULSO parcial, stories | PULSO completo, 90%+ completion |
 | **Closing** | Solo descuentos | Demos semi-personalizados | Pain-solution-impact + trading | Full stack: demo + trading + criteria + CE |
 
 **Interpretacion**:

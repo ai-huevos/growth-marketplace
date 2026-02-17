@@ -6,14 +6,14 @@ version: 1.0.0
 
 # Proposal Generation
 
-Sistema para generar propuestas comerciales B2B basadas en el diagnostico SPICED. La propuesta no presenta tu producto — presenta la solucion al dolor diagnosticado.
+Sistema para generar propuestas comerciales B2B basadas en el diagnostico PULSO. La propuesta no presenta tu producto — presenta la solucion al dolor diagnosticado.
 
 ## Cuando usar este skill
 
 - El usuario necesita crear una propuesta o SOW
 - Quiere generar un business case para un deal
 - Necesita un template de propuesta por segmento (enterprise, mid-market)
-- Quiere asegurar que la propuesta refleja el SPICED del deal
+- Quiere asegurar que la propuesta refleja el PULSO del deal
 
 ## Filosofia: Trading, NOT Negotiating (Momento M4)
 
@@ -22,10 +22,10 @@ Una propuesta profesional no es un documento para "negociar" — es un documento
 - **Negociar**: "Te doy descuento si firmas hoy" (pierde-gana)
 - **Tradear**: "Si incluimos implementacion, necesitamos un contrato de 24 meses" (nunca dar sin recibir)
 
-## Prerequisito: SPICED Score >= 23
+## Prerequisito: PULSO Score >= 23
 
-**No generar propuesta si el SPICED score es < 23.** Si el deal no esta suficientemente diagnosticado:
-1. Identificar que dimensiones de SPICED estan incompletas
+**No generar propuesta si el PULSO score es < 23.** Si el deal no esta suficientemente diagnosticado:
+1. Identificar que dimensiones de PULSO estan incompletas
 2. Recomendar acciones de discovery adicionales (ver skill `discovery-mastery`)
 3. Solo proceder cuando el diagnostico este completo
 
@@ -35,18 +35,18 @@ Generar una propuesta sin diagnostico es como recetar sin examinar al paciente.
 
 Toda propuesta B2B sigue esta estructura:
 
-### 1. Contexto del Cliente (basado en Situation + Pain del SPICED)
+### 1. Contexto del Cliente (basado en Panorama + Urgencia del PULSO)
 - No hablar de tu producto — hablar de SU situacion
 - Demostrar que entendiste su mundo
 - Citar datos especificos de las conversaciones de discovery
 
-### 2. Impacto del Problema (basado en Impact del SPICED)
+### 2. Impacto del Problema (basado en Logro del PULSO)
 - Cuantificar el costo de no actuar
 - Conectar con metricas de negocio (revenue, costo, eficiencia)
 - Incluir el impacto emocional/personal para el decision maker
 
 ### 3. Solucion Propuesta
-- Alineada directamente con el Pain diagnosticado
+- Alineada directamente con la Urgencia diagnosticada
 - Cada componente de la solucion conectado con un dolor especifico
 - No listar features — listar outcomes
 
@@ -65,13 +65,13 @@ Toda propuesta B2B sigue esta estructura:
 - Opciones (Good / Better / Best)
 - ROI calculado: "Por cada $1 invertido, retorno de $X"
 
-### 7. Decision Framework (basado en Decision del SPICED)
+### 7. Decision Framework (basado en Organización del PULSO)
 - Criterios de evaluacion (los que el prospect ya te dijo)
 - Como tu solucion cumple cada criterio
 - Comparativa honesta si hay competencia
 
-### 8. Proximos Pasos y Timeline (basado en Critical Event del SPICED)
-- Conectar timeline con el Critical Event del prospect
+### 8. Proximos Pasos y Timeline (basado en Situación Crítica del PULSO)
+- Conectar timeline con la Situación Crítica del prospect
 - Mutual Action Plan: que hace cada quien, cuando
 - Fecha de expiracion de la propuesta (con consecuencias)
 
@@ -136,9 +136,9 @@ Plan 3x3: Contactar al menos 3 personas en 3 niveles de la organizacion:
 
 Usar el Hero's Journey en 3 partes para el caso de exito:
 
-1. **Situation**: "[Empresa similar] tenia [contexto relatable]..."
-2. **Pain**: "Estaban perdiendo [impacto negativo cuantificado]..."
-3. **Impact**: "Despues de implementar [solucion], lograron [resultado positivo]..."
+1. **Panorama**: "[Empresa similar] tenia [contexto relatable]..."
+2. **Urgencia**: "Estaban perdiendo [impacto negativo cuantificado]..."
+3. **Logro**: "Despues de implementar [solucion], lograron [resultado positivo]..."
 
 Reglas: Usar nombres de pila, hacerlo personal, menos de 2 minutos de lectura, 1-2 oraciones por parte. El CLIENTE es el heroe, no tu producto.
 
@@ -146,10 +146,10 @@ Reglas: Usar nombres de pila, hacerlo personal, menos de 2 minutos de lectura, 1
 
 | Error | Por que falla | Fix |
 |-------|--------------|-----|
-| Propuesta generica | No refleja el SPICED del deal | Personalizar cada seccion con datos del discovery |
+| Propuesta generica | No refleja el PULSO del deal | Personalizar cada seccion con datos del discovery |
 | Listar features | Al decision maker no le importan features | Traducir cada feature en outcome de negocio |
 | Sin business case | El CFO no tiene como justificar la inversion | Incluir ROI cuantificado con datos del prospect |
-| Sin urgencia | La propuesta se archiva | Conectar con Critical Event + fecha de expiracion |
+| Sin urgencia | La propuesta se archiva | Conectar con Situación Crítica + fecha de expiracion |
 | Single-threaded | Si tu contacto se va, el deal muere | Mapear buying center y crear seccion para cada rol |
 | Precio sin contexto | "Es caro" vs "Es el 2% del problema que cuesta $5M" | Presentar precio DESPUES de establecer valor |
 
@@ -157,8 +157,8 @@ Reglas: Usar nombres de pila, hacerlo personal, menos de 2 minutos de lectura, 1
 
 Al generar una propuesta, producir:
 
-1. **Propuesta completa** personalizada al SPICED del deal
+1. **Propuesta completa** personalizada al PULSO del deal
 2. **Executive summary** (1 pagina para el decision maker)
 3. **Business case / ROI** con numeros del prospect
-4. **Mutual Action Plan** con timeline atado al Critical Event
+4. **Mutual Action Plan** con timeline atado a la Situación Crítica
 5. **Trading prep** con palancas y posiciones de negociacion

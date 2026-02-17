@@ -1,6 +1,6 @@
 # Banco de Preguntas de Discovery
 
-Preguntas organizadas por dimension SPICED y por stakeholder. No uses todas — selecciona 3-5 por dimension segun el contexto.
+Preguntas organizadas por dimension PULSO y por stakeholder. No uses todas — selecciona 3-5 por dimension segun el contexto.
 
 ## Regla de Oro
 
@@ -9,9 +9,9 @@ Preguntas organizadas por dimension SPICED y por stakeholder. No uses todas — 
 Evita: "Cual es su mayor desafio?" (suena a guion).
 Prefiere: "Noté que estan contratando 20% mas ingenieros este Q1. Como esta impactando eso a su equipo de IT?" (muestra research + invita a contar).
 
-## Preguntas por Dimension SPICED
+## Preguntas por Dimension PULSO
 
-### Situation — Establecer Contexto
+### Panorama — Establecer Contexto
 
 **Generales**:
 - "Ayudame a entender como funciona [proceso X] hoy en dia."
@@ -35,7 +35,7 @@ Prefiere: "Noté que estan contratando 20% mas ingenieros este Q1. Como esta imp
 - "Si pudieras cambiar una cosa de como trabajan hoy, que seria?"
 - "Cuanto tiempo de tu semana se va en [actividad manual]?"
 
-### Pain — Descubrir el Dolor
+### Urgencia — Descubrir el Dolor
 
 **Cuantificables**:
 - "Cuanto tiempo/dinero pierden hoy haciendo [proceso X] manualmente?"
@@ -58,7 +58,7 @@ Prefiere: "Noté que estan contratando 20% mas ingenieros este Q1. Como esta imp
 4. "Como impacta eso a [stakeholder]?" → Respuesta
 5. "Que pasaria si no lo resuelven?" → Llegar a la raiz
 
-### Impact — Conectar con Resultados
+### Logro — Conectar con Resultados
 
 **Racional**:
 - "Si resuelven esto, cuanto ahorrarian en [tiempo/dinero/recursos]?"
@@ -72,7 +72,7 @@ Prefiere: "Noté que estan contratando 20% mas ingenieros este Q1. Como esta imp
 - "Si logras resolver esto, como te posiciona dentro de la organizacion?"
 - "Que te quita el sueno de esta situacion?"
 
-### Critical Event — Identificar Urgencia
+### Situación Crítica — Identificar Urgencia
 
 - "Hay algun deadline o evento que haga esto urgente?"
 - "Cuando necesitan tener esto funcionando? Que pasa si no?"
@@ -80,9 +80,9 @@ Prefiere: "Noté que estan contratando 20% mas ingenieros este Q1. Como esta imp
 - "Que cambia en [Q/mes] que hace esto mas urgente?"
 - "Si deciden no hacer nada, que pasa en 6 meses?"
 
-**Red flag**: Si no hay Critical Event, el deal probablemente se estancara. Buscar un CE o crear uno con insights.
+**Red flag**: Si no hay Situación Crítica, el deal probablemente se estancara. Buscar una SC o crear una con insights.
 
-### Decision — Mapear el Proceso
+### Organización — Mapear el Proceso
 
 - "Quien mas esta involucrado en esta decision?"
 - "Como se toman las decisiones de este tipo en tu empresa?"

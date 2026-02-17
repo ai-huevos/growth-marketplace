@@ -1,8 +1,8 @@
-# Plugin: play-to-win — Winning by Design Full Lifecycle
+# Plugin: play-to-win — Metodología GrowthOS Full Lifecycle
 
 ## Overview
 
-Plugin que implementa el sistema completo Winning by Design para transformación de equipos de ventas B2B. Generado a partir de 31 blueprints (45,199 palabras) + frameworks de síntesis del repositorio Play to Win.
+Plugin que implementa el sistema completo Metodología GrowthOS para transformación de equipos de ventas B2B. Generado a partir de 31 blueprints (45,199 palabras) + frameworks de síntesis del repositorio Play to Win.
 
 **Brecha que llena**: Todo el ciclo post-venta (Customer Success Operating Model), relationship mapping avanzado, deal strategy, renewal/expansion, y un orquestador de transformación de 90 días. Ninguno de estos existía en el marketplace.
 
@@ -26,7 +26,7 @@ Modelo operativo completo de CS: Onboard (O1-O4: Handoff, Kickoff, JIP, First Im
 Sistema de inteligencia pre-llamada en 5 capas: Company → Human → Industry → Geography → Timing. Incluye prompts para Perplexity y schema de Data Cube.
 
 ### 4. deal-strategy
-Skill fusionado: win/loss analysis SPICED + facilitación de stakeholder meetings (3 partes: As-Is → What's Possible → Agree Plan) + tácticas de criterios de decisión (deprioritize/insert/improve). CxO sponsorship y KPI design.
+Skill fusionado: win/loss analysis PULSO + facilitación de stakeholder meetings (3 partes: As-Is → What's Possible → Agree Plan) + tácticas de criterios de decisión (deprioritize/insert/improve). CxO sponsorship y KPI design.
 
 ### 5. relationship-mapping
 Buying center avanzado (7 roles vs 4 básicos). 4 jugadas tácticas (LinkedIn → RRR → Provocative → Bottom-up). Mapeo organizacional 6 pasos. Matriz power/interest. Planificación 3×3. 5 jugadas de multi-threading.
@@ -42,8 +42,8 @@ Pipeline de 6 fases: clasificación de problema (8 dominios) → análisis de co
 | Comando | Propósito |
 |---------|-----------|
 | `/playbook [problema/empresa]` | Sintetiza playbook GTM personalizado usando el playbook-coach |
-| `/deal-analysis [deal/pipeline]` | Sesión interactiva de análisis win/loss con SPICED |
-| `/kickoff [nombre cliente]` | Orquesta llamada de kickoff completa (prep → ACE → SPICED → JIP) |
+| `/deal-analysis [deal/pipeline]` | Sesión interactiva de análisis win/loss con PULSO |
+| `/kickoff [nombre cliente]` | Orquesta llamada de kickoff completa (prep → ACE → PULSO → JIP) |
 
 ## Relación con otros plugins
 
@@ -54,7 +54,7 @@ Pipeline de 6 fases: clasificación de problema (8 dominios) → análisis de co
 ## Fuente
 
 Repositorio: `/Volumes/deathstar/Development/Play to win/`
-- 31 blueprints Winning by Design (extracted_text/markdown/)
+- 31 blueprints Metodología GrowthOS (extracted_text/markdown/)
 - SALES_SYSTEM_TRANSFORMATION_FRAMEWORK.md (90-day orchestrator)
 - PRE_DISCOVERY_RESEARCH_SYSTEM.md (5-layer intelligence)
 - ai_sales_coach_system/ (5 archivos: classifier, scorer, synthesizer, enablement, hypothesis)
@@ -83,13 +83,13 @@ Repositorio: `/Volumes/deathstar/Development/Play to win/`
 Hero's Journey storytelling (neural coupling, 3-part structure) + establecimiento de impacto (↓Cost, ↑Experience, ↑Revenue) + value proposition canvas + positioning statement + messaging architecture matrix. Blueprints #22, #27.
 
 ### 8. icp-tal
-ICP data-driven con SPICED de 5 pasos + TAL con 3 enfoques (Named/Fit/In-Market) + cálculo por tiers + mapeo de relaciones con 4 jugadas tácticas y orquestación 3×3. Blueprints #16, #14, #15, #13.
+ICP data-driven con PULSO de 5 pasos + TAL con 3 enfoques (Named/Fit/In-Market) + cálculo por tiers + mapeo de relaciones con 4 jugadas tácticas y orquestación 3×3. Blueprints #16, #14, #15, #13.
 
 ### 9. customer-journey
-SPICED como puente entre equipos (SDR→AE→CSM→AM) + 7 Momentos Clave del Método SaaS (M1-M7) + diseño de etapas + shift BANT→Impact. Blueprints #10, #28.
+PULSO como puente entre equipos (SDR→AE→CSM→AM) + 7 Momentos Clave del Método SaaS (M1-M7) + diseño de etapas + shift BANT→Logro. Blueprints #10, #28.
 
 ### 10. discovery-demo
-Discovery call con ACE + SPICED + checklist 54 puntos + diagnosis deep-dive con 4 tipos de preguntas contextuales + demo framework prescribe (PREP→DEMO→IMPACT→RECAP). Blueprints #25, #26, #24.
+Discovery call con ACE + PULSO + checklist 54 puntos + diagnosis deep-dive con 4 tipos de preguntas contextuales + demo framework prescribe (PREP→DEMO→LOGRO→RECAP). Blueprints #25, #26, #24.
 
 ### 11. advanced-techniques
 Critical event acceleration (4 tipos de comprador, backward planning) + trading sin descuentos (9 pasos, 3-deal option matrix) + influencia en criterios de decisión (DEPRIORITIZE/INSERT/IMPROVE). Blueprints #08, #21, #23.

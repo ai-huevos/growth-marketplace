@@ -289,15 +289,15 @@ Template fase por fase para planificar tu funnel completo. Claude completa este 
   - Rol requerido: ___
   - Otros: ___
 
-### Discovery Call (SPICED)
+### Discovery Call (PULSO)
 
 - **Duración objetivo**: ___ minutos
-- **Preguntas SPICED preparadas**:
-  - Situation: "___"
-  - Pain: "___"
-  - Impact: "___"
-  - Critical Event: "___"
-  - Decision: "___"
+- **Preguntas PULSO preparadas**:
+  - Panorama: "___"
+  - Urgencia: "___"
+  - Logro: "___"
+  - Situación Crítica: "___"
+  - Organización: "___"
 
 ### Propuesta
 
@@ -319,7 +319,7 @@ Template fase por fase para planificar tu funnel completo. Claude completa este 
 - [ ] Crear landing page del programa premium
 - [ ] Grabar video de presentación
 - [ ] Configurar formulario de aplicación + Calendly
-- [ ] Preparar script de discovery call con SPICED
+- [ ] Preparar script de discovery call con PULSO
 - [ ] Crear template de propuesta personalizable
 - [ ] Configurar secuencia de follow-up
 

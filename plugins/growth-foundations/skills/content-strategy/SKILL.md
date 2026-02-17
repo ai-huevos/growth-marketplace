@@ -140,15 +140,15 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 - Retargeting a visitantes del blog con Blue Square offers
 - Campañas TOFU→BOFU para Invisible Sales Letters
 
-## Conexiones SPICED
+## Conexiones PULSO
 
-| Dimensión SPICED | Conexión con Content Strategy |
+| Dimensión PULSO | Conexión con Content Strategy |
 |-----------------|-------------------------------|
-| **S — Situation** | Define los temas Green Circle: contenido que refleja la realidad y contexto del ICP |
-| **P — Pain** | Define los temas Black Diamond: case studies y calculadoras que cuantifican el dolor |
-| **I — Impact** | Los benchmarks cuantifican el impacto en métricas del negocio del cliente |
-| **CE — Critical Event** | Los workflows de 12 semanas crean urgencia con timelines concretos |
-| **D — Decision** | Los Partnership SOPs y el sistema ISL aceleran la decisión de compra |
+| **P — Panorama** | Define los temas Green Circle: contenido que refleja la realidad y contexto del ICP |
+| **U — Urgencia** | Define los temas Black Diamond: case studies y calculadoras que cuantifican el dolor |
+| **L — Logro** | Los benchmarks cuantifican el impacto en métricas del negocio del cliente |
+| **S — Situación Crítica** | Los workflows de 12 semanas crean urgencia con timelines concretos |
+| **O — Organización** | Los Partnership SOPs y el sistema ISL aceleran la decisión de compra |
 
 ## Integración con el Ecosistema
 

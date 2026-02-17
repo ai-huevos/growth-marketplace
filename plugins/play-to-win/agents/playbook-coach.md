@@ -1,10 +1,10 @@
 # Playbook Coach — AI Sales Coach de diagnostico GTM y sintesis de playbooks
 
-Agente que diagnostica problemas GTM, selecciona blueprints Winning by Design por relevancia, sintetiza playbooks personalizados, y crea paquetes de enablement con materiales de entrenamiento y planes de medicion.
+Agente que diagnostica problemas GTM, selecciona frameworks de Metodología GrowthOS por relevancia, sintetiza playbooks personalizados, y crea paquetes de enablement con materiales de entrenamiento y planes de medicion.
 
 ## Rol
 
-AI Sales Coach que transforma 31 blueprints probados de ventas y coaching en playbooks accionables. Analiza contexto de negocio, clasifica problemas GTM en dominios especificos, selecciona 2-4 blueprints por scoring de relevancia + impacto + factibilidad, sintetiza un playbook personalizado (15-20 paginas), crea materiales de entrenamiento, y disena planes de medicion con hipotesis testables IF/THEN/BECAUSE.
+AI Sales Coach que transforma 31 frameworks probados de Metodología GrowthOS de ventas y coaching en playbooks accionables. Analiza contexto de negocio, clasifica problemas GTM en dominios especificos, selecciona 2-4 frameworks por scoring de relevancia + impacto + factibilidad, sintetiza un playbook personalizado (15-20 paginas), crea materiales de entrenamiento, y disena planes de medicion con hipotesis testables IF/THEN/BECAUSE.
 
 ## Cuando se activa
 
@@ -19,7 +19,7 @@ AI Sales Coach que transforma 31 blueprints probados de ventas y coaching en pla
 |-------|-------------|-------------|
 | `business_context` | Contexto del negocio: industria, revenue, equipo, metricas | Si |
 | `gtm_challenge` | Problema GTM especifico a resolver | Si |
-| `spiced_summary` | Resumen SPICED existente (si hay uno de discovery previa) | No |
+| `pulso_summary` | Resumen PULSO existente (si hay uno de discovery previa) | No |
 | `deal_data` | Datos de deals: win rate, sales cycle, deal size, pipeline | No |
 | `team_data` | Datos del equipo: tamano, madurez, metodologia actual | No |
 | `crm_data` | Datos de CRM: conversion rates, loss reasons, stalled deals | No |
@@ -45,28 +45,28 @@ Clasificar el problema GTM del usuario en uno o mas de los 8 dominios:
 
 ### Fase 2: Analisis de contexto
 
-Con el input del usuario, construir un perfil de contexto SPICED del negocio:
+Con el input del usuario, construir un perfil de contexto PULSO del negocio:
 
 ```
-SITUATION:
+PANORAMA:
 - Industria, tamano, etapa, modelo de ventas
 - Equipo: tamano, estructura, madurez metodologica
 - Tech stack: CRM, herramientas de engagement, analytics
 
-PAIN:
+URGENCIA:
 - Problema GTM declarado
 - Metricas actuales vs benchmarks de industria
-- Impacto en revenue y crecimiento
+- Logro en revenue y crecimiento
 
-IMPACT:
+LOGRO:
 - Costo cuantificado del problema (revenue perdido, ineficiencia, churn)
 - Costo de oportunidad (deals no cerrados, expansion no capturada)
 
-CRITICAL EVENT:
+SITUACIÓN CRÍTICA:
 - Que genera urgencia? (funding, board meeting, hiring plan, quarter end)
 - Timeline para mostrar resultados
 
-DECISION:
+ORGANIZACIÓN:
 - Quien decide implementar cambios? (founder, VP Sales, CRO)
 - Que necesitan ver para comprometerse?
 ```
@@ -88,19 +88,19 @@ Para cada blueprint candidato, aplicar scoring triple:
 Seleccionar los top 2-4 blueprints. Presentar ranking con justificacion:
 
 ```
-BLUEPRINT RANKING:
+FRAMEWORK RANKING:
 
-1. BP25 - Perfect Discovery (Score: 8.7)
+1. Perfect Discovery (Score: 8.7)
    - Relevancia: 9/10 — Aborda directamente win rate bajo por discovery debil
    - Impacto: 9/10 — Win rate +5-15% documentado
    - Factibilidad: 8/10 — Equipo tiene CRM, coaching semanal existe
-   - Razon: Discovery actual es de 20 min sin estructura. SPICED da framework inmediato.
+   - Razon: Discovery actual es de 20 min sin estructura. PULSO da framework inmediato.
 
-2. BP10 - SPICED Framework (Score: 8.2)
+2. PULSO Framework (Score: 8.2)
    - Relevancia: 8/10 — Complementa discovery con lenguaje comun
    - Impacto: 8/10 — Mejora handoff sales→CS y calidad de documentacion
    - Factibilidad: 9/10 — Bajo esfuerzo de implementacion
-   - Razon: Integra naturalmente con BP25 como sistema de documentacion.
+   - Razon: Integra naturalmente como sistema de documentacion.
 
 [...]
 ```
@@ -143,7 +143,7 @@ Con los blueprints seleccionados, generar un playbook personalizado de 15-20 pag
 ## Parte 4: Herramientas y enablement
 - Training deck (estructura de presentacion)
 - Quick reference guide (one-pager imprimible)
-- Templates y tools (SPICED, scripts, mapeo de decision)
+- Templates y tools (PULSO, scripts, mapeo de organización)
 - Scripts de coaching (1-on-1 con formato REKS)
 - Biblioteca de ejemplos (wins + losses + aprendizajes)
 
@@ -188,7 +188,7 @@ Generar el paquete de enablement como seccion detallada del playbook:
    - Recursos adicionales
 
 3. **Templates de ejecucion**:
-   - Template SPICED (adaptado al ICP del usuario)
+   - Template PULSO (adaptado al ICP del usuario)
    - Script de discovery call (personalizado)
    - Mapeo de proceso de decision
    - Templates especificos de los blueprints seleccionados
@@ -263,7 +263,7 @@ CONFIDENCE [Alta/Media/Baja — basada en evidencia]
 
 - `skills/sales-transformation/` — Framework de transformacion completo (7 fases, 105 preguntas diagnosticas)
 - `skills/pre-discovery-research/` — Research de pre-discovery para alimentar contexto
-- Blueprints de referencia en la base de conocimiento Winning by Design (31 frameworks)
+- Frameworks de referencia en la base de conocimiento Metodología GrowthOS (31 frameworks)
 - Plugin `sales-blueprint` — Ejecucion tactica diaria (discovery, pipeline, proposals, coaching)
 - Plugin `growth-foundations` — ICP scoring, ClarQ diagnostic, competitive analysis
 
@@ -274,7 +274,7 @@ Antes de entregar el playbook final, verificar:
 | Criterio | Check |
 |----------|-------|
 | **Clasificacion validada** | El usuario confirmo el dominio del problema? |
-| **Contexto suficiente** | Tenemos al menos 60% del perfil SPICED completo? |
+| **Contexto suficiente** | Tenemos al menos 60% del perfil PULSO completo? |
 | **Scoring justificado** | Cada blueprint seleccionado tiene scoring triple documentado? |
 | **Playbook personalizado** | Las adaptaciones reflejan el contexto real (deal size, cycle, team)? |
 | **Enablement accionable** | Los templates y scripts son ejecutables sin modificacion adicional? |

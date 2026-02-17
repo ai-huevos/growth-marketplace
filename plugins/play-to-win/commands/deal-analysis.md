@@ -1,5 +1,5 @@
 ---
-description: Sesion de analisis win/loss usando framework SPICED. Revisa patrones en deals cerrados y recomienda ajustes al pipeline y CRM.
+description: Sesion de analisis win/loss usando framework PULSO. Revisa patrones en deals cerrados y recomienda ajustes al pipeline y CRM.
 argument-hint: <datos de deal o pipeline>
 allowed-tools: [Read, Glob, Grep]
 ---
@@ -35,24 +35,24 @@ Solicitar al usuario datos de deals cerrados (won + lost). Minimo 10 deals para 
 
 **Presentar resumen de los datos recibidos. Esperar confirmacion.**
 
-### Fase 2: SPICED scoring de cada deal
+### Fase 2: PULSO scoring de cada deal
 
-Para cada deal (o los top 5-10 mas representativos), aplicar scoring SPICED retroactivo:
+Para cada deal (o los top 5-10 mas representativos), aplicar scoring PULSO retroactivo:
 
 ```
 DEAL: [Empresa] — [Won/Lost] — $[Valor]
 
-SPICED SCORE:
+PULSO SCORE:
 
 | Dimension | Score (1-5) | Evidencia |
 |-----------|-------------|-----------|
-| Situation | [X] | [Que sabiamos del contexto actual del cliente] |
-| Pain | [X] | [Que tan bien identificamos y cuantificamos el dolor] |
-| Impact | [X] | [Se cuantifico el impacto en $ o metricas de negocio?] |
-| Critical Event | [X] | [Habia urgencia real? Se identifico un evento catalizador?] |
-| Decision | [X] | [Mapeamos el proceso de decision? Conocimos a los stakeholders?] |
+| Panorama | [X] | [Que sabiamos del contexto actual del cliente] |
+| Urgencia | [X] | [Que tan bien identificamos y cuantificamos el dolor] |
+| Logro | [X] | [Se cuantifico el logro en $ o metricas de negocio?] |
+| Situación Crítica | [X] | [Habia urgencia real? Se identifico un evento catalizador?] |
+| Organización | [X] | [Mapeamos el proceso de organización? Conocimos a los stakeholders?] |
 
-SPICED TOTAL: [X/25]
+PULSO TOTAL: [X/25]
 CALIFICACION: [Fuerte (20-25) / Medio (13-19) / Debil (5-12)]
 ```
 
@@ -66,12 +66,13 @@ CALIFICACION: [Fuerte (20-25) / Medio (13-19) / Debil (5-12)]
 Presentar tabla resumen:
 
 ```
-RESUMEN SPICED — TODOS LOS DEALS:
+RESUMEN PULSO — TODOS LOS DEALS:
 
 | Deal | Resultado | Valor | S | P | I | CE | D | Total | Calificacion |
 |------|-----------|-------|---|---|---|----|---|-------|-------------|
 | [A]  | Won       | $50K  | 4 | 5 | 4 | 4  | 3 | 20/25 | Fuerte      |
 | [B]  | Lost      | $30K  | 3 | 2 | 1 | 1  | 2 | 9/25  | Debil       |
+
 | ...  | ...       | ...   | . | . | . | .  | . | ...   | ...         |
 ```
 
@@ -80,23 +81,23 @@ RESUMEN SPICED — TODOS LOS DEALS:
 Con los datos y scores, identificar patrones sistematicos:
 
 **Patrones de victoria** (que tienen en comun los deals ganados):
-- Score SPICED promedio de deals won vs lost
-- Dimensiones SPICED mas fuertes en wins
+- Score PULSO promedio de deals won vs lost
+- Dimensiones PULSO mas fuertes en wins
 - Tamano de deal promedio en wins
 - Ciclo de venta promedio en wins
 - Fuentes mas efectivas
 - Industrias con mejor win rate
 
 **Patrones de perdida** (que tienen en comun los deals perdidos):
-- Dimensiones SPICED mas debiles en losses
+- Dimensiones PULSO mas debiles en losses
 - Razon de perdida mas frecuente
 - Etapa donde se pierden mas deals
-- Existe patron de "no decision"? (SPICED debil en Impact + Critical Event)
+- Existe patron de "no decision"? (PULSO debil en Logro + Situación Crítica)
 - Tamano de deal donde se pierde mas
 
 **Correlaciones clave**:
-- SPICED score vs resultado (hay umbral minimo para ganar?)
-- Dimension SPICED mas predictiva de resultado
+- PULSO score vs resultado (hay umbral minimo para ganar?)
+- Dimension PULSO mas predictiva de resultado
 - Numero de stakeholders vs win rate
 - Fuente del deal vs win rate
 - Ciclo de venta vs resultado
@@ -106,18 +107,18 @@ Presentar analisis con visualizacion:
 ```
 HALLAZGOS CLAVE:
 
-1. SPICED SCORE PREDICE RESULTADO:
-   - Deals Won: SPICED promedio = [X/25]
-   - Deals Lost: SPICED promedio = [Y/25]
-   - Umbral critico: Deals con SPICED < [Z] tienen [W%] probabilidad de perder
+1. PULSO SCORE PREDICE RESULTADO:
+   - Deals Won: PULSO promedio = [X/25]
+   - Deals Lost: PULSO promedio = [Y/25]
+   - Umbral critico: Deals con PULSO < [Z] tienen [W%] probabilidad de perder
 
-2. DIMENSION MAS DEBIL: [Impact / Critical Event / Decision]
+2. DIMENSION MAS DEBIL: [Logro / Situación Crítica / Organización]
    - En [X%] de los deals perdidos, esta dimension tenia score <= 2
    - Implicacion: [que significa esto para el proceso de ventas]
 
 3. PATRON "NO DECISION":
    - [X%] de perdidas son "no decision"
-   - Caracteristica comun: Impact no cuantificado + Critical Event ausente
+   - Caracteristica comun: Logro no cuantificado + Situación Crítica ausente
    - Costo: $[X] en pipeline estancado
 
 4. [Patron adicional especifico al dataset]
@@ -147,7 +148,7 @@ Evaluar riesgos de concentracion en el pipeline:
 **Por rep** (si hay datos):
 - Distribucion de performance
 - Top performers vs struggling (que hacen diferente?)
-- Correlacion entre SPICED quality y resultados por rep
+- Correlacion entre PULSO quality y resultados por rep
 
 Presentar mapa de concentracion:
 
@@ -174,17 +175,17 @@ FUENTE:
 Basado en todo el analisis, generar recomendaciones accionables:
 
 **1. Ajustes al proceso de ventas**:
-- Que cambiar en discovery basado en las dimensiones SPICED debiles
+- Que cambiar en discovery basado en las dimensiones PULSO debiles
 - Criterios de entry/exit por stage del pipeline
-- Qualification gates: que SPICED score minimo para avanzar deals
+- Qualification gates: que PULSO score minimo para avanzar deals
 
 **2. Ajustes al CRM**:
-- Campos requeridos por stage (basado en SPICED)
-- Alertas automaticas para deals con SPICED score bajo
-- Dashboard de salud de pipeline con SPICED como eje central
+- Campos requeridos por stage (basado en PULSO)
+- Alertas automaticas para deals con PULSO score bajo
+- Dashboard de salud de pipeline con PULSO como eje central
 
 **3. Ajustes de coaching**:
-- Areas de coaching prioritarias (dimensiones SPICED debiles)
+- Areas de coaching prioritarias (dimensiones PULSO debiles)
 - Ejercicios especificos para mejorar cada dimension
 - Cadencia de deal review recomendada
 
@@ -206,7 +207,7 @@ Entregar el reporte completo de analisis Win/Loss:
 - Hallazgo principal: [insight mas importante]
 - Recomendacion #1: [accion de mayor impacto]
 
-## 2. SPICED scoring detallado
+## 2. PULSO scoring detallado
 - Tabla completa de scoring por deal
 - Score promedio por dimension (won vs lost)
 

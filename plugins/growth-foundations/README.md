@@ -5,7 +5,7 @@ Frameworks fundamentales de B2B growth. Plugin gratuito del [AI Huevos Growth Ma
 ## Skills
 
 ### icp-analysis
-Análisis de Ideal Customer Profile con scoring basado en SPICED. Define tu cliente ideal usando datos firmográficos + cualitativos, y genera un scoring model para calificar oportunidades.
+Análisis de Ideal Customer Profile con scoring basado en PULSO. Define tu cliente ideal usando datos firmográficos + cualitativos, y genera un scoring model para calificar oportunidades.
 
 **Triggers**: "ICP", "ideal customer profile", "target market", "customer segmentation", "qualify accounts"
 
@@ -20,7 +20,7 @@ Análisis competitivo estructurado usando Five Forces de Porter + mapa competiti
 **Triggers**: "competitive analysis", "competitors", "market landscape", "competitive intelligence", "market map"
 
 ### quiz-funnel
-Diseño de quiz funnels para segmentar un mercado en 3-5 buckets accionables. Basado en el ASK Method adaptado a B2B e integrado con SPICED. Incluye frameworks de diseño de preguntas, scoring de buckets, y plan de stress test por <$500.
+Diseño de quiz funnels para segmentar un mercado en 3-5 buckets accionables. Basado en el ASK Method adaptado a B2B e integrado con PULSO. Incluye frameworks de diseño de preguntas, scoring de buckets, y plan de stress test por <$500.
 
 **Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
 
@@ -39,7 +39,7 @@ Assessment rápido usando el framework ClarQ. Evalúa una empresa en 4 dimension
 ```
 
 ### /icp
-Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario paso a paso por el proceso de diagnóstico SPICED, análisis cuantitativo y cualitativo.
+Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario paso a paso por el proceso de diagnóstico PULSO, análisis cuantitativo y cualitativo.
 
 ```
 /icp [industria o contexto]

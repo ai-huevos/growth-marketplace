@@ -4,7 +4,7 @@ Framework que define como cada componente del sistema de ventas produce outputs 
 
 ## Principio Central
 
-> "Reemplaza actos aleatorios de ventas con un sistema basado en blueprints donde los insights de discovery personalizan demos, la priorizacion del TAL dirige la estrategia de outreach, y las etapas del customer journey definen protocolos exactos de handoff."
+> "Reemplaza actos aleatorios de ventas con un sistema basado en frameworks donde los insights de discovery personalizan demos, la priorizacion del TAL dirige la estrategia de outreach, y las etapas del customer journey definen protocolos exactos de handoff."
 
 Cada componente tiene:
 - **Inputs**: Que necesita para funcionar (viene del componente anterior)
@@ -45,29 +45,29 @@ TAL (Target Account List)
      |
      v
 CUSTOMER JOURNEY
-  Inputs: TAL data, SPICED framework, team structure
+  Inputs: TAL data, PULSO framework, team structure
   Outputs: Stage definitions, handoff protocols, entry/exit criteria
      |
      +---> Stage Definitions ----> CRM PIPELINE (configuracion de stages)
-     +---> Handoff Protocols ----> SPICED TRANSFER (sin perdida de info)
+     +---> Handoff Protocols ----> PULSO TRANSFER (sin perdida de info)
      +---> Entry/Exit Criteria --> DEAL PROGRESSION (cuanto avanzar)
      |
      v
 DISCOVERY
   Inputs: Account research, ICP profile, hero stories
-  Outputs: SPICED complete, impact quantified, critical event
+  Outputs: PULSO complete, logro quantified, situacion critica
      |
-     +---> SPICED S+P -----------> DEMO CUSTOMIZATION (foco en dolor)
-     +---> Impact (I) -----------> PROPOSAL/ROI (business case)
-     +---> Critical Event (CE) --> DEAL URGENCY (timeline de cierre)
-     +---> Decision (D) ---------> STAKEHOLDER STRATEGY (buying center)
+     +---> PULSO P+U -----------> DEMO CUSTOMIZATION (foco en dolor)
+     +---> Logro (L) -----------> PROPOSAL/ROI (business case)
+     +---> Situación Crítica (S) --> DEAL URGENCY (timeline de cierre)
+     +---> Organización (O) -----> STAKEHOLDER STRATEGY (buying center)
      |
      v
 DEMO + PRESCRIPTION
-  Inputs: SPICED notes, pain-solution mapping, proof points
-  Outputs: Pain-solution-impact validated, criteria influenced, commitment
+  Inputs: PULSO notes, urgencia-solution mapping, proof points
+  Outputs: Urgencia-solution-logro validated, criteria influenced, commitment
      |
-     +---> Pain-Solution-Impact -> DECISION CRITERIA (influenciar evaluacion)
+     +---> Urgencia-Solution-Logro -> CRITERIOS DE ORGANIZACIÓN (influenciar evaluacion)
      +---> Criteria Influence ----> COMPETITIVE STRATEGY (diferenciacion)
      +---> Commitment -----------> TRADING/CLOSE (negociacion win-win)
      |
@@ -110,9 +110,9 @@ GOALS + METRICS + COACHING
 **Validacion**: Si >30% del pipeline es Tier 3 o unscored, la cascada ICP->TAL esta rota.
 
 ### Regla 3: Discovery alimenta Demo
-- SPICED S+P determina el foco del demo
-- Impact (I) moldea la discusion de ROI
-- Critical Event (CE) impulsa la urgencia del demo
+- PULSO P+U determina el foco del demo
+- Logro (L) moldea la discusion de ROI
+- Situación Crítica (S) impulsa la urgencia del demo
 
 **Validacion**: Si demos son genericos (misma presentacion para todos), la cascada Discovery->Demo esta rota.
 
@@ -124,17 +124,17 @@ GOALS + METRICS + COACHING
 **Validacion**: Si <60% de oportunidades tienen 3+ stakeholders, la cascada TAL->Multi-threading esta rota.
 
 ### Regla 5: Discovery alimenta Journey alimenta Handoff
-- Discovery captura SPICED
+- Discovery captura PULSO
 - Journey define momentos de handoff
-- SPICED template asegura transferencia de informacion
+- PULSO template asegura transferencia de informacion
 
 **Validacion**: Si clientes se quejan de repetir informacion, la cascada de handoff esta rota.
 
 ### Regla 6: Advanced Techniques = Situacionales
 - Storytelling: Cuando se necesita credibilidad
 - Trading: Cuando ocurre discusion de valor
-- Decision Criteria: Cuando es competitivo
-- Critical Event: Cuando el deal esta atorado
+- Criterios de Organización: Cuando es competitivo
+- Situación Crítica: Cuando el deal esta atorado
 
 **Validacion**: Si reps usan la misma tecnica en todas las situaciones, no estan leyendo la situacion.
 
@@ -156,8 +156,8 @@ GOALS + METRICS + COACHING
 | Sin messaging documentado | Cada rep dice algo diferente | 0 -> Todo | Workshop de positioning + messaging playbook |
 | Sin ICP scoring | Pipeline lleno de bad-fits | 1 -> 2 | Analisis de CRM + scoring methodology |
 | Sin data enrichment | Cuentas sin datos de intent | 2 -> 5 | Integrar 6Sense/ZoomInfo/Clearbit |
-| Sin CRM discipline | SPICED no se documenta | 5 -> 6 | Campos obligatorios + audit semanal |
-| Sin handoff protocol | Contexto se pierde | 3 -> All | SPICED handoff template + pre-meetings |
+| Sin CRM discipline | PULSO no se documenta | 5 -> 6 | Campos obligatorios + audit semanal |
+| Sin handoff protocol | Contexto se pierde | 3 -> All | PULSO handoff template + pre-meetings |
 | Sin coaching cadence | Reps no mejoran | All -> Performance | REKS framework + weekly 1-on-1s |
 
 ### Como Diagnosticar una Cascada Rota
@@ -187,11 +187,11 @@ GOALS + METRICS + COACHING
 - 3x3 plan: CEO->CFO, AE->VP Sales, SE->Ops Dir
 
 ### 4. Discovery descubre:
-- **S**: 600 empleados, Salesforce, forecasting manual
-- **P**: "Adivinamos el forecast, equivocados 40% del tiempo, CFO frustrado"
-- **I**: "Si es preciso, podemos planear contrataciones. Vale $500K anuales"
-- **CE**: "Board meeting Agosto 15, necesitamos mostrar que arreglamos esto"
-- **D**: CFO firma, VP Sales recomienda, IT revisa
+- **P**: 600 empleados, Salesforce, forecasting manual (Panorama)
+- **U**: "Adivinamos el forecast, equivocados 40% del tiempo, CFO frustrado" (Urgencia)
+- **L**: "Si es preciso, podemos planear contrataciones. Vale $500K anuales" (Logro)
+- **S**: "Board meeting Agosto 15, necesitamos mostrar que arreglamos esto" (Situación Crítica)
+- **O**: CFO firma, VP Sales recomienda, IT revisa (Organización)
 
 ### 5. Demo entrega:
 - Point 1: Story de Sarah -> AI dashboards -> "Te ves usandolo?"
@@ -217,7 +217,7 @@ GOALS + METRICS + COACHING
 | Marketing -> Sales | Story usage rate | >80% | <50% = messaging no llega |
 | ICP -> TAL | Pipeline alignment | >70% Tier 1-2 | >40% Tier 3 = ICP roto |
 | TAL -> Discovery | Research completion | >90% | <60% = discovery sin prep |
-| Discovery -> Demo | SPICED completion | >90% | <70% = demos genericos |
+| Discovery -> Demo | PULSO completion | >90% | <70% = demos genericos |
 | Demo -> Close | Impact quantified | >70% | <50% = ROI no articulado |
 | Handoff points | Info retention | >90% | <80% = clientes repiten info |
 | Coaching loop | Metrics improve | >80% | <60% = coaching no funciona |

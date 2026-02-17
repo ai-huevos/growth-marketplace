@@ -77,8 +77,8 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: quiz-funnel
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/quiz-funnel/SKILL.md` | ASK Method + SPICED, 5 pasos, bucket scoring |
-| `skills/quiz-funnel/frameworks/ask-method-fundamentals.md` | Core ASK Method: SMIQ, buckets, micro-compromisos, mapeo ASK↔SPICED |
+| `skills/quiz-funnel/SKILL.md` | ASK Method + PULSO, 5 pasos, bucket scoring |
+| `skills/quiz-funnel/frameworks/ask-method-fundamentals.md` | Core ASK Method: SMIQ, buckets, micro-compromisos, mapeo ASK↔PULSO |
 | `skills/quiz-funnel/frameworks/bucket-identification.md` | 4 tipos de buckets, regla del 80%, checklist de validación |
 | `skills/quiz-funnel/frameworks/question-design-framework.md` | 4 tipos de preguntas, reglas de diseño, 7 errores comunes |
 | `skills/quiz-funnel/frameworks/lean-stress-test.md` | Plan de 4 fases por <$500: research → survey → build → paid |
@@ -119,13 +119,13 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | Archivo | Propósito |
 |---------|-----------|
 | `.claude-plugin/plugin.json` | Manifiesto: version 1.0.0 |
-| `README.md` | 4 skills, 2 agents, 4 commands, metodología SPICED |
+| `README.md` | 4 skills, 2 agents, 4 commands, metodología PULSO |
 
 ### Skill: discovery-mastery
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/discovery-mastery/SKILL.md` | ACE opening + SPICED diagnóstico + 7 Momentos |
-| `skills/discovery-mastery/frameworks/spiced-framework.md` | **ARCHIVO CLAVE**: Guía completa SPICED scoring (5 dimensiones, 1-5 cada una, errores comunes) |
+| `skills/discovery-mastery/SKILL.md` | ACE opening + PULSO diagnóstico + 7 Momentos |
+| `skills/discovery-mastery/frameworks/spiced-framework.md` | **ARCHIVO CLAVE**: Guía completa PULSO scoring (5 dimensiones, 1-5 cada una, errores comunes) |
 | `skills/discovery-mastery/frameworks/question-bank.md` | Banco de preguntas por industria/stakeholder |
 | `skills/discovery-mastery/templates/call-prep.md` | Template de preparación pre-call |
 | `skills/discovery-mastery/examples/discovery-example.md` | Ejemplo real: ACME Cybersecurity |
@@ -140,7 +140,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: proposal-generation
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/proposal-generation/SKILL.md` | 8 secciones de propuesta, Trading Checklist 9 pasos, prerequisito SPICED >= 23 |
+| `skills/proposal-generation/SKILL.md` | 8 secciones de propuesta, Trading Checklist 9 pasos, prerequisito PULSO >= 23 |
 | `skills/proposal-generation/templates/enterprise-proposal.md` | Template enterprise |
 | `skills/proposal-generation/templates/mid-market-proposal.md` | Template mid-market |
 
@@ -155,8 +155,8 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Agents
 | Archivo | Propósito |
 |---------|-----------|
-| `agents/sdr-agent.md` | 5 fases: Research → SPICED → Qualification → Outreach → Sequence |
-| `agents/deal-strategist.md` | 5 fases: Intake → SPICED Crítico → Risk → Recommendations → MAP |
+| `agents/sdr-agent.md` | 5 fases: Research → PULSO → Qualification → Outreach → Sequence |
+| `agents/deal-strategist.md` | 5 fases: Intake → PULSO Crítico → Risk → Recommendations → MAP |
 
 ### Commands
 | Archivo | Propósito |
@@ -305,7 +305,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: project-management
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/project-management/SKILL.md` | PM conversacional: SPICED discovery, despacho de 5 agentes, 5 fases |
+| `skills/project-management/SKILL.md` | PM conversacional: PULSO discovery, despacho de 5 agentes, 5 fases |
 | `skills/project-management/frameworks/agent-roster.md` | Catálogo de agentes: Architecture Plumber, Data Specialist, DB Architect, Implementation, Dashboard Builder |
 | `skills/project-management/frameworks/architecture-patterns.md` | Patrones de arquitectura: pipelines, DBs (SQL vs Graph vs Hybrid), dashboards |
 | `skills/project-management/frameworks/project-templates.md` | Templates para diferentes tipos de proyectos |
@@ -316,7 +316,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 
 Estos son los archivos más importantes del repositorio — los que concentran la mayor cantidad de conocimiento:
 
-1. **`spiced-framework.md`** — La biblia de SPICED: scoring completo, errores comunes, tabla consolidada
+1. **`spiced-framework.md`** — La biblia de PULSO: scoring completo, errores comunes, tabla consolidada
 2. **`trigger-library.md`** — Los 10 triggers psicológicos: leverage, implementación por canal, combinaciones, ética
 3. **`power-headlines.md`** — 50 fórmulas de headlines en 10 categorías con ejemplos accionables
 4. **`scoring-model.md`** — ICP scoring 0-100: 5 categorías, ejemplo real ACME

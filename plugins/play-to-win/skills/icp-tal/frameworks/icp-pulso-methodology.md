@@ -1,11 +1,11 @@
-# Framework: ICP con Metodologia SPICED
+# Framework: ICP con Metodologia PULSO
 
-Framework completo para crear un Ideal Customer Profile basado en datos, utilizando SPICED como lente de diagnostico. Combina analisis cuantitativo (firmografico + revenue) con analisis cualitativo (entrevistas GTM + deep dives de clientes) para descubrir el ICP real — no el imaginado.
+Framework completo para crear un Ideal Customer Profile basado en datos, utilizando PULSO como lente de diagnostico. Combina analisis cuantitativo (firmografico + revenue) con analisis cualitativo (entrevistas GTM + deep dives de clientes) para descubrir el ICP real — no el imaginado.
 
 ## Principios fundamentales
 
 - **Los datos revelan, las opiniones distorsionan**: El ICP no se inventa en una sala de reuniones. Emerge de patrones reales en tus mejores clientes
-- **SPICED como filtro universal**: Cada dimension del ICP se valida contra el framework SPICED para asegurar que el perfil predice conversion real, no solo fit superficial
+- **PULSO como filtro universal**: Cada dimension del ICP se valida contra el framework PULSO para asegurar que el perfil predice conversion real, no solo fit superficial
 - **Cuantitativo + Cualitativo = Verdad**: Los numeros muestran *que* pasa. Las entrevistas explican *por que*. Necesitas ambos
 - **Segmentos, no monolitos**: Un ICP no es un perfil unico. Son 3-5 segmentos con patrones distintos que requieren estrategias diferenciadas
 - **Cross-functional buy-in**: El ICP solo funciona si Sales, Marketing, CS, y Product lo adoptan. Un comite cross-funcional es esencial
@@ -14,23 +14,23 @@ Framework completo para crear un Ideal Customer Profile basado en datos, utiliza
 
 ## El Proceso de 5 Pasos
 
-### Paso 1.1: Diagnosticar con SPICED
+### Paso 1.1: Diagnosticar con PULSO
 
-Antes de analizar datos, se establece el marco de diagnostico. SPICED provee las dimensiones que importan para identificar al cliente ideal:
+Antes de analizar datos, se establece el marco de diagnostico. PULSO provee las dimensiones que importan para identificar al cliente ideal:
 
 | Componente | Preguntas de Diagnostico para ICP | Datos a Recolectar |
 |---|---|---|
-| **Situation** | Que tipo de empresa es? Que tamano tiene? En que industria opera? Que tecnologia usa? | Industria, empleados, revenue, ubicacion, stack tech, etapa de crecimiento |
-| **Pain** | Que problema tienen que nosotros resolvemos mejor que nadie? Que tan urgente es? | Pain statements de discovery calls, tickets de soporte, razon de compra |
-| **Impact** | Cual es el costo de no resolver el problema? Que ganan al resolverlo? | Revenue perdido, horas desperdiciadas, oportunidades no capturadas, ROI documentado |
-| **Critical Event** | Que evento dispara la necesidad de comprar? Es recurrente o unico? | Triggers de compra: ronda de inversion, cambio de CEO, deadline regulatorio, M&A |
-| **Decision** | Como deciden? Quien aprueba? Cuanto tarda el proceso? | Buying committee, timeline de decision, criterios de evaluacion, budget authority |
+| **Panorama** | Que tipo de empresa es? Que tamano tiene? En que industria opera? Que tecnologia usa? | Industria, empleados, revenue, ubicacion, stack tech, etapa de crecimiento |
+| **Urgencia** | Que problema tienen que nosotros resolvemos mejor que nadie? Que tan urgente es? | Declaraciones de urgencia de discovery calls, tickets de soporte, razon de compra |
+| **Logro** | Cual es el costo de no resolver el problema? Que ganan al resolverlo? | Revenue perdido, horas desperdiciadas, oportunidades no capturadas, ROI documentado |
+| **Situación Crítica** | Que evento dispara la necesidad de comprar? Es recurrente o unico? | Triggers de compra: ronda de inversion, cambio de CEO, deadline regulatorio, M&A |
+| **Organización** | Como deciden? Quien aprueba? Cuanto tarda el proceso? | Buying committee, timeline de decision, criterios de evaluacion, budget authority |
 
 **Tip**: No busques las respuestas "correctas" en este paso. Busca patrones que se repitan en tus mejores clientes.
 
 ### Paso 1.2: Analisis Cuantitativo
 
-Con el marco SPICED establecido, se extraen y analizan datos duros de la base de clientes actual.
+Con el marco PULSO establecido, se extraen y analizan datos duros de la base de clientes actual.
 
 #### Datos Firmograficos a Recolectar
 
@@ -88,23 +88,23 @@ Entrevistar a 5-8 personas del equipo (AEs, SDRs, CSMs, SEs) con estas preguntas
 - "Cuando un deal se muere en pipeline, en que etapa pasa y por que?"
 - "Que diferencia a los clientes que expanden vs los que hacen churn?"
 
-#### Deep Dive SPICED: 5-10 Clientes Top
+#### Deep Dive PULSO: 5-10 Clientes Top
 
-Seleccionar los 5-10 mejores clientes (por LTV, expansion, NPS) y completar un SPICED card por cada uno:
+Seleccionar los 5-10 mejores clientes (por LTV, expansion, NPS) y completar una PULSO card por cada uno:
 
 | Campo | Cliente: _______________ |
 |---|---|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** (cuantificado) | ___ |
-| **Critical Event** | ___ |
-| **Decision** (proceso) | ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** (cuantificado) | ___ |
+| **Situación Crítica** | ___ |
+| **Organización** (proceso) | ___ |
 | **ACV** | $___ |
 | **Time to Close** | ___ dias |
 | **Expansion** | ___% |
 | **NPS/CSAT** | ___ |
 
-Al completar 5-10 cards, los patrones se hacen evidentes. Buscar: Que Pain se repite? Que Critical Events aparecen en 3+ clientes? Que Situation firmografica comparten los top performers?
+Al completar 5-10 cards, los patrones se hacen evidentes. Buscar: Que Urgencia se repite? Que Situaciones Críticas aparecen en 3+ clientes? Que Panorama firmografico comparten los top performers?
 
 ### Paso 1.4: Descubrir el ICP con Patrones
 
@@ -123,7 +123,7 @@ La convergencia de datos cuantitativos y cualitativos revela los segmentos reale
 | **Cycle Length** | ___ dias | ___ dias | ___ dias |
 | **Expansion Rate** | ___% | ___% | ___% |
 
-**Ejemplo real** (Blueprint #16 — empresa de soluciones de talento):
+**Ejemplo real** (empresa de soluciones de talento — Metodología GrowthOS):
 - **Segmento A**: Manufactura high-skilled (ingenieros, tecnicos especializados) — ACV alto, ciclos cortos, pain de escasez aguda
 - **Segmento B**: Manufactura low-skilled (operarios, linea de produccion) — ACV medio, volumen alto, pain de rotacion
 - **Insight clave**: Ambos son "manufactura" pero requieren mensajes, procesos de venta, y equipos completamente diferentes
@@ -134,7 +134,7 @@ La convergencia de datos cuantitativos y cualitativos revela los segmentos reale
 
 Documento narrativo de 1-2 paginas que describe:
 - Perfil firmografico del cliente ideal
-- SPICED completo del cliente ideal
+- PULSO completo del cliente ideal
 - Anti-ICP: Que clientes evitar y por que
 - Metricas de validacion (win rate, ACV, LTV esperados)
 
@@ -143,24 +143,24 @@ Documento narrativo de 1-2 paginas que describe:
 Cada perfil de segmento incluye:
 - Nombre del segmento y descripcion
 - Atributos firmograficos especificos
-- SPICED del segmento
+- PULSO del segmento
 - Metricas historicas (si existen)
 - Estrategia de engagement recomendada
 - Tier asignado (T1/T2/T3)
 
 ---
 
-## SPICED Tiers para ICP
+## PULSO Tiers para ICP
 
-El tiering SPICED determina la priorizacion de cuentas:
+El tiering PULSO determina la priorizacion de cuentas:
 
-| Tier | Situation | Pain | Impact | Critical Event | Implicacion Operativa |
+| Tier | Panorama | Urgencia | Logro | Situación Crítica | Implicacion Operativa |
 |---|---|---|---|---|---|
-| **T1** | Match exacto con ICP firmografico | Pain critico, urgente, articulado | Impact cuantificado >$100K/año | CE activo en <6 meses (regulatorio, M&A, ronda) | Asignar pod dedicado. Engagement 1:1. Resources premium. |
-| **T2** | Match bueno (80%+ de atributos) | Pain claro pero no urgente | Impact medible pero <$100K | CE potencial (reconocen necesidad, sin deadline) | Seguimiento activo. Nurture personalizado. Check trimestral. |
-| **T3** | Match parcial (50-80%) | Pain leve o no reconocido | Impact indirecto o no cuantificado | Sin CE claro (no hay urgencia) | Marketing air cover. Contenido educativo. No asignar rep. |
+| **T1** | Match exacto con ICP firmografico | Urgencia critica, articulada | Logro cuantificado >$100K/año | SC activa en <6 meses (regulatorio, M&A, ronda) | Asignar pod dedicado. Engagement 1:1. Resources premium. |
+| **T2** | Match bueno (80%+ de atributos) | Urgencia clara pero no critica | Logro medible pero <$100K | SC potencial (reconocen necesidad, sin deadline) | Seguimiento activo. Nurture personalizado. Check trimestral. |
+| **T3** | Match parcial (50-80%) | Urgencia leve o no reconocida | Logro indirecto o no cuantificado | Sin SC clara (no hay urgencia) | Marketing air cover. Contenido educativo. No asignar rep. |
 
-**Regla de oro**: Un T3 con Critical Event activo sube automaticamente a T2. Un T2 cuyo CE se materializa sube a T1. Los tiers son dinamicos, no estaticos.
+**Regla de oro**: Un T3 con Situación Crítica activa sube automaticamente a T2. Un T2 cuya SC se materializa sube a T1. Los tiers son dinamicos, no estaticos.
 
 ---
 
@@ -201,9 +201,9 @@ El ICP solo funciona si toda la organizacion lo adopta. Se recomienda un comite 
 
 | Error | Consecuencia | Correccion |
 |---|---|---|
-| Definir ICP por intuicion del founder sin datos | Perseguir cuentas que no convierten, desperdicio de pipeline | Seguir los 5 pasos: SPICED → Quant → Qual → Patrones → Documentar |
+| Definir ICP por intuicion del founder sin datos | Perseguir cuentas que no convierten, desperdicio de pipeline | Seguir los 5 pasos: PULSO → Quant → Qual → Patrones → Documentar |
 | Un solo ICP monolitico sin segmentos | Messaging generico que no resuena con nadie | Documentar 3-5 segmentos con atributos y estrategias diferenciadas |
-| Ignorar el analisis cualitativo | Perder el *por que* detras de los numeros — patrones invisibles | Entrevistar 5-8 personas GTM + deep dive SPICED en 5-10 clientes |
+| Ignorar el analisis cualitativo | Perder el *por que* detras de los numeros — patrones invisibles | Entrevistar 5-8 personas GTM + deep dive PULSO en 5-10 clientes |
 | No definir el Anti-ICP | Reps persiguen cuentas que nunca cerraran | Documentar explicitamente que clientes evitar y por que |
 | ICP estatico que nunca se revisa | El mercado cambia, el producto evoluciona, el ICP queda obsoleto | Review trimestral con comite cross-funcional |
 | Confundir "mercado grande" con "ICP amplio" | TAM grande pero win rates bajisimos | Estrechar el ICP. Mejor ganar 40% de un mercado chico que 2% de uno grande |

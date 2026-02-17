@@ -1,17 +1,17 @@
 ---
 name: discovery-mastery
-description: Use when preparing discovery calls, qualifying opportunities with SPICED, opening sales conversations, or diagnosing prospect needs. Activates for "discovery call", "SPICED", "qualifying opportunity", "sales discovery", "call prep", "ACE opening", "diagnose prospect", "first sales call", "qualifying questions", or "how to open a sales call".
+description: Use when preparing discovery calls, qualifying opportunities with PULSO, opening sales conversations, or diagnosing prospect needs. Activates for "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "call prep", "ACE opening", "diagnose prospect", "first sales call", "qualifying questions", or "how to open a sales call".
 version: 1.0.0
 ---
 
 # Discovery Mastery
 
-Sistema completo de discovery calls basado en la metodología SPICED de Winning by Design. Cubre preparacion, apertura ACE, diagnostico estructurado y cierre con proximos pasos.
+Sistema completo de discovery calls basado en la metodología PULSO de GrowthOS. Cubre preparacion, apertura ACE, diagnostico estructurado y cierre con proximos pasos.
 
 ## Cuando usar este skill
 
 - El usuario necesita preparar una discovery call
-- Quiere calificar una oportunidad usando SPICED
+- Quiere calificar una oportunidad usando PULSO
 - Necesita preguntas de discovery por industria o stakeholder
 - Quiere mejorar su apertura de calls (ACE framework)
 - Necesita evaluar si un deal esta bien diagnosticado
@@ -22,19 +22,19 @@ El discovery call NO es una presentacion. Es un diagnostico medico. Tu trabajo e
 
 > "Ningun doctor receta antes de diagnosticar. Ningun vendedor profesional propone antes de entender."
 
-## Framework SPICED — El Diagnostico
+## Framework PULSO — El Diagnostico
 
-SPICED es el lenguaje comun de diagnostico. Cada dimension se scorea del 1 al 5:
+PULSO es el lenguaje comun de diagnostico. Cada dimension se scorea del 1 al 5:
 
 | Dimension | Que descubrir | Preguntas clave |
 |-----------|---------------|-----------------|
-| **S - Situation** | Hechos, circunstancias, contexto | Industria, tamano, herramientas, personas, estructura |
-| **P - Pain** | Desafios que traen al prospect | Cuantificable (numeros) + cualitativo (frustracion) |
-| **I - Impact** | Como impactas su negocio | Racional (revenue/costo/CX) + emocional (beneficio personal) |
-| **CE - Critical Event** | Deadline para lograr el impact | Que pasa si no lo logran a tiempo? |
-| **D - Decision** | Proceso, comite y criterios de compra | Quien firma, quien influye, que criterios usan |
+| **P - Panorama** | Hechos, circunstancias, contexto | Industria, tamano, herramientas, personas, estructura |
+| **U - Urgencia** | Desafios que traen al prospect | Cuantificable (numeros) + cualitativo (frustracion) |
+| **L - Logro** | Como impactas su negocio | Racional (revenue/costo/CX) + emocional (beneficio personal) |
+| **S - Situación Crítica** | Deadline para lograr el logro | Que pasa si no lo logran a tiempo? |
+| **O - Organización** | Proceso, comite y criterios de compra | Quien firma, quien influye, que criterios usan |
 
-### Scoring SPICED
+### Scoring PULSO
 
 | Score Total | Clasificacion | Accion |
 |-------------|--------------|--------|
@@ -42,7 +42,7 @@ SPICED es el lenguaje comun de diagnostico. Cada dimension se scorea del 1 al 5:
 | 15-22 | Nurture | Seguir educando, no hay urgencia |
 | 23-30 | Oportunidad activa | Avanzar en pipeline, asignar recursos |
 
-Para el framework SPICED completo con guia de scoring por dimension, leer `frameworks/spiced-framework.md`.
+Para el framework PULSO completo con guia de scoring por dimension, leer `frameworks/pulso-framework.md`.
 
 ## Apertura ACE
 
@@ -73,11 +73,11 @@ Esta pregunta abierta es enganosamente poderosa — le da al prospect ownership 
 4. Confirmar agenda
 
 ### DIAGNOSTICAR (15-20 minutos)
-1. Preguntas de Situation — establecer contexto
-2. Preguntas de Pain — descubrir el dolor (cuantificable + cualitativo)
-3. Preguntas de Impact — conectar dolor con resultados de negocio
-4. Identificar Critical Event — hay urgencia real?
-5. Explorar Decision — quien mas esta involucrado?
+1. Preguntas de Panorama — establecer contexto
+2. Preguntas de Urgencia — descubrir el dolor (cuantificable + cualitativo)
+3. Preguntas de Logro — conectar dolor con resultados de negocio
+4. Identificar Situación Crítica — hay urgencia real?
+5. Explorar Organización — quien mas esta involucrado?
 6. **Resumir lo escuchado** antes de avanzar
 
 ### CERRAR (ultimos 5 minutos)
@@ -103,9 +103,9 @@ Para conectar emocionalmente durante el discovery:
 
 | Parte | Que contar | Regla |
 |-------|-----------|-------|
-| **Situation** | Contexto personal y relatable | Usa nombres de pila |
-| **Pain** | Impacto negativo, construye drama | Hazlo personal |
-| **Impact** | El cliente es el heroe, outcome positivo | Menos de 2 minutos total |
+| **Panorama** | Contexto personal y relatable | Usa nombres de pila |
+| **Urgencia** | Impacto negativo, construye drama | Hazlo personal |
+| **Logro** | El cliente es el heroe, outcome positivo | Menos de 2 minutos total |
 
 Ciencia: Neural coupling, dopamina, mirroring, activacion cortical. Las historias activan 7x mas areas del cerebro que los datos solos.
 
@@ -117,7 +117,7 @@ Para preguntas especificas por industria y stakeholder, leer `frameworks/questio
 
 ## Ejemplo Real
 
-Para un ejemplo completo de discovery SPICED (caso ACME Cybersecurity), leer `examples/discovery-example.md`.
+Para un ejemplo completo de discovery PULSO (caso ACME Cybersecurity), leer `examples/discovery-example.md`.
 
 ## Los 7 Momentos que Importan
 
@@ -133,7 +133,7 @@ Al preparar un discovery call, generar:
 
 1. **Pre-call brief** con research del prospect
 2. **Agenda propuesta** con tiempos
-3. **Preguntas SPICED** priorizadas para esta cuenta
+3. **Preguntas PULSO** priorizadas para esta cuenta
 4. **Hipotesis de dolor** basada en el research
 5. **Stakeholder map** preliminar
-6. **Scorecard SPICED** para llenar durante/despues de la call
+6. **Scorecard PULSO** para llenar durante/despues de la call

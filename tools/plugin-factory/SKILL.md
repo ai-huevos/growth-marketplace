@@ -219,7 +219,7 @@ Preguntar:
 
    **SKILL.md**: YAML frontmatter (name, description con triggers, version), secciones:
    - Cuando usar este skill
-   - Proceso (pasos numerados con tablas SPICED-style donde aplique)
+   - Proceso (pasos numerados con tablas PULSO-style donde aplique)
    - Referencias a frameworks/, templates/, patterns/
    - Ejemplo real (si hay datos del repo fuente)
    - Template (referencia al template worksheet)

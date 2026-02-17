@@ -17,7 +17,7 @@ Un Trigger Play es una accion predefinida que se ejecuta automaticamente cuando 
 
 - No puedes predecir CUANDO sucederan, pero SI puedes prepararte para cuando ocurran
 - Permiten reaccionar rapidamente con acciones probadas
-- Cada play ejecutado se documenta como una **pocket story** usando SPICED para referencia del equipo
+- Cada play ejecutado se documenta como una **pocket story** usando PULSO para referencia del equipo
 - Reducen el tiempo de reaccion y mejoran la consistencia del equipo
 
 ### Dos categorias:
@@ -47,7 +47,7 @@ Un Trigger Play es una accion predefinida que se ejecuta automaticamente cuando 
    - Proveer resumen del impacto logrado en los ultimos 12 meses y metas para los proximos 12
 
 2. **Seguimiento (1-2 semanas)**:
-   - Completar discovery call con nuevo contacto usando SPICED completo
+   - Completar discovery call con nuevo contacto usando PULSO completo
    - Actualizar el JIP con nuevas prioridades si aplica
    - Re-establecer cadencia de reuniones
    - Identificar nuevo champion potencial
@@ -368,9 +368,9 @@ Un Trigger Play es una accion predefinida que se ejecuta automaticamente cuando 
 
 ## Registro de Trigger Plays Ejecutados
 
-Cada Trigger Play ejecutado se registra como una **pocket story** usando SPICED:
+Cada Trigger Play ejecutado se registra como una **pocket story** usando PULSO:
 
-| Fecha | Play | Cliente | Trigger detectado | Accion tomada | Impacto medido | SPICED Pocket Story |
+| Fecha | Play | Cliente | Trigger detectado | Accion tomada | Impacto medido | PULSO Pocket Story |
 |-------|------|---------|------------------|--------------|---------------|-------------------|
 | ______ | ______ | ______ | ______ | ______ | ______ | ______ |
 | ______ | ______ | ______ | ______ | ______ | ______ | ______ |
@@ -407,5 +407,5 @@ Antes de considerar este playbook completo, verificar:
 
 ---
 
-*Template basado en: Blueprint #06 — CS Operating Model (A3 — Trigger Plays), Winning by Design*
+*Template basado en: CS Operating Model (A3 — Trigger Plays), Metodología GrowthOS*
 *Ver framework completo en: `../frameworks/cs-operating-model.md`*

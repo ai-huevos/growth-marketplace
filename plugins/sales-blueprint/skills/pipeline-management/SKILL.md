@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Pipeline Management
 
-Sistema de gestion de pipeline basado en SPICED scoring, indicadores de salud y el modelo Bowtie de Winning by Design. Cada deal se evalua con datos, no con esperanza.
+Sistema de gestion de pipeline basado en PULSO scoring, indicadores de salud y el modelo Bowtie de Metodología GrowthOS. Cada deal se evalua con datos, no con esperanza.
 
 ## Cuando usar este skill
 
@@ -24,11 +24,11 @@ El pipeline no es un inventario de oportunidades — es un sistema con inputs, t
 - "Happy ears" — escuchar lo que quieres escuchar
 - Fin de trimestre heroico en vez de cierre predecible
 
-## Deal Health Scoring con SPICED
+## Deal Health Scoring con PULSO
 
-Cada deal en pipeline debe tener un SPICED score actualizado. El score no es estatico — debe actualizarse despues de cada interaccion.
+Cada deal en pipeline debe tener un PULSO score actualizado. El score no es estatico — debe actualizarse despues de cada interaccion.
 
-| Score SPICED | Estado | Indicador | Accion |
+| Score PULSO | Estado | Indicador | Accion |
 |-------------|--------|-----------|--------|
 | 23-30 | Sano | Verde | Avanzar. Siguiente paso claro. |
 | 15-22 | En riesgo | Amarillo | Intervenir. Identificar que dimension falta. |
@@ -83,7 +83,7 @@ Para el template completo de pipeline review, leer `templates/pipeline-review.md
 
 **Minutos 5-20**: Deep dive en deals criticos
 - Solo deals en etapas avanzadas (Proposal/Negotiation/Commit)
-- Para cada deal: SPICED score actualizado, proximo paso, blocker
+- Para cada deal: PULSO score actualizado, proximo paso, blocker
 - Usar la regla: "Si no puedes decirme el proximo paso con fecha, el deal no esta activo"
 
 **Minutos 20-25**: Deals en riesgo
@@ -101,9 +101,9 @@ Para el template completo de pipeline review, leer `templates/pipeline-review.md
 | Senal | Diagnostico | Remedio |
 |-------|------------|---------|
 | Pipeline coverage <3x | No hay suficientes deals entrando | Aumentar actividad top of funnel |
-| Conversion rate cayendo | Deals entrando sin calificar | Mejorar calificacion SPICED en discovery |
-| Ciclo de venta aumentando | Deals sin Critical Event o Decision mapeada | Mejor diagnostico SPICED (CE + D) |
-| Deals "stuck" >2x ciclo promedio | Falta urgencia o champion interno | Re-calificar con SPICED, descartar si <15 |
+| Conversion rate cayendo | Deals entrando sin calificar | Mejorar calificacion PULSO en discovery |
+| Ciclo de venta aumentando | Deals sin Situación Crítica o Organización mapeada | Mejor diagnostico PULSO (S + O) |
+| Deals "stuck" >2x ciclo promedio | Falta urgencia o champion interno | Re-calificar con PULSO, descartar si <15 |
 | Win rate cayendo | Competencia, pricing, o mal fit | Analizar lost deals por razon, ajustar ICP |
 | Forecast miss >20% | "Happy ears" o pipeline inflado | Pipeline hygiene: limpiar deals fantasma |
 
@@ -111,7 +111,7 @@ Para el template completo de pipeline review, leer `templates/pipeline-review.md
 
 Cada deal activo debe cumplir estos minimos:
 
-- [ ] SPICED score documentado y actualizado (ultima actualizacion <14 dias)
+- [ ] PULSO score documentado y actualizado (ultima actualizacion <14 dias)
 - [ ] Proximo paso concreto con fecha
 - [ ] Contacto con actividad reciente (<7 dias para deals avanzados)
 - [ ] Al menos 2 contactos mapeados en la cuenta (no single-threaded)
@@ -130,14 +130,14 @@ Eventos que requieren accion inmediata:
 | Cuenta se queda en silencio | Secuencia de re-engagement: valor → pregunta → deadline | Alta |
 | Caida en uso del producto (post-venta) | Llamada de CS + analisis de adoption. Riesgo de churn. | Alta |
 | M&A de la cuenta | Investigar: beneficia o perjudica? Nuevos stakeholders? | Media |
-| Cambio de prioridades del prospect | Revisitar SPICED completo. El Critical Event cambio? | Alta |
+| Cambio de prioridades del prospect | Revisitar PULSO completo. La Situación Crítica cambio? | Alta |
 
 ## Output esperado
 
 Al hacer una pipeline review, generar:
 
 1. **Pipeline snapshot** con metricas clave (coverage, conversion, velocity)
-2. **Deal-by-deal assessment** con SPICED score y health color
+2. **Deal-by-deal assessment** con PULSO score y health color
 3. **Top 3 deals en riesgo** con plan de intervencion
 4. **Forecast update** (commit / best case / pipeline)
 5. **Acciones** priorizadas para la semana

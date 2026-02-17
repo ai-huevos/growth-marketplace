@@ -188,10 +188,10 @@ LinkedIn Ad ──→ Quiz "Diagnostico" ──→ Playbook $147 ──→ Sprin
 
 ---
 
-## Integracion SPICED
+## Integracion PULSO
 
-| Tier | Situation | Pain | Impact | Critical Event | Decision |
-|------|-----------|------|--------|---------------|----------|
+| Tier | Panorama | Urgencia | Logro | Situación Crítica | Organización |
+|------|----------|----------|-------|-------------------|--------------|
 | Bait | SaaS B2B $2-20M, equipo mkt 3-10, pipeline insuficiente | No generan MQLs suficientes | Pipeline inconsistente afecta revenue targets | Board review, quarter end | CMO decide solo (gratis) |
 | Frontend | Identificaron gaps en demand gen via el quiz | Tienen diagnostico pero no plan | Sin plan, siguen improvisando cada trimestre | Necesitan mostrar resultados al board en 90 dias | CMO decide solo (bajo precio) |
 | Middle | Tienen plan pero no capacidad de ejecucion interna | El equipo no domina los 5 pilares de demand gen | 90 dias sin implementar = quarter perdido | Deadline de board review | CMO decide, CFO aprueba (>$2K) |

@@ -206,7 +206,7 @@
 **Cómo funciona**:
 1. Pre-calentamiento: webinar, case study, o serie de contenido
 2. Application funnel (como arriba)
-3. Discovery call (diagnóstico con SPICED)
+3. Discovery call (diagnóstico con PULSO)
 4. Propuesta personalizada (envío post-call)
 5. Follow-up call de cierre (resolver objeciones finales)
 6. Onboarding inmediato post-firma
@@ -256,7 +256,7 @@
 |-------------------|--------------------|---------------|
 | **Lead Generation Agency** | Perfect Webinar | El webinar educa sobre la metodología, el cierre es una oferta de servicio mensual. LATAM responde muy bien a webinars. |
 | **SaaS ($50-$200/mes)** | SLO + Continuity | SLO para trial/primer mes subsidiado. Continuity para retención. Order bumps de features premium. |
-| **Consultoría ($5K-$25K)** | Application Funnel | Filtra los curiosos. Posiciona como premium. Discovery call cualifica con SPICED. |
+| **Consultoría ($5K-$25K)** | Application Funnel | Filtra los curiosos. Posiciona como premium. Discovery call cualifica con PULSO. |
 | **Training / Cursos ($500-$2K)** | Product Launch | Serie de videos construye anticipación. Cohort crea urgencia. Ideal para lanzamientos periódicos. |
 | **Agencia Full-Service ($10K+)** | High-Ticket Phone Close | Requiere relación personal. Propuesta personalizada es clave. Múltiples touchpoints antes del cierre. |
 | **Info Products ($27-$97)** | Two-Step Tripwire | Volumen sobre margen. Monetización por OTOs y backend. Lista crece rápido. |

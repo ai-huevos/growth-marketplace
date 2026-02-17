@@ -146,17 +146,17 @@ Documentar siempre los riesgos encontrados con estrategia de mitigacion:
 - **Competidor incumbente fuerte** -> Preparar estrategia de decision criteria (ver skill deal-strategy)
 - **Prensa negativa reciente** -> Ser sensible al tema, no mencionarlo directamente
 
-## Integracion con SPICED
+## Integracion con PULSO
 
-El research pre-discovery alimenta directamente el framework SPICED:
+El research pre-discovery alimenta directamente el framework PULSO:
 
-| Capa de Research | Dimension SPICED |
-|-----------------|------------------|
-| Capa 1 (Company) | **S** — Situation |
-| Capa 2 (Humana) | **D** — Decision (stakeholder mapping) |
-| Capa 3 (Industria) | **P** — Pain (benchmarks vs. realidad) |
-| Capa 4 (Geografica) | **S** — Situation (contexto macro) |
-| Capa 5 (Momentum) | **CE** — Critical Event (triggers de urgencia) |
+| Capa de Research | Dimension PULSO |
+|-----------------|-----------------|
+| Capa 1 (Company) | **P** — Panorama |
+| Capa 2 (Humana) | **O** — Organización (stakeholder mapping) |
+| Capa 3 (Industria) | **U** — Urgencia (benchmarks vs. realidad) |
+| Capa 4 (Geografica) | **P** — Panorama (contexto macro) |
+| Capa 5 (Momentum) | **S** — Situación Crítica (triggers de urgencia) |
 
 ## Output esperado
 
@@ -167,4 +167,4 @@ Al ejecutar este skill, generar:
 3. **Tabla de hipotesis** (3-5 hipotesis priorizadas con preguntas de validacion)
 4. **Mapa de senales de compra** clasificadas por fuerza
 5. **Riesgos identificados** con estrategias de mitigacion
-6. **Preguntas SPICED priorizadas** basadas en el research
+6. **Preguntas PULSO priorizadas** basadas en el research

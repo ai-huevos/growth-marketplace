@@ -37,25 +37,25 @@ Duracion agendada: ___ min
 - Herramientas relevantes: ___
 - Tech gaps identificados: ___
 
-## Hipotesis SPICED Pre-Call
+## Hipotesis PULSO Pre-Call
 
 Basado en el research, cual es tu hipotesis para cada dimension:
 
 | Dimension | Hipotesis | Confianza (1-5) |
 |-----------|----------|-----------------|
-| **S - Situation** | ___ | __ |
-| **P - Pain** | ___ | __ |
-| **I - Impact** | ___ | __ |
-| **CE - Critical Event** | ___ | __ |
-| **D - Decision** | ___ | __ |
+| **P - Panorama** | ___ | __ |
+| **U - Urgencia** | ___ | __ |
+| **L - Logro** | ___ | __ |
+| **S - Situación Crítica** | ___ | __ |
+| **O - Organización** | ___ | __ |
 
 ## Agenda Propuesta
 
 ```
 [0:00-0:05] Apertura ACE + presentaciones
-[0:05-0:10] Contexto — Situation questions
-[0:10-0:20] Diagnostico — Pain + Impact
-[0:20-0:25] Urgencia — Critical Event + Decision
+[0:05-0:10] Contexto — Panorama questions
+[0:10-0:20] Diagnostico — Urgencia + Logro
+[0:20-0:25] Urgencia — Situación Crítica + Organización
 [0:25-0:30] Cierre — Resumen + proximos pasos
 ```
 
@@ -63,11 +63,11 @@ Basado en el research, cual es tu hipotesis para cada dimension:
 
 Seleccionar las 5 preguntas mas relevantes basadas en research:
 
-1. (Situation) ___
-2. (Pain) ___
-3. (Pain/Impact) ___
-4. (Critical Event) ___
-5. (Decision) ___
+1. (Panorama) ___
+2. (Urgencia) ___
+3. (Urgencia/Logro) ___
+4. (Situación Crítica) ___
+5. (Organización) ___
 
 ## Apertura ACE Personalizada
 
@@ -85,13 +85,13 @@ E: "El objetivo es entender [hipotesis de dolor] y ver si tiene sentido
 | "Ya tenemos una solucion" | "Entiendo. Que tan bien les esta funcionando en [area especifica]?" |
 | "No tenemos presupuesto" | "Tiene sentido. Cuando planifican presupuesto para este tipo de iniciativas?" |
 | "Necesito hablar con mi equipo" | "Claro. Quienes mas estarian involucrados? Podemos incluirlos en la proxima?" |
-| "Envienme informacion" | "Con gusto. Para enviar algo relevante, puedo preguntar [pregunta SPICED]?" |
+| "Envienme informacion" | "Con gusto. Para enviar algo relevante, puedo hacer una pregunta?" |
 
 ## Checklist Pre-Call
 
 - [ ] Research de empresa completado
 - [ ] Research de contacto completado
-- [ ] Hipotesis SPICED documentada
+- [ ] Hipotesis PULSO documentada
 - [ ] Top 5 preguntas seleccionadas
 - [ ] Apertura ACE personalizada
 - [ ] Tecnologia verificada (link de video, audio)
@@ -100,15 +100,15 @@ E: "El objetivo es entender [hipotesis de dolor] y ver si tiene sentido
 
 ## Post-Call (completar en <60 min)
 
-### Scorecard SPICED Real
+### Scorecard PULSO Real
 
 | Dimension | Score (1-5) | Evidencia |
 |-----------|-------------|-----------|
-| S - Situation | __ | ___ |
-| P - Pain | __ | ___ |
-| I - Impact | __ | ___ |
-| CE - Critical Event | __ | ___ |
-| D - Decision | __ | ___ |
+| P - Panorama | __ | ___ |
+| U - Urgencia | __ | ___ |
+| L - Logro | __ | ___ |
+| S - Situación Crítica | __ | ___ |
+| O - Organización | __ | ___ |
 | **TOTAL** | **__/30** | |
 
 ### Clasificacion: ___

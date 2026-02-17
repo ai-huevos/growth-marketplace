@@ -63,15 +63,15 @@ Para la estrategia de escala completa, leer `frameworks/scaling-strategy.md`.
 
 - **A/B Test Playbook** — Biblioteca de tests probados organizados por elemento del funnel, con hipotesis pre-formuladas, metricas de exito y resultados esperados. Leer `patterns/ab-test-playbook.md`.
 
-## Integracion SPICED
+## Integracion PULSO
 
-| SPICED | Conexion con Funnel Optimization |
-|--------|----------------------------------|
-| **Situation** | El diagnostico del dashboard revela la situacion actual del funnel con datos concretos |
-| **Pain** | Los cuellos de botella identificados son el dolor cuantificado — no opiniones, sino metricas |
-| **Impact** | Cada optimizacion tiene un impacto proyectado medible en revenue |
-| **Critical Event** | Los thresholds de escala funcionan como critical events: cuando se cumplen, se activa la siguiente fase |
-| **Decision** | Los datos del dashboard y los resultados de tests informan las decisiones de inversion |
+| PULSO | Conexion con Funnel Optimization |
+|-------|----------------------------------|
+| **Panorama** | El diagnostico del dashboard revela la situacion actual del funnel con datos concretos |
+| **Urgencia** | Los cuellos de botella identificados son el dolor cuantificado — no opiniones, sino metricas |
+| **Logro** | Cada optimizacion tiene un impacto proyectado medible en revenue |
+| **Situación Crítica** | Los thresholds de escala funcionan como situaciones críticas: cuando se cumplen, se activa la siguiente fase |
+| **Organización** | Los datos del dashboard y los resultados de tests informan las decisiones de inversion |
 
 ## Conexiones con otros skills
 

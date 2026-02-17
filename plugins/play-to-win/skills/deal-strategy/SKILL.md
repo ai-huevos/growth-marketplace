@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Deal Strategy
 
-Sistema integrado de estrategia de deals que cubre el ciclo completo: desde el analisis de deals ganados/perdidos para identificar patrones, hasta la facilitacion de reuniones de stakeholders, manipulacion de criterios de decision, y sponsorship CxO. Basado en la metodologia Winning by Design y el framework SPICED.
+Sistema integrado de estrategia de deals que cubre el ciclo completo: desde el analisis de deals ganados/perdidos para identificar patrones, hasta la facilitacion de reuniones de stakeholders, manipulacion de criterios de decision, y sponsorship CxO. Basado en la Metodología GrowthOS y el framework PULSO.
 
 ## Cuando usar este skill
 
@@ -53,22 +53,22 @@ Este skill integra 4 capacidades que trabajan en conjunto:
 
 ---
 
-## Pilar 1: Win/Loss Analysis (SPICED)
+## Pilar 1: Win/Loss Analysis (PULSO)
 
-Analizar deals cerrados (ganados y perdidos) usando SPICED para descubrir patrones repetibles. No se trata de buscar excusas — se trata de encontrar los factores que predicen exito o fracaso.
+Analizar deals cerrados (ganados y perdidos) usando PULSO para descubrir patrones repetibles. No se trata de buscar excusas — se trata de encontrar los factores que predicen exito o fracaso.
 
 ### El proceso
 
 1. **Revisar deals closed-won y closed-lost** del ultimo trimestre completo (minimo)
-2. **Codificar cada deal** con los campos SPICED:
+2. **Codificar cada deal** con los campos PULSO:
 
-| Dimension SPICED | Que codificar | Ejemplo won | Ejemplo lost |
+| Dimension PULSO | Que codificar | Ejemplo won | Ejemplo lost |
 |-----------------|---------------|-------------|--------------|
-| **Situation** | Contexto personal/emocional, como llegaron | Champion motivado por cambio | Referral frio, sin urgencia personal |
-| **Pain** | Tipo y severidad del dolor, tecnologia/proceso incumbente | Pain bloqueando crecimiento, CxO visibility | Pain moderado, workaround funcional |
-| **Impact** | Importancia personal/profesional, tamano del impacto, importancia estrategica | Visibilidad de carrera, >20% mejora | Impacto marginal, nice-to-have |
-| **Critical Event** | Deadline real que fuerza la decision | Deadline en <120 dias, consecuencias claras | Sin deadline, "para el proximo ano" |
-| **Decision** | Proceso, stakeholders, criterios | 3+ stakeholders, criterios claros, champion activo | <2 stakeholders, proceso vago |
+| **Panorama** | Contexto personal/emocional, como llegaron | Champion motivado por cambio | Referral frio, sin urgencia personal |
+| **Urgencia** | Tipo y severidad del dolor, tecnologia/proceso incumbente | Urgencia bloqueando crecimiento, CxO visibility | Urgencia moderada, workaround funcional |
+| **Logro** | Importancia personal/profesional, tamano del logro/impacto, importancia estrategica | Visibilidad de carrera, >20% mejora | Logro marginal, nice-to-have |
+| **Situación Crítica** | Deadline real que fuerza la decision | Deadline en <120 dias, consecuencias claras | Sin deadline, "para el proximo ano" |
+| **Organización** | Proceso, stakeholders, criterios | 3+ stakeholders, criterios claros, champion activo | <2 stakeholders, proceso vago |
 
 3. **Identificar concentraciones**: Buscar clusters de deals con criterios similares
 4. **Formular action plan** basado en los patrones
@@ -76,13 +76,13 @@ Analizar deals cerrados (ganados y perdidos) usando SPICED para descubrir patron
 ### Patrones tipicos a buscar
 
 **Patrones de victoria**:
-- Champion nuevo (primeros 90 dias en el rol) + incumbente problematico + Critical Event en <120 dias = win rate 50%+
+- Champion nuevo (primeros 90 dias en el rol) + incumbente problematico + Situación Crítica en <120 dias = win rate 50%+
 - 3+ stakeholders involucrados + criterios de decision establecidos = avance predecible
 - Pain con visibilidad CxO + impacto cuantificable = ciclo corto
 
 **Patrones de derrota**:
 - <2 stakeholders + sin Stage 2 en <60 dias + incumbente no es uno de los 3 problematicos = 2% close rate
-- Sin Critical Event real = deal se estanca indefinidamente
+- Sin Situación Crítica real = deal se estanca indefinidamente
 - Champion sin poder de decision + no hay acceso a CxO = ghost
 
 ### Action plan post-analisis
@@ -235,7 +235,7 @@ Los KPIs compartidos durante la reunion de stakeholders (Parte 2: What's Possibl
 
 Los 4 pilares no operan en aislamiento:
 
-1. **Win/Loss Analysis** revela que patrones SPICED predicen exito → informa que deals priorizar
+1. **Win/Loss Analysis** revela que patrones PULSO predicen exito → informa que deals priorizar
 2. **Stakeholder Facilitation** avanza los deals priorizados → el formato As-Is/Possible/Plan estructura la conversacion
 3. **Decision Criteria** se trabaja durante y despues del stakeholder meeting → las tacticas de deprioritize/insert/improve reconfiguran la evaluacion
 4. **KPI Design** alimenta la Parte 2 del stakeholder meeting → los KPIs compartidos se convierten en decision criteria naturalmente
@@ -251,7 +251,7 @@ Los 4 pilares no operan en aislamiento:
 Al ejecutar este skill, generar segun el caso de uso:
 
 ### Para Win/Loss Analysis:
-1. **Analisis SPICED** de 10+ deals (ganados y perdidos)
+1. **Analisis PULSO** de 10+ deals (ganados y perdidos)
 2. **Tabla de patrones** con concentraciones identificadas
 3. **Recomendaciones de CRM** (campos, data collection)
 4. **Ajustes de calificacion** para el proceso de ventas

@@ -22,16 +22,15 @@ Template para preparar y ejecutar negociaciones como trades, configurar deals mu
 | **Competidores en evaluacion** | ___ |
 | **Critical Event date** | ___ |
 
-### Resumen SPICED
+### Resumen PULSO
 
 | Dimension | Detalle |
 |-----------|---------|
-| **S** (Situation) | ___ |
-| **P** (Pain) | ___ |
-| **I** (Impact) | ___ |
-| **C** (Critical Event) | ___ |
-| **E** (Decision process) | ___ |
-| **D** (Decision criteria) | ___ |
+| **P** (Panorama) | ___ |
+| **U** (Urgencia) | ___ |
+| **L** (Logro) | ___ |
+| **S** (Situación Crítica) | ___ |
+| **O** (Organización — proceso y criterios) | ___ |
 
 ### Relacion con el champion
 
@@ -87,7 +86,7 @@ Template para preparar y ejecutar negociaciones como trades, configurar deals mu
 - [ ] Estrategia documentada con objetivo ideal y walk-away
 - [ ] Asistentes investigados con roles y motivaciones
 - [ ] Call-before-the-call completada con champion
-- [ ] Resumen SPICED preparado para Executive Briefing
+- [ ] Resumen PULSO preparado para Executive Briefing
 - [ ] 3-Deal Option Matrix configurada
 - [ ] Menu de Trade Options preparado
 - [ ] Contrato/propuesta pre-llenado listo para enviar en < 30 min
@@ -437,8 +436,8 @@ ___
 | **Plugin** | play-to-win |
 | **Skill** | advanced-techniques |
 | **Framework de referencia** | `frameworks/trading-not-negotiating.md`, `frameworks/decision-criteria-influence.md` |
-| **Blueprints fuente** | Blueprint #21 — Trading, Not Negotiating; Blueprint #23 — Decision Criteria |
+| **Conceptos fuente** | Trading sin Negociar; Influencia en Criterios de Decision |
 | **Version** | 1.0.0 |
-| **Metodologia** | Winning by Design / SPICED |
+| **Metodologia** | Metodología GrowthOS / PULSO |
 | **Tiempo estimado** | 60-90 minutos (preparacion) + 45-60 minutos (reunion) |
-| **Prerequisitos** | Discovery completado, SPICED documentado, champion identificado, Critical Event establecido (usar T-55) |
+| **Prerequisitos** | Discovery completado, PULSO documentado, champion identificado, Critical Event establecido (usar T-55) |

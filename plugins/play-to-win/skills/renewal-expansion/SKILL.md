@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Renewal & Expansion
 
-Sistema completo de renovacion y expansion de cuentas basado en la metodologia Winning by Design. Cubre la conversacion de renovacion, gestion de expectativas, whitespace planning, expansion mediante trading, Save Play para cuentas en riesgo, y criterios de terminacion.
+Sistema completo de renovacion y expansion de cuentas basado en la Metodología GrowthOS. Cubre la conversacion de renovacion, gestion de expectativas, whitespace planning, expansion mediante trading, Save Play para cuentas en riesgo, y criterios de terminacion.
 
 ## Cuando usar este skill
 
@@ -50,14 +50,14 @@ Para el framework completo de gestion de expectativas, leer `frameworks/expectat
 
 ## Estructura de la Conversacion de Renovacion
 
-La conversacion sigue un flujo estructurado que combina elementos de SPICED con storytelling:
+La conversacion sigue un flujo estructurado que combina elementos de PULSO con storytelling:
 
 ### 1. Preparar
 - Revisar terminos actuales del contrato
 - Comparar con nuevos terminos y diferencias
 - Analizar cambios en usage (nuevas features para upsell?)
-- Desarrollar preguntas SPI para discutir impacto
-- Documentar Critical Events y Decision process previos
+- Desarrollar preguntas PUL para discutir logro
+- Documentar Situaciones Criticas y proceso de Organización previos
 - Construir la historia del impacto entregado
 
 ### 2. ACE (Apertura)
@@ -66,18 +66,18 @@ La conversacion sigue un flujo estructurado que combina elementos de SPICED con 
 - **E**nd Goal: "Tipicamente al final de esta llamada, acordamos tu renovacion — o un plan de accion hacia la renovacion."
 
 ### 3. Agenda
-- Revisar y confirmar el Joint Impact Plan para los proximos 12 meses
+- Revisar y confirmar el Joint Logro Plan para los proximos 12 meses
 - Revisar el contrato existente y cambios
 - Discutir como avanzar y fechas clave
 
-### 4. Review SPI
+### 4. Review PUL
 - "Siguen planeando lograr [impacto deseado]?"
 - "Planean seguir usando [nombre empresa] para continuar logrando [impacto]?"
 - "Como anticipan lograr este resultado?"
 - "Si no pudieran usar nuestra solucion, que impacto tendria en su negocio?"
 
-### 5. Impact Demo
-- Mostrar features y funcionalidad basada en sus Pains e Impacts actuales y potenciales
+### 5. Logro Demo
+- Mostrar features y funcionalidad basada en sus Urgencias y Logros actuales y potenciales
 - Recordarles el impacto que ya han logrado
 - Discutir oportunidades de expansion
 
@@ -85,8 +85,8 @@ La conversacion sigue un flujo estructurado que combina elementos de SPICED con 
 - Si resultados negativos: historia de cliente que no logro resultados al inicio pero cambio estrategia y alcanzo el impacto deseado
 - Si resultados positivos: historia para inspirar mas crecimiento e impacto
 
-### 7. Critical Event & Decision
-- Nuevos Critical Events? (Que pasa si no renuevan en la fecha?)
+### 7. Situación Crítica & Organización
+- Nuevas Situaciones Criticas? (Que pasa si no renuevan en la fecha?)
 - El proceso de decision es el mismo que el ano pasado?
 - Tienen presupuesto y recursos asignados?
 - Necesita pasar por procurement o legal?
@@ -114,12 +114,12 @@ Las renovaciones son oportunidades de intercambio de valor, no negociaciones de 
 
 El whitespace es el espacio no explotado dentro de una cuenta existente — departamentos que no usan tu solucion, features que no han adoptado, o problemas adyacentes que puedes resolver.
 
-### Priorizacion: Impact x Critical Event
+### Priorizacion: Logro x Situación Crítica
 
-| | CE Alto (urgencia) | CE Bajo (sin urgencia) |
+| | SC Alta (urgencia) | SC Baja (sin urgencia) |
 |---|---|---|
-| **Impact Alto** | **PRIORIDAD 1** — Ejecutar ahora | **PRIORIDAD 2** — Crear urgencia |
-| **Impact Bajo** | **PRIORIDAD 3** — Quick win si es facil | **DESPRIORITIZAR** — No invertir esfuerzo |
+| **Logro Alto** | **PRIORIDAD 1** — Ejecutar ahora | **PRIORIDAD 2** — Crear urgencia |
+| **Logro Bajo** | **PRIORIDAD 3** — Quick win si es facil | **DESPRIORITIZAR** — No invertir esfuerzo |
 
 Para el framework completo de whitespace, leer `frameworks/whitespace-planning.md`.
 
@@ -158,7 +158,7 @@ No todas las cuentas merecen ser salvadas. Criterios para evaluar terminacion:
 Al preparar una renovacion o expansion, generar:
 
 1. **Pre-meeting brief** con terminos actuales, historial de impacto, y cambios en la cuenta
-2. **Script de conversacion** con todos los bloques (ACE, SPI, Demo, Story, Trade)
+2. **Script de conversacion** con todos los bloques (ACE, PUL, Demo, Story, Trade)
 3. **Opciones de trade** — minimo 2, con give/get claros
 4. **Whitespace map** — oportunidades de expansion priorizadas
 5. **Save Play plan** — si aplica, con acciones y timeline

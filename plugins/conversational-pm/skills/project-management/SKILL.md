@@ -64,15 +64,15 @@ PM dice: "Antes de arrancar, dejame entender donde estamos.
 
 ### Fase 1: Descubrimiento conversacional
 
-La PM conduce una conversacion de descubrimiento usando el framework SPICED adaptado a proyectos:
+La PM conduce una conversacion de descubrimiento usando el framework PULSO adaptado a proyectos:
 
 | Dimension | Pregunta PM | Que revela |
 |-----------|-------------|------------|
-| **S — Situation** | "Describeme tu operacion actual. Que herramientas usas, donde viven tus datos, cuantas personas tocan el proceso?" | Estado actual, complejidad, stack existente |
-| **P — Pain** | "Que es lo que mas te duele hoy? Que informacion no tienes y necesitas? Que proceso te consume demasiado tiempo?" | Dolor principal, prioridad de solucion |
-| **I — Impact** | "Si resolvemos esto, que cambia? Que decision podrias tomar que hoy no puedes?" | Valor del proyecto, ROI potencial |
-| **CE — Critical Event** | "Hay algo que lo hace urgente? Un board meeting, fin de quarter, lanzamiento, funding?" | Timeline, presion, prioridades reales |
-| **D — Decision** | "Quien mas necesita aprobar esto? Quien va a usar el sistema diariamente?" | Stakeholders, niveles de dashboard |
+| **P — Panorama** | "Describeme tu operacion actual. Que herramientas usas, donde viven tus datos, cuantas personas tocan el proceso?" | Estado actual, complejidad, stack existente |
+| **U — Urgencia** | "Que es lo que mas te duele hoy? Que informacion no tienes y necesitas? Que proceso te consume demasiado tiempo?" | Dolor principal, prioridad de solucion |
+| **L — Logro** | "Si resolvemos esto, que cambia? Que decision podrias tomar que hoy no puedes?" | Valor del proyecto, ROI potencial |
+| **S — Situación Crítica** | "Hay algo que lo hace urgente? Un board meeting, fin de quarter, lanzamiento, funding?" | Timeline, presion, prioridades reales |
+| **O — Organización** | "Quien mas necesita aprobar esto? Quien va a usar el sistema diariamente?" | Stakeholders, niveles de dashboard |
 
 **Sintetizar lo escuchado**:
 ```

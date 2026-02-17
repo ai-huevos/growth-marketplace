@@ -1,6 +1,6 @@
 # Kickoff Call Orchestration — Framework Completo
 
-Framework paso a paso para preparar, conducir y dar seguimiento a kickoff calls efectivos. Cubre preparacion interna y externa, apertura ACE, verificacion SPICED, ensenanza de valor, alineacion del JIP, y acciones post-call.
+Framework paso a paso para preparar, conducir y dar seguimiento a kickoff calls efectivos. Cubre preparacion interna y externa, apertura ACE, verificacion PULSO, ensenanza de valor, alineacion del JIP, y acciones post-call.
 
 ## Por que el Kickoff Call es Critico
 
@@ -22,7 +22,7 @@ Antes de contactar al cliente:
 
 1. **Revisar documentacion e informacion de Sales**
    - Notas del proceso de venta
-   - SPICED capturado durante discovery y propuesta
+   - PULSO capturado durante discovery y propuesta
    - Red flags identificadas
    - Expectativas establecidas con el cliente
    - Estructura organizacional y personas clave
@@ -98,9 +98,9 @@ Las presentaciones son una **oportunidad para aprender** mas sobre el cliente y 
 - Su rol en este proyecto/onboarding
 - Que esperan lograr
 
-### Paso 3: Verificar y Profundizar SPICED
+### Paso 3: Verificar y Profundizar PULSO
 
-Resumir lo que aprendiste durante el handoff de Sales usando SPICED. Este es el momento de validar y profundizar.
+Resumir lo que aprendiste durante el handoff de Sales usando PULSO. Este es el momento de validar y profundizar.
 
 **Formato**: "Entendi correctamente que ustedes..."
 
@@ -208,7 +208,7 @@ Cerrar a tiempo. Usar WAGONS:
 
 ### Pre-Call
 - [ ] Notas de Sales revisadas
-- [ ] SPICED documentado del handoff
+- [ ] PULSO documentado del handoff
 - [ ] Kickoff interno con el equipo completado
 - [ ] Agenda preparada
 - [ ] Kickoff deck listo (medio, no foco)
@@ -221,7 +221,7 @@ Cerrar a tiempo. Usar WAGONS:
 - [ ] ACE opening ejecutado
 - [ ] Agenda confirmada con asistentes
 - [ ] Presentaciones orquestadas
-- [ ] SPICED verificado y profundizado
+- [ ] PULSO verificado y profundizado
 - [ ] Momentos de ensenanza aprovechados
 - [ ] Mapa de onboarding compartido
 - [ ] JIP introducido y metas discutidas
@@ -240,7 +240,7 @@ Cerrar a tiempo. Usar WAGONS:
 | Error | Consecuencia | Correccion |
 |-------|-------------|-----------|
 | Leer slides | Pierde atencion, no crea confianza | Usar deck como medio de conversacion |
-| No verificar SPICED | Asumir que Sales capturo todo correctamente | Siempre verificar y profundizar |
+| No verificar PULSO | Asumir que Sales capturo todo correctamente | Siempre verificar y profundizar |
 | Enfocarse en features | Se siente como pitch, no como partnership | Enfocarse en impacto y metas del cliente |
 | No incluir stakeholders clave | Decisiones se toman sin contexto | Insistir en que asistan, o dar follow up directo |
 | Retrasar el kickoff | Pierde momentum post-compra | Agendar en cuanto se confirme el tiempo |
@@ -249,4 +249,4 @@ Cerrar a tiempo. Usar WAGONS:
 
 ---
 
-*Fuente: Blueprint #19 — How to Conduct a Kickoff Call + Blueprint #06 — CS Operating Model (O2), Winning by Design*
+*Fuente: How to Conduct a Kickoff Call + CS Operating Model (O2), Metodología GrowthOS*

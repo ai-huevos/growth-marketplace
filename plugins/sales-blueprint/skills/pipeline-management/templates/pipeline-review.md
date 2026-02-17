@@ -37,12 +37,12 @@ Empresa: ___
 Valor: $___
 Etapa: ___
 Close date: ___
-SPICED Score: ___/30
+PULSO Score: ___/30
 Health: [Verde/Amarillo/Rojo]
 Dias en etapa actual: ___
 ```
 
-**Dimension SPICED mas debil**: ___
+**Dimension PULSO mas debil**: ___
 **Proximo paso**: ___
 **Fecha del proximo paso**: ___
 **Blocker**: ___
@@ -57,12 +57,12 @@ Empresa: ___
 Valor: $___
 Etapa: ___
 Close date: ___
-SPICED Score: ___/30
+PULSO Score: ___/30
 Health: [Verde/Amarillo/Rojo]
 Dias en etapa actual: ___
 ```
 
-**Dimension SPICED mas debil**: ___
+**Dimension PULSO mas debil**: ___
 **Proximo paso**: ___
 **Fecha del proximo paso**: ___
 **Blocker**: ___

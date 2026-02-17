@@ -92,4 +92,4 @@
 
 ---
 
-*Conecta con: ICP scoring → /icp (define el threshold), Pipeline health → /pipeline (tracks through funnel), SPICED → /discovery (qualifies individual deals).*
+*Conecta con: ICP scoring → /icp (define el threshold), Pipeline health → /pipeline (tracks through funnel), PULSO → /discovery (qualifies individual deals).*

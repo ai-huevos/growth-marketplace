@@ -9,7 +9,7 @@ Plays de alto impacto para coaching de ventas y framework completo para conversa
 **Cuando usarlo**: Semana 2 del mes, sesion grupal del miercoles.
 
 **Estructura**:
-1. (5 min) Contexto: El rep dueno de la call explica el deal, SPICED score, y que quiere feedback
+1. (5 min) Contexto: El rep dueno de la call explica el deal, PULSO score, y que quiere feedback
 2. (15 min) Escuchar la grabacion (o los 15 min mas criticos)
 3. (5 min) El rep se auto-evalua primero: "Que hice bien? Que haria diferente?"
 4. (15 min) Feedback del equipo (formato: 1 cosa que hizo bien + 1 sugerencia)
@@ -48,7 +48,7 @@ Plays de alto impacto para coaching de ventas y framework completo para conversa
 **Estructura**:
 1. (10 min) Snapshot: Pipeline total vs target, coverage, deals nuevos/cerrados/perdidos
 2. (30 min) Review deal por deal (solo etapas avanzadas):
-   - SPICED score actualizado
+   - PULSO score actualizado
    - Health color (verde/amarillo/rojo)
    - Proximo paso concreto con fecha
    - Coach challenge: "Que te falta para cerrar esto?"
@@ -61,14 +61,14 @@ Plays de alto impacto para coaching de ventas y framework completo para conversa
 
 **Estructura**:
 1. (5 min) Contexto del deal: tamano, ciclo, competencia
-2. (10 min) Walk through SPICED: Que sabiamos? Que nos faltaba?
+2. (10 min) Walk through PULSO: Que sabiamos? Que nos faltaba?
 3. (10 min) Analisis: Que hicimos bien? Donde fallamos? Fue predecible?
 4. (5 min) Leccion: 1 cosa que el equipo debe hacer diferente a partir de hoy
 
 **Para losses, preguntar**:
 - En que momento perdimos el deal realmente? (no cuando nos dijeron "no")
 - Habia red flags que ignoramos?
-- El SPICED score predijo el resultado?
+- El PULSO score predijo el resultado?
 
 ### Play 5: Skill of the Week (30 min — Lunes)
 
@@ -82,9 +82,9 @@ Plays de alto impacto para coaching de ventas y framework completo para conversa
 
 **Rotacion sugerida de skills**:
 - Semana 1: Apertura ACE (Appreciate, Check, End Goal)
-- Semana 2: Preguntas de Pain (cuantificable + cualitativo)
-- Semana 3: Identificar Critical Event
-- Semana 4: Mapear Decision / Buying Center
+- Semana 2: Preguntas de Urgencia (cuantificable + cualitativo)
+- Semana 3: Identificar Situación Crítica
+- Semana 4: Mapear Organización / Buying Center
 
 ## Conversaciones Candidas — Framework Completo
 

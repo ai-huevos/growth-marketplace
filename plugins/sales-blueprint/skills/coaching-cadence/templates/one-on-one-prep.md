@@ -55,7 +55,7 @@ Completar con datos ANTES de sentarte con el rep.
 | Personas/Buyers | [ ] Si [ ] No | ___ |
 | Industria | [ ] Si [ ] No | ___ |
 | Competencia | [ ] Si [ ] No | ___ |
-| SPICED | [ ] Si [ ] No | ___ |
+| PULSO | [ ] Si [ ] No | ___ |
 
 **Knowledge en target?** [ ] Si → Pasar a Skills  [ ] No → ISSUE DE CONOCIMIENTO
 
@@ -64,7 +64,7 @@ Completar con datos ANTES de sentarte con el rep.
 | Skill | Score | Evidencia |
 |-------|-------|-----------|
 | Apertura ACE | ___ | ___ |
-| Discovery SPICED | ___ | ___ |
+| Discovery PULSO | ___ | ___ |
 | Demo | ___ | ___ |
 | Objection handling | ___ | ___ |
 | Email writing | ___ | ___ |
@@ -88,7 +88,7 @@ Evidencia: ___
 ```
 [0:00-0:05] Check-in personal: "Como estas? Algo que deba saber?"
 [0:05-0:15] Pipeline review:
-  - SPICED score de deals en etapa avanzada
+  - PULSO score de deals en etapa avanzada
   - Deals nuevos vs cerrados vs perdidos
   - Forecast para el mes
 [0:15-0:25] Business plan:

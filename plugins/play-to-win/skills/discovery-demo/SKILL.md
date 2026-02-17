@@ -6,14 +6,14 @@ version: 1.0.0
 
 # Discovery & Demo
 
-Sistema completo para ejecutar discovery calls de clase mundial y demos de impacto. Combina el framework ACE de apertura profesional, la progresion diagnostica SPICED, y la coreografia de demo prescriptiva. Desde la primera pregunta hasta el compromiso de decision.
+Sistema completo para ejecutar discovery calls de clase mundial y demos de impacto. Combina el framework ACE de apertura profesional, la progresion diagnostica PULSO, y la coreografia de demo prescriptiva. Desde la primera pregunta hasta el compromiso de decision.
 
-Este skill sintetiza 3 blueprints de Winning by Design (24, 25, 26) en un sistema integrado que conecta la preparacion pre-call con la ejecucion del discovery, la profundizacion diagnostica, y la presentacion de demos que prescriben soluciones alineadas a dolores reconocidos.
+Este skill sintetiza 3 referencias de Metodología GrowthOS (demo prescriptiva, discovery perfecta, diagnóstico profundo) en un sistema integrado que conecta la preparacion pre-call con la ejecucion del discovery, la profundizacion diagnostica, y la presentacion de demos que prescriben soluciones alineadas a dolores reconocidos.
 
 ## Cuando usar este skill
 
 - El usuario necesita preparar y ejecutar una discovery call profesional con estructura ACE
-- Quiere conducir una sesion de diagnostico profundo usando la progresion SPICED
+- Quiere conducir una sesion de diagnostico profundo usando la progresion PULSO
 - Necesita disenar una demo que prescriba soluciones alineadas a dolores reconocidos
 - Quiere optimizar la transicion de discovery a demo (cascada de informacion)
 - Necesita un checklist de 54 puntos para no dejar nada al azar en discovery
@@ -24,7 +24,7 @@ Este skill sintetiza 3 blueprints de Winning by Design (24, 25, 26) en un sistem
 La venta consultiva no es presentar features — es diagnosticar problemas reales y prescribir soluciones especificas. El orden importa: primero entender, despues resolver. Un demo sin discovery previo es como recetar sin auscultar.
 
 > "Prescription before diagnosis is malpractice. Un vendedor que presenta soluciones antes de entender el problema pierde credibilidad, pierde deals, y pierde la oportunidad de crear valor real."
-> — Winning by Design
+> — Metodología GrowthOS
 
 La calidad de tu discovery determina la calidad de tu demo. La profundidad de tus preguntas determina la precision de tu prescripcion. No hay atajos.
 
@@ -40,9 +40,9 @@ La calidad de tu discovery determina la calidad de tu demo. La profundidad de tu
 │  │  Discovery Call  │──>│  Deep-Dive       │──>│  Prescribe       │  │
 │  │                  │  │                  │  │                  │  │
 │  │  ACE Opening     │  │  8-Step Call     │  │  Coreografia     │  │
-│  │  SPICED Diag.    │  │  4 Question Types│  │  3 Demo Points   │  │
+│  │  PULSO Diag.     │  │  4 Question Types│  │  3 Demo Points   │  │
 │  │  54-Pt Checklist │  │  Summary Tech.   │  │  Impact Qs       │  │
-│  │  Connect Wagons  │  │  3rd Party Story │  │  Decision Crit.  │  │
+│  │  Connect Wagons  │  │  3rd Party Story │  │  Criterios Org.  │  │
 │  └──────────────────┘  └──────────────────┘  └──────────────────┘  │
 │                                                                     │
 │  Informacion fluye: Discovery → Diagnostico → Demo Prescriptivo    │
@@ -51,7 +51,7 @@ La calidad de tu discovery determina la calidad de tu demo. La profundidad de tu
 
 ---
 
-## Pilar 1: The Perfect Discovery Call (Blueprint #25)
+## Pilar 1: The Perfect Discovery Call
 
 Framework completo para discovery calls que generan confianza, extraen dolores reales, y aseguran la siguiente reunion. Detalle en `frameworks/ace-discovery-call.md`.
 
@@ -74,20 +74,20 @@ Esta pregunta aparentemente simple es tremendamente poderosa: transfiere ownersh
 - **<5 personas**: Preguntar a cada participante
 - **>5 personas**: Preguntar solo al champion
 
-### Progresion SPICED en Discovery
+### Progresion PULSO en Discovery
 
 ```
-Situation ──> Pain ──> Summarize ──> Storytelling ──> Impact ──> Critical Event ──> Decision
-(cerradas)   (reflexivas)  (validar)    (3ra persona)   (ROI)      (urgencia)       (criterios)
+Panorama ──> Urgencia ──> Summarize ──> Storytelling ──> Logro ──> Situación Crítica ──> Organización
+(cerradas)   (reflexivas)  (validar)    (3ra persona)   (ROI)      (urgencia)          (criterios)
 ```
 
-1. **Situation**: Preguntas cerradas que demuestran investigacion previa
-2. **Pain**: Preguntas reflexivas con contexto — nunca "que te quita el sueno?"
-3. **Summarize**: "Entonces tienes [S] y [S] que te causan [P]... capte bien?"
+1. **Panorama**: Preguntas cerradas que demuestran investigacion previa
+2. **Urgencia**: Preguntas reflexivas con contexto — nunca "que te quita el sueno?"
+3. **Summarize**: "Entonces tienes [P] y [P] que te causan [U]... capte bien?"
 4. **Storytelling**: "Esto lo escucho mucho..." + referencia de terceros
-5. **Impact**: Cuantificar valor — ingresos, costos, CX, eficiencia
-6. **Critical Event**: "Cuando necesitas tener esto resuelto?"
-7. **Decision**: Criterios, proceso, stakeholders involucrados
+5. **Logro**: Cuantificar valor — ingresos, costos, CX, eficiencia
+6. **Situación Crítica**: "Cuando necesitas tener esto resuelto?"
+7. **Organización**: Criterios, proceso, stakeholders involucrados
 
 ### Connecting the Wagons (6 pasos)
 
@@ -108,12 +108,12 @@ Organizado en 5 fases (ver detalle completo en `frameworks/ace-discovery-call.md
 - **Antes de la llamada** (3 items): Research, notas previas, insights notables
 - **Abrir la reunion** (4 items): Puntualidad, energia, contexto
 - **Ejecutar ACE** (5 items): Appreciate, Check, End Goal, agenda, pregunta poderosa
-- **Diagnosticar con SPICED** (7 items): Progresion completa S→P→I→CE→D
+- **Diagnosticar con PULSO** (7 items): Progresion completa P→U→L→S→O
 - **Cerrar** (6 items): Resumen, next steps, wagons, follow-up
 
 ---
 
-## Pilar 2: Diagnosis Deep-Dive (Blueprint #26)
+## Pilar 2: Diagnosis Deep-Dive
 
 Metodologia de 8 pasos para sesiones de diagnostico profundo. Incluye los 4 tipos de preguntas con contexto y la tecnica de resumen que valida comprension. Detalle en `frameworks/diagnosis-deep-dive.md`.
 
@@ -123,7 +123,7 @@ Metodologia de 8 pasos para sesiones de diagnostico profundo. Incluye los 4 tipo
 2. **ACE** — Appreciate, Check End Time, End Goal
 3. **Agenda** — Confirmar y expandir con pregunta poderosa
 4. **Ask** — Preguntas abiertas y cerradas con contexto
-5. **Diagnose** — Progresion SPICED completa
+5. **Diagnose** — Progresion PULSO completa
 6. **3rd Party Story** — Historia de terceros con empatia
 7. **Next Steps** — Definir acciones concretas
 8. **Wagons** — Conectar a la siguiente reunion + follow through
@@ -145,14 +145,14 @@ Este resumen logra 3 cosas: valida comprension, demuestra escucha activa, y abre
 
 ---
 
-## Pilar 3: Demo & Prescription (Blueprint #24)
+## Pilar 3: Demo & Prescription
 
 Coreografia completa para demos que prescriben soluciones alineadas a dolores reconocidos. Cada demo point conecta directamente con un dolor validado en discovery. Detalle en `frameworks/demo-prescribe-framework.md`.
 
 ### Coreografia del Demo
 
 ```
-PREP → SETUP → ACE/Agenda → Layout → SPICED Summary → Demo 1 → Demo 2 → Demo 3
+PREP → SETUP → ACE/Agenda → Layout → PULSO Summary → Demo 1 → Demo 2 → Demo 3
                                                           │         │         │
                                                       Impact Q  Impact Q  Impact Q
                                                           │         │         │
@@ -179,9 +179,9 @@ Cada demo point sigue la misma estructura (5-7 minutos cada uno):
 - "Esto te ayudaria con [dolor validado en discovery]?"
 - "Como impactaria esto en [metrica que mencionaron]?"
 
-### Decision Criteria desde Impacto
+### Criterios de Organización desde Logro
 
-El demo establece criterios de decision basados en impacto demostrado, no en features. La pregunta de Critical Event durante el demo: "Cuando necesitas tener una solucion implementada?" + "Que pasa si no llegas a esa fecha?"
+El demo establece criterios de decision basados en impacto demostrado, no en features. La pregunta de Situación Crítica durante el demo: "Cuando necesitas tener una solucion implementada?" + "Que pasa si no llegas a esa fecha?"
 
 ---
 
@@ -194,11 +194,11 @@ Pre-Discovery Research
         │
         ▼
 ┌─ Discovery Call ────────────────────────┐
-│  Situation (datos) ──────────────────── │──> SPICED Summary para Demo
-│  Pain (dolores validados) ───────────── │──> Demo Points (1 por dolor)
-│  Impact (metricas mencionadas) ──────── │──> Impact Questions
-│  Critical Event (timeline) ──────────── │──> Urgencia en Demo
-│  Decision (criterios, stakeholders) ──  │──> Decision Criteria Table
+│  Panorama (datos) ───────────────────── │──> PULSO Summary para Demo
+│  Urgencia (dolores validados) ──────── │──> Demo Points (1 por dolor)
+│  Logro (metricas mencionadas) ──────── │──> Impact Questions
+│  Situación Crítica (timeline) ─────── │──> Urgencia en Demo
+│  Organización (criterios, stakeholders) │──> Decision Criteria Table
 └─────────────────────────────────────────┘
         │
         ▼
@@ -229,7 +229,7 @@ Pre-Discovery Research
 | `pre-discovery-research` | Alimenta la preparacion pre-call del Pilar 1 (research de 5 capas) |
 | `deal-strategy` | Recibe los criterios de decision identificados en discovery y demo |
 | `relationship-mapping` | Los stakeholders identificados via wagons se mapean en el 3x3 |
-| `customer-success-ops` | El handoff post-venta usa el SPICED summary del discovery |
+| `customer-success-ops` | El handoff post-venta usa el PULSO summary del discovery |
 | `renewal-expansion` | Expansion opportunities se detectan con las mismas tecnicas de discovery |
 | `sales-transformation` | Este skill es la Fase 5-6 del roadmap de 90 dias |
 
@@ -241,8 +241,8 @@ Al ejecutar este skill, el output debe incluir:
 
 1. **Discovery Call Playbook** — Usando `templates/discovery-call-playbook.md` (T-53)
 2. **Demo Execution Plan** — Usando `templates/demo-execution-template.md` (T-54)
-3. **SPICED Summary Document** — Resumen de hallazgos del discovery para alimentar el demo
+3. **PULSO Summary Document** — Resumen de hallazgos del discovery para alimentar el demo
 4. **Checklist Completado** — 54 puntos verificados pre/durante/post call
 5. **Next Meeting Setup** — Agenda, stakeholders, objetivo para la siguiente reunion
 
-**Criterio de exito**: ACE ejecutado en 45 segundos, 5+ preguntas SPICED con contexto, 3 demo points alineados a dolores, decision criteria documentados, next meeting secured.
+**Criterio de exito**: ACE ejecutado en 45 segundos, 5+ preguntas PULSO con contexto, 3 demo points alineados a dolores, decision criteria documentados, next meeting secured.

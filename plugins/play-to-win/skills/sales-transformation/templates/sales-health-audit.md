@@ -17,7 +17,7 @@ Template de auditoria completa del sistema de ventas B2B. Evalua 7 dominios, ide
 Una auditoria de calidad debe:
 - Cubrir los 7 dominios sin excepcion
 - Cada score debe tener evidencia observable (no opinion)
-- Recomendaciones deben mapear a blueprints/fases especificas del framework de transformacion
+- Recomendaciones deben mapear a frameworks/fases especificas del framework de transformacion
 - Gap analysis debe incluir esfuerzo estimado (bajo/medio/alto)
 - El documento debe ser actionable — el lector sabe que hacer al terminar
 
@@ -111,9 +111,9 @@ Una auditoria de calidad debe:
 |-----------|-------------|-----------|--------|
 | Etapas de ventas definidas en CRM | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Entry/exit criteria por etapa | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| SPICED elements mapeados por etapa | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| PULSO elements mapeados por etapa | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Handoff protocols documentados | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| SPICED handoff template en CRM | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| PULSO handoff template en CRM | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Pre-handoff meetings ocurren | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Customer experience touchpoints mapeados | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Terminologia consistente entre equipos | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
@@ -149,14 +149,14 @@ Una auditoria de calidad debe:
 
 | Indicador | Score (0-10) | Evidencia | Status |
 |-----------|-------------|-----------|--------|
-| Framework de discovery estructurado (SPICED) | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| Framework de discovery estructurado (PULSO) | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | ACE opening en todas las calls | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| SPICED completion rate >90% | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| PULSO completion rate >90% | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Talk-to-listen ratio 30/70 | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Customer stories usadas en 80% calls | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Impact cuantificado ($) en 70% opps | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| Critical Event establecido | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| Decision process mapeado | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| Situación Crítica establecida | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| Organización mapeada | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Discovery-to-Demo conversion >60% | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Notes documentados en CRM <1 hora post-call | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 
@@ -208,15 +208,15 @@ Una auditoria de calidad debe:
 | Under Performers (<80% quota) | ___ | ___% | ___% |
 | New Reps (< 6 meses) | ___ | ___% | ___% |
 
-### SPICED Assessment (Customer Journey)
+### PULSO Assessment (Customer Journey)
 
-| Elemento SPICED | Que tan bien lo descubrimos? | Score (1-5) | Evidencia |
-|-----------------|------------------------------|-------------|-----------|
-| **S**ituation | Como entendemos el contexto del cliente? | ___ | ___ |
-| **P**ain | Que tan efectivamente identificamos pain points? | ___ | ___ |
-| **I**mpact | Que tan bien cuantificamos impacto? | ___ | ___ |
-| **C**ritical Event | Como identificamos triggers de decision? | ___ | ___ |
-| **D**ecision | Que tan bien entendemos el proceso de decision? | ___ | ___ |
+| Elemento PULSO | Que tan bien lo descubrimos? | Score (1-5) | Evidencia |
+|----------------|------------------------------|-------------|-----------|
+| **P**anorama | Como entendemos el contexto del cliente? | ___ | ___ |
+| **U**rgencia | Que tan efectivamente identificamos pain points? | ___ | ___ |
+| **L**ogro | Que tan bien cuantificamos logro? | ___ | ___ |
+| **S**ituación Crítica | Como identificamos triggers de decision? | ___ | ___ |
+| **O**rganización | Que tan bien entendemos el proceso de decision? | ___ | ___ |
 
 ---
 
@@ -224,7 +224,7 @@ Una auditoria de calidad debe:
 
 ### Gaps Criticos (MUST FIX — Impacto directo en revenue)
 
-| # | Gap | Dominio | Impacto | Esfuerzo | Blueprint(s) | Fase |
+| # | Gap | Dominio | Impacto | Esfuerzo | Framework(s) | Fase |
 |---|-----|---------|---------|----------|-------------|------|
 | 1 | [Descripcion del gap] | [0-6] | Alto | [Bajo/Medio/Alto] | [#s] | [0-7] |
 | 2 | [Descripcion del gap] | [0-6] | Alto | [Bajo/Medio/Alto] | [#s] | [0-7] |
@@ -232,14 +232,14 @@ Una auditoria de calidad debe:
 
 ### Gaps Importantes (SHOULD FIX — Mejora significativa)
 
-| # | Gap | Dominio | Impacto | Esfuerzo | Blueprint(s) | Fase |
+| # | Gap | Dominio | Impacto | Esfuerzo | Framework(s) | Fase |
 |---|-----|---------|---------|----------|-------------|------|
 | 1 | [Descripcion del gap] | [0-6] | Medio | [Bajo/Medio/Alto] | [#s] | [0-7] |
 | 2 | [Descripcion del gap] | [0-6] | Medio | [Bajo/Medio/Alto] | [#s] | [0-7] |
 
 ### Gaps Nice-to-Have (COULD FIX — Optimizacion)
 
-| # | Gap | Dominio | Impacto | Esfuerzo | Blueprint(s) | Fase |
+| # | Gap | Dominio | Impacto | Esfuerzo | Framework(s) | Fase |
 |---|-----|---------|---------|----------|-------------|------|
 | 1 | [Descripcion del gap] | [0-6] | Bajo | [Bajo/Medio/Alto] | [#s] | [0-7] |
 
@@ -320,4 +320,4 @@ Una auditoria de calidad debe:
 
 ---
 
-*Esta auditoria esta basada en el Sales System Transformation Framework — 31 blueprints de Winning by Design sintetizados en un sistema integrado de diagnostico y mejora.*
+*Esta auditoria esta basada en el Sales System Transformation Framework — 31 frameworks de Metodología GrowthOS sintetizados en un sistema integrado de diagnostico y mejora.*

@@ -1,5 +1,5 @@
 ---
-description: Orquesta una kickoff call completa para un nuevo cliente. Prepara agenda interna/externa, apertura ACE, verificacion SPICED, y plan de impacto conjunto.
+description: Orquesta una kickoff call completa para un nuevo cliente. Prepara agenda interna/externa, apertura ACE, verificacion PULSO, y plan de impacto conjunto.
 argument-hint: <nombre del cliente>
 allowed-tools: [Read, Glob, Grep]
 ---
@@ -20,22 +20,22 @@ Antes de la kickoff con el cliente, preparar al equipo interno.
 
 Solicitar al usuario:
 - Notas de discovery calls (resumen o transcripcion)
-- SPICED summary del deal (si existe de `/discovery` o CRM)
+- PULSO summary del deal (si existe de `/discovery` o CRM)
 - Propuesta enviada y terminos acordados
 - Emails relevantes del proceso de venta
 
-Si hay SPICED previo, validar que todas las dimensiones estan documentadas:
+Si hay PULSO previo, validar que todas las dimensiones estan documentadas:
 
 ```
-SPICED DEL DEAL — VALIDACION PRE-KICKOFF:
+PULSO DEL DEAL — VALIDACION PRE-KICKOFF:
 
 | Dimension | Status | Contenido | Accion |
 |-----------|--------|-----------|--------|
-| Situation | [OK/Incompleto] | [Resumen] | [Validar en kickoff] |
-| Pain | [OK/Incompleto] | [Resumen] | [Profundizar con CS] |
-| Impact | [OK/Incompleto] | [Resumen] | [Cuantificar con cliente] |
-| Critical Event | [OK/Incompleto] | [Resumen] | [Confirmar timeline] |
-| Decision | [OK/Incompleto] | [Resumen] | [Mapear stakeholders CS] |
+| Panorama | [OK/Incompleto] | [Resumen] | [Validar en kickoff] |
+| Urgencia | [OK/Incompleto] | [Resumen] | [Profundizar con CS] |
+| Logro | [OK/Incompleto] | [Resumen] | [Cuantificar con cliente] |
+| Situación Crítica | [OK/Incompleto] | [Resumen] | [Confirmar timeline] |
+| Organización | [OK/Incompleto] | [Resumen] | [Mapear stakeholders CS] |
 ```
 
 **1.2 Mapeo de stakeholders**
@@ -69,9 +69,9 @@ CONTEXTO:
 - Fecha de kickoff: [fecha]
 
 POR QUE NOS COMPRARON:
-- Pain principal: [dolor que resolvemos]
-- Impact esperado: [metricas que esperan mejorar]
-- Critical Event: [que genera urgencia de implementar rapido]
+- Urgencia principal: [dolor que resolvemos]
+- Logro esperado: [metricas que esperan mejorar]
+- Situación Crítica: [que genera urgencia de implementar rapido]
 
 QUE PROMETIMOS:
 - Outcomes comprometidos: [lista]
@@ -117,10 +117,10 @@ PRESENTACIONES Y CONTEXTO (10 min)
   - El cliente presenta: quienes estan, que esperan
   - Confirmar stakeholders faltantes
 
-VERIFICACION SPICED (20 min)
+VERIFICACION PULSO (20 min)
   - "Antes de definir el plan, queremos confirmar que entendemos
      bien su situacion actual..."
-  - Recorrer cada dimension SPICED con el cliente
+  - Recorrer cada dimension PULSO con el cliente
   - Profundizar en areas con baja confianza
   - Documentar actualizaciones en tiempo real
 
@@ -199,7 +199,7 @@ APPRECIATE (crear conexion):
 CHECK TIME (respetar el tiempo):
 - "Tenemos 60 minutos agendados, sigue funcionando para todos?"
 - Si hay limite de tiempo, ajustar agenda en tiempo real
-- Priorizar: SPICED verification + JIP son innegociables
+- Priorizar: PULSO verification + JIP son innegociables
 
 END GOAL (alinear expectativas):
 - "El objetivo es salir con un plan de 90 dias donde ambos
@@ -208,35 +208,35 @@ END GOAL (alinear expectativas):
 - Anotar y abordar sus adiciones
 ```
 
-**3.2 Verificacion SPICED**
+**3.2 Verificacion PULSO**
 
 Recorrer cada dimension con el cliente para validar/actualizar:
 
 ```
-GUIA DE VERIFICACION SPICED EN KICKOFF:
+GUIA DE VERIFICACION PULSO EN KICKOFF:
 
-SITUATION (validar contexto actual):
+PANORAMA (validar contexto actual):
 - "Durante el proceso de ventas, entendimos que su situacion actual es
    [resumen]. Sigue siendo correcto?"
 - "Ha cambiado algo desde nuestra ultima conversacion?"
 - "Hay algo que no hayamos capturado?"
 
-PAIN (profundizar post-venta):
-- "El dolor principal que identificamos fue [dolor]. Ahora que estamos
-   en implementacion, hay otros dolores que quieran abordar?"
-- "Cual es el dolor que mas les urge resolver primero?"
+URGENCIA (profundizar post-venta):
+- "La urgencia principal que identificamos fue [dolor]. Ahora que estamos
+   en implementacion, hay otras urgencias que quieran abordar?"
+- "Cual es la urgencia que mas les urge resolver primero?"
 
-IMPACT (cuantificar con precision):
-- "Hablamos de un impacto de [metrica]. Tienen datos mas precisos
+LOGRO (cuantificar con precision):
+- "Hablamos de un logro de [metrica]. Tienen datos mas precisos
    ahora que podamos usar como baseline?"
 - "Que pasaria si en 90 dias [logramos X]? Como cambia su negocio?"
 
-CRITICAL EVENT (confirmar timeline):
+SITUACIÓN CRÍTICA (confirmar timeline):
 - "El timeline que discutimos era [fecha/evento]. Sigue vigente?"
 - "Hay algun evento nuevo que genere urgencia adicional?"
 - "Que pasa si no logramos [objetivo] antes de [fecha]?"
 
-DECISION (mapear para CS):
+ORGANIZACIÓN (mapear para CS):
 - "Para la fase de implementacion, quienes son los stakeholders clave?"
 - "Quien sera nuestro punto de contacto principal?"
 - "Hay alguien que deberia estar involucrado pero no esta hoy?"
@@ -309,7 +309,7 @@ ACCIONES INMEDIATAS:
 | 2 | [Accion] | [Nombre] | [Fecha] |
 | 3 | [Accion] | [Nombre] | [Fecha] |
 
-SPICED ACTUALIZADO: [Si/No — adjuntar si se actualizo]
+PULSO ACTUALIZADO: [Si/No — adjuntar si se actualizo]
 
 JIP CONFIRMADO: [Si/No — adjuntar version final]
 ```
@@ -321,7 +321,7 @@ TIMELINE POST-KICKOFF:
 
 Dia 0 (hoy):
 - [ ] Enviar resumen + JIP al cliente (< 60 min post-call)
-- [ ] Actualizar CRM con SPICED revisado
+- [ ] Actualizar CRM con PULSO revisado
 - [ ] Crear proyecto en herramienta de implementacion
 
 Semana 1:
@@ -369,7 +369,7 @@ Entregar al usuario el paquete completo de kickoff:
 2. **Mapa de stakeholders** — Con tipos y acciones por persona
 3. **Agenda de kickoff** — Con apertura ACE y tiempos
 4. **Email pre-kickoff** — Template listo para enviar
-5. **Guia de verificacion SPICED** — Preguntas por dimension
+5. **Guia de verificacion PULSO** — Preguntas por dimension
 6. **Template JIP** — Joint Impact Plan con hitos y owners
 7. **Resumen post-kickoff** — Template de follow-up
 8. **Timeline de seguimiento** — Acciones dia 0 a mes 3

@@ -120,15 +120,15 @@ Plan anual con 1 momento de marketing por mes, mínimo.
 
 ---
 
-## Conexión SPICED
+## Conexión PULSO
 
-| Fase IPEH | Dimensión SPICED que alimenta |
+| Fase IPEH | Dimensión PULSO que alimenta |
 |-----------|------------------------------|
-| Intelligence | **Situation** — Estado actual del mercado y buyer |
-| Intelligence | **Pain** — Objeciones y reasons for loss |
-| Positioning | **Impact** — Cómo articular el valor |
-| Enablement | **Decision** — Tools para el decision maker |
-| Launch | **Critical Event** — Timing del go-to-market |
+| Intelligence | **Panorama** — Estado actual del mercado y buyer |
+| Intelligence | **Urgencia** — Objeciones y reasons for loss |
+| Positioning | **Logro** — Cómo articular el valor |
+| Enablement | **Organización** — Tools para el decision maker |
+| Launch | **Situación Crítica** — Timing del go-to-market |
 
 ---
 

@@ -13,7 +13,7 @@
 
 ## Resumen Ejecutivo
 
-1. **Nicho no contendido**: Ningún marketplace de Claude Code empaqueta metodología B2B GTM como skills ejecutables. La coherencia SPICED es un moat real.
+1. **Nicho no contendido**: Ningún marketplace de Claude Code empaqueta metodología B2B GTM como skills ejecutables. La coherencia PULSO es un moat real.
 2. **Spanish-first es diferenciador**: Todos los competidores (gtmagents: 92 agentes, marketingskills: 25 skills, agentkits: 93 comandos) son solo en inglés. Multi-language en roadmap Phase 2.
 3. **Persona target = "GTM Engineer"**: Rol B2B de mayor crecimiento 2025-2026. Combinan comodidad técnica (Claude Code) con necesidad estratégica.
 4. **Mercado masivo**: RevOps software → $21.7B para 2032 (CAGR 15.4%). Mercado serviceable: $250M-$2.5B.
@@ -52,7 +52,7 @@
 #### gtmagents/gtm-agents — AMENAZA ALTA
 - 92 agentes, 52 skills, 67 plugins, 24 categorías
 - Sales (8), Marketing (13), Growth/Revenue (9), Verticales (6), Multi-agent (20)
-- **Debilidad**: Sin metodología unificada, sin SPICED/MEDDPICC, solo inglés, volumen sobre profundidad
+- **Debilidad**: Sin metodología unificada, sin PULSO/MEDDPICC, solo inglés, volumen sobre profundidad
 
 #### coreyhaines31/marketingskills — AMENAZA MEDIA
 - 25 skills en 7 categorías (CRO: 6, Content: 4, SEO: 4, Growth: 2, Strategy: 4)
@@ -70,7 +70,7 @@
 | Costo | $500-$50K+/mes | Plugin install |
 | Persona | RevOps/Marketing teams | Technical founders, GTM engineers |
 | Idioma | Solo inglés | Spanish-first |
-| Metodología | Varios/propietarios | SPICED-unified |
+| Metodología | Varios/propietarios | PULSO-unified |
 | Personalización | Configuración | Markdown, forkeable |
 
 ---
@@ -85,9 +85,9 @@
 - **GAP**: JTBD skill, signal-based prospecting
 
 ### B: Sales Methodology & Pipeline
-- **discovery-mastery** (nuestro) — SPICED + ACE + question bank
+- **discovery-mastery** (nuestro) — PULSO + ACE + question bank
 - **pipeline-management** (nuestro) — Bowtie + health indicators
-- **proposal-generation** (nuestro) — 8 secciones, SPICED ≥23
+- **proposal-generation** (nuestro) — 8 secciones, PULSO ≥23
 - **coaching-cadence** (nuestro) — REKS + 8 modelos coaching
 - **sdr-agent + deal-strategist** (nuestro) — Agentes especializados
 - **GAP CRÍTICO**: MEDDPICC qualification skill
@@ -104,7 +104,7 @@
 - **GAP CRÍTICO**: Funnel diagnostics, PLG/PQL scoring, CRO analysis
 
 ### E: RevOps & Data
-- Pipeline SPICED scoring (nuestro)
+- Pipeline PULSO scoring (nuestro)
 - **GAP CRÍTICO**: Unit economics calculator, ABM scoring, GTM motion selector
 
 ### F: Design & UX (Pencil)
@@ -119,7 +119,7 @@
 
 | Agente | Plugin | Rol |
 |--------|--------|-----|
-| sdr-agent | sales-blueprint | Prospecting → SPICED → outreach |
+| sdr-agent | sales-blueprint | Prospecting → PULSO → outreach |
 | deal-strategist | sales-blueprint | Deal review con risk matrix |
 | research-agent | copywriting-engine | Market intelligence |
 | insight-agent | copywriting-engine | Strategic analysis |
@@ -194,7 +194,7 @@ Las 5 preguntas abiertas se resolvieron en febrero 2026. Cada decisión incluye 
 
 ### 7.3 MCP Integrations
 - **Decisión**: Investigar qué MCPs agregan más valor y dónde. No agregar por agregar
-- **Rationale**: Los MCPs son un multiplicador de valor (sync SPICED scores a CRM, data enrichment para prospecting), pero requieren research antes de implementar
+- **Rationale**: Los MCPs son un multiplicador de valor (sync PULSO scores a CRM, data enrichment para prospecting), pero requieren research antes de implementar
 - **Acción**: Ver sección 8 (Investigación MCP) para hallazgos detallados
 
 ### 7.4 Arquitectura de Agentes
@@ -217,7 +217,7 @@ Las 5 preguntas abiertas se resolvieron en febrero 2026. Cada decisión incluye 
 
 El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026: 97 millones de descargas mensuales del SDK, 10,000+ servidores activos, y adopción por parte de HubSpot, Salesforce, Gong, Notion, Slack, y Linear como servidores oficiales o certificados. Para el Growth Marketplace, los MCPs son multiplicadores de valor que transforman skills estáticos (Markdown) en workflows conectados a datos reales del usuario.
 
-**Principio de evaluación**: No agregar MCPs por agregar. Cada integración debe amplificar directamente las capacidades de al menos un plugin existente (growth-foundations, sales-blueprint, copywriting-engine) y conectar con el lenguaje SPICED.
+**Principio de evaluación**: No agregar MCPs por agregar. Cada integración debe amplificar directamente las capacidades de al menos un plugin existente (growth-foundations, sales-blueprint, copywriting-engine) y conectar con el lenguaje PULSO.
 
 ### Resumen de Hallazgos
 
@@ -246,8 +246,8 @@ El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026
 
 **Valor para el Marketplace:**
 
-- **growth-foundations**: El skill `icp-analysis` puede leer contactos/companies de HubSpot para scoring ICP automatizado contra datos reales. La segmentación SPICED se alimenta de datos de deals existentes en vez de inputs manuales.
-- **sales-blueprint**: Los SPICED scores generados por `discovery` y `pipeline-management` pueden escribirse como propiedades custom en deals de HubSpot. El skill `coaching` puede leer historiales de interacción para contexto pre-call.
+- **growth-foundations**: El skill `icp-analysis` puede leer contactos/companies de HubSpot para scoring ICP automatizado contra datos reales. La segmentación PULSO se alimenta de datos de deals existentes en vez de inputs manuales.
+- **sales-blueprint**: Los PULSO scores generados por `discovery` y `pipeline-management` pueden escribirse como propiedades custom en deals de HubSpot. El skill `coaching` puede leer historiales de interacción para contexto pre-call.
 - **copywriting-engine**: Puede leer segmentos de contactos para personalizar emails con datos de CRM reales (industry, company size, deal stage).
 
 **Esfuerzo de implementación**: BAJO — OAuth flow estándar, servidor hosted, no requiere infra propia.
@@ -265,7 +265,7 @@ El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026
 
 **Valor para el Marketplace:**
 
-- **sales-blueprint**: SOQL permite queries directos sobre Opportunities para alimentar `pipeline-management` con datos reales. Los SPICED scores pueden mapearse a campos custom en Opportunity records.
+- **sales-blueprint**: SOQL permite queries directos sobre Opportunities para alimentar `pipeline-management` con datos reales. Los PULSO scores pueden mapearse a campos custom en Opportunity records.
 - **growth-foundations**: `competitive-analysis` puede leer datos de competidores desde objetos custom o notas en accounts.
 
 **Esfuerzo de implementación**: MEDIO — requiere Salesforce org, sf CLI auth, más complejo que HubSpot para usuarios no-enterprise.
@@ -290,7 +290,7 @@ El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026
 
 **Valor para el Marketplace:**
 
-- **sales-blueprint**: IMPACTO TRANSFORMADOR. El skill `discovery` puede pre-cargar transcripciones de calls anteriores para preparar la siguiente conversacion con contexto SPICED completo. El skill `coaching` puede analizar calls reales y generar feedback basado en adherencia a SPICED (Situation, Pain, Impact cubiertos vs. no cubiertos). El skill `proposal-generator` puede extraer verbatims del prospect para redactar propuestas con su propio lenguaje.
+- **sales-blueprint**: IMPACTO TRANSFORMADOR. El skill `discovery` puede pre-cargar transcripciones de calls anteriores para preparar la siguiente conversacion con contexto PULSO completo. El skill `coaching` puede analizar calls reales y generar feedback basado en adherencia a PULSO (Situation, Pain, Impact cubiertos vs. no cubiertos). El skill `proposal-generator` puede extraer verbatims del prospect para redactar propuestas con su propio lenguaje.
 - **copywriting-engine**: Los insights de conversaciones reales alimentan a los agentes de copy con lenguaje real del buyer (no genérico).
 
 **Esfuerzo de implementación**: MEDIO — requiere cuenta Gong (enterprise pricing), API keys, configuración de permisos.
@@ -339,7 +339,7 @@ El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026
 
 **Valor para el Marketplace:**
 
-- **sales-blueprint**: El skill `coaching` puede postear resúmenes de deal health en canales de equipo. `pipeline-management` puede enviar alertas cuando un deal cambia de stage o su SPICED score baja.
+- **sales-blueprint**: El skill `coaching` puede postear resúmenes de deal health en canales de equipo. `pipeline-management` puede enviar alertas cuando un deal cambia de stage o su PULSO score baja.
 - **growth-foundations**: Resultados de `icp-analysis` y `competitive-analysis` pueden compartirse directamente en canales de estrategia.
 - **Todos los plugins**: Canal de notificaciones para outputs de cualquier skill.
 
@@ -357,7 +357,7 @@ El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026
 
 **Valor para el Marketplace:**
 
-- **copywriting-engine**: IMPACTO DIRECTO. Los emails generados por el skill `emails` y el agente `email-specialist` pueden enviarse directamente desde Claude Code via MCP, eliminando copy-paste. Workflow completo: generar email SPICED → revisar → enviar.
+- **copywriting-engine**: IMPACTO DIRECTO. Los emails generados por el skill `emails` y el agente `email-specialist` pueden enviarse directamente desde Claude Code via MCP, eliminando copy-paste. Workflow completo: generar email PULSO → revisar → enviar.
 - **sales-blueprint**: `discovery` puede leer email threads previos con un prospect para contexto pre-call. `proposal-generator` puede enviar propuestas directamente.
 
 **Esfuerzo de implementación**: BAJO-MEDIO — OAuth setup con Google Cloud, ejecución local, sin hosting externo.
@@ -460,8 +460,8 @@ El protocolo MCP (Model Context Protocol) alcanza madurez operativa en 2025-2026
 
 **Valor para el Marketplace:**
 
-- **Todos los plugins**: Notion como "output repository" para todos los skills. ICP scores, competitive battle cards, SPICED deal summaries, email drafts — todo puede escribirse a bases de datos Notion automaticamente.
-- **sales-blueprint**: Base de datos Notion como pipeline tracker alternativo a CRM. Cada deal como page con propiedades SPICED (S, P, I, C, D scores).
+- **Todos los plugins**: Notion como "output repository" para todos los skills. ICP scores, competitive battle cards, PULSO deal summaries, email drafts — todo puede escribirse a bases de datos Notion automaticamente.
+- **sales-blueprint**: Base de datos Notion como pipeline tracker alternativo a CRM. Cada deal como page con propiedades PULSO (S, P, I, C, D scores).
 - **growth-foundations**: Base de datos de ICPs evaluados con scores y notas de enrichment.
 
 **Esfuerzo de implementación**: BAJO — OAuth one-click, servidor hosted, excelente documentación.
@@ -520,7 +520,7 @@ Plataformas relevantes para GTM que NO tienen MCP server hoy pero que deben moni
 
 | Plataforma | Categoría | Estado MCP | Valor Potencial | Monitorear |
 |------------|-----------|-----------|----------------|------------|
-| Outreach.io | Sales Engagement | No existe | Secuencias de outreach automatizadas con copy SPICED | API REST disponible |
+| Outreach.io | Sales Engagement | No existe | Secuencias de outreach automatizadas con copy PULSO | API REST disponible |
 | Salesloft | Sales Engagement | No existe | Cadencias de ventas integradas | API REST disponible |
 | Clari | Revenue Intelligence | No existe | Forecast data para pipeline | Enterprise only |
 | 6sense | Intent Data | Parcial (Apify) | Buyer intent signals para ICP | API REST disponible |
@@ -535,7 +535,7 @@ Plataformas relevantes para GTM que NO tienen MCP server hoy pero que deben moni
 Integraciones que amplifican plugins existentes con esfuerzo bajo.
 
 ```
-[HubSpot MCP] ←→ growth-foundations (ICP read), sales-blueprint (SPICED write)
+[HubSpot MCP] ←→ growth-foundations (ICP read), sales-blueprint (PULSO write)
 [Apollo MCP]  ←→ growth-foundations (enrichment), sales-blueprint (pre-call research)
 [Notion MCP]  ←→ ALL plugins (output repository)
 ```
@@ -569,7 +569,7 @@ Integraciones para usuarios power-user o enterprise.
 ```
 Apollo/Clay ──enrich──→ growth-foundations ──ICP score──→ HubSpot
                               │
-Gong calls ──transcripts──→ sales-blueprint ──SPICED──→ HubSpot
+Gong calls ──transcripts──→ sales-blueprint ──PULSO──→ HubSpot
                               │                    │
                               │              ──proposal──→ Gmail
                               │
@@ -588,7 +588,7 @@ Gong calls ──transcripts──→ sales-blueprint ──SPICED──→ HubS
 
 | MCP Server | growth-foundations | sales-blueprint | copywriting-engine | Prioridad |
 |------------|-------------------|-----------------|-------------------|-----------|
-| **HubSpot** | ICP data read | SPICED scores write, deal context | Segment data | P1 |
+| **HubSpot** | ICP data read | PULSO scores write, deal context | Segment data | P1 |
 | **Apollo** | ICP enrichment, company data | Pre-call research | Personalization data | P1 |
 | **Notion** | ICP database | Pipeline tracker | Email drafts archive | P1 |
 | **Gong** | - | Call analysis, coaching, verbatims | Buyer language | P2 |
@@ -606,12 +606,12 @@ Gong calls ──transcripts──→ sales-blueprint ──SPICED──→ HubS
 
 1. **3 MCPs son "no-brainers"**: HubSpot, Apollo, y Notion. Bajo esfuerzo, alto impacto, tier gratuito o económico, y cubren el ciclo data → analysis → persistence.
 
-2. **Gong es el game-changer para sales-blueprint**: La capacidad de analizar calls reales con SPICED framework es el diferenciador que ningún competidor (gtmagents, marketingskills, agentkits) puede replicar facilmente.
+2. **Gong es el game-changer para sales-blueprint**: La capacidad de analizar calls reales con PULSO framework es el diferenciador que ningún competidor (gtmagents, marketingskills, agentkits) puede replicar facilmente.
 
 3. **El ecosistema MCP favorece al marketplace**: La estandarización MCP significa que cada nueva integración de un vendor es automaticamente accesible para los plugins. El marketplace no necesita construir integraciones — solo documentar cómo usarlas.
 
 4. **MCPs enterprise (Salesforce, 6sense, Clari) pueden esperar**: El target inicial es technical founders y SMBs. Enterprise vendrá cuando haya tracción.
 
-5. **La ausencia de MCPs para Outreach/Salesloft es una oportunidad**: Si el marketplace construye un wrapper MCP para estas plataformas, se convierte en el bridge entre metodología SPICED y ejecución de secuencias.
+5. **La ausencia de MCPs para Outreach/Salesloft es una oportunidad**: Si el marketplace construye un wrapper MCP para estas plataformas, se convierte en el bridge entre metodología PULSO y ejecución de secuencias.
 
 6. **Documentación > código**: El mayor valor no es construir MCPs sino documentar en cada skill cómo configurar y usar los MCPs relevantes. Un `## Integraciones MCP` section en cada SKILL.md con ejemplos concretos.

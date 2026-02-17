@@ -99,11 +99,11 @@ T3 = total_ICP - (T1 + T2)
 | **Intent Signal** | ___ | ___ | ___ |
 | **Relacion existente** | ___ | ___ | ___ |
 | **Revenue potencial** | >= $___ | $___ - $___ | < $___ |
-| **SPICED completeness** | S+P+I+CE | S+P+I | S+P |
+| **PULSO completeness** | P+U+L+S | P+U+L | P+U |
 
 ### 3.2 Lista de Cuentas T1
 
-| # | Empresa | Fit Score | Intent | Relacion | Revenue Est. | SPICED | Rep Asignado |
+| # | Empresa | Fit Score | Intent | Relacion | Revenue Est. | PULSO | Rep Asignado |
 |---|---|---|---|---|---|---|---|
 | 1 | ___ | ___/100 | Alto/Medio/Bajo | Si/No | $___ | T1 | ___ |
 | 2 | ___ | ___/100 | Alto/Medio/Bajo | Si/No | $___ | T1 | ___ |

@@ -1,5 +1,5 @@
 ---
-description: Review de salud del pipeline. Evalua deals con SPICED scoring, identifica riesgos, y genera forecast con acciones priorizadas.
+description: Review de salud del pipeline. Evalua deals con PULSO scoring, identifica riesgos, y genera forecast con acciones priorizadas.
 argument-hint: [datos del pipeline o contexto]
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch]
 ---
@@ -52,16 +52,16 @@ Evaluar coverage:
 - **3-4x**: Aceptable pero fragil. Incrementar sourcing.
 - **<3x**: Pipeline insuficiente. Modo alerta.
 
-### Fase 3: SPICED Assessment por deal
+### Fase 3: PULSO Assessment por deal
 
-Para cada deal en etapa avanzada, hacer un mini-diagnostico SPICED:
+Para cada deal en etapa avanzada, hacer un mini-diagnostico PULSO:
 
-"Para [empresa], cubramos rapidamente las 5 dimensiones SPICED:
-1. Que sabes de su Situation? (hechos, contexto)
-2. Cual es el Pain que los trajo? (numeros + frustracion)
-3. Cual es el Impact que lograrian contigo? (ROI + personal)
-4. Hay un Critical Event con fecha? (que pasa si no actuan)
-5. Como es el Decision process? (quien firma, criterios, timeline)"
+"Para [empresa], cubramos rapidamente las 5 dimensiones PULSO:
+1. Cual es el Panorama? (hechos, contexto)
+2. Cual es la Urgencia que los trajo? (numeros + frustracion)
+3. Cual es el Logro que conseguirian contigo? (ROI + personal)
+4. Hay una Situación Crítica con fecha? (que pasa si no actuan)
+5. Como es la Organización para decidir? (quien firma, criterios, timeline)"
 
 **Esperar las respuestas para cada deal. No asumir.**
 
@@ -75,7 +75,7 @@ Para cada deal, generar:
 DEAL: [Empresa]
 Valor: $___  |  Etapa: ___  |  Dias en etapa: ___
 
-SPICED Score:
+PULSO Score:
   S: _/5  P: _/5  I: _/5  CE: _/5  D: _/5  = __/30
 
 Health: [VERDE/AMARILLO/ROJO]
@@ -103,7 +103,7 @@ Generar forecast en 3 niveles:
 
 | Categoria | Deals | Valor | Criterio |
 |-----------|-------|-------|----------|
-| **Commit** | [lista] | $___ | SPICED >= 25, proximo paso es firma, fecha confirmada |
+| **Commit** | [lista] | $___ | PULSO >= 25, proximo paso es firma, fecha confirmada |
 | **Best Case** | [lista] | $___ | Commit + deals verdes en Negotiation |
 | **Pipeline** | [lista] | $___ | Todo pipeline activo ponderado por probabilidad |
 
@@ -124,7 +124,7 @@ Generar las top 5 acciones ordenadas por impacto:
 ### Output Final
 
 1. Pipeline snapshot con metricas
-2. SPICED assessment deal por deal
+2. PULSO assessment deal por deal
 3. Health map (verde/amarillo/rojo)
 4. Deals en riesgo con recomendaciones
 5. Forecast (commit / best case / pipeline)

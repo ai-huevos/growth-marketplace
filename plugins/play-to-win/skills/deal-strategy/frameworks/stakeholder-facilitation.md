@@ -1,6 +1,6 @@
 # Framework: Facilitacion de Reuniones de Stakeholders
 
-Metodologia completa para facilitar reuniones de stakeholders que avanzan deals de forma estructurada. Basado en Blueprint 29 de Winning by Design.
+Metodologia completa para facilitar reuniones de stakeholders que avanzan deals de forma estructurada. Basado en la facilitacion de stakeholders de Metodología GrowthOS.
 
 ## Principio fundamental
 

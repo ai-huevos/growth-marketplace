@@ -87,7 +87,7 @@ Roles sin representante conocido:
 
 ---
 
-## Seccion 3: Impact y Critical Event por Rol
+## Seccion 3: Logro y Situación Crítica por Rol
 
 Documenta minimo 3, maximo 5 roles clave.
 
@@ -97,9 +97,9 @@ Documenta minimo 3, maximo 5 roles clave.
 |-------|-------|
 | Nombre | |
 | Rol | |
-| Critical Event | |
-| Impact racional | |
-| Impact emocional | |
+| Situación Crítica | |
+| Logro racional | |
+| Logro emocional | |
 
 ### Stakeholder 2
 
@@ -107,9 +107,9 @@ Documenta minimo 3, maximo 5 roles clave.
 |-------|-------|
 | Nombre | |
 | Rol | |
-| Critical Event | |
-| Impact racional | |
-| Impact emocional | |
+| Situación Crítica | |
+| Logro racional | |
+| Logro emocional | |
 
 ### Stakeholder 3
 
@@ -117,9 +117,9 @@ Documenta minimo 3, maximo 5 roles clave.
 |-------|-------|
 | Nombre | |
 | Rol | |
-| Critical Event | |
-| Impact racional | |
-| Impact emocional | |
+| Situación Crítica | |
+| Logro racional | |
+| Logro emocional | |
 
 ### Stakeholder 4 (opcional)
 
@@ -127,9 +127,9 @@ Documenta minimo 3, maximo 5 roles clave.
 |-------|-------|
 | Nombre | |
 | Rol | |
-| Critical Event | |
-| Impact racional | |
-| Impact emocional | |
+| Situación Crítica | |
+| Logro racional | |
+| Logro emocional | |
 
 ### Stakeholder 5 (opcional)
 
@@ -137,9 +137,9 @@ Documenta minimo 3, maximo 5 roles clave.
 |-------|-------|
 | Nombre | |
 | Rol | |
-| Critical Event | |
-| Impact racional | |
-| Impact emocional | |
+| Situación Crítica | |
+| Logro racional | |
+| Logro emocional | |
 
 ---
 

@@ -1,6 +1,6 @@
 # Framework: Diagnosis Deep-Dive
 
-Metodologia de 8 pasos para conducir sesiones de diagnostico profundo que transforman una conversacion de ventas en una consulta profesional. Sistematiza el uso de preguntas con contexto, la progresion SPICED, y la tecnica de resumen para validar comprension y construir confianza. Basado en el Blueprint #26 de Winning by Design (How to Diagnose).
+Metodologia de 8 pasos para conducir sesiones de diagnostico profundo que transforman una conversacion de ventas en una consulta profesional. Sistematiza el uso de preguntas con contexto, la progresion PULSO, y la tecnica de resumen para validar comprension y construir confianza. Basado en el diagnóstico profundo de Metodología GrowthOS.
 
 ## Principios fundamentales
 
@@ -24,7 +24,7 @@ Metodologia de 8 pasos para conducir sesiones de diagnostico profundo que transf
 │  8. Follow Through <── 7. Wagons <── 6. 3rd Party Story      │
 │                                            ▲                 │
 │                                            │                 │
-│                                    5. Diagnose SPICED        │
+│                                    5. Diagnose PULSO         │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -60,13 +60,13 @@ Este es el nucleo del diagnostico. Alternar entre los 4 tipos de preguntas para 
 3. Abierta simple (descubrir lo inesperado)
 4. Cerrada simple (confirmar hallazgos)
 
-### Paso 5: Diagnose — Progresion SPICED
+### Paso 5: Diagnose — Progresion PULSO
 
-Aplicar la progresion SPICED completa una vez que se tiene suficiente informacion del Paso 4.
+Aplicar la progresion PULSO completa una vez que se tiene suficiente informacion del Paso 4.
 
 ### Paso 6: 3rd Party Story — Historia de terceros
 
-Insertar una historia de un cliente similar despues del resumen SPICED para construir empatia y credibilidad.
+Insertar una historia de un cliente similar despues del resumen PULSO para construir empatia y credibilidad.
 
 ### Paso 7: Wagons — Conectar reuniones
 
@@ -147,15 +147,15 @@ El diagnostico de calidad depende de la calidad de las preguntas. Los 4 tipos de
 
 ---
 
-## Progresion SPICED en Diagnostico
+## Progresion PULSO en Diagnostico
 
 La progresion en el diagnose call es mas profunda que en el discovery call inicial. Aqui ya tienes datos de la primera sesion y puedes ir directamente a profundidad.
 
 ```
-S, S ──> P, P ──> Summarize ──> 3rd Party Story ──> I ──> CE ──> D
- │        │          │               │               │      │      │
- │        │          │               │               │      │      └─ Criterios + proceso
- │        │          │               │               │      └──── Timeline + consecuencias
+P, P ──> U, U ──> Summarize ──> 3rd Party Story ──> L ──> S ──> O
+ │        │          │               │               │     │     │
+ │        │          │               │               │     │     └─ Criterios + proceso
+ │        │          │               │               │     └──── Timeline + consecuencias
  │        │          │               │               └───────── Cuantificar en 4 dimensiones
  │        │          │               └───────────────────── Empatia + peer reference
  │        │          └───────────────────────────────── "Capte bien?"
@@ -163,16 +163,16 @@ S, S ──> P, P ──> Summarize ──> 3rd Party Story ──> I ──> CE
  └───────────────────────────────────────────── Cerradas con contexto
 ```
 
-### S, S — Doble Situation
+### P, P — Doble Panorama
 
-Empezar con 2 preguntas de situacion cerradas con contexto para establecer la base factual actualizada.
+Empezar con 2 preguntas de panorama cerradas con contexto para establecer la base factual actualizada.
 
 **Script**:
 > "La ultima vez hablamos de [dato 1] y [dato 2]. Algo cambio desde entonces?"
 
-### P, P — Doble Pain
+### U, U — Doble Urgencia
 
-Profundizar en 2 dolores diferentes o en 2 dimensiones del mismo dolor.
+Profundizar en 2 urgencias/dolores diferentes o en 2 dimensiones del mismo dolor.
 
 **Script**:
 > "Me contaste que [dolor 1] les causaba [efecto]. Profundicemos ahi — con que frecuencia ocurre?"
@@ -182,7 +182,7 @@ Profundizar en 2 dolores diferentes o en 2 dimensiones del mismo dolor.
 
 Formato estandar:
 
-> "Entonces tienes [Situacion 1] y [Situacion 2] que te causan [Pain principal]... capte bien?"
+> "Entonces tienes [Panorama 1] y [Panorama 2] que te causan [Urgencia principal]... capte bien?"
 
 **3 resultados posibles**:
 1. **"Si, exacto"** — Proceder a Story
@@ -204,7 +204,7 @@ Formato estandar:
 3. **Accion**: "Lo que hicieron fue [solucion resumida]"
 4. **Resultado**: "En [tiempo], lograron [resultado cuantificable]"
 
-### I — Impact (4 dimensiones)
+### L — Logro (4 dimensiones)
 
 | Dimension | Pregunta tipo |
 |-----------|---------------|
@@ -213,13 +213,13 @@ Formato estandar:
 | ↑ Customer Experience | "Como impactaria esto en la experiencia de tus clientes?" |
 | ↑ Eficiencia operativa | "Cuantas horas a la semana pierde tu equipo en [tarea afectada]?" |
 
-### CE — Critical Event
+### S — Situación Crítica
 
 - "Hay alguna fecha limite o evento que haga esto urgente?"
 - "Que pasa si esto no se resuelve para [fecha mencionada]?"
 - "Cuando necesitarias tener una solucion funcionando?"
 
-### D — Decision
+### O — Organización
 
 - "Quien mas necesita estar involucrado en evaluar opciones?"
 - "Como tomaron decisiones similares en el pasado?"
@@ -287,7 +287,7 @@ La historia de terceros es una herramienta de empatia y credibilidad. No es un c
 | 2. ACE | Script personalizado de A, C, E | Adaptar template con nombre del prospect y contexto especifico |
 | 3. Agenda | 3-4 temas priorizados | Basarse en hallazgos de la sesion anterior o del research |
 | 4. Ask | 5-8 preguntas con contexto | Preparar 2 cerradas con contexto + 2 abiertas con contexto minimo |
-| 5. Diagnose | SPICED flow chart con datos actuales | Completar S y P con lo que ya sabes, dejar I/CE/D abiertos |
+| 5. Diagnose | PULSO flow chart con datos actuales | Completar P y U con lo que ya sabes, dejar L/S/O abiertos |
 | 6. Story | 2-3 historias de terceros relevantes | Seleccionar por industria, tamano, dolor similar |
 | 7. Wagons | Propuesta de next steps y stakeholders | Tener 2 opciones de siguiente reunion preparadas |
 | 8. Follow | Template de email follow-up | Pre-redactar con campos variables para completar post-call |
@@ -299,8 +299,8 @@ La historia de terceros es una herramienta de empatia y credibilidad. No es un c
 | Error | Consecuencia | Correccion |
 |-------|-------------|------------|
 | Hacer solo preguntas cerradas simples | El diagnose se siente como interrogatorio | Alternar: cerrada con contexto → abierta con contexto |
-| No resumir despues de Pain | El prospect no sabe si fue escuchado | Siempre usar la formula "Entonces tienes S que causa P..." |
+| No resumir despues de Urgencia | El prospect no sabe si fue escuchado | Siempre usar la formula "Entonces tienes P que causa U..." |
 | Contar tu historia antes de la del prospect | Pierdes credibilidad — parece pitch | La historia de terceros va DESPUES del resumen, nunca antes |
 | Preparar preguntas pero no contexto | Las preguntas suenan genericas | Por cada pregunta, preparar 1 dato de contexto del research |
 | Ignorar las correcciones del resumen | Parece que no escuchas | Si el prospect corrige, repetir la version corregida |
-| No documentar durante la llamada | Pierdes informacion valiosa para el demo | Tomar notas en formato SPICED en tiempo real |
+| No documentar durante la llamada | Pierdes informacion valiosa para el demo | Tomar notas en formato PULSO en tiempo real |

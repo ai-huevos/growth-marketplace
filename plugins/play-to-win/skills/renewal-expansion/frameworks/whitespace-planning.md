@@ -39,16 +39,16 @@ Para cada oportunidad de whitespace:
 | Analytics module | $12K/ano | 2 | 75% | $9K |
 | Colombia office | $18K/ano | 4 | 40% | $7.2K |
 
-### Paso 3: Priorizar con Impact x Critical Event
+### Paso 3: Priorizar con Logro x Situación Crítica
 
 La priorizacion no se basa solo en revenue potencial. Usa dos ejes:
 
-**Eje X — Impact**: Que tan significativo es el impacto de negocio para el cliente si adoptan esta expansion?
-- Alto: Resuelve un pain critico del negocio
+**Eje X — Logro**: Que tan significativo es el logro de negocio para el cliente si adoptan esta expansion?
+- Alto: Resuelve una urgencia critica del negocio
 - Medio: Mejora eficiencia o agrega funcionalidad util
 - Bajo: Nice-to-have sin urgencia de negocio
 
-**Eje Y — Critical Event**: Hay un evento que genera urgencia para esta expansion?
+**Eje Y — Situación Crítica**: Hay un evento que genera urgencia para esta expansion?
 - Alto: Deadline externo, restructuracion, nueva regulacion, board review
 - Medio: Objetivo trimestral, hiring plan, presupuesto que vence
 - Bajo: Sin timeline externo, decision discrecional
@@ -56,11 +56,11 @@ La priorizacion no se basa solo en revenue potencial. Usa dos ejes:
 ### Matriz de Priorizacion
 
 ```
-                    CRITICAL EVENT
-                    Alto            Bajo
+                    SITUACIÓN CRÍTICA
+                    Alta            Baja
                 ┌───────────┬───────────┐
     Alto        │ PRIORIDAD │ PRIORIDAD │
-IMPACT          │     1     │     2     │
+LOGRO           │     1     │     2     │
                 │ Ejecutar  │   Crear   │
                 │   ahora   │ urgencia  │
                 ├───────────┼───────────┤
@@ -71,22 +71,22 @@ IMPACT          │     1     │     2     │
                 └───────────┴───────────┘
 ```
 
-### Prioridad 1: Impact Alto + CE Alto
+### Prioridad 1: Logro Alto + SC Alta
 - **Accion**: Ejecutar inmediatamente
 - **Enfoque**: Proposal directo, reunión con decision maker
 - **Timeline**: 30 dias para propuesta, 60 dias para cierre
 
-### Prioridad 2: Impact Alto + CE Bajo
+### Prioridad 2: Logro Alto + SC Baja
 - **Accion**: Crear urgencia
 - **Enfoque**: Educacion, business case, ROI modeling
-- **Tactic**: Conectar con un Critical Event futuro ("Si no hacen esto antes de Q4...")
+- **Tactic**: Conectar con una Situación Crítica futura ("Si no hacen esto antes de Q4...")
 
-### Prioridad 3: Impact Bajo + CE Alto
+### Prioridad 3: Logro Bajo + SC Alta
 - **Accion**: Quick win si el esfuerzo es bajo
 - **Enfoque**: Expansion sencilla (mas licencias, feature add-on)
 - **Precaucion**: No invertir demasiado esfuerzo
 
-### Deprioritizar: Impact Bajo + CE Bajo
+### Deprioritizar: Logro Bajo + SC Baja
 - **Accion**: No invertir esfuerzo ahora
 - **Enfoque**: Monitorear para cambios en el futuro
 - **Excepcion**: Si es una expansion trivial (ej. activar un modulo gratis), hacerlo como buena voluntad
@@ -119,7 +119,7 @@ El whitespace analysis se integra con el mapeo de relaciones:
 
 1. **Identifica la oportunidad** (whitespace)
 2. **Mapea los stakeholders** del area de expansion (usar `../relationship-mapping/frameworks/org-mapping-process.md`)
-3. **Identifica Impact y CE** para los nuevos stakeholders
+3. **Identifica Logro y SC** para los nuevos stakeholders
 4. **Ejecuta las jugadas tacticas** para llegar al decision maker del nuevo area (usar `../relationship-mapping/frameworks/four-plays.md`)
 5. **Planifica relaciones 3x3** con los nuevos stakeholders
 
@@ -135,11 +135,11 @@ El whitespace analysis se integra con el mapeo de relaciones:
 ```
 1. DESCUBRIR whitespace (inventario + cuantificacion)
            ↓
-2. PRIORIZAR (Impact x CE matrix)
+2. PRIORIZAR (Logro x SC matrix)
            ↓
 3. MAPEAR stakeholders del area de expansion
            ↓
-4. DISCOVERY con nuevos stakeholders (SPICED)
+4. DISCOVERY con nuevos stakeholders (PULSO)
            ↓
 5. PROPONER expansion (usando trade options, no descuentos)
            ↓

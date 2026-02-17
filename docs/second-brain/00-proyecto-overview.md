@@ -6,7 +6,7 @@ Un marketplace de plugins para Claude Code que empaqueta frameworks de B2B growt
 
 ## Visión
 
-Democratizar el acceso a metodologías de ventas B2B de clase mundial (Winning by Design, Porter, Value Proposition Canvas) empaquetándolas como herramientas interactivas dentro de Claude Code. Un consultor o equipo de ventas puede instalar un plugin y tener acceso inmediato a frameworks que típicamente requieren training costoso.
+Democratizar el acceso a metodologías de ventas B2B de clase mundial (Metodología GrowthOS, Porter, Value Proposition Canvas) empaquetándolas como herramientas interactivas dentro de Claude Code. Un consultor o equipo de ventas puede instalar un plugin y tener acceso inmediato a frameworks que típicamente requieren training costoso.
 
 ## Para Quién
 
@@ -22,7 +22,7 @@ Frameworks fundamentales de B2B growth para cualquier equipo. El punto de entrad
 
 | Componente | Tipo | Propósito |
 |-----------|------|-----------|
-| `icp-analysis` | Skill | Análisis de Ideal Customer Profile con scoring SPICED (0-100) |
+| `icp-analysis` | Skill | Análisis de Ideal Customer Profile con scoring PULSO (0-100) |
 | `positioning` | Skill | Propuesta de valor, diferenciación, messaging framework |
 | `competitive-analysis` | Skill | Five Forces de Porter + mapa competitivo visual |
 | `quiz-funnel` | Skill | Quiz funnels ASK Method: SMIQ, buckets, stress test <$500 |
@@ -31,16 +31,16 @@ Frameworks fundamentales de B2B growth para cualquier equipo. El punto de entrad
 | `/quiz` | Command | Workshop interactivo para diseñar quiz funnel con buckets |
 
 ### 2. sales-blueprint
-Sistema completo de ejecución de ventas B2B basado en Winning by Design.
+Sistema completo de ejecución de ventas B2B basado en Metodología GrowthOS.
 
 | Componente | Tipo | Propósito |
 |-----------|------|-----------|
-| `discovery-mastery` | Skill | Preparación y ejecución de discovery calls con SPICED + ACE |
-| `pipeline-management` | Skill | Gestión de pipeline con SPICED scoring y modelo Bowtie |
+| `discovery-mastery` | Skill | Preparación y ejecución de discovery calls con PULSO + ACE |
+| `pipeline-management` | Skill | Gestión de pipeline con PULSO scoring y modelo Bowtie |
 | `proposal-generation` | Skill | Generación de propuestas con business case y Trading Checklist |
 | `coaching-cadence` | Skill | Coaching REKS, 8 modelos, cadencia semanal/mensual |
-| `sdr-agent` | Agent | Workflow de SDR: research → SPICED → outreach |
-| `deal-strategist` | Agent | Análisis crítico de deals: gaps SPICED → riesgos → MAP |
+| `sdr-agent` | Agent | Workflow de SDR: research → PULSO → outreach |
+| `deal-strategist` | Agent | Análisis crítico de deals: gaps PULSO → riesgos → MAP |
 | `/discovery` | Command | Prep de discovery call interactiva |
 | `/propuesta` | Command | Generador de propuestas B2B |
 | `/pipeline` | Command | Review de salud del pipeline |
@@ -81,22 +81,22 @@ Project Manager conversacional para diseñar y construir sistemas de inteligenci
 
 | Componente | Tipo | Propósito |
 |-----------|------|-----------|
-| `project-management` | Skill | PM conversacional: SPICED discovery, despacho de 5 agentes especialistas, 5 fases |
+| `project-management` | Skill | PM conversacional: PULSO discovery, despacho de 5 agentes especialistas, 5 fases |
 | Architecture Plumber | Agent (interno) | Diseña infraestructura y plataforma |
 | Data Specialist | Agent (interno) | Diseña pipelines ETL y flujo de datos |
 | Database Architect | Agent (interno) | Diseña almacenamiento (SQL, Graph, Hybrid) |
 | Implementation Agent | Agent (interno) | Construye, despliega, testea |
 | Dashboard Builder | Agent (interno) | Dashboards 3 niveles: Ejecutivo, Gerencial, Operacional |
 
-## El Hilo Conductor: SPICED
+## El Hilo Conductor: PULSO
 
-SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común que conecta los cinco plugins:
+PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización) es el lenguaje común que conecta los cinco plugins:
 
-- **growth-foundations** usa SPICED para **diagnosticar** el ICP y **segmentar** el mercado en buckets vía quiz funnels
-- **sales-blueprint** usa SPICED para **evaluar** oportunidades, gestionar pipeline, generar propuestas y coachear
-- **copywriting-engine** usa los insights de SPICED para **comunicar** con copy efectivo
-- **dotcom-secrets** usa SPICED vía RADAR para **posicionar** al prospect en el tier correcto del value ladder ESCALA
-- **conversational-pm** usa SPICED para **descubrir** requisitos de proyecto y clasificar complejidad antes de despachar agentes
+- **growth-foundations** usa PULSO para **diagnosticar** el ICP y **segmentar** el mercado en buckets vía quiz funnels
+- **sales-blueprint** usa PULSO para **evaluar** oportunidades, gestionar pipeline, generar propuestas y coachear
+- **copywriting-engine** usa los insights de PULSO para **comunicar** con copy efectivo
+- **dotcom-secrets** usa PULSO vía RADAR para **posicionar** al prospect en el tier correcto del value ladder ESCALA
+- **conversational-pm** usa PULSO para **descubrir** requisitos de proyecto y clasificar complejidad antes de despachar agentes
 
 ## Datos Clave del Proyecto
 
@@ -105,7 +105,7 @@ SPICED (Situation, Pain, Impact, Critical Event, Decision) es el lenguaje común
 - **Skills**: 17 en total (4 + 4 + 4 + 4 + 1)
 - **Commands**: 12 en total (3 + 4 + 3 + 2 + 0)
 - **Agents**: 7 en total (0 + 2 + 4 + 1 + 0)
-- **Frameworks**: SPICED, ICP Scoring, ClarQ, REKS, Value Proposition Canvas, Five Forces, Bowtie, ACE, ASK Method, Bucket Scorecard
+- **Frameworks**: PULSO, ICP Scoring, ClarQ, REKS, Value Proposition Canvas, Five Forces, Bowtie, ACE, ASK Method, Bucket Scorecard
 - **Datos analizados**: 38,737 headlines, 4,129 triggers, 2,245 CTAs, 1,570 propuestas de valor
 - **Licencia**: MIT
 - **Autor**: AI Huevos (huevos.ai)

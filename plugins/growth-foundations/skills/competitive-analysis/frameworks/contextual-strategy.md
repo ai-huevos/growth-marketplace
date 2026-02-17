@@ -1,6 +1,6 @@
 # Estrategia de Marketing Contextual — Pragmatismo Antes de Perfección
 
-> Complementa Five Forces (teórico) con una auditoría de lo que puedes ejecutar HOY. Alimenta "Situation" del SPICED — define constraints reales antes de proponer soluciones.
+> Complementa Five Forces (teórico) con una auditoría de lo que puedes ejecutar HOY. Alimenta "Panorama" del PULSO — define constraints reales antes de proponer soluciones.
 
 ---
 

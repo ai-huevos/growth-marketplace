@@ -78,4 +78,4 @@ La Greatest Hits Survey es una encuesta de 60 segundos (3 preguntas máximo) que
 
 - **Input de**: ICP Analysis (defines a quién encuestar)
 - **Output hacia**: Copywriting Engine → Headlines, Email Sequences
-- **Complementa**: SPICED Discovery (valida dolores antes del contacto 1:1)
+- **Complementa**: PULSO Discovery (valida dolores antes del contacto 1:1)

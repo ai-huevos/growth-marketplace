@@ -369,16 +369,16 @@ Para ofertas high-ticket ($5,000+), el funnel digital prepara pero no cierra. Lo
    - Thank you page que agenda la llamada (Calendly o similar)
    - Expectativas claras: "Esta es una conversación, no un pitch de ventas"
 
-2. **Preparar el discovery call con SPICED**:
+2. **Preparar el discovery call con PULSO**:
    - Antes de la llamada: revisar respuestas de la aplicación
-   - Durante la llamada: profundizar con SPICED:
-     | SPICED | Pregunta de profundización |
-     |--------|---------------------------|
-     | Situation | "Cuéntame más sobre [respuesta de la aplicación]..." |
-     | Pain | "¿Cuánto te está costando esto en [dinero/tiempo/oportunidad]?" |
-     | Impact | "Si resolvemos esto, ¿qué cambia en 6-12 meses?" |
-     | Critical Event | "¿Hay algo que haga esto urgente ahora?" |
-     | Decision | "¿Cómo toman este tipo de decisiones en tu empresa?" |
+   - Durante la llamada: profundizar con PULSO:
+     | PULSO | Pregunta de profundización |
+     |-------|---------------------------|
+     | Panorama | "Cuéntame más sobre [respuesta de la aplicación]..." |
+     | Urgencia | "¿Cuánto te está costando esto en [dinero/tiempo/oportunidad]?" |
+     | Logro | "Si resolvemos esto, ¿qué cambia en 6-12 meses?" |
+     | Situación Crítica | "¿Hay algo que haga esto urgente ahora?" |
+     | Organización | "¿Cómo toman este tipo de decisiones en tu empresa?" |
    - Conexión directa con **discovery-mastery** del plugin sales-blueprint
 
 3. **Diseñar la propuesta personalizada**:

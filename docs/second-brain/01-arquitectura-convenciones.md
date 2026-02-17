@@ -23,7 +23,7 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │   ├── .claude-plugin/plugin.json
 │   │   ├── README.md
 │   │   ├── skills/
-│   │   │   ├── icp-analysis/        ← ICP scoring basado en SPICED
+│   │   │   ├── icp-analysis/        ← ICP scoring basado en PULSO
 │   │   │   ├── positioning/         ← Value Proposition Canvas
 │   │   │   ├── competitive-analysis/ ← Five Forces + mapa competitivo
 │   │   │   ├── quiz-funnel/         ← ASK Method adaptado a B2B
@@ -36,10 +36,10 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │   ├── .claude-plugin/plugin.json
 │   │   ├── README.md
 │   │   ├── skills/
-│   │   │   ├── discovery-mastery/   ← SPICED discovery framework
-│   │   │   ├── pipeline-management/ ← Gestión de pipeline por SPICED score
-│   │   │   ├── proposal-generation/ ← Propuestas (requiere SPICED >= 23)
-│   │   │   └── coaching-cadence/    ← REKS → SPICED coaching
+│   │   │   ├── discovery-mastery/   ← PULSO discovery framework
+│   │   │   ├── pipeline-management/ ← Gestión de pipeline por PULSO score
+│   │   │   ├── proposal-generation/ ← Propuestas (requiere PULSO >= 23)
+│   │   │   └── coaching-cadence/    ← REKS → PULSO coaching
 │   │   ├── agents/
 │   │   │   ├── sdr-agent.md         ← Prospecting + qualification
 │   │   │   └── deal-strategist.md   ← Análisis crítico de deals
@@ -161,12 +161,12 @@ Estructura fija:
 - Commands referencian agents y skills del mismo plugin
 - El plugin `sales-blueprint` es especialmente interconnectado: discovery → pipeline → proposals → coaching
 - `dotcom-secrets` tiene cross-references internas fuertes: escala ↔ flujo ↔ alma, orquestados por funnel-architect
-- `conversational-pm` usa SPICED para project discovery, conectándose con sales-blueprint
+- `conversational-pm` usa PULSO para project discovery, conectándose con sales-blueprint
 
 ### Scoring Models
 - ICP: 0-100 con tiers (80-100, 60-79, 40-59, 0-39)
 - ClarQ: 0-40 con niveles (Fragile Giant, Growth Constrained, Growth Ready, Scaling)
-- SPICED: 5-30 por oportunidad (No calificado, Nurture, Oportunidad activa)
+- PULSO: 5-30 por oportunidad (No calificado, Nurture, Oportunidad activa)
 - REKS: Diagnóstico cualitativo (Results → Effort → Knowledge → Skills)
 
 ### Formatos de Output
@@ -209,4 +209,4 @@ Cada agente tiene un Quality Gate que debe pasar antes de avanzar.
 ### Patrón: Diagnostic → Action (sales-blueprint)
 Los agentes de sales no solo analizan — recomiendan acciones:
 - SDR Agent: Research → Score → Outreach Package
-- Deal Strategist: Intake → SPICED Crítico → Risk → Recommendations → MAP
+- Deal Strategist: Intake → PULSO Crítico → Risk → Recommendations → MAP

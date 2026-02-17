@@ -117,7 +117,7 @@ Para servicios high-ticket, el contenido funciona diferente que para SaaS. El ob
 ### Application Funnel (para high-ticket)
 1. **Contenido** que demuestra expertise (blog, webinar, case study)
 2. **CTA** a página de aplicación (no "agendar demo" — "aplicar")
-3. **Formulario** de cualificación (5-7 preguntas SPICED)
+3. **Formulario** de cualificación (5-7 preguntas PULSO)
 4. **Review** manual de aplicaciones (filtrar por fit)
 5. **Discovery call** solo con aplicantes cualificados
 

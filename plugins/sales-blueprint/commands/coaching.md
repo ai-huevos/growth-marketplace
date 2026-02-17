@@ -95,7 +95,7 @@ Leer `skills/coaching-cadence/templates/one-on-one-prep.md` para el template com
 #### Si es Semana 1 (Pipeline + Business Plan):
 ```
 [0:00-0:05] "Como estas? Algo que deba saber?"
-[0:05-0:15] Pipeline review con SPICED scoring
+[0:05-0:15] Pipeline review con PULSO scoring
 [0:15-0:25] Plan de accion de la semana + donde necesita ayuda
 [0:25-0:30] Compromisos mutuos
 ```

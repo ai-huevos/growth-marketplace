@@ -22,15 +22,15 @@ Antes de empezar, necesitas entender el negocio:
 
 **Espera las respuestas antes de continuar.**
 
-### Fase 2: Diagnóstico SPICED (5 preguntas al usuario)
+### Fase 2: Diagnóstico PULSO (5 preguntas al usuario)
 
-Usa el framework SPICED para entender al cliente ideal:
+Usa el framework PULSO para entender al cliente ideal:
 
-4. **Situation**: "¿Qué tienen en común tus mejores clientes? (industria, tamaño, etapa, tecnología)"
-5. **Pain**: "¿Cuál es el dolor principal que resuelves? ¿Cuánto les cuesta no resolverlo?"
-6. **Impact**: "¿Qué resultados logran tus clientes contigo? ¿Hay un número concreto?"
-7. **Critical Event**: "¿Qué evento los empuja a comprar? (funding, crisis, crecimiento, regulación)"
-8. **Decision**: "¿Quién toma la decisión de compra? ¿Cuánto tarda el proceso típicamente?"
+4. **Panorama**: "¿Qué tienen en común tus mejores clientes? (industria, tamaño, etapa, tecnología)"
+5. **Urgencia**: "¿Cuál es el dolor principal que resuelves? ¿Cuánto les cuesta no resolverlo?"
+6. **Logro**: "¿Qué resultados logran tus clientes contigo? ¿Hay un número concreto?"
+7. **Situación Crítica**: "¿Qué evento los empuja a comprar? (funding, crisis, crecimiento, regulación)"
+8. **Organización**: "¿Quién toma la decisión de compra? ¿Cuánto tarda el proceso típicamente?"
 
 **Espera las respuestas. Sintetiza lo que escuchas antes de continuar.**
 
@@ -78,7 +78,7 @@ Generar un documento de ICP completo usando el template en `skills/icp-analysis/
 El documento debe incluir:
 1. Positioning statement del ICP (1 párrafo)
 2. Criterios firmográficos con pesos
-3. SPICED del cliente ideal
+3. PULSO del cliente ideal
 4. Anti-ICP (criterios de exclusión)
 5. Segmentos tier 1-3 con scoring
 6. Persona del decision maker

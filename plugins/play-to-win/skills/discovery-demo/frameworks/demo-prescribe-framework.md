@@ -1,6 +1,6 @@
 # Framework: Demo & Prescribe
 
-Coreografia completa para ejecutar demos que prescriben soluciones alineadas a dolores reconocidos. Cada punto del demo conecta directamente con un dolor validado en discovery, transformando la presentacion de "mira lo que hacemos" a "asi resolvemos lo que te duele". Basado en el Blueprint #24 de Winning by Design (How to Demo).
+Coreografia completa para ejecutar demos que prescriben soluciones alineadas a dolores reconocidos. Cada punto del demo conecta directamente con un dolor validado en discovery, transformando la presentacion de "mira lo que hacemos" a "asi resolvemos lo que te duele". Basado en la demo prescriptiva de Metodología GrowthOS.
 
 ## Principios fundamentales
 
@@ -20,7 +20,7 @@ El demo sigue una secuencia precisa de 12 momentos. Cada momento tiene un propos
 ┌─────────────────────────────────────────────────────────────────┐
 │                    COREOGRAFIA DEL DEMO                         │
 │                                                                 │
-│  PREP ──> SETUP ──> ACE/Agenda ──> Layout ──> SPICED Summary   │
+│  PREP ──> SETUP ──> ACE/Agenda ──> Layout ──> PULSO Summary    │
 │                                                        │        │
 │                                                        ▼        │
 │                                                   Demo Point 1  │
@@ -89,12 +89,12 @@ Antes de mostrar nada funcional, orientar al cliente sobre lo que va a ver en pa
 - Si es posible, usar datos que reflejen la industria del prospect
 - Zoom al area relevante — no esperar que el prospect busque donde mirar
 
-### Momento 5: SPICED Summary — Conexion con discovery
+### Momento 5: PULSO Summary — Conexion con discovery
 
 Este es el puente critico entre discovery y demo. Resumir los hallazgos del discovery para que el prospect confirme que los dolores siguen vigentes.
 
 **Script**:
-> "Antes de mostrar nada, quiero confirmar que estamos alineados. En nuestra conversacion anterior compartiste que [Situacion], y que eso les causaba [Pain 1] y [Pain 2]. El impacto que identificamos fue [Impact]. Y mencionaste que necesitaban resolverlo para [Critical Event]. Sigue siendo asi?"
+> "Antes de mostrar nada, quiero confirmar que estamos alineados. En nuestra conversacion anterior compartiste que [Panorama], y que eso les causaba [Urgencia 1] y [Urgencia 2]. El logro que identificamos fue [Logro]. Y mencionaste que necesitaban resolverlo para [Situación Crítica]. Sigue siendo asi?"
 
 **Por que es critico**:
 - Revalida los dolores — si cambiaron, puedes ajustar el demo en tiempo real
@@ -155,20 +155,20 @@ Organizar el demo en pestanas pre-cargadas:
 
 ---
 
-## Conexion SPICED
+## Conexion PULSO
 
-El SPICED Summary es el puente que conecta discovery con demo. Sin este puente, el demo es una presentacion generica.
+El PULSO Summary es el puente que conecta discovery con demo. Sin este puente, el demo es una presentacion generica.
 
 ### Formula de conexion
 
 ```
 "En nuestra conversacion anterior..."
 
-Situation: "...compartiste que [contexto de la empresa]"
-Pain:      "...y que eso les causaba [dolor 1] y [dolor 2]"
-Impact:    "...lo cual impactaba en [metrica/resultado]"
-C. Event:  "...y mencionaste que necesitaban resolverlo para [fecha/evento]"
-Decision:  "...con [personas] involucradas en la evaluacion"
+Panorama:          "...compartiste que [contexto de la empresa]"
+Urgencia:          "...y que eso les causaba [dolor 1] y [dolor 2]"
+Logro:             "...lo cual impactaba en [metrica/resultado]"
+Situación Crítica: "...y mencionaste que necesitaban resolverlo para [fecha/evento]"
+Organización:      "...con [personas] involucradas en la evaluacion"
 
 "...Sigue siendo asi?"
 ```
@@ -244,7 +244,7 @@ Las preguntas de impacto reemplazan al pitch. En vez de decir "esto es increible
 - "Cuantas horas a la semana le ahorraria esto a tu equipo?"
 - "Que le dirias a tu [jefe/board] sobre el impacto de esto?"
 
-### Critical Event durante el demo
+### Situación Crítica durante el demo
 
 Revalidar urgencia:
 > "Mencionaste que necesitaban una solucion para [fecha]. Con lo que has visto, crees que esto les permitiria llegar a esa fecha?"
@@ -254,9 +254,9 @@ Pregunta de consecuencias:
 
 ---
 
-## Decision Criteria from Impact
+## Criterios de Organización desde Logro
 
-Los criterios de decision no se imponen — emergen naturalmente de las preguntas de impacto durante el demo.
+Los criterios de decision no se imponen — emergen naturalmente de las preguntas de logro/impacto durante el demo.
 
 ### Como se construyen
 
@@ -351,5 +351,5 @@ Volver al End Goal original:
 | Demo de mas de 7 minutos por punto | Atencion cae, se pierde el impacto | Timer estricto de 5-7 minutos por demo point |
 | No hacer preguntas de impacto | No sabes si el prospect ve valor | Despues de cada demo point: "Como impactaria esto?" |
 | Mostrar 10 features en vez de 3 puntos | Overwhelm — el prospect no recuerda nada | Maximo 3 demo points, uno por dolor validado |
-| No conectar con discovery | El demo se siente generico | SPICED Summary obligatorio antes del primer demo point |
+| No conectar con discovery | El demo se siente generico | PULSO Summary obligatorio antes del primer demo point |
 | Saltarse el layout | El prospect se pierde en la interfaz | Orientar: "A la izquierda ven X, arriba Y, el area principal es Z" |

@@ -186,11 +186,11 @@ Growth Loops → Self-sustaining ecosystem
 
 ---
 
-## Conexión SPICED
+## Conexión PULSO
 
-- **Critical Event**: La activación de una comunidad crea urgencia en prospects — ven participación activa y quieren unirse
-- **Impact**: Community members generate case studies y social proof que alimentan el pipeline
-- **Situation**: La existencia de una comunidad activa es un diferenciador competitivo (positioning)
+- **Situación Crítica**: La activación de una comunidad crea urgencia en prospects — ven participación activa y quieren unirse
+- **Logro**: Community members generate case studies y social proof que alimentan el pipeline
+- **Panorama**: La existencia de una comunidad activa es un diferenciador competitivo (positioning)
 
 ---
 

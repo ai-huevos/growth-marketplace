@@ -1,9 +1,9 @@
-# Template: Documentacion de Handoff SPICED (T-51)
+# Template: Documentacion de Handoff PULSO (T-51)
 
-Template para documentar y ejecutar transiciones internas entre equipos usando el framework SPICED como lenguaje comun. Garantiza que el cliente nunca repita su historia y que cada equipo receptor tenga el contexto completo para continuar la relacion sin friccion.
+Template para documentar y ejecutar transiciones internas entre equipos usando el framework PULSO como lenguaje comun. Garantiza que el cliente nunca repita su historia y que cada equipo receptor tenga el contexto completo para continuar la relacion sin friccion.
 
-**Output Contract**: Documentacion de handoff completa con SPICED del cliente, notas de transicion, y plan de primera interaccion post-traspaso.
-**Benchmark**: 5 dimensiones SPICED documentadas con citas textuales, reunion de transicion completada, minimo 3 preguntas contextuales preparadas para primer contacto, seguimiento a 48h/1sem/1mes programado.
+**Output Contract**: Documentacion de handoff completa con PULSO del cliente, notas de transicion, y plan de primera interaccion post-traspaso.
+**Benchmark**: 5 dimensiones PULSO documentadas con citas textuales, reunion de transicion completada, minimo 3 preguntas contextuales preparadas para primer contacto, seguimiento a 48h/1sem/1mes programado.
 
 ---
 
@@ -24,9 +24,9 @@ Template para documentar y ejecutar transiciones internas entre equipos usando e
 
 ---
 
-## Seccion 2: SPICED del Cliente
+## Seccion 2: PULSO del Cliente
 
-### S — Situation (Contexto en 30 segundos)
+### P — Panorama (Contexto en 30 segundos)
 
 **Resumen ejecutivo** (completar en formato estandarizado):
 
@@ -49,7 +49,7 @@ ___
 
 ---
 
-### P — Pain (Lo que Realmente les Importa)
+### U — Urgencia (Lo que Realmente les Importa)
 
 **Dolores priorizados** (de mayor a menor importancia):
 
@@ -76,7 +76,7 @@ ___
 
 ---
 
-### I — Impact (Lo que Quieren Lograr)
+### L — Logro (Lo que Quieren Lograr)
 
 **Impact racional (empresa/funcional)**:
 
@@ -102,7 +102,7 @@ ___
 
 ---
 
-### CE — Critical Event (Su Timeline Real)
+### S — Situación Crítica (Su Timeline Real)
 
 | Campo | Valor |
 |-------|-------|
@@ -121,7 +121,7 @@ ___
 
 ---
 
-### D — Decision (Como Ganan Compromiso Interno)
+### O — Organización (Como Ganan Compromiso Interno)
 
 **Proceso de decision**:
 
@@ -185,14 +185,14 @@ ___
 ### Pre-reunion
 
 **Checklist equipo que entrega**:
-- [ ] SPICED actualizado (ultimos 30 dias)
+- [ ] PULSO actualizado (ultimos 30 dias)
 - [ ] Notas de interacciones clave completas
 - [ ] Red flags y temas sensibles documentados
 - [ ] Expectativas del cliente documentadas
 - [ ] Promesas hechas durante la relacion listadas
 
 **Checklist equipo que recibe**:
-- [ ] SPICED revisado antes de la reunion
+- [ ] PULSO revisado antes de la reunion
 - [ ] 3-5 preguntas con contexto preparadas
 - [ ] Gaps en documentacion identificados
 - [ ] Historial de CRM revisado
@@ -224,7 +224,7 @@ ___
 
 Las preguntas deben demostrar que el nuevo equipo CONOCE la historia del cliente. Formato obligatorio: "[Nombre] menciono que [contexto especifico]... ¿[pregunta de seguimiento]?"
 
-| # | Pregunta con contexto | SPICED que valida |
+| # | Pregunta con contexto | PULSO que valida |
 |---|----------------------|-------------------|
 | 1 | "___ menciono que ___... ¿___?" | [ ] S  [ ] P  [ ] I  [ ] CE  [ ] D |
 | 2 | "___ menciono que ___... ¿___?" | [ ] S  [ ] P  [ ] I  [ ] CE  [ ] D |
@@ -243,7 +243,7 @@ Las preguntas deben demostrar que el nuevo equipo CONOCE la historia del cliente
 | Minuto | Tema | Objetivo |
 |--------|------|----------|
 | 0-3 | Presentacion + contexto demostrado | Mostrar que conocemos su historia |
-| 3-10 | Validacion de pains y prioridades actuales | Confirmar que SPICED sigue vigente |
+| 3-10 | Validacion de pains y prioridades actuales | Confirmar que PULSO sigue vigente |
 | 10-20 | Plan para esta etapa (milestones, expectativas) | Alinear vision de exito |
 | 20-25 | Preguntas del cliente + next steps | Cerrar con claridad |
 
@@ -272,7 +272,7 @@ ___
 | **Skill** | customer-journey |
 | **Plugin** | play-to-win |
 | **Version** | 1.0.0 |
-| **Framework de referencia** | `frameworks/spiced-handoff-protocol.md` |
+| **Framework de referencia** | `frameworks/pulso-handoff-protocol.md` |
 | **Frecuencia de uso** | Por cada transicion interna de cliente |
 | **Tiempo estimado de completar** | 30-60 minutos (documentacion) + 15-30 min (reunion interna) |
 | **Roles involucrados** | Equipo que entrega + equipo que recibe + manager (si enterprise) |

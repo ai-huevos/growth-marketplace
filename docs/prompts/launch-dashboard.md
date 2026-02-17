@@ -63,7 +63,7 @@
 | 18 skills | Yes | Yes (ahora con doc-03 actualizado) | **Yes** |
 | 7 agents | Yes | Yes (doc-07 correcto) | **Yes** |
 | 25 templates | Yes | Yes (template-catalog) | **Yes** |
-| SPICED methodology | Yes | Yes (doc-02) | **Yes** |
+| PULSO methodology | Yes | Yes (doc-02) | **Yes** |
 | Scoring models | Yes | Yes (doc-06) | **Yes** |
 | content-strategy skill | Yes | **Yes** (doc-03 re-synced) | **Yes** |
 | E-Myth Agentic | In second-brain/ | In NLM | **Yes** |
@@ -88,9 +88,9 @@
 positioning   →  Value Prop Canvas + Messaging
 /quiz         →  ASK Method quiz funnel
 /escala       →  Value Ladder (Bait → Frontend → Backend)
-/discovery    →  SPICED prep + agenda
+/discovery    →  PULSO prep + agenda
 /propuesta    →  Propuesta con Business Case
-/pipeline     →  Pipeline health con semáforo SPICED
+/pipeline     →  Pipeline health con semáforo PULSO
 /coaching     →  REKS diagnosis + coaching plan
 /copy         →  Pipeline 4 agentes
 /headline     →  50+ fórmulas
@@ -124,7 +124,7 @@ content-strategy → Ski Slope + Topic Triangle
 | 25-35 | Value Ladder | `/escala` | ESCALA canvas: free → paid → consulting |
 | 35-45 | Estrategia de contenido | `content-strategy` trigger | Ski Slope plan + Topic Triangle |
 | 45-55 | Copy de lanzamiento | `/copy` | Landing page copy + email sequence |
-| 55-60 | Discovery simulada | `/discovery` | SPICED prep para prospect ficticio |
+| 55-60 | Discovery simulada | `/discovery` | PULSO prep para prospect ficticio |
 
 **Cada output se guarda en `docs/e2e-test/` y se registra en `docs/execution-log.md`**
 
@@ -143,7 +143,7 @@ content-strategy → Ski Slope + Topic Triangle
 
 - [ ] Cada comando genera output completo sin errores
 - [ ] Los outputs se conectan entre sí (ICP → positioning → copy → proposal)
-- [ ] SPICED score fluye consistentemente entre plugins
+- [ ] PULSO score fluye consistentemente entre plugins
 - [ ] Los templates producen documentos que un consultor usaría con un cliente real
 - [ ] El flujo completo se ejecuta en < 2 horas
 

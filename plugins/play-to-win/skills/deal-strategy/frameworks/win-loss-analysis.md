@@ -1,10 +1,10 @@
-# Framework: Win/Loss Analysis con SPICED
+# Framework: Win/Loss Analysis con PULSO
 
-Sistema de analisis de deals ganados y perdidos usando el framework SPICED para descubrir patrones repetibles de exito y fracaso. Basado en Blueprint 20 de Winning by Design.
+Sistema de analisis de deals ganados y perdidos usando el framework PULSO para descubrir patrones repetibles de exito y fracaso. Basado en el analisis win/loss de Metodología GrowthOS.
 
 ## Principio fundamental
 
-Despues de adoptar una metodologia y crear consistencia en las operaciones de ventas, puedes usar el lenguaje comun para diagnosticar el macro-performance del equipo. Preguntar **"POR QUE"** un deal se gano o se perdio te ayuda a forecast con mas precision y priorizar tiempo y deals para generar exito repetible.
+Despues de adoptar una metodologia y crear consistencia en las operaciones de ventas, puedes usar el lenguaje comun para diagnosticar el macro-performance del equipo. Preguntar **"POR QUE"** un deal se gano o se perdio te ayuda a hacer forecast con mas precision y priorizar tiempo y deals para generar exito repetible.
 
 > "El outcome de este proceso para la mayoria de empresas es descubrir que tienen una concentracion de deals ganados y perdidos con criterios similares."
 
@@ -14,15 +14,15 @@ Despues de adoptar una metodologia y crear consistencia en las operaciones de ve
 
 ### Pre-requisitos
 
-- Campos SPICED definidos en el CRM (o estar dispuesto a hacer un ejercicio manual post-mortem)
+- Campos PULSO definidos en el CRM (o estar dispuesto a hacer un ejercicio manual post-mortem)
 - Datos de al menos un trimestre completo (idealmente dos) para sample size adecuado
 - Ser tan especifico y objetivo como sea posible — minimizar suposiciones
 
-### Paso 1: Recopilar datos SPICED de deals cerrados
+### Paso 1: Recopilar datos PULSO de deals cerrados
 
 Para cada deal closed-won y closed-lost, documentar:
 
-#### S — Situation (Contexto)
+#### P — Panorama (Contexto)
 
 | Campo | Que capturar | Ejemplos de patrones |
 |-------|-------------|---------------------|
@@ -31,24 +31,24 @@ Para cada deal closed-won y closed-lost, documentar:
 | Tamano de empresa | Revenue, empleados, etapa | Serie A, 50-200 empleados |
 | Industria/vertical | Segmento especifico | SaaS B2B, Fintech, Healthcare |
 
-#### P — Pain (Dolor)
+#### U — Urgencia (Dolor)
 
 | Campo | Que capturar | Ejemplos de patrones |
 |-------|-------------|---------------------|
-| Tipo de pain | Categorizar el dolor | Pain previniendo crecimiento vs. pain operativo |
+| Tipo de urgencia | Categorizar el dolor | Urgencia previniendo crecimiento vs. urgencia operativa |
 | Severidad | Que tan critico es | Bloqueante vs. nice-to-fix |
-| Tecnologia/proceso | Pain especifico tech o proceso | Plataforma incumbente, disfuncion operativa, workaround manual |
+| Tecnologia/proceso | Urgencia especifica tech o proceso | Plataforma incumbente, disfuncion operativa, workaround manual |
 | Visibilidad | Quien sabe del dolor | Con visibilidad CxO vs. solo nivel operativo |
 
-#### I — Impact (Impacto)
+#### L — Logro (Impacto)
 
 | Campo | Que capturar | Ejemplos de patrones |
 |-------|-------------|---------------------|
-| Importancia personal/profesional | Impacto en la carrera del champion | Visibilidad de carrera, promocion potencial |
-| Tamano del impacto | Magnitud para el departamento o empresa | >20% mejora, $X ahorrado |
+| Importancia personal/profesional | Logro en la carrera del champion | Visibilidad de carrera, promocion potencial |
+| Tamano del logro | Magnitud para el departamento o empresa | >20% mejora, $X ahorrado |
 | Importancia estrategica | Alineacion con iniciativas estrategicas | Ventaja competitiva, atado a expansion |
 
-#### CE — Critical Event (Evento Critico)
+#### S — Situación Crítica (Evento Critico)
 
 | Campo | Que capturar | Ejemplos de patrones |
 |-------|-------------|---------------------|
@@ -56,7 +56,7 @@ Para cada deal closed-won y closed-lost, documentar:
 | Consecuencia | Que pasa si no se resuelve a tiempo | Perdida de mercado, regulacion, board pressure |
 | Trigger | Que creo la urgencia | Nuevo CxO, financiamiento, perdida de cliente |
 
-#### D — Decision (Decision)
+#### O — Organización (Decision)
 
 | Campo | Que capturar | Ejemplos de patrones |
 |-------|-------------|---------------------|
@@ -77,21 +77,21 @@ Buscar clusters de deals que comparten criterios similares. Documentar en format
 PATRON WIN #___: [Nombre descriptivo]
 
 Criterios que se repiten:
-- Situation: ___
-- Pain: ___
-- Impact: ___
-- Critical Event: ___
-- Decision: ___
+- Panorama: ___
+- Urgencia: ___
+- Logro: ___
+- Situación Crítica: ___
+- Organización: ___
 
 Frecuencia: ___/[total deals analizados]
 Win rate del patron: ___%
 
 Ejemplo de deal: [Deal name]
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - CE: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - SC: ___
+  - Organización: ___
   - Resultado: Won, $___
 
 Implicacion: [Que significa para el proceso de ventas]
@@ -103,21 +103,21 @@ Implicacion: [Que significa para el proceso de ventas]
 PATRON LOSS #___: [Nombre descriptivo]
 
 Criterios que se repiten:
-- Situation: ___
-- Pain: ___
-- Impact: ___
-- Critical Event: ___
-- Decision: ___
+- Panorama: ___
+- Urgencia: ___
+- Logro: ___
+- Situación Crítica: ___
+- Organización: ___
 
 Frecuencia: ___/[total deals analizados]
 Close rate del patron: ___%
 
 Ejemplo de deal: [Deal name]
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - CE: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - SC: ___
+  - Organización: ___
   - Resultado: Lost, motivo: ___
 
 Implicacion: [Que significa — donde no debemos invertir tiempo]
@@ -135,9 +135,9 @@ Mapear los patrones encontrados en una matriz visual:
 Alta               ┌───────────────┐               ┌───────────────┐
 concentracion      │ Patron W1:    │               │ Patron L1:    │
                    │ Champion nuevo│               │ <2 stakeholders│
-                   │ + incumbente  │               │ + sin CE claro │
+                   │ + incumbente  │               │ + sin SC clara │
                    │ problematico  │               │ + incumbente   │
-                   │ + CE <120d    │               │   no es target │
+                   │ + SC <120d    │               │   no es target │
                    │               │               │               │
                    │ Win rate: 50%+│               │ Close: 2%     │
                    └───────────────┘               └───────────────┘
@@ -171,7 +171,7 @@ Una vez completado el analisis, ejecutar estas 4 acciones:
 | Agregar campo "Tipo de champion" | Trackear si es nuevo vs. establecido | Alta |
 | Agregar campo "Incumbente actual" | Identificar incumbentes target | Alta |
 | Agregar campo "# Stakeholders activos" | Medir amplitud del engagement | Alta |
-| Crear alerta "Deal sin CE en 60 dias" | Flag deals estancados temprano | Media |
+| Crear alerta "Deal sin SC en 60 dias" | Flag deals estancados temprano | Media |
 | Agregar "Velocidad de avance por stage" | Detectar deals lentos | Media |
 
 **Objetivo**: Hacer este proceso mas facil de repetir regularmente para trending analysis.
@@ -184,9 +184,9 @@ Incorporar los patrones en el qualification process temprano:
 QUALIFICATION CHECKPOINT (post-discovery):
 
 □ Champion: Nuevo en el rol (<6 meses)?          → +2 puntos
-□ Pain: Tiene visibilidad CxO?                   → +2 puntos
+□ Urgencia: Tiene visibilidad CxO?               → +2 puntos
 □ Incumbente: Es uno de los 3 incumbentes target? → +2 puntos
-□ CE: Existe deadline en <120 dias?              → +3 puntos
+□ SC: Existe deadline en <120 dias?              → +3 puntos
 □ Stakeholders: Hay 3+ involucrados?             → +2 puntos
 □ Stage 2: Se alcanzo en <60 dias?               → +2 puntos
 

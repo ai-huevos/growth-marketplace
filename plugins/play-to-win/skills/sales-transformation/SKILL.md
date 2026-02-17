@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Sales Transformation
 
-Sistema completo de transformacion de ventas B2B en 90 dias. Sintetiza 31 blueprints de Winning by Design (45,199 palabras) en un framework integrado, paso a paso, que diagnostica procesos rotos y los reconstruye en un motor de revenue sistematico.
+Sistema completo de transformacion de ventas B2B en 90 dias. Sintetiza 31 frameworks de Metodología GrowthOS (45,199 palabras) en un framework integrado, paso a paso, que diagnostica procesos rotos y los reconstruye en un motor de revenue sistematico.
 
 ## Cuando usar este skill
 
@@ -35,9 +35,9 @@ El framework se despliega en 7 partes secuenciales (+ roadmap), cada una con su 
 | **0** | Product Marketing Fundamentals | 1-7 | Messaging architecture, stories, positioning | 22, 27 |
 | **1** | Ideal Customer Profile (ICP) | 8-14 | ICP scoring, segmentos, perfiles documentados | 16, 30 |
 | **2** | Target Account List + Stakeholders | 15-21 | TAL tiered, 3x3 relationship maps | 13, 14, 15 |
-| **3** | Customer Journey Map (SPICED) | 22-28 | Journey stages, handoff protocols, entry/exit | 10, 28 |
+| **3** | Customer Journey Map (PULSO) | 22-28 | Journey stages, handoff protocols, entry/exit | 10, 28 |
 | **4** | Goal Setting + Sales Playbook | 22-30 | REKS goals, playbook v1.0, scorecards | 7, 9 |
-| **5** | Discovery Call Framework | 31-42 | SPICED mastery, story bank, call templates | 25, 26, 30 |
+| **5** | Discovery Call Framework | 31-42 | PULSO mastery, story bank, call templates | 25, 26, 30 |
 | **6** | Demo + Prescription Framework | 43-60 | Pain-to-solution demos, impact validation | 24, 27 |
 | **7** | Advanced Sales Techniques | 61-90 | Storytelling, trading, criteria influence, CE | 8, 21, 22, 23 |
 
@@ -108,7 +108,7 @@ El skill incluye un cuestionario diagnostico exhaustivo que cubre 7 dominios. Ca
 3. Que EXPERIMENTA el cliente en cada etapa?
 4. Donde transiciona el cliente entre equipos? (SDR, AE, CSM)
 5. Que contexto se pierde durante los handoffs?
-6. En que etapas descubres S, P, I, CE, D?
+6. En que etapas descubres P, U, L, S, O?
 7. Que debe ser verdad para avanzar a la siguiente etapa?
 8. Donde se atoran los deals mas seguido? Por que?
 9. Cuando se van los prospects al silencio? Que lo trigger?
@@ -175,9 +175,9 @@ El skill incluye un cuestionario diagnostico exhaustivo que cubre 7 dominios. Ca
 
 ## Taxonomia de Problemas
 
-El skill clasifica problemas de ventas en 7 dominios y recomienda blueprints especificos:
+El skill clasifica problemas de ventas en 7 dominios y recomienda frameworks especificos:
 
-| Dominio | Sintomas | Blueprints Primarios | Accion |
+| Dominio | Sintomas | Frameworks Primarios | Accion |
 |---------|----------|---------------------|--------|
 | **Messaging** | Prospects no entienden que haces, pitch inconsistente | 22, 27 | Fase 0: Product Marketing |
 | **Targeting** | Pipeline lleno de bad-fits, churn alto, deals pequenos | 16, 30 | Fase 1: ICP |
@@ -187,7 +187,7 @@ El skill clasifica problemas de ventas en 7 dominios y recomienda blueprints esp
 | **Discovery** | Win rate bajo, deals "no decision", calificacion debil | 25, 26, 30 | Fase 5: Discovery |
 | **Closing** | Demos genericos, descuentos altos, deals atorados | 8, 21, 22, 23, 24 | Fases 6-7: Demo + Advanced |
 
-Para la taxonomia completa con sub-problemas y combinaciones de blueprints, ver `patterns/blueprint-combinations.md`.
+Para la taxonomia completa con sub-problemas y combinaciones de frameworks, ver `patterns/blueprint-combinations.md`.
 
 ## Information Cascades: Como Fluye la Data
 
@@ -211,16 +211,16 @@ TAL produce:
 
 Customer Journey produce:
   → Stage Definitions → alimenta CRM Pipeline
-  → Handoff Protocols → alimenta SPICED Transfer
+  → Handoff Protocols → alimenta PULSO Transfer
   → Entry/Exit Criteria → alimenta Deal Progression
 
 Discovery produce:
-  → SPICED Complete → alimenta Demo Customization
-  → Impact Quantified → alimenta Proposal/ROI
-  → Critical Event → alimenta Deal Urgency
+  → PULSO Complete → alimenta Demo Customization
+  → Logro Quantified → alimenta Proposal/ROI
+  → Situación Crítica → alimenta Deal Urgency
 
 Demo produce:
-  → Pain-Solution-Impact → alimenta Decision Criteria
+  → Urgencia-Solution-Logro → alimenta Criterios de Organización
   → Criteria Influence → alimenta Competitive Strategy
   → Commitment → alimenta Trading/Close
 ```
@@ -255,10 +255,10 @@ Basado en el diagnostico, determinar por donde empezar:
 
 ### Paso 3: Sintesis de Playbook
 
-Seleccionar 2-4 blueprints relevantes y sintetizar un playbook personalizado. El playbook debe incluir:
+Seleccionar 2-4 frameworks relevantes y sintetizar un playbook personalizado. El playbook debe incluir:
 
 1. **Proceso stage-by-stage** con entry/exit criteria
-2. **Scripts de calls** con preguntas SPICED
+2. **Scripts de calls** con preguntas PULSO
 3. **Templates** de cada fase
 4. **Metricas** de exito por etapa
 5. **Plan de coaching** con REKS
@@ -270,7 +270,7 @@ Usar template: `templates/playbook-synthesis.md`
 Para cada mejora, formular una hipotesis IF/THEN/BECAUSE con metricas claras:
 
 ```
-IF implementamos [blueprint/accion especifica]
+IF implementamos [framework/accion especifica]
 THEN [metrica] mejorara de [actual] a [target]
 BECAUSE [razonamiento causal basado en contexto]
 MEASURED BY [KPIs y metodo de tracking]
@@ -287,7 +287,7 @@ Ejecutar el roadmap de 90 dias con 3 fases:
 | Fase | Dias | Foco | Decision Gate |
 |------|------|------|---------------|
 | **Foundation** | 1-30 | Partes 0-4 (messaging, ICP, TAL, journey, playbook) | ICP validado, TAL operacional, Playbook v1.0 |
-| **Process** | 31-60 | Partes 5-6 (discovery, demo) | 90% SPICED completion, 80% demo customization |
+| **Process** | 31-60 | Partes 5-6 (discovery, demo) | 90% PULSO completion, 80% demo customization |
 | **Optimization** | 61-90 | Parte 7 (tecnicas avanzadas) + coaching | Tecnicas en uso, coaching operacional, metricas mejorando |
 
 Para el roadmap detallado con milestones semanales, ver `frameworks/transformation-phases.md`.
@@ -312,7 +312,7 @@ Implementar coaching REKS continuo:
 - Playbook adoption: 90% siguen proceso documentado
 
 ### Fase Process (Dia 60)
-- SPICED completion: 90% de discoveries capturan los 5 elementos
+- PULSO completion: 90% de discoveries capturan los 5 elementos
 - Demo customization: 80% usan insights de discovery
 - Impact quantified: 70% de opps tienen valor $ en CRM
 - Pipeline velocity: 15% mejora
@@ -338,5 +338,5 @@ Implementar coaching REKS continuo:
 
 - **Frameworks**: `frameworks/transformation-phases.md`, `frameworks/information-cascades.md`, `frameworks/problem-taxonomy.md`
 - **Templates**: `templates/sales-health-audit.md`, `templates/playbook-synthesis.md`, `templates/hypothesis-card.md`, `templates/messaging-architecture.md`
-- **Patterns**: `patterns/blueprint-combinations.md`
+- **Patterns**: `patterns/framework-combinations.md`
 - **Plugin complementario**: `sales-blueprint` para ejecucion tactica diaria (discovery, pipeline, proposals, coaching)

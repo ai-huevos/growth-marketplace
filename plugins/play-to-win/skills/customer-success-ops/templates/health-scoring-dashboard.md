@@ -61,7 +61,7 @@ ________________________________________________________________________________
 | Si el score es... | Entonces... |
 |-------------------|-------------|
 | **Verde** | Documentar impacto para caso de estudio. Explorar expansion. Compartir impacto con stakeholders ejecutivos. |
-| **Amarillo** | Agendar Impact Review. Re-descubrir metas de impacto con SPICED. Compartir historias de clientes exitosos. Actualizar JIP. |
+| **Amarillo** | Agendar Impact Review. Re-descubrir metas de impacto con PULSO. Compartir historias de clientes exitosos. Actualizar JIP. |
 | **Rojo** | URGENTE: Agendar call de emergencia con champion. Redefinir impacto. Escalar internamente. Considerar Trigger Play de remediacion. |
 
 ---
@@ -244,5 +244,5 @@ Antes de considerar este dashboard completo, verificar:
 
 ---
 
-*Template basado en: Blueprint #06 — CS Operating Model (A4), Winning by Design*
+*Template basado en: CS Operating Model (A4), Metodología GrowthOS*
 *Ver framework completo en: `../frameworks/cs-operating-model.md`*

@@ -2,7 +2,7 @@
 
 ## Resumen
 
-El skill quiz-funnel es el cuarto skill del plugin growth-foundations. Basado en el ASK Method de Ryan Levesque, adaptado a B2B e integrado con SPICED, permite diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables y validarlos por menos de $500.
+El skill quiz-funnel es el cuarto skill del plugin growth-foundations. Basado en el ASK Method de Ryan Levesque, adaptado a B2B e integrado con PULSO, permite diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables y validarlos por menos de $500.
 
 ## Posición en el Marketplace
 
@@ -76,9 +76,9 @@ Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decisio
 
 Total: $350-500 en 17-25 días.
 
-## Integración SPICED
+## Integración PULSO
 
-| SPICED | Conexión con Quiz Funnel |
+| PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
 | **Situation** | Bucket define la situación del prospect dentro del ICP |
 | **Pain** | SMIQ descubre dolor core; buckets segmentan variaciones |
@@ -118,7 +118,7 @@ Total: $350-500 en 17-25 días.
 plugins/growth-foundations/skills/quiz-funnel/
 ├── SKILL.md                                    — Definición del skill
 ├── frameworks/
-│   ├── ask-method-fundamentals.md              — Core ASK Method + mapeo SPICED
+│   ├── ask-method-fundamentals.md              — Core ASK Method + mapeo PULSO
 │   ├── bucket-identification.md                — Cómo descubrir 3-5 buckets
 │   ├── question-design-framework.md            — 4 tipos de preguntas, reglas, errores
 │   └── lean-stress-test.md                     — Plan de validación <$500

@@ -1,6 +1,6 @@
-# Framework: Establecer Impacto
+# Framework: Establecer Logro
 
-Sistema para identificar, articular, y comunicar el impacto real de una solucion B2B mas alla de features y beneficios. Basado en Blueprint 27 de Winning by Design y la metodologia de impacto a traves del ciclo de vida del cliente. Transforma la conversacion de "que hace tu producto" a "que logra tu cliente".
+Sistema para identificar, articular, y comunicar el logro real de una solucion B2B mas alla de features y beneficios. Basado en el concepto de Establecimiento de Logro de la Metodología GrowthOS y la metodologia de impacto a traves del ciclo de vida del cliente. Transforma la conversacion de "que hace tu producto" a "que logra tu cliente".
 
 ## Principios fundamentales
 

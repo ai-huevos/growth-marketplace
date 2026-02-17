@@ -103,4 +103,4 @@ Revisar el modelo cada 30 días con estos datos. Si la correlación score ↔ co
 
 ---
 
-*Conecta con: ICP scoring → /icp (defines the match criteria), Pipeline health → /pipeline (tracks score through funnel), SPICED → /discovery (deeper qualification for warm/hot leads). Score-as-Gate: score < 11 = no handoff to sales.*
+*Conecta con: ICP scoring → /icp (defines the match criteria), Pipeline health → /pipeline (tracks score through funnel), PULSO → /discovery (deeper qualification for warm/hot leads). Score-as-Gate: score < 11 = no handoff to sales.*

@@ -15,7 +15,7 @@ Template mas conciso para deals mid-market. El decision maker esta mas cerca del
 
 ## El Problema
 
-[2-3 oraciones describiendo el dolor del prospect usando datos de las conversaciones de discovery. Basado en Pain del SPICED.]
+[2-3 oraciones describiendo el dolor del prospect usando datos de las conversaciones de discovery. Basado en Urgencia del PULSO.]
 
 **Lo que les esta costando**: [Impacto cuantificado — tiempo, dinero, oportunidades perdidas]
 
@@ -81,7 +81,7 @@ Template mas conciso para deals mid-market. El decision maker esta mas cerca del
 
 | Lo que buscan | Como lo cumplimos |
 |--------------|-------------------|
-| [Criterio 1 del SPICED Decision] | [Evidencia concreta] |
+| [Criterio 1 del PULSO Organización] | [Evidencia concreta] |
 | [Criterio 2] | [Evidencia concreta] |
 | [Criterio 3] | [Evidencia concreta] |
 

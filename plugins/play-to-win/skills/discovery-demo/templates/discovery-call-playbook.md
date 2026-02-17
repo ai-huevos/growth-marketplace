@@ -1,10 +1,10 @@
 # Template: Discovery Call Playbook (T-53)
 
-Template para preparar y ejecutar discovery calls usando ACE opening y SPICED diagnostic progression. Produce un playbook completo listo para ejecutar, con scripts personalizados, preguntas con contexto, y plan de follow-up.
+Template para preparar y ejecutar discovery calls usando ACE opening y PULSO diagnostic progression. Produce un playbook completo listo para ejecutar, con scripts personalizados, preguntas con contexto, y plan de follow-up.
 
-**Output Contract**: Playbook completo de discovery call con scripts ACE personalizados, checklist de 54 puntos, agenda alineada a dolores investigados, preguntas SPICED con contexto, historias de terceros preparadas, y setup de next meeting.
+**Output Contract**: Playbook completo de discovery call con scripts ACE personalizados, checklist de 54 puntos, agenda alineada a dolores investigados, preguntas PULSO con contexto, historias de terceros preparadas, y setup de next meeting.
 
-**Benchmark**: ACE opening scripted y personalizado, 5+ preguntas SPICED preparadas con contexto de research, agenda enviada pre-call, checklist completado por fase, next meeting secured con fecha y stakeholders adicionales.
+**Benchmark**: ACE opening scripted y personalizado, 5+ preguntas PULSO preparadas con contexto de research, agenda enviada pre-call, checklist completado por fase, next meeting secured con fecha y stakeholders adicionales.
 
 ---
 
@@ -36,7 +36,7 @@ Template para preparar y ejecutar discovery calls usando ACE opening y SPICED di
 
 ### Notas de conversaciones previas
 
-| Fecha | Canal | Temas cubiertos | Datos SPICED obtenidos |
+| Fecha | Canal | Temas cubiertos | Datos PULSO obtenidos |
 |-------|-------|-----------------|----------------------|
 | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
@@ -127,49 +127,49 @@ Nos vemos el [fecha] a las [hora].
 
 ---
 
-## Seccion 4: Preguntas SPICED con Contexto
+## Seccion 4: Preguntas PULSO con Contexto
 
-### Situation (2-4 preguntas cerradas con contexto)
+### Panorama (2-4 preguntas cerradas con contexto)
 
 | # | Pregunta | Contexto que la respalda | Respuesta esperada |
 |---|----------|-------------------------|-------------------|
-| S1 | "___ ... es correcto?" | Fuente: ___ | ___ |
-| S2 | "___ ... sigue siendo asi?" | Fuente: ___ | ___ |
-| S3 | "___ ... es tu equipo principal?" | Fuente: ___ | ___ |
-| S4 | "___ ... confirmas?" | Fuente: ___ | ___ |
+| P1 | "___ ... es correcto?" | Fuente: ___ | ___ |
+| P2 | "___ ... sigue siendo asi?" | Fuente: ___ | ___ |
+| P3 | "___ ... es tu equipo principal?" | Fuente: ___ | ___ |
+| P4 | "___ ... confirmas?" | Fuente: ___ | ___ |
 
-**Guia**: Cada pregunta de situacion debe demostrar que investigaste. Usar datos de LinkedIn, website, reportes publicos, o conversaciones previas.
+**Guia**: Cada pregunta de panorama debe demostrar que investigaste. Usar datos de LinkedIn, website, reportes publicos, o conversaciones previas.
 
-### Pain (1-2 preguntas reflexivas con contexto)
+### Urgencia (1-2 preguntas reflexivas con contexto)
 
 | # | Pregunta | Contexto que la respalda | Dolor que explora |
 |---|----------|-------------------------|-------------------|
-| P1 | "Con [contexto], como manejan ___?" | ___ | ___ |
-| P2 | "Muchos equipos similares nos cuentan que ___. Les pasa algo parecido?" | ___ | ___ |
+| U1 | "Con [contexto], como manejan ___?" | ___ | ___ |
+| U2 | "Muchos equipos similares nos cuentan que ___. Les pasa algo parecido?" | ___ | ___ |
 
-**Guia**: Nunca usar "que te quita el sueno?" ni "cuales son tus problemas?". Las preguntas de dolor son reflexivas — invitan a pensar, no a confesar.
+**Guia**: Nunca usar "que te quita el sueno?" ni "cuales son tus problemas?". Las preguntas de urgencia son reflexivas — invitan a pensar, no a confesar.
 
-### Impact (cuantificacion)
+### Logro (cuantificacion)
 
 | # | Pregunta | Metrica que busca | Dimension |
 |---|----------|-------------------|-----------|
-| I1 | "Si resolvieras ___, cual seria el impacto en ___?" | ___ | Revenue / Costo / CX / Eficiencia |
-| I2 | "Cuanto estiman que pierden/gastan por ___?" | ___ | Revenue / Costo / CX / Eficiencia |
+| L1 | "Si resolvieras ___, cual seria el logro en ___?" | ___ | Revenue / Costo / CX / Eficiencia |
+| L2 | "Cuanto estiman que pierden/gastan por ___?" | ___ | Revenue / Costo / CX / Eficiencia |
 
-### Critical Event
+### Situación Crítica
 
 | # | Pregunta | Timeline que explora |
 |---|----------|---------------------|
-| CE1 | "Hay alguna fecha o evento que haga esto urgente?" | ___ |
-| CE2 | "Que pasa si no se resuelve para [fecha]?" | ___ |
+| SC1 | "Hay alguna fecha o evento que haga esto urgente?" | ___ |
+| SC2 | "Que pasa si no se resuelve para [fecha]?" | ___ |
 
-### Decision
+### Organización
 
 | # | Pregunta | Informacion que busca |
 |---|----------|----------------------|
-| D1 | "Quien mas necesita estar involucrado?" | Stakeholders |
-| D2 | "Como han tomado decisiones similares antes?" | Proceso |
-| D3 | "Que criterios son los mas importantes para ustedes?" | Criterios |
+| O1 | "Quien mas necesita estar involucrado?" | Stakeholders |
+| O2 | "Como han tomado decisiones similares antes?" | Proceso |
+| O3 | "Que criterios son los mas importantes para ustedes?" | Criterios |
 
 ---
 
@@ -236,15 +236,15 @@ Nos vemos el [fecha] a las [hora].
 - [ ] Agenda presentada
 - [ ] Pregunta poderosa realizada a todos los participantes
 
-### Diagnosticar con SPICED
+### Diagnosticar con PULSO
 
-- [ ] **S** — 2+ preguntas de Situation cerradas con contexto
-- [ ] **P** — 1+ pregunta de Pain reflexiva con contexto
-- [ ] **Summarize** — "Entonces tienes [S] que causa [P]... capte bien?"
+- [ ] **P** — 2+ preguntas de Panorama cerradas con contexto
+- [ ] **U** — 1+ pregunta de Urgencia reflexiva con contexto
+- [ ] **Summarize** — "Entonces tienes [P] que causa [U]... capte bien?"
 - [ ] **Story** — Historia de terceros compartida post-resumen
-- [ ] **I** — Impact cuantificado en 2+ dimensiones
-- [ ] **CE** — Critical Event identificado con timeline
-- [ ] **D** — Criterios, proceso y stakeholders mapeados
+- [ ] **L** — Logro cuantificado en 2+ dimensiones
+- [ ] **S** — Situación Crítica identificada con timeline
+- [ ] **O** — Criterios, proceso y stakeholders mapeados
 
 ### Cerrar
 
@@ -258,7 +258,7 @@ Nos vemos el [fecha] a las [hora].
 ### Post-call
 
 - [ ] Email follow-up enviado (dentro de 2 horas)
-- [ ] SPICED findings documentados en CRM
+- [ ] PULSO findings documentados en CRM
 - [ ] Relationship map actualizado
 - [ ] Agenda siguiente reunion preparada
 - [ ] Recursos mencionados compartidos
@@ -273,7 +273,7 @@ Nos vemos el [fecha] a las [hora].
 
 ### Preparacion de informacion
 
-- [ ] SPICED summary redactado para transferir a demo
+- [ ] PULSO summary redactado para transferir a demo
 - [ ] Historias de terceros relevantes seleccionadas
 - [ ] Demo points preliminares alineados a dolores
 - [ ] Decision criteria mapeados
@@ -281,7 +281,7 @@ Nos vemos el [fecha] a las [hora].
 
 ### Gestion de objeciones
 
-- [ ] Objeciones de timing manejadas con Critical Event
+- [ ] Objeciones de timing manejadas con Situación Crítica
 - [ ] Objeciones de presupuesto reenmarcadas como costo de no actuar
 - [ ] Objeciones de "ya tenemos solucion" exploradas en profundidad
 - [ ] Objeciones de "necesito consultarlo" convertidas en invitacion
@@ -289,7 +289,7 @@ Nos vemos el [fecha] a las [hora].
 
 ### Documentacion final
 
-- [ ] Notas en formato SPICED
+- [ ] Notas en formato PULSO
 - [ ] Action items con responsable y fecha
 - [ ] Follow-up email enviado con resumen
 - [ ] CRM actualizado
@@ -343,11 +343,11 @@ Gracias por la conversacion de hoy. Aqui un resumen de lo que cubrimos:
 - [Situacion 2]
 
 **Desafios identificados:**
-- [Pain 1]
-- [Pain 2]
+- [Urgencia 1]
+- [Urgencia 2]
 
-**Impacto potencial:**
-- [Impact cuantificado]
+**Logro potencial:**
+- [Logro cuantificado]
 
 **Siguientes pasos:**
 - [Accion 1] — Responsable: ___ — Fecha: ___
@@ -360,15 +360,15 @@ Si me falto algo, hazmelo saber.
 [firma]
 ```
 
-### Documentacion SPICED para CRM
+### Documentacion PULSO para CRM
 
-| Campo SPICED | Contenido del discovery |
+| Campo PULSO | Contenido del discovery |
 |-------------|------------------------|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** | ___ |
-| **Critical Event** | ___ |
-| **Decision** | Criterios: ___ / Proceso: ___ / Stakeholders: ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** | ___ |
+| **Situación Crítica** | ___ |
+| **Organización** | Criterios: ___ / Proceso: ___ / Stakeholders: ___ |
 
 ---
 
@@ -381,7 +381,7 @@ Si me falto algo, hazmelo saber.
 | **Plugin** | play-to-win |
 | **Version** | 1.0.0 |
 | **Frameworks usados** | `frameworks/ace-discovery-call.md`, `frameworks/diagnosis-deep-dive.md` |
-| **Basado en** | Blueprint #25 (Perfect Discovery Call), Blueprint #26 (How to Diagnose) |
+| **Basado en** | Discovery call perfecta (Metodología GrowthOS), Diagnóstico profundo (Metodología GrowthOS) |
 | **Output** | Discovery Call Playbook completo |
 | **Tiempo estimado de preparacion** | 30-45 minutos |
 | **Nivel de complejidad** | Medio |

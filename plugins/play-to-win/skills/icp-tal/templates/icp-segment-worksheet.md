@@ -1,18 +1,18 @@
 # Template: ICP Segment Worksheet
 
-Template para documentar el Ideal Customer Profile usando diagnostico SPICED, analisis firmografico, y segmentacion basada en datos. Guia paso a paso desde la recopilacion de datos hasta la documentacion final de segmentos priorizados.
+Template para documentar el Ideal Customer Profile usando diagnostico PULSO, analisis firmografico, y segmentacion basada en datos. Guia paso a paso desde la recopilacion de datos hasta la documentacion final de segmentos priorizados.
 
-**Output Contract**: ICP documentado con segmentos priorizados, matriz firmografica completa, y perfiles de 3-5 segmentos top con SPICED tiers asignados.
+**Output Contract**: ICP documentado con segmentos priorizados, matriz firmografica completa, y perfiles de 3-5 segmentos top con PULSO tiers asignados.
 
-**Benchmark**: Diagnostico SPICED completado para el cliente ideal, analisis cuantitativo con datos de al menos un trimestre, analisis cualitativo con 5+ entrevistas GTM, 3+ segmentos documentados con conversion rates y metricas de revenue.
+**Benchmark**: Diagnostico PULSO completado para el cliente ideal, analisis cuantitativo con datos de al menos un trimestre, analisis cualitativo con 5+ entrevistas GTM, 3+ segmentos documentados con conversion rates y metricas de revenue.
 
 ---
 
-## Seccion 1: Diagnostico SPICED del Cliente Ideal
+## Seccion 1: Diagnostico PULSO del Cliente Ideal
 
-Completar el diagnostico SPICED pensando en el cliente que *mas rapido cierra, mas facil renueva, y mas valor genera*.
+Completar el diagnostico PULSO pensando en el cliente que *mas rapido cierra, mas facil renueva, y mas valor genera*.
 
-### 1.1 Situation — Contexto del Cliente Ideal
+### 1.1 Panorama — Contexto del Cliente Ideal
 
 | Dimension | Descripcion del Cliente Ideal |
 |---|---|
@@ -25,9 +25,9 @@ Completar el diagnostico SPICED pensando en el cliente que *mas rapido cierra, m
 | Estructura de equipo comprador | ___ |
 | Geografia | ___ |
 
-### 1.2 Pain — Dolor que Resolvemos Mejor que Nadie
+### 1.2 Urgencia — Dolor que Resolvemos Mejor que Nadie
 
-| # | Pain Statement | Frecuencia (1-5) | Urgencia (1-5) |
+| # | Declaración de Urgencia | Frecuencia (1-5) | Nivel (1-5) |
 |---|---|---|---|
 | 1 | ___ | ___ | ___ |
 | 2 | ___ | ___ | ___ |
@@ -35,11 +35,11 @@ Completar el diagnostico SPICED pensando en el cliente que *mas rapido cierra, m
 | 4 | ___ | ___ | ___ |
 | 5 | ___ | ___ | ___ |
 
-**Pain dominante** (el que mas se repite en los mejores clientes): ___
+**Urgencia dominante** (la que mas se repite en los mejores clientes): ___
 
-### 1.3 Impact — Impacto Cuantificable
+### 1.3 Logro — Impacto Cuantificable
 
-| Tipo de Impact | Cuantificacion | Fuente del Dato |
+| Tipo de Logro | Cuantificacion | Fuente del Dato |
 |---|---|---|
 | Revenue perdido sin solucion | $___ / año | ___ |
 | Tiempo desperdiciado | ___ horas / mes | ___ |
@@ -47,21 +47,21 @@ Completar el diagnostico SPICED pensando en el cliente que *mas rapido cierra, m
 | Costo de alternativa actual | $___ / año | ___ |
 | Otro: ___ | ___ | ___ |
 
-**Impact total estimado**: $___ por año por cliente ideal.
+**Logro total estimado**: $___ por año por cliente ideal.
 
-### 1.4 Critical Event — Detonadores de Compra
+### 1.4 Situación Crítica — Detonadores de Compra
 
-| # | Critical Event | Timeline Tipico | Frecuencia |
+| # | Situación Crítica | Timeline Tipico | Frecuencia |
 |---|---|---|---|
 | 1 | ___ | ___ meses | ___ (raro / comun / ciclico) |
 | 2 | ___ | ___ meses | ___ |
 | 3 | ___ | ___ meses | ___ |
 | 4 | ___ | ___ meses | ___ |
 
-**CE mas frecuente**: ___
-**CE con mayor urgencia**: ___
+**SC mas frecuente**: ___
+**SC con mayor urgencia**: ___
 
-### 1.5 Decision — Proceso de Decision
+### 1.5 Organización — Proceso de Decision
 
 | Elemento | Descripcion |
 |---|---|
@@ -156,19 +156,19 @@ Respuesta consolidada: ___
 | ___ | ___/5 | ___ | ___ |
 | ___ | ___/5 | ___ | ___ |
 
-### 3.2 Deep Dive SPICED: Clientes Top
+### 3.2 Deep Dive PULSO: Clientes Top
 
-Completar una tarjeta SPICED por cada cliente top seleccionado:
+Completar una tarjeta PULSO por cada cliente top seleccionado:
 
 #### Cliente 1: _______________
 
 | Campo | Detalle |
 |---|---|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** (cuantificado) | $___ |
-| **Critical Event** | ___ |
-| **Decision** (proceso) | ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** (cuantificado) | $___ |
+| **Situación Crítica** | ___ |
+| **Organización** (proceso) | ___ |
 | **ACV** | $___ |
 | **Time to Close** | ___ dias |
 | **Expansion** | ___% |
@@ -179,11 +179,11 @@ Completar una tarjeta SPICED por cada cliente top seleccionado:
 
 | Campo | Detalle |
 |---|---|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** (cuantificado) | $___ |
-| **Critical Event** | ___ |
-| **Decision** (proceso) | ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** (cuantificado) | $___ |
+| **Situación Crítica** | ___ |
+| **Organización** (proceso) | ___ |
 | **ACV** | $___ |
 | **Time to Close** | ___ dias |
 | **Expansion** | ___% |
@@ -194,11 +194,11 @@ Completar una tarjeta SPICED por cada cliente top seleccionado:
 
 | Campo | Detalle |
 |---|---|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** (cuantificado) | $___ |
-| **Critical Event** | ___ |
-| **Decision** (proceso) | ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** (cuantificado) | $___ |
+| **Situación Crítica** | ___ |
+| **Organización** (proceso) | ___ |
 | **ACV** | $___ |
 | **Time to Close** | ___ dias |
 | **Expansion** | ___% |
@@ -251,15 +251,15 @@ ___
 | Tecnologia | ___ | ___ | ___ |
 | Crecimiento YoY | ___ | ___ | ___ |
 
-#### SPICED del Segmento
+#### PULSO del Segmento
 
 | Componente | Detalle Especifico del Segmento |
 |---|---|
-| **Situation** | ___ |
-| **Pain** | ___ |
-| **Impact** | $___ |
-| **Critical Event** | ___ |
-| **Decision** | ___ |
+| **Panorama** | ___ |
+| **Urgencia** | ___ |
+| **Logro** | $___ |
+| **Situación Crítica** | ___ |
+| **Organización** | ___ |
 
 #### Metricas Historicas
 
@@ -283,11 +283,11 @@ ___
 
 ---
 
-## Seccion 6: SPICED Tiers — Asignacion Final
+## Seccion 6: PULSO Tiers — Asignacion Final
 
-Asignar cada segmento a un SPICED Tier:
+Asignar cada segmento a un PULSO Tier:
 
-| Segmento | S Match | P Urgencia | I Cuantificado | CE Activo | Tier Asignado | Justificacion |
+| Segmento | P Match | U Urgencia | L Cuantificado | SC Activa | Tier Asignado | Justificacion |
 |---|---|---|---|---|---|---|
 | ___ | Alto/Medio/Bajo | Alto/Medio/Bajo | Si/No | Si/No | T1/T2/T3 | ___ |
 | ___ | Alto/Medio/Bajo | Alto/Medio/Bajo | Si/No | Si/No | T1/T2/T3 | ___ |
@@ -297,9 +297,9 @@ Asignar cada segmento a un SPICED Tier:
 
 ### Reglas de Asignacion
 
-- **T1**: S fuerte + P urgente + I cuantificado + CE activo → Todas las condiciones
-- **T2**: S bueno + P claro + I medible → Sin CE requerido
-- **T3**: S parcial + P leve → Minimo viable
+- **T1**: Panorama fuerte + Urgencia critica + Logro cuantificado + SC activa → Todas las condiciones
+- **T2**: Panorama bueno + Urgencia clara + Logro medible → Sin SC requerida
+- **T3**: Panorama parcial + Urgencia leve → Minimo viable
 
 ### Anti-ICP: Clientes a Evitar
 
@@ -329,9 +329,9 @@ Asignar cada segmento a un SPICED Tier:
 |---|---|
 | **Template ID** | T-49 |
 | **Skill** | `play-to-win/icp-tal` |
-| **Framework** | `frameworks/icp-spiced-methodology.md` |
+| **Framework** | `frameworks/icp-pulso-methodology.md` |
 | **Version** | 1.0.0 |
 | **Tiempo estimado** | 2-4 semanas (recopilacion de datos + analisis + documentacion) |
 | **Prerequisitos** | Acceso a CRM con datos de al menos 1 trimestre, disponibilidad de equipo GTM para entrevistas |
-| **Output** | ICP Summary + 3-5 Account Segment Profiles + SPICED Tiers + Anti-ICP + Plan de Accion |
+| **Output** | ICP Summary + 3-5 Account Segment Profiles + PULSO Tiers + Anti-ICP + Plan de Accion |
 | **Siguiente paso** | `templates/tal-tiering-calculator.md` para construir el TAL basado en este ICP |

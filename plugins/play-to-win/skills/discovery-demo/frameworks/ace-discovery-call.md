@@ -1,6 +1,6 @@
 # Framework: ACE Discovery Call
 
-Framework completo para ejecutar discovery calls profesionales que generan confianza desde el primer segundo, extraen dolores reales con la progresion SPICED, y aseguran la siguiente reunion mediante la tecnica de wagons. Basado en el Blueprint #25 de Winning by Design (The Perfect Discovery Call).
+Framework completo para ejecutar discovery calls profesionales que generan confianza desde el primer segundo, extraen dolores reales con la progresion PULSO, y aseguran la siguiente reunion mediante la tecnica de wagons. Basado en la discovery call perfecta de Metodología GrowthOS.
 
 ## Principios fundamentales
 
@@ -78,11 +78,11 @@ Despues de ACE, transicionar a la agenda y la pregunta poderosa:
 
 ---
 
-## Progresion SPICED en Discovery
+## Progresion PULSO en Discovery
 
-La progresion SPICED no es lineal estricta — es una guia de profundidad. Empezar en Situation, construir hacia Pain, validar con Summarize, contextualizar con Story, cuantificar Impact, establecer urgencia con Critical Event, y cerrar con Decision.
+La progresion PULSO no es lineal estricta — es una guia de profundidad. Empezar en Panorama, construir hacia Urgencia, validar con Summarize, contextualizar con Story, cuantificar Logro, establecer urgencia con Situación Crítica, y cerrar con Organización.
 
-### Situation (preguntas cerradas con contexto)
+### Panorama (preguntas cerradas con contexto)
 
 Demostrar que investigaste. Las preguntas cerradas con contexto validan datos y generan credibilidad.
 
@@ -92,7 +92,7 @@ Demostrar que investigaste. Las preguntas cerradas con contexto validan datos y 
 | "Que herramientas usan?" | "Note que mencionan Salesforce en su job posting... es su CRM principal?" |
 | "En que mercados operan?" | "Su sitio web muestra presencia en 3 paises de LATAM... Mexico, Colombia y Chile son los principales?" |
 
-### Pain (preguntas reflexivas, no genericas)
+### Urgencia (preguntas reflexivas, no genericas)
 
 Preguntas que invitan a reflexionar, no que incomodan. Siempre con contexto que demuestre que el dolor es normal.
 
@@ -104,9 +104,9 @@ Preguntas que invitan a reflexionar, no que incomodan. Siempre con contexto que 
 
 ### Summarize (validar comprension)
 
-El resumen es el puente entre Pain y Story. Formato:
+El resumen es el puente entre Urgencia y Story. Formato:
 
-> "Entonces tienes [Situacion 1] y [Situacion 2] que te causan [Pain principal]. Capte bien?"
+> "Entonces tienes [Panorama 1] y [Panorama 2] que te causan [Urgencia principal]. Capte bien?"
 
 **3 funciones del resumen**:
 1. **Validar** — Confirmar que entendiste correctamente
@@ -124,23 +124,23 @@ Introducir una historia de un cliente similar que vivio el mismo dolor y lo reso
 
 **Estructura de la historia**: Situacion similar → Dolor similar → Lo que hicieron → Resultado cuantificable
 
-### Impact (cuantificar ROI)
+### Logro (cuantificar ROI)
 
-Cuatro dimensiones de impacto:
+Cuatro dimensiones de logro/impacto:
 - **Ingresos**: ↑ revenue, ↑ deal size, ↑ win rate
 - **Costos**: ↓ CAC, ↓ ciclo de venta, ↓ churn
 - **Customer Experience**: ↑ NPS, ↑ CSAT, ↑ retention
 - **Eficiencia operativa**: ↑ productividad, ↓ tiempo manual, ↑ velocidad
 
-**Pregunta clave**: "Si resolvieras [dolor], cual seria el impacto en [metrica]?"
+**Pregunta clave**: "Si resolvieras [dolor], cual seria el logro en [metrica]?"
 
-### Critical Event
+### Situación Crítica
 
 - "Cuando necesitas tener esto resuelto?"
 - "Hay algun evento o deadline que hace esto urgente?"
 - "Que pasa si no se resuelve para esa fecha?"
 
-### Decision
+### Organización
 
 - "Quien mas necesita estar involucrado en esta decision?"
 - "Como han tomado decisiones similares antes?"
@@ -195,15 +195,15 @@ Siempre buscar expandir el numero de stakeholders:
 - [ ] Confirmar agenda preparada
 - [ ] Hacer la pregunta poderosa: "Que mas quisieras obtener hoy?"
 
-### Diagnosticar con SPICED (7 items)
+### Diagnosticar con PULSO (7 items)
 
-- [ ] **Situation**: 2-3 preguntas cerradas con contexto (demostrar research)
-- [ ] **Pain**: 1-2 preguntas reflexivas con contexto (no genericas)
-- [ ] **Summarize**: Validar comprension con el formato "Entonces tienes [S] que causa [P]..."
+- [ ] **Panorama**: 2-3 preguntas cerradas con contexto (demostrar research)
+- [ ] **Urgencia**: 1-2 preguntas reflexivas con contexto (no genericas)
+- [ ] **Summarize**: Validar comprension con el formato "Entonces tienes [P] que causa [U]..."
 - [ ] **Storytelling**: Compartir historia de terceros relevante
-- [ ] **Impact**: Cuantificar en al menos 2 dimensiones (ingreso, costo, CX, eficiencia)
-- [ ] **Critical Event**: Establecer timeline y consecuencias de no actuar
-- [ ] **Decision**: Identificar criterios, proceso y stakeholders
+- [ ] **Logro**: Cuantificar en al menos 2 dimensiones (ingreso, costo, CX, eficiencia)
+- [ ] **Situación Crítica**: Establecer timeline y consecuencias de no actuar
+- [ ] **Organización**: Identificar criterios, proceso y stakeholders
 
 ### Cerrar (6 items)
 
@@ -217,7 +217,7 @@ Siempre buscar expandir el numero de stakeholders:
 ### Post-call (5 items)
 
 - [ ] Enviar email de follow-up dentro de 2 horas
-- [ ] Documentar SPICED findings en CRM
+- [ ] Documentar PULSO findings en CRM
 - [ ] Actualizar relationship map con nuevos stakeholders
 - [ ] Preparar agenda para la siguiente reunion
 - [ ] Compartir recursos relevantes mencionados en la llamada
@@ -227,12 +227,12 @@ Siempre buscar expandir el numero de stakeholders:
 - [ ] El prospect hablo mas del 60% del tiempo
 - [ ] Se identificaron al menos 2 dolores validados
 - [ ] Se cuantifico al menos 1 impacto concreto
-- [ ] Se establecio un Critical Event real
+- [ ] Se establecio una Situación Crítica real
 - [ ] La siguiente reunion tiene fecha, hora y agenda
 
 ### Preparacion de informacion (5 items)
 
-- [ ] SPICED summary redactado para transferir a demo
+- [ ] PULSO summary redactado para transferir a demo
 - [ ] Historias de terceros relevantes seleccionadas
 - [ ] Demo points preliminares alineados a dolores
 - [ ] Decision criteria mapeados
@@ -240,7 +240,7 @@ Siempre buscar expandir el numero de stakeholders:
 
 ### Gestion de objeciones (5 items)
 
-- [ ] Objeciones de timing manejadas con Critical Event
+- [ ] Objeciones de timing manejadas con Situación Crítica
 - [ ] Objeciones de presupuesto reenmarcadas como impacto/costo de no actuar
 - [ ] Objeciones de "ya tenemos solucion" exploradas con preguntas de profundidad
 - [ ] Objeciones de "necesito consultarlo" convertidas en invitacion a siguiente reunion
@@ -248,7 +248,7 @@ Siempre buscar expandir el numero de stakeholders:
 
 ### Documentacion final (5 items)
 
-- [ ] Notas de la reunion en formato SPICED
+- [ ] Notas de la reunion en formato PULSO
 - [ ] Action items con responsable y fecha
 - [ ] Follow-up email enviado con resumen
 - [ ] CRM actualizado con status y next steps
@@ -267,7 +267,7 @@ Siempre buscar expandir el numero de stakeholders:
 |-------|-------------|------------|
 | Saltar ACE y entrar directo al pitch | El prospect no siente control ni respeto por su tiempo | Siempre ejecutar ACE completo en 45 segundos |
 | Hacer preguntas genericas sin contexto | Pareces un vendedor mas que no investigo | Preparar al menos 3 datos del prospect para usar como contexto |
-| Presentar solucion antes de diagnosticar | Pierdes credibilidad y el prospect se cierra | Completar al menos S y P de SPICED antes de cualquier mencion de solucion |
-| No resumir despues del Pain | El prospect no sabe si lo entendiste | Siempre usar el formato "Entonces tienes [S] que causa [P]... capte bien?" |
+| Presentar solucion antes de diagnosticar | Pierdes credibilidad y el prospect se cierra | Completar al menos P y U de PULSO antes de cualquier mencion de solucion |
+| No resumir despues de Urgencia | El prospect no sabe si lo entendiste | Siempre usar el formato "Entonces tienes [P] que causa [U]... capte bien?" |
 | No conectar wagons al cierre | La reunion termina sin next step concreto | Nunca cerrar sin fecha/hora de la siguiente reunion |
 | Hablar mas del 40% del tiempo | El discovery se convierte en pitch | Usar el timer mental: si llevas 2 minutos hablando, haz una pregunta |

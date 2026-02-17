@@ -132,9 +132,9 @@ Dashboard multi-métrica → Visibilidad de qué funciona
 
 ---
 
-## Conexión SPICED
+## Conexión PULSO
 
-Los objetivos de revenue alimentan la dimensión **Impact** del SPICED: sin claridad en objetivos, no hay forma de cuantificar el impacto de un deal. El SLA conecta directamente con **Decision** — define quién es responsable de qué en el handoff.
+Los objetivos de revenue alimentan la dimensión **Logro** del PULSO: sin claridad en objetivos, no hay forma de cuantificar el impacto de un deal. El SLA conecta directamente con **Organización** — define quién es responsable de qué en el handoff.
 
 ---
 

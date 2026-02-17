@@ -21,7 +21,7 @@ El Metodo de Ventas SaaS es una evolucion de las metodologias tradicionales, dis
 | **Proceso de decision** | Jerarquico (un decisor) | Comite formal con roles definidos | Consenso organico (6-10 personas) |
 | **Velocidad** | Ciclos largos (6-18 meses) | Ciclos muy largos (12-24 meses) | Variable (semanas a meses, prioridad-driven) |
 | **Foco del vendedor** | Descubrir necesidades → resolver | Mapear politica organizacional → influir | Diagnosticar impacto → orquestar consensus |
-| **Actividad clave** | Preguntas abiertas y escucha | Workshops estrategicos | Conversaciones de impacto + SPICED |
+| **Actividad clave** | Preguntas abiertas y escucha | Workshops estrategicos | Conversaciones de impacto + PULSO |
 | **Metrica de exito** | Deal size | Win rate en deals complejos | NDR (Net Dollar Retention) |
 | **Post-venta** | Soporte reactivo | Gestion de cuenta | Orquestacion de resultados |
 
@@ -59,7 +59,7 @@ BANT fue disenado para un mundo donde un VP firmaba un cheque despues de una lla
 | Actividad | Con BANT | Con Impact |
 |-----------|----------|------------|
 | Calificacion | "¿Tiene budget? ¿Es el decisor?" → Descarta rapido | "¿Cual es el impacto de resolver esto?" → Descubre valor |
-| Discovery | 10 preguntas tipo checklist | Conversacion SPICED de 45 min |
+| Discovery | 10 preguntas tipo checklist | Conversacion PULSO de 45 min |
 | Forecast | "El prospect dijo que tiene budget para Q3" | "Critical Event: board review marzo, consecuencia: corte 40% headcount" |
 | Pipeline review | "¿Hablaste con el decisor?" | "¿Cuantos stakeholders estan alineados? ¿Cual es el consenso actual?" |
 | Negociacion | "Le damos 15% descuento para cerrar este trimestre" | "¿Que podemos tradear para mantener el valor del deal?" |
@@ -94,7 +94,7 @@ La calificacion es un interrogatorio disfrazado de interes. La conversacion es i
 **Que cambia en la practica**:
 - Las reuniones de discovery duran 45+ minutos (no 15 min de preguntas rapidas)
 - El prospect habla 70%+ del tiempo
-- No hay formulario de calificacion — hay notas SPICED organicas
+- No hay formulario de calificacion — hay notas PULSO organicas
 - La segunda reunion se gana con valor, no con insistencia
 
 ---
@@ -106,10 +106,10 @@ La calificacion es un interrogatorio disfrazado de interes. La conversacion es i
 
 > "Prescripcion sin diagnostico es mala praxis. Ningun medico receta sin examinar. Ningun vendedor deberia presentar sin diagnosticar."
 
-Este es el momento mas critico porque requiere disciplina: resistir la tentacion de mostrar el producto cuando el prospect pregunta "¿que hacen?" SPICED es la herramienta de diagnostico completa.
+Este es el momento mas critico porque requiere disciplina: resistir la tentacion de mostrar el producto cuando el prospect pregunta "¿que hacen?" PULSO es la herramienta de diagnostico completa.
 
 **Que cambia en la practica**:
-- La demo se pospone hasta completar SPICED (Situation + Pain + Impact minimo)
+- La demo se pospone hasta completar PULSO (Situation + Pain + Impact minimo)
 - Las demos son personalizadas al dolor especifico, no genericas
 - El prospect siente que "este vendedor entiende mi negocio" antes de ver el producto
 - La tasa de conversion de demo a propuesta se duplica o triplica
@@ -192,7 +192,7 @@ Upsell es territorial — busca expandir la huella del producto. Crecer es impac
 | Etapa | Emocion | Accion del Vendedor/CS | Momento Clave | Metrica Principal |
 |-------|---------|----------------------|---------------|-------------------|
 | **Awareness** | Aargh! (Dolor reconocido) | Generar contenido que articule el dolor mejor que el cliente | M1 | Tasa de respuesta a outreach |
-| **Education** | Aha! (Esperanza de solucion) | Diagnosticar con SPICED, educar con datos y casos | M2, M3 | SPICED completion rate |
+| **Education** | Aha! (Esperanza de solucion) | Diagnosticar con PULSO, educar con datos y casos | M2, M3 | PULSO completion rate |
 | **Selection** | Wow! (Conviccion de compra) | Facilitar consenso, tradear valor, influir criterios | M4 | Win rate, ACV promedio |
 | **Onboard** | Yeehaw! (Entusiasmo de inicio) | Orquestar kickoff, definir milestones, guiar adopcion | M5 | Time-to-first-value |
 | **Use** | Awesome! (Resultados tangibles) | Medir impacto de negocio, QBRs orientados a resultados | M6 | Health score, NPS + impact metrics |
@@ -245,7 +245,7 @@ ARR = Leads × CR1 × CR2 × CR3 × WR × ACV × (1 - Descuento) × 12
 | Error | Consecuencia | Correccion |
 |-------|-------------|------------|
 | Usar BANT para calificar en modelo SaaS | Descalificas prospects que no tienen budget asignado pero SI tienen prioridad (pierdes 40%+ del pipeline) | Migrar a Impact: Priority, Consensus, Impact, Anytime |
-| Pitchear antes de diagnosticar (saltar M3) | Demos genericas → conversion de demo a propuesta <20% | Completar SPICED minimo (S+P+I) antes de cualquier demo |
+| Pitchear antes de diagnosticar (saltar M3) | Demos genericas → conversion de demo a propuesta <20% | Completar PULSO minimo (P+U+L) antes de cualquier demo |
 | Negociar en lugar de tradear (M4) | ACV promedio baja trimestre a trimestre, cultura de descuento se normaliza | Preparar menu de 5-8 trades ANTES de la negociacion. Descuento puro = ultima opcion |
 | Medir uso en lugar de resultados (M6) | Clientes con alta adopcion pero sin resultados churean sorpresivamente | Health score = 50% metricas de uso + 50% metricas de impacto de negocio |
 | Hacer upsell territorial en lugar de crecer impacto (M7) | El cliente percibe la expansion como "quieren sacarme mas dinero" | Expansion parte SIEMPRE de resultados demostrados + nuevos pains identificados |

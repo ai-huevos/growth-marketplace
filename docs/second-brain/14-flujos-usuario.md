@@ -8,7 +8,7 @@
 2. [Flujo de Activación Automática (Skills)](#2-flujo-de-activación-automática-skills)
 3. [Flujo de Comandos Interactivos](#3-flujo-de-comandos-interactivos)
 4. [Flujo de Pipeline de Agentes](#4-flujo-de-pipeline-de-agentes)
-5. [Flujos Cross-Plugin (SPICED como hilo conductor)](#5-flujos-cross-plugin)
+5. [Flujos Cross-Plugin (PULSO como hilo conductor)](#5-flujos-cross-plugin)
 6. [Flujo Completo: De Cero a Propuesta](#6-flujo-completo-de-cero-a-propuesta)
 
 ---
@@ -112,7 +112,7 @@ Los skills NO se invocan manualmente — se activan cuando Claude detecta **trig
 | growth-foundations | icp-analysis | "ICP", "ideal customer profile", "perfil de cliente ideal", "segmentación" |
 | growth-foundations | positioning | "posicionamiento", "propuesta de valor", "diferenciación", "messaging" |
 | growth-foundations | competitive-analysis | "análisis competitivo", "competidores", "mapa de mercado", "Five Forces" |
-| sales-blueprint | discovery-mastery | "discovery call", "SPICED", "qualifying opportunity", "ACE opening" |
+| sales-blueprint | discovery-mastery | "discovery call", "PULSO", "qualifying opportunity", "ACE opening" |
 | sales-blueprint | pipeline-management | "pipeline review", "deal health", "pipeline health", "forecast" |
 | sales-blueprint | proposal-generation | "propuesta", "proposal", "SOW", "business case", "cotización" |
 | sales-blueprint | coaching-cadence | "coaching", "1:1", "REKS", "rep performance" |
@@ -223,7 +223,7 @@ Fase 1: Research (automática)
   - Funding, tech stack, tamaño
   → Genera resumen de investigación
 
-Fase 2: Hipótesis SPICED
+Fase 2: Hipótesis PULSO
   Construye hipótesis pre-call:
   S (Situation):    "SaaS B2B, 200 empleados, Serie B..."     Confianza: Media
   P (Pain):         "Crecimiento estancado post-Serie B..."    Confianza: Baja
@@ -238,7 +238,7 @@ Fase 3: Validación
 Fase 4: Preguntas priorizadas
   Lee: discovery-mastery/frameworks/question-bank.md
   Selecciona 5-7 preguntas relevantes al contexto
-  Prioriza por: dimensión SPICED con menor confianza
+  Prioriza por: dimensión PULSO con menor confianza
 
 Fase 5: Agenda ACE
   A (Appreciate): "Gracias por el tiempo, [nombre]..."
@@ -253,7 +253,7 @@ Fase 6: Objeciones anticipadas
 OUTPUT FINAL:
   📋 Pre-Call Brief completo
   ├── Research Summary
-  ├── Hipótesis SPICED (con confianza)
+  ├── Hipótesis PULSO (con confianza)
   ├── 5-7 Preguntas priorizadas
   ├── Agenda ACE (30 min)
   ├── Objeciones anticipadas
@@ -265,12 +265,12 @@ OUTPUT FINAL:
 ```
 /propuesta
 
-⚠️ Gate: ¿Hay SPICED completado con score >= 23?
+⚠️ Gate: ¿Hay PULSO completado con score >= 23?
   → SI: Continúa
   → NO: "Primero completa un discovery. Usa /discovery [empresa]"
 
-Fase 1: Intake SPICED
-  Claude: "¿Cuál es el SPICED de este deal?"
+Fase 1: Intake PULSO
+  Claude: "¿Cuál es el PULSO de este deal?"
   (recopila las 5 dimensiones + score)
 
 Fase 2: Segmentación
@@ -284,13 +284,13 @@ Fase 3: Información adicional
 
 Fase 4: Generación
   Estructura de 8 secciones:
-  1. Contexto del Negocio (from SPICED-S)
-  2. Impacto del Problema (from SPICED-P+I)
+  1. Contexto del Negocio (from PULSO-S)
+  2. Impacto del Problema (from PULSO-P+I)
   3. Solución Propuesta
   4. Resultados Esperados (ROI cuantificado)
   5. Plan de Implementación
   6. Inversión (pricing + opciones)
-  7. Marco de Decisión (from SPICED-C+D)
+  7. Marco de Decisión (from PULSO-C+D)
   8. Mutual Action Plan (MAP)
 
 Fase 5: Trading Prep
@@ -359,7 +359,7 @@ Agentes autónomos que diagnostican y recomiendan.
 │  Input: Empresa target + contexto            │
 │         │                                    │
 │         ▼                                    │
-│  Research → SPICED hypothesis → Tier         │
+│  Research → PULSO hypothesis → Tier         │
 │         │                                    │
 │         ├── Tier 1 (20+): Outreach premium   │
 │         ├── Tier 2 (12-19): Semi-personal    │
@@ -377,7 +377,7 @@ Agentes autónomos que diagnostican y recomiendan.
 │  Input: Deal en pipeline                     │
 │         │                                    │
 │         ▼                                    │
-│  Intake → SPICED crítico → Risk assessment   │
+│  Intake → PULSO crítico → Risk assessment   │
 │  (escepticismo profesional por dimensión)    │
 │         │                                    │
 │         ▼                                    │
@@ -387,7 +387,7 @@ Agentes autónomos que diagnostican y recomiendan.
 │         ▼                                    │
 │  Go/No-Go + Probabilidad                    │
 │         │                                    │
-│         ├── Go (SPICED >= 20): Genera MAP    │
+│         ├── Go (PULSO >= 20): Genera MAP    │
 │         └── No-Go: Recomendaciones de salida │
 └─────────────────────────────────────────────┘
 ```
@@ -422,9 +422,9 @@ Orquestado por el comando `/copy`. Cada agente tiene:
 
 ## 5. Flujos Cross-Plugin
 
-### SPICED como hilo conductor
+### PULSO como hilo conductor
 
-SPICED conecta los 3 plugins en un flujo lógico:
+PULSO conecta los 3 plugins en un flujo lógico:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -432,7 +432,7 @@ SPICED conecta los 3 plugins en un flujo lógico:
 │  GROWTH-FOUNDATIONS              SALES-BLUEPRINT             │
 │  ┌─────────────────┐           ┌──────────────────┐         │
 │  │ /diagnostico    │           │ /discovery       │         │
-│  │ ClarQ (0-40)    │──────────▶│ SPICED (5-30)    │         │
+│  │ ClarQ (0-40)    │──────────▶│ PULSO (5-30)    │         │
 │  │                 │ "Necesitas│ Diagnóstico de   │         │
 │  │ Identifica gaps │  pipeline"│ oportunidad      │         │
 │  └────────┬────────┘           └────────┬─────────┘         │
@@ -441,7 +441,7 @@ SPICED conecta los 3 plugins en un flujo lógico:
 │  ┌─────────────────┐           ┌──────────────────┐         │
 │  │ icp-analysis    │           │ /pipeline        │         │
 │  │ ICP Score(0-100)│           │ Health scoring   │         │
-│  │                 │──────────▶│ SPICED por deal  │         │
+│  │                 │──────────▶│ PULSO por deal  │         │
 │  │ Define a quién  │ "Califica │ Verde/Amarillo/  │         │
 │  │ perseguir       │  deals"   │ Rojo             │         │
 │  └────────┬────────┘           └────────┬─────────┘         │
@@ -449,7 +449,7 @@ SPICED conecta los 3 plugins en un flujo lógico:
 │           │                             ▼                    │
 │           │                    ┌──────────────────┐         │
 │           │                    │ /propuesta       │         │
-│           │                    │ Gate: SPICED ≥ 23│         │
+│           │                    │ Gate: PULSO ≥ 23│         │
 │           │                    │                  │         │
 │           │                    │ Propuesta basada │         │
 │           │                    │ en diagnóstico   │         │
@@ -471,11 +471,11 @@ SPICED conecta los 3 plugins en un flujo lógico:
 │              el ICP"  │ agentes          │                  │
 │                       │                  │                  │
 │                       │ Usa pains/impact │                  │
-│                       │ del SPICED para  │                  │
+│                       │ del PULSO para  │                  │
 │                       │ copy persuasivo  │                  │
 │                       └──────────────────┘                  │
 │                                                              │
-│  SPICED = Situation · Pain · Impact · Critical Event ·       │
+│  PULSO = Situation · Pain · Impact · Critical Event ·       │
 │           Decision                                           │
 │                                                              │
 │  DIAGNÓSTICAR → EVALUAR → COMUNICAR                         │
@@ -506,10 +506,10 @@ Día 5: Pipeline existente
 
 Día 6: Prep discovery para nuevo deal
   /discovery Acme Corp → Pre-call brief completo
-  → SPICED hypothesis + agenda ACE
+  → PULSO hypothesis + agenda ACE
 
 Día 8: Post-discovery, deal calificado
-  SPICED score: 25 (verde) → Listo para propuesta
+  PULSO score: 25 (verde) → Listo para propuesta
   /propuesta → Genera propuesta enterprise
 
 Día 10: Copy para outreach
@@ -558,14 +558,14 @@ ETAPA 4: POSITIONING (growth-foundations)
 ETAPA 5: DISCOVERY (sales-blueprint)
 ══════════════════════════════════════════════════
 /discovery Acme Corp
-→ Research automático → Hipótesis SPICED → Preguntas → Agenda ACE
+→ Research automático → Hipótesis PULSO → Preguntas → Agenda ACE
 → Se ejecuta la call real
-→ Post-call: SPICED score 26 (verde, calificado)
+→ Post-call: PULSO score 26 (verde, calificado)
 
 ETAPA 6: PIPELINE (sales-blueprint)
 ══════════════════════════════════════════════════
 /pipeline
-→ Acme Corp entra al pipeline con SPICED 26
+→ Acme Corp entra al pipeline con PULSO 26
 → Health: Verde
 → Coverage: 3.2x (aceptable)
 → Forecast: Commit
@@ -573,9 +573,9 @@ ETAPA 6: PIPELINE (sales-blueprint)
 ETAPA 7: PROPUESTA (sales-blueprint)
 ══════════════════════════════════════════════════
 /propuesta
-→ Gate: SPICED 26 >= 23 ✅
+→ Gate: PULSO 26 >= 23 ✅
 → Segment: Enterprise (ACV $150K)
-→ 8 secciones basadas en SPICED del discovery
+→ 8 secciones basadas en PULSO del discovery
 → Trading prep: 9-step checklist
 → MAP con timeline del Critical Event
 
@@ -592,10 +592,10 @@ RESULTADO FINAL:
 ════════════════
 ✅ ICP definido y scoreado
 ✅ Producto posicionado
-✅ Deal diagnosticado con SPICED
+✅ Deal diagnosticado con PULSO
 ✅ Propuesta enterprise personalizada
 ✅ Copy de follow-up optimizado
-Todo conectado por SPICED como lenguaje común.
+Todo conectado por PULSO como lenguaje común.
 ```
 
 ---
@@ -603,6 +603,6 @@ Todo conectado por SPICED como lenguaje común.
 ## Documentos relacionados
 
 - `01-arquitectura-convenciones.md` — Estructura técnica del repositorio
-- `02-metodologia-spiced.md` — SPICED en detalle
+- `02-metodologia-spiced.md` — PULSO en detalle
 - `07-sistema-agentes.md` — Workflows de los 6 agentes
 - `15-arquitectura-sistema.md` — Arquitectura técnica del sistema

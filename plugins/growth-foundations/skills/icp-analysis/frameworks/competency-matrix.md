@@ -1,6 +1,6 @@
 # Matriz de Competencias de Marketing — Evaluación Basada en Evidencia
 
-> Complementa el diagnóstico ClarQ (organizacional) con evaluación individual de competencias. Alimenta la dimensión "Situation" del SPICED — define qué capacidades tiene el equipo HOY.
+> Complementa el diagnóstico ClarQ (organizacional) con evaluación individual de competencias. Alimenta la dimensión "Panorama" del PULSO — define qué capacidades tiene el equipo HOY.
 
 ---
 

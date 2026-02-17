@@ -44,14 +44,14 @@ Medir Resultados → Analizar Data → Aprender + Iterar → Nueva Hipotesis
 | **Autor** | [Nombre] |
 | **Cliente** | [Empresa] |
 | **Dominio** | [ ] Messaging [ ] Targeting [ ] Coverage [ ] Journey [ ] Process [ ] Discovery [ ] Closing |
-| **Blueprint(s)** | [#s y nombres] |
+| **Framework(s)** | [#s y nombres] |
 | **Status** | [ ] Draft [ ] Active [ ] Validada [ ] Refutada [ ] Iterando |
 
 ### La Hipotesis
 
 **IF** [Accion especifica basada en blueprint/playbook]
 
-_Ejemplo: "IF implementamos Blueprint 25 (Perfect Discovery Call) + Blueprint 10 (SPICED Framework) y entrenamos al equipo en apertura ACE + diagnostico SPICED completo..."_
+_Ejemplo: "IF implementamos Perfect Discovery Call + PULSO Framework y entrenamos al equipo en apertura ACE + diagnostico PULSO completo..."_
 
 **THEN** [Resultado esperado con metrica especifica]
 
@@ -59,7 +59,7 @@ _Ejemplo: "THEN el win rate mejorara de 23% a 28-33% y las perdidas por 'no deci
 
 **BECAUSE** [Razonamiento causal basado en contexto del negocio]
 
-_Ejemplo: "BECAUSE el discovery actual promedia 25 minutos sin metodologia estructurada, llevando a calificacion debil y 45% de perdidas por 'no decision'. SPICED provee un framework sistematico para descubrir Situation, Pain, Impact, Critical Event, y Decision Process — los elementos clave que faltan en nuestro approach actual."_
+_Ejemplo: "BECAUSE el discovery actual promedia 25 minutos sin metodologia estructurada, llevando a calificacion debil y 45% de perdidas por 'no decision'. PULSO provee un framework sistematico para descubrir Panorama, Urgencia, Logro, Situación Crítica, y Organización — los elementos clave que faltan en nuestro approach actual."_
 
 ### Metricas de Medicion
 
@@ -146,7 +146,7 @@ _Ejemplo: "BECAUSE el discovery actual promedia 25 minutos sin metodologia estru
 
 - [ ] **VALIDADA**: Escalar. Siguiente paso: [___]
 - [ ] **PARCIAL**: Iterar. Nueva hipotesis: H-[###]
-- [ ] **REFUTADA**: Pivotar. Nuevo approach: [___]
+- [ ] **REFUTADA**: Pivotar. Seleccionar frameworks diferentes: [___]
 
 ### Aprendizajes para el Sistema
 
@@ -166,7 +166,7 @@ Problema: Sin accion especifica, sin metrica, sin razonamiento causal
 
 ### Irrealista
 ```
-IF implementamos SPICED THEN win rate ira de 23% a 80% en 2 semanas
+IF implementamos PULSO THEN win rate ira de 23% a 80% en 2 semanas
 Problema: Target irrealista y timeline imposible
 ```
 
@@ -184,12 +184,12 @@ Problema: Sin conexion causal entre accion y resultado
 
 ### Bien formada
 ```
-IF implementamos SPICED + ACE
+IF implementamos PULSO + ACE
 THEN win rate mejora de 23% a 28-33% en 90 dias
 BECAUSE discovery actual de 25 min sin estructura = calificacion debil
-MEASURED BY win rate por cohorte, "no decision" rate, SPICED completion
+MEASURED BY win rate por cohorte, "no decision" rate, PULSO completion
 TIMEFRAME 90 dias (30 training + 60 medicion)
-CONFIDENCE Alta — SPICED probado en 1000+ empresas, gaps claros
+CONFIDENCE Alta — PULSO probado en 1000+ empresas, gaps claros
 ```
 
 ---

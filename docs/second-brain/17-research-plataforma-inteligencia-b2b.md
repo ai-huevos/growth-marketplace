@@ -145,7 +145,7 @@ Google ADK (capa conversacional)
     |
     v
 Framework Layer (Growth Marketplace content)
-    |--- SPICED diagnostic
+    |--- PULSO diagnostic
     |--- ICP scoring
     |--- Pipeline health
     |
@@ -262,7 +262,7 @@ La arquitectura moderna de inteligencia B2B se organiza en tres capas:
 El Growth Marketplace actualmente opera en la **Intelligence Layer** como contenido puro (frameworks de analisis). La oportunidad es evolucionar hacia un sistema que:
 
 1. **Consuma datos reales** de la Data Layer del cliente (via integraciones)
-2. **Aplique frameworks** (SPICED, ICP scoring, ClarQ) sobre esos datos
+2. **Aplique frameworks** (PULSO, ICP scoring, ClarQ) sobre esos datos
 3. **Genere acciones** en la Orchestration Layer (siguiente mejor accion, alertas, recomendaciones)
 
 ---
@@ -338,7 +338,7 @@ Los knowledge graphs son el **elemento unificador** entre data mesh y data fabri
      |                       |
      |--fue-atendido-por--> [Rep Juan]
      |                       |
-     |--tiene-SPICED--> [Score: 78]
+     |--tiene-PULSO--> [Score: 78]
 ```
 
 **Por que los knowledge graphs son esenciales**:
@@ -368,7 +368,7 @@ Los knowledge graphs son el **elemento unificador** entre data mesh y data fabri
 ```
 Knowledge Graph Central (Neo4j)
     |
-    |--- Nodo: ICP Scores (SPICED) ----> Irriga: Marketing targeting
+    |--- Nodo: ICP Scores (PULSO) ----> Irriga: Marketing targeting
     |--- Nodo: Pipeline Deals ----------> Irriga: Forecasting + coaching
     |--- Nodo: Discovery Insights ------> Irriga: Proposal generation
     |--- Nodo: Copy Performance --------> Irriga: A/B optimization
@@ -398,7 +398,7 @@ Cada framework que ejecutas genera datos que alimentan a TODOS los demas
 | Metrica | Tipo | Fuente |
 |---------|------|--------|
 | Revenue vs. target | KPI principal | CRM + Finance |
-| Pipeline health score | Semaforo (SPICED-based) | CRM + Knowledge Graph |
+| Pipeline health score | Semaforo (PULSO-based) | CRM + Knowledge Graph |
 | Win rate trend | Tendencia 90 dias | CRM |
 | CAC / LTV ratio | Eficiencia | Marketing + Finance |
 | ClarQ score general | Diagnostico de salud | Framework ClarQ |
@@ -423,7 +423,7 @@ Cada framework que ejecutas genera datos que alimentan a TODOS los demas
 | Team performance | Ranking/comparativo | CRM + Coaching |
 | Campaign ROI | Atribucion | Marketing + Revenue |
 | Deal velocity | Tiempo promedio por etapa | CRM |
-| SPICED scores promedio | Calidad de deals | Knowledge Graph |
+| PULSO scores promedio | Calidad de deals | Knowledge Graph |
 | Forecast accuracy | Prediccion vs. real | CRM + Finance |
 
 **Patrones de diseno**:
@@ -443,7 +443,7 @@ Cada framework que ejecutas genera datos que alimentan a TODOS los demas
 | Mis deals activos + next steps | Task queue | CRM |
 | Calls programadas hoy | Calendario | Calendar + CRM |
 | Deals sin actividad >7 dias | Alerta | CRM |
-| SPICED gaps por deal | Diagnostico | Knowledge Graph |
+| PULSO gaps por deal | Diagnostico | Knowledge Graph |
 | Secuencias de email activas | Progreso | Outreach tool |
 | Follow-ups pendientes | Backlog | CRM + Email |
 | Score de mi pipeline personal | Health | Knowledge Graph |
@@ -480,7 +480,7 @@ Data Sources (CRM, Marketing, Ops)
 Data Layer (Warehouse + Knowledge Graph)
     |
     v
-Semantic Layer (metricas definidas, SPICED scoring, ClarQ)
+Semantic Layer (metricas definidas, PULSO scoring, ClarQ)
     |
     v
 Dashboard API (queries optimizadas por nivel)
@@ -504,13 +504,13 @@ Frontend (dashboards responsivos por rol)
                     (Google ADK / Claude Agents)
                             |
                     "Analiza mi pipeline"
-                    "Cual es el SPICED score de Acme?"
+                    "Cual es el PULSO score de Acme?"
                     "Genera propuesta para Deal X"
                             |
                             v
                     CAPA DE FRAMEWORKS
                     (Growth Marketplace Plugins)
-                    |--- SPICED diagnostic
+                    |--- PULSO diagnostic
                     |--- ICP scoring
                     |--- ClarQ assessment
                     |--- Proposal generation
@@ -532,9 +532,9 @@ Frontend (dashboards responsivos por rol)
 
 ### 5.2 El Marketplace como Semantic Layer
 
-El insight clave de esta investigacion es que los frameworks del Growth Marketplace (SPICED, ICP scoring, ClarQ, REKS) **ya funcionan como una capa semantica** — definen el significado de los datos de negocio:
+El insight clave de esta investigacion es que los frameworks del Growth Marketplace (PULSO, ICP scoring, ClarQ, REKS) **ya funcionan como una capa semantica** — definen el significado de los datos de negocio:
 
-- SPICED define que hace a un deal "saludable"
+- PULSO define que hace a un deal "saludable"
 - ICP scoring define que hace a un cliente "ideal"
 - ClarQ define que hace a una organizacion "madura"
 - REKS define que hace a un rep "efectivo"
@@ -557,7 +557,7 @@ Estos frameworks no son solo contenido Markdown: son **modelos de dominio** que 
 | Capa conversacional | Claude Agents (actual) + evaluar ADK para multi-modelo | Mantener lo que funciona, explorar interoperabilidad |
 | Backend de datos | PostgreSQL + Neo4j en paralelo | Relacional para transacciones, graph para relaciones |
 | Activacion de datos | Reverse ETL (Hightouch/Census) | Patrones probados en el ecosistema composable |
-| Semantic layer | Frameworks propios (SPICED, ClarQ) como DSL | Diferenciador unico del marketplace |
+| Semantic layer | Frameworks propios (PULSO, ClarQ) como DSL | Diferenciador unico del marketplace |
 | Dashboards | Tres niveles: estrategico, tactico, operacional | Patron probado, cada rol consume lo que necesita |
 | Protocolo de integracion | MCP para tools, evaluar A2A para multi-agente | Estandares abiertos con traccion real |
 
@@ -567,7 +567,7 @@ Estos frameworks no son solo contenido Markdown: son **modelos de dominio** que 
 Mas frameworks instalados
         |
         v
-Mas datos generados por uso (SPICED scores, ICP analyses, diagnosticos)
+Mas datos generados por uso (PULSO scores, ICP analyses, diagnosticos)
         |
         v
 Knowledge graph mas rico (mas nodos, mas relaciones)

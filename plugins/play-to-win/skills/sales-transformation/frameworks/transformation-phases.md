@@ -28,13 +28,13 @@ Una arquitectura de messaging completa — desde hero's journey stories hasta ta
 
 | Dia | Entregable | Owner | Dependencias | Gate de Exito |
 |-----|-----------|-------|-------------|---------------|
-| 1-2 | Customer interviews (10 mejores clientes) | Sales Leaders | Acceso a clientes | 10 entrevistas SPICED completas |
+| 1-2 | Customer interviews (10 mejores clientes) | Sales Leaders | Acceso a clientes | 10 entrevistas PULSO completas |
 | 3-4 | Hero's journey stories extraidas | Marketing | Datos de entrevistas | 5 stories validadas |
 | 5 | Value prop + positioning redactados | Marketing + Product | Stories | Positioning statement aprobado |
 | 6-7 | Messaging architecture completada | Marketing | Positioning | 3 mensajes clave + proof points |
 
 ### Templates a Usar
-- Hero's Journey Story Template (3 partes: Situation, Pain, Impact)
+- Hero's Journey Story Template (3 partes: Panorama, Urgencia, Logro)
 - Value Proposition Canvas (Customer Segment, Jobs, Pains, Gains)
 - Positioning Statement (For [target] who [need], our [product] is [category] that [benefit])
 - Messaging Architecture Matrix — ver `templates/messaging-architecture.md`
@@ -87,7 +87,7 @@ Perfil de cliente data-driven con metodologia de scoring que alimenta directamen
 | 12-13 | Metodologia de ICP scoring | Ops + Sales | Analisis completo | Criterios de scoring validados |
 | 14 | Perfiles ICP documentados | Marketing | Modelo de scoring | 3-5 perfiles de segmento aprobados |
 
-### Modelo de Scoring ICP (SPICED-Based)
+### Modelo de Scoring ICP (PULSO-Based)
 
 | Atributo | Peso | Tier 1 | Tier 2 | Tier 3 |
 |----------|------|--------|--------|--------|
@@ -95,9 +95,9 @@ Perfil de cliente data-driven con metodologia de scoring que alimenta directamen
 | Company Size | 15% | 10 pts | 6 pts | 3 pts |
 | Revenue Range | 15% | 10 pts | 6 pts | 3 pts |
 | Tech Stack Fit | 10% | 10 pts | 6 pts | 3 pts |
-| Pain Intensity | 15% | 10 pts | 6 pts | 3 pts |
-| Impact Potential | 15% | 10 pts | 6 pts | 3 pts |
-| Critical Event Present | 10% | 10 pts | 6 pts | 3 pts |
+| Intensidad de Urgencia | 15% | 10 pts | 6 pts | 3 pts |
+| Potencial de Logro | 15% | 10 pts | 6 pts | 3 pts |
+| Situación Crítica Presente | 10% | 10 pts | 6 pts | 3 pts |
 | **Total** | **100%** | **100 pts** | **60 pts** | **30 pts** |
 
 **Interpretacion**: 80-100 = Tier 1 (perseguir agresivamente) | 50-79 = Tier 2 (pursue calificado) | 30-49 = Tier 3 (nurture) | <30 = Descalificar
@@ -159,37 +159,37 @@ Para cada cuenta Tier 1, mapear 3 personas del lado del cliente con 3 del lado t
 
 ---
 
-## Parte 3: Customer Journey Map — SPICED-Based (Dias 22-28)
+## Parte 3: Customer Journey Map — PULSO-Based (Dias 22-28)
 
 ### Proposito
 Sabes A QUIEN targetear y DONDE estan. Ahora define COMO progresan a traves del buying journey con protocolos claros de handoff.
 
 ### Entregable
-Mapa de viaje stage-by-stage con elementos SPICED, decision gates, y procedimientos de handoff interno que eliminan clientes cayendo por las grietas.
+Mapa de viaje stage-by-stage con elementos PULSO, decision gates, y procedimientos de handoff interno que eliminan clientes cayendo por las grietas.
 
 ### Journey Map SaaS
 
-| Etapa | Estado del Cliente | Foco SPICED | Actividades Clave | Decision Gate | Owner | Dias Avg |
-|-------|-------------------|-------------|-------------------|---------------|-------|----------|
-| **Awareness** | "Tengo un problema" | S (Situation) | Lead inbound, outbound, contenido | Dolor reconocido? | SDR | 1-3 |
-| **Education** | "Existen soluciones!" | P (Pain) | Discovery call, diagnostico, stories | Dolor priorizado? | SDR a AE | 3-7 |
-| **Selection** | "Excelente experiencia!" | I + CE | Demo customizado, proof of value | Impacto + Urgencia? | AE | 7-14 |
-| **Commit** | "Esto necesitamos" | D (Decision) | Trading, criteria, alignment | Stakeholders alineados? | AE | 7-21 |
+| Etapa | Estado del Cliente | Foco PULSO | Actividades Clave | Decision Gate | Owner | Dias Avg |
+|-------|-------------------|------------|-------------------|---------------|-------|----------|
+| **Awareness** | "Tengo un problema" | P (Panorama) | Lead inbound, outbound, contenido | Dolor reconocido? | SDR | 1-3 |
+| **Education** | "Existen soluciones!" | U (Urgencia) | Discovery call, diagnostico, stories | Dolor priorizado? | SDR a AE | 3-7 |
+| **Selection** | "Excelente experiencia!" | L + S | Demo customizado, proof of value | Logro + Urgencia? | AE | 7-14 |
+| **Commit** | "Esto necesitamos" | O (Organización) | Trading, criteria, alignment | Stakeholders alineados? | AE | 7-21 |
 | **Onboard** | "Esta funcionando!" | Results | Orquestacion, primer valor | Primer valor entregado? | AE a CSM | 14-30 |
 | **Use** | "Es excelente!" | Expansion | Monitoreo, tracking, relacion | Resultados probados? | CSM | 90-180 |
 | **Expand** | "Mas gente necesita esto" | Growth | Discovery expansion, referrals | Expansion identificada? | CSM a AM | 180-365 |
 
-### SPICED Handoff Template
+### PULSO Handoff Template
 
-En cada transicion entre equipos, transferir SPICED completo:
+En cada transicion entre equipos, transferir PULSO completo:
 
-| Elemento SPICED | Detalles | Quality Check |
-|-----------------|----------|---------------|
-| **S**ituation | Industria, tamano, herramientas, contexto | Especifico para que la siguiente persona entienda en 30 seg |
-| **P**ain | Dolor primario + secundario + quote textual | Palabras del cliente capturadas, priorizadas |
-| **I**mpact | Impacto racional + emocional + cuantificado | Ambos tipos, cuantificado donde sea posible |
-| **C**ritical Event | Fecha, evento, consecuencia si se pierde | Urgencia verdadera confirmada |
-| **D**ecision | Proceso, comite, criterios | Todos los stakeholders identificados, pasos mapeados |
+| Elemento PULSO | Detalles | Quality Check |
+|----------------|----------|---------------|
+| **P**anorama | Industria, tamano, herramientas, contexto | Especifico para que la siguiente persona entienda en 30 seg |
+| **U**rgencia | Dolor primario + secundario + quote textual | Palabras del cliente capturadas, priorizadas |
+| **L**ogro | Logro racional + emocional + cuantificado | Ambos tipos, cuantificado donde sea posible |
+| **S**ituación Crítica | Fecha, evento, consecuencia si se pierde | Urgencia verdadera confirmada |
+| **O**rganización | Proceso, comite, criterios | Todos los stakeholders identificados, pasos mapeados |
 
 ---
 
@@ -215,8 +215,8 @@ Goals basados en OKR + playbook stage-by-stage con entry/exit criteria que impul
 | Etapa | Goal | Entry Criteria | Actividades Clave | Exit Criteria | Assets |
 |-------|------|----------------|-------------------|---------------|--------|
 | Awareness | Identificar fit | Lead recibido | Research, ICP scoring, outreach | Dolor reconocido | ICP checklist, email templates |
-| Education | Diagnosticar dolor | Discovery agendada | Preguntas SPICED, stories, impact framing | S+P+I descubiertos | Discovery script, story library |
-| Selection | Probar valor | Demo solicitado | Demo customizado, ROI, proof points | CE + D mapeados | Demo templates, ROI calculator |
+| Education | Diagnosticar dolor | Discovery agendada | Preguntas PULSO, stories, logro framing | P+U+L descubiertos | Discovery script, story library |
+| Selection | Probar valor | Demo solicitado | Demo customizado, ROI, proof points | S + O mapeados | Demo templates, ROI calculator |
 
 Para el template completo, ver `templates/playbook-synthesis.md`.
 
@@ -228,7 +228,7 @@ Para el template completo, ver `templates/playbook-synthesis.md`.
 Playbook define QUE hacer; discovery define COMO diagnosticar y calificar.
 
 ### Entregable
-Framework de discovery basado en SPICED con secuencias de preguntas, triggers de storytelling, y validacion de impacto.
+Framework de discovery basado en PULSO con secuencias de preguntas, triggers de storytelling, y validacion de logro.
 
 ### Estructura del Discovery Call Perfecto
 
@@ -236,20 +236,20 @@ Framework de discovery basado en SPICED con secuencias de preguntas, triggers de
 |------|--------|-----------|-------|------|
 | **Open** | 0-2 min | ACE | **A**ppreciate, **C**heck time, **E**nd goal | Establecer expectativas |
 | **Agenda** | 2-3 min | Confirm + Add | "Aqui lo que quiero cubrir. Que mas quieres TU sacar de esta llamada?" | Su prioridad = oro |
-| **Situation** | 3-8 min | S (Closed) | "Estan en [industria], ~[X] empleados?", "Usando [CRM] actualmente?" | Contexto |
-| **Pain** | 8-15 min | P (Open) | "Directores como tu mencionan desafios con X, Y, Z. Que tan importante es [X] para ti?" | Escuchar emocion |
-| **Summarize** | 15-16 min | Playback | "Entonces tienes [S] causando [P]... lo capture bien?" | Probar que escuchaste |
-| **Story** | 16-19 min | Hero's Journey | 3 partes: Situacion similar, dolor + consecuencia, impacto despues de solucion | Credibilidad |
-| **Impact** | 19-23 min | I (Value) | "Como impacta [dolor] tu negocio? Si se resuelve, que significaria para ti personalmente?" | Racional + Emocional |
-| **Critical Event** | 23-25 min | CE | "Cuando necesitas esto? Que pasa si pierdes esa fecha?" | Test de urgencia |
-| **Decision** | 25-28 min | D | "Has comprado algo similar antes? Quien esta involucrado?" | Mapear proceso |
+| **Panorama** | 3-8 min | P (Closed) | "Estan en [industria], ~[X] empleados?", "Usando [CRM] actualmente?" | Contexto |
+| **Urgencia** | 8-15 min | U (Open) | "Directores como tu mencionan desafios con X, Y, Z. Que tan importante es [X] para ti?" | Escuchar emocion |
+| **Summarize** | 15-16 min | Playback | "Entonces tienes [Panorama] causando [Urgencia]... lo capture bien?" | Probar que escuchaste |
+| **Story** | 16-19 min | Hero's Journey | 3 partes: Situacion similar, dolor + consecuencia, logro despues de solucion | Credibilidad |
+| **Logro** | 19-23 min | L (Value) | "Como impacta [dolor] tu negocio? Si se resuelve, que significaria para ti personalmente?" | Racional + Emocional |
+| **Situación Crítica** | 23-25 min | S | "Cuando necesitas esto? Que pasa si pierdes esa fecha?" | Test de urgencia |
+| **Organización** | 25-28 min | O | "Has comprado algo similar antes? Quien esta involucrado?" | Mapear proceso |
 | **Close** | 28-30 min | Wagons | "Cubrimos tus goals? Listo para ver como resolvemos esto? Quien mas deberia unirse?" | Conectar al siguiente |
 
 ### Metricas de Discovery
 
 | Metrica | Target | Timeline |
 |---------|--------|----------|
-| SPICED completion | 90% capturan los 5 elementos | Semana 4 |
+| PULSO completion | 90% capturan los 5 elementos | Semana 4 |
 | Talk-to-listen ratio | 30% hablar / 70% escuchar | Semana 4 |
 | Story usage | 80% incluyen customer story | Semana 6 |
 | Impact quantified | 70% tienen $ impact en CRM | Semana 8 |
@@ -292,12 +292,12 @@ Playbooks situacionales para storytelling, trading, influencia de criterios, y a
 
 ### Seleccion de Tecnica por Situacion
 
-| Situacion | Sintoma | Tecnica | Blueprint |
+| Situacion | Sintoma | Tecnica | Framework |
 |-----------|---------|---------|-----------|
 | Prospect esceptico | "Como se que funciona?" | **Storytelling** (Hero's Journey 3 partes) | 22 |
 | Objecion de precio | "Muy caro" | **Trading** (no descuentos, 9 pasos) | 21 |
-| Comparando vendors | "Todos se ven iguales" | **Decision Criteria** influence | 23 |
-| Deal atorado | "Te llamamos despues" | **Critical Event** acceleration | 8 |
+| Comparando vendors | "Todos se ven iguales" | **Criterios de Organización** influence | 23 |
+| Deal atorado | "Te llamamos despues" | **Situación Crítica** acceleration | 8 |
 
 ### Trading Framework (9 Pasos)
 
@@ -329,14 +329,14 @@ Tres gates que determinan si avanzar o extender:
 | Gate | Dia | Criterios | Go | No-Go |
 |------|-----|-----------|-----|-------|
 | **Gate 1**: Foundation Complete | 30 | ICP validado, TAL operacional, Playbook v1.0 live | Proceder a Process Deployment | Extender foundation 1 semana |
-| **Gate 2**: Process Deployed | 60 | Discovery: 90% SPICED, Demo: 80% customization, Metricas fluyendo | Proceder a Optimization | Training remedial, delay 1 semana |
+| **Gate 2**: Process Deployed | 60 | Discovery: 90% PULSO, Demo: 80% customization, Metricas fluyendo | Proceder a Optimization | Training remedial, delay 1 semana |
 | **Gate 3**: Optimization Complete | 90 | Tecnicas avanzadas en uso, coaching operacional, performance mejorando | Escalar al equipo completo | Extender optimization, root cause analysis |
 
 ---
 
 ## Cadencia de Mejora Continua
 
-- **Diaria**: Tracking de actividades rep, monitoreo de SPICED completion
+- **Diaria**: Tracking de actividades rep, monitoreo de PULSO completion
 - **Semanal**: Pipeline review, coaching 1-on-1s, analisis de metricas
 - **Mensual**: Updates al playbook, gaps de training, performance review
 - **Trimestral**: ICP refresh (20% de TAL), ajuste de estrategia, planeacion anual

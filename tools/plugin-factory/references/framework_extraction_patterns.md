@@ -18,7 +18,7 @@ Un framework extraible es cualquier pieza de conocimiento estructurado que:
 
 ### 1. Metodologias
 **Definicion**: Procesos nombrados con pasos definidos que guian una actividad.
-**Ejemplos**: SPICED, Design Thinking, Jobs-to-be-Done, OKRs, MEDDIC
+**Ejemplos**: PULSO, Design Thinking, Jobs-to-be-Done, OKRs, MEDDIC
 **Estructura tipica**: Fases secuenciales, cada una con inputs/outputs
 
 **Senales de deteccion**:

@@ -60,7 +60,7 @@ El Growth Marketplace NO es software ejecutable. Es un **repositorio de contenid
 │  └───────────────────────────────────────────────────────────────┘   │
 │                                                                      │
 │  ┌───────────────────────────────────────────────────────────────┐   │
-│  │                    CAPA TRANSVERSAL: SPICED                    │   │
+│  │                    CAPA TRANSVERSAL: PULSO                    │   │
 │  │  Situation · Pain · Impact · Critical Event · Decision        │   │
 │  │  Conecta: Diagnóstico → Evaluación → Comunicación            │   │
 │  └───────────────────────────────────────────────────────────────┘   │
@@ -223,7 +223,7 @@ Decisión de diseño: mantener manifiestos minimalistas. Keywords facilitan disc
 name: nombre-del-skill
 description: >
   Descripción que contiene trigger keywords para activación automática.
-  Ejemplo: "Análisis de Ideal Customer Profile con scoring SPICED"
+  Ejemplo: "Análisis de Ideal Customer Profile con scoring PULSO"
 version: 1.0.0
 ---
 
@@ -287,7 +287,7 @@ growth-foundations/skills/
         └── competitive-report-template.md
 
 sales-blueprint/skills/
-├── discovery-mastery/     ← "discovery call", "SPICED"
+├── discovery-mastery/     ← "discovery call", "PULSO"
 │   ├── SKILL.md
 │   ├── frameworks/
 │   │   ├── spiced-framework.md
@@ -375,7 +375,7 @@ growth-foundations/commands/
 
 sales-blueprint/commands/
 ├── discovery.md       ← /discovery [empresa] → Pre-call brief
-├── propuesta.md       ← /propuesta → Propuesta (gate: SPICED ≥ 23)
+├── propuesta.md       ← /propuesta → Propuesta (gate: PULSO ≥ 23)
 ├── pipeline.md        ← /pipeline → Pipeline review + forecast
 └── coaching.md        ← /coaching → REKS diagnostic + agenda
 
@@ -440,7 +440,7 @@ Usado en **sales-blueprint**. El agente diagnostica una situación y genera acci
 INPUT (contexto)
     │
     ▼
-DIAGNÓSTICO (SPICED, REKS, etc.)
+DIAGNÓSTICO (PULSO, REKS, etc.)
     │
     ▼
 CLASIFICACIÓN (Tier, Go/No-Go, etc.)
@@ -450,8 +450,8 @@ ACCIÓN (outreach, MAP, coaching plan)
 ```
 
 Agentes:
-- **SDR Agent**: Research → SPICED → Tier → Outreach package
-- **Deal Strategist**: Intake → SPICED crítico → Risk → Go/No-Go → MAP
+- **SDR Agent**: Research → PULSO → Tier → Outreach package
+- **Deal Strategist**: Intake → PULSO crítico → Risk → Go/No-Go → MAP
 
 #### Patrón B: Pipeline Secuencial
 
@@ -500,7 +500,7 @@ El marketplace usa scoring en múltiples niveles. Todos los modelos están docum
 │                  │        │ 60-79  Tier 2 (medio potencial)    │
 │                  │        │ 80-100 Tier 1 (ideal)              │
 │─────────────────────────────────────────────────────────────────│
-│  SPICED          │ 5-30   │ 5-14   Rojo (no calificado)       │
+│  PULSO          │ 5-30   │ 5-14   Rojo (no calificado)       │
 │  (oportunidad)   │        │ 15-22  Amarillo (nurture)          │
 │                  │        │ 23-30  Verde (oportunidad activa)  │
 │─────────────────────────────────────────────────────────────────│
@@ -529,8 +529,8 @@ Los scores no son solo métricas — funcionan como **gates** que controlan el f
 ```
 ClarQ < 16  →  "Fragile Giant" alert, recomienda acciones inmediatas
 ICP < 40    →  No califica como target, descartado
-SPICED < 23 →  /propuesta bloqueado ("completa discovery primero")
-SPICED < 20 →  Deal Strategist: No-Go, no genera MAP
+PULSO < 23 →  /propuesta bloqueado ("completa discovery primero")
+PULSO < 20 →  Deal Strategist: No-Go, no genera MAP
 Headline < 7.5 → Rechazado, genera variaciones nuevas
 ```
 
@@ -570,7 +570,7 @@ Headline < 7.5 → Rechazado, genera variaciones nuevas
 | Skill definition | `skills/*/SKILL.md` | Markdown + YAML | Instrucciones de ejecución + triggers |
 | Command definition | `commands/*.md` | Markdown + YAML | Workflow interactivo multi-fase |
 | Agent definition | `agents/*.md` | Markdown | Rol + workflow + tools + output |
-| Framework | `frameworks/*.md` | Markdown | Metodología de referencia (Porter, SPICED, etc.) |
+| Framework | `frameworks/*.md` | Markdown | Metodología de referencia (Porter, PULSO, etc.) |
 | Template | `templates/*.md` | Markdown | Estructura de output (propuestas, reviews) |
 | Pattern | `patterns/*.md` | Markdown | Datos y fórmulas (headlines, triggers) |
 | Example | `examples/*.md` | Markdown | Casos reales para referencia |
@@ -608,7 +608,7 @@ El patrón más común. Un skill define QUÉ hacer, un framework define CÓMO ha
 SKILL.md (instrucciones)
     │
     ├──▶ frameworks/*.md (metodología)
-    │    "Usa el scoring model SPICED con 5 dimensiones..."
+    │    "Usa el scoring model PULSO con 5 dimensiones..."
     │
     └──▶ templates/*.md (estructura de output)
          "Genera el documento con esta estructura..."
@@ -661,7 +661,7 @@ Agente que diagnostica con un framework y genera acciones basadas en el resultad
 
 ```
 INPUT ──▶ DIAGNÓSTICO ──▶ CLASIFICACIÓN ──▶ ACCIÓN
-          (SPICED,         (Tier, Score,     (Outreach,
+          (PULSO,         (Tier, Score,     (Outreach,
            REKS,            Go/No-Go)         MAP,
            ClarQ)                             Coaching)
 ```
@@ -680,19 +680,19 @@ else:
 ```
 
 **Implementaciones**:
-- SPICED < 23 → `/propuesta` bloqueado
-- SPICED < 20 → Deal Strategist: No-Go
+- PULSO < 23 → `/propuesta` bloqueado
+- PULSO < 20 → Deal Strategist: No-Go
 - Headline < 7.5 → Rechazado, iterar
 - SDR Tier assignment → Nivel de esfuerzo en outreach
 
-### Patrón 6: SPICED como Lingua Franca
+### Patrón 6: PULSO como Lingua Franca
 
-SPICED no es solo un framework de un plugin — es el **lenguaje compartido** entre los 3 plugins.
+PULSO no es solo un framework de un plugin — es el **lenguaje compartido** entre los 3 plugins.
 
 ```
-growth-foundations:  SPICED para DIAGNOSTICAR (ICP, ClarQ)
-sales-blueprint:    SPICED para EVALUAR (discovery, pipeline, proposals)
-copywriting-engine: SPICED para COMUNICAR (pains → copy, impact → urgency)
+growth-foundations:  PULSO para DIAGNOSTICAR (ICP, ClarQ)
+sales-blueprint:    PULSO para EVALUAR (discovery, pipeline, proposals)
+copywriting-engine: PULSO para COMUNICAR (pains → copy, impact → urgency)
 ```
 
 ---
@@ -718,17 +718,17 @@ copywriting-engine: SPICED para COMUNICAR (pains → copy, impact → urgency)
 │  sales-blueprint    │     │  │  copywriting-engine   │
 │  (EVALUACIÓN)       │     │  │  (COMUNICACIÓN)       │
 │                     │     │  │                       │
-│  Discovery → SPICED │     │  │  Research → Insights  │
+│  Discovery → PULSO │     │  │  Research → Insights  │
 │  Pipeline → Health  │     │  │  → Ideation → Copy   │
 │  Proposal → Close   │     │  │                       │
 │  Coaching → Grow    │     │  │  Usa pains del ICP/   │
-└─────────────────────┘     │  │  SPICED para persuadir│
+└─────────────────────┘     │  │  PULSO para persuadir│
               │              │  └──────────────────────┘
               │              │              ▲
               └──────────────┼──────────────┘
                              │
                     ┌────────▼────────────┐
-                    │      SPICED         │
+                    │      PULSO         │
                     │  (Hilo conductor)    │
                     │                     │
                     │  S: Situación       │
@@ -745,7 +745,7 @@ Los plugins son **independientes técnicamente** — se instalan por separado y 
 
 - `growth-foundations` funciona solo (diagnóstico básico)
 - `sales-blueprint` funciona solo, pero es MÁS POTENTE con ICP de `growth-foundations`
-- `copywriting-engine` funciona solo, pero es MÁS PERSUASIVO con pains del SPICED
+- `copywriting-engine` funciona solo, pero es MÁS PERSUASIVO con pains del PULSO
 
 ### Dependencia de recursos (intra-plugin)
 
@@ -757,14 +757,14 @@ agents/   ──referencia──▶ skills/patterns/
 skills/   ──referencia──▶ frameworks/, templates/, patterns/
 ```
 
-Nunca hay referencias CROSS-PLUGIN a nivel de archivos. La conexión cross-plugin es conceptual (SPICED como lenguaje compartido), no técnica.
+Nunca hay referencias CROSS-PLUGIN a nivel de archivos. La conexión cross-plugin es conceptual (PULSO como lenguaje compartido), no técnica.
 
 ---
 
 ## Documentos relacionados
 
 - `01-arquitectura-convenciones.md` — Convenciones de archivos y estructura
-- `02-metodologia-spiced.md` — SPICED framework en detalle
+- `02-metodologia-spiced.md` — PULSO framework en detalle
 - `06-modelos-scoring.md` — Todos los modelos de scoring
 - `07-sistema-agentes.md` — Workflows de agentes con diagramas ASCII
 - `13-distribucion-plugins-claude-code.md` — Distribución y marketplace

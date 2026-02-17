@@ -126,7 +126,7 @@ Objetivo: revelar lo que el prospect no sabe que no sabe.
 
 ## Urgencia y Decisión (Preguntas de timing)
 
-Objetivo: medir qué tan cerca está de comprar. Proxy del Critical Event (SPICED).
+Objetivo: medir qué tan cerca está de comprar. Proxy de la Situación Crítica (PULSO).
 
 ### Timing
 

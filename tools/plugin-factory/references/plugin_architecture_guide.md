@@ -100,7 +100,7 @@ agent.md con:
 ```
 
 **Nota**: Un framework complejo puede generar multiples componentes. Ejemplo:
-- SPICED genera: 1 skill (referencia), 1 command (/discovery), 1 agent (sdr-agent)
+- PULSO genera: 1 skill (referencia), 1 command (/discovery), 1 agent (sdr-agent)
 - Esto es normal y deseable — cada componente tiene un rol distinto.
 
 ---
@@ -194,4 +194,4 @@ description: |
 - Titulos en espanol: "Workshop de ICP", "Analisis Competitivo"
 - Secciones estandar en espanol: "Cuando usar", "Proceso", "Ejemplo real"
 - Tablas con headers en espanol o ingles segun el contexto tecnico
-- SPICED dimensions siempre en ingles (es el nombre propio del framework)
+- PULSO dimensions siempre en ingles (es el nombre propio del framework)

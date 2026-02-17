@@ -36,14 +36,14 @@ SI es:
 
 ### Paso 1: Entender los tipos de impacto del cliente
 
-Usa SPICED para descubrir multiples tipos de impacto:
+Usa PULSO para descubrir multiples tipos de impacto:
 
 ```
-S → Situacion actual del cliente
-P → Dolor especifico que quieren resolver
-I → Impactos que quieren lograr (RACIONAL + EMOCIONAL)
-CE → Para cuando lo necesitan?
-D → Quien esta involucrado en la decision de exito?
+P → Panorama actual del cliente
+U → Urgencia especifica que quieren resolver
+L → Logros que quieren lograr (RACIONAL + EMOCIONAL)
+S → Para cuando lo necesitan? (Situación Crítica)
+O → Quien esta involucrado en la organización de exito?
 ```
 
 **Preguntas clave para definir First Impact**:
@@ -67,7 +67,7 @@ Los clientes tendran multiples metas de impacto. Para elegir el First Impact:
 Documentar en el Joint Impact Plan:
 - **QUE**: Definicion clara del First Impact
 - **COMO**: Pasos necesarios para lograrlo
-- **CUANDO**: Fecha objetivo (Critical Event)
+- **CUANDO**: Fecha objetivo (Situación Crítica)
 - **QUIEN**: Responsables de ambos lados
 - **MEDICION**: Como sabremos que se logro?
 
@@ -88,7 +88,7 @@ Documentar en el Joint Impact Plan:
 ```
 KICKOFF                                           FIRST IMPACT ACHIEVED
   │                                                        │
-  ├──> Definir First Impact (SPICED)                       │
+  ├──> Definir First Impact (PULSO)                        │
   │    "Que quieren lograr? Para cuando?"                  │
   │                                                        │
   ├──> Alinear implementacion                              │
@@ -162,4 +162,4 @@ First Impact → Drive Impact (A1) → Recurring Impact → Expansion
 
 ---
 
-*Fuente: Blueprint #05 — First Impact + Blueprint #06 — CS Operating Model (O4), Winning by Design*
+*Fuente: First Impact + CS Operating Model (O4), Metodología GrowthOS*

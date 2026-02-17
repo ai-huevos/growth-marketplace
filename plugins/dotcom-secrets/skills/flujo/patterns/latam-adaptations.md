@@ -140,7 +140,7 @@ WhatsApp Opt-in (lead magnet via WA)
     ↓
 Relationship Building (contenido + interacciones 1:1)
     ↓
-Discovery Call (video call, diagnostico SPICED)
+Discovery Call (video call, diagnostico PULSO)
     ↓
 Pilot Project (proyecto acotado de 30-60 dias)
     ↓

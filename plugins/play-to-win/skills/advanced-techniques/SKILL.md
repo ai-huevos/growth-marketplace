@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Advanced Techniques
 
-Tecnicas situacionales para desafios de deals en etapas avanzadas. Tres armas para cuando los deals se estancan: aceleracion de critical events, trading (nunca descuentos), e influencia en criterios de decision. Basado en los Blueprints 08, 21, y 23 de Winning by Design.
+Tecnicas situacionales para desafios de deals en etapas avanzadas. Tres armas para cuando los deals se estancan: aceleracion de critical events, trading (nunca descuentos), e influencia en criterios de decision. Basado en los conceptos de Aceleracion de Eventos Criticos, Trading sin Negociar, e Influencia en Criterios de Decision de la Metodología GrowthOS.
 
 Este skill es para vendedores experimentados que ya completaron discovery y necesitan cerrar. No es un framework de inicio — es un arsenal de cierre.
 
@@ -68,7 +68,7 @@ Las tecnicas avanzadas no son trucos de cierre — son la disciplina de controla
 
 ---
 
-## Pilar 1: Critical Event Acceleration (Blueprint #08)
+## Pilar 1: Critical Event Acceleration
 
 Un critical event es tan importante que impulsa una decision — de lo contrario, las consecuencias son negativas. No es un deadline arbitrario del vendedor; es una fecha real del negocio del comprador.
 
@@ -92,7 +92,7 @@ Tiempo ────────────────────────�
 
 ### Los 4 tipos de comprador
 
-| # | Situacion del comprador | Comportamiento | Que hacer como vendedor |
+| # | Panorama del comprador | Comportamiento | Que hacer como vendedor |
 |---|------------------------|----------------|------------------------|
 | 1 | **No ha experimentado el problema** | Curiosidad superficial, sin urgencia | **Educar** con referencias de terceros, casos similares, datos de industria |
 | 2 | **Reconoce la severidad, necesita solucion** | Busca activamente, compara opciones | **Asistir** en el proceso de trade-offs, guiar la evaluacion |
@@ -105,7 +105,7 @@ La tecnica de 2+1 preguntas:
 
 1. **"Cuando necesitas esto en funcionamiento?"** — Establece la fecha
 2. **"Que pasa si no llegas a esa fecha?"** — Establece la consecuencia
-3. **"Si necesitas esto para {fecha} para obtener {impacto} o enfrentar {consecuencia}... como podemos ayudarte?"** — Posicionate como facilitador
+3. **"Si necesitas esto para {fecha} para obtener {logro} o enfrentar {consecuencia}... como podemos ayudarte?"** — Posicionate como facilitador
 
 Despues: trabaja hacia atras desde esa fecha (pelar la cebolla).
 
@@ -129,7 +129,7 @@ Despues de establecer el CE, enviar un email standalone (no enterrado en un foll
 
 > **Subject**: Confirmacion: {solucion} en funcionamiento para {fecha CE}
 >
-> Resumen de lo acordado: necesitan {solucion} funcionando para {fecha} para {impacto}, o enfrentan {consecuencia}. Timeline de trabajo hacia atras adjunto. Siguiente paso: {accion} para {fecha}.
+> Resumen de lo acordado: necesitan {solucion} funcionando para {fecha} para {logro}, o enfrentan {consecuencia}. Timeline de trabajo hacia atras adjunto. Siguiente paso: {accion} para {fecha}.
 
 ### Test de los 90 dias
 
@@ -141,7 +141,7 @@ Para el framework completo, ver `frameworks/critical-event-acceleration.md`.
 
 ---
 
-## Pilar 2: Trading, No Negotiating (Blueprint #21)
+## Pilar 2: Trading, No Negotiating
 
 Negociar implica compromiso, regateo, y descuentos. Tradear significa que ambas partes estan del mismo lado de la mesa encontrando una solucion juntas.
 
@@ -194,7 +194,7 @@ Para el framework completo y menu de trade options, ver `frameworks/trading-not-
 
 ---
 
-## Pilar 3: Decision Criteria Influence (Blueprint #23)
+## Pilar 3: Decision Criteria Influence
 
 La mayoria de los prospects tienen un proceso de decision arbitrario. Tu trabajo es guiar ese proceso usando tu experiencia (lo haces docenas de veces al mes; ellos lo hacen una vez cada anos).
 
@@ -203,7 +203,7 @@ La mayoria de los prospects tienen un proceso de decision arbitrario. Tu trabajo
 1. **Establecer criterios** — Con los usuarios finales, no solo el comprador economico
 2. **Identificar opciones** — Tu, competidores, sustitutos, status quo
 3. **Rankear opciones** — Honestamente, por criterio
-4. **Determinar impacto** — Traducir cada criterio a impacto de negocio medible
+4. **Determinar logro** — Traducir cada criterio a logro de negocio medible
 
 ### 3 tacticas para mejorar tu posicion
 
@@ -215,14 +215,14 @@ La mayoria de los prospects tienen un proceso de decision arbitrario. Tu trabajo
 
 ### Trade-off Matrix
 
-El precio **casi siempre** tiene el menor impacto real en el negocio. Stack rank por impacto:
+El precio **casi siempre** tiene el menor logro real en el negocio. Stack rank por logro:
 
 ```
 1. Performance     → +$2,000/mes revenue
 2. Feature X       → +$1,500/mes revenue
 3. Integracion     → -$15K one-time + $500/mes
 4. Soporte         → SLA 2 horas respuesta
-═══════════════════ Umbral de impacto mayor ═══
+═══════════════════ Umbral de logro mayor ═══
 5. Precio          → -$500/mes costo
 ```
 
@@ -232,15 +232,15 @@ Para el framework completo con coaching semanal, ver `frameworks/decision-criter
 
 ## Cuando Usar Cada Tecnica
 
-| Situacion del deal | Tecnica principal | Tecnica de apoyo | Por que |
+| Panorama del deal | Tecnica principal | Tecnica de apoyo | Por que |
 |-------------------|------------------|------------------|---------|
 | Deal estancado sin urgencia | **Critical Event** | Decision Criteria | Necesitas crear urgencia real antes de cualquier otra cosa |
 | Prospect pidiendo descuento | **Trading** | Critical Event | El CE da leverage; el trade preserva valor |
 | Evaluacion con criterios desfavorables | **Decision Criteria** | Trading | Primero cambia los criterios, luego estructura el deal |
 | Prospect "se fue oscuro" | **Critical Event** (diagnostico) | — | Determina si es tipo 3 (NO BID) o tipo 4 (asistir) |
-| Multiples stakeholders con criterios diferentes | **Decision Criteria** | Trading | Alinea criterios por impacto, luego presenta opciones |
+| Multiples stakeholders con criterios diferentes | **Decision Criteria** | Trading | Alinea criterios por logro, luego presenta opciones |
 | Propuesta final antes de firma | **Trading** (9 pasos) | Critical Event | El checklist de 9 pasos + CE date como deadline natural |
-| Competidor con precio mas bajo | **Decision Criteria** (DEPRIORITIZE) | Trading | Demuestra que el impacto de otros criterios supera el precio |
+| Competidor con precio mas bajo | **Decision Criteria** (DEPRIORITIZE) | Trading | Demuestra que el logro de otros criterios supera el precio |
 | Renovacion con riesgo de churn | **Critical Event** + **Trading** | Decision Criteria | CE de renovacion + trade options multi-estructura |
 
 ---
@@ -264,7 +264,7 @@ Al usar este skill, el vendedor deberia producir:
 
 1. **Critical Event Planner** — Documento con CE date, backward timeline, email de confirmacion, buyer type diagnosticado. Usar template `templates/critical-event-planner.md`
 2. **Trade Deal Configuration** — 3 opciones de deal, menu de trade items, checklist de 9 pasos preparado. Usar template `templates/trade-deal-configurator.md`
-3. **Decision Criteria Table** — Criterios rankeados por impacto con tacticas aplicadas (DEPRIORITIZE/INSERT/IMPROVE)
+3. **Decision Criteria Table** — Criterios rankeados por logro con tacticas aplicadas (DEPRIORITIZE/INSERT/IMPROVE)
 4. **Estrategia integrada** — Plan que conecta los 3 pilares para el deal especifico
 
-Cada output usa SPICED como lenguaje comun: el Pain del discovery informa el impacto del CE, el Impact justifica el precio en el trade, y el Critical Event establece la urgencia para la decision.
+Cada output usa PULSO como lenguaje comun: la Urgencia del discovery informa el logro del CE, el Logro justifica el precio en el trade, y la Situación Crítica establece la urgencia para la decision.

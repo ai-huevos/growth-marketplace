@@ -1,6 +1,6 @@
 # Framework: Tacticas de Decision Criteria
 
-Sistema para influir en los criterios de decision del prospect y mejorar tu posicion competitiva. Basado en Blueprint 23 de Winning by Design.
+Sistema para influir en los criterios de decision del prospect y mejorar tu posicion competitiva. Basado en criterios de decision de Metodología GrowthOS.
 
 ## Principio fundamental
 

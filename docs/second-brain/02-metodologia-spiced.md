@@ -1,16 +1,16 @@
-# Metodología SPICED — El Lenguaje Común del Marketplace
+# Metodología PULSO — El Lenguaje Común del Marketplace
 
-## Qué es SPICED
+## Qué es PULSO
 
-SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje común entre ventas, CS y liderazgo para evaluar oportunidades. En el Growth Marketplace, SPICED es el hilo conductor que conecta los 5 plugins — desde diagnóstico (growth-foundations) hasta ejecución de ventas (sales-blueprint), comunicación (copywriting-engine), funnels (dotcom-secrets), y orquestación de proyectos (conversational-pm).
+PULSO es el framework de diagnóstico de Metodología GrowthOS. Es el lenguaje común entre ventas, CS y liderazgo para evaluar oportunidades. En el Growth Marketplace, PULSO es el hilo conductor que conecta los 5 plugins — desde diagnóstico (growth-foundations) hasta ejecución de ventas (sales-blueprint), comunicación (copywriting-engine), funnels (dotcom-secrets), y orquestación de proyectos (conversational-pm).
 
 ## Principio Fundamental
 
-> "SPICED no es un checklist — es un diagnóstico. Cada dimensión revela una capa de la oportunidad. Sin las 5 dimensiones, no tienes un deal, tienes una esperanza."
+> "PULSO no es un checklist — es un diagnóstico. Cada dimensión revela una capa de la oportunidad. Sin las 5 dimensiones, no tienes un deal, tienes una esperanza."
 
 ## Las 5 Dimensiones
 
-### S — Situation (Hechos y Contexto)
+### P — Panorama (Hechos y Contexto)
 
 **Qué capturar**: Datos objetivos sobre el prospect. No opiniones, hechos.
 
@@ -29,7 +29,7 @@ SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje com�
 - **4**: Entendemos estructura organizacional + contexto reciente
 - **5**: Tenemos visión completa incluyendo iniciativas estratégicas y presupuesto
 
-### P — Pain (Dolor)
+### U — Urgencia (Dolor)
 
 **Qué capturar**: El dolor tiene DOS componentes obligatorios.
 
@@ -49,7 +49,7 @@ SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje com�
 - **4**: Dolor cuantificado con métricas claras
 - **5**: Dolor cuantificado + impacto emocional + el prospect lo siente urgente
 
-### I — Impact (Impacto)
+### L — Logro (Impacto)
 
 **Qué capturar**: Cómo impactas el negocio del prospect. Dos niveles obligatorios.
 
@@ -69,7 +69,7 @@ SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje com�
 - **4**: Impact racional + emocional articulados
 - **5**: Impact cuantificado, validado por el prospect, conectado con OKRs/metas
 
-### CE — Critical Event (Evento Crítico)
+### SC — Situación Crítica (Evento Crítico)
 
 **Qué capturar**: La fecha límite. Sin fecha límite, no hay urgencia. Sin urgencia, no hay deal.
 
@@ -88,7 +88,7 @@ SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje com�
 - **4**: Fecha específica con consecuencias claras
 - **5**: Fecha específica + consecuencias graves + múltiples stakeholders presionando
 
-### D — Decision (Proceso de Decisión)
+### O — Organización (Proceso de Decisión)
 
 **Qué capturar**: Cómo compra esta empresa. No asumas — pregunta.
 
@@ -131,36 +131,36 @@ SPICED es el framework de diagnóstico de Winning by Design. Es el lenguaje com�
 | 15-22 | Nurture | Seguir educando. No hay urgencia real. Revisar mensualmente. |
 | 23-30 | Oportunidad activa | Avanzar en pipeline. Asignar AE. Crear mutual action plan. |
 
-## Cómo SPICED Conecta los Plugins
+## Cómo PULSO Conecta los Plugins
 
 ### En growth-foundations
-- **ICP Analysis**: Usa SPICED para construir el scoring model del ICP (Pain Match, Impact Potential, Decision Readiness, Critical Event son 4 de las 5 categorías de scoring)
+- **ICP Analysis**: Usa PULSO para construir el scoring model del ICP (Pain Match, Impact Potential, Decision Readiness, Critical Event son 4 de las 5 categorías de scoring)
 - **/diagnostico (ClarQ)**: Evalúa la madurez operacional que determina si una empresa PUEDE implementar soluciones (conectado con Situation y Capabilities)
 
 ### En sales-blueprint
-- **Discovery Mastery**: SPICED es el framework central de discovery. ACE opening → SPICED diagnóstico → 7 Momentos
-- **Pipeline Management**: Cada deal se evalúa con SPICED score para determinar salud del pipeline
-- **Proposal Generation**: Requiere SPICED >= 23 para generar propuesta. La propuesta refleja el diagnóstico SPICED
-- **Coaching Cadence**: REKS diagnostica performance, SPICED evalúa la calidad del discovery que hace el rep
-- **SDR Agent**: Construye hipótesis SPICED pre-contacto basada en research
-- **Deal Strategist**: Analiza SPICED con escepticismo profesional para identificar gaps
+- **Discovery Mastery**: PULSO es el framework central de discovery. ACE opening → PULSO diagnóstico → 7 Momentos
+- **Pipeline Management**: Cada deal se evalúa con PULSO score para determinar salud del pipeline
+- **Proposal Generation**: Requiere PULSO >= 23 para generar propuesta. La propuesta refleja el diagnóstico PULSO
+- **Coaching Cadence**: REKS diagnostica performance, PULSO evalúa la calidad del discovery que hace el rep
+- **SDR Agent**: Construye hipótesis PULSO pre-contacto basada en research
+- **Deal Strategist**: Analiza PULSO con escepticismo profesional para identificar gaps
 
 ### En copywriting-engine
-- El research de audiencia mapea directamente a Pain y Impact de SPICED
-- Los triggers psicológicos se seleccionan según la dimensión SPICED más fuerte del prospect
-- Las landing pages traducen el diagnóstico SPICED en copy de conversión
+- El research de audiencia mapea directamente a Pain y Impact de PULSO
+- Los triggers psicológicos se seleccionan según la dimensión PULSO más fuerte del prospect
+- Las landing pages traducen el diagnóstico PULSO en copy de conversión
 
 ### En dotcom-secrets
-- **ESCALA** (value ladder) se alinea con el journey SPICED: BAIT captura Situation, FRONTEND valida Pain, MIDDLE demuestra Impact, BACKEND resuelve Decision
-- **FLUJO** fase 1 (temperatura de tráfico) mapea al nivel de información SPICED disponible: tráfico frío = Situation baja, caliente = SPICED completo
-- **Funnel Architect**: Usa datos de negocio como proxy de SPICED para diseñar funnels con métricas objetivo por stage
+- **ESCALA** (value ladder) se alinea con el journey PULSO: BAIT captura Situation, FRONTEND valida Pain, MIDDLE demuestra Impact, BACKEND resuelve Decision
+- **FLUJO** fase 1 (temperatura de tráfico) mapea al nivel de información PULSO disponible: tráfico frío = Situation baja, caliente = PULSO completo
+- **Funnel Architect**: Usa datos de negocio como proxy de PULSO para diseñar funnels con métricas objetivo por stage
 
 ### En conversational-pm
-- SPICED se usa como framework de **project discovery**: el PM agent diagnostica el proyecto del cliente usando las 5 dimensiones
+- PULSO se usa como framework de **project discovery**: el PM agent diagnostica el proyecto del cliente usando las 5 dimensiones
 - Situation = contexto del negocio, Pain = problemas operativos, Impact = ROI esperado, Critical Event = deadlines del proyecto, Decision = stakeholders y aprobaciones
-- Los dashboards de 3 niveles reportan salud del proyecto usando indicadores inspirados en SPICED scoring
+- Los dashboards de 3 niveles reportan salud del proyecto usando indicadores inspirados en PULSO scoring
 
-## Los 5 Errores Comunes con SPICED
+## Los 5 Errores Comunes con PULSO
 
 1. **Confundir Situation con Pain**: Situation son hechos ("tienen 3,000 empleados"). Pain es sufrimiento ("están perdiendo $2M/año por breaches").
 2. **Impact sin emoción**: Solo capturar el racional ("ahorra $500K") sin el emocional ("el CISO será el héroe").

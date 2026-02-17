@@ -6,13 +6,13 @@ version: 1.0.0
 
 # Quiz Funnel
 
-Framework para diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables, basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con SPICED.
+Framework para diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables, basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con PULSO.
 
 ## Filosofía: Diagnostica, No Asumas
 
 El ASK Method parte de un principio simple: **tu mercado sabe mejor que tú qué necesita** — pero no te lo va a decir directamente. Necesitas preguntarle de la forma correcta.
 
-Esto conecta directamente con SPICED: en lugar de asumir el dolor del prospect, **pregúntale**. El quiz funnel es la extensión digital del discovery call — escala la conversación de 1:1 a 1:miles.
+Esto conecta directamente con PULSO: en lugar de asumir el dolor del prospect, **pregúntale**. El quiz funnel es la extensión digital del discovery call — escala la conversación de 1:1 a 1:miles.
 
 ## Del Discovery Call al Quiz Funnel
 
@@ -21,7 +21,7 @@ Esto conecta directamente con SPICED: en lugar de asumir el dolor del prospect, 
 | 1:1, alta profundidad | 1:miles, profundidad suficiente |
 | 30-60 minutos | 2-5 minutos |
 | Califica un prospect | Segmenta un mercado |
-| SPICED completo | SPICED proxy (Situation + Pain) |
+| PULSO completo | PULSO proxy (Panorama + Urgencia) |
 | Resultado: deal calificado | Resultado: bucket + lead capturado |
 
 El quiz no reemplaza el discovery call — **lo precalifica**. Un prospect que llega a la call ya segmentado en un bucket permite una conversación más profunda desde el minuto uno.
@@ -103,7 +103,7 @@ El quiz funnel tiene 3 modos de uso con discovery calls:
 Cada bucket se evalúa con un score de 0-100 para priorizar cuál construir primero:
 
 ```
-Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decision × 0.15) + (Pain × 0.10)
+Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Organización × 0.15) + (Urgencia × 0.10)
 ```
 
 | Score | Tier | Acción |
@@ -115,15 +115,15 @@ Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decisio
 
 Para el scorecard completo con criterios de evaluación, leer `templates/bucket-scorecard.md`.
 
-## Integración SPICED
+## Integración PULSO
 
-| SPICED | Conexión con Quiz Funnel |
+| PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
-| **Situation** | El bucket define la situación del prospect dentro del ICP |
-| **Pain** | El SMIQ descubre el dolor core; los buckets segmentan variaciones de dolor |
-| **Impact** | La outcome page comunica el impacto de resolver el dolor del bucket |
-| **Critical Event** | Preguntas de urgencia funcionan como proxy del critical event |
-| **Decision** | Preguntas de presupuesto/proceso funcionan como proxy de decision readiness |
+| **Panorama** | El bucket define la situación del prospect dentro del ICP |
+| **Urgencia** | El SMIQ descubre el dolor core; los buckets segmentan variaciones de dolor |
+| **Logro** | La outcome page comunica el impacto de resolver el dolor del bucket |
+| **Situación Crítica** | Preguntas de urgencia funcionan como proxy de la situación crítica |
+| **Organización** | Preguntas de presupuesto/proceso funcionan como proxy de decision readiness |
 
 ## Conexiones con otros skills
 

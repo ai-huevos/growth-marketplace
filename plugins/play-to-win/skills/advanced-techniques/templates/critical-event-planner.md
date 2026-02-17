@@ -22,16 +22,15 @@ Template para establecer, documentar, y acelerar critical events en deals activo
 | **Competidores identificados** | ___ |
 | **Ultima interaccion** | ___ |
 
-### Resumen SPICED del deal
+### Resumen PULSO del deal
 
 | Dimension | Detalle |
 |-----------|---------|
-| **S** (Situation) | ___ |
-| **P** (Pain) | ___ |
-| **I** (Impact) | ___ |
-| **C** (Critical Event) | ___ |
-| **E** (Decision process) | ___ |
-| **D** (Decision criteria) | ___ |
+| **P** (Panorama) | ___ |
+| **U** (Urgencia) | ___ |
+| **L** (Logro) | ___ |
+| **S** (Situación Crítica) | ___ |
+| **O** (Organización — proceso y criterios) | ___ |
 
 ---
 
@@ -315,8 +314,8 @@ Pasos concretos para llegar desde el estado actual hasta el CE date:
 | **Plugin** | play-to-win |
 | **Skill** | advanced-techniques |
 | **Framework de referencia** | `frameworks/critical-event-acceleration.md` |
-| **Blueprint fuente** | Blueprint #08 — Critical Events |
+| **Concepto fuente** | Aceleracion de Eventos Criticos |
 | **Version** | 1.0.0 |
-| **Metodologia** | Winning by Design / SPICED |
+| **Metodologia** | Metodología GrowthOS / PULSO |
 | **Tiempo estimado** | 45-60 minutos |
-| **Prerequisitos** | Discovery completado, SPICED documentado, champion identificado |
+| **Prerequisitos** | Discovery completado, PULSO documentado, champion identificado |

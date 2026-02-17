@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Customer Success Operating Model
 
-Sistema operativo completo para Customer Success basado en la metodologia Winning by Design. Cubre el ciclo de vida post-venta completo: desde el handoff de ventas hasta la expansion y terminacion de cuentas. Construido sobre SPICED como lenguaje comun y el Impacto Recurrente como principio fundamental.
+Sistema operativo completo para Customer Success basado en la Metodología GrowthOS. Cubre el ciclo de vida post-venta completo: desde el handoff de ventas hasta la expansion y terminacion de cuentas. Construido sobre PULSO como lenguaje comun y el Impacto Recurrente como principio fundamental.
 
 > **Primer Principio**: El Revenue Recurrente es el RESULTADO del Impacto Recurrente. Si no entregas impacto, no retienes ni creces.
 
@@ -47,9 +47,9 @@ LeadGen → LeadDev → Sales → Commit → Onboard → Adopt → Expand
 | Elemento | Codigo | Descripcion |
 |----------|--------|-------------|
 | **El Journey (Bowtie)** | C1 | El journey end-to-end del cliente, desde lead generation hasta expansion |
-| **SPICED Framework** | C2 | Lenguaje diagnostico comun que conecta todas las interacciones con el cliente |
+| **PULSO Framework** | C2 | Lenguaje diagnostico comun que conecta todas las interacciones con el cliente |
 | **Impacto** | C3 | La realizacion de la promesa de valor — racional (cuantitativo) y emocional (cualitativo) |
-| **Critical Event** | C4 | Un evento que, si se pierde, tiene consecuencias negativas — impulsa decisiones y urgencia |
+| **Situación Crítica** | C4 | Un evento que, si se pierde, tiene consecuencias negativas — impulsa decisiones y urgencia |
 
 ### Dos Tipos de Impacto
 
@@ -72,14 +72,14 @@ La fase de onboarding es la mas critica del journey — establece la base de la 
 
 ### O1. Handoff a Customer Success
 
-**Objetivo**: Transferir efectivamente la informacion critica de la cuenta usando SPICED.
+**Objetivo**: Transferir efectivamente la informacion critica de la cuenta usando PULSO.
 
 El handoff de Sales a CS es el momento mas vulnerable del journey. Un mal handoff = cliente empieza de cero = frustracion = churn temprano.
 
 **Mejores practicas para un buen handoff**:
 
 1. **Completar el handoff lo mas cerca posible del commit** — mientras la informacion esta fresca
-2. **Transferir info critica usando SPICED**, incluyendo:
+2. **Transferir info critica usando PULSO**, incluyendo:
    - Estructura organizacional
    - Personas clave y sus roles
    - Red flags identificadas durante el proceso de ventas
@@ -93,7 +93,7 @@ El handoff de Sales a CS es el momento mas vulnerable del journey. Un mal handof
 **Secuencia del handoff**:
 1. PREPARE → Debrief call con el rep de ventas (o revisar CRM)
 2. SETUP → ACE la llamada, preparar agenda, presentaciones mutuas
-3. SPICED → Verificar si la informacion es correcta, calcular el impacto real juntos, confirmar la fecha critica
+3. PULSO → Verificar si la informacion es correcta, calcular el impacto real juntos, confirmar la fecha critica
 4. STRATEGIZE → Determinar un plan para lograr el impacto
 5. CLOSE → Cerrar a tiempo, setup para la proxima reunion (WAGONS)
 6. FOLLOW-UP → No perder momentum, moverse rapido de una accion a otra
@@ -117,7 +117,7 @@ Ver framework completo en `frameworks/kickoff-orchestration.md`.
 **Estructura del kickoff**:
 1. PREPARE → Internal (revisar notas de Sales, preparar deck) + External (agendar, confirmar stakeholders)
 2. SETUP → ACE la llamada, agenda, presentaciones
-3. SPICED → Verificar y profundizar la informacion del handoff
+3. PULSO → Verificar y profundizar la informacion del handoff
 4. TEACHING MOMENTS → Compartir best practices, educar sobre valor adicional
 5. ONBOARDING REVIEW → Mapa visual de las etapas de onboarding
 6. JOINT IMPACT PLAN → Alinear en metas y crear el plan conjunto
@@ -142,10 +142,10 @@ El JIP es un documento orientado al cliente que guia todo el engagement. Es el a
 **Ciclo de vida del JIP**:
 - **DRAFT V1** → Durante o inmediatamente despues del handoff de Sales a CS
 - **FINALIZE V1** → Durante el kickoff, completar con el cliente (la participacion del cliente crea compromiso)
-- **REVIEW** → Cada 3-12 meses segun necesidad, usando SPICED para validar y actualizar
+- **REVIEW** → Cada 3-12 meses segun necesidad, usando PULSO para validar y actualizar
 - **SWING-THROUGH** → Cada 6 meses, rehacer el JIP completo para tener un plan fresco al momento de la renovacion
 
-**En cada revision del JIP usar SPICED para validar**:
+**En cada revision del JIP usar PULSO para validar**:
 - Metas de impacto que son medibles
 - Desafios con planes de mitigacion claros
 - Oportunidades y plan para avanzar
@@ -212,7 +212,7 @@ El impacto no sucede solo. Tres loops forman el Motor de Impacto:
 2. **Activity Loop** → Donde las actividades se traducen en impacto
 3. **Trigger Loop** → Permite surfear riesgos y oportunidades en una cuenta
 
-**El JIP orquesta** las diversas acciones que impulsan el impacto. Usa SPICED en todas las acciones para guiar la conversacion correcta.
+**El JIP orquesta** las diversas acciones que impulsan el impacto. Usa PULSO en todas las acciones para guiar la conversacion correcta.
 
 > **Error comun**: Asumir que el impacto que provees es obvio. NO es obvio. Se requiere esfuerzo persistente para compartir el impacto en todos los niveles del cliente y de tu propia organizacion.
 
@@ -235,11 +235,11 @@ Un EBR es MUCHO MAS que un resumen de reuniones operacionales pasadas. Debe usar
 
 1. **PREPARE** → Preparar historias de impacto relevantes a la experiencia actual del cliente
 2. **SETUP** → ACE la llamada con agenda y meta clara
-3. **SPICED** → Validar info critica de la cuenta, capturar actualizaciones
+3. **PULSO** → Validar info critica de la cuenta, capturar actualizaciones
 4. **STORY** → Usar historia de un cliente que no logro resultados pero cambio de estrategia y entrego impacto de negocio
 5. **IMPACT REVIEW** → Analizar si el impacto deseado fue logrado, establecer expectativas para futuro impacto
 6. **STORY + DEMO** → Usar historia relevante para inspirar, obtener quotes de impacto real de los ultimos meses
-7. **CLOSE** → Identificar nuevos critical events para los proximos 12 meses, actualizar JIP
+7. **CLOSE** → Identificar nuevas situaciones críticas para los proximos 12 meses, actualizar JIP
 8. **FOLLOW-UP** → Crear resumen de 5 minutos para audiencia mas amplia, mantener momentum
 
 **3 formas de entregar mas impacto**:
@@ -269,7 +269,7 @@ Los Trigger Plays siguen el formato **If This Then That (IFTTT)**:
 **Para cada trigger**:
 1. Ejecutar la accion probada contra el trigger
 2. Medir el impacto de las acciones tomadas
-3. Registrar el Trigger Play completado como una pocket story usando SPICED (referencia para otros miembros del equipo)
+3. Registrar el Trigger Play completado como una pocket story usando PULSO (referencia para otros miembros del equipo)
 
 **Ejemplo**:
 - **Trigger**: Si el Champion se va...
@@ -312,12 +312,12 @@ La renovacion NO es solo un momento operacional — es estrategico. Si has estad
 
 1. **PREPARE** → Entender necesidades originales y si han cambiado
 2. **SETUP** → ACE con agenda y meta
-3. **SPICED** → Confirmar situacion, validar por que vinieron originalmente
+3. **PULSO** → Confirmar panorama, validar por que vinieron originalmente
 4. **IMPACT** → Lograste el impacto? Siguen planeando usar el mismo impacto?
 5. **STORY** → Historia relevante de un cliente que cambio para lograr impacto
 6. **DEMO** → Demostrar nuevo impacto en contexto de su situacion/dolor
-7. **DECISION** → Identificar proceso, criterios de decision, y decision maker
-8. **CRITICAL EVENT** → Conectar el impacto con un KPI corporativo del cliente
+7. **ORGANIZACIÓN** → Identificar proceso, criterios de decision, y decision maker
+8. **SITUACIÓN CRÍTICA** → Conectar el impacto con un KPI corporativo del cliente
 9. **CLOSE/NEXT STEPS** → Acordar fecha de expiracion, confirmar que suena justo
 10. **FOLLOW-UP** → Mantener momentum, dar seguimiento inmediato
 
@@ -350,24 +350,24 @@ En un negocio de Revenue Recurrente, es vital crecer mas alla de lo que un clien
 3. WHITESPACE PLANNING → Cuantificar potencial de revenue
 4. ACCOUNT PLANNING → Detallar el approach
 5. STAKEHOLDERS → Identificar stakeholders, cada uno tiene su propio impacto emocional
-6. WORKSHOP → Tener impacto + critical event identificados antes de hacer un workshop
+6. WORKSHOP → Tener logro + situación crítica identificados antes de hacer un workshop
 7. EXPANSION EXECUTION → Cerrar la expansion
 
 ### E2. Whitespace Planning
 
-**Objetivo**: Usar Impacto y Critical Event para evaluar oportunidades de expansion.
+**Objetivo**: Usar Logro y Situación Crítica para evaluar oportunidades de expansion.
 
-La mayoria del whitespace planning se basa en Situacion (S) y Pain (P) — como ranking F500 o numero de empleados. En cambio, priorizar basado en:
+La mayoria del whitespace planning se basa en Panorama (P) y Urgencia (U) — como ranking F500 o numero de empleados. En cambio, priorizar basado en:
 
-- **Impacto**: Cuanto dinero ahorramos o revenue podemos crecer para el cliente?
-- **Critical Event**: Cual es la urgencia que impulsa el timeline de decision?
+- **Logro**: Cuanto dinero ahorramos o revenue podemos crecer para el cliente?
+- **Situación Crítica**: Cual es la urgencia que impulsa el timeline de decision?
 
 **Matriz de priorizacion**:
 
-| Producto | Impacto | Critical Event | Prioridad |
+| Producto | Logro | Situación Crítica | Prioridad |
 |----------|---------|---------------|-----------|
 | Producto A | Bajo — falta ROI | Algo de urgencia | Baja |
-| Producto B | Alto — claro beneficio | Tiene critical event | **ALTA** |
+| Producto B | Alto — claro beneficio | Tiene Situación Crítica | **ALTA** |
 | Producto C | Alto — gran impacto | Sin urgencia | Media |
 
 > El input de todas las personas que trabajan con el cliente mejora la precision de tu informacion.
@@ -377,16 +377,16 @@ La mayoria del whitespace planning se basa en Situacion (S) y Pain (P) — como 
 **Objetivo**: Coordinar todas las actividades de la cuenta alrededor de las metas del cliente.
 
 El Account Planning se simplifica a tres elementos:
-1. **Impacto** → Identificar el impacto racional que ganara el cliente
-2. **Critical Event** → Priorizar proyectos basados en critical events
-3. **Decision Process** → Quien esta involucrado y que les importa (impacto emocional)
+1. **Logro** → Identificar el logro racional que ganara el cliente
+2. **Situación Crítica** → Priorizar proyectos basados en situaciones críticas
+3. **Organización** → Quien esta involucrado y que les importa (impacto emocional)
 
 **Diferencia clave**: Mientras el JIP se construye con el cliente, el Account Plan es una herramienta INTERNA enfocada en las metas que tu empresa tiene para la cuenta.
 
 **Componentes del Account Plan**:
-- **Whitespace**: Potencial de gasto, gasto actual, otros proyectos, critical events, cuando contactar
+- **Whitespace**: Potencial de gasto, gasto actual, otros proyectos, situaciones críticas, cuando contactar
 - **Stakeholder Map**: A quien conocemos, que les importa, como estamos conectados, a quien debemos conocer
-- **Active Projects**: Proyecto, impacto, critical events, proceso de decision
+- **Active Projects**: Proyecto, logro, situaciones críticas, proceso de organización
 - **GTM Alignment**: Alinear equipos de Sales, CS, AMs, y Execs
 
 **Approach 3x3**: Identificar 3 oportunidades y 3 stakeholders para cada cuenta prioritaria.
@@ -463,32 +463,32 @@ Estructura para manejar cualquier reunion de forma efectiva:
 
 ### S2. Diagnose Sequence (Secuencia de Diagnostico)
 
-Guia paso a paso para diagnosticar consistentemente usando SPICED:
+Guia paso a paso para diagnosticar consistentemente usando PULSO:
 
 1. **OPEN** → ACE la llamada
-2. **SITUATION** → 2-3 preguntas puntuales en contexto del cliente
-3. **PAIN** → Escuchar, tomar notas, empatizar si el cliente ventea (pedir priorizar)
-4. **STORY** → Compartir historia de otra persona logrando impacto en la vida real
-5. **IMPACT** → Preguntar si resuena, como se compara este impacto con su negocio
-6. **CRITICAL EVENT** → "Cuando necesitas esto?" "Que pasa si pierdes esa fecha?"
-7. **DECISION** → Determinar los factores de decision
+2. **PANORAMA** → 2-3 preguntas puntuales en contexto del cliente
+3. **URGENCIA** → Escuchar, tomar notas, empatizar si el cliente ventea (pedir priorizar)
+4. **STORY** → Compartir historia de otra persona logrando logro en la vida real
+5. **LOGRO** → Preguntar si resuena, como se compara este logro con su negocio
+6. **SITUACIÓN CRÍTICA** → "Cuando necesitas esto?" "Que pasa si pierdes esa fecha?"
+7. **ORGANIZACIÓN** → Determinar los factores de decision
 8. **CLOSE** → Cerrar a tiempo, WAGONS
 
-### S3. Critical Event Blueprint
+### S3. Situación Crítica Blueprint
 
-**Un Critical Event tiene fecha Y consecuencias negativas si se pierde.** La diferencia con un Compelling Event es que este ultimo tiene fecha pero no urgencia.
+**Una Situación Crítica tiene fecha Y consecuencias negativas si se pierde.** La diferencia con un Compelling Event es que este ultimo tiene fecha pero no urgencia.
 
 - **Compelling Event**: "Tu fecha de renovacion es el 15 de septiembre." (evento sin urgencia)
-- **Critical Event**: "Tu fecha de renovacion es el 15 de septiembre, y si no se procesa, tu equipo tendra que volver a gestionar gastos en spreadsheets, perdiendo tiempo y creando riesgo de errores." (evento + consecuencia negativa)
+- **Situación Crítica**: "Tu fecha de renovacion es el 15 de septiembre, y si no se procesa, tu equipo tendra que volver a gestionar gastos en spreadsheets, perdiendo tiempo y creando riesgo de errores." (evento + consecuencia negativa)
 
-### S4. Critical Event Timeline
+### S4. Timeline de Situación Crítica
 
-Secuencia cronologica inversa de acciones necesarias para lograr el impacto:
+Secuencia cronologica inversa de acciones necesarias para lograr el logro:
 
-1. Identificar el Critical Event
+1. Identificar la Situación Crítica
 2. Establecer que pasa si se pierde el evento
-3. Listar los pasos que llevan al critical event (en orden cronologico inverso)
-4. El mensaje de critical event es un email corto y standalone — no puede ser parte de un email largo
+3. Listar los pasos que llevan a la situación crítica (en orden cronologico inverso)
+4. El mensaje de situación crítica es un email corto y standalone — no puede ser parte de un email largo
 
 ### S5. Navigating an Organization
 
@@ -498,10 +498,10 @@ Framework para entender como se toman decisiones dentro de una organizacion:
 |-----|---------|-----------|
 | **Initiator** | Reconoce situacion y dolor | Empieza la conversacion basado en el dolor que experimenta |
 | **User** | Provee insights practicos | Puede provocar la necesidad con el decision maker, insights de impacto medible |
-| **Champion** | Reconoce el impacto | Tiene una necesidad cuantificable, ayuda a identificar un proyecto con critical event |
-| **Gatekeeper** | Opone decisiones | Usa impacto y falta de prioridad para priorizar alternativas |
+| **Champion** | Reconoce el logro | Tiene una necesidad cuantificable, ayuda a identificar un proyecto con situación crítica |
+| **Gatekeeper** | Opone decisiones | Usa logro y falta de prioridad para priorizar alternativas |
 | **Influencer** | Neutraliza al gatekeeper | Provee insights educativos, ensena como superar al bloqueador |
-| **Decision Maker** | Toma la decision real | Prioriza el proyecto basado en impacto y critical event |
+| **Decision Maker** | Toma la decision real | Prioriza el proyecto basado en logro y situación crítica |
 | **Executive Buyer** | Grupo pequeno de ejecutivos | Grupo de 3-5 individuos que ayudan a determinar la prioridad |
 
 > **Regla**: El Decision Maker no puede solo imponer — causa resentimiento. El Influencer le ensena como superar al bloqueador.
@@ -510,8 +510,8 @@ Framework para entender como se toman decisiones dentro de una organizacion:
 
 Framework de 3 partes para contar historias en lugar de hacer pitch:
 
-1. **Situacion** → Describir una situacion similar de otro cliente (usar primer nombre, hacerlo personal). Correlacion: preparar la conexion antes de describir la solucion.
-2. **Pain** → Que paso cuando el problema quedo sin resolver? Consecuencias negativas de la inaccion. Causacion: el cliente experimento esto PORQUE no se tomo accion.
+1. **Panorama** → Describir una situacion similar de otro cliente (usar primer nombre, hacerlo personal). Correlacion: preparar la conexion antes de describir la solucion.
+2. **Urgencia** → Que paso cuando el problema quedo sin resolver? Consecuencias negativas de la inaccion. Causacion: el cliente experimento esto PORQUE no se tomo accion.
 3. **Impacto** → El impacto positivo de tu solucion. Los bajos hacen que los altos se sientan mas altos, haciendo la historia mas memorable.
 
 ---

@@ -15,7 +15,7 @@ El mapeo organizacional NO es un ejercicio de documentacion. Es una herramienta 
 ## Paso 1: Identificar Cuentas e Informacion Clave
 
 ### Objetivo
-Seleccionar las cuentas prioritarias y anclar el analisis en Impacts y Critical Events reales.
+Seleccionar las cuentas prioritarias y anclar el analisis en Logros y Situaciones Criticas reales.
 
 ### Como ejecutarlo
 
@@ -26,14 +26,14 @@ Seleccionar las cuentas prioritarias y anclar el analisis en Impacts y Critical 
 |-------|-------------|---------|
 | **Cuenta target** | Nombre de la cuenta que quieres mapear | ACME Corp |
 | **Win similar** | Cuenta que ganaste con perfil parecido | BetaTech |
-| **Impact principal** | El resultado de negocio que tu solucion entrega | Reduccion del 35% en ciclo de ventas |
-| **Critical Event** | Deadline o evento que genera urgencia | Cierre de Q4, board review en enero |
+| **Logro principal** | El resultado de negocio que tu solucion entrega | Reduccion del 35% en ciclo de ventas |
+| **Situación Crítica** | Deadline o evento que genera urgencia | Cierre de Q4, board review en enero |
 
-3. **Valida con tu equipo**: El Impact y el CE deben ser verificables, no supuestos
+3. **Valida con tu equipo**: El Logro y la SC deben ser verificables, no supuestos
 
 ### Por que empezar con un win similar
 - Te da un template de los roles que participaron en la decision
-- Sabes que Impact resono y con que stakeholders
+- Sabes que Logro resono y con que stakeholders
 - Puedes replicar la estrategia que funciono, adaptandola al nuevo contexto
 
 ---
@@ -77,7 +77,7 @@ Nivel 4:  User / Individual Contributor
 
 ---
 
-## Paso 3: Identificar Impact y Critical Event por Rol
+## Paso 3: Identificar Logro y Situación Crítica por Rol
 
 ### Objetivo
 Entender que le importa a CADA stakeholder individualmente, no solo a la organizacion en general.
@@ -86,14 +86,14 @@ Entender que le importa a CADA stakeholder individualmente, no solo a la organiz
 
 Para **minimo 3 roles clave** (pero no mas de 5), documenta:
 
-| Rol | Critical Event | Impact #1 (Racional) | Impact #2 (Emocional) |
+| Rol | Situación Crítica | Logro #1 (Racional) | Logro #2 (Emocional) |
 |-----|---------------|---------------------|----------------------|
-| CxO | Board review en Q1, necesita demostrar ROI de inversiones | Reducir CAC un 20% | Ser visto como innovador por el board |
-| VP Sales | Quota de fin de ano, equipo creciendo 2x | Acortar ciclo de venta | Que su equipo escale sin caos |
-| Manager Ops | Migracion de sistema legacy en 6 meses | Automatizar reportes manuales | No ser el cuello de botella del equipo |
+| CxO | Board review en Q1, necesita demostrar ROI de inversiones | Reducir CAC un 20% (Logro racional) | Ser visto como innovador por el board (Logro emocional) |
+| VP Sales | Quota de fin de ano, equipo creciendo 2x | Acortar ciclo de venta (Logro racional) | Que su equipo escale sin caos (Logro emocional) |
+| Manager Ops | Migracion de sistema legacy en 6 meses | Automatizar reportes manuales (Logro racional) | No ser el cuello de botella del equipo (Logro emocional) |
 
 ### Principio clave
-**Cada persona tiene su propio Impact y su propio Critical Event.** El CEO no se preocupa por lo mismo que el Manager de Ops. Si les hablas a todos con el mismo mensaje, pierdes con todos.
+**Cada persona tiene su propio Logro y su propia Situación Crítica.** El CEO no se preocupa por lo mismo que el Manager de Ops. Si les hablas a todos con el mismo mensaje, pierdes con todos.
 
 ### Impacto racional vs. emocional
 - **Racional**: Numeros, metricas, resultados de negocio (revenue, costo, eficiencia, riesgo)

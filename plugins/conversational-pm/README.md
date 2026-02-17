@@ -8,7 +8,7 @@ Growth Diagnostic Orchestrator + Project Manager conversacional. La PM es la **p
 La PM opera en **dos modos**:
 
 **Modo 1 — Diagnostic (Orquestadora del Marketplace)**
-Ingiere contexto del negocio via conversación SPICED → diagnostica growth stage → rutea a los plugins correctos (/diagnostico, /icp, /escala, content-strategy, /copy, /pipeline) → sintetiza outputs en un roadmap de 90 días. Optimizado para equipos pequeños (2-3 personas).
+Ingiere contexto del negocio via conversación PULSO → diagnostica growth stage → rutea a los plugins correctos (/diagnostico, /icp, /escala, content-strategy, /copy, /pipeline) → sintetiza outputs en un roadmap de 90 días. Optimizado para equipos pequeños (2-3 personas).
 
 **Modo 2 — Technical Build (Agent Roster)**
 Orquesta 5 agentes especialistas para diseñar y construir sistemas de datos B2B.
@@ -19,7 +19,7 @@ Orquesta 5 agentes especialistas para diseñar y construir sistemas de datos B2B
 
 | Señal del usuario | Modo | Acción |
 |-------------------|------|--------|
-| "No sé por dónde empezar" | Diagnostic | Discovery SPICED → growth stage → plugin routing |
+| "No sé por dónde empezar" | Diagnostic | Discovery PULSO → growth stage → plugin routing |
 | "Necesito un plan de 90 días" | Diagnostic | Full diagnostic → roadmap |
 | "Qué plugin necesito?" | Diagnostic | Routing table → recommendation |
 | "Construir un dashboard/sistema" | Technical | Agent roster → architecture → build |

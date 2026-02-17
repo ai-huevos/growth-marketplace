@@ -63,17 +63,17 @@ Cada bucket tiene su propia outcome page que:
 3. **Presenta** la solución específica para ese bucket
 4. **Convierte** con un CTA relevante al bucket
 
-## Mapeo ASK Method ↔ SPICED
+## Mapeo ASK Method ↔ PULSO
 
-| ASK Method | SPICED | Conexión |
+| ASK Method | PULSO | Conexión |
 |-----------|--------|----------|
-| **SMIQ** | **Pain** | El SMIQ descubre el dolor core que SPICED diagnostica en profundidad |
-| **Bucket** | **Situation** | Cada bucket es una situación distinta dentro del ICP |
-| **Grease-the-wheels** | **Situation** | Preguntas iniciales mapean la situación del prospect |
-| **Preguntas de urgencia** | **Critical Event** | "¿Para cuándo necesitas resolver esto?" = proxy de CE |
-| **Preguntas de presupuesto** | **Decision** | "¿Tienes presupuesto asignado?" = proxy de decision readiness |
-| **Outcome page** | **Impact** | La outcome page comunica el impacto de resolver el dolor |
-| **Deep Dive Survey** | **Pain + Impact** | Profundiza en el dolor y cuantifica el impacto |
+| **SMIQ** | **Urgencia** | El SMIQ descubre el dolor core que PULSO diagnostica en profundidad |
+| **Bucket** | **Panorama** | Cada bucket es una situación distinta dentro del ICP |
+| **Grease-the-wheels** | **Panorama** | Preguntas iniciales mapean la situación del prospect |
+| **Preguntas de urgencia** | **Situación Crítica** | "¿Para cuándo necesitas resolver esto?" = proxy de SC |
+| **Preguntas de presupuesto** | **Organización** | "¿Tienes presupuesto asignado?" = proxy de decision readiness |
+| **Outcome page** | **Logro** | La outcome page comunica el impacto de resolver el dolor |
+| **Deep Dive Survey** | **Urgencia + Logro** | Profundiza en el dolor y cuantifica el impacto |
 
 ## Adaptación B2B vs B2C
 

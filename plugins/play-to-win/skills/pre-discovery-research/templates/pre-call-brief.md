@@ -3,7 +3,7 @@
 Brief de inteligencia pre-discovery para armar al equipo comercial con contexto profundo antes de cada call.
 
 **Output Contract**: Brief de inteligencia completo con las 5 capas pobladas y hipotesis accionables.
-**Benchmark**: 5 capas pobladas, 3+ hipotesis formuladas, preguntas SPICED priorizadas, senales de compra clasificadas.
+**Benchmark**: 5 capas pobladas, 3+ hipotesis formuladas, preguntas PULSO priorizadas, senales de compra clasificadas.
 
 ---
 
@@ -277,7 +277,7 @@ _Despues de la call, actualizar esta seccion:_
 Hipotesis validadas: ___
 Hipotesis invalidadas: ___
 Nuevos insights descubiertos: ___
-SPICED Score resultante: ___/30
+PULSO Score resultante: ___/25
 Proximos pasos acordados: ___
 Fecha proxima interaccion: ___
 ```

@@ -135,21 +135,21 @@ Revenue Per Lead = LTV x Tasa de Conversion Global
 
 Para formulas completas, escenarios y ajustes LATAM, leer `patterns/ltv-cac-calculator.md`.
 
-## Integracion SPICED
+## Integracion PULSO
 
-| SPICED | Conexion con ESCALA |
-|--------|---------------------|
-| **Situation** | Define en que tier deberia entrar el prospect segun su situacion actual |
-| **Pain** | Cada tier resuelve un nivel de dolor: bait (dolor superficial), backend (dolor estructural) |
-| **Impact** | El impacto escala con cada tier: bait (quick win), frontend (resultado parcial), middle (transformacion), backend (ventaja competitiva) |
-| **Critical Event** | El trigger de ascension entre tiers funciona como critical event interno |
-| **Decision** | El decision process cambia por tier: self-serve (bait/frontend) vs. committee (middle/backend) |
+| PULSO | Conexion con ESCALA |
+|-------|---------------------|
+| **Panorama** | Define en que tier deberia entrar el prospect segun su situacion actual |
+| **Urgencia** | Cada tier resuelve un nivel de dolor: bait (dolor superficial), backend (dolor estructural) |
+| **Logro** | El impacto escala con cada tier: bait (quick win), frontend (resultado parcial), middle (transformacion), backend (ventaja competitiva) |
+| **Situación Crítica** | El trigger de ascension entre tiers funciona como situación crítica interna |
+| **Organización** | El decision process cambia por tier: self-serve (bait/frontend) vs. committee (middle/backend) |
 
 ## Conexiones con otros skills
 
 - **ICP Analysis** → Define WHO en RADAR. Sin ICP claro, ESCALA no tiene fundamento
 - **Quiz Funnel** → El quiz ES un bait de Tier 1. Segmenta prospects para dirigirlos al frontend correcto
-- **Discovery Mastery** → Discovery calls califican prospects para middle y backend. SPICED score indica tier apropiado
+- **Discovery Mastery** → Discovery calls califican prospects para middle y backend. PULSO score indica tier apropiado
 - **Copywriting Engine** → Copy de landing pages, emails de ascension, paginas de oferta por tier
 - **Pipeline Management** → Cada tier mapea a una etapa de pipeline. El pipeline refleja la escalera
 

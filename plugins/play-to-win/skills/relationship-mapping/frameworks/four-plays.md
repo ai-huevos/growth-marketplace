@@ -125,7 +125,7 @@ Saludos,
 ### Metricas de exito
 - Tasa de respuesta: >15% es buena, >25% es excelente
 - Reuniones agendadas por cada 10 RRR enviados: minimo 2
-- Calidad de la reunion: SPICED score > 15 en la primera call
+- Calidad de la reunion: PULSO score > 15 en la primera call
 
 ---
 

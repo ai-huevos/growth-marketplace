@@ -29,7 +29,7 @@
 6. (nota: positioning no tiene subcarpetas, es SKILL.md + 1 framework)
 
 **sales-blueprint (4):**
-1. `discovery-mastery` — SPICED discovery calls
+1. `discovery-mastery` — PULSO discovery calls
 2. `pipeline-management` — Health indicators + forecasting
 3. `proposal-generation` — Enterprise y mid-market proposals
 4. `coaching-cadence` — REKS framework para coaching 1:1
@@ -75,7 +75,7 @@
 | `/diagnostico` | growth-foundations | ClarQ assessment (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Workshop ICP + scoring |
 | `/quiz` | growth-foundations | Quiz funnel ASK Method builder |
-| `/discovery` | sales-blueprint | SPICED discovery session |
+| `/discovery` | sales-blueprint | PULSO discovery session |
 | `/pipeline` | sales-blueprint | Pipeline health analysis |
 | `/propuesta` | sales-blueprint | Proposal generation |
 | `/coaching` | sales-blueprint | Sales coaching 1:1 session |
@@ -154,7 +154,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    FASE 0: ORQUESTACIÓN                     │
-│  conversational-pm → SPICED project discovery               │
+│  conversational-pm → PULSO project discovery               │
 │  PM despacha agentes según necesidad del cliente            │
 └────────────────────────┬────────────────────────────────────┘
                          ▼
@@ -182,10 +182,10 @@
 │              FASE 3: EJECUCIÓN DE VENTAS                    │
 │  sales-blueprint                                             │
 │  sdr-agent → Outreach 14 días (email+LinkedIn+calls)        │
-│  /discovery → SPICED prep + agenda                          │
-│  deal-strategist → SPICED score, MAP, risk matrix           │
-│  /propuesta → Propuesta con Business Case (gate: SPICED≥23) │
-│  /pipeline → Health forecast con semáforo SPICED            │
+│  /discovery → PULSO prep + agenda                          │
+│  deal-strategist → PULSO score, MAP, risk matrix           │
+│  /propuesta → Propuesta con Business Case (gate: PULSO≥23) │
+│  /pipeline → Health forecast con semáforo PULSO            │
 │  /coaching → REKS diagnosis + coaching plan                 │
 └────────────────────────┬────────────────────────────────────┘
                          ▼
@@ -204,7 +204,7 @@
 1. **Sin MCP integrations** — Todo es content-only, no lee CRM/email/analytics
 2. **Sin ejecución de diseño** — Copy sale como texto, no como HTML/landing pages
 3. **Sin monetización** — No hay infra de pagos para vender plugins
-4. **Sin MEDDPICC** — Para enterprise deals grandes, SPICED puede quedarse corto
+4. **Sin MEDDPICC** — Para enterprise deals grandes, PULSO puede quedarse corto
 5. **Sin ABM orchestrator** — No coordina marketing + ventas en cuentas específicas
 6. **Conversational PM es teórico** — Diseñado pero no probado E2E con proyecto real
 
@@ -251,13 +251,13 @@ Usar AI Huevos (la propia empresa) como el primer cliente real del marketplace. 
 
 #### Test 6: `/discovery` + `/propuesta` simulación
 - **Input**: Prospect ficticio interesado en implementar el marketplace
-- **Esperado**: SPICED prep + propuesta comercial generada
+- **Esperado**: PULSO prep + propuesta comercial generada
 - **Valida**: Que el flujo de ventas funciona con datos reales de AI Huevos
 
 ### Criterios de Éxito
 - [ ] Cada comando genera output completo sin errores
 - [ ] Los outputs se conectan entre sí (ICP → positioning → copy → proposal)
-- [ ] SPICED score fluye consistentemente entre plugins
+- [ ] PULSO score fluye consistentemente entre plugins
 - [ ] Los templates producen documentos que un consultor usaría con un cliente real
 - [ ] El flujo completo se puede ejecutar en < 2 horas de sesión Claude Code
 

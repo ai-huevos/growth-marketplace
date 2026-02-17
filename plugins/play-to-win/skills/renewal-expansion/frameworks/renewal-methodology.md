@@ -16,7 +16,7 @@ La renovacion es una oportunidad para reflexionar sobre el impacto entregado en 
 ## Timeline de Preparacion
 
 ### 12 meses antes (inicio del contrato/renovacion anterior)
-- Definir Joint Impact Plan con metricas claras
+- Definir Joint Logro Plan con metricas claras
 - Establecer cadencia de EBRs (Executive Business Reviews)
 - Identificar stakeholders y mapear org chart
 
@@ -68,11 +68,11 @@ Antes de la reunion, responde estas preguntas:
 **Decision**:
 - Quienes participaron en la decision original?
 - Ha cambiado el comite de decision?
-- Cuales fueron los Critical Events originales?
-- Hay nuevos Critical Events?
+- Cuales fueron las Situaciones Criticas originales?
+- Hay nuevas Situaciones Criticas?
 
-**Preguntas SPI** (preparar antes):
-- Desarrolla 3-5 preguntas SPI especificas para esta cuenta
+**Preguntas PUL** (preparar antes):
+- Desarrolla 3-5 preguntas PUL especificas para esta cuenta
 - Enfocate en descubrir si los pains originales siguen vigentes
 - Explora nuevos pains que hayan surgido
 
@@ -103,9 +103,9 @@ Comparte la agenda para dar estructura:
 
 Pregunta: "Hay algo mas que quieras agregar a la agenda?"
 
-### Fase 4: Review SPI
+### Fase 4: Review PUL
 
-Las preguntas SPI en el contexto de renovacion:
+Las preguntas PUL en el contexto de renovacion:
 
 **Situation**:
 - "Ha habido cambios importantes en tu organizacion o prioridades desde que empezamos a trabajar juntos?"
@@ -123,7 +123,7 @@ Las preguntas SPI en el contexto de renovacion:
 
 Esta ultima pregunta es critica — les hace visualizar la vida sin tu solucion.
 
-### Fase 5: Impact Demo
+### Fase 5: Logro Demo
 
 No es un demo de producto generico. Es una demo personalizada que:
 
@@ -143,9 +143,9 @@ Cuenta una historia de un cliente que tambien tuvo un inicio dificil pero cambio
 
 "[Cliente] no vio los resultados esperados en su primer trimestre. Juntos identificamos que [problema raiz]. Cambiamos [enfoque] y en los siguientes 6 meses lograron [resultado]. Creo que estamos en una situacion similar y tenemos un plan claro."
 
-### Fase 7: Critical Event & Decision
+### Fase 7: Situación Crítica & Organización
 
-**Critical Events nuevos**:
+**Situaciones Criticas nuevas**:
 - "Hay algun evento o deadline nuevo que debamos considerar?"
 - "Que pasa si no finalizan la renovacion antes de [fecha de vencimiento]?"
 - Ejemplo: podrian perder acceso a la tecnologia que usa su website

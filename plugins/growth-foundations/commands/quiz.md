@@ -140,7 +140,7 @@ El documento final debe incluir:
 5. Plan de stress test con timeline y presupuesto
 6. Stack tecnológico recomendado
 7. Métricas de éxito
-8. Integración SPICED por bucket
+8. Integración PULSO por bucket
 9. Próximos pasos
 
 Para el scorecard de buckets, usar el modelo en `skills/quiz-funnel/templates/bucket-scorecard.md`.

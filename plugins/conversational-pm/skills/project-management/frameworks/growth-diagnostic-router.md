@@ -9,7 +9,7 @@
 ```
 Usuario llega con contexto de negocio (conversación)
          ↓
-    PM ESCUCHA (SPICED discovery)
+    PM ESCUCHA (PULSO discovery)
          ↓
     PM DIAGNOSTICA (growth stage + gaps)
          ↓
@@ -90,8 +90,8 @@ La PM activa plugins y skills como herramientas. No ejecuta el trabajo técnico 
 | "No sé cómo cobrar / qué ofrecer" | `/escala` | Productos/servicios actuales | Value Ladder (Bait→Frontend→Backend) |
 | "No sé qué contenido crear" | `content-strategy` | ICP + positioning | Ski Slope plan + Topic Triangle |
 | "Necesito copy para lanzar" | `/copy` | ICP + positioning + value prop | Landing page + email sequence |
-| "Necesito mejorar mi pipeline" | `/pipeline` | Datos de pipeline actuales | Health analysis con SPICED scoring |
-| "Necesito propuesta comercial" | `/propuesta` | SPICED discovery data | Propuesta con business case |
+| "Necesito mejorar mi pipeline" | `/pipeline` | Datos de pipeline actuales | Health analysis con PULSO scoring |
+| "Necesito propuesta comercial" | `/propuesta` | PULSO discovery data | Propuesta con business case |
 | "Necesito mejorar mi equipo" | coaching-cadence | Team assessment | REKS diagnosis + coaching plan |
 | "Quiero diseñar mi funnel" | `/escala` + flujo | Value Ladder + traffic data | Funnel blueprint completo |
 | "Quiero construir comunidad" | alma → community pipeline | Brand voice + ICP | Community launch plan |
@@ -127,7 +127,7 @@ content-strategy → Ski Slope + Topic Triangle
      ↓ (plan de contenido, falta copy)
 /copy → Landing page + email sequence
      ↓ (copy listo, falta pipeline de ventas)
-/discovery → SPICED prep para primera venta
+/discovery → PULSO prep para primera venta
 ```
 
 ---
@@ -220,7 +220,7 @@ Cuando la PM se usa con AI Huevos como cliente (el propio marketplace):
 
 - [ ] Cada plugin genera output completo sin errores
 - [ ] Los outputs se conectan (ICP → positioning → copy → propuesta)
-- [ ] SPICED score fluye consistentemente entre plugins
+- [ ] PULSO score fluye consistentemente entre plugins
 - [ ] El roadmap es ejecutable por 2 personas en 90 días
 - [ ] El flujo completo se ejecuta en < 2 horas de sesión
 
@@ -253,17 +253,17 @@ La PM ahora tiene **dos modos de operación**:
 
 ---
 
-## Conexión SPICED
+## Conexión PULSO
 
-La PM usa SPICED tanto para diagnosticar (Fase 1) como para crear el roadmap (Fase 3):
+La PM usa PULSO tanto para diagnosticar (Fase 1) como para crear el roadmap (Fase 3):
 
-| Dimensión SPICED | En el diagnóstico | En el roadmap |
+| Dimensión PULSO | En el diagnóstico | En el roadmap |
 |-------------------|-------------------|---------------|
-| **Situation** | Estado actual del negocio | Mes 1 — resolver gaps de cimientos |
-| **Pain** | Dolor principal | Plugin que ataca el dolor primero |
-| **Impact** | Qué cambia si se resuelve | KPIs del roadmap |
-| **Critical Event** | Urgencia (launch, funding, quarter) | Timeline del roadmap |
-| **Decision** | Quién decide, quién ejecuta | Team allocation (2 personas) |
+| **Panorama** | Estado actual del negocio | Mes 1 — resolver gaps de cimientos |
+| **Urgencia** | Dolor principal | Plugin que ataca el dolor primero |
+| **Logro** | Qué cambia si se resuelve | KPIs del roadmap |
+| **Situación Crítica** | Urgencia (launch, funding, quarter) | Timeline del roadmap |
+| **Organización** | Quién decide, quién ejecuta | Team allocation (2 personas) |
 
 ---
 

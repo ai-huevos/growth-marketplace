@@ -19,17 +19,17 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisión 2: SPICED como Lenguaje Común
+## Decisión 2: PULSO como Lenguaje Común
 
-**Decisión**: SPICED (Winning by Design) es el framework que conecta los 5 plugins en lugar de crear un framework propio.
+**Decisión**: PULSO (Metodología GrowthOS) es el framework que conecta los 5 plugins en lugar de crear un framework propio.
 
 **Rationale**:
-- SPICED es una metodología probada con adopción en la industria de ventas B2B
+- PULSO es una metodología probada con adopción en la industria de ventas B2B
 - Al usar un framework externo reconocido, los usuarios pueden traer su conocimiento previo
 - Crear un framework propio habría requerido validación adicional
-- SPICED mapea naturalmente al ciclo de venta: diagnosticar (ICP) → calificar (discovery) → gestionar (pipeline) → proponer (proposals) → mejorar (coaching)
+- PULSO mapea naturalmente al ciclo de venta: diagnosticar (ICP) → calificar (discovery) → gestionar (pipeline) → proponer (proposals) → mejorar (coaching)
 
-**Implicación**: Si el usuario no conoce SPICED, hay una curva de aprendizaje. El archivo `spiced-framework.md` actúa como onboarding.
+**Implicación**: Si el usuario no conoce PULSO, hay una curva de aprendizaje. El archivo `spiced-framework.md` actúa como onboarding.
 
 ---
 
@@ -43,7 +43,7 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 - **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar), dotcom-secrets (funnels), conversational-pm (orquestar)
 - **Mantenimiento**: Se pueden actualizar independientemente
 
-**Trade-off**: Hay duplicación menor (SPICED se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/spiced-framework.md`.
+**Trade-off**: Hay duplicación menor (PULSO se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/spiced-framework.md`.
 
 **Evolución (Feb 2026)**: La modularidad validó la decisión — `dotcom-secrets` y `conversational-pm` se agregaron sin afectar plugins existentes. Cada nuevo plugin tiene un scope claro que no se solapa con los originales.
 
@@ -133,17 +133,17 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisión 10: REKS Antes de SPICED en Coaching
+## Decisión 10: REKS Antes de PULSO en Coaching
 
-**Decisión**: El coaching usa REKS como primer filtro (Results → Effort → Knowledge → Skills) antes de evaluar SPICED skills.
+**Decisión**: El coaching usa REKS como primer filtro (Results → Effort → Knowledge → Skills) antes de evaluar PULSO skills.
 
 **Rationale**:
 - El 80% de los problemas de performance se diagnostican mal
 - Muchos managers asumen que el rep "no sabe vender" cuando el problema es de esfuerzo o motivación
 - REKS fuerza un diagnóstico estructurado antes de prescribir solución
-- Solo cuando REKS identifica Skills como el issue, tiene sentido evaluar SPICED
+- Solo cuando REKS identifica Skills como el issue, tiene sentido evaluar PULSO
 
-**Implicación**: El coaching es un proceso de dos capas: REKS (diagnóstico de performance) → SPICED (diagnóstico de calidad de ejecución).
+**Implicación**: El coaching es un proceso de dos capas: REKS (diagnóstico de performance) → PULSO (diagnóstico de calidad de ejecución).
 
 ---
 

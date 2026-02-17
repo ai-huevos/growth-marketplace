@@ -1,6 +1,6 @@
 # Framework: Aceleracion de Critical Events
 
-Sistema para identificar, establecer, documentar, y acelerar critical events que impulsan decisiones de compra. Un critical event es tan importante que impulsa una decision — si no ocurre, las consecuencias son negativas para el negocio del comprador. Basado en Blueprint 08 de Winning by Design.
+Sistema para identificar, establecer, documentar, y acelerar critical events que impulsan decisiones de compra. Un critical event es tan importante que impulsa una decision — si no ocurre, las consecuencias son negativas para el negocio del comprador. Basado en el concepto de Aceleracion de Eventos Criticos de la Metodología GrowthOS.
 
 ## Principios fundamentales
 

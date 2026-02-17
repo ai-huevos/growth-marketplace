@@ -15,7 +15,7 @@ Sube los siguientes 11 archivos desde `docs/second-brain/` en este orden:
 |---|---------|-----------|-----------|
 | 1 | `00-proyecto-overview.md` | Visión general, plugins, audiencia, datos clave | Alta |
 | 2 | `01-arquitectura-convenciones.md` | Estructura de archivos, anatomía de plugins, patrones | Alta |
-| 3 | `02-metodologia-spiced.md` | SPICED completo: 5 dimensiones, scoring, conexiones | Alta |
+| 3 | `02-metodologia-spiced.md` | PULSO completo: 5 dimensiones, scoring, conexiones | Alta |
 
 ### Documentos por Plugin (subir segundo)
 | # | Archivo | Contenido | Prioridad |
@@ -54,12 +54,12 @@ Una vez subidas las fuentes:
 
 1. **Generar Audio Overview** (opcional): NotebookLM puede crear un podcast-style overview del contenido
 2. **Crear Notas**: Organiza notas por tema:
-   - "SPICED Quick Reference"
+   - "PULSO Quick Reference"
    - "Scoring Models Cheat Sheet"
    - "Agent Workflows"
    - "Copy Formulas"
 3. **Probar consultas**: Verifica que el notebook responde bien a preguntas como:
-   - "¿Cómo funciona SPICED?"
+   - "¿Cómo funciona PULSO?"
    - "¿Cuáles son los 10 triggers psicológicos?"
    - "¿Qué hace el SDR Agent?"
    - "¿Cómo se conectan los plugins entre sí?"
@@ -77,7 +77,7 @@ Cuando añadas nuevo contenido al marketplace:
 
 ### Estrategia
 - "¿Cómo decidimos qué clientes perseguir?"
-- "¿Cuál es la conexión entre ICP y SPICED?"
+- "¿Cuál es la conexión entre ICP y PULSO?"
 - "¿Por qué el marketplace tiene 3 plugins separados?"
 
 ### Ventas

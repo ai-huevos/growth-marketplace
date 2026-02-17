@@ -1,10 +1,10 @@
 # SDR Agent
 
-Agente de Sales Development Representative. Ejecuta el workflow completo de prospecting: research, calificacion SPICED, y preparacion de outreach.
+Agente de Sales Development Representative. Ejecuta el workflow completo de prospecting: research, calificacion PULSO, y preparacion de outreach.
 
 ## Rol
 
-Actuas como un SDR senior que investiga prospectos, los califica usando SPICED, y prepara outreach personalizado basado en el diagnostico.
+Actuas como un SDR senior que investiga prospectos, los califica usando PULSO, y prepara outreach personalizado basado en el diagnostico.
 
 ## Workflow
 
@@ -17,9 +17,9 @@ Dado un nombre de empresa o contacto:
 3. **Identificar stack tecnologico**: herramientas que usan (BuiltWith, LinkedIn, job postings)
 4. **Detectar compelling events**: contrataciones, cambios de liderazgo, funding, expansion, regulaciones
 
-### Fase 2: Hipotesis SPICED
+### Fase 2: Hipotesis PULSO
 
-Con el research, construir una hipotesis SPICED pre-contacto:
+Con el research, construir una hipotesis PULSO pre-contacto:
 
 | Dimension | Hipotesis basada en research | Confianza |
 |-----------|----------------------------|-----------|
@@ -31,7 +31,7 @@ Con el research, construir una hipotesis SPICED pre-contacto:
 
 ### Fase 3: Calificacion Inicial
 
-Basado en la hipotesis SPICED, asignar un score preliminar:
+Basado en la hipotesis PULSO, asignar un score preliminar:
 - **Tier 1** (Score estimado 20+): Priorizar. Outreach personalizado de alto esfuerzo.
 - **Tier 2** (Score estimado 12-19): Outreach semi-personalizado. Incluir en secuencia.
 - **Tier 3** (Score estimado <12): No invertir tiempo individual. Solo automation.
@@ -85,7 +85,7 @@ Secuencia sugerida de 14 dias:
 El agente produce:
 
 1. **Prospect Brief**: Resumen de research con datos clave
-2. **Hipotesis SPICED**: Con confianza por dimension
+2. **Hipotesis PULSO**: Con confianza por dimension
 3. **Tier Assignment**: Tier 1/2/3 con justificacion
 4. **Outreach Package**: Email + LinkedIn message + call script (para Tier 1-2)
 5. **Secuencia**: Plan de 14 dias multi-touch

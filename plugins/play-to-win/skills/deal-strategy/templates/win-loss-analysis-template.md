@@ -1,4 +1,4 @@
-# Template: Win/Loss Analysis con SPICED
+# Template: Win/Loss Analysis con PULSO
 
 Template para analizar deals cerrados (ganados y perdidos) e identificar patrones repetibles que mejoren la calificacion, el forecasting y la estrategia de pipeline.
 
@@ -44,7 +44,7 @@ Fecha del analisis: ___
 
 ---
 
-## Seccion 2: Codificacion SPICED por Deal
+## Seccion 2: Codificacion PULSO por Deal
 
 ### Deal: ___
 
@@ -56,12 +56,12 @@ Cycle: ___ dias
 
 | Dimension | Detalle | Score (1-5) |
 |-----------|---------|-------------|
-| **S — Situation** | ___ | ___ |
-| **P — Pain** | ___ | ___ |
-| **I — Impact** | ___ | ___ |
-| **CE — Critical Event** | ___ | ___ |
-| **D — Decision** | ___ | ___ |
-| **TOTAL SPICED** | | **___/25** |
+| **P — Panorama** | ___ | ___ |
+| **U — Urgencia** | ___ | ___ |
+| **L — Logro** | ___ | ___ |
+| **S — Situación Crítica** | ___ | ___ |
+| **O — Organización** | ___ | ___ |
+| **TOTAL PULSO** | | **___/25** |
 
 **Notas adicionales**:
 - Tipo de champion: Nuevo (<6 meses) / Establecido / Sin champion
@@ -74,9 +74,9 @@ _[Duplicar esta seccion para cada deal analizado]_
 
 ---
 
-## Seccion 3: Tabla de Concentracion — Situation
+## Seccion 3: Tabla de Concentracion — Panorama
 
-| Factor de Situation | # Deals Won | # Deals Lost | Win Rate | Insight |
+| Factor de Panorama | # Deals Won | # Deals Lost | Win Rate | Insight |
 |--------------------|------------|-------------|----------|---------|
 | Champion nuevo (<6 meses) | ___ | ___ | ___% | ___ |
 | Champion establecido | ___ | ___ | ___% | ___ |
@@ -87,15 +87,15 @@ _[Duplicar esta seccion para cada deal analizado]_
 
 ---
 
-## Seccion 4: Tabla de Concentracion — Pain
+## Seccion 4: Tabla de Concentracion — Urgencia
 
-| Factor de Pain | # Deals Won | # Deals Lost | Win Rate | Insight |
+| Factor de Urgencia | # Deals Won | # Deals Lost | Win Rate | Insight |
 |---------------|------------|-------------|----------|---------|
-| Pain bloqueante (prevents growth) | ___ | ___ | ___% | ___ |
-| Pain operativo (inefficiency) | ___ | ___ | ___% | ___ |
-| Pain aspiracional (want better) | ___ | ___ | ___% | ___ |
-| Visibilidad CxO del pain | ___ | ___ | ___% | ___ |
-| Pain solo nivel operativo | ___ | ___ | ___% | ___ |
+| Urgencia bloqueante (prevents growth) | ___ | ___ | ___% | ___ |
+| Urgencia operativa (inefficiency) | ___ | ___ | ___% | ___ |
+| Urgencia aspiracional (want better) | ___ | ___ | ___% | ___ |
+| Visibilidad CxO de la urgencia | ___ | ___ | ___% | ___ |
+| Urgencia solo nivel operativo | ___ | ___ | ___% | ___ |
 | Incumbente = [target 1] | ___ | ___ | ___% | ___ |
 | Incumbente = [target 2] | ___ | ___ | ___% | ___ |
 | Incumbente = [target 3] | ___ | ___ | ___% | ___ |
@@ -103,43 +103,43 @@ _[Duplicar esta seccion para cada deal analizado]_
 
 ---
 
-## Seccion 5: Tabla de Concentracion — Impact
+## Seccion 5: Tabla de Concentracion — Logro
 
-| Factor de Impact | # Deals Won | # Deals Lost | Win Rate | Insight |
+| Factor de Logro | # Deals Won | # Deals Lost | Win Rate | Insight |
 |-----------------|------------|-------------|----------|---------|
-| Impact >20% mejora | ___ | ___ | ___% | ___ |
-| Impact 10-20% mejora | ___ | ___ | ___% | ___ |
-| Impact <10% mejora | ___ | ___ | ___% | ___ |
+| Logro >20% mejora | ___ | ___ | ___% | ___ |
+| Logro 10-20% mejora | ___ | ___ | ___% | ___ |
+| Logro <10% mejora | ___ | ___ | ___% | ___ |
 | Visibilidad de carrera del champion | ___ | ___ | ___% | ___ |
 | Ventaja competitiva estrategica | ___ | ___ | ___% | ___ |
 | Nice-to-have | ___ | ___ | ___% | ___ |
 
 ---
 
-## Seccion 6: Tabla de Concentracion — Critical Event
+## Seccion 6: Tabla de Concentracion — Situación Crítica
 
-| Factor de CE | # Deals Won | # Deals Lost | Win Rate | Insight |
+| Factor de SC | # Deals Won | # Deals Lost | Win Rate | Insight |
 |-------------|------------|-------------|----------|---------|
-| CE en <60 dias | ___ | ___ | ___% | ___ |
-| CE en 60-120 dias | ___ | ___ | ___% | ___ |
-| CE en >120 dias | ___ | ___ | ___% | ___ |
-| Sin CE definido | ___ | ___ | ___% | ___ |
-| CE = regulatorio/compliance | ___ | ___ | ___% | ___ |
-| CE = nuevo lider quiere impacto | ___ | ___ | ___% | ___ |
-| CE = fin de ano fiscal | ___ | ___ | ___% | ___ |
-| CE = presion de board/investors | ___ | ___ | ___% | ___ |
+| SC en <60 dias | ___ | ___ | ___% | ___ |
+| SC en 60-120 dias | ___ | ___ | ___% | ___ |
+| SC en >120 dias | ___ | ___ | ___% | ___ |
+| Sin SC definida | ___ | ___ | ___% | ___ |
+| SC = regulatorio/compliance | ___ | ___ | ___% | ___ |
+| SC = nuevo lider quiere impacto | ___ | ___ | ___% | ___ |
+| SC = fin de ano fiscal | ___ | ___ | ___% | ___ |
+| SC = presion de board/investors | ___ | ___ | ___% | ___ |
 
 ---
 
-## Seccion 7: Tabla de Concentracion — Decision
+## Seccion 7: Tabla de Concentracion — Organización
 
-| Factor de Decision | # Deals Won | # Deals Lost | Win Rate | Insight |
-|-------------------|------------|-------------|----------|---------|
+| Factor de Organización | # Deals Won | # Deals Lost | Win Rate | Insight |
+|------------------------|------------|-------------|----------|---------|
 | 3+ stakeholders activos | ___ | ___ | ___% | ___ |
 | 2 stakeholders | ___ | ___ | ___% | ___ |
 | 1 stakeholder (single-threaded) | ___ | ___ | ___% | ___ |
-| Decision criteria claros | ___ | ___ | ___% | ___ |
-| Decision criteria vagos | ___ | ___ | ___% | ___ |
+| Criterios de decision claros | ___ | ___ | ___% | ___ |
+| Criterios de decision vagos | ___ | ___ | ___% | ___ |
 | Champion push activo | ___ | ___ | ___% | ___ |
 | Champion pasivo | ___ | ___ | ___% | ___ |
 | Stage 2 alcanzado en <60 dias | ___ | ___ | ___% | ___ |
@@ -155,11 +155,11 @@ _[Duplicar esta seccion para cada deal analizado]_
 
 ```
 Criterios:
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - Critical Event: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - Situación Crítica: ___
+  - Organización: ___
 
 Frecuencia: ___/[total won]
 Win rate: ___%
@@ -171,11 +171,11 @@ Cycle promedio: ___ dias
 
 ```
 Criterios:
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - Critical Event: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - Situación Crítica: ___
+  - Organización: ___
 
 Frecuencia: ___/[total won]
 Win rate: ___%
@@ -187,11 +187,11 @@ Cycle promedio: ___ dias
 
 ```
 Criterios:
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - Critical Event: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - Situación Crítica: ___
+  - Organización: ___
 
 Frecuencia: ___/[total won]
 Win rate: ___%
@@ -205,11 +205,11 @@ Cycle promedio: ___ dias
 
 ```
 Criterios:
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - Critical Event: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - Situación Crítica: ___
+  - Organización: ___
 
 Frecuencia: ___/[total lost]
 Close rate: ___%
@@ -222,11 +222,11 @@ Principal motivo: ___
 
 ```
 Criterios:
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - Critical Event: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - Situación Crítica: ___
+  - Organización: ___
 
 Frecuencia: ___/[total lost]
 Close rate: ___%
@@ -239,11 +239,11 @@ Principal motivo: ___
 
 ```
 Criterios:
-  - Situation: ___
-  - Pain: ___
-  - Impact: ___
-  - Critical Event: ___
-  - Decision: ___
+  - Panorama: ___
+  - Urgencia: ___
+  - Logro: ___
+  - Situación Crítica: ___
+  - Organización: ___
 
 Frecuencia: ___/[total lost]
 Close rate: ___%
@@ -338,7 +338,7 @@ Deals a incluir: Q___ closed won + closed lost
 
 ```
 Analisis realizado: ___
-Metodologia: SPICED Win/Loss Analysis (Winning by Design)
+Metodologia: PULSO Win/Loss Analysis (Metodología GrowthOS)
 Sample size: ___ deals (___ won, ___ lost)
 Periodo: ___
 Confianza en findings: Alta / Media / Baja

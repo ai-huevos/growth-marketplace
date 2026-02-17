@@ -1,6 +1,6 @@
 # play-to-win
 
-Sistema de transformacion de ventas B2B en 90 dias basado en 31 blueprints de Winning by Design (45,199 palabras de metodologia). Convierte actos aleatorios de ventas en un motor de revenue sistematico. Plugin del [AI Huevos Growth Marketplace](../../README.md).
+Sistema de transformacion de ventas B2B en 90 dias basado en 31 frameworks de Metodología GrowthOS (45,199 palabras de metodologia). Convierte actos aleatorios de ventas en un motor de revenue sistematico. Plugin del [AI Huevos Growth Marketplace](../../README.md).
 
 ## Skills
 
@@ -15,29 +15,29 @@ Sistema integrado de product marketing: Hero's Journey storytelling (neural coup
 **Triggers**: "product marketing", "positioning", "messaging", "value proposition", "hero journey", "tagline", "storytelling ventas", "impact messaging", "narrativa impacto", "propuesta de valor", "arquitectura mensajes"
 
 ### icp-tal
-ICP data-driven con metodologia SPICED de 5 pasos (Diagnostico → Cuantitativo → Cualitativo → Analisis → Documentacion) + Target Account List con 3 enfoques (Named/Fit/In-Market), calculo por tiers, y mapeo de relaciones con 4 jugadas tacticas y orquestacion 3×3.
+ICP data-driven con metodologia PULSO de 5 pasos (Diagnostico → Cuantitativo → Cualitativo → Analisis → Documentacion) + Target Account List con 3 enfoques (Named/Fit/In-Market), calculo por tiers, y mapeo de relaciones con 4 jugadas tacticas y orquestacion 3×3.
 
 **Triggers**: "ICP", "ideal customer", "perfil cliente ideal", "target accounts", "TAL", "lista cuentas", "stakeholder mapping", "mapeo stakeholders", "account prioritization", "priorizacion cuentas", "fit score", "account tiering", "3x3 orchestration"
 
 ### customer-journey
-Mapa completo del viaje del cliente SaaS: SPICED como puente entre equipos (SDR→AE→CSM→AM), los 7 Momentos Clave del Metodo de Ventas SaaS (M1-M7), diseno de etapas con entry/exit criteria, y shift de BANT a Impact.
+Mapa completo del viaje del cliente SaaS: PULSO como puente entre equipos (SDR→AE→CSM→AM), los 7 Momentos Clave del Metodo de Ventas SaaS (M1-M7), diseno de etapas con entry/exit criteria, y shift de BANT a Impact.
 
 **Triggers**: "customer journey", "viaje del cliente", "sales stages", "etapas venta", "handoff", "traspaso", "buyer journey", "sales process stages", "7 key moments", "momentos clave", "SaaS sales method"
 
 ### discovery-demo
-Discovery call con apertura ACE + progresion SPICED completa + checklist de 54 puntos, diagnosis deep-dive con 4 tipos de preguntas contextuales, y demo framework de prescripcion (PREP→DEMO→IMPACT→RECAP) con use-case selling.
+Discovery call con apertura ACE + progresion PULSO completa + checklist de 54 puntos, diagnosis deep-dive con 4 tipos de preguntas contextuales, y demo framework de prescripcion (PREP→DEMO→IMPACT→RECAP) con use-case selling.
 
 **Triggers**: "discovery call", "llamada discovery", "demo framework", "ACE opening", "apertura ACE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons"
 
 ### advanced-techniques
-Tecnicas situacionales para deals estancados: aceleracion de critical events (4 tipos de comprador, backward planning), trading sin descuentos (9 pasos, 3-deal option matrix), e influencia en criterios de decision (DEPRIORITIZE/INSERT/IMPROVE ranking).
+Tecnicas situacionales para deals estancados: aceleracion de Situaciones Críticas (4 tipos de comprador, backward planning), trading sin descuentos (9 pasos, 3-deal option matrix), e influencia en criterios de organización (DEPRIORITIZE/INSERT/IMPROVE ranking).
 
-**Triggers**: "trading framework", "framework trading", "decision criteria", "criterios decision", "critical event", "evento critico", "advanced sales", "ventas avanzadas", "stuck deals", "deals estancados", "negociacion ventas", "trade not negotiate"
+**Triggers**: "trading framework", "framework trading", "decision criteria", "criterios decision", "situacion critica", "evento critico", "advanced sales", "ventas avanzadas", "stuck deals", "deals estancados", "negociacion ventas", "trade not negotiate"
 
 ## Agents
 
 ### playbook-coach
-Coach de ventas AI que analiza contexto de negocio, selecciona blueprints relevantes (2-4 por problema), genera hipotesis testables IF/THEN/BECAUSE, sintetiza playbooks personalizados, y crea paquetes de enablement con materiales de entrenamiento.
+Coach de ventas AI que analiza contexto de negocio, selecciona frameworks relevantes de Metodología GrowthOS (2-4 por problema), genera hipotesis testables IF/THEN/BECAUSE, sintetiza playbooks personalizados, y crea paquetes de enablement con materiales de entrenamiento.
 
 ## Commands
 
@@ -49,7 +49,7 @@ Genera un sales playbook personalizado basado en el contexto del negocio. Incluy
 ```
 
 ### /deal-analysis
-Analisis de deals activos con diagnostico SPICED completo, identificacion de gaps, strategy de decision criteria, y plan de aceleracion con critical events.
+Analisis de deals activos con diagnostico PULSO completo, identificacion de gaps, strategy de criterios de organización, y plan de aceleracion con Situaciones Críticas.
 
 ```
 /deal-analysis [nombre del deal o contexto]
@@ -64,7 +64,7 @@ Inicia un programa de transformacion de ventas de 90 dias: ejecuta el diagnostic
 
 ## Metodologia
 
-El plugin se construye sobre la sintesis de 31 blueprints de Winning by Design, organizados en 7+1 partes secuenciales:
+El plugin se construye sobre la sintesis de 31 frameworks de Metodología GrowthOS, organizados en 7+1 partes secuenciales:
 
 | Parte | Foco | Blueprints |
 |-------|------|------------|
@@ -79,7 +79,7 @@ El plugin se construye sobre la sintesis de 31 blueprints de Winning by Design, 
 
 ### Conceptos clave
 
-- **SPICED**: Lenguaje comun de diagnostico (Situation, Pain, Impact, Critical Event, Decision) — conecta todas las fases
+- **PULSO**: Lenguaje comun de diagnostico (Panorama, Urgencia, Logro, Situación Crítica, Organización) — conecta todas las fases
 - **REKS**: Framework de coaching (Results, Efforts, Knowledge, Skills) — coaching basado en metricas
 - **ACE**: Apertura profesional de calls (Appreciate, Check time, End goal)
 - **Information Cascades**: Cada componente alimenta datos explicitos al siguiente, eliminando adivinanzas

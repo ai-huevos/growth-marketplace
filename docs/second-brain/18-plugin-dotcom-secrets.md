@@ -6,7 +6,7 @@
 - **Version**: 1.0.0
 - **Proposito**: Funnels de conversion B2B basados en DotCom Secrets de Russell Brunson, adaptados a LATAM
 - **Autor**: AI Huevos
-- **Metodologia base**: DotCom Secrets (Russell Brunson) + SPICED + frameworks branded propios
+- **Metodologia base**: DotCom Secrets (Russell Brunson) + PULSO + frameworks branded propios
 
 ## Componentes
 
@@ -306,13 +306,13 @@ El ICP informa el WHO de RADAR. Sin saber quien es el cliente ideal, no se puede
 La Fase 3 de FLUJO (Calificacion) puede implementarse como un quiz funnel del ASK Method. El quiz segmenta leads en buckets que mapean a diferentes niveles de ESCALA.
 
 ### flujo Fase 7 ↔ sales-blueprint/discovery-mastery
-La Fase 7 de FLUJO (Cambiar ambiente) es el punto donde el lead marketing se convierte en oportunidad de ventas. "Cambiar ambiente" significa pasar de la interaccion digital a una discovery call con SPICED.
+La Fase 7 de FLUJO (Cambiar ambiente) es el punto donde el lead marketing se convierte en oportunidad de ventas. "Cambiar ambiente" significa pasar de la interaccion digital a una discovery call con PULSO.
 
 ### alma → copywriting-engine/email-sequences
 Alma define la estrategia de comunicacion (ACF + IMAN), mientras que copywriting-engine ejecuta el copy de cada email. Alma dice QUE comunicar y CON QUE VOZ; copywriting-engine produce el copy final optimizado.
 
 ### funnel-optimization → sales-blueprint/pipeline-management
-El handoff de marketing funnel a sales pipeline. Cuando funnel-optimization detecta que la conversion esta optimizada, los leads calificados fluyen a pipeline-management donde se gestionan con SPICED scoring.
+El handoff de marketing funnel a sales pipeline. Cuando funnel-optimization detecta que la conversion esta optimizada, los leads calificados fluyen a pipeline-management donde se gestionan con PULSO scoring.
 
 ```
 growth-foundations/icp-analysis ──(WHO)──► escala (RADAR)
@@ -328,27 +328,27 @@ sales-blueprint/pipeline-management ◄──(leads calificados)── funnel-op
 
 ---
 
-## Integracion con SPICED
+## Integracion con PULSO
 
-SPICED es el lenguaje comun que conecta marketing funnels con ventas. dotcom-secrets se integra en cada dimension:
+PULSO es el lenguaje comun que conecta marketing funnels con ventas. dotcom-secrets se integra en cada dimension:
 
-| Dimension SPICED | Conexion con dotcom-secrets |
+| Dimension PULSO | Conexion con dotcom-secrets |
 |------------------|----------------------------|
 | **Situation** | El tier ESCALA del prospect define su situacion. Un lead que entro por FREE esta en una situacion diferente a uno que ya compro FRONTEND. |
-| **Pain** | Las preguntas RADAR descubren el dolor. Mapean directamente a SPICED Situation + Pain. |
+| **Pain** | Las preguntas RADAR descubren el dolor. Mapean directamente a PULSO Situation + Pain. |
 | **Impact** | El value ladder ESCALA comunica el impacto de cada nivel de solucion. Mayor tier = mayor impacto transformacional. |
-| **Critical Event** | La Fase 7 de FLUJO (cambiar ambiente) es el bridge a SPICED Discovery. Es el momento critico donde el lead esta listo para una conversacion. |
-| **Decision** | Funnel health metrics de funnel-optimization alimentan los SPICED scores en pipeline-management para tomar decisiones informadas. |
+| **Critical Event** | La Fase 7 de FLUJO (cambiar ambiente) es el bridge a PULSO Discovery. Es el momento critico donde el lead esta listo para una conversacion. |
+| **Decision** | Funnel health metrics de funnel-optimization alimentan los PULSO scores en pipeline-management para tomar decisiones informadas. |
 
-### Flujo completo ESCALA → SPICED
+### Flujo completo ESCALA → PULSO
 
 ```
 Lead entra por ESCALA FREE
   → FLUJO lo cualifica (Fases 1-3)
     → Alma lo nurturea (Fases 4-5, IMAN emails)
       → FLUJO Fase 7: cambiar ambiente
-        → SPICED Discovery (sales-blueprint)
-          → Pipeline Management (SPICED scoring)
+        → PULSO Discovery (sales-blueprint)
+          → Pipeline Management (PULSO scoring)
 ```
 
 ---
@@ -467,7 +467,7 @@ Basado en el analisis y adaptacion de los siguientes archivos del DotComSecrets-
 |----------------|-----------|------------------|
 | `01-executive-summary.md` | Vision general del playbook | Estructura del plugin, decision de alcance |
 | `02-visual-frameworks.md` | Diagramas de frameworks | ESCALA, FLUJO, IMAN visualizaciones |
-| `03-marketing-sales-guide.md` | Guia de marketing y ventas | Skills escala y flujo, integracion SPICED |
+| `03-marketing-sales-guide.md` | Guia de marketing y ventas | Skills escala y flujo, integracion PULSO |
 | `04-product-development-guide.md` | Guia de desarrollo de producto | Value ladder design, pricing tiers |
 | `05-clevel-strategic-overview.md` | Vision estrategica C-level | Conexiones cross-plugin, roadmap |
 | `06-90day-implementation-timeline.md` | Timeline de implementacion | Ciclo semanal, scaling strategy |

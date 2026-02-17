@@ -10,7 +10,7 @@ El marketplace se compone de **122 archivos** versionados en Git, estructurados 
 | Plugin | Versión | Propósito | Skills |
 | :--- | :--- | :--- | :--- |
 | `growth-foundations` | 1.0.0 | Diagnóstico ClarQ y estrategia base (Ski Slope/Topic Triangle). | 6 |
-| `sales-blueprint` | 1.0.0 | Ejecución de ventas consultivas (SPICED/Winning by Design). | 4 |
+| `sales-blueprint` | 1.0.0 | Ejecución de ventas consultivas (PULSO/Metodología GrowthOS). | 4 |
 | `copywriting-engine` | 1.0.0 | Motor de persuasión basado en 38k+ titulares analizados. | 4 |
 | `dotcom-secrets` | 1.0.0 | Arquitectura de funnels y Escala de Valor (ESCALA/FLUJO). | 4 |
 | `conversational-pm` | 1.0.0 | Orquestación de agentes mediante modelo de irrigación. | 1 |
@@ -25,12 +25,12 @@ En 2025, el **GTM Engineer** emerge como el arquitecto indispensable. Mientras q
 
 #### Diferenciación Estratégica
 *   **Spanish-First Moat:** Mientras competidores como `gtmagents` (92 agentes) o `marketingskills` operan exclusivamente en inglés, AI Huevos domina el contexto cultural y los disparadores lingüísticos de LATAM. No es solo traducción; es relevancia táctica en un mercado desatendido por la IA anglocéntrica.
-*   **Metodología Unificada (SPICED):** El sistema utiliza SPICED no como un checklist, sino como el tejido conectivo entre marketing y ventas. Esto evita los silos de información y asegura que el "Impacto" (Impact) definido en el anuncio sea el mismo que se valida en el Discovery y se entrega en el Onboarding.
+*   **Metodología Unificada (PULSO):** El sistema utiliza PULSO no como un checklist, sino como el tejido conectivo entre marketing y ventas. Esto evita los silos de información y asegura que el "Impacto" (Impact) definido en el anuncio sea el mismo que se valida en el Discovery y se entrega en el Onboarding.
 
 #### Diagrama de Conexión Metodológica (Modelo Bowtie)
 ```
 [ AWARENESS ]             [ IMPACT ]                 [ GROWTH ]
-  ClarQ Score     --->   SPICED (5-30)       --->    REKS Performance
+  ClarQ Score     --->   PULSO (5-30)       --->    REKS Performance
 (Madurez Operativa)     (Salud del Deal)            (Escalamiento del Equipo)
 ```
 
@@ -74,7 +74,7 @@ Amplificación de bajo riesgo. Invertimos $5/día en posts probados orgánicamen
 
 #### Métricas de Producto y Calidad
 *   **ClarQ Score (0-40):** El KPI maestro de madurez. El objetivo es transicionar cuentas de "Fragile Giant" a "Scaling".
-*   **SPICED Confidence Level (5-30):**
+*   **PULSO Confidence Level (5-30):**
     *   **5-14:** Nurture (No invertir recursos de ventas).
     *   **23-30:** Oportunidad Activa (Asignar AE y crear Mutual Action Plan).
 *   **REKS Score:** Evaluación cualitativa de Results, Effort, Knowledge y Skills para diagnosticar fallos en el equipo humano.
@@ -89,7 +89,7 @@ Amplificación de bajo riesgo. Invertimos $5/día en posts probados orgánicamen
 
 El protocolo MCP transforma nuestros archivos Markdown en agentes con "ojos" en los datos del cliente:
 
-1.  **HubSpot (Prioridad 1):** Sincronización bidireccional. Permite que Claude Code escriba los scores SPICED directamente en los Deals, actualizando la probabilidad de cierre basada en la profundidad del Discovery.
+1.  **HubSpot (Prioridad 1):** Sincronización bidireccional. Permite que Claude Code escriba los scores PULSO directamente en los Deals, actualizando la probabilidad de cierre basada en la profundidad del Discovery.
 2.  **Apollo (Prioridad 1):** Activación de **Waterfall Enrichment**. Identifica perfiles ICP y detecta "Topic Surge" (señales de intención), permitiendo que el `sdr-agent` contacte solo cuando hay una ventana de oportunidad abierta.
 3.  **Gong (Prioridad 2):** Inyecta verbatims y transcripciones reales de llamadas en el `copywriting-engine`. Esto garantiza que la IA utilice el **lenguaje exacto del comprador** (sus miedos y dolores literales), eliminando el copy genérico.
 4.  **Notion (Prioridad 2):** Repositorio centralizado. Todos los blueprints, propuestas y estrategias generadas se depositan automáticamente en el espacio de trabajo del cliente para asegurar la persistencia del conocimiento.

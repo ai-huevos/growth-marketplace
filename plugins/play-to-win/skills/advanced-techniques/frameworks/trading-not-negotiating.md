@@ -1,6 +1,6 @@
 # Framework: Tradear, No Negociar
 
-Sistema para preparar y ejecutar negociaciones como trades — donde ambas partes estan del mismo lado de la mesa buscando una solucion — en vez de negociaciones clasicas basadas en descuentos y concesiones. Basado en Blueprint 21 de Winning by Design.
+Sistema para preparar y ejecutar negociaciones como trades — donde ambas partes estan del mismo lado de la mesa buscando una solucion — en vez de negociaciones clasicas basadas en descuentos y concesiones. Basado en el concepto de Trading sin Negociar de la Metodología GrowthOS.
 
 ## Principios fundamentales
 
@@ -14,7 +14,7 @@ Sistema para preparar y ejecutar negociaciones como trades — donde ambas parte
 
 ## Trade vs Negociacion: Cambio de Mindset
 
-| Dimension | Negociacion clasica | Trading (Winning by Design) |
+| Dimension | Negociacion clasica | Trading (Metodología GrowthOS) |
 |-----------|--------------------|-----------------------------|
 | **Posicion** | Lados opuestos de la mesa | Mismo lado, resolviendo juntos |
 | **Objetivo** | "Ganar" (o perder menos) | Encontrar estructura que funcione para ambos |
@@ -85,31 +85,29 @@ El champion es tu aliado interno. Antes de la reunion de trade:
 - "Hay presion interna de otra solucion o competidor?"
 - "Que necesitas de mi para que esto sea facil para ti internamente?"
 
-### Paso 4: Preparar resumen SPICED
+### Paso 4: Preparar resumen PULSO
 
-Antes de presentar cualquier propuesta, resumir el journey completo usando SPICED:
+Antes de presentar cualquier propuesta, resumir el journey completo usando PULSO:
 
 ```
-RESUMEN SPICED PRE-PROPUESTA
+RESUMEN PULSO PRE-PROPUESTA
 
-S (Situation):  "{empresa} tiene {X} vendedores, usando {sistema actual},
+P (Panorama):   "{empresa} tiene {X} vendedores, usando {sistema actual},
                  con {desafio de contexto}."
 
-P (Pain):       "El dolor principal es {dolor}. Esto afecta a {quien}
+U (Urgencia):   "La urgencia principal es {dolor}. Esto afecta a {quien}
                  y se manifiesta como {sintoma medible}."
 
-I (Impact):     "Si resuelven esto, el impacto esperado es {$X revenue}
+L (Logro):      "Si resuelven esto, el logro esperado es {$X revenue}
                  o {reduccion de Y% en Z metrica}."
 
-C (Critical     "Necesitan esto resuelto para {fecha} porque {evento}.
-   Event):       Si no llegan, {consecuencia}."
+S (Situación    "Necesitan esto resuelto para {fecha} porque {evento}.
+   Crítica):     Si no llegan, {consecuencia}."
 
-E (Decision):   "El proceso de decision involucra a {personas},
+O (Organización): "El proceso de decision involucra a {personas},
                  requiere aprobacion de {nivel}, y tipicamente
-                 toma {semanas}."
-
-D:              "Los criterios de decision son {1, 2, 3}, priorizados
-                 por impacto de negocio."
+                 toma {semanas}. Los criterios de decision son {1, 2, 3},
+                 priorizados por logro de negocio."
 ```
 
 ---

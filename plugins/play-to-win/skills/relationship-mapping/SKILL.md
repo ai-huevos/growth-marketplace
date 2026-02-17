@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Relationship Mapping
 
-Sistema completo de mapeo de relaciones en cuentas B2B basado en la metodologia Winning by Design. Cubre el buying center avanzado de 7 roles, 4 jugadas tacticas de penetracion, mapeo organizacional de 6 pasos, y planificacion 3x3 de relaciones.
+Sistema completo de mapeo de relaciones en cuentas B2B basado en la Metodología GrowthOS. Cubre el buying center avanzado de 7 roles, 4 jugadas tacticas de penetracion, mapeo organizacional de 6 pasos, y planificacion 3x3 de relaciones.
 
 ## Cuando usar este skill
 
@@ -62,7 +62,7 @@ Para scripts, templates y guia paso-a-paso de cada jugada, leer `frameworks/four
 El mapeo no es dibujar un org chart. Es entender como fluye el poder y las decisiones dentro de la organizacion:
 
 ### Paso 1: Identificar cuentas e informacion clave
-Usa Impacts y Critical Events de un win reciente similar para seleccionar las cuentas prioritarias.
+Usa Logros y Situaciones Criticas de un win reciente similar para seleccionar las cuentas prioritarias.
 
 ### Paso 2: Bosquejar el Org Chart
 Construye la estructura jerarquica: CxO → VP → Director → Manager → User.

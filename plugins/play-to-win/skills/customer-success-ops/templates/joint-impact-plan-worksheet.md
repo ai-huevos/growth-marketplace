@@ -20,7 +20,7 @@
 
 ---
 
-## 1. SPICED — Contexto del Cliente
+## 1. PULSO — Contexto del Cliente
 
 ### Situation (Situacion)
 | Pregunta | Respuesta |
@@ -245,7 +245,7 @@ ___________________________________________________________________________
 
 Antes de considerar este JIP completo, verificar:
 
-- [ ] Todas las secciones de SPICED completadas
+- [ ] Todas las secciones de PULSO completadas
 - [ ] First Impact definido con metrica y fecha
 - [ ] Minimo 3 metas documentadas en formato WHAT/WHO/WHEN/HOW
 - [ ] Timeline de 12 meses con hitos y responsables
@@ -256,5 +256,5 @@ Antes de considerar este JIP completo, verificar:
 
 ---
 
-*Template basado en: Blueprint #17 — The Joint Impact Plan, Winning by Design*
+*Template basado en: The Joint Impact Plan, Metodología GrowthOS*
 *Ver framework completo en: `../frameworks/joint-impact-plan.md`*

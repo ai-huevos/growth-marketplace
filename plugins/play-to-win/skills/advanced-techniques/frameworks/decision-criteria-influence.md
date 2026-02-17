@@ -1,6 +1,6 @@
 # Framework: Influencia en Criterios de Decision
 
-Sistema para guiar el proceso de evaluacion del prospect, mejorar tu posicion competitiva, y educar al comprador para que tome la mejor decision basada en impacto real — no en checklists arbitrarios. Basado en Blueprint 23 de Winning by Design.
+Sistema para guiar el proceso de evaluacion del prospect, mejorar tu posicion competitiva, y educar al comprador para que tome la mejor decision basada en logro real — no en checklists arbitrarios. Basado en el concepto de Influencia en Criterios de Decision de la Metodología GrowthOS.
 
 ## Principios fundamentales
 

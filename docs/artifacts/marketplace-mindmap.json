@@ -22,7 +22,7 @@
           "name": "Methodology",
           "children": [
             {
-              "name": "SPICED common language"
+              "name": "PULSO common language"
             },
             {
               "name": "Framework-as-code"
@@ -55,7 +55,7 @@
           "name": "Skills",
           "children": [
             {
-              "name": "icp-analysis (SPICED scoring)"
+              "name": "icp-analysis (PULSO scoring)"
             },
             {
               "name": "positioning (Value Prop Canvas)"
@@ -157,7 +157,7 @@
       "name": "Scoring Systems",
       "children": [
         {
-          "name": "SPICED (0-30 opportunity quality)"
+          "name": "PULSO (0-30 opportunity quality)"
         },
         {
           "name": "ICP (0-100 target fit)"

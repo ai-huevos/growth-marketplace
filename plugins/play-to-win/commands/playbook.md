@@ -1,5 +1,5 @@
 ---
-description: Diagnostica problemas GTM y sintetiza un playbook personalizado con blueprints Winning by Design seleccionados por relevancia.
+description: Diagnostica problemas GTM y sintetiza un playbook personalizado con frameworks de Metodología GrowthOS seleccionados por relevancia.
 argument-hint: <problema GTM o nombre de empresa>
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch]
 ---
@@ -23,7 +23,7 @@ Si el usuario proporciono contexto en $ARGUMENTS, usarlo como base. Si no, condu
 4. Metricas clave: win rate, sales cycle promedio, deal size promedio
 5. Cual es tu desafio GTM principal? (el problema que quieres resolver)
 
-Si existe un resumen SPICED previo (de `/discovery` u otra sesion), usarlo directamente.
+Si existe un resumen PULSO previo (de `/discovery` u otra sesion), usarlo directamente.
 
 Buscar contexto adicional en el plugin:
 - Leer `skills/sales-transformation/frameworks/` para referencia metodologica
@@ -50,26 +50,26 @@ Un problema puede tocar multiples dominios. Priorizar los 1-2 dominios principal
 
 **Presentar clasificacion con razonamiento. Esperar confirmacion.**
 
-### Fase 3: Scoring y seleccion de blueprints
+### Fase 3: Scoring y seleccion de frameworks
 
-Para cada dominio identificado, evaluar blueprints candidatos con scoring triple:
+Para cada dominio identificado, evaluar frameworks candidatos con scoring triple:
 
 - **Relevancia** (40%): Que tan directamente aborda el problema
 - **Impacto** (35%): Magnitud esperada de mejora
 - **Factibilidad** (25%): Realismo de implementacion dado el contexto
 
-Seleccionar los top 2-4 blueprints. Presentar ranking:
+Seleccionar los top 2-4 frameworks. Presentar ranking:
 
 ```
-BLUEPRINT RANKING:
+FRAMEWORK RANKING:
 
-1. [Blueprint] (Score: X.X)
+1. [Framework] (Score: X.X)
    - Relevancia: X/10 — [justificacion]
    - Impacto: X/10 — [justificacion]
    - Factibilidad: X/10 — [justificacion]
-   - Razon: [por que este blueprint para este problema]
+   - Razon: [por que este framework para este problema]
 
-2. [Blueprint] (Score: X.X)
+2. [Framework] (Score: X.X)
    [...]
 ```
 
@@ -85,7 +85,7 @@ Con los blueprints confirmados, generar un playbook de 15-20 paginas:
 # Playbook: [Nombre] para [Empresa]
 
 ## Resumen ejecutivo
-## Parte 1: La metodologia (sintesis de blueprints)
+## Parte 1: La metodologia (sintesis de frameworks)
 ## Parte 2: Como ejecutar (adaptado al contexto)
 ## Parte 3: Roadmap de implementacion (12 semanas)
 ## Parte 4: Herramientas y enablement
@@ -105,7 +105,7 @@ Generar como parte del playbook:
 
 1. **Training deck** — Estructura de presentacion (15-25 slides en markdown)
 2. **Quick reference guide** — One-pager imprimible con proceso core
-3. **Templates de ejecucion** — SPICED adaptado al ICP, scripts de discovery, mapeo de decision
+3. **Templates de ejecucion** — PULSO adaptado al ICP, scripts de discovery, mapeo de organización
 4. **Scripts de coaching** — Guia de 1-on-1 (formato REKS), deal review para reuniones
 5. **Biblioteca de ejemplos** — Ejemplos de ejecucion exitosa y errores comunes
 
@@ -139,7 +139,7 @@ Definir criterios de decision:
 
 Entregar al usuario:
 1. Playbook personalizado completo (15-20 paginas)
-2. Ranking de blueprints con scoring justificado
+2. Ranking de frameworks con scoring justificado
 3. Paquete de enablement (training, templates, scripts)
 4. Hypothesis cards (2-3 hipotesis testables)
 5. Plan de medicion con criterios de decision

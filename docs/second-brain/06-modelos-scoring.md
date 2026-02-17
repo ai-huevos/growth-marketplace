@@ -4,7 +4,7 @@ Este documento consolida todos los modelos de scoring y evaluación del marketpl
 
 ---
 
-## 1. SPICED Score (5-30 puntos)
+## 1. PULSO Score (5-30 puntos)
 
 **Plugin**: sales-blueprint (discovery-mastery, pipeline-management, proposal-generation)
 **Propósito**: Evaluar la calidad de una oportunidad de venta.
@@ -28,10 +28,10 @@ Este documento consolida todos los modelos de scoring y evaluación del marketpl
 | 23-30 | Oportunidad activa | Avanzar en pipeline. Asignar AE. Crear MAP. |
 
 ### Reglas de uso
-- **Prerequisito para propuestas**: SPICED >= 23
-- **Prerequisito para Deal Strategist MAP**: SPICED >= 20
+- **Prerequisito para propuestas**: PULSO >= 23
+- **Prerequisito para Deal Strategist MAP**: PULSO >= 20
 - **SDR Agent tiers**: Tier 1 (20+), Tier 2 (12-19), Tier 3 (<12)
-- **Pipeline health**: Color-coded por deal según SPICED score
+- **Pipeline health**: Color-coded por deal según PULSO score
 
 ---
 
@@ -256,7 +256,7 @@ ICP Score (0-100) ──────► Determina si la cuenta vale la pena
 Bucket Scorecard (0-100)► Segmenta DENTRO del ICP en buckets priorizados
         │
         ▼
-SPICED Score (5-30) ───► Evalúa la oportunidad específica
+PULSO Score (5-30) ───► Evalúa la oportunidad específica
         │
         ▼
 ClarQ Score (0-40) ────► Evalúa si la empresa puede implementar
@@ -280,8 +280,8 @@ Los scores no son solo métricas — funcionan como **gates** que bloquean o hab
 |-----------|--------|
 | ClarQ < 16 | Alerta "Fragile Giant", recomienda acciones inmediatas |
 | ICP < 40 | No califica como target, descartado de pipeline |
-| SPICED < 20 | Deal Strategist emite No-Go, no genera MAP |
-| SPICED < 23 | `/propuesta` bloqueado ("completa discovery primero") |
+| PULSO < 20 | Deal Strategist emite No-Go, no genera MAP |
+| PULSO < 23 | `/propuesta` bloqueado ("completa discovery primero") |
 | Headline < 7.5 | Copy rechazado, genera variaciones nuevas |
 
 > Ver también: `15-arquitectura-sistema.md` §7 para el contexto arquitectónico de scoring.
