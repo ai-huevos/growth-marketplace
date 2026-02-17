@@ -14,7 +14,7 @@ El marketplace incluye 7 agentes especializados distribuidos en 3 plugins. Cada 
 | Insight Agent | copywriting-engine | Análisis estratégico | Pipeline secuencial (Fase 2) |
 | Ideation Agent | copywriting-engine | Conceptos creativos | Pipeline secuencial (Fase 3) |
 | Copy Output Agent | copywriting-engine | Copy final optimizado | Pipeline secuencial (Fase 4) |
-| Funnel Architect | dotcom-secrets | Diseño de blueprints de funnel end-to-end | Workshop guiado (6 fases) |
+| Funnel Architect | motor-de-ofertas | Diseño de blueprints de funnel end-to-end | Workshop guiado (6 fases) |
 
 ---
 
@@ -200,7 +200,7 @@ Mínimo 3 contactos en 3 niveles. Si estamos single-threaded, ESE es el riesgo #
 
 ---
 
-## Patrón 3: Workshop Guiado (dotcom-secrets)
+## Patrón 3: Workshop Guiado (motor-de-ofertas)
 
 Un agente que guía al usuario por un proceso de diseño multi-fase, integrando 3 metodologías (ESCALA, FLUJO, Alma) en un blueprint cohesivo.
 
@@ -258,7 +258,7 @@ Output: ESCALA Blueprint + FLUJO Architecture + Alma Profile + Funnel Diagram +
 - **WebFetch**: Información de websites y competencia
 - **Read/Glob/Grep**: Acceso a patrones, fórmulas y templates
 
-### Dotcom-secrets agents
+### Motor de ofertas agents
 - **Read/Glob/Grep**: Acceso a frameworks ESCALA, FLUJO, Alma y templates del plugin
 - **WebSearch**: Research de industrias, competidores, benchmarks de conversión
 - **WebFetch**: Análisis de websites y funnels existentes

@@ -1,6 +1,6 @@
 # ACF: Attractive Character Framework en 10 Pasos
 
-Metodología completa para desarrollar el personaje atractivo que representa tu marca. Basado en DotCom Secrets de Russell Brunson, adaptado a contextos B2B LATAM.
+Metodología completa para desarrollar el personaje atractivo que representa tu marca. Metodología Motor de Ofertas (Alma) para contextos B2B LATAM.
 
 ---
 

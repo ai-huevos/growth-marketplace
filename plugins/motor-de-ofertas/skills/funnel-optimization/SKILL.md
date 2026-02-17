@@ -75,8 +75,8 @@ Para la estrategia de escala completa, leer `frameworks/scaling-strategy.md`.
 
 ## Conexiones con otros skills
 
-- **FLUJO** (dotcom-secrets) → Funnel Optimization diagnostica y mejora los funnels disenados con FLUJO
-- **ESCALA** (dotcom-secrets) → Las metricas LTV:CAC del dashboard alimentan las decisiones de la escalera de valor
+- **FLUJO** (motor-de-ofertas) → Funnel Optimization diagnostica y mejora los funnels disenados con FLUJO
+- **ESCALA** (motor-de-ofertas) → Las metricas LTV:CAC del dashboard alimentan las decisiones de la escalera de valor
 - **Pipeline Management** (sales-blueprint) → Los leads optimizados del funnel alimentan el pipeline para handoff a ventas
 - **Copywriting Engine** → Los A/B tests de headlines, CTAs y emails se ejecutan con copy generado por el engine
 - **Quiz Funnel** (growth-foundations) → Optimizar opt-in rates del quiz como lead magnet del funnel

@@ -106,7 +106,7 @@ The E-Myth Agentic Evolution source is in NLM (ID: `d9a0aaba`). Query it for any
 ## Gaps Identified (Future Phases — DO NOT build now)
 - **Lead Conversion SOP**: SDR-to-AE handoff, Objection Handling (partially covered by sales-blueprint agents)
 - **Client Fulfillment SOP**: Onboarding, QBR, Customer Health Scoring (no plugin coverage yet)
-- **Finance SOP**: Cash Conversion, Budget Guards (partially covered by dotcom-secrets LTV:CAC)
+- **Finance SOP**: Cash Conversion, Budget Guards (partially covered by motor-de-ofertas LTV:CAC)
 
 ## Quality Gates
 - Every playbook file must have at least 8 agentic SOP steps across 3 phases

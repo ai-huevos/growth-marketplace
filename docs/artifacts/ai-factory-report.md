@@ -10,7 +10,7 @@ El marketplace no es un repositorio de documentos estáticos; es un sistema oper
 
 | Tipo de Activo | Cantidad | Descripción |
 | :--- | :---: | :--- |
-| **Plugins** | 6 | Activos: `growth-foundations`, `sales-blueprint`, `copywriting-engine`, `dotcom-secrets` (Value Ladder **ESCALA**), `conversational-pm` (Modelo de Irrigación). Proyectado: `enterprise-sales-engine`. |
+| **Plugins** | 6 | Activos: `growth-foundations`, `sales-blueprint`, `copywriting-engine`, `motor-de-ofertas` (Value Ladder **ESCALA**), `conversational-pm` (Modelo de Irrigación). Proyectado: `enterprise-sales-engine`. |
 | **Skills** | 29 | Estándar **SKILL.md** que combina procesos paso a paso con lógica de negocio. |
 | **Agents** | 8 | Entidades especializadas: SDR, Deal Strategist, Research, Insight, Ideation, Copy Output, entre otros. |
 | **Templates & Commands** | 56 / 15 | Estructuras interactivas y comandos operativos (ej. `/diagnostico`, `/icp`, `/copy`) que activan workflows multi-fase. |

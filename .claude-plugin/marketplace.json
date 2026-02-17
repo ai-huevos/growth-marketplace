@@ -38,11 +38,11 @@
       "license": "MIT"
     },
     {
-      "name": "dotcom-secrets",
-      "source": "./plugins/dotcom-secrets",
-      "description": "DotCom Secrets para B2B: ESCALA value ladders, FLUJO funnel architecture, Alma brand character, y funnel optimization. Russell Brunson adaptado a LATAM.",
+      "name": "motor-de-ofertas",
+      "source": "./plugins/motor-de-ofertas",
+      "description": "Motor de Ofertas: sistema de escaleras de valor, funnels y personaje de marca para B2B LATAM.",
       "version": "1.0.0",
-      "keywords": ["b2b", "funnels", "value-ladder", "escala", "flujo", "dotcom-secrets", "email-sequences", "conversion", "spanish"],
+      "keywords": ["b2b", "funnels", "value-ladder", "escala", "flujo", "motor-de-ofertas", "email-sequences", "conversion", "spanish"],
       "category": "productivity",
       "license": "MIT"
     },

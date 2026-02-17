@@ -271,7 +271,7 @@ Estrategia de contenidos B2B basada en Ski Slope Strategy (Green Circle → Blue
 ### Integración
 - El **Topic Triangle** usa datos de ICP (icp-analysis) para filtrar temas por buyer relevance
 - Los **blog posts** generados alimentan al `copywriting-engine` (`/headline`, `/copy`)
-- El **Ski Slope** mapea a las fases del `flujo` (dotcom-secrets): Green = TOFU, Blue = MOFU, Black = BOFU
+- El **Ski Slope** mapea a las fases del `flujo` (motor-de-ofertas): Green = TOFU, Blue = MOFU, Black = BOFU
 - Las **partnerships** (Red Packet) complementan el outreach del `sdr-agent` (sales-blueprint)
 
 ---

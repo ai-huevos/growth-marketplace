@@ -12,7 +12,7 @@
 |---|------|----------------|-------|-----------------|
 | 1 | `/diagnostico` | growth-foundations | AI Huevos contexto completo | ClarQ heatmap (GTM/Revenue/Q2C/Capabilities) |
 | 2 | `/icp` | growth-foundations | Datos reales de AI Huevos | ICP scoring con Tier 1 (GTM Engineer LATAM) |
-| 3 | `/escala` | dotcom-secrets | 5 plugins como oferta base | Value Ladder (Bait→Frontend→Backend) |
+| 3 | `/escala` | motor-de-ofertas | 5 plugins como oferta base | Value Ladder (Bait→Frontend→Backend) |
 | 4 | `content-strategy` | growth-foundations | ICP + positioning de Tests 1-2 | Ski Slope plan + Topic Triangle |
 | 5 | `/copy` | copywriting-engine | ICP + positioning + value prop | Landing page copy + email sequence |
 | 6 | `/discovery` + `/propuesta` | sales-blueprint | Prospect ficticio | PULSO prep + propuesta comercial |

@@ -40,12 +40,12 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 **Rationale**:
 - **Modularidad**: Un equipo de marketing puede instalar solo `growth-foundations` sin necesitar las herramientas de ventas
 - **Pricing**: `growth-foundations` es gratis como punto de entrada (funnel), los otros pueden tener precio
-- **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar), dotcom-secrets (funnels), conversational-pm (orquestar)
+- **Scope**: Cada plugin tiene un propósito claro — foundations (diagnosticar), sales (ejecutar), copy (comunicar), motor-de-ofertas (funnels), conversational-pm (orquestar)
 - **Mantenimiento**: Se pueden actualizar independientemente
 
 **Trade-off**: Hay duplicación menor (PULSO se referencia en múltiples plugins). Pero la duplicación es de referencia, no de definición — la definición canónica está en `sales-blueprint/frameworks/spiced-framework.md`.
 
-**Evolución (Feb 2026)**: La modularidad validó la decisión — `dotcom-secrets` y `conversational-pm` se agregaron sin afectar plugins existentes. Cada nuevo plugin tiene un scope claro que no se solapa con los originales.
+**Evolución (Feb 2026)**: La modularidad validó la decisión — `motor-de-ofertas` y `conversational-pm` se agregaron sin afectar plugins existentes. Cada nuevo plugin tiene un scope claro que no se solapa con los originales.
 
 ---
 
@@ -149,15 +149,15 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ## Decisión 11: Branded Frameworks (ESCALA/FLUJO/Alma)
 
-**Decisión**: El plugin dotcom-secrets adapta DotCom Secrets de Russell Brunson a B2B LATAM con nombres propios en español: ESCALA (value ladder), FLUJO (funnel phases), Alma (attractive character).
+**Decisión**: El plugin motor-de-ofertas ofrece ESCALA (value ladder), FLUJO (funnel phases) y Alma (attractive character) como acrónimos GrowthOS para B2B LATAM.
 
 **Rationale**:
 - Los nombres en español crean identidad propia y evitan confusión con el material original en inglés
 - ESCALA/FLUJO/Alma son acrónimos memorables que funcionan como vocabulario compartido
 - Permite adaptar los conceptos al contexto B2B (el original es más B2C/infoproductos)
-- Diferencia el plugin de otros que simplemente traducen DotCom Secrets
+- Diferencia el plugin de otros que simplemente solo traducen frameworks de terceros
 
-**Implicación**: Requiere documentación clara de la equivalencia con los conceptos originales para usuarios familiarizados con DotCom Secrets.
+**Implicación**: Requiere documentación clara de la equivalencia con los conceptos originales para usuarios familiarizados con value ladders y funnels.
 
 ---
 

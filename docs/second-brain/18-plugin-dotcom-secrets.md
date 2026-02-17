@@ -1,12 +1,12 @@
-# 18. Plugin: dotcom-secrets — Referencia Completa
+# 18. Plugin: motor-de-ofertas — Referencia Completa
 
 ## Identidad
 
-- **Nombre**: dotcom-secrets
+- **Nombre**: motor-de-ofertas
 - **Version**: 1.0.0
-- **Proposito**: Funnels de conversion B2B basados en DotCom Secrets de Russell Brunson, adaptados a LATAM
+- **Proposito**: Motor de Ofertas: sistema de escaleras de valor, funnels y personaje de marca para B2B LATAM (ESCALA, FLUJO, Alma)
 - **Autor**: AI Huevos
-- **Metodologia base**: DotCom Secrets (Russell Brunson) + PULSO + frameworks branded propios
+- **Metodologia base**: ESCALA, FLUJO, Alma (acrónimos GrowthOS) + PULSO
 
 ## Componentes
 
@@ -19,7 +19,7 @@
 
 ## Stack de Frameworks Branded
 
-El plugin introduce tres frameworks branded que encapsulan los conceptos de DotCom Secrets en un lenguaje propio, adaptado a B2B LATAM:
+El plugin introduce tres frameworks branded (ESCALA, FLUJO, Alma) como acrónimos GrowthOS para B2B LATAM:
 
 ### ESCALA (Estrategia de Conversion Ascendente con Leverage Automatico)
 
@@ -330,9 +330,9 @@ sales-blueprint/pipeline-management ◄──(leads calificados)── funnel-op
 
 ## Integracion con PULSO
 
-PULSO es el lenguaje comun que conecta marketing funnels con ventas. dotcom-secrets se integra en cada dimension:
+PULSO es el lenguaje comun que conecta marketing funnels con ventas. motor-de-ofertas se integra en cada dimension:
 
-| Dimension PULSO | Conexion con dotcom-secrets |
+| Dimension PULSO | Conexion con motor-de-ofertas |
 |------------------|----------------------------|
 | **Situation** | El tier ESCALA del prospect define su situacion. Un lead que entro por FREE esta en una situacion diferente a uno que ya compro FRONTEND. |
 | **Pain** | Las preguntas RADAR descubren el dolor. Mapean directamente a PULSO Situation + Pain. |
@@ -377,8 +377,8 @@ Lead entra por ESCALA FREE
 
 ### 5. Traffic Secrets y Expert Secrets como plugins separados futuros
 
-**Decision**: Solo DotCom Secrets se implementa como plugin. Traffic Secrets y Expert Secrets quedan en roadmap.
-**Razon**: DotCom Secrets es el fundamento (funnels + value ladder). Traffic Secrets (trafico + Dream 100) y Expert Secrets (movimientos masivos + storytelling + webinars) son extensiones que requieren su propia profundidad. Implementarlos como plugins separados permite:
+**Decision**: Motor de Ofertas (ESCALA, FLUJO, Alma) es el plugin de funnels. Extensiones (tráfico, storytelling masivo) quedan en roadmap.
+**Razon**: Funnels + value ladder son el fundamento. Traffic Secrets (trafico + Dream 100) y Expert Secrets (movimientos masivos + storytelling + webinars) son extensiones que requieren su propia profundidad. Implementarlos como plugins separados permite:
 - Desarrollo iterativo sin sobrecargar un solo plugin
 - Cada plugin tiene su propia coherencia tematica
 - Los usuarios pueden instalar solo lo que necesitan
@@ -388,7 +388,7 @@ Lead entra por ESCALA FREE
 ## Inventario de Archivos (29)
 
 ```
-plugins/dotcom-secrets/
+plugins/motor-de-ofertas/
   .claude-plugin/
     plugin.json                              ← Manifiesto del plugin
   README.md                                  ← Documentacion con skills, commands, triggers
@@ -441,27 +441,27 @@ plugins/dotcom-secrets/
 
 | Fase | Plugin | Foco | Estado |
 |------|--------|------|--------|
-| 1 | dotcom-secrets | Funnels de conversion, value ladders, attractive character, email systems | Actual (v1.0.0) |
+| 1 | motor-de-ofertas | Funnels de conversion, value ladders, attractive character, email systems | Actual (v1.0.0) |
 | 2 | traffic-secrets (futuro) | Dream 100, content strategy, paid traffic, fill your funnel | Planificado |
 | 3 | expert-secrets (futuro) | Mass movements, storytelling frameworks, webinar funnels, offer creation | Planificado |
 
 ### Dependencias entre plugins de la trilogia
 
 ```
-dotcom-secrets (funnels + ofertas)
+motor-de-ofertas (funnels + ofertas)
   ↑
 traffic-secrets (trafico para llenar los funnels)
   ↑
 expert-secrets (autoridad + storytelling para convertir dentro de los funnels)
 ```
 
-DotCom Secrets se implementa primero porque es el fundamento: sin funnel no hay donde enviar trafico, y sin oferta estructurada el storytelling no convierte.
+Motor de Ofertas se implementa primero porque es el fundamento: sin funnel no hay donde enviar trafico, y sin oferta estructurada el storytelling no convierte.
 
 ---
 
 ## Fuentes
 
-Basado en el analisis y adaptacion de los siguientes archivos del DotComSecrets-Playbook:
+Basado en el analisis y adaptacion de los siguientes archivos del playbooks de referencia:
 
 | Archivo fuente | Contenido | Uso en el plugin |
 |----------------|-----------|------------------|

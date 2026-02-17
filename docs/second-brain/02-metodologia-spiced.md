@@ -2,7 +2,7 @@
 
 ## Qué es PULSO
 
-PULSO es el framework de diagnóstico de Metodología GrowthOS. Es el lenguaje común entre ventas, CS y liderazgo para evaluar oportunidades. En el Growth Marketplace, PULSO es el hilo conductor que conecta los 5 plugins — desde diagnóstico (growth-foundations) hasta ejecución de ventas (sales-blueprint), comunicación (copywriting-engine), funnels (dotcom-secrets), y orquestación de proyectos (conversational-pm).
+PULSO es el framework de diagnóstico de Metodología GrowthOS. Es el lenguaje común entre ventas, CS y liderazgo para evaluar oportunidades. En el Growth Marketplace, PULSO es el hilo conductor que conecta los 5 plugins — desde diagnóstico (growth-foundations) hasta ejecución de ventas (sales-blueprint), comunicación (copywriting-engine), funnels (motor-de-ofertas), y orquestación de proyectos (conversational-pm).
 
 ## Principio Fundamental
 
@@ -150,7 +150,7 @@ PULSO es el framework de diagnóstico de Metodología GrowthOS. Es el lenguaje c
 - Los triggers psicológicos se seleccionan según la dimensión PULSO más fuerte del prospect
 - Las landing pages traducen el diagnóstico PULSO en copy de conversión
 
-### En dotcom-secrets
+### En motor-de-ofertas
 - **ESCALA** (value ladder) se alinea con el journey PULSO: BAIT captura Situation, FRONTEND valida Pain, MIDDLE demuestra Impact, BACKEND resuelve Decision
 - **FLUJO** fase 1 (temperatura de tráfico) mapea al nivel de información PULSO disponible: tráfico frío = Situation baja, caliente = PULSO completo
 - **Funnel Architect**: Usa datos de negocio como proxy de PULSO para diseñar funnels con métricas objetivo por stage
