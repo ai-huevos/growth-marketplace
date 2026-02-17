@@ -58,9 +58,9 @@
     {
       "name": "play-to-win",
       "source": "./plugins/play-to-win",
-      "description": "Sistema completo Winning by Design — transformación de ventas B2B en 90 días, customer success ops, relationship mapping, deal strategy, renewal/expansion, y pre-discovery research. Playbook Coach AI integrado.",
-      "version": "1.0.0",
-      "keywords": ["b2b", "winning-by-design", "customer-success", "deal-strategy", "relationship-mapping", "sales-transformation", "renewal", "pre-discovery", "spiced", "spanish"],
+      "description": "Sistema completo Winning by Design — transformación de ventas B2B en 90 días. 11 skills: sales-transformation, customer-success-ops, pre-discovery-research, deal-strategy, relationship-mapping, renewal-expansion, product-marketing, icp-tal, customer-journey, discovery-demo, advanced-techniques. Playbook Coach AI integrado.",
+      "version": "2.0.0",
+      "keywords": ["b2b", "winning-by-design", "customer-success", "deal-strategy", "relationship-mapping", "sales-transformation", "renewal", "pre-discovery", "product-marketing", "icp", "customer-journey", "discovery", "demo", "trading", "critical-events", "decision-criteria", "spiced", "spanish"],
       "category": "productivity",
       "license": "MIT"
     }

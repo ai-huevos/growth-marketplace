@@ -8,11 +8,11 @@ Plugin que implementa el sistema completo Winning by Design para transformación
 
 ## Composición
 
-- **6 skills**: sales-transformation, customer-success-ops, pre-discovery-research, deal-strategy, relationship-mapping, renewal-expansion
+- **11 skills**: sales-transformation, customer-success-ops, pre-discovery-research, deal-strategy, relationship-mapping, renewal-expansion, product-marketing, icp-tal, customer-journey, discovery-demo, advanced-techniques
 - **1 agente**: playbook-coach (AI Sales Coach — clasifica problemas GTM, sintetiza playbooks personalizados)
 - **3 comandos**: `/playbook`, `/deal-analysis`, `/kickoff`
-- **12 templates**: T-35 a T-46
-- **~42 archivos** total
+- **22 templates**: T-35 a T-56
+- **~70 archivos** total
 
 ## Skills
 
@@ -77,7 +77,39 @@ Repositorio: `/Volumes/deathstar/Development/Play to win/`
 | T-45 | three-by-three-canvas | relationship-mapping |
 | T-46 | renewal-conversation-script | renewal-expansion |
 
-## Fase 2 pendiente: Enrichments a sales-blueprint
+## Phase 2: 5 Skills Adicionales (2026-02-17)
+
+### 7. product-marketing
+Hero's Journey storytelling (neural coupling, 3-part structure) + establecimiento de impacto (↓Cost, ↑Experience, ↑Revenue) + value proposition canvas + positioning statement + messaging architecture matrix. Blueprints #22, #27.
+
+### 8. icp-tal
+ICP data-driven con SPICED de 5 pasos + TAL con 3 enfoques (Named/Fit/In-Market) + cálculo por tiers + mapeo de relaciones con 4 jugadas tácticas y orquestación 3×3. Blueprints #16, #14, #15, #13.
+
+### 9. customer-journey
+SPICED como puente entre equipos (SDR→AE→CSM→AM) + 7 Momentos Clave del Método SaaS (M1-M7) + diseño de etapas + shift BANT→Impact. Blueprints #10, #28.
+
+### 10. discovery-demo
+Discovery call con ACE + SPICED + checklist 54 puntos + diagnosis deep-dive con 4 tipos de preguntas contextuales + demo framework prescribe (PREP→DEMO→IMPACT→RECAP). Blueprints #25, #26, #24.
+
+### 11. advanced-techniques
+Critical event acceleration (4 tipos de comprador, backward planning) + trading sin descuentos (9 pasos, 3-deal option matrix) + influencia en criterios de decisión (DEPRIORITIZE/INSERT/IMPROVE). Blueprints #08, #21, #23.
+
+## Templates Phase 2 (T-47 a T-56)
+
+| ID | Template | Skill |
+|----|----------|-------|
+| T-47 | heros-journey-story-template | product-marketing |
+| T-48 | impact-messaging-canvas | product-marketing |
+| T-49 | icp-segment-worksheet | icp-tal |
+| T-50 | tal-tiering-calculator | icp-tal |
+| T-51 | handoff-documentation-template | customer-journey |
+| T-52 | seven-moments-checklist | customer-journey |
+| T-53 | discovery-call-playbook | discovery-demo |
+| T-54 | demo-execution-template | discovery-demo |
+| T-55 | critical-event-planner | advanced-techniques |
+| T-56 | trade-deal-configurator | advanced-techniques |
+
+## Fase 3 pendiente: Enrichments a sales-blueprint
 
 El plan incluye enriquecer skills existentes en sales-blueprint con contenido de los blueprints:
 - discovery-mastery: ACE opening, wagon connection, Hero's Journey, critical events, diagnostic call, impact types
@@ -85,4 +117,4 @@ El plan incluye enriquecer skills existentes en sales-blueprint con contenido de
 - proposal-generation: 9-step trading language, decision criteria manipulation
 - coaching-cadence: 8 coaching models, 13-week rotation cycle
 
-Estos enrichments son Phase 2 separada para mantener limpia la generación del plugin principal.
+Estos enrichments son Phase 3 separada para mantener limpia la generación del plugin principal.

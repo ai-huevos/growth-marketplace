@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
-**Quick stats**: 6 plugins, 24 skills, 8 agents, 15 commands, 46 templates, ~170 content files.
+**Quick stats**: 6 plugins, 29 skills, 8 agents, 15 commands, 56 templates, ~200 content files.
 
 > **Note**: The root `README.md` only documents `growth-foundations` (1 of 5 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
 
@@ -45,7 +45,7 @@ plugins/
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | SPICED project discovery, Growth Diagnostic Router, Agent roster |
 | `dotcom-secrets` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma (Russell Brunson adapted to B2B LATAM) |
-| `play-to-win` | Customer success, relationship mapping, deal strategy, renewal/expansion, sales transformation, pre-discovery research | Winning by Design full lifecycle (90-day transformation, CS Operating Model, Playbook Coach) |
+| `play-to-win` | 11 skills: sales transformation, customer success, deal strategy, relationship mapping, renewal/expansion, pre-discovery research, product marketing, ICP/TAL, customer journey, discovery/demo, advanced techniques | Winning by Design full lifecycle (90-day transformation, CS Operating Model, Playbook Coach) |
 
 ### Tools (non-plugin)
 

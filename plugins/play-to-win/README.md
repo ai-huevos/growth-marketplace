@@ -9,30 +9,30 @@ Orquestador principal de transformacion: despliega un sistema de ventas completo
 
 **Triggers**: "transformacion ventas", "sistema ventas", "90 dias ventas", "auditoria ventas", "sales health", "sales transformation", "sales system", "90 day sales", "sales audit"
 
-### product-marketing *(planificado)*
-Fundamentos de product marketing: hero's journey, value proposition canvas, positioning statement, messaging architecture matrix, y taglines de impacto.
+### product-marketing
+Sistema integrado de product marketing: Hero's Journey storytelling (neural coupling, 3-part story structure), establecimiento de impacto (3 tipos: ↓Cost, ↑Experience, ↑Revenue), value proposition canvas, positioning statement, y messaging architecture matrix.
 
-**Triggers**: "product marketing", "positioning", "messaging", "value proposition", "hero journey", "tagline"
+**Triggers**: "product marketing", "positioning", "messaging", "value proposition", "hero journey", "tagline", "storytelling ventas", "impact messaging", "narrativa impacto", "propuesta de valor", "arquitectura mensajes"
 
-### icp-tal *(planificado)*
-ICP data-driven con scoring SPICED + Target Account List con modelo 3x3 de stakeholder mapping y priorizacion por fit + intent.
+### icp-tal
+ICP data-driven con metodologia SPICED de 5 pasos (Diagnostico → Cuantitativo → Cualitativo → Analisis → Documentacion) + Target Account List con 3 enfoques (Named/Fit/In-Market), calculo por tiers, y mapeo de relaciones con 4 jugadas tacticas y orquestacion 3×3.
 
-**Triggers**: "ICP", "ideal customer", "target accounts", "TAL", "stakeholder mapping", "account prioritization"
+**Triggers**: "ICP", "ideal customer", "perfil cliente ideal", "target accounts", "TAL", "lista cuentas", "stakeholder mapping", "mapeo stakeholders", "account prioritization", "priorizacion cuentas", "fit score", "account tiering", "3x3 orchestration"
 
-### customer-journey *(planificado)*
-Mapa de viaje del cliente SaaS con etapas SPICED, handoff protocols, entry/exit criteria, y touchpoint excellence standards.
+### customer-journey
+Mapa completo del viaje del cliente SaaS: SPICED como puente entre equipos (SDR→AE→CSM→AM), los 7 Momentos Clave del Metodo de Ventas SaaS (M1-M7), diseno de etapas con entry/exit criteria, y shift de BANT a Impact.
 
-**Triggers**: "customer journey", "sales stages", "handoff", "buyer journey", "sales process stages"
+**Triggers**: "customer journey", "viaje del cliente", "sales stages", "etapas venta", "handoff", "traspaso", "buyer journey", "sales process stages", "7 key moments", "momentos clave", "SaaS sales method"
 
-### discovery-demo *(planificado)*
-Discovery call con apertura ACE + SPICED completo, y demo framework pain-to-solution-to-impact con criterios de decision.
+### discovery-demo
+Discovery call con apertura ACE + progresion SPICED completa + checklist de 54 puntos, diagnosis deep-dive con 4 tipos de preguntas contextuales, y demo framework de prescripcion (PREP→DEMO→IMPACT→RECAP) con use-case selling.
 
-**Triggers**: "discovery call", "demo framework", "ACE opening", "pain to solution", "demo customization"
+**Triggers**: "discovery call", "llamada discovery", "demo framework", "ACE opening", "apertura ACE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons"
 
-### advanced-techniques *(planificado)*
-Tecnicas avanzadas situacionales: storytelling (hero's journey), trading (no descuentos), influencia de criterios de decision, y aceleracion de critical events.
+### advanced-techniques
+Tecnicas situacionales para deals estancados: aceleracion de critical events (4 tipos de comprador, backward planning), trading sin descuentos (9 pasos, 3-deal option matrix), e influencia en criterios de decision (DEPRIORITIZE/INSERT/IMPROVE ranking).
 
-**Triggers**: "trading framework", "storytelling ventas", "decision criteria", "critical event", "advanced sales", "stuck deals"
+**Triggers**: "trading framework", "framework trading", "decision criteria", "criterios decision", "critical event", "evento critico", "advanced sales", "ventas avanzadas", "stuck deals", "deals estancados", "negociacion ventas", "trade not negotiate"
 
 ## Agents
 

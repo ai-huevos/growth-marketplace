@@ -162,11 +162,46 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 |----|----------|-------|-----------------|-----------|
 | T-46 | renewal-conversation-script | renewal-expansion | Script de conversación de renovación (ACE → SPI → demo → trade) | Renewal rate > 90% |
 
+#### product-marketing (Phase 2)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-47 | heros-journey-story-template | product-marketing | Historia de cliente en 3 partes (Situation → Pain → Impact) para discovery/demos | Historia < 2 min, impacto cuantificado, pregunta de cierre |
+| T-48 | impact-messaging-canvas | product-marketing | Canvas de mensajes de impacto con taglines, value props, y messaging por lifecycle | 3 tipos de impacto, tagline por tipo, 3+ stages cubiertos |
+
+#### icp-tal (Phase 2)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-49 | icp-segment-worksheet | icp-tal | ICP documentado con segmentos priorizados y matriz firmográfica | SPICED completado, 3+ segmentos con conversion rates |
+| T-50 | tal-tiering-calculator | icp-tal | TAL calculado con tiers y account pod composition | 3 tiers con volúmenes, pod roles asignados |
+
+#### customer-journey (Phase 2)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-51 | handoff-documentation-template | customer-journey | Documentación de handoff SPICED completa con plan de primera interacción | 5 dimensiones SPICED, reunión de transición completada |
+| T-52 | seven-moments-checklist | customer-journey | Evaluación de 7 Momentos Clave con gap analysis y plan de mejora | 7 momentos evaluados, 3+ acciones priorizadas |
+
+#### discovery-demo (Phase 2)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-53 | discovery-call-playbook | discovery-demo | Playbook de discovery call con ACE scripts, checklist 54 puntos, SPICED questions | ACE scripted, 5+ preguntas SPICED, next meeting secured |
+| T-54 | demo-execution-template | discovery-demo | Demo preparado con 3 puntos de impacto y plan de decision criteria | 3 demo points alineados a pains, impact questions por punto |
+
+#### advanced-techniques (Phase 2)
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-55 | critical-event-planner | advanced-techniques | Plan de critical event con backward timeline y email de confirmación | CE date + consecuencias, 5+ hitos backward, email enviado |
+| T-56 | trade-deal-configurator | advanced-techniques | Configuración de deal con 3 opciones, checklist trading, escenarios win-win | 3 deal options, 9-step checklist, 5+ trade items |
+
 ---
 
 ## Estadísticas
 
-- **Total templates**: 46
-- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), dotcom-secrets (11), conversational-pm (1), play-to-win (12)
-- **Última actualización**: 2026-02-16
-- **Sprint**: Play to Win — 12 nuevos templates de 31 Winning by Design blueprints
+- **Total templates**: 56
+- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), dotcom-secrets (11), conversational-pm (1), play-to-win (22)
+- **Última actualización**: 2026-02-17
+- **Sprint**: Play to Win Phase 2 — 10 nuevos templates (T-47 a T-56) de 5 skills planificados
