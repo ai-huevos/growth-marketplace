@@ -1,4 +1,4 @@
-# ACF: Attractive Character Framework en 10 Pasos
+# ACF: Alma Character Framework en 10 Pasos
 
 Metodología completa para desarrollar el personaje atractivo que representa tu marca. Metodología Motor de Ofertas (Alma) para contextos B2B LATAM.
 

@@ -169,8 +169,8 @@ Usa este playbook como punto de partida para tus tests semanales. Adapta las hip
 
 | Elemento | Detalle |
 |----------|---------|
-| **Control** | Email cada 2 dias (Soap Opera de 7 emails en 14 dias) |
-| **Variante** | Email diario (Soap Opera de 7 emails en 7 dias) |
+| **Control** | Email cada 2 dias (ORIGEN de 7 emails en 14 dias) |
+| **Variante** | Email diario (ORIGEN de 7 emails en 7 dias) |
 | **Metrica** | Total clicks en 14 dias + unsubscribe rate + conversion a frontend |
 | **Resultado esperado** | +30-50% en total clicks, +0.2-0.5% en unsubscribes |
 | **Razon** | La frecuencia mantiene el momentum. Los leads estan mas comprometidos en los primeros dias — capitalizar esa atencion antes de que se enfrie. |

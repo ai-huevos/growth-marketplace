@@ -1,18 +1,18 @@
-# Seinfeld Sequence: Template de Engagement Diario por Email
+# Secuencia PULSAR: Template de Engagement Diario por Email
 
-Template para diseñar la secuencia de emails diarios que mantiene la relación con la audiencia después de la Soap Opera Sequence.
+Template para diseñar la secuencia de emails diarios que mantiene la relación con la audiencia después de la Secuencia ORIGEN.
 
 **Prerequisito**: Completar `templates/acf-worksheet.md` (voz y pilares de contenido definidos).
 
 ---
 
-## Filosofía de la Seinfeld Sequence
+## Filosofía de la Secuencia PULSAR
 
 > "Un show sobre nada" que en realidad es sobre todo.
 
-Los emails Seinfeld no son newsletters corporativas. Son mensajes personales de tu Attractive Character que mezclan historias cotidianas con insights de negocio. El suscriptor abre porque quiere saber qué le pasó hoy al personaje — y de paso aprende algo útil.
+Los emails PULSAR no son newsletters corporativas. Son mensajes personales de tu Attractive Character que mezclan historias cotidianas con insights de negocio. El suscriptor abre porque quiere saber qué le pasó hoy al personaje — y de paso aprende algo útil.
 
-**Regla de oro**: Si quitas el CTA y el email sigue siendo interesante, es un buen Seinfeld email.
+**Regla de oro**: Si quitas el CTA y el email sigue siendo interesante, es un buen email PULSAR.
 
 ---
 

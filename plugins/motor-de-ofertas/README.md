@@ -17,9 +17,9 @@ Funnel de Lanzamiento Optimizado. Metodologia unificada de funnels: 7 fases oper
 **Triggers**: "FLUJO", "funnel", "embudo", "sales funnel", "funnel phases", "traffic types", "squeeze page"
 
 ### alma
-El alma de tu marca. Desarrollo del Attractive Character Framework (ACF) en 10 pasos + sistema de email IMAN (Soap Opera + Seinfeld sequences).
+El alma de tu marca. Desarrollo del Alma Character Framework (ACF) en 10 pasos + sistema de email IMAN (ORIGEN + PULSAR sequences).
 
-**Triggers**: "Alma", "attractive character", "brand character", "origin story", "IMAN", "Soap Opera sequence", "Seinfeld emails"
+**Triggers**: "Alma", "attractive character", "brand character", "origin story", "IMAN", "ORIGEN sequence", "PULSAR emails"
 
 ### funnel-optimization
 Diagnostico de salud del funnel, A/B testing, ciclo semanal de optimizacion, y estrategia de scaling en 3 fases.

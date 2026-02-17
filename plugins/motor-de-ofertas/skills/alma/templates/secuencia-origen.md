@@ -1,6 +1,6 @@
-# Soap Opera Sequence: Template de 5 Emails de Onboarding
+# Secuencia ORIGEN: Template de 5 Emails de Onboarding
 
-Template para construir la secuencia Soap Opera que introduce al Attractive Character y lleva al suscriptor desde la suscripción hasta la primera oferta.
+Template para construir la secuencia ORIGEN que introduce al Attractive Character y lleva al suscriptor desde la suscripción hasta la primera oferta.
 
 **Prerequisito**: Completar `templates/acf-worksheet.md` antes de escribir la secuencia.
 
@@ -365,12 +365,12 @@ Opciones:
 
 ---
 
-## Después de la Soap Opera
+## Después de la Secuencia ORIGEN
 
 Una vez completados los 5 emails:
 
-1. **Si compró**: Mover a secuencia post-compra (onboarding del producto) → luego Seinfeld
-2. **Si no compró**: Entrar directamente a Seinfeld Sequence. La relación sigue construyéndose.
+1. **Si compró**: Mover a secuencia post-compra (onboarding del producto) → luego PULSAR
+2. **Si no compró**: Entrar directamente a Secuencia PULSAR. La relación sigue construyéndose.
 3. **Si no abrió Email 3+**: Marcar como cold → secuencia de re-engagement en 30 días
 
 ---

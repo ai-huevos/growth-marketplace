@@ -1,6 +1,6 @@
 # SOP: Operation Nowhere To Hide — Distribución Omni-Canal
 
-Procedimiento operativo estándar para maximizar la distribución de tu ISL (Invisible Sales Letter) colocándola en TODOS tus activos de marketing existentes. Basado en el sistema de Content Mavericks.
+Procedimiento operativo estándar para maximizar la distribución de tu VELO colocándola en TODOS tus activos de marketing existentes.
 
 ## Filosofía
 
@@ -10,7 +10,7 @@ La mayoría de los negocios B2B tienen decenas de activos digitales que reciben 
 
 ## Prerequisitos
 
-- [ ] ISL (Invisible Sales Letter) publicada y con URL accesible
+- [ ] VELO publicada y con URL accesible
 - [ ] Sistema de UTM definido para tracking
 - [ ] Herramienta de analytics configurada (GA4, Plausible, etc.)
 
@@ -74,7 +74,7 @@ Ordenar los activos del Paso 1 por volumen de tráfico/exposición:
 ### Estructura UTM
 
 ```
-[URL de ISL]?utm_source=[plataforma]&utm_medium=[tipo_activo]&utm_campaign=nowhere-to-hide&utm_content=[activo_específico]
+[URL de VELO]?utm_source=[plataforma]&utm_medium=[tipo_activo]&utm_campaign=nowhere-to-hide&utm_content=[activo_específico]
 ```
 
 **Ejemplos**:
@@ -116,7 +116,7 @@ Configurar un dashboard con:
 - Revisar top 5 activos por conversión
 - Identificar activos con tráfico alto pero conversión baja (optimizar CTA copy)
 - Identificar activos nuevos para agregar (contenido nuevo publicado, apariciones en podcasts, etc.)
-- Actualizar el link si cambias la ISL
+- Actualizar el link si cambias la VELO
 
 ---
 
@@ -132,12 +132,12 @@ Configurar un dashboard con:
 | Métrica | Objetivo |
 |---------|----------|
 | Activos con link | 10+ en la primera semana, 25+ en el primer mes |
-| Incremento de tráfico a ISL | 20%+ desde activos existentes |
+| Incremento de tráfico a VELO | 20%+ desde activos existentes |
 | Tiempo de implementación total | 1 semana (activos prioritarios) |
 | Tráfico "gratis" mensual | Depende de base existente, pero 15-30% del total |
 
 ## Conexión con FLUJO
 
-- **Input de**: ISL page completada, TOFU-BOFU Campaign (complemento orgánico a paid)
-- **Output hacia**: Más tráfico a ISL = más datos para optimizar BOFU, más leads para email sequences
+- **Input de**: Página VELO completada, TOFU-BOFU Campaign (complemento orgánico a paid)
+- **Output hacia**: Más tráfico a VELO = más datos para optimizar BOFU, más leads para email sequences
 - **Se potencia con**: $5 Hit Records (paid) + Nowhere To Hide (orgánico) = cobertura completa

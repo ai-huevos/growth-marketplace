@@ -1,10 +1,10 @@
 # Matriz de Dificultad de Contenido
 
-Biblioteca de patrones que mapea tipos de contenido a niveles de dificultad (Ski Slope), expectativas de conversión y recursos necesarios para producción.
+Biblioteca de patrones que mapea tipos de contenido a niveles de dificultad (PENDIENTE), expectativas de conversión y recursos necesarios para producción.
 
 ## Matriz Principal
 
-| Tipo de Contenido | Nivel Ski Slope | Etapa Funnel | Conversión Esperada | Tiempo de Producción | Recursos Necesarios | Vida Útil |
+| Tipo de Contenido | Nivel PENDIENTE | Etapa Funnel | Conversión Esperada | Tiempo de Producción | Recursos Necesarios | Vida Útil |
 |-------------------|-----------------|-------------|---------------------|---------------------|---------------------|-----------|
 | Blog post SEO (1,500-2,000 palabras) | Green Circle | TOFU | 2-5% a lead | 4-8 horas | Redactor + SEO | 12-24 meses |
 | Guía completa (3,000+ palabras) | Green Circle | TOFU | 3-7% a lead | 8-16 horas | Redactor + SEO + diseño | 18-36 meses |
@@ -20,7 +20,7 @@ Biblioteca de patrones que mapea tipos de contenido a niveles de dificultad (Ski
 | Página comparativa (X vs Y) | Black Diamond | BOFU | 5-10% a demo | 6-10 horas | Investigación + redactor + SEO | 6-12 meses |
 | Calculadora ROI | Black Diamond | BOFU | 10-20% a consulta | 16-40 horas | Developer + diseño + datos | 24-36 meses |
 | Demo interactiva | Black Diamond | BOFU | 15-25% a oportunidad | 20-40 horas | Producto + diseño + dev | 6-12 meses |
-| Invisible Sales Letter (ISL) | Black Diamond | BOFU | 1-5% a compra directa | 8-16 horas | Copywriter senior | 3-6 meses |
+| VELO | Black Diamond | BOFU | 1-5% a compra directa | 8-16 horas | Copywriter senior | 3-6 meses |
 
 ## Patrones de Conversión por Canal de Distribución
 

@@ -80,7 +80,7 @@ Cada nivel contribuye al score total con peso diferente:
 
 | Metrica | Valor actual | Benchmark | Gap |
 |---------|-------------|-----------|-----|
-| Open rate (Soap Opera Seq) | ___% | 30-50% | ___% |
+| Open rate (ORIGEN Seq) | ___% | 30-50% | ___% |
 | Open rate (Seinfeld Seq) | ___% | 20-35% | ___% |
 | Click rate promedio | ___% | 3-10% | ___% |
 | Unsubscribe rate | ___% | <0.5% | ___% |

@@ -10,7 +10,7 @@ El concepto viene de la tradición asiática de regalar sobres rojos con dinero:
 
 ## Prerequisitos
 
-- [ ] Blog post de alta calidad publicado (idealmente con Three Jabs Strategy implementada)
+- [ ] Blog post de alta calidad publicado (idealmente con TRIPLE VALOR implementada)
 - [ ] Contenido con prueba social inicial (shares, comentarios, resultados)
 - [ ] Lead magnet conectado al post (content upgrade funcionando)
 - [ ] Sistema de tracking con UTMs configurado

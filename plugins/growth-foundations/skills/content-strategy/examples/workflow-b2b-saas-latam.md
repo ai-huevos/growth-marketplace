@@ -18,7 +18,7 @@
 ## Fase 1: Fundación (Semanas 1-2)
 
 ### Objetivos
-- Completar Topic Triangle con 20+ temas priorizados
+- Completar TRIÁNGULO DE INGRESOS con 20+ temas priorizados
 - Configurar infraestructura de contenido
 - Definir calendario de las 12 semanas
 
@@ -28,8 +28,8 @@
 |--------|--------|--------|-------------|
 | 1 | Ejecutar ICP Analysis (cross-ref skill icp-analysis) | Documento ICP + segmentos | Founder |
 | 1 | Análisis de competidores SEO (3-5 URLs en Ahrefs/SEMrush) | Lista de 100+ keywords | Freelancer |
-| 1 | Completar Topic Triangle Worksheet | 20 temas priorizados con scores | Founder |
-| 2 | Mapear temas al Ski Slope (12 Green, 6 Blue, 2 Black) | Mapa de contenido por nivel | Founder |
+| 1 | Completar TRIÁNGULO DE INGRESOS Worksheet | 20 temas priorizados con scores | Founder |
+| 2 | Mapear temas al PENDIENTE (12 Green, 6 Blue, 2 Black) | Mapa de contenido por nivel | Founder |
 | 2 | Configurar blog (WordPress/Webflow), email tool, UTMs | Infraestructura lista | Freelancer |
 | 2 | Crear 1 lead magnet Blue Square (checklist o template) | Lead magnet + landing page | Ambos |
 
@@ -44,7 +44,7 @@
 ### Objetivos
 - Publicar 8 blog posts Green Circle
 - Crear 2 lead magnets Blue Square adicionales
-- Activar Three Jabs en cada post
+- Activar TRIPLE VALOR en cada post
 
 ### Acciones
 

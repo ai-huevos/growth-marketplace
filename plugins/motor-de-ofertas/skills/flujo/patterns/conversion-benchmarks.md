@@ -24,7 +24,7 @@ Referencia de métricas objetivo para evaluar la salud de cada fase del funnel. 
 
 | Método | Conversión Esperada | Mejor Para | Notas LATAM |
 |--------|-------------------|-----------|-------------|
-| Email campaign a lista (drip) | 1-5% | Ofertas <$500, lista nutrida | Soap Opera sequence mejora conversión 2-3x vs. blast único |
+| Email campaign a lista (drip) | 1-5% | Ofertas <$500, lista nutrida | Secuencia ORIGEN mejora conversión 2-3x vs. blast único |
 | Email campaign a lista (launch) | 5-15% | Lanzamientos con deadline | Funciona mejor con escasez genuina, no artificial |
 | Webinar en vivo | 10-20% de asistentes | Ofertas $297-$1,997 | LATAM: +40% vs. promedio global. Interacción en chat es clave. |
 | Webinar evergreen | 5-12% de asistentes | Mismo rango, automatizado | Menor que en vivo pero escala infinitamente |
@@ -39,7 +39,7 @@ Referencia de métricas objetivo para evaluar la salud de cada fase del funnel. 
 
 | Transición | Tasa Esperada | Condiciones |
 |-----------|---------------|-------------|
-| Free → Frontend ($27-$97) | 2-5% de la lista | Lista nutrida con Soap Opera + Seinfeld |
+| Free → Frontend ($27-$97) | 2-5% de la lista | Lista nutrida con ORIGEN + PULSAR |
 | Frontend → Middle ($297-$997) | 15-25% de compradores frontend | Con secuencia de ascensión + trigger de engagement |
 | Middle → Backend ($2,000-$10,000) | 5-15% de compradores middle | Requiere resultados documentados + call de discovery |
 | Backend → Premium ($10,000+) | 10-30% de compradores backend | Relación personal + propuesta customizada |
@@ -52,7 +52,7 @@ Referencia de métricas objetivo para evaluar la salud de cada fase del funnel. 
 
 | Métrica | Benchmark Global | Benchmark LATAM B2B | Acción si Estás Debajo |
 |---------|-----------------|--------------------|-----------------------|
-| Open rate (Soap Opera) | 30-50% | 25-45% | Revisar subject lines. Probar con nombre del remitente personal, no marca. |
+| Open rate (ORIGEN) | 30-50% | 25-45% | Revisar subject lines. Probar con nombre del remitente personal, no marca. |
 | Open rate (Seinfeld) | 20-35% | 18-30% | Segmentar por engagement. Variar temas. Probar horarios. |
 | Open rate (broadcast) | 15-25% | 12-22% | Limpiar lista. Personalizar. Evitar enviar a toda la lista. |
 | Click rate | 3-10% | 2-8% | Un solo CTA por email. Links en contexto, no botones genéricos. |
