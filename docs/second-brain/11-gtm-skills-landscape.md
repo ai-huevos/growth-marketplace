@@ -85,10 +85,10 @@
 - **GAP**: JTBD skill, signal-based prospecting
 
 ### B: Sales Methodology & Pipeline
-- **discovery-mastery** (nuestro) — PULSO + ACE + question bank
-- **pipeline-management** (nuestro) — Bowtie + health indicators
+- **discovery-mastery** (nuestro) — PULSO + AVE + question bank
+- **pipeline-management** (nuestro) — CICLO + health indicators
 - **proposal-generation** (nuestro) — 8 secciones, PULSO ≥23
-- **coaching-cadence** (nuestro) — REKS + 8 modelos coaching
+- **coaching-cadence** (nuestro) — ROCA + 8 modelos coaching
 - **sdr-agent + deal-strategist** (nuestro) — Agentes especializados
 - **GAP CRÍTICO**: MEDDPICC qualification skill
 

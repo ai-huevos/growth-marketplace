@@ -307,7 +307,7 @@ sales-blueprint/skills/
 │   └── templates/
 │       ├── enterprise-proposal.md
 │       └── mid-market-proposal.md
-└── coaching-cadence/      ← "coaching", "1:1", "REKS"
+└── coaching-cadence/      ← "coaching", "1:1", "ROCA"
     ├── SKILL.md
     ├── frameworks/
     │   └── coaching-plays.md
@@ -377,7 +377,7 @@ sales-blueprint/commands/
 ├── discovery.md       ← /discovery [empresa] → Pre-call brief
 ├── propuesta.md       ← /propuesta → Propuesta (gate: PULSO ≥ 23)
 ├── pipeline.md        ← /pipeline → Pipeline review + forecast
-└── coaching.md        ← /coaching → REKS diagnostic + agenda
+└── coaching.md        ← /coaching → ROCA diagnostic + agenda
 
 copywriting-engine/commands/
 ├── copy.md            ← /copy [brief] → Pipeline de 4 agentes
@@ -440,7 +440,7 @@ Usado en **sales-blueprint**. El agente diagnostica una situación y genera acci
 INPUT (contexto)
     │
     ▼
-DIAGNÓSTICO (PULSO, REKS, etc.)
+DIAGNÓSTICO (PULSO, ROCA, etc.)
     │
     ▼
 CLASIFICACIÓN (Tier, Go/No-Go, etc.)
@@ -504,7 +504,7 @@ El marketplace usa scoring en múltiples niveles. Todos los modelos están docum
 │  (oportunidad)   │        │ 15-22  Amarillo (nurture)          │
 │                  │        │ 23-30  Verde (oportunidad activa)  │
 │─────────────────────────────────────────────────────────────────│
-│  REKS            │ Árbol  │ Results → Effort → Knowledge →     │
+│  ROCA            │ Árbol  │ Results → Effort → Knowledge →     │
 │  (coaching)      │ decisión│ Skills (cualitativo)               │
 │─────────────────────────────────────────────────────────────────│
 │  Headlines       │ 0-10   │ <7.5 rechazar, ≥7.5 aceptar       │
@@ -662,7 +662,7 @@ Agente que diagnostica con un framework y genera acciones basadas en el resultad
 ```
 INPUT ──▶ DIAGNÓSTICO ──▶ CLASIFICACIÓN ──▶ ACCIÓN
           (PULSO,         (Tier, Score,     (Outreach,
-           REKS,            Go/No-Go)         MAP,
+           ROCA,            Go/No-Go)         MAP,
            ClarQ)                             Coaching)
 ```
 

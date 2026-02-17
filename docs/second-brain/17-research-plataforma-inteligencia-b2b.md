@@ -514,7 +514,7 @@ Frontend (dashboards responsivos por rol)
                     |--- ICP scoring
                     |--- ClarQ assessment
                     |--- Proposal generation
-                    |--- Coaching REKS
+                    |--- Coaching ROCA
                             |
                             v
                     KNOWLEDGE GRAPH + DATA LAYER
@@ -532,12 +532,12 @@ Frontend (dashboards responsivos por rol)
 
 ### 5.2 El Marketplace como Semantic Layer
 
-El insight clave de esta investigacion es que los frameworks del Growth Marketplace (PULSO, ICP scoring, ClarQ, REKS) **ya funcionan como una capa semantica** — definen el significado de los datos de negocio:
+El insight clave de esta investigacion es que los frameworks del Growth Marketplace (PULSO, ICP scoring, ClarQ, ROCA) **ya funcionan como una capa semantica** — definen el significado de los datos de negocio:
 
 - PULSO define que hace a un deal "saludable"
 - ICP scoring define que hace a un cliente "ideal"
 - ClarQ define que hace a una organizacion "madura"
-- REKS define que hace a un rep "efectivo"
+- ROCA define que hace a un rep "efectivo"
 
 Estos frameworks no son solo contenido Markdown: son **modelos de dominio** que pueden traducir datos crudos (CRM, marketing, ops) en inteligencia accionable.
 

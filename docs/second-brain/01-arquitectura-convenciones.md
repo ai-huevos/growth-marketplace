@@ -27,7 +27,7 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │   │   ├── positioning/         ← Value Proposition Canvas
 │   │   │   ├── competitive-analysis/ ← Five Forces + mapa competitivo
 │   │   │   ├── quiz-funnel/         ← Metodología SONDA adaptada a B2B
-│   │   │   └── content-strategy/    ← Ski Slope + Topic Triangle
+│   │   │   └── content-strategy/    ← PENDIENTE + TRIÁNGULO DE INGRESOS
 │   │   └── commands/
 │   │       ├── diagnostico.md       ← /diagnostico (ClarQ assessment)
 │   │       ├── icp.md               ← /icp (workshop interactivo)
@@ -39,7 +39,7 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │   │   ├── discovery-mastery/   ← PULSO discovery framework
 │   │   │   ├── pipeline-management/ ← Gestión de pipeline por PULSO score
 │   │   │   ├── proposal-generation/ ← Propuestas (requiere PULSO >= 23)
-│   │   │   └── coaching-cadence/    ← REKS → PULSO coaching
+│   │   │   └── coaching-cadence/    ← ROCA → PULSO coaching
 │   │   ├── agents/
 │   │   │   ├── sdr-agent.md         ← Prospecting + qualification
 │   │   │   └── deal-strategist.md   ← Análisis crítico de deals
@@ -167,7 +167,7 @@ Estructura fija:
 - ICP: 0-100 con tiers (80-100, 60-79, 40-59, 0-39)
 - ClarQ: 0-40 con niveles (Fragile Giant, Growth Constrained, Growth Ready, Scaling)
 - PULSO: 5-30 por oportunidad (No calificado, Nurture, Oportunidad activa)
-- REKS: Diagnóstico cualitativo (Results → Effort → Knowledge → Skills)
+- ROCA: Diagnóstico cualitativo (Results → Effort → Knowledge → Skills)
 
 ### Formatos de Output
 - Tablas Markdown para scoring y comparaciones

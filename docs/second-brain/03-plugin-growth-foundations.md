@@ -242,11 +242,11 @@ Workshop interactivo de 8 fases para diseñar un quiz funnel completo con el usu
 **Triggers**: "content strategy", "ski slope", "topic triangle", "content plan", "blog strategy", "LATAM content", "estrategia de contenido"
 
 ### Qué hace
-Estrategia de contenidos B2B basada en Ski Slope Strategy (Green Circle → Blue Square → Black Diamond) + Topic Triangle para selección de temas por revenue potential. Incluye 3 workflows adaptados a LATAM.
+Estrategia de contenidos B2B basada en PENDIENTE (Green Circle → Blue Square → Black Diamond) + TRIÁNGULO DE INGRESOS para selección de temas por revenue potential. Incluye 3 workflows adaptados a LATAM.
 
 ### Proceso (4 pasos)
-1. **Auditoría de contenido actual**: Mapear assets existentes al Ski Slope
-2. **Topic Triangle**: Seleccionar temas por CPC × tráfico × revenue potential
+1. **Auditoría de contenido actual**: Mapear assets existentes al PENDIENTE
+2. **TRIÁNGULO DE INGRESOS**: Seleccionar temas por CPC × tráfico × revenue potential
 3. **Content plan**: Crear calendario con progresión Green → Blue → Black
 4. **Distribución**: Red Packet partnerships + micro-budget ads
 
@@ -269,9 +269,9 @@ Estrategia de contenidos B2B basada en Ski Slope Strategy (Green Circle → Blue
 - `examples/workflow-solo-creator-spanish.md`: Creator individual en español
 
 ### Integración
-- El **Topic Triangle** usa datos de ICP (icp-analysis) para filtrar temas por buyer relevance
+- El **TRIÁNGULO DE INGRESOS** usa datos de ICP (icp-analysis) para filtrar temas por buyer relevance
 - Los **blog posts** generados alimentan al `copywriting-engine` (`/headline`, `/copy`)
-- El **Ski Slope** mapea a las fases del `flujo` (motor-de-ofertas): Green = TOFU, Blue = MOFU, Black = BOFU
+- El **PENDIENTE** mapea a las fases del `flujo` (motor-de-ofertas): Green = TOFU, Blue = MOFU, Black = BOFU
 - Las **partnerships** (Red Packet) complementan el outreach del `sdr-agent` (sales-blueprint)
 
 ---

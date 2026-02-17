@@ -224,7 +224,7 @@ Fase 3: Arquitectura FLUJO ──► 7 fases de conversión
     │     Temperatura → Pre-frame → Squeeze → Frontend → OTOs → Nurture → High-ticket
     │
     ▼
-Fase 4: Estrategia Alma ──► Attractive Character + Soap Opera Sequence + Seinfeld Calendar
+Fase 4: Estrategia Alma ──► ALMA + Secuencia ORIGEN + Calendario PULSAR
     │
     ▼
 Fase 5: Blueprint Integrado ──► Diagrama visual + ESCALA + FLUJO + Alma + tráfico + métricas

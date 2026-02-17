@@ -1,14 +1,14 @@
-# Content Mavericks Ecosystem: Complete Codification Guide for Claude Code Plugin
+# 20. Ecosistema de Contenido para Crecimiento — Guía de Codificación
 
 **Prepared for AI Huevos CEO - February 2026**
 
-> **✅ IMPLEMENTADO**: El skill `content-strategy` fue creado en `plugins/growth-foundations/skills/content-strategy/` con: Ski Slope Model, Topic Triangle, Content Scaling Model, 3 templates, 1 pattern, 3 workflows LATAM (B2B SaaS, Consulting Agency, Solo Creator). Ver doc-03 y doc-09 para referencia actualizada.
+> **✅ IMPLEMENTADO**: El skill `content-strategy` fue creado en `plugins/growth-foundations/skills/content-strategy/` con: Modelo PENDIENTE, TRIÁNGULO DE INGRESOS, Content Scaling Model, 3 templates, 1 pattern, 3 workflows LATAM (B2B SaaS, Consulting Agency, Solo Creator). Ver doc-03 y doc-09 para referencia actualizada.
 
 ***
 
 ## Executive Summary
 
-The Content Mavericks ecosystem, built by Chris von Wilpert (and originally inspired by Andrew & Pete), represents a comprehensive content marketing methodology spanning seven major frameworks. This guide provides the complete architecture needed to codify these systems into a Claude Code plugin, including 35+ documented modules, inputs/outputs, dependencies, and 45+ prompt templates.[^1][^2][^3][^4]
+The Ecosistema de Contenido ecosystem, built by Chris von Wilpert (and originally inspired by Andrew & Pete), represents a comprehensive content marketing methodology spanning seven major frameworks. This guide provides the complete architecture needed to codify these systems into a Claude Code plugin, including 35+ documented modules, inputs/outputs, dependencies, and 45+ prompt templates.[^1][^2][^3][^4]
 
 ***
 
@@ -16,9 +16,9 @@ The Content Mavericks ecosystem, built by Chris von Wilpert (and originally insp
 
 ### 1. Framework Ecosystem Map
 
-The Content Mavericks ecosystem consists of seven interconnected frameworks:
+The Ecosistema de Contenido ecosystem consists of seven interconnected frameworks:
 
-#### **Framework 1: Andrew & Pete Content Mavericks (Original Model)**
+#### **Framework 1: Andrew & Pete Ecosistema de Contenido (Original Model)**
 The foundational 7-step process that established the content marketing philosophy.[^2][^5][^6]
 
 **Philosophy**: Create content that makes people "happier or smarter" to build trust by showing (not telling) expertise.
@@ -36,14 +36,14 @@ The foundational 7-step process that established the content marketing philosoph
 
 **Typical Outcomes**: Brand recognition, shareable content, reduced reliance on paid reach, trust-based selling.
 
-#### **Framework 2: Ski Slope Strategy**
+#### **Framework 2: PENDIENTE**
 A 3-step framework for turning blogs into 7-figure revenue channels within 12-24 months.[^7][^8][^9][^10][^1]
 
 **Core Concept**: Content difficulty progression (Green Circle → Blue Square → Black Diamond) mirroring ski slope difficulty levels.
 
 **3-Step System**:
 
-**Step 1: Build Topic Triangle**
+**Step 1: Build TRIÁNGULO DE INGRESOS**
 - **Green Circle Content**: Easy-entry blog posts (long-tail SEO, TOFU)
 - **Blue Square Content**: Lead magnets, tools, webinars (MOFU)
 - **Black Diamond Content**: Case studies, comparison pages, ROI calculators (BOFU)
@@ -67,7 +67,7 @@ A $5 training teaching how to attract $3k-$15k/month clients using single blog p
 
 **7 Core Modules**:
 
-1. **Greatest Hits Survey** (0:06:30)
+1. **ENCUESTA DE RESONANCIA** (0:06:30)
    - One question to audience/group
    - Outputs 5 blog post topics in 30 minutes
    - Validates topics before creation
@@ -78,7 +78,7 @@ A $5 training teaching how to attract $3k-$15k/month clients using single blog p
    - Body copy structure
    - Requires 6th grade reading level only
 
-3. **Three Jabs Strategy** (0:18:48)
+3. **Estrategia TRIPLE VALOR** (0:18:48)
    - Three content upgrades per blog post
    - Converts >10% of traffic to leads
    - 65% of opt-ins come from these upgrades
@@ -90,7 +90,7 @@ A $5 training teaching how to attract $3k-$15k/month clients using single blog p
    - $0 cost per lead
    - Higher quality than SEO/paid traffic
 
-5. **$5 Hit Records** (0:42:31)
+5. **MICRO-PRESUPUESTO** (0:42:31)
    - $5/day ad budget
    - Set-and-forget campaigns
    - Weekly check-ins only
@@ -111,7 +111,7 @@ A $5 training teaching how to attract $3k-$15k/month clients using single blog p
 
 **Typical Outcomes**: Inbound leads from tier-1 brands (Amazon, HubSpot, Shopify), $3k-$15k/month clients, email list growth to 10k leads/month.
 
-#### **Framework 4: Invisible Sales Letter (ISL) System**
+#### **Framework 4: VELO (ISL) System**
 A $19 AI-powered system for creating 1-page sales letters that generate 10-45 customers daily.[^4]
 
 **Core Concept**: One page that educates AND sells simultaneously, eliminating complex funnels.
@@ -129,7 +129,7 @@ A $19 AI-powered system for creating 1-page sales letters that generate 10-45 cu
 - **BOFU (Bottom-of-Funnel)**: Retarget all engagements → Mini ISL version
 - Goal: Fast sales within 7 days
 
-**Step 3: "Operation Nowhere To Hide"**
+**Step 3: "OPERACIÓN OMNIPRESENCIA"**
 - Place ISL link across all assets:
   - Website (exit intent popup)
   - YouTube (first line of description)
@@ -170,7 +170,7 @@ A $2,997 advanced course on partnership + paid traffic strategies for high-ticke
 1. Greatest Hits Content Survey - audience research
 2. Revenue-Driven Topic Selection - CPC>$10 rule
 3. AIDA Article Template - conversion-optimized writing
-4. Three Jabs Strategy - lead capture mechanisms
+4. Estrategia TRIPLE VALOR - lead capture mechanisms
 5. Red Packet Partnerships - distribution via partners
 6. Paid Traffic Strategies - profitable ads to content
 7. Email Follow-up Systems - converting leads to clients
@@ -179,13 +179,13 @@ A $2,997 advanced course on partnership + paid traffic strategies for high-ticke
 
 **Typical Outcomes**: Cheap, low-effort, long-term lead gen system, partnership-driven growth, 6-7 figures in sales from single pieces of content.[^11]
 
-#### **Framework 7: Content Mavericks Elite**
-Done-for-you + 1-on-1 coaching program with "Invisible Sales Letter" technique.[^1]
+#### **Framework 7: Programa Élite de Contenido**
+Done-for-you + 1-on-1 coaching program with "VELO" technique.[^1]
 
 **Structure**: Custom pricing, comprehensive service
 
 **Deliverables**:
-- Invisible Sales Letter (written for you)
+- VELO (written for you)
 - TOFU-MOFU-BOFU ad campaign setup
 - Multi-channel promotion implementation
 - Guarantee: Team works until first client acquired
@@ -241,7 +241,7 @@ ranked by revenue potential, (3) Unique angles not covered by competitors,
 
 ***
 
-#### **Module: Topic Triangle Framework**
+#### **Module: TRIÁNGULO DE INGRESOS Framework**
 
 **Purpose**: Find revenue-generating topics with traffic potential before writing.
 
@@ -266,14 +266,14 @@ ranked by revenue potential, (3) Unique angles not covered by competitors,
 - Competition analysis per topic
 
 **Dependencies**: 
-- Best if done after Greatest Hits Survey
+- Best if done after ENCUESTA DE RESONANCIA
 - Required before AIDA Article Template
 
 **Prompt Templates**:
 ```
-Topic Triangle Analysis Prompt:
+TRIÁNGULO DE INGRESOS Analysis Prompt:
 "I have these [N] keyword opportunities from competitor analysis [paste data]. 
-Apply Topic Triangle framework: Calculate Revenue Potential (1-3) based on 
+Apply TRIÁNGULO DE INGRESOS framework: Calculate Revenue Potential (1-3) based on 
 CPC [list CPCs], calculate Traffic Potential based on search volume [list volumes]. 
 Prioritize top 10 topics where Revenue Potential x Traffic Potential is maximized. 
 Business: [description]. Offer: [price/type]. Output: Ranked spreadsheet with rationale."
@@ -302,7 +302,7 @@ Output: Gap analysis + content blueprint."
 **Purpose**: Write high-converting blog posts that attract ideal clients and convert to leads.
 
 **Inputs**:
-- Validated topic from Topic Triangle
+- Validated topic from TRIÁNGULO DE INGRESOS
 - Target client profile (ICP)
 - Call-to-action offer
 - 6th grade reading level writing ability
@@ -331,8 +331,8 @@ Output: Gap analysis + content blueprint."
 - Content upgrade recommendation
 
 **Dependencies**:
-- Requires Topic Triangle analysis
-- Best paired with Three Jabs Strategy for CTAs
+- Requires TRIÁNGULO DE INGRESOS analysis
+- Best paired with Estrategia TRIPLE VALOR for CTAs
 
 **Prompt Templates**:
 ```
@@ -369,7 +369,7 @@ content upgrade CTAs. ICP: [description]. Output: Full draft in markdown."
 
 ***
 
-#### **Module: Three Jabs Strategy**
+#### **Module: Estrategia TRIPLE VALOR**
 
 **Purpose**: Convert >10% of blog post traffic into email leads through strategic content upgrades.
 
@@ -409,8 +409,8 @@ content upgrade CTAs. ICP: [description]. Output: Full draft in markdown."
 
 **Prompt Templates**:
 ```
-Three Jabs Strategy Designer:
-"For blog post '[title]' about [topic], design a Three Jabs Strategy with 3 content 
+Estrategia TRIPLE VALOR Designer:
+"For blog post '[title]' about [topic], design a Estrategia TRIPLE VALOR with 3 content 
 upgrades. Post teaches [main points]. ICP: [description]. Requirements: Each upgrade 
 must be (1) next logical step, (2) friction remover for implementation, (3) topic-specific. 
 Output: 3 upgrade concepts with titles, descriptions, placement locations, and 
@@ -478,7 +478,7 @@ post '[title]'. Include: (1) Headline (benefit-driven), (2) 2-3 bullet points
 - Higher quality leads than SEO/paid traffic
 
 **Dependencies**:
-- Requires proven blog post (ideally with Three Jabs Strategy)
+- Requires proven blog post (ideally with Estrategia TRIPLE VALOR)
 - Works best after content has social proof (shares, comments)
 
 **Prompt Templates**:
@@ -523,7 +523,7 @@ what messaging worked, (4) Recommendations for next campaign. Output: Complete a
 
 ***
 
-#### **Module: $5 Hit Records**
+#### **Module: MICRO-PRESUPUESTO**
 
 **Purpose**: Generate consistent daily leads with minimal ad spend and management time.
 
@@ -557,32 +557,32 @@ what messaging worked, (4) Recommendations for next campaign. Output: Complete a
 - Profitable ad-to-content system
 
 **Dependencies**:
-- Requires blog post with Three Jabs Strategy implemented
+- Requires blog post with Estrategia TRIPLE VALOR implemented
 - Best used after Red Packet Partnerships prove content quality
 
 **Prompt Templates**:
 ```
 $5 Hit Record Ad Copy Writer:
-"Write Facebook ad copy for blog post '[title]' targeting [ICP]. Follow $5 Hit Records 
+"Write Facebook ad copy for blog post '[title]' targeting [ICP]. Follow MICRO-PRESUPUESTO 
 formula: (1) Short curiosity-driven headline, (2) 2-3 sentence body copy (high curiosity, 
 low detail), (3) CTA. Goal: High CTR for low cost per click. Audience pain point: [pain]. 
 Blog post benefit: [benefit]. Tone: Conversational, intriguing. Output: 5 ad copy variations."
 
 $5 Hit Record Ad Creative Briefer:
-"Create image ad creative brief for $5 Hit Records campaign promoting '[blog post title]'. 
+"Create image ad creative brief for MICRO-PRESUPUESTO campaign promoting '[blog post title]'. 
 Target: [ICP]. Requirements: (1) Simple, uncluttered design, (2) Scroll-stopping element, 
 (3) On-brand colors [list colors], (4) Minimal text overlay, (5) Mobile-optimized. 
 Concept must convey: [key benefit]. Output: Detailed creative brief for designer/Canva."
 
 $5 Hit Record Campaign Structure:
-"Design $5 Hit Records campaign structure for blog post '[title]'. Budget: $[amount]/day. 
+"Design MICRO-PRESUPUESTO campaign structure for blog post '[title]'. Budget: $[amount]/day. 
 Platform: Facebook/Instagram. Include: (1) Campaign objective (Traffic/Engagement), 
 (2) Audience targeting (interests, behaviors, demographics), (3) Placement strategy, 
 (4) Ad set structure, (5) Scaling rules (when to increase budget), (6) Kill criteria 
 (when to turn off). Output: Complete campaign setup document."
 
 $5 Hit Record Weekly Optimizer:
-"Analyze $5 Hit Records campaign performance for week of [dates]. Metrics: [paste data - 
+"Analyze MICRO-PRESUPUESTO campaign performance for week of [dates]. Metrics: [paste data - 
 spend, impressions, CTR, CPC, conversions, etc.]. Provide: (1) Performance summary 
 (what's working/not), (2) Winning ads to scale (increase budget), (3) Losing ads to kill, 
 (4) Creative/copy refresh recommendations, (5) Audience insights. Output: Weekly optimization report + action items."
@@ -597,7 +597,7 @@ spend, impressions, CTR, CPC, conversions, etc.]. Provide: (1) Performance summa
 **Purpose**: Convert leads into $3k-$15k/month clients through strategic email follow-up without phone calls.
 
 **Inputs**:
-- Email list from Three Jabs Strategy
+- Email list from Estrategia TRIPLE VALOR
 - Client offer details ($500-$15k price point)
 - Understanding of prospect's present pain
 - Client success stories (social proof)
@@ -614,7 +614,7 @@ spend, impressions, CTR, CPC, conversions, etc.]. Provide: (1) Performance summa
 3. **Tone**: Talk to three brains (Child/Adult/Parent)
 4. **Follow-up**: If interested, continue via email or book call
 
-**Three Brains Model**:
+**MODELO TRICORTICAL**:
 - **Child Brain**: Emotional, wants instant gratification
 - **Adult Brain**: Logical, weighs pros/cons
 - **Parent Brain**: Protective, worried about risks
@@ -631,7 +631,7 @@ spend, impressions, CTR, CPC, conversions, etc.]. Provide: (1) Performance summa
 - Sales without phone call requirement
 
 **Dependencies**:
-- Requires leads from Three Jabs Strategy
+- Requires leads from Estrategia TRIPLE VALOR
 - Best results when blog post has built trust first
 
 **Prompt Templates**:
@@ -677,7 +677,7 @@ but respectful. Output: 3 complete follow-up emails."
 
 ***
 
-#### **Module: Invisible Sales Letter (ISL) Creation**
+#### **Module: VELO (ISL) Creation**
 
 **Purpose**: Create a single 1-page sales letter that educates prospects and sells simultaneously.
 
@@ -716,7 +716,7 @@ but respectful. Output: 3 complete follow-up emails."
 ```
 ISL Step-by-Step Process Mapper:
 "Map our [service/product] delivery process into clear step-by-step breakdown for 
-Invisible Sales Letter. Offer: [description]. Customer journey: [brief]. Create: 
+VELO. Offer: [description]. Customer journey: [brief]. Create: 
 (1) 5-7 steps with clear names, (2) What happens in each step, (3) Why each step 
 matters (builds certainty), (4) How step leads to next, (5) Result after each. 
 Formula: Clarity = Certainty. Output: Complete process map."
@@ -729,7 +729,7 @@ available. Position social proof to build credibility at each phase. Output: Pro
 embedded social proof."
 
 ISL Full Draft Writer:
-"Write complete Invisible Sales Letter for [offer] targeting [ICP]. Include: (1) Problem 
+"Write complete VELO for [offer] targeting [ICP]. Include: (1) Problem 
 agitation opening (present pain), (2) Step-by-step education (clarity→certainty), 
 (3) Social proof integrated at each step, (4) Offer details (price: $X, scope: [details], 
 deliverables: [list]), (5) Guarantee ([terms]), (6) Single CTA repeated 3-5 times. 
@@ -758,7 +758,7 @@ Output: Complete ISL variant with change documentation."
 **Purpose**: Turn cold traffic into customers using 2-campaign ad structure with ISL.
 
 **Inputs**:
-- Completed Invisible Sales Letter (published URL)
+- Completed VELO (published URL)
 - Facebook/Instagram Ads account
 - Ad creative (images/video)
 - Daily ad budget ($20-$100+)
@@ -794,19 +794,19 @@ Output: Complete ISL variant with change documentation."
 
 **Dependencies**:
 - Requires completed ISL
-- Optional: Pairs with "Operation Nowhere To Hide" module
+- Optional: Pairs with "OPERACIÓN OMNIPRESENCIA" module
 
 **Prompt Templates**:
 ```
 TOFU Ad Strategy Designer:
-"Design TOFU ad campaign for Invisible Sales Letter '[title]' selling [offer]. Target: [ICP]. 
+"Design TOFU ad campaign for VELO '[title]' selling [offer]. Target: [ICP]. 
 Create strategy for: (1) Campaign objective (Traffic/Engagement - which and why), 
 (2) Audience targeting (interests, behaviors, demographics - be specific), (3) Budget allocation 
 ($X/day), (4) Ad creative direction (image/video approach), (5) Ad copy angle (curiosity hook). 
 Goal: High CTR, low CPC, max engagement for retargeting. Output: Complete TOFU campaign plan."
 
 TOFU Ad Copy Generator:
-"Write TOFU ad copy for Invisible Sales Letter campaign. ISL sells [offer] to [ICP]. 
+"Write TOFU ad copy for VELO campaign. ISL sells [offer] to [ICP]. 
 Ad requirements: (1) Short copy (2-3 sentences max), (2) High curiosity, low detail, 
 (3) Scroll-stopping hook, (4) Clear CTA to read/learn more. Pain point: [pain]. 
 Unique angle: [what makes offer different]. Create 5 variations testing different hooks. 
@@ -836,7 +836,7 @@ Provide: (1) Funnel analysis (TOFU engagement → BOFU conversion rate), (2) Cos
 
 ***
 
-#### **Module: Operation Nowhere To Hide**
+#### **Module: OPERACIÓN OMNIPRESENCIA**
 
 **Purpose**: Maximize ISL distribution by placing it across every existing marketing asset.
 
@@ -882,7 +882,7 @@ Provide: (1) Funnel analysis (TOFU engagement → BOFU conversion rate), (2) Cos
 **Prompt Templates**:
 ```
 Asset Audit & Prioritizer:
-"Audit all marketing assets for [business name] and prioritize for Operation Nowhere To Hide 
+"Audit all marketing assets for [business name] and prioritize for OPERACIÓN OMNIPRESENCIA 
 ISL placement. Assets to consider: Website pages, blog posts, YouTube videos, podcasts, 
 email sequences, social profiles, third-party content. For each asset type: (1) Estimate 
 monthly traffic/reach, (2) Current call-to-action (if any), (3) Placement opportunity for ISL link, 
@@ -907,14 +907,14 @@ Each P.S. must: (1) Be 1-2 sentences, (2) Present different angle/benefit of ISL
 Output: 10 P.S. options."
 
 UTM Tracking Structure:
-"Create UTM parameter structure for Operation Nowhere To Hide campaign. ISL: '[URL]'. 
+"Create UTM parameter structure for OPERACIÓN OMNIPRESENCIA campaign. ISL: '[URL]'. 
 Assets being tracked: [list asset types]. Create standardized UTM structure with: 
-(1) utm_source (asset type), (2) utm_medium (placement type), (3) utm_campaign (Operation Nowhere To Hide), 
+(1) utm_source (asset type), (2) utm_medium (placement type), (3) utm_campaign (OPERACIÓN OMNIPRESENCIA), 
 (4) utm_content (specific asset/variation). Provide: (1) UTM naming convention, (2) Example links 
 for each asset type, (3) Google Analytics goal setup. Output: Complete tracking system."
 
 Performance Dashboard Builder:
-"Design performance dashboard for Operation Nowhere To Hide campaign. Metrics to track: 
+"Design performance dashboard for OPERACIÓN OMNIPRESENCIA campaign. Metrics to track: 
 (1) ISL visits by source asset, (2) Conversion rate by source, (3) Revenue by source, 
 (4) ROI per asset, (5) High-performers vs low-performers. Data sources: Google Analytics, 
 [CRM], ad platforms. Output: Dashboard structure with key metrics and data sources."
@@ -940,17 +940,17 @@ Performance Dashboard Builder:
 
 **Goal**: Build predictable inbound lead engine generating 50-100 MQLs/month at <$50 CAC.
 
-**Recommended Framework Combination**: Ski Slope Strategy + MTLC + ISL System
+**Recommended Framework Combination**: PENDIENTE + MTLC + ISL System
 
 **Module Sequence**:
 
 **Phase 1: Foundation (Weeks 1-2)**
-1. **Greatest Hits Survey** → Validate top pain points for LatAm SMBs
+1. **ENCUESTA DE RESONANCIA** → Validate top pain points for LatAm SMBs
    - Survey questions in Spanish
    - Focus: Collections/payment processing challenges specific to LatAm (currency, regulations, fraud)
    - Output: 5 validated blog topics
 
-2. **Topic Triangle Framework** → Identify revenue topics
+2. **TRIÁNGULO DE INGRESOS Framework** → Identify revenue topics
    - Use Spanish keyword tools (SEMrush, Ahrefs for .mx, .co, .ar domains)
    - CPC>$5 threshold (adjusted for LatAm market)
    - Focus on "comparison" and "how to" topics (high buying intent)
@@ -964,7 +964,7 @@ Performance Dashboard Builder:
    - Write in Spanish or hire LatAm writer
    - Output: 3 complete blog posts
 
-4. **Three Jabs Strategy** → Add lead capture
+4. **Estrategia TRIPLE VALOR** → Add lead capture
    - Content Upgrade ideas:
      - Checklist: "12 pasos para implementar cobranza automatizada"
      - Template: "Plantilla de email de cobro en español"
@@ -982,14 +982,14 @@ Performance Dashboard Builder:
    - Outreach in Spanish
    - Output: 100-1,000 leads from 3-5 successful partnerships
 
-6. **$5 Hit Records** → Small-budget ads
+6. **MICRO-PRESUPUESTO** → Small-budget ads
    - Platforms: Facebook/Instagram (strong LatAm penetration), LinkedIn (for enterprise)
    - Budget: $10-$20/day per market (Colombia $10, Mexico $15, etc.)
    - Target: Business owners, CFOs, operations managers
    - Output: 5-10 leads/day at <$5 CPL
 
 **Phase 4: Conversion Engine (Weeks 11-12)**
-7. **Invisible Sales Letter** → Create ISL for free trial offer
+7. **VELO** → Create ISL for free trial offer
    - Headline: "Cómo [Company] ayuda a empresas en LatAm a cobrar 30% más rápido"
    - Process: 5-step onboarding process explained clearly
    - Social proof: 3-5 LatAm client case studies (logo + metric + quote)
@@ -1048,14 +1048,14 @@ Performance Dashboard Builder:
    - Example: "The Revenue Scaling System", "The 90-Day GTM Blueprint"
    - Output: Branded methodology, visual brand elements
 
-2. **Greatest Hits Survey** → Find perfect topic
+2. **ENCUESTA DE RESONANCIA** → Find perfect topic
    - Survey 20-50 past clients, lost deals, or community members
    - Question: "What's the #1 obstacle preventing you from [achieving goal your service delivers]?"
    - Analyze: Common themes, quote-worthy pain points
    - Output: THE perfect blog topic that attracts ideal clients
 
 **Phase 2: Authority Content (Weeks 2-4)**
-3. **Topic Triangle** → Validate commercial intent
+3. **TRIÁNGULO DE INGRESOS** → Validate commercial intent
    - Check CPC: Should be $10-$20+ (high-value searches)
    - Ensure "buying intent" keywords (not just info-seeking)
    - Example: "hire marketing agency for SaaS" vs "marketing tips"
@@ -1068,7 +1068,7 @@ Performance Dashboard Builder:
    - Social proof: Embed 2-3 client results within content
    - Output: Black Diamond blog post (BOFU content)
 
-5. **Three Jabs Strategy** → High-value upgrades
+5. **Estrategia TRIPLE VALOR** → High-value upgrades
    - Upgrade 1: Strategic assessment/audit template
    - Upgrade 2: ROI calculator for your service
    - Upgrade 3: Complete blueprint/guide (50+ pages)
@@ -1092,7 +1092,7 @@ Performance Dashboard Builder:
    - Output: Organic shares drive 20-40% of traffic
 
 **Phase 4: High-Ticket Conversion System (Weeks 9-12)**
-8. **Invisible Sales Letter** → Services ISL
+8. **VELO** → Services ISL
    - Structure:
      - Problem: Why [target market] struggles with [problem]
      - Process: Your 5-7 step framework explained in detail
@@ -1110,18 +1110,18 @@ Performance Dashboard Builder:
    - These are personal (not automated blasts)
    - Output: 30-50% response rate for qualified leads → discovery calls
 
-10. **$5 Hit Records** → Hyper-targeted ads
+10. **MICRO-PRESUPUESTO** → Hyper-targeted ads
     - LinkedIn Ads (best for B2B services)
     - Target: Title (VP Marketing, Director of Ops), company size, industry
     - Budget: $20-$50/day (LinkedIn is expensive but quality is high)
-    - Ad → Blog post (with Three Jabs) → 900 Word Email → ISL
+    - Ad → Blog post (with TRIPLE VALOR) → 900 Word Email → ISL
     - Output: 3-5 discovery calls/month at $200-$400/call
 
 **Alternative: Skip ads entirely, focus 100% on organic + partnerships if budget constrained.**
 
 **Phase 5: Sales Process (Ongoing)**
 11. **Discovery Call Process** → Qualify & close
-    - Use insights from Greatest Hits Survey in discovery
+    - Use insights from ENCUESTA DE RESONANCIA in discovery
     - Reference blog post/ISL they read (already educated)
     - Propose: Custom strategy based on your branded methodology
     - Close rate: 30-40% (leads are pre-qualified and pre-sold)
@@ -1156,12 +1156,12 @@ Performance Dashboard Builder:
 
 **Goal**: Build $5k-$10k/month revenue from info products with lean operations (solo or 1 VA).
 
-**Recommended Framework Combination**: Ski Slope Strategy + ISL System (Budget Version)
+**Recommended Framework Combination**: PENDIENTE + ISL System (Budget Version)
 
 **Module Sequence**:
 
 **Phase 1: Niche Validation & Quick Content (Weeks 1-3)**
-1. **Greatest Hits Survey** → Find perfect topic (Spanish communities)
+1. **ENCUESTA DE RESONANCIA** → Find perfect topic (Spanish communities)
    - Post survey in:
      - Facebook groups (abundant Spanish biz groups)
      - WhatsApp business groups (very active in LatAm)
@@ -1177,7 +1177,7 @@ Performance Dashboard Builder:
    - Format: "Cómo [achieve result] en [timeframe] sin [objection]"
    - Output: 1 blog post optimized for Spanish SEO
 
-3. **Three Jabs Strategy** → One powerful upgrade
+3. **Estrategia TRIPLE VALOR** → One powerful upgrade
    - Since solo: Focus on 1 highest-value upgrade (not 3)
    - Options:
      - PDF workbook: "Guía completa de [topic]"
@@ -1196,7 +1196,7 @@ Performance Dashboard Builder:
    - Offer: Affiliate commission (30-50% on your course)
    - Output: 1-3 partnerships → 100-500 email subscribers
 
-5. **$5 Hit Records** → Minimal ad spend
+5. **MICRO-PRESUPUESTO** → Minimal ad spend
    - Budget: $5-$10/day (affordable for solo creator)
    - Platform: Facebook/Instagram (cheaper than LinkedIn)
    - Target: Spanish language + interests related to your topic
@@ -1213,7 +1213,7 @@ Performance Dashboard Builder:
    - Output: Cross-platform distribution on $0 budget
 
 **Phase 3: Product Creation (Weeks 7-9)**
-7. **Invisible Sales Letter** → Info product sales page
+7. **VELO** → Info product sales page
    - Format: Long-form sales letter (2,000-3,000 words)
    - Structure:
      - Hero: "Cómo [achieve big result] sin [objection]"
@@ -1239,7 +1239,7 @@ Performance Dashboard Builder:
    - Output: 5-15% conversion (list to customers)
 
 **Phase 4: Evergreen System (Weeks 10-12)**
-9. **Operation Nowhere To Hide** → Evergreen links
+9. **OPERACIÓN OMNIPRESENCIA** → Evergreen links
    - Add ISL links to:
      - YouTube video descriptions (if you have channel)
      - Instagram bio (use link in bio tool)
@@ -1285,7 +1285,7 @@ Performance Dashboard Builder:
 
 ### Schema Overview
 
-This JSON schema represents the complete Content Mavericks ecosystem as a plugin-ready data model. It includes:
+This JSON schema represents the complete Ecosistema de Contenido ecosystem as a plugin-ready data model. It includes:
 - **7 Frameworks**: Each with metadata, target users, and outcomes
 - **35+ Modules**: With inputs, outputs, dependencies, and prompts
 - **3 Workflows**: B2B SaaS LatAm, Consulting/Agency, Solo Creator
@@ -1303,13 +1303,13 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
 
 ```json
 {
-  "plugin_name": "Content Mavericks Ecosystem",
+  "plugin_name": "Ecosistema de Contenido Ecosystem",
   "version": "1.0.0",
-  "description": "Complete codification of Chris von Wilpert's Content Mavericks ecosystem including 7 frameworks, 35+ modules, 45+ prompts, and 3 opinionated workflows",
+  "description": "Complete codification of Chris von Wilpert's Ecosistema de Contenido ecosystem including 7 frameworks, 35+ modules, 45+ prompts, and 3 opinionated workflows",
   "frameworks": [
     {
       "id": "framework-andrew-pete-content-mavericks",
-      "name": "Andrew & Pete Content Mavericks",
+      "name": "Andrew & Pete Ecosistema de Contenido",
       "description": "Original 7-step content marketing process focused on creating shareable content that makes people happier or smarter",
       "type": "foundational_philosophy",
       "target_user": "New marketers, entrepreneurs starting content marketing, established marketers with stale strategies",
@@ -1333,8 +1333,8 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "framework-ski-slope-strategy",
-      "name": "Ski Slope Strategy",
-      "description": "3-step framework for turning blogs into 7-figure revenue channels within 12-24 months using Topic Triangle and content difficulty progression",
+      "name": "PENDIENTE",
+      "description": "3-step framework for turning blogs into 7-figure revenue channels within 12-24 months using TRIÁNGULO DE INGRESOS and content difficulty progression",
       "type": "traffic_revenue_system",
       "target_user": "Entrepreneurs with proven offers wanting scalable traffic growth",
       "typical_outcomes": [
@@ -1378,7 +1378,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "framework-invisible-sales-letter",
-      "name": "Invisible Sales Letter (ISL) System",
+      "name": "VELO (ISL) System",
       "description": "1-page sales letter system that educates and sells simultaneously, generating 10-45 customers daily with TOFU-BOFU ad structure",
       "type": "sales_page_funnel",
       "target_user": "Businesses <$1M revenue tired of content grind, selling $5-$60k offers",
@@ -1442,8 +1442,8 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "framework-content-mavericks-elite",
-      "name": "Content Mavericks Elite",
-      "description": "Done-for-you + 1-on-1 coaching program with Invisible Sales Letter creation and full campaign setup",
+      "name": "Programa Élite de Contenido",
+      "description": "Done-for-you + 1-on-1 coaching program with VELO creation and full campaign setup",
       "type": "done_for_you_service",
       "target_user": "High-commitment clients wanting full implementation support",
       "typical_outcomes": [
@@ -1528,7 +1528,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "module-topic-triangle",
-      "name": "Topic Triangle Framework",
+      "name": "TRIÁNGULO DE INGRESOS Framework",
       "framework_ids": ["framework-ski-slope-strategy", "framework-greatest-hits-content"],
       "purpose": "Find revenue-generating topics with traffic potential using Revenue Potential x Traffic Potential calculation and CPC>$10 rule",
       "inputs": {
@@ -1570,8 +1570,8 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
       "prompts": [
         {
           "id": "prompt-topic-triangle-analysis",
-          "name": "Topic Triangle Analysis Prompt",
-          "template": "I have these {{keyword_count}} keyword opportunities from competitor analysis {{keyword_data}}. Apply Topic Triangle framework: Calculate Revenue Potential (1-3) based on CPC {{cpc_values}}, calculate Traffic Potential based on search volume {{search_volumes}}. Prioritize top 10 topics where Revenue Potential x Traffic Potential is maximized. Business: {{business_description}}. Offer: {{offer_type_and_price}}. Output: Ranked spreadsheet with rationale.",
+          "name": "TRIÁNGULO DE INGRESOS Analysis Prompt",
+          "template": "I have these {{keyword_count}} keyword opportunities from competitor analysis {{keyword_data}}. Apply TRIÁNGULO DE INGRESOS framework: Calculate Revenue Potential (1-3) based on CPC {{cpc_values}}, calculate Traffic Potential based on search volume {{search_volumes}}. Prioritize top 10 topics where Revenue Potential x Traffic Potential is maximized. Business: {{business_description}}. Offer: {{offer_type_and_price}}. Output: Ranked spreadsheet with rationale.",
           "parameters": {
             "keyword_count": "integer",
             "keyword_data": "structured_data",
@@ -1692,7 +1692,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "module-three-jabs-strategy",
-      "name": "Three Jabs Strategy",
+      "name": "Estrategia TRIPLE VALOR",
       "framework_ids": ["framework-more-traffic-less-content", "framework-greatest-hits-content"],
       "purpose": "Convert >10% of blog post traffic into email leads through 3 strategic content upgrades (65% of total opt-ins come from upgrades)",
       "inputs": {
@@ -1732,8 +1732,8 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
       "prompts": [
         {
           "id": "prompt-three-jabs-designer",
-          "name": "Three Jabs Strategy Designer",
-          "template": "For blog post '{{title}}' about {{topic}}, design a Three Jabs Strategy with 3 content upgrades. Post teaches {{main_points}}. ICP: {{icp_description}}. Requirements: Each upgrade must be (1) next logical step, (2) friction remover for implementation, (3) topic-specific. Output: 3 upgrade concepts with titles, descriptions, placement locations, and conversion hypothesis.",
+          "name": "Estrategia TRIPLE VALOR Designer",
+          "template": "For blog post '{{title}}' about {{topic}}, design a Estrategia TRIPLE VALOR with 3 content upgrades. Post teaches {{main_points}}. ICP: {{icp_description}}. Requirements: Each upgrade must be (1) next logical step, (2) friction remover for implementation, (3) topic-specific. Output: 3 upgrade concepts with titles, descriptions, placement locations, and conversion hypothesis.",
           "parameters": {
             "title": "string",
             "topic": "string",
@@ -1886,7 +1886,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "module-5-dollar-hit-records",
-      "name": "$5 Hit Records",
+      "name": "MICRO-PRESUPUESTO",
       "framework_ids": ["framework-more-traffic-less-content"],
       "purpose": "Generate consistent daily leads with $5/day ad spend requiring only weekly check-ins (saves $1,500+/month vs agency)",
       "inputs": {
@@ -1930,7 +1930,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
         {
           "id": "prompt-5-dollar-ad-copy",
           "name": "$5 Hit Record Ad Copy Writer",
-          "template": "Write Facebook ad copy for blog post '{{title}}' targeting {{icp}}. Follow $5 Hit Records formula: (1) Short curiosity-driven headline, (2) 2-3 sentence body copy (high curiosity, low detail), (3) CTA. Goal: High CTR for low cost per click. Audience pain point: {{pain}}. Blog post benefit: {{benefit}}. Tone: Conversational, intriguing. Output: 5 ad copy variations.",
+          "template": "Write Facebook ad copy for blog post '{{title}}' targeting {{icp}}. Follow MICRO-PRESUPUESTO formula: (1) Short curiosity-driven headline, (2) 2-3 sentence body copy (high curiosity, low detail), (3) CTA. Goal: High CTR for low cost per click. Audience pain point: {{pain}}. Blog post benefit: {{benefit}}. Tone: Conversational, intriguing. Output: 5 ad copy variations.",
           "parameters": {
             "title": "string",
             "icp": "string",
@@ -1941,7 +1941,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
         {
           "id": "prompt-5-dollar-creative-brief",
           "name": "$5 Hit Record Ad Creative Briefer",
-          "template": "Create image ad creative brief for $5 Hit Records campaign promoting '{{blog_post_title}}'. Target: {{icp}}. Requirements: (1) Simple, uncluttered design, (2) Scroll-stopping element, (3) On-brand colors {{colors_list}}, (4) Minimal text overlay, (5) Mobile-optimized. Concept must convey: {{key_benefit}}. Output: Detailed creative brief for designer/Canva.",
+          "template": "Create image ad creative brief for MICRO-PRESUPUESTO campaign promoting '{{blog_post_title}}'. Target: {{icp}}. Requirements: (1) Simple, uncluttered design, (2) Scroll-stopping element, (3) On-brand colors {{colors_list}}, (4) Minimal text overlay, (5) Mobile-optimized. Concept must convey: {{key_benefit}}. Output: Detailed creative brief for designer/Canva.",
           "parameters": {
             "blog_post_title": "string",
             "icp": "string",
@@ -1952,7 +1952,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
         {
           "id": "prompt-5-dollar-campaign-structure",
           "name": "$5 Hit Record Campaign Structure",
-          "template": "Design $5 Hit Records campaign structure for blog post '{{title}}'. Budget: ${{budget}}/day. Platform: Facebook/Instagram. Include: (1) Campaign objective (Traffic/Engagement), (2) Audience targeting (interests, behaviors, demographics), (3) Placement strategy, (4) Ad set structure, (5) Scaling rules (when to increase budget), (6) Kill criteria (when to turn off). Output: Complete campaign setup document.",
+          "template": "Design MICRO-PRESUPUESTO campaign structure for blog post '{{title}}'. Budget: ${{budget}}/day. Platform: Facebook/Instagram. Include: (1) Campaign objective (Traffic/Engagement), (2) Audience targeting (interests, behaviors, demographics), (3) Placement strategy, (4) Ad set structure, (5) Scaling rules (when to increase budget), (6) Kill criteria (when to turn off). Output: Complete campaign setup document.",
           "parameters": {
             "title": "string",
             "budget": "number"
@@ -1961,7 +1961,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
         {
           "id": "prompt-5-dollar-weekly-optimizer",
           "name": "$5 Hit Record Weekly Optimizer",
-          "template": "Analyze $5 Hit Records campaign performance for week of {{date_range}}. Metrics: {{performance_data}}. Provide: (1) Performance summary (what's working/not), (2) Winning ads to scale (increase budget), (3) Losing ads to kill, (4) Creative/copy refresh recommendations, (5) Audience insights. Output: Weekly optimization report + action items.",
+          "template": "Analyze MICRO-PRESUPUESTO campaign performance for week of {{date_range}}. Metrics: {{performance_data}}. Provide: (1) Performance summary (what's working/not), (2) Winning ads to scale (increase budget), (3) Losing ads to kill, (4) Creative/copy refresh recommendations, (5) Audience insights. Output: Weekly optimization report + action items.",
           "parameters": {
             "date_range": "string",
             "performance_data": "structured_data"
@@ -2070,7 +2070,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
     },
     {
       "id": "module-isl-creation",
-      "name": "Invisible Sales Letter Creation",
+      "name": "VELO Creation",
       "framework_ids": ["framework-invisible-sales-letter", "framework-content-mavericks-elite"],
       "purpose": "Create single 1-page sales letter that educates prospects and sells simultaneously using Clarity = Certainty formula",
       "inputs": {
@@ -2116,7 +2116,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
         {
           "id": "prompt-isl-process-mapper",
           "name": "ISL Step-by-Step Process Mapper",
-          "template": "Map our {{service_or_product}} delivery process into clear step-by-step breakdown for Invisible Sales Letter. Offer: {{offer_description}}. Customer journey: {{journey_brief}}. Create: (1) 5-7 steps with clear names, (2) What happens in each step, (3) Why each step matters (builds certainty), (4) How step leads to next, (5) Result after each. Formula: Clarity = Certainty. Output: Complete process map.",
+          "template": "Map our {{service_or_product}} delivery process into clear step-by-step breakdown for VELO. Offer: {{offer_description}}. Customer journey: {{journey_brief}}. Create: (1) 5-7 steps with clear names, (2) What happens in each step, (3) Why each step matters (builds certainty), (4) How step leads to next, (5) Result after each. Formula: Clarity = Certainty. Output: Complete process map.",
           "parameters": {
             "service_or_product": "string",
             "offer_description": "string",
@@ -2135,7 +2135,7 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
         {
           "id": "prompt-isl-full-draft",
           "name": "ISL Full Draft Writer",
-          "template": "Write complete Invisible Sales Letter for {{offer}} targeting {{icp}}. Include: (1) Problem agitation opening (present pain), (2) Step-by-step education (clarity→certainty), (3) Social proof integrated at each step, (4) Offer details (price: ${{price}}, scope: {{scope}}, deliverables: {{deliverables}}), (5) Guarantee ({{guarantee}}), (6) Single CTA repeated 3-5 times. Length: 2,500-4,000 words. Tone: Authoritative, clear, benefit-focused. Process: {{process}}. Client results: {{results}}. Output: Complete ISL in long-form sales letter format.",
+          "template": "Write complete VELO for {{offer}} targeting {{icp}}. Include: (1) Problem agitation opening (present pain), (2) Step-by-step education (clarity→certainty), (3) Social proof integrated at each step, (4) Offer details (price: ${{price}}, scope: {{scope}}, deliverables: {{deliverables}}), (5) Guarantee ({{guarantee}}), (6) Single CTA repeated 3-5 times. Length: 2,500-4,000 words. Tone: Authoritative, clear, benefit-focused. Process: {{process}}. Client results: {{results}}. Output: Complete ISL in long-form sales letter format.",
           "parameters": {
             "offer": "string",
             "icp": "string",
@@ -2216,25 +2216,25 @@ This JSON schema represents the complete Content Mavericks ecosystem as a plugin
 
 ## References
 
-1. [Chris Von Wilpert Content Mavericks Review: What Is the Ski Slope ...](https://ippei.com/content-mavericks/) - Greatest Hits Content is a 7-part course on advanced partnership and paid traffic strategies. The co...
+1. [Chris Von Wilpert Ecosistema de Contenido Review: What Is the PENDIENTE ...](https://ippei.com/content-mavericks/) - Greatest Hits Content is a 7-part course on advanced partnership and paid traffic strategies. The co...
 
-2. [Content Mavericks by Andrew and Pete: A Book Review](https://alexisrodrigo.com/content-mavericks-andrew-pete/) - "The Content Mavericks Model is the perfect antidote to this [low attention and trust]. Creating con...
+2. [Ecosistema de Contenido by Andrew and Pete: A Book Review](https://alexisrodrigo.com/content-mavericks-andrew-pete/) - "The Ecosistema de Contenido Model is the perfect antidote to this [low attention and trust]. Creating con...
 
 3. [More Traffic Less Content](https://contentmavericks.com/mtlc/) - I'll show you how I use the AIDA Article Template to write all my blog posts and how I get my writer...
 
-4. [Invisible Sales Letter AI Builder](https://contentmavericks.com/goat/) - TOFU (top-of-funnel): Run cold traffic ads direct to your Invisible Sales Letter (use laser targeted...
+4. [VELO AI Builder](https://contentmavericks.com/goat/) - TOFU (top-of-funnel): Run cold traffic ads direct to your VELO (use laser targeted...
 
-5. [Content Mavericks | The Book](https://www.andrewandpete.com/mavericksbook/) - Our revolutionary Content Mavericks process, takes you through 7 logical steps to create a content m...
+5. [Ecosistema de Contenido | The Book](https://www.andrewandpete.com/mavericksbook/) - Our revolutionary Ecosistema de Contenido process, takes you through 7 logical steps to create a content m...
 
-6. [Local View Digital Marketing reviews "Content Mavericks ...](https://localview.link/content-mavericks-andrew-and-pete-book-review/) - Content Mavericks breaks it down for you into easily readable modules with charts, processes and the...
+6. [Local View Digital Marketing reviews "Ecosistema de Contenido ...](https://localview.link/content-mavericks-andrew-and-pete-book-review/) - Ecosistema de Contenido breaks it down for you into easily readable modules with charts, processes and the...
 
-7. [Ski Slope Strategy | PDF - Scribd](https://www.scribd.com/document/846259732/Ski-Slope-Strategy) - 5.0
+7. [PENDIENTE | PDF - Scribd](https://www.scribd.com/document/846259732/Ski-Slope-Strategy) - 5.0
 
-8. [The Ski Slope Strategy](https://maverickscontent.com) - ... topics that drive direct revenue, build a massive audience and rank your content. It's easy when...
+8. [The PENDIENTE](https://maverickscontent.com) - ... topics that drive direct revenue, build a massive audience and rank your content. It's easy when...
 
-9. [Ski Slope Strategy | PDF | Search Engine Optimization - Scribd](https://www.scribd.com/document/872261300/ski-slope-strategy) - Step 1: Build a topic triangle with the only three blog post formats you need. Step 2: Promote linka...
+9. [PENDIENTE | PDF | Search Engine Optimization - Scribd](https://www.scribd.com/document/872261300/ski-slope-strategy) - Step 1: Build a topic triangle with the only three blog post formats you need. Step 2: Promote linka...
 
-10. [The Ski Slope Strategy - Content Mavericks](https://contentmavericks.com/sss/) - ... topics that drive direct revenue, build a massive audience and rank your content. It's easy when...
+10. [The PENDIENTE - Ecosistema de Contenido](https://contentmavericks.com/sss/) - ... topics that drive direct revenue, build a massive audience and rank your content. It's easy when...
 
-11. [Chris Von Wilpert ⚡️ Founder of Content Mavericks 👑 Ex](https://www.linkedin.com/posts/vonwilpert_i-want-to-spend-up-to-1000-per-day-of-my-activity-6943146981661753344-LR2H) - The strategy we will be following is based on the Greatest Hits Content strategy we teach inside Con...
+11. [Chris Von Wilpert ⚡️ Founder of Ecosistema de Contenido 👑 Ex](https://www.linkedin.com/posts/vonwilpert_i-want-to-spend-up-to-1000-per-day-of-my-activity-6943146981661753344-LR2H) - The strategy we will be following is based on the Greatest Hits Content strategy we teach inside Con...
 

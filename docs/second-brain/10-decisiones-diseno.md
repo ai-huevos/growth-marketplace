@@ -133,17 +133,17 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisión 10: REKS Antes de PULSO en Coaching
+## Decisión 10: ROCA Antes de PULSO en Coaching
 
-**Decisión**: El coaching usa REKS como primer filtro (Results → Effort → Knowledge → Skills) antes de evaluar PULSO skills.
+**Decisión**: El coaching usa ROCA como primer filtro (Results → Effort → Knowledge → Skills) antes de evaluar PULSO skills.
 
 **Rationale**:
 - El 80% de los problemas de performance se diagnostican mal
 - Muchos managers asumen que el rep "no sabe vender" cuando el problema es de esfuerzo o motivación
-- REKS fuerza un diagnóstico estructurado antes de prescribir solución
-- Solo cuando REKS identifica Skills como el issue, tiene sentido evaluar PULSO
+- ROCA fuerza un diagnóstico estructurado antes de prescribir solución
+- Solo cuando ROCA identifica Skills como el issue, tiene sentido evaluar PULSO
 
-**Implicación**: El coaching es un proceso de dos capas: REKS (diagnóstico de performance) → PULSO (diagnóstico de calidad de ejecución).
+**Implicación**: El coaching es un proceso de dos capas: ROCA (diagnóstico de performance) → PULSO (diagnóstico de calidad de ejecución).
 
 ---
 

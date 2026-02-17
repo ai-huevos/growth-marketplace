@@ -138,10 +138,10 @@ PULSO es el framework de diagnóstico de Metodología GrowthOS. Es el lenguaje c
 - **/diagnostico (ClarQ)**: Evalúa la madurez operacional que determina si una empresa PUEDE implementar soluciones (conectado con Situation y Capabilities)
 
 ### En sales-blueprint
-- **Discovery Mastery**: PULSO es el framework central de discovery. ACE opening → PULSO diagnóstico → 7 Momentos
+- **Discovery Mastery**: PULSO es el framework central de discovery. AVE → PULSO diagnóstico → 7 Momentos
 - **Pipeline Management**: Cada deal se evalúa con PULSO score para determinar salud del pipeline
 - **Proposal Generation**: Requiere PULSO >= 23 para generar propuesta. La propuesta refleja el diagnóstico PULSO
-- **Coaching Cadence**: REKS diagnostica performance, PULSO evalúa la calidad del discovery que hace el rep
+- **Coaching Cadence**: ROCA diagnostica performance, PULSO evalúa la calidad del discovery que hace el rep
 - **SDR Agent**: Construye hipótesis PULSO pre-contacto basada en research
 - **Deal Strategist**: Analiza PULSO con escepticismo profesional para identificar gaps
 

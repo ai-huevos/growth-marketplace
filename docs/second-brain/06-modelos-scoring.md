@@ -134,7 +134,7 @@ Este documento consolida todos los modelos de scoring y evaluación del marketpl
 
 ---
 
-## 4. REKS Diagnostic (Cualitativo)
+## 4. ROCA Diagnostic (Cualitativo)
 
 **Plugin**: sales-blueprint (coaching-cadence)
 **Propósito**: Diagnosticar la causa raíz de problemas de performance de un rep de ventas.
@@ -262,7 +262,7 @@ PULSO Score (5-30) ───► Evalúa la oportunidad específica
 ClarQ Score (0-40) ────► Evalúa si la empresa puede implementar
         │
         ▼
-REKS Diagnostic ───────► Mejora al equipo que ejecuta
+ROCA Diagnostic ───────► Mejora al equipo que ejecuta
         │
         ▼
 Copy Quality (0-10) ──► Mide la calidad del messaging

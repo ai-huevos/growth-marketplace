@@ -25,7 +25,7 @@
 2. `positioning` — Propuesta de valor, diferenciación, messaging
 3. `competitive-analysis` — Five Forces + mapa de mercado
 4. `quiz-funnel` — Metodología SONDA adaptada a B2B
-5. `content-strategy` — Ski Slope + Topic Triangle + 3 workflows LATAM ⚠️ **NO CONOCIDO POR NLM**
+5. `content-strategy` — PENDIENTE + TRIÁNGULO DE INGRESOS + 3 workflows LATAM ⚠️ **NO CONOCIDO POR NLM**
 6. (nota: positioning no tiene subcarpetas, es SKILL.md + 1 framework)
 
 **sales-blueprint (4):**
@@ -37,13 +37,13 @@
 **copywriting-engine (4):**
 1. `headline-mastery` — 50+ fórmulas de headlines
 2. `email-sequences` — Cold outreach, nurture, reactivation, 900-word sales
-3. `landing-pages` — Arquitectura de conversión 10 secciones + ISL
+3. `landing-pages` — Arquitectura de conversión 10 secciones + VELO
 4. `psychological-triggers` — 10 gatillos psicológicos
 
 **motor-de-ofertas (4):**
 1. `escala` — Value Ladder (Bait → Frontend → Backend)
-2. `flujo` — 7 fases del funnel + traffic types + ISL
-3. `alma` — Attractive Character Framework (ACF 10 steps) + IMAN email
+2. `flujo` — 7 fases del funnel + traffic types + VELO
+3. `alma` — ALMA (10 pasos) + IMAN email
 4. `funnel-optimization` — Dashboard + optimization cycle + scaling
 
 **conversational-pm (1):**
@@ -135,7 +135,7 @@
 
 | Realidad (codebase) | NLM cree | Impacto |
 |---------------------|----------|---------|
-| `content-strategy` skill EXISTE con Ski Slope, Topic Triangle, 3 workflows LATAM, 3 templates | "No existe como skill, solo hay doc de diseño (doc 20)" | **CRÍTICO** — NLM omite un skill completo en queries |
+| `content-strategy` skill EXISTE con PENDIENTE, TRIÁNGULO DE INGRESOS, 3 workflows LATAM, 3 templates | "No existe como skill, solo hay doc de diseño (doc 20)" | **CRÍTICO** — NLM omite un skill completo en queries |
 | 25 templates | 14 templates | **ALTO** — 11 templates invisibles para NLM |
 | 18 skills | 17 skills | **MEDIO** — content-strategy es la missing skill |
 | Doc 07 dice "6 agentes" | 7 agentes en realidad | **BAJO** — ya corregido en doc 07 header, falta re-sync NLM |
@@ -165,7 +165,7 @@
 │  /icp → ICP scoring 0-100, Tier 1/2/3                      │
 │  positioning → Value Prop Canvas + Messaging                │
 │  competitive-analysis → Battle cards + Five Forces          │
-│  content-strategy → Ski Slope + Topic Triangle ← NUEVO     │
+│  content-strategy → PENDIENTE + TRIÁNGULO DE INGRESOS ← NUEVO     │
 │  /quiz → Metodología SONDA quiz funnel builder                     │
 └────────────────────────┬────────────────────────────────────┘
                          ▼
@@ -196,7 +196,7 @@
 │  /headline → 50+ fórmulas de headlines                      │
 │  /email-sequence → Cold/Nurture/Reactivation/Sales          │
 │  psychological-triggers → 10 gatillos + Present Pain        │
-│  landing-pages → ISL + Conversion Architecture              │
+│  landing-pages → VELO + Conversion Architecture              │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -241,7 +241,7 @@ Usar AI Huevos (la propia empresa) como el primer cliente real del marketplace. 
 
 #### Test 4: `content-strategy` con AI Huevos
 - **Input**: Blog/contenido de AI Huevos
-- **Esperado**: Ski Slope plan con Topic Triangle priorizado para LATAM
+- **Esperado**: PENDIENTE plan con TRIÁNGULO DE INGRESOS priorizado para LATAM
 - **Valida**: Que content-strategy produce un plan ejecutable
 
 #### Test 5: `/copy` con AI Huevos

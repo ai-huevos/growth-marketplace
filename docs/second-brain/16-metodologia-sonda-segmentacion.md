@@ -1,4 +1,4 @@
-# 16. Quiz Funnel — Metodología SONDA
+# 16. Metodología SONDA — Segmentación por Quiz Funnel
 
 ## Resumen
 
@@ -80,11 +80,11 @@ Total: $350-500 en 17-25 días.
 
 | PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
-| **Situation** | Bucket define la situación del prospect dentro del ICP |
-| **Pain** | PREGUNTA RAÍZ descubre dolor core; buckets segmentan variaciones |
-| **Impact** | Outcome page comunica impacto de resolver el dolor del bucket |
-| **Critical Event** | Preguntas de urgencia = proxy del critical event |
-| **Decision** | Preguntas de presupuesto/proceso = proxy de decision readiness |
+| **Panorama (P)** | Bucket define la situación del prospect dentro del ICP |
+| **Urgencia (U)** | PREGUNTA RAÍZ descubre dolor core; buckets segmentan variaciones |
+| **Logro (L)** | Outcome page comunica impacto de resolver el dolor del bucket |
+| **Situación Crítica (S)** | Preguntas de urgencia = proxy del evento crítico |
+| **Organización (O)** | Preguntas de presupuesto/proceso = proxy de decisión organizacional |
 
 ## Modos de Uso con Discovery Call
 

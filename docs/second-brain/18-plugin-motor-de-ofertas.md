@@ -47,10 +47,10 @@ Metodologia unificada de funnels que consolida las Seven Phases de Brunson en un
 
 El alma de la marca. No es acronimo forzado — es literalmente el "alma" (soul) del negocio. Cubre dos sistemas:
 
-1. **Attractive Character Framework (ACF)**: Desarrollo en 10 pasos del personaje que representa la marca. Define backstory, identidad, arquetipos, y voz.
+1. **ALMA**: Desarrollo en 10 pasos del personaje que representa la marca. Define backstory, identidad, arquetipos, y voz.
 2. **IMAN (Infraestructura de Mensajes Automaticos)**: Sistema de email automatizado con dos tipos de secuencias:
-   - **Soap Opera Sequence**: Serie narrativa de 5 emails que cuentan una historia con arco dramatico
-   - **Seinfeld Sequence**: Emails recurrentes de entretenimiento + valor que mantienen engagement post-nurture
+   - **Secuencia ORIGEN**: Serie narrativa de 5 emails que cuentan una historia con arco dramatico
+   - **Secuencia PULSAR**: Emails recurrentes de entretenimiento + valor que mantienen engagement post-nurture
 
 ---
 
@@ -141,9 +141,9 @@ Segun el objetivo y el tier ESCALA, FLUJO recomienda el tipo de funnel apropiado
 **Triggers**: "attractive character", "ACF", "alma", "brand voice", "IMAN", "soap opera", "seinfeld", "email strategy", "personaje de marca"
 
 ### Que hace
-Desarrollo del Attractive Character (el personaje que representa la marca) en 10 pasos, mas el sistema de email IMAN que automatiza la comunicacion continua con la audiencia.
+Desarrollo del ALMA (el personaje que representa la marca) en 10 pasos, mas el sistema de email IMAN que automatiza la comunicacion continua con la audiencia.
 
-### ACF: Desarrollo en 10 Pasos
+### ALMA: Desarrollo en 10 Pasos
 
 1. **Backstory**: La historia de origen que conecta con la audiencia
 2. **Parables**: Historias que comunican valores y lecciones
@@ -160,10 +160,10 @@ Desarrollo del Attractive Character (el personaje que representa la marca) en 10
 
 | Secuencia | Proposito | Estructura | Duracion |
 |-----------|-----------|------------|----------|
-| Soap Opera | Construir relacion inicial | 5 emails con arco narrativo (conflicto → revelacion → solucion → beneficio → urgencia) | 5-7 dias post opt-in |
-| Seinfeld | Mantener engagement continuo | Emails recurrentes de valor + entretenimiento sin estructura rigida | Indefinida, 2-3x/semana |
+| Secuencia ORIGEN | Construir relacion inicial | 5 emails con arco narrativo (conflicto → revelacion → solucion → beneficio → urgencia) | 5-7 dias post opt-in |
+| PULSAR | Mantener engagement continuo | Emails recurrentes de valor + entretenimiento sin estructura rigida | Indefinida, 2-3x/semana |
 
-### Soap Opera Sequence (5 emails)
+### Secuencia ORIGEN (5 emails)
 
 | Email | Elemento narrativo | Funcion |
 |-------|-------------------|---------|
@@ -173,7 +173,7 @@ Desarrollo del Attractive Character (el personaje que representa la marca) en 10
 | 4 | Beneficios ocultos | Mostrar resultados y transformacion |
 | 5 | Urgencia + CTA | Cerrar la narrativa con llamada a accion |
 
-### Seinfeld Sequence
+### Secuencia PULSAR
 
 Emails sobre "nada" (y sobre todo). Mezclan:
 - Historias personales con lecciones de negocio
@@ -285,7 +285,7 @@ Arquitecto de funnels senior que disena blueprints completos integrando ESCALA (
 1. **Discovery**: Entender el negocio, audiencia, ofertas actuales, y objetivos usando RADAR
 2. **Arquitectura ESCALA**: Disenar o validar el value ladder de 4 niveles
 3. **Diseno FLUJO**: Seleccionar tipo de funnel por nivel ESCALA, mapear las 7 fases, definir metricas por fase
-4. **Estrategia Alma**: Definir el Attractive Character, planificar Soap Opera + Seinfeld sequences
+4. **Estrategia Alma**: Definir el ALMA, planificar Secuencia ORIGEN + PULSAR sequences
 5. **Blueprint integrado**: Consolidar todo en un documento ejecutable con timeline de implementacion
 
 ### Output
@@ -416,10 +416,10 @@ plugins/motor-de-ofertas/
       SKILL.md                               ← ACF + IMAN
       frameworks/
         attractive-character.md              ← ACF en 10 pasos
-        iman-email-system.md                 ← Soap Opera + Seinfeld
+        iman-email-system.md                 ← Secuencia ORIGEN + PULSAR
       templates/
-        acf-worksheet.md                     ← Worksheet del Attractive Character
-        soap-opera-template.md               ← Template de 5 emails Soap Opera
+        acf-worksheet.md                     ← Worksheet del ALMA
+        soap-opera-template.md               ← Template de 5 emails Secuencia ORIGEN
     funnel-optimization/
       SKILL.md                               ← Diagnostico + A/B + scaling
       frameworks/
@@ -471,7 +471,7 @@ Basado en el analisis y adaptacion de los siguientes archivos del playbooks de r
 | `04-product-development-guide.md` | Guia de desarrollo de producto | Value ladder design, pricing tiers |
 | `05-clevel-strategic-overview.md` | Vision estrategica C-level | Conexiones cross-plugin, roadmap |
 | `06-90day-implementation-timeline.md` | Timeline de implementacion | Ciclo semanal, scaling strategy |
-| `ACF_template.md` | Template del Attractive Character | Skill alma, ACF de 10 pasos |
+| `ACF_template.md` | Template del ALMA | Skill alma, ACF de 10 pasos |
 | `attractive-character.md` | Guia completa de ACF | Backstory, arquetipos, voz |
 | `Seven phases of a funnel.md` | Las 7 fases del funnel | Skill flujo, 7 fases operativas |
 | `ESCALA Implementation.md` | Implementacion de ESCALA | Skill escala, RADAR, LTV:CAC |

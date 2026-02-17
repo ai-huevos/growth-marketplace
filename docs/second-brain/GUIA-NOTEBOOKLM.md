@@ -42,7 +42,7 @@ También puedes subir directamente los archivos clave del repositorio:
 | `pulso-framework.md` | El framework más importante — detalle completo con scoring |
 | `trigger-library.md` | Los 10 triggers con implementación detallada por canal |
 | `power-headlines.md` | Las 50 fórmulas de headlines con todos los ejemplos |
-| `reks-framework.md` | REKS completo con árbol de decisión y scorecards |
+| `reks-framework.md` | ROCA completo con árbol de decisión y scorecards |
 | `scoring-model.md` | ICP scoring con ejemplo detallado |
 | `conversion-architecture.md` | Estructura de 10 secciones para landing pages |
 

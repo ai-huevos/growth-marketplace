@@ -22,12 +22,12 @@ PULSO conecta discovery (diagnosticar) → pipeline (evaluar) → proposals (pre
 
 ## Skill 1: discovery-mastery
 
-**Triggers**: "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "ACE opening", "call prep"
+**Triggers**: "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "AVE", "call prep"
 
 ### Qué hace
-Preparación y ejecución de discovery calls con apertura ACE, diagnóstico PULSO, y framework de 7 Momentos.
+Preparación y ejecución de discovery calls con apertura AVE, diagnóstico PULSO, y framework de 7 Momentos.
 
-### ACE Opening
+### AVE
 - **A**ppreciate: Agradece el tiempo
 - **C**heck: Confirma la agenda y el tiempo disponible
 - **E**nd: Define el outcome esperado de la llamada
@@ -36,7 +36,7 @@ Preparación y ejecución de discovery calls con apertura ACE, diagnóstico PULS
 1. Research del prospect (empresa + contacto)
 2. Hipótesis PULSO pre-call
 3. Preguntas priorizadas por dimensión PULSO
-4. Agenda ACE personalizada
+4. Agenda AVE personalizada
 5. Preparación de objeciones comunes
 6. Checklist pre-call
 
@@ -54,9 +54,9 @@ Preparación y ejecución de discovery calls con apertura ACE, diagnóstico PULS
 **Triggers**: "pipeline review", "deal health", "pipeline health", "deal scoring", "forecast", "stuck deals"
 
 ### Qué hace
-Gestión de pipeline con PULSO scoring, indicadores de salud, modelo Bowtie, y métricas core.
+Gestión de pipeline con PULSO scoring, indicadores de salud, modelo CICLO, y métricas core.
 
-### Modelo Bowtie
+### Modelo CICLO
 Visualización de todo el ciclo de vida del cliente: Awareness → Education → Selection → Onboarding → Impact → Growth
 
 ### 4 Métricas Core
@@ -107,12 +107,12 @@ Framework de negociación para no "regalar" descuentos. Cada concesión tiene un
 
 ## Skill 4: coaching-cadence
 
-**Triggers**: "coaching", "1:1", "REKS", "sales coaching", "rep performance", "candid conversation"
+**Triggers**: "coaching", "1:1", "ROCA", "sales coaching", "rep performance", "candid conversation"
 
 ### Qué hace
-Coaching de ventas con framework REKS (Results, Effort, Knowledge, Skills). Cadencia semanal/mensual, 8 modelos de coaching, conversaciones cándidas.
+Coaching de ventas con framework ROCA (Results, Effort, Knowledge, Skills). Cadencia semanal/mensual, 8 modelos de coaching, conversaciones cándidas.
 
-### Framework REKS
+### Framework ROCA
 Antes de coachear, diagnostica. El 80% de los problemas de performance se diagnostican mal.
 
 **Árbol de decisión**:
@@ -124,18 +124,18 @@ Antes de coachear, diagnostica. El 80% de los problemas de performance se diagno
 > "No entrenes a alguien en skills si el problema es de esfuerzo. No le des un playbook si el problema es que no sabe hacer la llamada."
 
 ### 8 Modelos de Coaching
-Diferentes técnicas según el diagnóstico REKS y la situación del rep.
+Diferentes técnicas según el diagnóstico ROCA y la situación del rep.
 
 ### Cadencia
 - **Semanal**: 1:1 de 30 min con agenda estructurada según semana del mes
-- **Mensual**: Review más profunda con REKS scorecard
+- **Mensual**: Review más profunda con ROCA scorecard
 
 ### Feedback TOAST
 Framework para dar feedback estructurado y efectivo.
 
 ### Archivos
 - `SKILL.md`: Proceso completo
-- `frameworks/reks-framework.md`: Guía completa de REKS
+- `frameworks/reks-framework.md`: Guía completa de ROCA
 - `frameworks/coaching-plays.md`: Los 8 modelos de coaching
 - `templates/one-on-one-prep.md`: Template de prep para 1:1
 
@@ -190,7 +190,7 @@ Para deals enterprise: mínimo 3 contactos en 3 niveles (Executive, Management, 
 ## Commands
 
 ### /discovery
-Prepara una discovery call interactiva en 6 fases: Research → PULSO hypothesis → Questions → ACE agenda → Objections → Checklist.
+Prepara una discovery call interactiva en 6 fases: Research → PULSO hypothesis → Questions → AVE agenda → Objections → Checklist.
 
 ### /propuesta
 Genera una propuesta B2B completa en 6 fases: PULSO intake → Segment → Info gathering → Generate → Trading prep → Review.
@@ -199,7 +199,7 @@ Genera una propuesta B2B completa en 6 fases: PULSO intake → Segment → Info 
 Review de pipeline en 7 fases: Data → Snapshot → PULSO por deal → Health scoring → Risks → Forecast → Actions.
 
 ### /coaching
-Prep de 1:1 en 6 fases: Context → REKS diagnosis → Generate → Agenda → Feedback → Questions.
+Prep de 1:1 en 6 fases: Context → ROCA diagnosis → Generate → Agenda → Feedback → Questions.
 
 ---
 
@@ -210,7 +210,7 @@ discovery-mastery ──(PULSO score)──► pipeline-management
                                       │
 pipeline-management ──(deals calificados)──► proposal-generation
                                               │
-coaching-cadence ──(REKS de skills)──► mejora de discovery
+coaching-cadence ──(ROCA de skills)──► mejora de discovery
                                        │
 sdr-agent ──(hipótesis PULSO)──► discovery-mastery
                                    │

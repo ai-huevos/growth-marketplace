@@ -35,7 +35,7 @@ Sistema completo de ejecución de ventas B2B basado en Metodología GrowthOS.
 
 | Componente | Tipo | Propósito |
 |-----------|------|-----------|
-| `discovery-mastery` | Skill | Preparación y ejecución de discovery calls con PULSO + ACE |
+| `discovery-mastery` | Skill | Preparación y ejecución de discovery calls con PULSO + AVE |
 | `pipeline-management` | Skill | Gestión de pipeline con PULSO scoring y modelo CICLO |
 | `proposal-generation` | Skill | Generación de propuestas con business case y Trading Checklist |
 | `coaching-cadence` | Skill | Coaching ROCA, 8 modelos, cadencia semanal/mensual |
@@ -70,7 +70,7 @@ Motor de Ofertas: funnels y escaleras de valor B2B para LATAM (ESCALA, FLUJO, Al
 |-----------|------|-----------|
 | `escala` | Skill | Value ladder ESCALA de 4 niveles + RADAR discovery |
 | `flujo` | Skill | Funnel architecture FLUJO, 7 fases operativas |
-| `alma` | Skill | Brand character (ACF 10 pasos) + sistema email IMAN |
+| `alma` | Skill | Brand character (ALMA 10 pasos) + sistema email IMAN |
 | `funnel-optimization` | Skill | Optimización de funnels: health dashboard, ciclo, scaling |
 | `funnel-architect` | Agent | Agente especialista en diseño y optimización de funnels |
 | `/escala` | Command | Workshop interactivo para diseñar value ladder ESCALA |

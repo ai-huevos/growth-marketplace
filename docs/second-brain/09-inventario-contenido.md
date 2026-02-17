@@ -2,7 +2,7 @@
 
 Mapa de cada archivo del repositorio con su propósito y relaciones.
 
-> **Actualizado**: 2026-02-16. El skill `content-strategy` fue implementado en `growth-foundations` (no en copywriting-engine como se planeó originalmente). Incluye Ski Slope, Topic Triangle, 3 workflows LATAM.
+> **Actualizado**: 2026-02-16. El skill `content-strategy` fue implementado en `growth-foundations` (no en copywriting-engine como se planeó originalmente). Incluye PENDIENTE, TRIÁNGULO DE INGRESOS, 3 workflows LATAM.
 
 ---
 
@@ -92,7 +92,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: content-strategy
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/content-strategy/SKILL.md` | Ski Slope + Topic Triangle, 4 pasos, workflows LATAM |
+| `skills/content-strategy/SKILL.md` | PENDIENTE + TRIÁNGULO DE INGRESOS, 4 pasos, workflows LATAM |
 | `skills/content-strategy/frameworks/ski-slope-model.md` | Modelo Green Circle → Blue Square → Black Diamond |
 | `skills/content-strategy/frameworks/topic-triangle.md` | Selección de temas por CPC × tráfico × revenue |
 | `skills/content-strategy/frameworks/content-scaling-model.md` | Modelo de escalamiento de contenido |
@@ -124,7 +124,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: discovery-mastery
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/discovery-mastery/SKILL.md` | ACE opening + PULSO diagnóstico + 7 Momentos |
+| `skills/discovery-mastery/SKILL.md` | AVE + PULSO diagnóstico + 7 Momentos |
 | `skills/discovery-mastery/frameworks/pulso-framework.md` | **ARCHIVO CLAVE**: Guía completa PULSO scoring (5 dimensiones, 1-5 cada una, errores comunes) |
 | `skills/discovery-mastery/frameworks/question-bank.md` | Banco de preguntas por industria/stakeholder |
 | `skills/discovery-mastery/templates/call-prep.md` | Template de preparación pre-call |
@@ -133,7 +133,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: pipeline-management
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/pipeline-management/SKILL.md` | Bowtie, 4 métricas core, health scoring |
+| `skills/pipeline-management/SKILL.md` | CICLO, 4 métricas core, health scoring |
 | `skills/pipeline-management/frameworks/health-indicators.md` | Indicadores rojo/amarillo/verde por deal |
 | `skills/pipeline-management/templates/pipeline-review.md` | Template de review |
 
@@ -147,8 +147,8 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: coaching-cadence
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/coaching-cadence/SKILL.md` | REKS, 8 modelos, cadencia, feedback TOAST |
-| `skills/coaching-cadence/frameworks/reks-framework.md` | **ARCHIVO CLAVE**: Guía completa REKS (árbol de decisión, scorecards, errores comunes) |
+| `skills/coaching-cadence/SKILL.md` | ROCA, 8 modelos, cadencia, feedback TOAST |
+| `skills/coaching-cadence/frameworks/reks-framework.md` | **ARCHIVO CLAVE**: Guía completa ROCA (árbol de decisión, scorecards, errores comunes) |
 | `skills/coaching-cadence/frameworks/coaching-plays.md` | 8 modelos de coaching |
 | `skills/coaching-cadence/templates/one-on-one-prep.md` | Template de prep 1:1 |
 
@@ -206,7 +206,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/psychological-triggers/patterns/trigger-library.md` | **ARCHIVO CLAVE**: 10 triggers con leverage, implementación, ética, combinaciones |
 | `skills/psychological-triggers/patterns/present-pain-framework.md` | Framework de dolor presente como gatillo |
 | `skills/psychological-triggers/patterns/three-brains-model.md` | Modelo de tres cerebros (reptiliano, límbico, neocortex) |
-| `skills/landing-pages/patterns/isl-page-archetype.md` | Arquetipo de página ISL (Invisible Sales Letter) |
+| `skills/landing-pages/patterns/isl-page-archetype.md` | Arquetipo de página ISL (VELO) |
 
 ### Agents
 | Archivo | Propósito |
@@ -253,20 +253,20 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | `skills/flujo/templates/funnel-architecture-canvas.md` | Canvas para diseñar arquitectura de funnel |
 | `skills/flujo/patterns/latam-adaptations.md` | Adaptaciones específicas para mercado LATAM |
 | `skills/flujo/patterns/conversion-benchmarks.md` | Benchmarks de conversión por tipo de funnel y fase |
-| `skills/flujo/patterns/three-jabs-content-upgrades.md` | Content upgrades con estrategia Three Jabs |
+| `skills/flujo/patterns/three-jabs-content-upgrades.md` | Content upgrades con estrategia TRIPLE VALOR |
 | `skills/flujo/patterns/tofu-bofu-campaign-structure.md` | Estructura de campañas TOFU/BOFU |
 | `skills/flujo/templates/micro-budget-ads-sop.md` | SOP de ads con micro-presupuesto |
-| `skills/flujo/frameworks/isl-methodology.md` | Metodología ISL (Invisible Sales Letter) |
+| `skills/flujo/frameworks/isl-methodology.md` | Metodología ISL (VELO) |
 
 ### Skill: alma
 | Archivo | Propósito |
 |---------|-----------|
 | `skills/alma/SKILL.md` | Brand character + sistema de email IMAN |
-| `skills/alma/frameworks/acf-10-steps.md` | **ARCHIVO CLAVE**: Attractive Character Framework en 10 pasos |
-| `skills/alma/frameworks/iman-email-system.md` | Sistema IMAN: Soap Opera + Seinfeld sequences |
+| `skills/alma/frameworks/acf-10-steps.md` | **ARCHIVO CLAVE**: ALMA en 10 pasos |
+| `skills/alma/frameworks/iman-email-system.md` | Sistema IMAN: Secuencia ORIGEN + PULSAR sequences |
 | `skills/alma/templates/acf-worksheet.md` | Worksheet para desarrollar Attractive Character |
-| `skills/alma/templates/soap-opera-sequence.md` | Template de secuencia Soap Opera (5 emails narrativos) |
-| `skills/alma/templates/seinfeld-sequence.md` | Template de secuencia Seinfeld (entretenimiento + valor) |
+| `skills/alma/templates/soap-opera-sequence.md` | Template de secuencia Secuencia ORIGEN (5 emails narrativos) |
+| `skills/alma/templates/seinfeld-sequence.md` | Template de secuencia PULSAR (entretenimiento + valor) |
 | `skills/alma/patterns/story-arc-library.md` | Biblioteca de arcos narrativos para storytelling |
 
 ### Skill: funnel-optimization
@@ -320,7 +320,7 @@ Estos son los archivos más importantes del repositorio — los que concentran l
 2. **`trigger-library.md`** — Los 10 triggers psicológicos: leverage, implementación por canal, combinaciones, ética
 3. **`power-headlines.md`** — 50 fórmulas de headlines en 10 categorías con ejemplos accionables
 4. **`scoring-model.md`** — ICP scoring 0-100: 5 categorías, ejemplo real ACME
-5. **`reks-framework.md`** — REKS completo: árbol de decisión, scorecards, soluciones por nivel
+5. **`reks-framework.md`** — ROCA completo: árbol de decisión, scorecards, soluciones por nivel
 6. **`conversion-architecture.md`** — Estructura de 10 secciones para landing pages con trigger mapping
 7. **`escala-framework.md`** — Value ladder ESCALA de 4 niveles, RADAR discovery, pricing B2B LATAM
 8. **`agent-roster.md`** — Catálogo de 5 agentes especialistas del PM conversacional con inputs/outputs

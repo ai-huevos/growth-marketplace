@@ -112,10 +112,10 @@ Los skills NO se invocan manualmente — se activan cuando Claude detecta **trig
 | growth-foundations | icp-analysis | "ICP", "ideal customer profile", "perfil de cliente ideal", "segmentación" |
 | growth-foundations | positioning | "posicionamiento", "propuesta de valor", "diferenciación", "messaging" |
 | growth-foundations | competitive-analysis | "análisis competitivo", "competidores", "mapa de mercado", "Five Forces" |
-| sales-blueprint | discovery-mastery | "discovery call", "PULSO", "qualifying opportunity", "ACE opening" |
+| sales-blueprint | discovery-mastery | "discovery call", "PULSO", "qualifying opportunity", "AVE" |
 | sales-blueprint | pipeline-management | "pipeline review", "deal health", "pipeline health", "forecast" |
 | sales-blueprint | proposal-generation | "propuesta", "proposal", "SOW", "business case", "cotización" |
-| sales-blueprint | coaching-cadence | "coaching", "1:1", "REKS", "rep performance" |
+| sales-blueprint | coaching-cadence | "coaching", "1:1", "ROCA", "rep performance" |
 | copywriting-engine | headline-mastery | "headline", "título", "subject line", "genera titulares" |
 | copywriting-engine | email-sequences | "email sequence", "secuencia de emails", "drip campaign", "cold email" |
 | copywriting-engine | landing-pages | "landing page", "página de ventas", "conversion copy", "above the fold" |
@@ -240,7 +240,7 @@ Fase 4: Preguntas priorizadas
   Selecciona 5-7 preguntas relevantes al contexto
   Prioriza por: dimensión PULSO con menor confianza
 
-Fase 5: Agenda ACE
+Fase 5: Agenda AVE
   A (Appreciate): "Gracias por el tiempo, [nombre]..."
   C (Check):      "Tenemos 30 minutos, ¿correcto?"
   E (End Goal):   "Mi objetivo es entender si podemos ayudarles con [hipótesis]"
@@ -255,7 +255,7 @@ OUTPUT FINAL:
   ├── Research Summary
   ├── Hipótesis PULSO (con confianza)
   ├── 5-7 Preguntas priorizadas
-  ├── Agenda ACE (30 min)
+  ├── Agenda AVE (30 min)
   ├── Objeciones anticipadas
   └── Checklist pre-call
 ```
@@ -458,7 +458,7 @@ PULSO conecta los 3 plugins en un flujo lógico:
 │           │                             ▼                    │
 │           │                    ┌──────────────────┐         │
 │           │                    │ /coaching        │         │
-│           │                    │ REKS framework   │         │
+│           │                    │ ROCA framework   │         │
 │           │                    │                  │         │
 │           │                    │ Desarrolla skills│         │
 │           │                    │ del equipo       │         │
@@ -506,7 +506,7 @@ Día 5: Pipeline existente
 
 Día 6: Prep discovery para nuevo deal
   /discovery Acme Corp → Pre-call brief completo
-  → PULSO hypothesis + agenda ACE
+  → PULSO hypothesis + agenda AVE
 
 Día 8: Post-discovery, deal calificado
   PULSO score: 25 (verde) → Listo para propuesta
@@ -517,7 +517,7 @@ Día 10: Copy para outreach
   → 7 emails con cadencia + triggers psicológicos
 
 Día 12: Coaching del equipo
-  /coaching → REKS assessment del SDR junior
+  /coaching → ROCA assessment del SDR junior
   → Skills gap: discovery questions → 30 min agenda coaching
 ```
 
@@ -558,7 +558,7 @@ ETAPA 4: POSITIONING (growth-foundations)
 ETAPA 5: DISCOVERY (sales-blueprint)
 ══════════════════════════════════════════════════
 /discovery Acme Corp
-→ Research automático → Hipótesis PULSO → Preguntas → Agenda ACE
+→ Research automático → Hipótesis PULSO → Preguntas → Agenda AVE
 → Se ejecuta la call real
 → Post-call: PULSO score 26 (verde, calificado)
 

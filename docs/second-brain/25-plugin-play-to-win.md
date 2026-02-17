@@ -32,7 +32,7 @@ Skill fusionado: win/loss analysis PULSO + facilitación de stakeholder meetings
 Buying center avanzado (7 roles vs 4 básicos). 4 jugadas tácticas (LinkedIn → RRR → Provocative → Bottom-up). Mapeo organizacional 6 pasos. Matriz power/interest. Planificación 3×3. 5 jugadas de multi-threading.
 
 ### 6. renewal-expansion
-Conversación de renovación (ACE → SPI review → demo → story → trade). Gestión de expectation gap (3 tipos). Whitespace planning (Impact × CE). Ejecución de expansión. Checklist de terminación de cuenta.
+Conversación de renovación (AVE → SPI review → demo → story → trade). Gestión de expectation gap (3 tipos). Whitespace planning (Impact × CE). Ejecución de expansión. Checklist de terminación de cuenta.
 
 ## Agente: playbook-coach
 Pipeline de 6 fases: clasificación de problema (8 dominios) → análisis de contexto → scoring de blueprints (relevancia + impacto + factibilidad) → síntesis de playbook → creación de enablement → testing de hipótesis.
@@ -43,7 +43,7 @@ Pipeline de 6 fases: clasificación de problema (8 dominios) → análisis de co
 |---------|-----------|
 | `/playbook [problema/empresa]` | Sintetiza playbook GTM personalizado usando el playbook-coach |
 | `/deal-analysis [deal/pipeline]` | Sesión interactiva de análisis win/loss con PULSO |
-| `/kickoff [nombre cliente]` | Orquesta llamada de kickoff completa (prep → ACE → PULSO → JIP) |
+| `/kickoff [nombre cliente]` | Orquesta llamada de kickoff completa (prep → AVE → PULSO → JIP) |
 
 ## Relación con otros plugins
 
@@ -80,7 +80,7 @@ Repositorio: `/Volumes/deathstar/Development/Play to win/`
 ## Phase 2: 5 Skills Adicionales (2026-02-17)
 
 ### 7. product-marketing
-Hero's Journey storytelling (neural coupling, 3-part structure) + establecimiento de impacto (↓Cost, ↑Experience, ↑Revenue) + value proposition canvas + positioning statement + messaging architecture matrix. Blueprints #22, #27.
+ARCO DE TRANSFORMACIÓN storytelling (neural coupling, 3-part structure) + establecimiento de impacto (↓Cost, ↑Experience, ↑Revenue) + value proposition canvas + positioning statement + messaging architecture matrix. Blueprints #22, #27.
 
 ### 8. icp-tal
 ICP data-driven con PULSO de 5 pasos + TAL con 3 enfoques (Named/Fit/In-Market) + cálculo por tiers + mapeo de relaciones con 4 jugadas tácticas y orquestación 3×3. Blueprints #16, #14, #15, #13.
@@ -89,7 +89,7 @@ ICP data-driven con PULSO de 5 pasos + TAL con 3 enfoques (Named/Fit/In-Market) 
 PULSO como puente entre equipos (SDR→AE→CSM→AM) + 7 Momentos Clave del Método SaaS (M1-M7) + diseño de etapas + shift BANT→Logro. Blueprints #10, #28.
 
 ### 10. discovery-demo
-Discovery call con ACE + PULSO + checklist 54 puntos + diagnosis deep-dive con 4 tipos de preguntas contextuales + demo framework prescribe (PREP→DEMO→LOGRO→RECAP). Blueprints #25, #26, #24.
+Discovery call con AVE + PULSO + checklist 54 puntos + diagnosis deep-dive con 4 tipos de preguntas contextuales + demo framework prescribe (PREP→DEMO→LOGRO→RECAP). Blueprints #25, #26, #24.
 
 ### 11. advanced-techniques
 Critical event acceleration (4 tipos de comprador, backward planning) + trading sin descuentos (9 pasos, 3-deal option matrix) + influencia en criterios de decisión (DEPRIORITIZE/INSERT/IMPROVE). Blueprints #08, #21, #23.
@@ -112,8 +112,8 @@ Critical event acceleration (4 tipos de comprador, backward planning) + trading 
 ## Fase 3 pendiente: Enrichments a sales-blueprint
 
 El plan incluye enriquecer skills existentes en sales-blueprint con contenido de los blueprints:
-- discovery-mastery: ACE opening, wagon connection, Hero's Journey, critical events, diagnostic call, impact types
-- pipeline-management: 7 Key Moments (SaaS Sales Method), stage entry/exit criteria
+- discovery-mastery: AVE, wagon connection, ARCO DE TRANSFORMACIÓN, critical events, diagnostic call, impact types
+- pipeline-management: 7 Key Moments (MÉTODO DE 7 MOMENTOS), stage entry/exit criteria
 - proposal-generation: 9-step trading language, decision criteria manipulation
 - coaching-cadence: 8 coaching models, 13-week rotation cycle
 

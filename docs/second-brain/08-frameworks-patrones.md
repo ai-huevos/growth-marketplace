@@ -27,7 +27,7 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 **Componentes**: GTM Strategy, Revenue Streams, Q2C, Capabilities
 **Scoring**: 0-40 con heatmap de colores
 
-### 4. REKS (Metodología GrowthOS)
+### 4. ROCA (Metodología GrowthOS)
 **Ubicación**: `sales-blueprint/skills/coaching-cadence/frameworks/reks-framework.md`
 **Usado por**: coaching-cadence, /coaching command
 **Tipo**: Framework de diagnóstico de performance
@@ -46,13 +46,13 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 **Tipo**: Análisis de fuerzas competitivas del mercado
 **Componentes**: Poder de proveedores, Poder de compradores, Amenaza de sustitutos, Amenaza de nuevos entrantes, Rivalidad existente
 
-### 7. Bowtie Model
+### 7. CICLO
 **Ubicación**: Referenciado en `sales-blueprint/skills/pipeline-management/SKILL.md`
 **Usado por**: pipeline-management skill
 **Tipo**: Modelo de ciclo de vida completo del cliente
 **Componentes**: Awareness → Education → Selection → Onboarding → Impact → Growth
 
-### 8. ACE Opening
+### 8. AVE
 **Ubicación**: Referenciado en `sales-blueprint/skills/discovery-mastery/SKILL.md`
 **Usado por**: discovery-mastery, /discovery command
 **Tipo**: Framework de apertura de calls de venta
@@ -143,7 +143,7 @@ Top 3 por leverage:
 
 ### 8. Coaching Plays
 **Ubicación**: `sales-blueprint/skills/coaching-cadence/frameworks/coaching-plays.md`
-**Contenido**: Los 8 modelos de coaching para diferentes situaciones diagnosticadas con REKS.
+**Contenido**: Los 8 modelos de coaching para diferentes situaciones diagnosticadas con ROCA.
 
 ---
 
