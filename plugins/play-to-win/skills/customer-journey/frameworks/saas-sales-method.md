@@ -1,6 +1,6 @@
-# Framework: El Metodo de Ventas SaaS
+# Framework: MÉTODO DE 7 MOMENTOS
 
-El Metodo de Ventas SaaS es una evolucion de las metodologias tradicionales, disenado especificamente para modelos de ingreso recurrente donde el valor se construye despues de la venta, no al momento del cierre. A diferencia de la venta consultiva (optimizada para precio alto) o la venta estrategica (optimizada para deals complejos), el SaaS Sales Method optimiza para lifetime value, decision por consenso, y expansion continua.
+El MÉTODO DE 7 MOMENTOS es una evolucion de las metodologias tradicionales, disenado especificamente para modelos de ingreso recurrente donde el valor se construye despues de la venta, no al momento del cierre. A diferencia de la venta consultiva (optimizada para precio alto) o la venta estrategica (optimizada para deals complejos), el MÉTODO DE 7 MOMENTOS optimiza para lifetime value, decision por consenso, y expansion continua.
 
 ## Principios fundamentales
 
@@ -14,7 +14,7 @@ El Metodo de Ventas SaaS es una evolucion de las metodologias tradicionales, dis
 
 ## 3 Metodologias de Venta Comparadas
 
-| Aspecto | Consultative Selling | Strategic Selling | SaaS Sales Method |
+| Aspecto | Consultative Selling | Strategic Selling | MÉTODO DE 7 MOMENTOS |
 |---------|---------------------|-------------------|-------------------|
 | **Optimizada para** | Precio mas alto posible | Deals complejos multi-stakeholder | Lifetime value + expansion |
 | **Tipo de problema** | Problemas conocidos del cliente | Soluciones innovadoras (cliente no sabe que necesita) | Problemas disruptivos que requieren nueva categoria |

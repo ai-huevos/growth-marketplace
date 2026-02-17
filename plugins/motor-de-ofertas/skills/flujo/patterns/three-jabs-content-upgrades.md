@@ -1,6 +1,6 @@
 # Three Jabs Strategy: Content Upgrades por Artículo
 
-Estrategia de 3 content upgrades por pieza de contenido para convertir >10% del tráfico en leads. Basado en la metodología Content Mavericks, adaptado a funnels B2B LATAM.
+Estrategia de 3 content upgrades por pieza de contenido para convertir >10% del tráfico en leads. Adaptado a funnels B2B LATAM.
 
 ## Principio Central
 

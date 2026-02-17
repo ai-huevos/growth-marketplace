@@ -35,7 +35,7 @@ El demo sigue una secuencia precisa de 12 momentos. Cada momento tiene un propos
 │                                                   (5-7 min)     │
 │                                                        │        │
 │                                                        ▼        │
-│  Close <── Wagons <── Recap <── Decision <── Impact Qs          │
+│  Close <── VAGONES <── Recap <── Decision <── Impact Qs          │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -284,7 +284,7 @@ Dolor validado ──> Demo point ──> Impact question ──> Respuesta del 
 
 ---
 
-## Recap & Wagons
+## Recap & VAGONES
 
 El cierre del demo conecta lo mostrado con los siguientes pasos.
 

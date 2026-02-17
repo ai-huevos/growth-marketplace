@@ -129,7 +129,7 @@ TEACHING DE VALOR (15 min)
   - Mostrar como otros clientes similares lograron [outcome]
   - Anclar expectativas realistas con datos
 
-PLAN DE IMPACTO CONJUNTO — JIP (20 min)
+PLAN DE IMPACTO CONJUNTO — PIC (20 min)
   - Definir 3-5 hitos de los primeros 90 dias
   - Asignar owners (cliente + nosotros)
   - Definir metricas de exito por hito
@@ -165,7 +165,7 @@ al maximo el tiempo, queria compartir:
    - [Acceso o permiso que necesitamos]
    - [Documento o metrica relevante]
 
-4. OBJETIVO — Salir con un plan de impacto conjunto (JIP)
+4. OBJETIVO — Salir con un plan de impacto conjunto (PIC)
    con hitos claros para los primeros 90 dias.
 
 Nos vemos el [fecha]!
@@ -177,7 +177,7 @@ Nos vemos el [fecha]!
 
 Preparar para tener disponible durante la kickoff:
 - Deck de presentacion del equipo (si aplica)
-- Template del Joint Impact Plan (JIP)
+- Template del PLAN DE IMPACTO CONJUNTO (PIC)
 - Case study relevante de la industria del cliente
 - Cronograma de implementacion
 
@@ -199,7 +199,7 @@ APPRECIATE (crear conexion):
 CHECK TIME (respetar el tiempo):
 - "Tenemos 60 minutos agendados, sigue funcionando para todos?"
 - Si hay limite de tiempo, ajustar agenda en tiempo real
-- Priorizar: PULSO verification + JIP son innegociables
+- Priorizar: PULSO verification + PIC son innegociables
 
 END GOAL (alinear expectativas):
 - "El objetivo es salir con un plan de 90 dias donde ambos
@@ -251,7 +251,7 @@ Compartir un insight que demuestre expertise y ancle la relacion:
 - Dato de research que valide la urgencia del problema
 - Ejemplo concreto de resultado logrado (anonimizado si es necesario)
 
-**3.4 Joint Impact Plan (JIP)**
+**3.4 PLAN DE IMPACTO CONJUNTO (PIC)**
 
 Construir el plan de impacto conjunto:
 
@@ -285,7 +285,7 @@ RIESGOS Y MITIGACION:
 
 Acciones inmediatas despues de la kickoff call.
 
-**4.1 Wagons / proximos pasos**
+**4.1 VAGONES / proximos pasos**
 
 Documentar y enviar dentro de 60 minutos post-call:
 
@@ -311,7 +311,7 @@ ACCIONES INMEDIATAS:
 
 PULSO ACTUALIZADO: [Si/No — adjuntar si se actualizo]
 
-JIP CONFIRMADO: [Si/No — adjuntar version final]
+PIC CONFIRMADO: [Si/No — adjuntar version final]
 ```
 
 **4.2 Follow-up timeline**
@@ -320,7 +320,7 @@ JIP CONFIRMADO: [Si/No — adjuntar version final]
 TIMELINE POST-KICKOFF:
 
 Dia 0 (hoy):
-- [ ] Enviar resumen + JIP al cliente (< 60 min post-call)
+- [ ] Enviar resumen + PIC al cliente (< 60 min post-call)
 - [ ] Actualizar CRM con PULSO revisado
 - [ ] Crear proyecto en herramienta de implementacion
 
@@ -330,7 +330,7 @@ Semana 1:
 - [ ] Confirmar que stakeholders tienen acceso
 
 Semana 2-4:
-- [ ] Primer hito del JIP completado
+- [ ] Primer hito del PIC completado
 - [ ] Review de adoption inicial
 - [ ] Ajustar plan si es necesario
 
@@ -370,7 +370,7 @@ Entregar al usuario el paquete completo de kickoff:
 3. **Agenda de kickoff** — Con apertura AVE y tiempos
 4. **Email pre-kickoff** — Template listo para enviar
 5. **Guia de verificacion PULSO** — Preguntas por dimension
-6. **Template JIP** — Joint Impact Plan con hitos y owners
+6. **Template PIC** — PLAN DE IMPACTO CONJUNTO con hitos y owners
 7. **Resumen post-kickoff** — Template de follow-up
 8. **Timeline de seguimiento** — Acciones dia 0 a mes 3
 9. **Metricas de impacto** — Baseline + targets + tracking

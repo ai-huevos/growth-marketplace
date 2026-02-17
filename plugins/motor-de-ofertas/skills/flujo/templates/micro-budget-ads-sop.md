@@ -1,6 +1,6 @@
-# SOP: $5 Hit Records — Publicidad de Micro-Presupuesto
+# SOP: MICRO-PRESUPUESTO — Publicidad de Micro-Presupuesto
 
-Procedimiento operativo estándar para generar leads consistentes con $5/día por ad. Basado en la metodología "$5 Hit Records" de Content Mavericks, adaptado a B2B LATAM.
+Procedimiento operativo estándar para generar leads consistentes con $5/día por ad. Adaptado a B2B LATAM.
 
 ## Filosofía
 
@@ -10,7 +10,7 @@ Este SOP elimina la complejidad de la gestión publicitaria: setup de 30 minutos
 
 ## Prerequisitos
 
-- [ ] Artículo de blog publicado con Three Jabs Strategy implementada
+- [ ] Artículo de blog publicado con TRIPLE VALOR implementada
 - [ ] Cuenta activa de Facebook/Instagram Ads
 - [ ] Pixel de seguimiento instalado en el sitio
 - [ ] Presupuesto mínimo: $5/día por ad ($150/mes)

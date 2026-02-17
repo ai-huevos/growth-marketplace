@@ -1,10 +1,10 @@
-# Joint Impact Plan (JIP) — Framework Completo
+# PLAN DE IMPACTO CONJUNTO (PIC) — Framework Completo
 
-Framework para crear, mantener y evolucionar el Joint Impact Plan (JIP), el artefacto mas importante del Customer Success Operating Model. Incluye el formato de documentacion, el timeline de 12 meses, la metodologia de swing-through, y el uso del JIP en EBRs.
+Framework para crear, mantener y evolucionar el PLAN DE IMPACTO CONJUNTO (PIC), el artefacto mas importante del Customer Success Operating Model. Incluye el formato de documentacion, el timeline de 12 meses, la metodologia de swing-through, y el uso del PIC en EBRs.
 
 ## Definicion
 
-El **Joint Impact Plan (JIP)** es un documento orientado al cliente que guia todo el engagement post-venta. Tambien conocido como Success Plan, Account Plan (parte customer-facing), o Plan de Impacto Conjunto.
+El **PLAN DE IMPACTO CONJUNTO (PIC)** es un documento orientado al cliente que guia todo el engagement post-venta. Tambien conocido como Success Plan, Account Plan (parte customer-facing), o Plan de Impacto Conjunto.
 
 **Lo importante no es como lo llames, sino que**:
 - Establezca metas claras
@@ -16,7 +16,7 @@ El **Joint Impact Plan (JIP)** es un documento orientado al cliente que guia tod
 
 > **Primer Principio**: Recurring Revenue es el resultado de IMPACTO COMPUESTO.
 
-El JIP existe para asegurar que ambos lados (tu equipo y el cliente) estan alineados en:
+El PIC existe para asegurar que ambos lados (tu equipo y el cliente) estan alineados en:
 1. Que impacto se busca lograr
 2. Como se va a lograr
 3. Quien es responsable de que
@@ -25,7 +25,7 @@ El JIP existe para asegurar que ambos lados (tu equipo y el cliente) estan aline
 
 ## Formato de Documentacion: WHAT / WHO / WHEN / HOW
 
-Cada meta en el JIP debe documentarse con estos cuatro componentes:
+Cada meta en el PIC debe documentarse con estos cuatro componentes:
 
 | Componente | Descripcion | Ejemplo |
 |-----------|-------------|---------|
@@ -34,7 +34,7 @@ Cada meta en el JIP debe documentarse con estos cuatro componentes:
 | **WHEN (Cuando)** | Timeline especifico | Dentro de 1 mes del primer escaneo |
 | **HOW (Como)** | Acciones concretas para lograrlo | Dirigir usuarios a recursos de auto-servicio, webinars mensuales para engagement |
 
-### Ejemplo de JIP documentado:
+### Ejemplo de PIC documentado:
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
@@ -51,7 +51,7 @@ Cada meta en el JIP debe documentarse con estos cuatro componentes:
 
 ## 12-Month Impact Journey
 
-El JIP se estructura como un viaje de 12 meses con hitos claros:
+El PIC se estructura como un viaje de 12 meses con hitos claros:
 
 ```
 HOY      30 DIAS        60 DIAS        90-180 DIAS      6 MOS       9 MOS       1 ANO
@@ -71,7 +71,7 @@ METRICAS: First Project  25% Usage       50% Usage       70% Usage    70% Usage
           Identified                                                   First Value
 ```
 
-### Dos fases distintas del JIP
+### Dos fases distintas del PIC
 
 **Fase de Onboarding** — termina cuando el cliente logra First Value/First Impact:
 - **First Value Goal**: Como se ve el exito al final del onboarding?
@@ -93,7 +93,7 @@ METRICAS: First Project  25% Usage       50% Usage       70% Usage    70% Usage
 | **9 meses** | Entrega de EBR/Workshop | Monthly Report, AM Check-In, Strategy Session | Driving $X in revenue |
 | **1 ano** | Utilizacion comprensiva en toda la org | Deliver EBR, Tie product roadmap to Impact | Driving $X in revenue |
 
-## Como Preparar el JIP
+## Como Preparar el PIC
 
 ### Antes de la reunion con el cliente:
 
@@ -117,9 +117,9 @@ METRICAS: First Project  25% Usage       50% Usage       70% Usage    70% Usage
 3. Piensa en UNA forma de ayudar a tu cliente actual a tomar la misma accion que el exitoso
 4. Piensa en UNA forma de ayudar a tu cliente actual a evitar los errores del no exitoso
 
-## Swing-Through: Renovacion del JIP cada 6 meses
+## Swing-Through: Renovacion del PIC cada 6 meses
 
-La metodologia de **Swing-Through** es critica para mantener el JIP relevante y alineado:
+La metodologia de **Swing-Through** es critica para mantener el PIC relevante y alineado:
 
 ```
 AFTER COMMIT    WITHIN 3 MONTHS    6-8 MONTHS       9-10 MONTHS
@@ -137,33 +137,33 @@ AFTER COMMIT    WITHIN 3 MONTHS    6-8 MONTHS       9-10 MONTHS
 
 ### Por que hacer Swing-Through cada 6 meses:
 
-1. **Plan fresco al momento de la renovacion**: Rehacer el JIP para tener un plan actualizado cuando llegue la renovacion
+1. **Plan fresco al momento de la renovacion**: Rehacer el PIC para tener un plan actualizado cuando llegue la renovacion
 2. **Planificar mas alla de la fecha de renovacion**: Demostrar como continuar trabajando juntos ayudara al cliente a lograr sus metas
-3. **Auto-renewal**: Un JIP actualizado que planifica mas alla de la renovacion facilita un auto-renewal (o al menos una discusion de renovacion mas facil)
+3. **Auto-renewal**: Un PIC actualizado que planifica mas alla de la renovacion facilita un auto-renewal (o al menos una discusion de renovacion mas facil)
 
 ### Proceso de Swing-Through:
 
-1. Revisar el JIP actual — que se logro, que no
+1. Revisar el PIC actual — que se logro, que no
 2. Re-discovery usando PULSO si el cliente se ha desviado del plan
 3. Establecer nuevas metas para los proximos 12 meses
 4. Documentar nuevas responsabilidades y timelines
-5. Compartir el nuevo JIP con el cliente y stakeholders clave
+5. Compartir el nuevo PIC con el cliente y stakeholders clave
 
-## Uso del JIP en Revisiones y EBRs
+## Uso del PIC en Revisiones y EBRs
 
 ### Antes de cada call de revision:
 
-- **Tener el JIP listo y revisado**
-- Si el cliente se desvio del plan o esta en riesgo, **revisar el JIP para resetear metas**
+- **Tener el PIC listo y revisado**
+- Si el cliente se desvio del plan o esta en riesgo, **revisar el PIC para resetear metas**
 - Usar PULSO para re-discovery si es necesario
 
-### Validacion PULSO durante revision del JIP:
+### Validacion PULSO durante revision del PIC:
 
 ```
 S — Situacion:     Reconfirmar que esta tratando de lograr el cliente
 P — Pain:          Reconfirmar el problema que les ayudamos a resolver
 I — Impact:        Reconfirmar el impacto en el negocio: ↑revenue, ↓costo, mejorar UX
-                   Preguntar: "Sigues intentando lograr [impacto del JIP]?"
+                   Preguntar: "Sigues intentando lograr [impacto del PIC]?"
                    Preguntar: "Que impacto tendria si cumples esa meta?"
 CE — Critical Event: "Que pasa si pierdes esa fecha?"
 D — Decision:      "Quien mas se ve afectado por estas metas?"
@@ -172,8 +172,8 @@ D — Decision:      "Quien mas se ve afectado por estas metas?"
 ### Despues de cada revision:
 
 1. **Resumir** los takeaways clave de la reunion
-2. **Actualizar el JIP** con nueva informacion
-3. **Enviar** el JIP actualizado al POC y decision makers que no estuvieron en la llamada — para obtener buy-in de cualquier cambio
+2. **Actualizar el PIC** con nueva informacion
+3. **Enviar** el PIC actualizado al POC y decision makers que no estuvieron en la llamada — para obtener buy-in de cualquier cambio
 4. **Mantener buenas notas** para preparar al equipo para la proxima reunion
 
 ## Metas: Como Definirlas
@@ -196,9 +196,9 @@ D — Decision:      "Quien mas se ve afectado por estas metas?"
 
 | Error | Consecuencia | Correccion |
 |-------|-------------|-----------|
-| JIP creado solo internamente | Cliente no tiene ownership | Siempre co-crear con el cliente |
+| PIC creado solo internamente | Cliente no tiene ownership | Siempre co-crear con el cliente |
 | Metas vagas sin metricas | No se puede medir progreso | Cada meta con numero y fecha |
-| JIP estatico que nunca se actualiza | Se vuelve irrelevante | Swing-through cada 6 meses |
+| PIC estatico que nunca se actualiza | Se vuelve irrelevante | Swing-through cada 6 meses |
 | Solo metas racionales | Se pierde la conexion emocional | Incluir impacto emocional por stakeholder |
 | No compartir con stakeholders ausentes | Falta de alignment organizacional | Enviar recap a decision makers post-call |
 | Ignorar los errores de otros clientes | Se repiten los mismos problemas | Compartir errores comunes proactivamente |

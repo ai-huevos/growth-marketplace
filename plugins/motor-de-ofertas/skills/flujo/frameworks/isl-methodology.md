@@ -1,6 +1,6 @@
 # Metodología ISL (Invisible Sales Letter)
 
-Metodología extraída del sistema ISL de Content Mavericks. Una carta de ventas invisible que educa mientras vende en una sola página.
+Metodología de carta de ventas invisible que educa mientras vende en una sola página.
 
 ---
 

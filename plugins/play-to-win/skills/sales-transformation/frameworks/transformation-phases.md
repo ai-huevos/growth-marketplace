@@ -243,7 +243,7 @@ Framework de discovery basado en PULSO con secuencias de preguntas, triggers de 
 | **Logro** | 19-23 min | L (Value) | "Como impacta [dolor] tu negocio? Si se resuelve, que significaria para ti personalmente?" | Racional + Emocional |
 | **Situación Crítica** | 23-25 min | S | "Cuando necesitas esto? Que pasa si pierdes esa fecha?" | Test de urgencia |
 | **Organización** | 25-28 min | O | "Has comprado algo similar antes? Quien esta involucrado?" | Mapear proceso |
-| **Close** | 28-30 min | Wagons | "Cubrimos tus goals? Listo para ver como resolvemos esto? Quien mas deberia unirse?" | Conectar al siguiente |
+| **Close** | 28-30 min | VAGONES | "Cubrimos tus goals? Listo para ver como resolvemos esto? Quien mas deberia unirse?" | Conectar al siguiente |
 
 ### Metricas de Discovery
 

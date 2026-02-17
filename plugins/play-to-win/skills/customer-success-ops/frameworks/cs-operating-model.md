@@ -126,7 +126,7 @@ La fase de onboarding establece la base de la relacion. Es la mas critica y la m
 ### O2. Kickoff Call
 **Meta**: Iniciar la relacion con un kickoff call efectivo que establezca tono y expectativas.
 
-**Flujo**: PREPARE (internal + external) → SETUP (ACE) → PULSO verify/deepen → TEACHING MOMENTS → ONBOARDING REVIEW → JIP alignment → NEXT STEPS → WAGONS → POST CALL ACTION
+**Flujo**: PREPARE (internal + external) → SETUP (AVE) → PULSO verify/deepen → TEACHING MOMENTS → ONBOARDING REVIEW → PIC alignment → NEXT STEPS → VAGONES → POST CALL ACTION
 
 **Tips criticos**:
 - Investigar asistentes con anticipacion

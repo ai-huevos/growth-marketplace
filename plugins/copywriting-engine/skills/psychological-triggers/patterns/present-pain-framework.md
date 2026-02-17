@@ -1,6 +1,6 @@
-# Present Pain vs Future Gain
+# DOLOR PRESENTE
 
-Framework de persuasión que prioriza el dolor ACTUAL del lector sobre las promesas de ganancia futura. Basado en el principio de Content Mavericks: el dolor presente motiva más que la aspiración futura.
+Framework de persuasión que prioriza el dolor ACTUAL del lector sobre las promesas de ganancia futura.
 
 ## Principio Central
 

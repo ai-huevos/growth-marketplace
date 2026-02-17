@@ -1,6 +1,6 @@
 # Arquetipo de Página ISL (Invisible Sales Letter)
 
-Formato de página única que educa mientras vende. A diferencia de una sales page tradicional (agresiva) o un blog post (sin CTA), la ISL combina ambos. Basado en el sistema Invisible Sales Letter de Content Mavericks.
+Formato de página única que educa mientras vende. A diferencia de una sales page tradicional (agresiva) o un blog post (sin CTA), VELO combina ambos.
 
 ## Principio Central
 

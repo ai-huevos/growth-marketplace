@@ -1,16 +1,16 @@
-# SOP: Operation Nowhere To Hide — Distribución Omni-Canal
+# SOP: OPERACIÓN OMNIPRESENCIA — Distribución Omni-Canal
 
-Procedimiento operativo estándar para maximizar la distribución de tu ISL (Invisible Sales Letter) colocándola en TODOS tus activos de marketing existentes. Basado en el sistema de Content Mavericks.
+Procedimiento operativo estándar para maximizar la distribución de tu VELO colocándola en TODOS tus activos de marketing existentes.
 
 ## Filosofía
 
 > "No necesitas más contenido. Necesitas que tu mejor contenido sea IMPOSIBLE de ignorar."
 
-La mayoría de los negocios B2B tienen decenas de activos digitales que reciben tráfico diario sin CTA alguno. Operation Nowhere To Hide convierte cada uno de estos puntos de contacto en una entrada al funnel.
+La mayoría de los negocios B2B tienen decenas de activos digitales que reciben tráfico diario sin CTA alguno. OPERACIÓN OMNIPRESENCIA convierte cada uno de estos puntos de contacto en una entrada al funnel.
 
 ## Prerequisitos
 
-- [ ] ISL (Invisible Sales Letter) publicada y con URL accesible
+- [ ] VELO publicada y con URL accesible
 - [ ] Sistema de UTM definido para tracking
 - [ ] Herramienta de analytics configurada (GA4, Plausible, etc.)
 

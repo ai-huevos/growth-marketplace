@@ -1,6 +1,6 @@
 # Fórmulas de Intro Hook
 
-3 fórmulas para escribir introducciones que enganchen al lector por 5+ minutos. Basado en la metodología AIDA Article Template de Content Mavericks, adaptado a B2B.
+3 fórmulas para escribir introducciones que enganchen al lector por 5+ minutos. Adaptado a B2B.
 
 ## Principio Central
 

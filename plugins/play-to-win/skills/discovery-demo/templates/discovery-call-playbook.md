@@ -100,7 +100,7 @@ Seleccionar la variacion apropiada y personalizar:
 | 2 | ___ | ___ min | Dolor hipotesis: ___ |
 | 3 | ___ | ___ min | Dolor hipotesis: ___ |
 | 4 | ___ | ___ min | Dolor hipotesis: ___ |
-| 5 | Resumen + next steps | 5 min | Wagons + follow-up |
+| 5 | Resumen + next steps | 5 min | VAGONES + follow-up |
 | | **Total** | **___ min** | |
 
 ### Email de agenda pre-call
@@ -302,7 +302,7 @@ Nos vemos el [fecha] a las [hora].
 
 ---
 
-## Seccion 7: Connecting the Wagons
+## Seccion 7: Conectar los VAGONES
 
 ### Setup de siguiente reunion
 
@@ -321,7 +321,7 @@ Nos vemos el [fecha] a las [hora].
 | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
 
-### Script para connecting wagons
+### Script para conectar los VAGONES
 
 > "Basado en lo que conversamos hoy, creo que el siguiente paso natural seria ___. Sugiero reunirnos el [fecha] para [objetivo]. Para maximizar el valor, seria genial tener a [persona/rol]. Puedes facilitarnos esa conexion?"
 

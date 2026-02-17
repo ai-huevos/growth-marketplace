@@ -1,6 +1,6 @@
 # Estructura de Campañas TOFU-BOFU
 
-Estructura de 2 campañas publicitarias para convertir tráfico frío en clientes usando la Invisible Sales Letter (ISL). Basado en el sistema ISL de Content Mavericks, integrado con FLUJO.
+Estructura de 2 campañas publicitarias para convertir tráfico frío en clientes usando VELO. Integrado con FLUJO.
 
 ## Principio Central
 

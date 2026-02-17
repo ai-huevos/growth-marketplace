@@ -1,6 +1,6 @@
 ---
 name: discovery-demo
-description: Use when preparing discovery calls, conducting diagnosis sessions, designing demo presentations, or optimizing the discovery-to-demo progression. Activates for "discovery call", "llamada discovery", "demo framework", "AVE opening", "apertura AVE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons".
+description: Use when preparing discovery calls, conducting diagnosis sessions, designing demo presentations, or optimizing the discovery-to-demo progression. Activates for "discovery call", "llamada discovery", "demo framework", "AVE opening", "apertura AVE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting vagones", "técnica de vagones".
 version: 1.0.0
 ---
 
@@ -89,7 +89,7 @@ Panorama ──> Urgencia ──> Summarize ──> Storytelling ──> Logro �
 6. **Situación Crítica**: "Cuando necesitas tener esto resuelto?"
 7. **Organización**: Criterios, proceso, stakeholders involucrados
 
-### Connecting the Wagons (6 pasos)
+### Conectar los VAGONES (6 pasos)
 
 | Paso | Accion | Proposito |
 |------|--------|-----------|
@@ -126,7 +126,7 @@ Metodologia de 8 pasos para sesiones de diagnostico profundo. Incluye los 4 tipo
 5. **Diagnose** — Progresion PULSO completa
 6. **3rd Party Story** — Historia de terceros con empatia
 7. **Next Steps** — Definir acciones concretas
-8. **Wagons** — Conectar a la siguiente reunion + follow through
+8. **VAGONES** — Conectar a la siguiente reunion + follow through
 
 ### 4 Tipos de Preguntas
 
@@ -160,7 +160,7 @@ PREP → SETUP → ACE/Agenda → Layout → PULSO Summary → Demo 1 → Demo 2
                                                                ▼
                                                     Decision Criteria
                                                                │
-                                                          Recap & Wagons
+                                                          Recap & VAGONES
                                                                │
                                                              Close
 ```
@@ -228,7 +228,7 @@ Pre-Discovery Research
 |-------|----------|
 | `pre-discovery-research` | Alimenta la preparacion pre-call del Pilar 1 (research de 5 capas) |
 | `deal-strategy` | Recibe los criterios de decision identificados en discovery y demo |
-| `relationship-mapping` | Los stakeholders identificados via wagons se mapean en el 3x3 |
+| `relationship-mapping` | Los stakeholders identificados via VAGONES se mapean en el 3x3 |
 | `customer-success-ops` | El handoff post-venta usa el PULSO summary del discovery |
 | `renewal-expansion` | Expansion opportunities se detectan con las mismas tecnicas de discovery |
 | `sales-transformation` | Este skill es la Fase 5-6 del roadmap de 90 dias |
