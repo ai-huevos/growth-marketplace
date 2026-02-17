@@ -1,6 +1,6 @@
-# Framework: Hero's Journey Storytelling
+# Framework: ARCO DE TRANSFORMACIÓN
 
-Sistema de storytelling para ventas B2B que transforma casos de exito en narrativas de 3 partes usando el Hero's Journey simplificado. Basado en el concepto de Storytelling de la Metodología GrowthOS y la neurociencia del storytelling aplicada a contextos comerciales.
+Sistema de storytelling para ventas B2B que transforma casos de exito en narrativas de 3 partes usando el ARCO DE TRANSFORMACIÓN simplificado. Basado en el concepto de Storytelling de la Metodología GrowthOS y la neurociencia del storytelling aplicada a contextos comerciales.
 
 ## Principios fundamentales
 

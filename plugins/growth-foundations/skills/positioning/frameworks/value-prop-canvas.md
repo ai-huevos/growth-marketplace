@@ -1,8 +1,8 @@
-# Value Proposition Canvas
+# CANVAS DE PROPUESTA
 
 ## Instrucciones
 
-El Value Proposition Canvas es una herramienta visual para asegurar que tu producto/servicio encaja con lo que tu cliente necesita. Tiene dos lados que deben conectar.
+El CANVAS DE PROPUESTA es una herramienta visual para asegurar que tu producto/servicio encaja con lo que tu cliente necesita. Tiene dos lados que deben conectar.
 
 ## Lado derecho: Customer Profile
 

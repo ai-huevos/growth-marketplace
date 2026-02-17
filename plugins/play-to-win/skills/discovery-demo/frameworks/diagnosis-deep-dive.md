@@ -21,7 +21,7 @@ Metodologia de 8 pasos para conducir sesiones de diagnostico profundo que transf
 │  1. Open ──> 2. ACE ──> 3. Agenda ──> 4. Ask Questions      │
 │                                            │                 │
 │                                            ▼                 │
-│  8. Follow Through <── 7. Wagons <── 6. 3rd Party Story      │
+│  8. Follow Through <── 7. VAGONES <── 6. 3rd Party Story      │
 │                                            ▲                 │
 │                                            │                 │
 │                                    5. Diagnose PULSO         │
@@ -68,7 +68,7 @@ Aplicar la progresion PULSO completa una vez que se tiene suficiente informacion
 
 Insertar una historia de un cliente similar despues del resumen PULSO para construir empatia y credibilidad.
 
-### Paso 7: Wagons — Conectar reuniones
+### Paso 7: VAGONES — Conectar reuniones
 
 Mirar atras (que cubrimos), mirar adelante (que sigue), expandir (quien mas debe participar).
 
@@ -289,7 +289,7 @@ La historia de terceros es una herramienta de empatia y credibilidad. No es un c
 | 4. Ask | 5-8 preguntas con contexto | Preparar 2 cerradas con contexto + 2 abiertas con contexto minimo |
 | 5. Diagnose | PULSO flow chart con datos actuales | Completar P y U con lo que ya sabes, dejar L/S/O abiertos |
 | 6. Story | 2-3 historias de terceros relevantes | Seleccionar por industria, tamano, dolor similar |
-| 7. Wagons | Propuesta de next steps y stakeholders | Tener 2 opciones de siguiente reunion preparadas |
+| 7. VAGONES | Propuesta de next steps y stakeholders | Tener 2 opciones de siguiente reunion preparadas |
 | 8. Follow | Template de email follow-up | Pre-redactar con campos variables para completar post-call |
 
 ---

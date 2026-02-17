@@ -86,7 +86,7 @@ Discovery findings ────────────────────�
 | 5 | Demo Point 2: ___ | 7 min | ___ |
 | 6 | Demo Point 3: ___ | 7 min | ___ |
 | 7 | Decision criteria | 5 min | ___ |
-| 8 | Recap + wagons | 5 min | ___ |
+| 8 | Recap + VAGONES | 5 min | ___ |
 | 9 | Q&A + close | 5 min | ___ |
 | | **Total** | **___ min** | |
 
@@ -309,7 +309,7 @@ Completar basado en las respuestas de impacto durante el demo:
 
 ---
 
-## Seccion 8: Recap & Wagons
+## Seccion 8: Recap & VAGONES
 
 ### Recap (Mirar atras)
 

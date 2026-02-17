@@ -1,6 +1,6 @@
 # Framework: AVE Discovery Call
 
-Framework completo para ejecutar discovery calls profesionales que generan confianza desde el primer segundo, extraen dolores reales con la progresion PULSO, y aseguran la siguiente reunion mediante la tecnica de wagons. Basado en la discovery call perfecta de Metodología GrowthOS.
+Framework completo para ejecutar discovery calls profesionales que generan confianza desde el primer segundo, extraen dolores reales con la progresion PULSO, y aseguran la siguiente reunion mediante la TÉCNICA DE VAGONES. Basado en la discovery call perfecta de Metodología GrowthOS.
 
 ## Principios fundamentales
 
@@ -8,7 +8,7 @@ Framework completo para ejecutar discovery calls profesionales que generan confi
 - **Los primeros 45 segundos definen la reunion** — AVE establece profesionalismo, respeto y proposito
 - **Preguntas con contexto > preguntas genericas** — Demostrar investigacion previa eleva la calidad del dialogo
 - **El resumen es la herramienta mas poderosa** — Validar comprension abre puertas que las preguntas no pueden
-- **Cada reunion conecta con la siguiente** — Los wagons eliminan el "ya te llamamos" y construyen momentum
+- **Cada reunion conecta con la siguiente** — Los VAGONES eliminan el "ya te llamamos" y construyen momentum
 
 ---
 
@@ -148,9 +148,9 @@ Cuatro dimensiones de logro/impacto:
 
 ---
 
-## Connecting the Wagons
+## Conectar los VAGONES
 
-La tecnica de wagons conecta cada reunion con la anterior y la siguiente, eliminando el vacio entre llamadas.
+La TÉCNICA DE VAGONES conecta cada reunion con la anterior y la siguiente, eliminando el vacio entre llamadas.
 
 ### Tabla de Progresion de 6 Pasos
 
@@ -269,5 +269,5 @@ Siempre buscar expandir el numero de stakeholders:
 | Hacer preguntas genericas sin contexto | Pareces un vendedor mas que no investigo | Preparar al menos 3 datos del prospect para usar como contexto |
 | Presentar solucion antes de diagnosticar | Pierdes credibilidad y el prospect se cierra | Completar al menos P y U de PULSO antes de cualquier mencion de solucion |
 | No resumir despues de Urgencia | El prospect no sabe si lo entendiste | Siempre usar el formato "Entonces tienes [P] que causa [U]... capte bien?" |
-| No conectar wagons al cierre | La reunion termina sin next step concreto | Nunca cerrar sin fecha/hora de la siguiente reunion |
+| No conectar VAGONES al cierre | La reunion termina sin next step concreto | Nunca cerrar sin fecha/hora de la siguiente reunion |
 | Hablar mas del 40% del tiempo | El discovery se convierte en pitch | Usar el timer mental: si llevas 2 minutos hablando, haz una pregunta |

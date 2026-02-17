@@ -126,7 +126,7 @@ La fase de onboarding establece la base de la relacion. Es la mas critica y la m
 ### O2. Kickoff Call
 **Meta**: Iniciar la relacion con un kickoff call efectivo que establezca tono y expectativas.
 
-**Flujo**: PREPARE (internal + external) → SETUP (ACE) → PULSO verify/deepen → TEACHING MOMENTS → ONBOARDING REVIEW → JIP alignment → NEXT STEPS → WAGONS → POST CALL ACTION
+**Flujo**: PREPARE (internal + external) → SETUP (AVE) → PULSO verify/deepen → TEACHING MOMENTS → ONBOARDING REVIEW → PIC alignment → NEXT STEPS → VAGONES → POST CALL ACTION
 
 **Tips criticos**:
 - Investigar asistentes con anticipacion
@@ -135,10 +135,10 @@ La fase de onboarding establece la base de la relacion. Es la mas critica y la m
 - Establecer expectativas de roles y responsabilidades
 - Cerrar 5 min antes del fin con next steps claros
 
-### O3. Joint Impact Plan (JIP)
+### O3. PLAN DE IMPACTO CONJUNTO (PIC)
 **Meta**: Crear una estrella norte compartida que guie el engagement.
 
-**Contenido del JIP**:
+**Contenido del PIC**:
 - Metas de corto y largo plazo
 - First Impact goal durante onboarding
 - Metas de adopcion

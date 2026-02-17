@@ -87,7 +87,7 @@ Esta pregunta abierta es enganosamente poderosa — le da al prospect ownership 
 4. Preguntar: "Que preguntas tienes?"
 5. Follow up en menos de 60 minutos
 
-## Connecting the Wagons
+## Conectar los VAGONES
 
 Cuando una call se descarrila o pierde foco, usa la tecnica de "conectar vagones":
 

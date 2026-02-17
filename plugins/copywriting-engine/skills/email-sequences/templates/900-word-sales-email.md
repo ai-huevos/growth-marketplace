@@ -1,6 +1,6 @@
 # Template: Email de Venta de 900 Palabras
 
-Template para emails de ~900 palabras que venden servicios high-ticket ($500-$15,000) sin necesidad de llamada de ventas. Basado en la metodología 900 Word Emails de Content Mavericks.
+Template para emails de ~900 palabras que venden servicios high-ticket ($500-$15,000) sin necesidad de llamada de ventas.
 
 ## Contexto de Uso
 

@@ -1,12 +1,12 @@
-# Greatest Hits Content Survey
+# ENCUESTA DE RESONANCIA
 
-Framework de validación de temas de contenido con tu audiencia ANTES de crear. Basado en la metodología Content Mavericks adaptada a B2B.
+Framework de validación de temas de contenido con tu audiencia ANTES de crear. Adaptada a B2B.
 
 ## Principio Central
 
 > "No adivines qué contenido crear. Pregúntale a tu audiencia qué dolor tiene AHORA."
 
-La Greatest Hits Survey es una encuesta de 60 segundos (3 preguntas máximo) que valida temas de contenido directamente con tu mercado. Tasa de completado objetivo: >80%.
+La ENCUESTA DE RESONANCIA es una encuesta de 60 segundos (3 preguntas máximo) que valida temas de contenido directamente con tu mercado. Tasa de completado objetivo: >80%.
 
 ## Las 3 Preguntas
 

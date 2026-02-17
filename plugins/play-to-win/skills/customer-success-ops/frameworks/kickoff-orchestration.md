@@ -1,6 +1,6 @@
 # Kickoff Call Orchestration — Framework Completo
 
-Framework paso a paso para preparar, conducir y dar seguimiento a kickoff calls efectivos. Cubre preparacion interna y externa, apertura AVE, verificacion PULSO, ensenanza de valor, alineacion del JIP, y acciones post-call.
+Framework paso a paso para preparar, conducir y dar seguimiento a kickoff calls efectivos. Cubre preparacion interna y externa, apertura AVE, verificacion PULSO, ensenanza de valor, alineacion del PIC, y acciones post-call.
 
 ## Por que el Kickoff Call es Critico
 
@@ -148,7 +148,7 @@ Proveer a los clientes un **mapa visual** de las etapas de onboarding.
 
 > **TIP**: Reducir confusion desde el dia 1. Aunque tu hayas hecho esto 100 veces, es la primera vez del cliente.
 
-### Paso 6: Joint Impact Plan (Alineacion del JIP)
+### Paso 6: PLAN DE IMPACTO CONJUNTO (Alineacion del PIC)
 
 Introducir al cliente al plan conjunto de onboarding e impacto.
 
@@ -166,7 +166,7 @@ Introducir al cliente al plan conjunto de onboarding e impacto.
 - **Asignar** action items y tareas a stakeholders especificos
 - **Asignar fechas** de entrega
 
-### Paso 8: Connect the Wagons (Conectar los Vagones)
+### Paso 8: Conectar los VAGONES
 
 **Acordar una cadencia de reuniones de progreso** para asegurar que el plan de realizacion de impacto se sigue.
 
@@ -224,7 +224,7 @@ Cerrar a tiempo. Usar WAGONS:
 - [ ] PULSO verificado y profundizado
 - [ ] Momentos de ensenanza aprovechados
 - [ ] Mapa de onboarding compartido
-- [ ] JIP introducido y metas discutidas
+- [ ] PIC introducido y metas discutidas
 - [ ] Next steps asignados con fechas
 - [ ] Cadencia de reuniones acordada (WAGONS)
 - [ ] Cierre a tiempo (5 min antes del fin)

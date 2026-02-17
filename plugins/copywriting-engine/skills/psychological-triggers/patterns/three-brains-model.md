@@ -1,6 +1,6 @@
-# Modelo de los Tres Cerebros
+# MODELO TRICORTICAL
 
-Framework de persuasión que estructura el copy para hablar a los 3 sistemas de decisión del comprador B2B. Basado en la metodología de Content Mavericks para emails de venta high-ticket.
+Framework de persuasión que estructura el copy para hablar a los 3 sistemas de decisión del comprador B2B.
 
 ## Principio Central
 
