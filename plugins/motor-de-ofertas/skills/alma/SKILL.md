@@ -1,6 +1,6 @@
 ---
 name: ALMA
-description: Use when developing brand character, building email sequences, creating origin stories, designing Soap Opera or Seinfeld email campaigns, or defining brand voice and personality. Activates for "Alma", "attractive character", "personaje atractivo", "ACF", "brand character", "brand voice", "origin story", "historia de origen", "IMAN", "email sequence", "Soap Opera sequence", "Seinfeld emails", "secuencia de emails", "email nurture", "brand soul".
+description: Use when developing brand character, building email sequences, creating origin stories, designing ORIGEN or PULSAR email campaigns, or defining brand voice and personality. Activates for "Alma", "attractive character", "personaje atractivo", "ACF", "brand character", "brand voice", "origin story", "historia de origen", "IMAN", "email sequence", "ORIGEN sequence", "PULSAR emails", "secuencia de emails", "email nurture", "brand soul".
 version: 1.0.0
 ---
 
@@ -20,7 +20,7 @@ Alma es el skill que construye esa voz y la despliega sistemáticamente a travé
 
 Alma engloba dos sistemas complementarios:
 
-### 1. ACF (Attractive Character Framework)
+### 1. ACF (Alma Character Framework)
 
 10 pasos para desarrollar el personaje que representa tu marca. Desde la selección del tipo de personaje hasta un plan de implementación de 4 semanas.
 
@@ -45,8 +45,8 @@ Para la metodología completa paso a paso, leer `frameworks/acf-10-steps.md`.
 
 Sistema de email que despliega al personaje ACF en dos secuencias:
 
-- **Soap Opera Sequence** (Días 1-5) — Onboarding emocional que cuenta la historia de origen del personaje y construye confianza hasta la primera oferta
-- **Seinfeld Sequence** (Diario, para siempre) — Emails de engagement continuo que mezclan entretenimiento con valor, manteniendo la relación viva
+- **Secuencia ORIGEN** (Días 1-5) — Onboarding emocional que cuenta la historia de origen del personaje y construye confianza hasta la primera oferta
+- **Secuencia PULSAR** (Diario, para siempre) — Emails de engagement continuo que mezclan entretenimiento con valor, manteniendo la relación viva
 
 IMAN responde: **¿Cómo despliega tu personaje su voz de forma consistente y escalable?**
 
@@ -55,14 +55,14 @@ Para la arquitectura completa del sistema de email, leer `frameworks/iman-email-
 ## Flujo de Alma
 
 ```
-[1. Definir ACF] → [2. Crear Backstory] → [3. Escribir Soap Opera] → [4. Diseñar Seinfeld] → [5. Sistematizar]
+[1. Definir ACF] → [2. Crear Backstory] → [3. Escribir ORIGEN] → [4. Diseñar PULSAR] → [5. Sistematizar]
 ```
 
 | Fase | Input | Output | Herramienta |
 |------|-------|--------|-------------|
 | 1. ACF Profile | Información del fundador/marca | Character profile completo | `templates/acf-worksheet.md` |
-| 2. Soap Opera | ACF profile + oferta frontend | 5 emails de onboarding | `templates/soap-opera-sequence.md` |
-| 3. Seinfeld | ACF profile + pilares de contenido | Calendario semanal de emails | `templates/seinfeld-sequence.md` |
+| 2. ORIGEN | ACF profile + oferta frontend | 5 emails de onboarding | `templates/secuencia-origen.md` |
+| 3. PULSAR | ACF profile + pilares de contenido | Calendario semanal de emails | `templates/secuencia-pulsar.md` |
 
 ## Conexión con ESCALA
 
@@ -71,8 +71,8 @@ Alma le da voz humana a la escalera de valor:
 | Tier ESCALA | Rol de Alma |
 |-------------|-------------|
 | **Tier 1: BAIT** | El personaje es la razón por la que el prospect abre el lead magnet |
-| **Tier 2: FRONTEND** | Soap Opera sequence nutre al lead desde bait hasta la primera compra |
-| **Tier 3: MIDDLE** | Seinfeld sequence mantiene engagement entre tiers |
+| **Tier 2: FRONTEND** | Secuencia ORIGEN nutre al lead desde bait hasta la primera compra |
+| **Tier 3: MIDDLE** | Secuencia PULSAR mantiene engagement entre tiers |
 | **Tier 4: BACKEND** | La relación construida por Alma reduce fricción en la venta high-ticket |
 
 Sin Alma, ESCALA es una estructura de ofertas fría. Con Alma, es una relación que asciende naturalmente.

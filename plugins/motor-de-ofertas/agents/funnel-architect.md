@@ -48,7 +48,7 @@ Usar `skills/flujo/frameworks/seven-phases.md` para diseñar cada fase:
 | 3. Cualificar suscriptores | Lead magnet + squeeze page | Tipo de bait, copy de headline, campos del form |
 | 4. Cualificar compradores | Frontend offer | Tipo de oferta, precio, sales page |
 | 5. Hyperactive buyers | OTOs + order bumps | Upsell, downsell, complementarios |
-| 6. Nurture | Estrategia de email | Soap Opera → Seinfeld (definir con Alma) |
+| 6. Nurture | Estrategia de email | ORIGEN → PULSAR (definir con Alma) |
 | 7. Cambiar ambiente | High-ticket sales | Application → call → proposal |
 
 Seleccionar tipo de funnel usando `skills/flujo/frameworks/funnel-type-selector.md`:
@@ -68,7 +68,7 @@ Usar `skills/alma/frameworks/acf-10-steps.md` para:
    - Defectos de carácter: Vulnerabilidades que humanizan
    - Polaridad: Posición clara que atrae y repele
 
-2. **Diseñar la Soap Opera Sequence** (5 emails)
+2. **Diseñar la Secuencia ORIGEN** (5 emails)
    - Email 1: Preparar el escenario
    - Email 2: Alta drama / backstory
    - Email 3: Epifanía / momento de cambio
@@ -106,7 +106,7 @@ Generar el blueprint completo con:
           [COMPRA]      [NO COMPRA]
             ↓               ↓
       [ORDER BUMP]    [Email Nurture]
-            ↓          Soap Opera →
+            ↓          ORIGEN →
       [OTO / UPSELL]   Seinfeld
             ↓               ↓
       [MIDDLE OFFER]  [RE-ENGAGE]
@@ -141,7 +141,7 @@ Antes de entregar, verificar:
 - [ ] ¿Cada tier de ESCALA tiene oferta definida con precio?
 - [ ] ¿Las 7 fases de FLUJO tienen elementos asignados?
 - [ ] ¿El Attractive Character está definido con al menos backstory + identidad?
-- [ ] ¿Los email sequences tienen estructura clara (Soap Opera + Seinfeld)?
+- [ ] ¿Los email sequences tienen estructura clara (ORIGEN + PULSAR)?
 - [ ] ¿El LTV:CAC proyectado es >3:1?
 - [ ] ¿El plan de 90 días es realista para los recursos del usuario?
 

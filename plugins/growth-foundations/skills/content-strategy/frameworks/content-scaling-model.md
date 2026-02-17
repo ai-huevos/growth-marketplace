@@ -6,7 +6,7 @@ Framework extraído de Content Marketing Masters. Modelo para escalar la producc
 
 ## Etapa 1: Investigación de Temas con Intención de Revenue
 
-Usar el **Topic Triangle** para encontrar temas con intención comercial:
+Usar el **TRIÁNGULO DE INGRESOS** para encontrar temas con intención comercial:
 
 - **Green Circle** (TOFU): Posts de blog de entrada fácil, long-tail SEO
 - **Blue Square** (MOFU): Lead magnets, herramientas, webinars
@@ -32,7 +32,7 @@ Usar el **Topic Triangle** para encontrar temas con intención comercial:
 
 ## Evaluación de Pérdida de Contexto
 
-- **Retenido**: Modelo de 3 etapas, Topic Triangle, regla de CPC >$10, proceso de outsourcing
+- **Retenido**: Modelo de 3 etapas, TRIÁNGULO DE INGRESOS, regla de CPC >$10, proceso de outsourcing
 - **Perdido**: 19 videos de training (~4.5 horas), estructura detallada del curso, plantillas específicas de cada módulo
 
 ---

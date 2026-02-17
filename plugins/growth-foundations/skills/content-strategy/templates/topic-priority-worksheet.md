@@ -1,4 +1,4 @@
-# Worksheet de Priorización de Temas — Topic Triangle
+# Worksheet de Priorización de Temas — TRIÁNGULO DE INGRESOS
 
 ## Instrucciones
 
@@ -6,7 +6,7 @@
 2. Filtrar: eliminar cualquier tema con CPC < $10 (o < $5 en mercados LATAM)
 3. Puntuar cada tema en Revenue Potential (1-10) y Traffic Potential (1-10)
 4. Calcular Score = Revenue × Traffic
-5. Asignar nivel de Ski Slope según el tipo de contenido apropiado
+5. Asignar nivel de PENDIENTE según el tipo de contenido apropiado
 6. Ordenar por Score descendente y asignar prioridad
 
 ## Datos del Negocio
@@ -22,7 +22,7 @@
 
 ## Tabla de Priorización
 
-| # | Tema / Keyword | CPC ($) | Vol. Búsqueda | Revenue Potential (1-10) | Traffic Potential (1-10) | Score (R×T) | Nivel Ski Slope | Prioridad |
+| # | Tema / Keyword | CPC ($) | Vol. Búsqueda | Revenue Potential (1-10) | Traffic Potential (1-10) | Score (R×T) | Nivel PENDIENTE | Prioridad |
 |---|---------------|---------|---------------|--------------------------|--------------------------|-------------|-----------------|-----------|
 | 1 | [tema] | $[X] | [vol] | [1-10] | [1-10] | [score] | [Green/Blue/Black] | [Alta/Media/Baja] |
 | 2 | | | | | | | | |
@@ -56,7 +56,7 @@
 
 ## Resumen de Distribución
 
-| Nivel Ski Slope | Cantidad de Temas | % del Total |
+| Nivel PENDIENTE | Cantidad de Temas | % del Total |
 |-----------------|-------------------|-------------|
 | Green Circle (TOFU) | [X] | [X]% |
 | Blue Square (MOFU) | [X] | [X]% |

@@ -45,7 +45,7 @@ Personas que ya te dieron permiso para contactarlas directamente. No dependes de
 1. Medir tamaño actual de lista activa (abrió email en últimos 90 días)
 2. Calcular tasa de crecimiento mensual de la lista
 3. Segmentar por origen, engagement y etapa de compra
-4. Monetizar con secuencias de email (Soap Opera + Seinfeld)
+4. Monetizar con secuencias de email (ORIGEN + PULSAR)
 5. Limpiar lista cada 90 días (eliminar inactivos)
 
 ---

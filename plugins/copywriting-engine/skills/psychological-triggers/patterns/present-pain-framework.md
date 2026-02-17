@@ -60,6 +60,6 @@ Si tu copy responde a "¿Qué te está pasando AHORA?", estás en Present Pain.
 
 ## Conexión con el Ecosistema
 
-- **Se usa en**: 900 Word Emails (Sección 2: Present Pain), ISL (Opening), Headlines
+- **Se usa en**: 900 Word Emails (Sección 2: Present Pain), VELO (Opening), Headlines
 - **Se combina con**: Three Brains Model (Present Pain activa el Cerebro Niño)
 - **Complementa**: Loss Aversion trigger (del skill Psychological Triggers)

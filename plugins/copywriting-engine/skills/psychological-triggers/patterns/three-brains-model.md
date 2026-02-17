@@ -72,12 +72,12 @@ Invertir el orden (empezar con datos o con prueba social) genera desconexión po
 | Formato | Niño | Adulto | Padre |
 |---------|------|--------|-------|
 | **Email de venta** | Opening hook, Present Pain | Solution bridge, proceso | Social proof, garantía |
-| **Landing/ISL** | Headline, primer párrafo | Pasos del método, ROI | Testimonios, risk reversal |
+| **Landing/VELO** | Headline, primer párrafo | Pasos del método, ROI | Testimonios, risk reversal |
 | **Ad copy** | Imagen + primera línea | Beneficio cuantificado | Logo de clientes, reviews |
 | **Propuesta** | Resumen ejecutivo emotivo | Alcance, timeline, pricing | Casos de éxito, términos |
 
 ## Conexión con el Ecosistema
 
-- **Se usa en**: 900 Word Emails (estructura completa), ISL Pages, Landing Pages
+- **Se usa en**: 900 Word Emails (estructura completa), Páginas VELO, Landing Pages
 - **Se combina con**: Present Pain Framework (activa el Cerebro Niño con dolor actual)
 - **Complementa**: Triggers de Social Proof y Authority (Cerebro Padre)

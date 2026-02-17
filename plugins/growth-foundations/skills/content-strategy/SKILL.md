@@ -1,12 +1,12 @@
 ---
 name: content-strategy
-description: Use when planning content marketing strategy, prioritizing topics, mapping content to funnel stages, creating content calendars, or designing distribution partnerships. Activates for "content strategy", "estrategia de contenido", "ski slope", "topic triangle", "que contenido crear", "blog strategy", "content plan", "plan de contenido", "SEO content", "contenido SEO", "calendario de contenido", "content calendar", "content distribution", "distribución de contenido".
+description: Use when planning content marketing strategy, prioritizing topics, mapping content to funnel stages, creating content calendars, or designing distribution partnerships. Activates for "content strategy", "estrategia de contenido", "pendiente", "triangulo de ingresos", "que contenido crear", "blog strategy", "content plan", "plan de contenido", "SEO content", "contenido SEO", "calendario de contenido", "content calendar", "content distribution", "distribución de contenido".
 version: 1.0.0
 ---
 
 # Content Strategy — Sistema de 2 Frameworks para Contenido B2B
 
-Framework para planificar, priorizar y distribuir contenido de marketing B2B que genera leads cualificados y revenue predecible. Combina dos metodologías complementarias: **Ski Slope Strategy** (progresión de dificultad) y **Topic Triangle** (priorización por potencial de ingresos).
+Framework para planificar, priorizar y distribuir contenido de marketing B2B que genera leads cualificados y revenue predecible. Combina dos metodologías complementarias: **Modelo PENDIENTE** (progresión de dificultad) y **TRIÁNGULO DE INGRESOS** (priorización por potencial de ingresos).
 
 ## Filosofía: Contenido como Sistema de Revenue
 
@@ -27,7 +27,7 @@ Este skill conecta la investigación de ICP con la ejecución de contenido, crea
 
 ## Los 2 Frameworks
 
-### Framework 1: Ski Slope Strategy
+### Framework 1: Modelo PENDIENTE
 
 Modelo de progresión de dificultad de contenido que refleja los niveles de una pista de esquí:
 
@@ -41,7 +41,7 @@ Modelo de progresión de dificultad de contenido que refleja los niveles de una 
 
 Para el modelo completo con reglas de progresión, leer `frameworks/ski-slope-model.md`.
 
-### Framework 2: Topic Triangle
+### Framework 2: TRIÁNGULO DE INGRESOS
 
 Sistema de priorización de temas basado en señales de intención comercial:
 
@@ -67,9 +67,9 @@ Antes de seleccionar temas, diagnosticar qué necesita consumir tu cliente ideal
 
 **Conexión**: Esta fase se integra directamente con **icp-analysis** — el ICP define los dolores y el contexto que informan la selección de temas.
 
-### Paso 2: Construir Topic Triangle
+### Paso 2: Construir TRIÁNGULO DE INGRESOS
 
-Generar y priorizar lista de temas ejecutando el Topic Triangle:
+Generar y priorizar lista de temas ejecutando el TRIÁNGULO DE INGRESOS:
 
 1. Extraer keywords de competidores usando herramientas SEO (Ahrefs, SEMrush)
 2. Filtrar por CPC > $10 (umbral de intención comercial)
@@ -79,9 +79,9 @@ Generar y priorizar lista de temas ejecutando el Topic Triangle:
 
 Para la worksheet ejecutable de priorización, leer `templates/topic-priority-worksheet.md`.
 
-### Paso 3: Mapear contenido al Ski Slope
+### Paso 3: Mapear contenido al Modelo PENDIENTE
 
-Asignar cada tema priorizado a un nivel del Ski Slope:
+Asignar cada tema priorizado a un nivel del Modelo PENDIENTE:
 
 **Green Circle (TOFU)** — Crear primero:
 - Posts de blog optimizados para SEO long-tail
@@ -138,7 +138,7 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 **Canal 3: Paid Amplification** ($5/día mínimo)
 - Amplificar los Green Circle posts con mejor performance orgánico
 - Retargeting a visitantes del blog con Blue Square offers
-- Campañas TOFU→BOFU para Invisible Sales Letters
+- Campañas TOFU→BOFU para VELO
 
 ## Conexiones PULSO
 
@@ -148,7 +148,7 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 | **U — Urgencia** | Define los temas Black Diamond: case studies y calculadoras que cuantifican el dolor |
 | **L — Logro** | Los benchmarks cuantifican el impacto en métricas del negocio del cliente |
 | **S — Situación Crítica** | Los workflows de 12 semanas crean urgencia con timelines concretos |
-| **O — Organización** | Los Partnership SOPs y el sistema ISL aceleran la decisión de compra |
+| **O — Organización** | Los Partnership SOPs y el sistema VELO aceleran la decisión de compra |
 
 ## Integración con el Ecosistema
 
@@ -157,7 +157,7 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 | **ICP Analysis** (growth-foundations) | Paso 1 — el ICP define las necesidades de contenido |
 | **Quiz Funnel** (growth-foundations) | Blue Square — quiz como lead magnet que cualifica y segmenta |
 | **Positioning** (growth-foundations) | Define el ángulo diferenciador del contenido vs. competencia |
-| **FLUJO** (motor-de-ofertas) | Los niveles de Ski Slope alimentan las fases del funnel |
+| **FLUJO** (motor-de-ofertas) | Los niveles de PENDIENTE alimentan las fases del funnel |
 | **ESCALA** (motor-de-ofertas) | El value ladder define qué ofrecer en cada nivel |
 | **Copywriting Engine** | Templates AIDA para escribir cada pieza de contenido |
 | **Discovery Mastery** (sales-blueprint) | Black Diamond content prepara leads para la llamada de discovery |
@@ -166,8 +166,8 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 
 Al completar el proceso de Content Strategy, el usuario obtiene:
 
-1. **Topic Triangle priorizado** — Lista de 20+ temas ordenados por potencial de revenue
-2. **Mapa de Ski Slope** — Cada tema asignado a un nivel (Green/Blue/Black) con formato definido
+1. **TRIÁNGULO DE INGRESOS priorizado** — Lista de 20+ temas ordenados por potencial de revenue
+2. **Mapa de PENDIENTE** — Cada tema asignado a un nivel (Green/Blue/Black) con formato definido
 3. **Calendario de 12 semanas** — Cadencia, responsables y KPIs por semana
 4. **SOP de distribución** — Sistema de partnerships + SEO + paid con tracking
 5. **Benchmarks por fase** — Métricas objetivo para medir salud del sistema de contenido

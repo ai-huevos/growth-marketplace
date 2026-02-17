@@ -223,7 +223,7 @@
 
 ## Funnel de Página Única
 
-### Invisible Sales Letter (ISL)
+### VELO
 
 **Qué es**: Funnel de una sola página que educa mientras vende simultáneamente, eliminando la necesidad de funnels multi-paso complejos. Una página que transforma al prospecto de TOFU a BOFU en una sola sesión de lectura.
 

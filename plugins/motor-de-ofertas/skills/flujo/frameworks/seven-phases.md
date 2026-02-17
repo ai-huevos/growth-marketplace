@@ -289,7 +289,7 @@ La mayoría de tus leads no van a comprar en la primera visita. Y la mayoría de
 
 ### Implementación
 
-1. **Diseñar la Soap Opera Sequence** (primeros 5-7 días post-optin):
+1. **Diseñar la Secuencia ORIGEN** (primeros 5-7 días post-optin):
    - Email 1: Escenario (presenta el problema, genera intriga)
    - Email 2: Backstory (tu historia personal con el problema)
    - Email 3: Epifanía (el momento de descubrimiento de la solución)
@@ -298,7 +298,7 @@ La mayoría de tus leads no van a comprar en la primera visita. Y la mayoría de
    - Cada email termina con cliffhanger que motiva abrir el siguiente
    - Storytelling > pitch — la venta sucede naturalmente
 
-2. **Diseñar la Seinfeld Sequence** (post Soap Opera, ongoing):
+2. **Diseñar la Secuencia PULSAR** (post ORIGEN, ongoing):
    - Emails diarios o 3x/semana que combinan:
      - Entretenimiento (historias, analogías, humor)
      - Valor educativo (tips, frameworks, insights)
@@ -324,14 +324,14 @@ La mayoría de tus leads no van a comprar en la primera visita. Y la mayoría de
 
 5. **Integración con ALMA**:
    - El skill ALMA define el attractive character que da voz a los emails
-   - Soap Opera y Seinfeld sequences se construyen desde la identidad de marca definida en ALMA
+   - Secuencias ORIGEN y PULSAR se construyen desde la identidad de marca definida en ALMA
    - Los arquetipos y la historia de origen de ALMA alimentan el storytelling de los emails
 
 ### Métricas Clave
 
 | Métrica | Benchmark |
 |---------|-----------|
-| Open rate (Soap Opera) | 30-50% |
+| Open rate (ORIGEN) | 30-50% |
 | Open rate (Seinfeld ongoing) | 20-35% |
 | Click rate | 3-10% |
 | Conversión por email | 1-5% |
@@ -341,7 +341,7 @@ La mayoría de tus leads no van a comprar en la primera visita. Y la mayoría de
 
 ### Errores Comunes
 
-- Soap Opera sin historia real (lista de beneficios disfrazada de storytelling)
+- ORIGEN sin historia real (lista de beneficios disfrazada de storytelling)
 - Seinfeld sequence que solo vende, sin valor ni entretenimiento
 - No segmentar y enviar el mismo mensaje a todos
 - No limpiar la lista nunca (10,000 suscriptores dormidos = deliverability destruida)
