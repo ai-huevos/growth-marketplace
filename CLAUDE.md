@@ -6,9 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
-**Quick stats**: 6 plugins, 29 skills, 8 agents, 15 commands, 56 templates, ~200 content files.
+**Quick stats**: 6 plugins, 29 skills, 8 agents, 18 commands, 56 templates, ~200 content files.
 
-> **Note**: The root `README.md` only documents `growth-foundations` (1 of 5 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
+> **Note**: The root `README.md` only documents `growth-foundations` (1 of 6 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
 
 ## Architecture
 
@@ -31,6 +31,41 @@ plugins/
     agents/
       <agent-name>.md            ← Agent definition with role, workflow phases, tools, and expected outputs
 ```
+
+### GrowthOS Orchestrator Layer
+
+```
+os/
+  growthOS.md              ← Master orchestrator protocol
+  intake/
+    seed-questionnaire.md  ← 4-question intake for new users
+    context-object.md      ← GCO (GrowthOS Context Object) schema
+  phases/
+    definir.md             ← Phase 1: ICP, positioning, competitive
+    atraer.md              ← Phase 2: Content, funnels, lead magnets
+    convertir.md           ← Phase 3: Discovery, pipeline, proposals
+    escalar.md             ← Phase 4: CS ops, renewals, coaching
+  naming/
+    framework-registry.md  ← Authoritative name map for all methodologies
+  bridges/
+    meeting-intelligence.md  ← MCP bridge for meeting data
+```
+
+GrowthOS transforms the marketplace from tools into a **need-driven system** that diagnoses user context and activates the right skills automatically through 4 phases: DEFINIR → ATRAER → CONVERTIR → ESCALAR.
+
+### Client Architecture
+
+```
+clients/
+  <client-name>/
+    brand-config/
+      brand-voice.md       ← Voice, tone, style guide
+      nlm-prompts.md       ← NotebookLM artifact prompts
+      brand-qa-checklist.md  ← QA validation rules
+    README.md              ← Client-specific docs
+```
+
+Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-specific brand content lives in `clients/<client>/`.
 
 ### Marketplace Manifest
 
@@ -62,6 +97,8 @@ plugins/
 ### Key Patterns
 
 - **PULSO** is the common diagnostic language across all sales-oriented plugins (Panorama, Urgencia, Logro, Situación Crítica, Organización). It connects discovery → pipeline → proposals → coaching.
+- **GrowthOS 4-phase model**: DEFINIR (ICP/positioning) → ATRAER (content/funnels) → CONVERTIR (discovery/pipeline) → ESCALAR (CS/renewals). `/os` diagnoses which phase, `/estado` shows progress, `/roadmap` generates 90-day plan.
+- **GCO (GrowthOS Context Object)**: Persistent state per client containing company info, PULSO diagnosis, current phase, completed skills, and generated outputs. See `os/intake/context-object.md`.
 - **YAML frontmatter** in SKILL.md files defines trigger keywords that activate the skill automatically. Commands use frontmatter for `description`, `argument-hint`, and `allowed-tools`.
 - **Cross-references**: Skills reference their own `frameworks/`, `templates/`, and `patterns/` subdirectories via relative paths. Commands reference agent files (e.g., `/copy` orchestrates 4 agents).
 - **Scoring models**: ICP uses 0-100 scoring with tiers. ClarQ uses 0-40 with color heatmap. Pipeline uses PULSO-based health indicators.
@@ -85,6 +122,9 @@ plugins/
 | `/playbook` | play-to-win | GTM playbook synthesizer (AI Sales Coach) |
 | `/deal-analysis` | play-to-win | Win/loss PULSO analysis session |
 | `/kickoff` | play-to-win | Customer kickoff call orchestrator |
+| `/os` | conversational-pm | Start GrowthOS intake (diagnose growth stage, route to phase) |
+| `/roadmap` | conversational-pm | Generate/update 90-day roadmap based on current phase |
+| `/estado` | conversational-pm | Show current GrowthOS state (phase, skills, outputs, next steps) |
 
 ## Conventions
 
@@ -93,12 +133,13 @@ plugins/
 - Skills use `**Triggers**:` lists in README.md to document activation keywords.
 - Commands use `$ARGUMENTS` placeholder for user input in command .md files.
 - Agent files define: Rol, Workflow (phased), Tools Disponibles, Output sections.
+- **Framework naming**: Use `os/naming/framework-registry.md` as the authoritative name map (PULSO, ROCA, ESCALA, etc.). When referencing methodologies, use exact names from the registry.
 
 ## Second Brain
 
 All project knowledge — architecture decisions, error patterns, dependency choices, discussions, and context — lives in the **NotebookLM notebook**. This file does NOT store knowledge. The notebook is the single source of truth.
 
-Source documents are maintained in `docs/second-brain/` using the `NN-slug.md` naming convention (26 docs numbered 00–25, plus `GUIA-NOTEBOOKLM.md`). Filenames are self-descriptive — use `ls docs/second-brain/` to browse.
+Source documents are maintained in `docs/second-brain/` using the `NN-slug.md` naming convention (27 docs numbered 00–26, plus `GUIA-NOTEBOOKLM.md`). Filenames are self-descriptive — use `ls docs/second-brain/` to browse.
 
 **Key documents**:
 - `00-proyecto-overview.md` — Project vision, plugins, audience, key metrics
