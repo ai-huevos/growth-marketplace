@@ -1,5 +1,5 @@
 ---
-description: Workshop interactivo para diseñar un quiz funnel que segmenta tu mercado en buckets accionables usando el ASK Method.
+description: Workshop interactivo para diseñar un quiz funnel que segmenta tu mercado en buckets accionables usando la Metodología SONDA.
 argument-hint: [industria, producto, o mercado target]
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch]
 ---
@@ -41,24 +41,24 @@ Para la metodología de identificación de buckets, leer `skills/quiz-funnel/fra
 
 **Espera las respuestas. Ajusta los buckets antes de continuar.**
 
-### Fase 3: SMIQ (Single Most Important Question)
+### Fase 3: PREGUNTA RAÍZ (Pregunta Más Importante)
 
-Diseñar el SMIQ junto con el usuario:
+Diseñar la PREGUNTA RAÍZ junto con el usuario:
 
 5. "Si pudieras hacerle UNA pregunta a todo tu mercado para entender qué necesitan, ¿cuál sería?"
 
 Si el usuario no sabe, proponer 2-3 opciones basándose en el dolor identificado:
 
-"Aquí van algunas opciones de SMIQ para tu caso:
+"Aquí van algunas opciones de PREGUNTA RAÍZ para tu caso:
 - A) '¿Cuál es tu mayor desafío con [área]?'
 - B) '¿Qué es lo que más te frustra de [proceso actual]?'
 - C) 'Si pudieras resolver UN problema en [área], ¿cuál sería?'
 
 ¿Cuál resuena más? ¿O tienes una mejor?"
 
-Para la metodología de SMIQ, leer `skills/quiz-funnel/frameworks/ask-method-fundamentals.md`.
+Para la metodología de PREGUNTA RAÍZ, leer `skills/quiz-funnel/frameworks/sonda-methodology.md`.
 
-**Espera la respuesta. El SMIQ debe quedar definido antes de continuar.**
+**Espera la respuesta. La PREGUNTA RAÍZ debe quedar definida antes de continuar.**
 
 ### Fase 4: Diseño del quiz (6 preguntas + hook + outcomes)
 
@@ -69,7 +69,7 @@ Diseñar las 6 preguntas del quiz siguiendo esta estructura:
 | 1 | Grease-the-wheels | Calentar, primer micro-compromiso |
 | 2 | Grease-the-wheels | Contexto firmográfico |
 | 3 | Segmentación | Asignar bucket (la pregunta clave) |
-| 4 | SMIQ | Descubrir dolor profundo (campo abierto) |
+| 4 | PREGUNTA RAÍZ | Descubrir dolor profundo (campo abierto) |
 | 5 | Blind-spot | Revelar gap, generar urgencia |
 | 6 | Urgencia/Timing | Proxy de Critical Event |
 
@@ -134,7 +134,7 @@ Generar el quiz blueprint completo usando el template en `skills/quiz-funnel/tem
 
 El documento final debe incluir:
 1. Contexto del negocio y objetivo
-2. SMIQ seleccionado con justificación
+2. PREGUNTA RAÍZ seleccionada con justificación
 3. Definición de 3-5 buckets con scoring
 4. Quiz completo (hook + 6 preguntas + email gate + outcome pages)
 5. Plan de stress test con timeline y presupuesto

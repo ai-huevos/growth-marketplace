@@ -113,4 +113,4 @@ Instrucciones: Evaluar cada persona en cada competencia (0-4). Usar código de c
 
 ---
 
-*Conecta con: ClarQ (dimensión Capabilities) → /diagnostico, REKS → coaching-cadence, ICP scoring → quién puede ejecutar la estrategia.*
+*Conecta con: ClarQ (dimensión Capabilities) → /diagnostico, ROCA → coaching-cadence, ICP scoring → quién puede ejecutar la estrategia.*

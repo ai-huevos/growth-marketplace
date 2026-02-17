@@ -1,5 +1,5 @@
 ---
-description: Orquesta una kickoff call completa para un nuevo cliente. Prepara agenda interna/externa, apertura ACE, verificacion PULSO, y plan de impacto conjunto.
+description: Orquesta una kickoff call completa para un nuevo cliente. Prepara agenda interna/externa, apertura AVE, verificacion PULSO, y plan de impacto conjunto.
 argument-hint: <nombre del cliente>
 allowed-tools: [Read, Glob, Grep]
 ---
@@ -104,7 +104,7 @@ Generar agenda personalizada (60-90 min):
 AGENDA — KICKOFF CALL [Cliente]
 Fecha: [fecha] | Duracion: 60-90 min
 
-APERTURA ACE (5 min)
+APERTURA AVE (5 min)
   A: "Agradecemos la confianza de elegir [nuestra empresa]. Estamos
       entusiasmados de trabajar con [nombre del champion]."
   C: "Tenemos [X] minutos agendados. Sigue funcionando?"
@@ -185,10 +185,10 @@ Preparar para tener disponible durante la kickoff:
 
 Guia paso a paso para ejecutar la kickoff de manera efectiva.
 
-**3.1 Apertura ACE**
+**3.1 Apertura AVE**
 
 ```
-APERTURA ACE — GUIA DETALLADA:
+APERTURA AVE — GUIA DETALLADA:
 
 APPRECIATE (crear conexion):
 - Agradecer especificamente algo del proceso de ventas
@@ -367,7 +367,7 @@ Entregar al usuario el paquete completo de kickoff:
 
 1. **Briefing interno** — Documento para alinear al equipo
 2. **Mapa de stakeholders** — Con tipos y acciones por persona
-3. **Agenda de kickoff** — Con apertura ACE y tiempos
+3. **Agenda de kickoff** — Con apertura AVE y tiempos
 4. **Email pre-kickoff** — Template listo para enviar
 5. **Guia de verificacion PULSO** — Preguntas por dimension
 6. **Template JIP** — Joint Impact Plan con hitos y owners

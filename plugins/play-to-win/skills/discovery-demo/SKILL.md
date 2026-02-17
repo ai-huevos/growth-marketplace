@@ -1,6 +1,6 @@
 ---
 name: discovery-demo
-description: Use when preparing discovery calls, conducting diagnosis sessions, designing demo presentations, or optimizing the discovery-to-demo progression. Activates for "discovery call", "llamada discovery", "demo framework", "ACE opening", "apertura ACE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons".
+description: Use when preparing discovery calls, conducting diagnosis sessions, designing demo presentations, or optimizing the discovery-to-demo progression. Activates for "discovery call", "llamada discovery", "demo framework", "AVE opening", "apertura AVE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons".
 version: 1.0.0
 ---
 
@@ -39,7 +39,7 @@ La calidad de tu discovery determina la calidad de tu demo. La profundidad de tu
 │  │  Perfect         │  │  Diagnosis       │  │  Demo &          │  │
 │  │  Discovery Call  │──>│  Deep-Dive       │──>│  Prescribe       │  │
 │  │                  │  │                  │  │                  │  │
-│  │  ACE Opening     │  │  8-Step Call     │  │  Coreografia     │  │
+│  │  AVE Opening     │  │  8-Step Call     │  │  Coreografia     │  │
 │  │  PULSO Diag.     │  │  4 Question Types│  │  3 Demo Points   │  │
 │  │  54-Pt Checklist │  │  Summary Tech.   │  │  Impact Qs       │  │
 │  │  Connect Wagons  │  │  3rd Party Story │  │  Criterios Org.  │  │
@@ -53,7 +53,7 @@ La calidad de tu discovery determina la calidad de tu demo. La profundidad de tu
 
 ## Pilar 1: The Perfect Discovery Call
 
-Framework completo para discovery calls que generan confianza, extraen dolores reales, y aseguran la siguiente reunion. Detalle en `frameworks/ace-discovery-call.md`.
+Framework completo para discovery calls que generan confianza, extraen dolores reales, y aseguran la siguiente reunion. Detalle en `frameworks/ave-discovery-call.md`.
 
 ### ACE: Apertura Profesional (45 segundos)
 
@@ -104,7 +104,7 @@ Multi-threading: Siempre invitar mas stakeholders a la siguiente reunion para ex
 
 ### Checklist de 54 Puntos
 
-Organizado en 5 fases (ver detalle completo en `frameworks/ace-discovery-call.md`):
+Organizado en 5 fases (ver detalle completo en `frameworks/ave-discovery-call.md`):
 - **Antes de la llamada** (3 items): Research, notas previas, insights notables
 - **Abrir la reunion** (4 items): Puntualidad, energia, contexto
 - **Ejecutar ACE** (5 items): Appreciate, Check, End Goal, agenda, pregunta poderosa

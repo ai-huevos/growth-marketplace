@@ -14,7 +14,7 @@ Caso de estudio de un quiz funnel para una empresa ficticia de SaaS de productiv
 
 ---
 
-## SMIQ
+## PREGUNTA RAÍZ
 
 **"¿Cuál es el mayor obstáculo para que tu equipo de ventas cierre más deals este trimestre?"**
 
@@ -82,7 +82,7 @@ Buckets 1-3 cubren el 90% del mercado. Bucket 4 se fusionó con Bucket 3 para el
 
 *Propósito*: Asigna el bucket. Opciones mutuamente excluyentes en lenguaje del mercado.
 
-### Pregunta 4 — SMIQ (open-ended)
+### Pregunta 4 — PREGUNTA RAÍZ (open-ended)
 **"¿Cuál es el mayor obstáculo para que tu equipo cierre más deals este trimestre?"**
 
 [Campo de texto libre — mínimo 50 caracteres sugerido]
@@ -175,7 +175,7 @@ Buckets 1-3 cubren el 90% del mercado. Bucket 4 se fusionó con Bucket 3 para el
 ### Fase 1-2: Research + Survey
 - 42 respuestas al Deep Dive Survey
 - 3 buckets validados
-- SMIQ confirmado (las respuestas se agruparon naturalmente en los 3 buckets)
+- PREGUNTA RAÍZ confirmada (las respuestas se agruparon naturalmente en los 3 buckets)
 
 ### Fase 3: Build
 - Quiz construido en Typeform ($29/mes)
@@ -216,7 +216,7 @@ Con 287 leads a $1.39/lead, 23 meetings booked, y distribución equilibrada de b
 
 ## Lecciones aprendidas
 
-1. **El SMIQ fue la pregunta más valiosa** — Las respuestas literales se usaron como copy en los emails de seguimiento
+1. **La PREGUNTA RAÍZ fue la pregunta más valiosa** — Las respuestas literales se usaron como copy en los emails de seguimiento
 2. **Bucket 4 era innecesario** — "Estoy escalando" se solapaba con "No hay ejecución consistente"
 3. **LinkedIn superó a Meta** — CPL 40% menor en LinkedIn gracias al targeting por título
 4. **El blind-spot question generó engagement** — Muchos respondieron "no sabía que era tanto" al ver el resultado

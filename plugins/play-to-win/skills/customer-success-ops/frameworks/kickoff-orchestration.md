@@ -1,6 +1,6 @@
 # Kickoff Call Orchestration — Framework Completo
 
-Framework paso a paso para preparar, conducir y dar seguimiento a kickoff calls efectivos. Cubre preparacion interna y externa, apertura ACE, verificacion PULSO, ensenanza de valor, alineacion del JIP, y acciones post-call.
+Framework paso a paso para preparar, conducir y dar seguimiento a kickoff calls efectivos. Cubre preparacion interna y externa, apertura AVE, verificacion PULSO, ensenanza de valor, alineacion del JIP, y acciones post-call.
 
 ## Por que el Kickoff Call es Critico
 
@@ -63,7 +63,7 @@ Despues de la preparacion interna:
 
 ## FASE 2: Orchestracion del Kickoff Call
 
-### Paso 1: ACE Opening + Agenda
+### Paso 1: AVE Opening + Agenda
 
 Orquestar la llamada, verificar tiempo, establecer end goal, y enganchar:
 
@@ -218,7 +218,7 @@ Cerrar a tiempo. Usar WAGONS:
 - [ ] Research de asistentes completado
 
 ### Durante la Call
-- [ ] ACE opening ejecutado
+- [ ] AVE opening ejecutado
 - [ ] Agenda confirmada con asistentes
 - [ ] Presentaciones orquestadas
 - [ ] PULSO verificado y profundizado

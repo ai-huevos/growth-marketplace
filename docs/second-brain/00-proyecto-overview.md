@@ -25,7 +25,7 @@ Frameworks fundamentales de B2B growth para cualquier equipo. El punto de entrad
 | `icp-analysis` | Skill | Análisis de Ideal Customer Profile con scoring PULSO (0-100) |
 | `positioning` | Skill | Propuesta de valor, diferenciación, messaging framework |
 | `competitive-analysis` | Skill | Five Forces de Porter + mapa competitivo visual |
-| `quiz-funnel` | Skill | Quiz funnels ASK Method: SMIQ, buckets, stress test <$500 |
+| `quiz-funnel` | Skill | Quiz funnels Metodología SONDA: PREGUNTA RAÍZ, buckets, stress test <$500 |
 | `/diagnostico` | Command | Assessment ClarQ: GTM, Revenue, Q2C, Capabilities (0-40) |
 | `/icp` | Command | Workshop interactivo para definir y scorear ICP |
 | `/quiz` | Command | Workshop interactivo para diseñar quiz funnel con buckets |
@@ -36,15 +36,15 @@ Sistema completo de ejecución de ventas B2B basado en Metodología GrowthOS.
 | Componente | Tipo | Propósito |
 |-----------|------|-----------|
 | `discovery-mastery` | Skill | Preparación y ejecución de discovery calls con PULSO + ACE |
-| `pipeline-management` | Skill | Gestión de pipeline con PULSO scoring y modelo Bowtie |
+| `pipeline-management` | Skill | Gestión de pipeline con PULSO scoring y modelo CICLO |
 | `proposal-generation` | Skill | Generación de propuestas con business case y Trading Checklist |
-| `coaching-cadence` | Skill | Coaching REKS, 8 modelos, cadencia semanal/mensual |
+| `coaching-cadence` | Skill | Coaching ROCA, 8 modelos, cadencia semanal/mensual |
 | `sdr-agent` | Agent | Workflow de SDR: research → PULSO → outreach |
 | `deal-strategist` | Agent | Análisis crítico de deals: gaps PULSO → riesgos → MAP |
 | `/discovery` | Command | Prep de discovery call interactiva |
 | `/propuesta` | Command | Generador de propuestas B2B |
 | `/pipeline` | Command | Review de salud del pipeline |
-| `/coaching` | Command | Prep de 1:1 con diagnóstico REKS |
+| `/coaching` | Command | Prep de 1:1 con diagnóstico ROCA |
 
 ### 3. copywriting-engine
 Motor de copywriting basado en datos reales: 38,737 headlines, 4,129 triggers psicológicos, 2,245 CTAs analizados.
@@ -105,7 +105,7 @@ PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización) es el leng
 - **Skills**: 17 en total (4 + 4 + 4 + 4 + 1)
 - **Commands**: 12 en total (3 + 4 + 3 + 2 + 0)
 - **Agents**: 7 en total (0 + 2 + 4 + 1 + 0)
-- **Frameworks**: PULSO, ICP Scoring, ClarQ, REKS, Value Proposition Canvas, Five Forces, Bowtie, ACE, ASK Method, Bucket Scorecard
+- **Frameworks**: PULSO, ICP Scoring, ClarQ, ROCA, Value Proposition Canvas, Five Forces, CICLO, AVE, Metodología SONDA, Bucket Scorecard
 - **Datos analizados**: 38,737 headlines, 4,129 triggers, 2,245 CTAs, 1,570 propuestas de valor
 - **Licencia**: MIT
 - **Autor**: AI Huevos (huevos.ai)

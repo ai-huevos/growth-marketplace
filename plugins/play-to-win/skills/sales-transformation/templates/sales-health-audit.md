@@ -132,7 +132,7 @@ Una auditoria de calidad debe:
 | Sales playbook escrito y documentado | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Playbook adoption rate >90% | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Revenue goals + activity goals definidos | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| REKS framework implementado | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| ROCA framework implementado | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Rep scorecards con metricas clave | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Asset library por etapa (scripts, templates) | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Top performer best practices documentadas | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
@@ -150,7 +150,7 @@ Una auditoria de calidad debe:
 | Indicador | Score (0-10) | Evidencia | Status |
 |-----------|-------------|-----------|--------|
 | Framework de discovery estructurado (PULSO) | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
-| ACE opening en todas las calls | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
+| AVE opening en todas las calls | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | PULSO completion rate >90% | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Talk-to-listen ratio 30/70 | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |
 | Customer stories usadas en 80% calls | ___ | [Observacion] | [ ] Rojo [ ] Amarillo [ ] Verde |

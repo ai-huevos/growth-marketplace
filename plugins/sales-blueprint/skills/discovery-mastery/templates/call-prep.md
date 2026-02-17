@@ -52,7 +52,7 @@ Basado en el research, cual es tu hipotesis para cada dimension:
 ## Agenda Propuesta
 
 ```
-[0:00-0:05] Apertura ACE + presentaciones
+[0:00-0:05] Apertura AVE + presentaciones
 [0:05-0:10] Contexto — Panorama questions
 [0:10-0:20] Diagnostico — Urgencia + Logro
 [0:20-0:25] Urgencia — Situación Crítica + Organización
@@ -69,7 +69,7 @@ Seleccionar las 5 preguntas mas relevantes basadas en research:
 4. (Situación Crítica) ___
 5. (Organización) ___
 
-## Apertura ACE Personalizada
+## Apertura AVE Personalizada
 
 ```
 A: "Agradezco que hayas tomado el tiempo para esta llamada, [nombre]."
@@ -93,7 +93,7 @@ E: "El objetivo es entender [hipotesis de dolor] y ver si tiene sentido
 - [ ] Research de contacto completado
 - [ ] Hipotesis PULSO documentada
 - [ ] Top 5 preguntas seleccionadas
-- [ ] Apertura ACE personalizada
+- [ ] Apertura AVE personalizada
 - [ ] Tecnologia verificada (link de video, audio)
 - [ ] Tabs preparadas (LinkedIn, website, CRM del prospect)
 - [ ] Email de cortesia enviado (confirmacion)

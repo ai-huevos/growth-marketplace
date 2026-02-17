@@ -16,7 +16,7 @@ Sin un modelo operativo uniforme, las organizaciones sufren:
 - **Falta de modelo de datos estandarizado**: Los datos recolectados no encajan en un modelo uniforme, haciendo dificil tomar decisiones basadas en datos
 - **Falta de interoperabilidad**: Las actividades de Marketing, Sales y CS no estan disenadas para trabajar juntas, creando bloqueos al crecimiento y escalabilidad
 
-## El Bowtie: Journey Completo del Cliente
+## El CICLO: Journey Completo del Cliente
 
 ```
         CUSTOMER ACQUISITION              │           CUSTOMER SUCCESS
@@ -34,7 +34,7 @@ Sin un modelo operativo uniforme, las organizaciones sufren:
 
 ## Cuatro Elementos Core (C1-C4)
 
-### C1. El Journey (Bowtie)
+### C1. El Journey (CICLO)
 El journey end-to-end del cliente reemplaza el funnel convencional de marketing/ventas. El funnel no cubre adopcion ni expansion, que son los motores de crecimiento de cualquier negocio de revenue recurrente.
 
 **Journey del Impacto**:
@@ -292,7 +292,7 @@ Capturar por que se van. Exit interview si es apropiado. Actualizar sistemas. Ci
 
 ## 7 Pasos para Implementar el Modelo Operativo
 
-1. Usar el bowtie para modelar el journey completo del cliente
+1. Usar el ciclo para modelar el journey completo del cliente
 2. Dividir el journey en fases
 3. Establecer metricas clave por fase [M, CR, PM]
 4. Identificar un punado de Momentos que Importan por fase

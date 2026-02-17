@@ -64,7 +64,7 @@ Segmenta según lo que el prospect quiere lograr.
 
 ### Fuente 1: Deep Dive Survey
 
-Analizar respuestas al SMIQ. Buscar patrones en el lenguaje:
+Analizar respuestas a la PREGUNTA RAÍZ. Buscar patrones en el lenguaje:
 
 1. Leer todas las respuestas sin categorizar
 2. Subrayar frases y palabras que se repiten

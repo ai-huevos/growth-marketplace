@@ -1,22 +1,22 @@
-# Framework: ACE Discovery Call
+# Framework: AVE Discovery Call
 
 Framework completo para ejecutar discovery calls profesionales que generan confianza desde el primer segundo, extraen dolores reales con la progresion PULSO, y aseguran la siguiente reunion mediante la tecnica de wagons. Basado en la discovery call perfecta de Metodología GrowthOS.
 
 ## Principios fundamentales
 
 - **Prescripcion sin diagnostico es malpractice** — Nunca presentar soluciones antes de entender el problema
-- **Los primeros 45 segundos definen la reunion** — ACE establece profesionalismo, respeto y proposito
+- **Los primeros 45 segundos definen la reunion** — AVE establece profesionalismo, respeto y proposito
 - **Preguntas con contexto > preguntas genericas** — Demostrar investigacion previa eleva la calidad del dialogo
 - **El resumen es la herramienta mas poderosa** — Validar comprension abre puertas que las preguntas no pueden
 - **Cada reunion conecta con la siguiente** — Los wagons eliminan el "ya te llamamos" y construyen momentum
 
 ---
 
-## ACE: Apertura Profesional
+## AVE: Apertura Profesional
 
-La apertura ACE dura exactamente 45 segundos. No es un saludo casual — es un micro-framework que establece tres condiciones psicologicas: gratitud, control del tiempo, y alineacion de expectativas.
+La apertura AVE dura exactamente 45 segundos. No es un saludo casual — es un micro-framework que establece tres condiciones psicologicas: gratitud, control del tiempo, y alineacion de expectativas.
 
-### A — Appreciate (Agradecer)
+### A — Agradecimiento
 
 **Tiempo**: 10 segundos
 
@@ -30,7 +30,7 @@ Agradecer el tiempo del prospect de forma genuina y especifica. No un "gracias p
 - Inbound: "Gracias por contactarnos. Vi que descargaste [recurso] — eso me dice que [tema] es prioridad para ti."
 - Cold outreach: "Gracias por darme estos minutos. Se que no me conoces, asi que quiero que cada segundo cuente."
 
-### C — Check End Time (Confirmar hora de cierre)
+### V — Verificación de tiempo
 
 **Tiempo**: 10 segundos
 
@@ -41,11 +41,11 @@ Confirmar cuanto tiempo tienen establece respeto por su agenda y te permite cali
 
 **Por que funciona**: Si el prospect dice "tengo 20 minutos", puedes ajustar. Si dice "tengo una hora", puedes profundizar. La pregunta demuestra que respetas su tiempo mas de lo que necesitas su atencion.
 
-### E — End Goal (Establecer objetivo)
+### E — Expectativas (Establecer objetivo)
 
 **Tiempo**: 25 segundos
 
-Definir que constituye una reunion exitosa. El End Goal crea un contrato implicito: ambas partes saben que buscar.
+Definir que constituye una reunion exitosa. Las Expectativas crean un contrato implícito: ambas partes saben que buscar.
 
 **Script base**:
 > "Mi objetivo hoy es entender tu situacion actual, los desafios que enfrentas, y determinar si tiene sentido explorar una siguiente conversacion. Al final quiero que tu tengas claridad sobre si vale la pena seguir hablando."
@@ -55,9 +55,9 @@ Definir que constituye una reunion exitosa. El End Goal crea un contrato implici
 
 ---
 
-## Post-ACE: Confirmar Agenda
+## Post-AVE: Confirmar Agenda
 
-Despues de ACE, transicionar a la agenda y la pregunta poderosa:
+Después de AVE, transicionar a la agenda y la pregunta poderosa:
 
 **Script de transicion**:
 > "Tengo una agenda preparada basada en lo que investigue, pero antes de seguir con ella..."
@@ -157,7 +157,7 @@ La tecnica de wagons conecta cada reunion con la anterior y la siguiente, elimin
 | # | Paso | Script | Proposito |
 |---|------|--------|-----------|
 | 1 | **Open** | "Bienvenidos, gracias por estar aqui" | Establecer tono |
-| 2 | **ACE** | [Framework completo arriba] | Profesionalismo + contrato |
+| 2 | **AVE** | [Framework completo arriba] | Profesionalismo + contrato |
 | 3 | **Agenda** | "Tengo preparado X, Y, Z" + pregunta poderosa | Alineacion |
 | 4 | **Wagon backward** | "En nuestra ultima conversacion cubrimos..." | Continuidad |
 | 5 | **Connect forward** | "Basado en lo que hablamos, sugiero que el siguiente paso sea..." | Momentum |
@@ -187,7 +187,7 @@ Siempre buscar expandir el numero de stakeholders:
 - [ ] Tener notas/preguntas visibles pero no en pantalla compartida
 - [ ] Energia alta pero natural — no forzada
 
-### Ejecutar ACE (5 items)
+### Ejecutar AVE (5 items)
 
 - [ ] **A** — Appreciate: Agradecimiento genuino y especifico (10 seg)
 - [ ] **C** — Check End Time: Confirmar disponibilidad (10 seg)
@@ -256,7 +256,7 @@ Siempre buscar expandir el numero de stakeholders:
 
 ### Reflexion (2 items)
 
-- [ ] Autoevaluar la calidad del ACE opening (1-5)
+- [ ] Autoevaluar la calidad del AVE opening (1-5)
 - [ ] Identificar 1 cosa para mejorar en la proxima discovery call
 
 ---
@@ -265,7 +265,7 @@ Siempre buscar expandir el numero de stakeholders:
 
 | Error | Consecuencia | Correccion |
 |-------|-------------|------------|
-| Saltar ACE y entrar directo al pitch | El prospect no siente control ni respeto por su tiempo | Siempre ejecutar ACE completo en 45 segundos |
+| Saltar AVE y entrar directo al pitch | El prospect no siente control ni respeto por su tiempo | Siempre ejecutar AVE completo en 45 segundos |
 | Hacer preguntas genericas sin contexto | Pareces un vendedor mas que no investigo | Preparar al menos 3 datos del prospect para usar como contexto |
 | Presentar solucion antes de diagnosticar | Pierdes credibilidad y el prospect se cierra | Completar al menos P y U de PULSO antes de cualquier mencion de solucion |
 | No resumir despues de Urgencia | El prospect no sabe si lo entendiste | Siempre usar el formato "Entonces tienes [P] que causa [U]... capte bien?" |

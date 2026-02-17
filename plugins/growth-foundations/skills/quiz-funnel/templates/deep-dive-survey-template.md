@@ -1,6 +1,6 @@
 # Deep Dive Survey Template
 
-Template de encuesta de 8-12 preguntas para identificar buckets y validar el SMIQ. Diseñada para enviar a clientes actuales, lista de email, o comunidad.
+Template de encuesta de 8-12 preguntas para identificar buckets y validar la PREGUNTA RAÍZ. Diseñada para enviar a clientes actuales, lista de email, o comunidad.
 
 ---
 
@@ -67,7 +67,7 @@ ___
 
 ### Bloque 3: Dolor y desafíos (preguntas 7-9)
 
-**P7. SMIQ — ¿Cuál es tu MAYOR desafío con [área del problema]?** (Respuesta abierta — OBLIGATORIA)
+**P7. PREGUNTA RAÍZ — ¿Cuál es tu MAYOR desafío con [área del problema]?** (Respuesta abierta — OBLIGATORIA)
 
 > Esta es la pregunta más importante del survey. Tómate 30 segundos para responder con detalle.
 
@@ -121,7 +121,7 @@ ___
 ### Paso 1: Exportar datos
 Exportar todas las respuestas a un spreadsheet (Google Sheets / Excel).
 
-### Paso 2: Analizar SMIQ (P7)
+### Paso 2: Analizar PREGUNTA RAÍZ (P7)
 1. Leer todas las respuestas sin categorizar
 2. Subrayar frases y palabras que se repiten
 3. Agrupar respuestas similares

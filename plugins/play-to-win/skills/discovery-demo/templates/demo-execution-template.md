@@ -436,7 +436,7 @@ Si el next step es propuesta formal:
 | **Skill** | discovery-demo |
 | **Plugin** | play-to-win |
 | **Version** | 1.0.0 |
-| **Frameworks usados** | `frameworks/demo-prescribe-framework.md`, `frameworks/ace-discovery-call.md` |
+| **Frameworks usados** | `frameworks/demo-prescribe-framework.md`, `frameworks/ave-discovery-call.md` |
 | **Basado en** | Demo prescriptiva (Metodología GrowthOS), Discovery call perfecta (Metodología GrowthOS) |
 | **Prerequisito** | Discovery call completado con PULSO findings documentados |
 | **Output** | Demo Execution Plan completo |

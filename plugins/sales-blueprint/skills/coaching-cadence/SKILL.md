@@ -1,12 +1,12 @@
 ---
 name: coaching-cadence
-description: Use when coaching sales reps, preparing 1:1 meetings, diagnosing performance issues with REKS framework, or having candid conversations about performance. Activates for "coaching", "1:1", "one on one", "REKS", "sales coaching", "rep performance", "coaching cadence", "candid conversation", "performance review", "sales training", or "how to coach a rep".
+description: Use when coaching sales reps, preparing 1:1 meetings, diagnosing performance issues with ROCA framework, or having candid conversations about performance. Activates for "coaching", "1:1", "one on one", "ROCA", "sales coaching", "rep performance", "coaching cadence", "candid conversation", "performance review", "sales training", or "how to coach a rep".
 version: 1.0.0
 ---
 
 # Coaching Cadence
 
-Sistema de coaching de ventas basado en el framework REKS de Metodología GrowthOS. Incluye diagnostico de performance, cadencia semanal/mensual de coaching, y framework para conversaciones candidas.
+Sistema de coaching de ventas basado en el framework ROCA de Metodología GrowthOS. Incluye diagnostico de performance, cadencia semanal/mensual de coaching, y framework para conversaciones candidas.
 
 ## Cuando usar este skill
 
@@ -18,11 +18,11 @@ Sistema de coaching de ventas basado en el framework REKS de Metodología Growth
 
 ## Filosofia: Coaching es Diagnostico, No Instruccion
 
-Asi como en ventas se diagnostica con PULSO antes de prescribir, en coaching se diagnostica con REKS antes de entrenar. No asumas que sabes cual es el problema — diagnostica primero.
+Asi como en ventas se diagnostica con PULSO antes de prescribir, en coaching se diagnostica con ROCA antes de entrenar. No asumas que sabes cual es el problema — diagnostica primero.
 
-## Framework REKS
+## Framework ROCA
 
-REKS = Results | Effort | Knowledge | Skills
+ROCA = Resultados | Operación | Conocimiento | Aptitud
 
 | Dimension | Que mide | Ejemplos de metricas |
 |-----------|---------|---------------------|
@@ -31,7 +31,7 @@ REKS = Results | Effort | Knowledge | Skills
 | **Knowledge** | Lo que el rep SABE | Proceso de ventas, producto, personas/buyers, industria, compelling events |
 | **Skills** | Lo que el rep PUEDE HACER | Correr un discovery, hacer demo, manejar objeciones, escribir emails, tradear en cierre |
 
-## Arbol de Decision REKS
+## Arbol de Decision ROCA
 
 Este es el diagnostico paso a paso cuando un rep no esta en target:
 
@@ -82,9 +82,9 @@ Este es el diagnostico paso a paso cuando un rep no esta en target:
 | Dia | Actividad | Duracion | Modelo |
 |-----|----------|----------|--------|
 | **Lunes** | Team Coaching — skill de la semana | 30 min | Training Team (#1) |
-| **Martes** | 1:1 con rep (turno 1) | 30 min | Varia segun REKS |
+| **Martes** | 1:1 con rep (turno 1) | 30 min | Varia segun ROCA |
 | **Miercoles** | High Impact Coaching — call review o roleplay grupal | 60 min | Coached Roleplay (#2) o Peer-to-Peer (#3) |
-| **Jueves** | 1:1 con rep (turno 2) | 30 min | Varia segun REKS |
+| **Jueves** | 1:1 con rep (turno 2) | 30 min | Varia segun ROCA |
 | **Viernes** | Homework review + client call shadowing | 30 min | Study (#5) o Real-Time (#8) |
 
 ## Rotacion Mensual de 1:1s
@@ -92,7 +92,7 @@ Este es el diagnostico paso a paso cuando un rep no esta en target:
 | Semana | Foco del 1:1 | Que cubrir |
 |--------|-------------|------------|
 | **Semana 1** | Pipeline + Business Plan | Review de pipeline con PULSO scoring, forecast, plan del mes |
-| **Semana 2** | Skills + Call Review | Escuchar una call grabada, feedback REKS, roleplay de mejora |
+| **Semana 2** | Skills + Call Review | Escuchar una call grabada, feedback ROCA, roleplay de mejora |
 | **Semana 3** | Career Growth + Sales Coaching | Desarrollo profesional, motivacion, metas personales |
 | **Semana 4** | Pipeline Review + Skills Refresh | Cierre de mes, review de resultados, plan de siguiente mes |
 
@@ -105,7 +105,7 @@ Cuando necesitas dar feedback dificil, hay 3 escenarios posibles:
 ### Escenario 1: Rep abierto a feedback
 El rep reconoce el problema y quiere mejorar.
 - **Approach**: Directo + colaborativo
-- Ir directo al diagnostico REKS
+- Ir directo al diagnostico ROCA
 - Co-crear el plan de mejora
 
 ### Escenario 2: Rep abierto pero distraido
@@ -153,7 +153,7 @@ El coaching esta conectado con PULSO en todo momento:
 
 Al preparar coaching, generar:
 
-1. **Diagnostico REKS** del rep con evidencia por dimension
+1. **Diagnostico ROCA** del rep con evidencia por dimension
 2. **Plan de coaching** especifico (no generico) basado en el diagnostico
 3. **Agenda de 1:1** estructurada con temas y preguntas
 4. **Feedback** preparado (dato + impacto + accion)

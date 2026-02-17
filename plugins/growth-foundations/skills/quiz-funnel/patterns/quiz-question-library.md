@@ -61,7 +61,7 @@ Objetivo: asignar al prospect a un bucket. Cada opción = un bucket.
 
 ---
 
-## SMIQ (Preguntas abiertas de dolor profundo)
+## PREGUNTA RAÍZ (Preguntas abiertas de dolor profundo)
 
 Objetivo: descubrir el dolor en las propias palabras del mercado. Siempre open-ended.
 

@@ -144,7 +144,7 @@ Con los blueprints seleccionados, generar un playbook personalizado de 15-20 pag
 - Training deck (estructura de presentacion)
 - Quick reference guide (one-pager imprimible)
 - Templates y tools (PULSO, scripts, mapeo de organización)
-- Scripts de coaching (1-on-1 con formato REKS)
+- Scripts de coaching (1-on-1 con formato ROCA)
 - Biblioteca de ejemplos (wins + losses + aprendizajes)
 
 ## Parte 5: Medicion e iteracion
@@ -193,7 +193,7 @@ Generar el paquete de enablement como seccion detallada del playbook:
    - Mapeo de proceso de decision
    - Templates especificos de los blueprints seleccionados
 
-4. **Scripts de coaching** (formato REKS):
+4. **Scripts de coaching** (formato ROCA):
    - Guia de 1-on-1 para managers
    - Script de deal review para reuniones de equipo
    - Rubrica de calidad de ejecucion (scoring 1-5)

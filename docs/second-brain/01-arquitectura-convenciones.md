@@ -26,7 +26,7 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │   │   ├── icp-analysis/        ← ICP scoring basado en PULSO
 │   │   │   ├── positioning/         ← Value Proposition Canvas
 │   │   │   ├── competitive-analysis/ ← Five Forces + mapa competitivo
-│   │   │   ├── quiz-funnel/         ← ASK Method adaptado a B2B
+│   │   │   ├── quiz-funnel/         ← Metodología SONDA adaptada a B2B
 │   │   │   └── content-strategy/    ← Ski Slope + Topic Triangle
 │   │   └── commands/
 │   │       ├── diagnostico.md       ← /diagnostico (ClarQ assessment)

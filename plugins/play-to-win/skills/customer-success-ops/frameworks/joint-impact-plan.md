@@ -14,7 +14,7 @@ El **Joint Impact Plan (JIP)** es un documento orientado al cliente que guia tod
 
 ## Filosofia: Impacto Recurrente como Norte
 
-> **Primer Principio**: Recurring Revenue es el resultado de Recurring Impact.
+> **Primer Principio**: Recurring Revenue es el resultado de IMPACTO COMPUESTO.
 
 El JIP existe para asegurar que ambos lados (tu equipo y el cliente) estan alineados en:
 1. Que impacto se busca lograr

@@ -147,7 +147,7 @@ KICKOFF                                           FIRST IMPACT ACHIEVED
 El First Impact NO es el fin — es el inicio del Motor de Impacto:
 
 ```
-First Impact → Drive Impact (A1) → Recurring Impact → Expansion
+First Impact → Drive Impact (A1) → IMPACTO COMPUESTO → Expansion
      │
      └── Lograr First Impact senala el FIN de Onboarding
          y el INICIO de la fase de Adoption

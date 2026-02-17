@@ -25,9 +25,9 @@ Mapa completo del viaje del cliente SaaS: PULSO como puente entre equipos (SDR�
 **Triggers**: "customer journey", "viaje del cliente", "sales stages", "etapas venta", "handoff", "traspaso", "buyer journey", "sales process stages", "7 key moments", "momentos clave", "SaaS sales method"
 
 ### discovery-demo
-Discovery call con apertura ACE + progresion PULSO completa + checklist de 54 puntos, diagnosis deep-dive con 4 tipos de preguntas contextuales, y demo framework de prescripcion (PREP→DEMO→IMPACT→RECAP) con use-case selling.
+Discovery call con apertura AVE + progresion PULSO completa + checklist de 54 puntos, diagnosis deep-dive con 4 tipos de preguntas contextuales, y demo framework de prescripcion (PREP→DEMO→IMPACT→RECAP) con use-case selling.
 
-**Triggers**: "discovery call", "llamada discovery", "demo framework", "ACE opening", "apertura ACE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons"
+**Triggers**: "discovery call", "llamada discovery", "demo framework", "AVE opening", "apertura AVE", "pain to solution", "demo customization", "diagnostico call", "diagnose call", "perfect discovery", "demo prescribe", "connecting wagons"
 
 ### advanced-techniques
 Tecnicas situacionales para deals estancados: aceleracion de Situaciones Críticas (4 tipos de comprador, backward planning), trading sin descuentos (9 pasos, 3-deal option matrix), e influencia en criterios de organización (DEPRIORITIZE/INSERT/IMPROVE ranking).
@@ -80,7 +80,7 @@ El plugin se construye sobre la sintesis de 31 frameworks de Metodología Growth
 ### Conceptos clave
 
 - **PULSO**: Lenguaje comun de diagnostico (Panorama, Urgencia, Logro, Situación Crítica, Organización) — conecta todas las fases
-- **REKS**: Framework de coaching (Results, Efforts, Knowledge, Skills) — coaching basado en metricas
+- **ROCA**: Framework de coaching (Resultados, Operación, Conocimiento, Aptitud) — coaching basado en metricas
 - **ACE**: Apertura profesional de calls (Appreciate, Check time, End goal)
 - **Information Cascades**: Cada componente alimenta datos explicitos al siguiente, eliminando adivinanzas
 - **Trading (no negociacion)**: Framework de 9 pasos para acuerdos win-win sin descuentos

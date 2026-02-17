@@ -40,7 +40,7 @@ plugins/
 
 | Plugin | Focus | Key Methodology |
 |--------|-------|-----------------|
-| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | PULSO segmentation, ASK Method, Ski Slope Strategy |
+| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | PULSO segmentation, Metodología SONDA, Ski Slope Strategy |
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Metodología GrowthOS / PULSO |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | PULSO project discovery, Growth Diagnostic Router, Agent roster |
@@ -72,7 +72,7 @@ plugins/
 |---------|--------|---------|
 | `/diagnostico` | growth-foundations | ClarQ assessment (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Interactive ICP definition + scoring workshop |
-| `/quiz` | growth-foundations | ASK Method quiz funnel builder |
+| `/quiz` | growth-foundations | Metodología SONDA quiz funnel builder |
 | `/discovery` | sales-blueprint | PULSO discovery session orchestrator |
 | `/pipeline` | sales-blueprint | Pipeline health analysis |
 | `/propuesta` | sales-blueprint | Proposal generation |

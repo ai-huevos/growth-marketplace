@@ -1,8 +1,8 @@
-# 16. Quiz Funnel — ASK Method
+# 16. Quiz Funnel — Metodología SONDA
 
 ## Resumen
 
-El skill quiz-funnel es el cuarto skill del plugin growth-foundations. Basado en el ASK Method de Ryan Levesque, adaptado a B2B e integrado con PULSO, permite diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables y validarlos por menos de $500.
+El skill quiz-funnel es el cuarto skill del plugin growth-foundations. Basado en la Metodología SONDA, adaptado a B2B e integrado con PULSO, permite diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables y validarlos por menos de $500.
 
 ## Posición en el Marketplace
 
@@ -18,9 +18,9 @@ El skill quiz-funnel es el cuarto skill del plugin growth-foundations. Basado en
 
 No existía contenido de quiz/funnel/lead-qualification en el marketplace. Quiz-funnel cubre el espacio entre "sé a quién venderle" (ICP) y "sé cómo calificar" (discovery), agregando segmentación a escala y validación lean.
 
-## ASK Method: Conceptos Clave
+## Metodología SONDA: Conceptos Clave
 
-### SMIQ (Single Most Important Question)
+### PREGUNTA RAÍZ
 La pregunta open-ended que, si solo pudieras hacer una, te daría la máxima información para segmentar tu mercado. Siempre empieza con "¿Cuál es tu mayor..." o "¿Qué es lo que más...".
 
 ### Buckets
@@ -42,7 +42,7 @@ Cada pregunta del quiz genera reciprocidad, consistencia, y ownership. Progresi�
 | 1 | Grease-the-wheels | Calentar, primer micro-compromiso |
 | 2 | Grease-the-wheels | Contexto firmográfico |
 | 3 | Segmentación | Asignar bucket (la pregunta clave) |
-| 4 | SMIQ | Descubrir dolor profundo (open-ended) |
+| 4 | PREGUNTA RAÍZ | Descubrir dolor profundo (open-ended) |
 | 5 | Blind-spot | Revelar gap, generar urgencia |
 | 6 | Urgencia | Proxy del Critical Event |
 
@@ -81,7 +81,7 @@ Total: $350-500 en 17-25 días.
 | PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
 | **Situation** | Bucket define la situación del prospect dentro del ICP |
-| **Pain** | SMIQ descubre dolor core; buckets segmentan variaciones |
+| **Pain** | PREGUNTA RAÍZ descubre dolor core; buckets segmentan variaciones |
 | **Impact** | Outcome page comunica impacto de resolver el dolor del bucket |
 | **Critical Event** | Preguntas de urgencia = proxy del critical event |
 | **Decision** | Preguntas de presupuesto/proceso = proxy de decision readiness |
@@ -118,7 +118,7 @@ Total: $350-500 en 17-25 días.
 plugins/growth-foundations/skills/quiz-funnel/
 ├── SKILL.md                                    — Definición del skill
 ├── frameworks/
-│   ├── ask-method-fundamentals.md              — Core ASK Method + mapeo PULSO
+│   ├── sonda-methodology.md                    — Core Metodología SONDA + mapeo PULSO
 │   ├── bucket-identification.md                — Cómo descubrir 3-5 buckets
 │   ├── question-design-framework.md            — 4 tipos de preguntas, reglas, errores
 │   └── lean-stress-test.md                     — Plan de validación <$500
@@ -142,7 +142,7 @@ Workshop interactivo de 8 fases con gates "Espera las respuestas":
 
 1. **Contexto** — Qué vendes, a quién, dolor, objetivo, presupuesto
 2. **Hipótesis de buckets** — Proponer 3-5 buckets, validar con usuario
-3. **SMIQ** — Diseñar la pregunta más importante
+3. **PREGUNTA RAÍZ** — Diseñar la pregunta más importante
 4. **Quiz design** — 6 preguntas + hook + outcome pages
 5. **Deep Dive Survey** (opcional) — Si buckets no están validados
 6. **Stress test plan** — Timeline + presupuesto
@@ -153,7 +153,7 @@ Workshop interactivo de 8 fases con gates "Espera las respuestas":
 
 1. **5-7 preguntas (no 8-15)**: Ejecutivos B2B tienen poco tiempo. Completion rate >40% requiere brevedad.
 2. **3 buckets mínimo, 5 máximo**: Menos de 3 no justifica un quiz. Más de 5 genera complejidad sin beneficio.
-3. **SMIQ siempre open-ended**: Las respuestas cerradas sesgan y no descubren dolor real.
+3. **PREGUNTA RAÍZ siempre open-ended**: Las respuestas cerradas sesgan y no descubren dolor real.
 4. **Email gate después del quiz, no antes**: El prospect ya invirtió tiempo, la curiosidad por el resultado genera conversión.
 5. **Scoring 0-100**: Consistente con el modelo de ICP scoring del mismo plugin.
 6. **<$500 como límite**: Suficiente para validar con 200+ completions sin comprometer presupuesto de startup.

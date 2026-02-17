@@ -91,7 +91,7 @@ Lista 3-5 preguntas PUL especificas para esta cuenta:
 
 ---
 
-## Seccion 2: Apertura ACE
+## Seccion 2: Apertura AVE
 
 ### Script
 

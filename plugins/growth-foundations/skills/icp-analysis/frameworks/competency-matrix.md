@@ -142,4 +142,4 @@ Miembro alcanza Nivel 4
 
 ---
 
-*Derivado de Playbook 00: Entendiendo los Skills de Marketing de Alto Rendimiento. Conecta con ClarQ (dimensión Capabilities) y coaching-cadence (REKS para desarrollo individual).*
+*Derivado de Playbook 00: Entendiendo los Skills de Marketing de Alto Rendimiento. Conecta con ClarQ (dimensión Capabilities) y coaching-cadence (ROCA para desarrollo individual).*

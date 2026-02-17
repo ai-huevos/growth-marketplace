@@ -83,10 +83,10 @@ ADVANCED TECHNIQUES
      |
      v
 GOALS + METRICS + COACHING
-  Inputs: Activity data, performance metrics, REKS analysis
+  Inputs: Activity data, performance metrics, ROCA analysis
   Outputs: Coaching plans, optimized playbook, improved performance
      |
-     +---> REKS Coaching --------> SKILL DEVELOPMENT (mejorar habilidades)
+     +---> ROCA Coaching --------> SKILL DEVELOPMENT (mejorar habilidades)
      +---> Performance Data -----> PLAYBOOK UPDATES (iterar proceso)
      +---> Metric Tracking ------> CONTINUOUS IMPROVEMENT (optimizar)
 ```
@@ -139,7 +139,7 @@ GOALS + METRICS + COACHING
 **Validacion**: Si reps usan la misma tecnica en todas las situaciones, no estan leyendo la situacion.
 
 ### Regla 7: TODO alimenta Goals/Metrics/Coaching
-- Cada actividad se trackea via REKS
+- Cada actividad se trackea via ROCA
 - Metricas identifican necesidades de coaching
 - Playbook define estandares
 
@@ -158,7 +158,7 @@ GOALS + METRICS + COACHING
 | Sin data enrichment | Cuentas sin datos de intent | 2 -> 5 | Integrar 6Sense/ZoomInfo/Clearbit |
 | Sin CRM discipline | PULSO no se documenta | 5 -> 6 | Campos obligatorios + audit semanal |
 | Sin handoff protocol | Contexto se pierde | 3 -> All | PULSO handoff template + pre-meetings |
-| Sin coaching cadence | Reps no mejoran | All -> Performance | REKS framework + weekly 1-on-1s |
+| Sin coaching cadence | Reps no mejoran | All -> Performance | ROCA framework + weekly 1-on-1s |
 
 ### Como Diagnosticar una Cascada Rota
 

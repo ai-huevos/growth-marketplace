@@ -219,7 +219,7 @@ Q4: Review anual — recalibrar todo el modelo con 12 meses de datos
 
 ## Metricas de Validacion
 
-Cuando el analisis win/loss esta funcionando correctamente, deberias observar estos efectos en el bowtie de revenue:
+Cuando el analisis win/loss esta funcionando correctamente, deberias observar estos efectos en el ciclo de revenue:
 
 ### Conversion Rates
 

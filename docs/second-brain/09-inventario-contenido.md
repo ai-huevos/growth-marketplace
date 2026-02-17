@@ -77,8 +77,8 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Skill: quiz-funnel
 | Archivo | Propósito |
 |---------|-----------|
-| `skills/quiz-funnel/SKILL.md` | ASK Method + PULSO, 5 pasos, bucket scoring |
-| `skills/quiz-funnel/frameworks/ask-method-fundamentals.md` | Core ASK Method: SMIQ, buckets, micro-compromisos, mapeo ASK↔PULSO |
+| `skills/quiz-funnel/SKILL.md` | Metodología SONDA + PULSO, 5 pasos, bucket scoring |
+| `skills/quiz-funnel/frameworks/sonda-methodology.md` | Core Metodología SONDA: PREGUNTA RAÍZ, buckets, micro-compromisos, mapeo SONDA↔PULSO |
 | `skills/quiz-funnel/frameworks/bucket-identification.md` | 4 tipos de buckets, regla del 80%, checklist de validación |
 | `skills/quiz-funnel/frameworks/question-design-framework.md` | 4 tipos de preguntas, reglas de diseño, 7 errores comunes |
 | `skills/quiz-funnel/frameworks/lean-stress-test.md` | Plan de 4 fases por <$500: research → survey → build → paid |

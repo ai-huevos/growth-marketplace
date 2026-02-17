@@ -36,7 +36,7 @@ El framework se despliega en 7 partes secuenciales (+ roadmap), cada una con su 
 | **1** | Ideal Customer Profile (ICP) | 8-14 | ICP scoring, segmentos, perfiles documentados | 16, 30 |
 | **2** | Target Account List + Stakeholders | 15-21 | TAL tiered, 3x3 relationship maps | 13, 14, 15 |
 | **3** | Customer Journey Map (PULSO) | 22-28 | Journey stages, handoff protocols, entry/exit | 10, 28 |
-| **4** | Goal Setting + Sales Playbook | 22-30 | REKS goals, playbook v1.0, scorecards | 7, 9 |
+| **4** | Goal Setting + Sales Playbook | 22-30 | ROCA goals, playbook v1.0, scorecards | 7, 9 |
 | **5** | Discovery Call Framework | 31-42 | PULSO mastery, story bank, call templates | 25, 26, 30 |
 | **6** | Demo + Prescription Framework | 43-60 | Pain-to-solution demos, impact validation | 24, 27 |
 | **7** | Advanced Sales Techniques | 61-90 | Storytelling, trading, criteria influence, CE | 8, 21, 22, 23 |
@@ -261,7 +261,7 @@ Seleccionar 2-4 frameworks relevantes y sintetizar un playbook personalizado. El
 2. **Scripts de calls** con preguntas PULSO
 3. **Templates** de cada fase
 4. **Metricas** de exito por etapa
-5. **Plan de coaching** con REKS
+5. **Plan de coaching** con ROCA
 
 Usar template: `templates/playbook-synthesis.md`
 
@@ -294,9 +294,9 @@ Para el roadmap detallado con milestones semanales, ver `frameworks/transformati
 
 ### Paso 6: Medicion y Coaching
 
-Implementar coaching REKS continuo:
+Implementar coaching ROCA continuo:
 
-| Nivel REKS | Pregunta | Accion |
+| Nivel ROCA | Pregunta | Accion |
 |------------|----------|--------|
 | **R**esults | Que resultado quieres? | Revenue, pipeline, win rate |
 | **E**fforts | Que esfuerzos lo impulsan? | Demos, proposals, calls |

@@ -50,7 +50,7 @@ Leer `skills/discovery-mastery/frameworks/question-bank.md` para seleccionar pre
 Generar agenda personalizada:
 
 ```
-APERTURA ACE (5 min)
+APERTURA AVE (5 min)
 A: "Agradezco que hayas tomado el tiempo para esta llamada, [nombre]."
 C: "Tenemos [X] minutos agendados. Sigue funcionando?"
 E: "El objetivo es [adaptado al context]. Si hay fit, discutimos proximos pasos."

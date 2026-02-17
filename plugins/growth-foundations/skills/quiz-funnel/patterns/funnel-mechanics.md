@@ -71,7 +71,7 @@ P1 → P2 → P3 (segmentación)
 |----------|-------------------|-----------------|
 | P1-P2 | Bajo | Grease-the-wheels (fácil, rápido) |
 | P3 | Medio | Segmentación (requiere reflexión) |
-| P4 | Alto | SMIQ (campo abierto, profundidad) |
+| P4 | Alto | PREGUNTA RAÍZ (campo abierto, profundidad) |
 | P5-P6 | Medio-Alto | Blind-spot / Urgencia |
 | Gate | Máximo | Email + nombre |
 
@@ -152,7 +152,7 @@ Cada bucket recibe una secuencia de emails diferente con contenido relevante a s
 | Dato del quiz | Campo en CRM | Uso |
 |--------------|-------------|-----|
 | Bucket asignado | Tag o campo personalizado | Segmentación de comunicación |
-| Respuesta SMIQ | Nota en el contacto | Personalizar discovery call |
+| Respuesta PREGUNTA RAÍZ | Nota en el contacto | Personalizar discovery call |
 | Score de urgencia | Lead score | Priorizar follow-up |
 | Respuestas blind-spot | Nota en el contacto | Preparar talking points |
 

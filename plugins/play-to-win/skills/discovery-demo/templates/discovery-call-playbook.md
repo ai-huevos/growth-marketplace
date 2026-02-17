@@ -1,10 +1,10 @@
 # Template: Discovery Call Playbook (T-53)
 
-Template para preparar y ejecutar discovery calls usando ACE opening y PULSO diagnostic progression. Produce un playbook completo listo para ejecutar, con scripts personalizados, preguntas con contexto, y plan de follow-up.
+Template para preparar y ejecutar discovery calls usando AVE opening y PULSO diagnostic progression. Produce un playbook completo listo para ejecutar, con scripts personalizados, preguntas con contexto, y plan de follow-up.
 
-**Output Contract**: Playbook completo de discovery call con scripts ACE personalizados, checklist de 54 puntos, agenda alineada a dolores investigados, preguntas PULSO con contexto, historias de terceros preparadas, y setup de next meeting.
+**Output Contract**: Playbook completo de discovery call con scripts AVE personalizados, checklist de 54 puntos, agenda alineada a dolores investigados, preguntas PULSO con contexto, historias de terceros preparadas, y setup de next meeting.
 
-**Benchmark**: ACE opening scripted y personalizado, 5+ preguntas PULSO preparadas con contexto de research, agenda enviada pre-call, checklist completado por fase, next meeting secured con fecha y stakeholders adicionales.
+**Benchmark**: AVE opening scripted y personalizado, 5+ preguntas PULSO preparadas con contexto de research, agenda enviada pre-call, checklist completado por fase, next meeting secured con fecha y stakeholders adicionales.
 
 ---
 
@@ -49,7 +49,7 @@ Template para preparar y ejecutar discovery calls usando ACE opening y PULSO dia
 
 ---
 
-## Seccion 2: ACE Opening Script
+## Seccion 2: AVE Opening Script
 
 ### A — Appreciate (10 seg)
 
@@ -78,7 +78,7 @@ Seleccionar la variacion apropiada y personalizar:
 **Chunking** (desglose del objetivo):
 > "Para lograr eso, primero ___, segundo ___, y tercero ___."
 
-### Post-ACE: Pregunta Poderosa
+### Post-AVE: Pregunta Poderosa
 
 **Script de transicion**:
 > "Tengo una agenda preparada basada en lo que investigue, pero antes de seguir con ella... que mas quisieras obtener de la reunion de hoy?"
@@ -96,7 +96,7 @@ Seleccionar la variacion apropiada y personalizar:
 
 | # | Tema | Tiempo estimado | Conecta con |
 |---|------|----------------|-------------|
-| 1 | ACE + contexto | 3 min | Establecer confianza |
+| 1 | AVE + contexto | 3 min | Establecer confianza |
 | 2 | ___ | ___ min | Dolor hipotesis: ___ |
 | 3 | ___ | ___ min | Dolor hipotesis: ___ |
 | 4 | ___ | ___ min | Dolor hipotesis: ___ |
@@ -228,7 +228,7 @@ Nos vemos el [fecha] a las [hora].
 - [ ] Notas/preguntas visibles (no en pantalla compartida)
 - [ ] Energia alta pero natural
 
-### Ejecutar ACE
+### Ejecutar AVE
 
 - [ ] **A** — Appreciate personalizado ejecutado (10 seg)
 - [ ] **C** — Check End Time ejecutado (10 seg)
@@ -297,7 +297,7 @@ Nos vemos el [fecha] a las [hora].
 
 ### Reflexion
 
-- [ ] Autoevaluar ACE opening (1-5): ___
+- [ ] Autoevaluar AVE opening (1-5): ___
 - [ ] 1 cosa para mejorar: ___
 
 ---
@@ -380,7 +380,7 @@ Si me falto algo, hazmelo saber.
 | **Skill** | discovery-demo |
 | **Plugin** | play-to-win |
 | **Version** | 1.0.0 |
-| **Frameworks usados** | `frameworks/ace-discovery-call.md`, `frameworks/diagnosis-deep-dive.md` |
+| **Frameworks usados** | `frameworks/ave-discovery-call.md`, `frameworks/diagnosis-deep-dive.md` |
 | **Basado en** | Discovery call perfecta (Metodología GrowthOS), Diagnóstico profundo (Metodología GrowthOS) |
 | **Output** | Discovery Call Playbook completo |
 | **Tiempo estimado de preparacion** | 30-45 minutos |

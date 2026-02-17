@@ -99,18 +99,18 @@ Análisis competitivo estructurado usando Five Forces de Porter + mapa competiti
 
 ## Skill 4: quiz-funnel
 
-**Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
+**Triggers**: "quiz funnel", "Metodología SONDA", "market buckets", "survey funnel", "lead qualification quiz", "PREGUNTA RAÍZ", "stress test de mercado"
 
 ### Qué hace
-Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con PULSO. Incluye plan de validación lean por menos de $500.
+Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado en la Metodología SONDA adaptada a B2B e integrado con PULSO. Incluye plan de validación lean por menos de $500.
 
-### ASK Method — Conceptos Clave
-- **SMIQ** (Single Most Important Question): La pregunta open-ended que revela el dolor core y segmenta naturalmente el mercado
+### Metodología SONDA — Conceptos Clave
+- **PREGUNTA RAÍZ**: La pregunta open-ended que revela el dolor core y segmenta naturalmente el mercado
 - **Buckets**: 3-5 segmentos de mercado que cubren >80% de la audiencia. Tipos: por journey, desafío, situación, u objetivo
 - **Micro-compromisos**: Cada pregunta del quiz genera reciprocidad, consistencia, y ownership
 
 ### Proceso (5 pasos)
-1. **Descubrir SMIQ**: Encontrar la pregunta que mejor segmenta el mercado
+1. **Descubrir PREGUNTA RAÍZ**: Encontrar la pregunta que mejor segmenta el mercado
 2. **Deep Dive Survey**: Encuesta de 8-12 preguntas para identificar patrones cualitativos
 3. **Identificar Buckets**: Agrupar respuestas en 3-5 segmentos (regla del 80%)
 4. **Diseñar Quiz**: 5-7 preguntas con progresión de micro-compromisos
@@ -122,7 +122,7 @@ Diseña quiz funnels que segmentan un mercado en 3-5 buckets accionables. Basado
 |----------|------|---------|
 | 1-2 | Grease-the-wheels | Calentar, micro-compromiso inicial |
 | 3 | Segmentación | Asignar bucket (pregunta clave) |
-| 4 | SMIQ | Descubrir dolor profundo (open-ended) |
+| 4 | PREGUNTA RAÍZ | Descubrir dolor profundo (open-ended) |
 | 5 | Blind-spot | Revelar gap, generar urgencia |
 | 6 | Urgencia | Proxy del Critical Event (PULSO) |
 
@@ -144,14 +144,14 @@ Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decisio
 | PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
 | Situation | El bucket define la situación del prospect dentro del ICP |
-| Pain | El SMIQ descubre el dolor core; buckets segmentan variaciones |
+| Pain | La PREGUNTA RAÍZ descubre el dolor core; buckets segmentan variaciones |
 | Impact | La outcome page comunica impacto de resolver el dolor |
 | Critical Event | Preguntas de urgencia como proxy |
 | Decision | Preguntas de presupuesto/proceso como proxy |
 
 ### Archivos (11)
 - `SKILL.md`: Definición completa del skill
-- `frameworks/ask-method-fundamentals.md`: Core ASK Method + mapeo ASK↔PULSO
+- `frameworks/sonda-methodology.md`: Core Metodología SONDA + mapeo SONDA↔PULSO
 - `frameworks/bucket-identification.md`: Cómo descubrir 3-5 buckets, checklist de validación
 - `frameworks/question-design-framework.md`: 4 tipos de preguntas, reglas, errores comunes
 - `frameworks/lean-stress-test.md`: Plan de validación <$500 en 4 fases
@@ -228,7 +228,7 @@ Workshop interactivo de 8 fases para diseñar un quiz funnel completo con el usu
 ### Fases del Workshop (8)
 1. **Contexto**: Qué vendes, a quién, dolor, objetivo, presupuesto
 2. **Hipótesis de buckets**: Proponer 3-5 buckets, validar con usuario
-3. **SMIQ**: Diseñar la Single Most Important Question
+3. **PREGUNTA RAÍZ**: Diseñar la Pregunta Más Importante
 4. **Quiz design**: 6 preguntas + hook page + outcome pages
 5. **Deep Dive Survey** (opcional): Si buckets no están validados
 6. **Stress test plan**: Timeline + presupuesto

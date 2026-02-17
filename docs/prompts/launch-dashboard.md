@@ -86,12 +86,12 @@
 /diagnostico  →  ClarQ heatmap (GTM, Revenue, Q2C, Capabilities)
 /icp          →  ICP scoring 0-100, 3 tiers
 positioning   →  Value Prop Canvas + Messaging
-/quiz         →  ASK Method quiz funnel
+/quiz         →  Metodología SONDA quiz funnel
 /escala       →  Value Ladder (Bait → Frontend → Backend)
 /discovery    →  PULSO prep + agenda
 /propuesta    →  Propuesta con Business Case
 /pipeline     →  Pipeline health con semáforo PULSO
-/coaching     →  REKS diagnosis + coaching plan
+/coaching     →  ROCA diagnosis + coaching plan
 /copy         →  Pipeline 4 agentes
 /headline     →  50+ fórmulas
 /email-sequence → Cold/Nurture/Reactivation/Sales

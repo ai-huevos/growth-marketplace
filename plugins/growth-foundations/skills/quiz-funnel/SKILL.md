@@ -1,16 +1,16 @@
 ---
 name: quiz-funnel
-description: Use when designing quiz funnels, segmenting markets into buckets, validating product-market assumptions, building lead qualification surveys, or stress-testing a category for under $500. Activates for "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado", "segmentación por quiz", or "encuesta de descubrimiento".
+description: Use when designing quiz funnels, segmenting markets into buckets, validating product-market assumptions, building lead qualification surveys, or stress-testing a category for under $500. Activates for "quiz funnel", "Metodología SONDA", "market buckets", "survey funnel", "lead qualification quiz", "PREGUNTA RAÍZ", "stress test de mercado", "segmentación por quiz", or "encuesta de descubrimiento".
 version: 1.0.0
 ---
 
 # Quiz Funnel
 
-Framework para diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables, basado en el ASK Method de Ryan Levesque adaptado a B2B e integrado con PULSO.
+Framework para diseñar quiz funnels que segmentan un mercado en 3-5 buckets accionables, basado en la Metodología SONDA adaptada a B2B e integrada con PULSO.
 
 ## Filosofía: Diagnostica, No Asumas
 
-El ASK Method parte de un principio simple: **tu mercado sabe mejor que tú qué necesita** — pero no te lo va a decir directamente. Necesitas preguntarle de la forma correcta.
+La Metodología SONDA parte de un principio simple: **tu mercado sabe mejor que tú qué necesita** — pero no te lo va a decir directamente. Necesitas preguntarle de la forma correcta.
 
 Esto conecta directamente con PULSO: en lugar de asumir el dolor del prospect, **pregúntale**. El quiz funnel es la extensión digital del discovery call — escala la conversación de 1:1 a 1:miles.
 
@@ -26,20 +26,20 @@ Esto conecta directamente con PULSO: en lugar de asumir el dolor del prospect, *
 
 El quiz no reemplaza el discovery call — **lo precalifica**. Un prospect que llega a la call ya segmentado en un bucket permite una conversación más profunda desde el minuto uno.
 
-## Los 5 Pasos del ASK Method
+## Los 5 Pasos de la Metodología SONDA
 
-### Paso 1: Descubrir el SMIQ (Single Most Important Question)
+### Paso 1: Descubrir la PREGUNTA RAÍZ
 
-El SMIQ es la pregunta que, si pudieras hacerle UNA sola pregunta a tu mercado, te daría la máxima información para segmentarlo.
+La PREGUNTA RAÍZ es la pregunta que, si pudieras hacerle UNA sola pregunta a tu mercado, te daría la máxima información para segmentarlo.
 
 **Cómo encontrarlo**:
 - Revisar las respuestas de discovery calls previos
 - Analizar tickets de soporte y objeciones de ventas
 - Preguntar al equipo: "¿Qué pregunta separa a los buenos deals de los malos?"
 
-**Formato del SMIQ**: Siempre open-ended. "¿Cuál es tu mayor desafío con [área]?"
+**Formato de la PREGUNTA RAÍZ**: Siempre open-ended. "¿Cuál es tu mayor desafío con [área]?"
 
-Para la metodología completa, leer `frameworks/ask-method-fundamentals.md`.
+Para la metodología completa, leer `frameworks/sonda-methodology.md`.
 
 ### Paso 2: Deep Dive Survey
 
@@ -70,7 +70,7 @@ Construir un quiz de 5-7 preguntas que lleve al prospect por un camino de micro-
 |------|---------|---------|
 | Grease-the-wheels | Calentar, generar engagement | "¿Cuántos años llevas en [industria]?" |
 | Segmentación | Asignar a bucket | "¿Cuál es tu mayor desafío: generar leads, cerrar deals, o retener clientes?" |
-| SMIQ | Descubrir dolor profundo | "Si pudieras resolver UN problema en tu proceso de ventas, ¿cuál sería?" |
+| PREGUNTA RAÍZ | Descubrir dolor profundo | "Si pudieras resolver UN problema en tu proceso de ventas, ¿cuál sería?" |
 | Blind-spot | Descubrir lo que no saben | "¿Cuánto tiempo dedica tu equipo a tareas administrativas vs. vender?" |
 
 Para reglas de diseño y errores comunes, leer `frameworks/question-design-framework.md`.
@@ -81,7 +81,7 @@ Validar el quiz con tráfico real antes de escalar:
 
 | Fase | Inversión | Actividad | Objetivo |
 |------|-----------|-----------|----------|
-| 1. Desk Research | $0 | Análisis de datos existentes, SMIQ hipótesis | Hipótesis de buckets |
+| 1. Desk Research | $0 | Análisis de datos existentes, PREGUNTA RAÍZ hipótesis | Hipótesis de buckets |
 | 2. Deep Dive Survey | $0-50 | Survey a base existente (email, LinkedIn) | Validar buckets con datos |
 | 3. Build & Soft Launch | $50-100 | Quiz en Typeform/Google Forms + landing page | Quiz funcional |
 | 4. Paid Validation | $300-350 | Ads en LinkedIn/Meta apuntando al ICP | 200+ completions |
@@ -120,7 +120,7 @@ Para el scorecard completo con criterios de evaluación, leer `templates/bucket-
 | PULSO | Conexión con Quiz Funnel |
 |--------|--------------------------|
 | **Panorama** | El bucket define la situación del prospect dentro del ICP |
-| **Urgencia** | El SMIQ descubre el dolor core; los buckets segmentan variaciones de dolor |
+| **Urgencia** | La PREGUNTA RAÍZ descubre el dolor core; los buckets segmentan variaciones de dolor |
 | **Logro** | La outcome page comunica el impacto de resolver el dolor del bucket |
 | **Situación Crítica** | Preguntas de urgencia funcionan como proxy de la situación crítica |
 | **Organización** | Preguntas de presupuesto/proceso funcionan como proxy de decision readiness |

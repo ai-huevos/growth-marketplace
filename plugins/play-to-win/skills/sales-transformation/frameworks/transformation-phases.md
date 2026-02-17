@@ -201,7 +201,7 @@ Journey define etapas; ahora establecer metricas/goals para cada etapa y documen
 ### Entregable
 Goals basados en OKR + playbook stage-by-stage con entry/exit criteria que impulsa coaching basado en metricas.
 
-### Framework REKS para Goal-Setting
+### Framework ROCA para Goal-Setting
 
 | Nivel | Pregunta | Tu Respuesta | Accion |
 |-------|----------|-------------|--------|

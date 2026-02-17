@@ -37,7 +37,7 @@ Llegar 2 minutos antes. Camara encendida. Energia alta pero natural. Si hay part
 
 ### Paso 2: ACE — Appreciate, Check End Time, End Goal
 
-Ejecutar el framework ACE completo en 45 segundos (ver `ace-discovery-call.md` para detalle).
+Ejecutar el framework AVE completo en 45 segundos (ver `ave-discovery-call.md` para detalle).
 
 **Puntos clave para el diagnose call**:
 - El End Goal debe reflejar profundizacion: "Hoy quiero profundizar en los desafios que identificamos y entender el impacto real en tu operacion"

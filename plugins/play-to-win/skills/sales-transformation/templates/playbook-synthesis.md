@@ -20,7 +20,7 @@ Un playbook de calidad debe:
 - Incluir entry/exit criteria claros para cada etapa
 - Mapear assets disponibles por etapa
 - Tener metricas trackeables que el manager puede auditar
-- Incluir plan de coaching con REKS
+- Incluir plan de coaching con ROCA
 
 ---
 
@@ -117,7 +117,7 @@ Un playbook de calidad debe:
 
 **Actividades Clave**:
 1. Pre-call prep (research, PULSO hypothesis, stories preparadas)
-2. ACE opening
+2. AVE opening
 3. PULSO diagnosis (P -> U -> summarize -> Story -> L -> S -> O)
 4. Schedule next meeting + identify who else to invite
 
@@ -337,7 +337,7 @@ Que tan importante seria eso para tu equipo?"
 
 | Fase | Tiempo | Accion |
 |------|--------|--------|
-| ACE Opening | 0-2 min | Misma apertura que discovery |
+| AVE Opening | 0-2 min | Misma apertura que discovery |
 | Agenda (Mirror Pains) | 2-3 min | "Compartiste [P1, P2, P3]. Hoy muestro como los resolvemos" |
 | Recap S+P | 4-6 min | "Quick reminder: estas en [S] experimentando [P]..." |
 | Demo Point 1 | 6-12 min | Pain -> Solution -> Impact + Story + "Te ves usandolo?" |
@@ -391,7 +391,7 @@ Que tan importante seria eso para tu equipo?"
 
 ### Scorecard del Rep
 
-| Metrica | Actual | Target | Gap | Root Cause (REKS) | Coaching Action |
+| Metrica | Actual | Target | Gap | Root Cause (ROCA) | Coaching Action |
 |---------|--------|--------|-----|-------------------|-----------------|
 | Revenue | $[___] | $[___] | $[___] | [R/E/K/S]: [Detalle] | [Accion] |
 | Win Rate | [___]% | [___]% | [___]% | [R/E/K/S]: [Detalle] | [Accion] |
@@ -404,7 +404,7 @@ Que tan importante seria eso para tu equipo?"
 | Frecuencia | Actividad | Foco |
 |-----------|-----------|------|
 | **Diaria** | Activity tracking, PULSO completion | Leading indicators |
-| **Semanal** | 1-on-1 con REKS, pipeline review | Gap identification + coaching |
+| **Semanal** | 1-on-1 con ROCA, pipeline review | Gap identification + coaching |
 | **Mensual** | Playbook updates, training gaps | Process improvement |
 | **Trimestral** | ICP refresh, strategy review | Strategic alignment |
 

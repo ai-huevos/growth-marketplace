@@ -5,12 +5,12 @@ Sistema de ejecucion de ventas B2B basado en la Metodología GrowthOS. Plugin de
 ## Skills
 
 ### discovery-mastery
-Preparacion y ejecucion de discovery calls con PULSO + apertura ACE. Incluye banco de preguntas por industria/stakeholder, template de prep, y ejemplo real (ACME Cybersecurity).
+Preparacion y ejecucion de discovery calls con PULSO + apertura AVE. Incluye banco de preguntas por industria/stakeholder, template de prep, y ejemplo real (ACME Cybersecurity).
 
-**Triggers**: "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "ACE opening", "call prep"
+**Triggers**: "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "AVE opening", "call prep"
 
 ### pipeline-management
-Gestion de pipeline con PULSO scoring, indicadores de salud rojo/amarillo/verde, modelo Bowtie, y metricas core (LTV:CAC, NRR, Growth Rate, Rule of 40).
+Gestion de pipeline con PULSO scoring, indicadores de salud rojo/amarillo/verde, modelo CICLO, y metricas core (LTV:CAC, NRR, Growth Rate, Rule of 40).
 
 **Triggers**: "pipeline review", "deal health", "pipeline health", "deal scoring", "forecast", "stuck deals"
 
@@ -20,9 +20,9 @@ Generacion de propuestas comerciales basadas en el diagnostico PULSO. Incluye te
 **Triggers**: "proposal", "propuesta", "SOW", "business case", "cotizacion"
 
 ### coaching-cadence
-Coaching de ventas con REKS (Results, Effort, Knowledge, Skills). Cadencia semanal/mensual, 8 modelos de coaching, conversaciones candidas, y feedback TOAST.
+Coaching de ventas con ROCA (Resultados, Operación, Conocimiento, Aptitud). Cadencia semanal/mensual, 8 modelos de coaching, conversaciones candidas, y feedback TOAST.
 
-**Triggers**: "coaching", "1:1", "REKS", "sales coaching", "rep performance", "candid conversation"
+**Triggers**: "coaching", "1:1", "ROCA", "sales coaching", "rep performance", "candid conversation"
 
 ## Agents
 
@@ -56,7 +56,7 @@ Review de salud del pipeline: PULSO scoring por deal, health map, forecast en 3 
 ```
 
 ### /coaching
-Prepara un 1:1 de coaching: diagnostico REKS, agenda estructurada segun la semana del mes, y feedback preparado.
+Prepara un 1:1 de coaching: diagnóstico ROCA, agenda estructurada segun la semana del mes, y feedback preparado.
 
 ```
 /coaching [nombre del rep o contexto]

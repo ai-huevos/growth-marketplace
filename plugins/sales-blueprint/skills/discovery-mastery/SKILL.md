@@ -1,19 +1,19 @@
 ---
 name: discovery-mastery
-description: Use when preparing discovery calls, qualifying opportunities with PULSO, opening sales conversations, or diagnosing prospect needs. Activates for "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "call prep", "ACE opening", "diagnose prospect", "first sales call", "qualifying questions", or "how to open a sales call".
+description: Use when preparing discovery calls, qualifying opportunities with PULSO, opening sales conversations, or diagnosing prospect needs. Activates for "discovery call", "PULSO", "qualifying opportunity", "sales discovery", "call prep", "AVE opening", "diagnose prospect", "first sales call", "qualifying questions", or "how to open a sales call".
 version: 1.0.0
 ---
 
 # Discovery Mastery
 
-Sistema completo de discovery calls basado en la metodología PULSO de GrowthOS. Cubre preparacion, apertura ACE, diagnostico estructurado y cierre con proximos pasos.
+Sistema completo de discovery calls basado en la metodología PULSO de GrowthOS. Cubre preparacion, apertura AVE, diagnostico estructurado y cierre con proximos pasos.
 
 ## Cuando usar este skill
 
 - El usuario necesita preparar una discovery call
 - Quiere calificar una oportunidad usando PULSO
 - Necesita preguntas de discovery por industria o stakeholder
-- Quiere mejorar su apertura de calls (ACE framework)
+- Quiere mejorar su apertura de calls (Framework AVE)
 - Necesita evaluar si un deal esta bien diagnosticado
 
 ## Filosofia: Diagnosing, NOT Pitching (Momento M3)
@@ -44,7 +44,7 @@ PULSO es el lenguaje comun de diagnostico. Cada dimension se scorea del 1 al 5:
 
 Para el framework PULSO completo con guia de scoring por dimension, leer `frameworks/pulso-framework.md`.
 
-## Apertura ACE
+## Apertura AVE
 
 Toda call profesional abre con ACE:
 

@@ -20,9 +20,9 @@ Análisis competitivo estructurado usando Five Forces de Porter + mapa competiti
 **Triggers**: "competitive analysis", "competitors", "market landscape", "competitive intelligence", "market map"
 
 ### quiz-funnel
-Diseño de quiz funnels para segmentar un mercado en 3-5 buckets accionables. Basado en el ASK Method adaptado a B2B e integrado con PULSO. Incluye frameworks de diseño de preguntas, scoring de buckets, y plan de stress test por <$500.
+Diseño de quiz funnels para segmentar un mercado en 3-5 buckets accionables. Basado en la Metodología SONDA adaptada a B2B e integrado con PULSO. Incluye frameworks de diseño de preguntas, scoring de buckets, y plan de stress test por <$500.
 
-**Triggers**: "quiz funnel", "ASK Method", "market buckets", "survey funnel", "lead qualification quiz", "SMIQ", "stress test de mercado"
+**Triggers**: "quiz funnel", "Metodología SONDA", "market buckets", "survey funnel", "lead qualification quiz", "PREGUNTA RAÍZ", "stress test de mercado"
 
 ### content-strategy
 Sistema de 2 frameworks para planificar, priorizar y distribuir contenido B2B que genera leads cualificados. Combina **Ski Slope Strategy** (progresión de dificultad por etapa del funnel) y **Topic Triangle** (priorización de temas por potencial de revenue). Incluye 3 workflows adaptados a LATAM: calendario de contenido, distribución por partnerships, y SEO content mapping.
@@ -46,7 +46,7 @@ Workshop interactivo para construir un Ideal Customer Profile. Guía al usuario 
 ```
 
 ### /quiz
-Workshop interactivo para diseñar un quiz funnel. Guía al usuario por 8 fases: contexto, buckets, SMIQ, diseño del quiz, survey, stress test, métricas, y output final.
+Workshop interactivo para diseñar un quiz funnel. Guía al usuario por 8 fases: contexto, buckets, PREGUNTA RAÍZ, diseño del quiz, survey, stress test, métricas, y output final.
 
 ```
 /quiz [industria, producto, o mercado target]

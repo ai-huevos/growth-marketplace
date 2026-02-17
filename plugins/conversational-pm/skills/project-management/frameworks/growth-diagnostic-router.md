@@ -92,7 +92,7 @@ La PM activa plugins y skills como herramientas. No ejecuta el trabajo técnico 
 | "Necesito copy para lanzar" | `/copy` | ICP + positioning + value prop | Landing page + email sequence |
 | "Necesito mejorar mi pipeline" | `/pipeline` | Datos de pipeline actuales | Health analysis con PULSO scoring |
 | "Necesito propuesta comercial" | `/propuesta` | PULSO discovery data | Propuesta con business case |
-| "Necesito mejorar mi equipo" | coaching-cadence | Team assessment | REKS diagnosis + coaching plan |
+| "Necesito mejorar mi equipo" | coaching-cadence | Team assessment | ROCA diagnosis + coaching plan |
 | "Quiero diseñar mi funnel" | `/escala` + flujo | Value Ladder + traffic data | Funnel blueprint completo |
 | "Quiero construir comunidad" | alma → community pipeline | Brand voice + ICP | Community launch plan |
 

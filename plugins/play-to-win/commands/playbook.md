@@ -106,7 +106,7 @@ Generar como parte del playbook:
 1. **Training deck** — Estructura de presentacion (15-25 slides en markdown)
 2. **Quick reference guide** — One-pager imprimible con proceso core
 3. **Templates de ejecucion** — PULSO adaptado al ICP, scripts de discovery, mapeo de organización
-4. **Scripts de coaching** — Guia de 1-on-1 (formato REKS), deal review para reuniones
+4. **Scripts de coaching** — Guia de 1-on-1 (formato ROCA), deal review para reuniones
 5. **Biblioteca de ejemplos** — Ejemplos de ejecucion exitosa y errores comunes
 
 ### Fase 6: Disenar plan de medicion con hypothesis cards

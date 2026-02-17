@@ -81,7 +81,7 @@ Plays de alto impacto para coaching de ventas y framework completo para conversa
 4. (5 min) Homework: Aplicar la skill en una call real esta semana, traer grabacion
 
 **Rotacion sugerida de skills**:
-- Semana 1: Apertura ACE (Appreciate, Check, End Goal)
+- Semana 1: Apertura AVE (Agradecimiento, Verificación, Expectativas)
 - Semana 2: Preguntas de Urgencia (cuantificable + cualitativo)
 - Semana 3: Identificar Situación Crítica
 - Semana 4: Mapear Organización / Buying Center
@@ -95,7 +95,7 @@ El rep sabe que algo no esta funcionando y quiere ayuda.
 
 Approach:
 - Ser directo: "Veo que [metrica] esta en [numero]. Hablemos de por que y como arreglarlo."
-- Diagnosticar con REKS juntos
+- Diagnosticar con ROCA juntos
 - Co-crear plan de mejora
 - El rep define sus propios compromisos
 

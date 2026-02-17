@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Pipeline Management
 
-Sistema de gestion de pipeline basado en PULSO scoring, indicadores de salud y el modelo Bowtie de Metodología GrowthOS. Cada deal se evalua con datos, no con esperanza.
+Sistema de gestion de pipeline basado en PULSO scoring, indicadores de salud y el modelo CICLO de Metodología GrowthOS. Cada deal se evalua con datos, no con esperanza.
 
 ## Cuando usar este skill
 
@@ -36,7 +36,7 @@ Cada deal en pipeline debe tener un PULSO score actualizado. El score no es esta
 
 Para los indicadores detallados de salud (senales rojo/amarillo/verde por dimension), leer `frameworks/health-indicators.md`.
 
-## El Modelo Bowtie
+## El Modelo CICLO
 
 El pipeline no termina en "Closed Won". El modelo completo es:
 
@@ -44,12 +44,12 @@ El pipeline no termina en "Closed Won". El modelo completo es:
 LeadGen → LeadDev → Sales → Commit → Onboard → Adopt → Expand
 ```
 
-**Pre-venta** (lado izquierdo del bowtie):
+**Pre-venta** (lado izquierdo del ciclo):
 - LeadGen: Generacion de leads (MQLs)
 - LeadDev: Calificacion y desarrollo (SQLs)
 - Sales: Discovery + propuesta + cierre
 
-**Post-venta** (lado derecho del bowtie):
+**Post-venta** (lado derecho del ciclo):
 - Commit: Firma + handoff a CS
 - Onboard: Implementacion + activacion
 - Adopt: Uso real + resultados

@@ -8,7 +8,7 @@ Antes de construir un quiz funnel completo, valida tus hipótesis con la menor i
 
 **Duración**: 2-3 días
 **Inversión**: $0
-**Objetivo**: Formular hipótesis de buckets y SMIQ basándote en datos existentes
+**Objetivo**: Formular hipótesis de buckets y PREGUNTA RAÍZ basándote en datos existentes
 
 ### Actividades
 
@@ -22,7 +22,7 @@ Antes de construir un quiz funnel completo, valida tus hipótesis con la menor i
 
 ### Output de Fase 1
 
-- **SMIQ hipótesis**: 2-3 candidatos a SMIQ
+- **PREGUNTA RAÍZ hipótesis**: 2-3 candidatos a PREGUNTA RAÍZ
 - **Buckets hipótesis**: 3-5 buckets propuestos con nombres
 - **Vocabulario**: Lista de palabras/frases que usa el mercado
 
@@ -61,7 +61,7 @@ Puedes avanzar a Fase 2 cuando tengas al menos 3 buckets hipótesis que:
 ### Análisis
 
 1. Exportar respuestas a spreadsheet
-2. Leer todas las respuestas al SMIQ sin categorizar
+2. Leer todas las respuestas al PREGUNTA RAÍZ sin categorizar
 3. Subrayar palabras y frases que se repiten
 4. Agrupar respuestas similares (los grupos son tus buckets)
 5. Comparar con buckets hipótesis de Fase 1
@@ -70,7 +70,7 @@ Puedes avanzar a Fase 2 cuando tengas al menos 3 buckets hipótesis que:
 ### Output de Fase 2
 
 - **Buckets validados**: 3-5 buckets confirmados por datos
-- **SMIQ definitivo**: La pregunta que mejor segmenta
+- **PREGUNTA RAÍZ definitivo**: La pregunta que mejor segmenta
 - **Copy seeds**: Frases exactas del mercado para usar en outcome pages
 
 ### Criterio de avance
@@ -78,7 +78,7 @@ Puedes avanzar a Fase 2 cuando tengas al menos 3 buckets hipótesis que:
 Puedes avanzar a Fase 3 cuando:
 - Tengas al menos 30 respuestas
 - Los buckets cubran >80% de las respuestas
-- El SMIQ genere respuestas que se agrupan naturalmente
+- El PREGUNTA RAÍZ genere respuestas que se agrupan naturalmente
 
 ## Fase 3: Build & Soft Launch ($50-100)
 
@@ -102,7 +102,7 @@ Puedes avanzar a Fase 3 cuando:
 | 1 | Hook page | Headline + subheadline + CTA "Tomar el quiz" |
 | 2 | Pregunta 1-2 | Grease-the-wheels |
 | 3 | Pregunta 3 | Segmentación (asigna bucket) |
-| 4 | Pregunta 4 | SMIQ (open-ended) |
+| 4 | Pregunta 4 | PREGUNTA RAÍZ (open-ended) |
 | 5 | Pregunta 5-6 | Blind-spot + urgencia |
 | 6 | Email gate | Nombre + email antes del resultado |
 | 7 | Outcome pages | Una por bucket (3-5 páginas) |

@@ -51,7 +51,7 @@ Medir Resultados → Analizar Data → Aprender + Iterar → Nueva Hipotesis
 
 **IF** [Accion especifica basada en blueprint/playbook]
 
-_Ejemplo: "IF implementamos Perfect Discovery Call + PULSO Framework y entrenamos al equipo en apertura ACE + diagnostico PULSO completo..."_
+_Ejemplo: "IF implementamos Perfect Discovery Call + PULSO Framework y entrenamos al equipo en apertura AVE + diagnostico PULSO completo..."_
 
 **THEN** [Resultado esperado con metrica especifica]
 

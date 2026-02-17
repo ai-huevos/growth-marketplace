@@ -115,7 +115,7 @@ Template fase por fase para planificar tu funnel completo. Claude completa este 
 ### Integración con Quiz Funnel
 
 - [ ] ¿Usar quiz como lead magnet? → Conectar con skill quiz-funnel
-- **SMIQ propuesto**: "___"
+- **PREGUNTA RAÍZ propuesta**: "___"
 - **Buckets esperados**: ___
 
 ### Acciones

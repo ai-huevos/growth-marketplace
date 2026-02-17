@@ -1,5 +1,5 @@
 ---
-description: Prepara un 1:1 de coaching con un rep de ventas. Diagnostico REKS, agenda estructurada, y feedback preparado.
+description: Prepara un 1:1 de coaching con un rep de ventas. Diagnostico ROCA, agenda estructurada, y feedback preparado.
 argument-hint: <nombre del rep o contexto>
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch]
 ---
@@ -26,11 +26,11 @@ Preguntar al usuario:
 
 **Esperar las respuestas.**
 
-### Fase 2: Diagnostico REKS
+### Fase 2: Diagnostico ROCA
 
-Guiar al usuario por el arbol de decision REKS.
+Guiar al usuario por el arbol de decision ROCA.
 
-Leer `skills/coaching-cadence/frameworks/reks-framework.md` para los detalles completos.
+Leer `skills/coaching-cadence/frameworks/roca-framework.md` para los detalles completos.
 
 **Paso 1 — Results**:
 "Como estan los resultados del rep vs target?"
@@ -75,7 +75,7 @@ Si Skills tiene gaps → **ISSUE DE SKILLS**
 Con la informacion, presentar:
 
 ```
-DIAGNOSTICO REKS: [Nombre del Rep]
+DIAGNOSTICO ROCA: [Nombre del Rep]
 ════════════════════════════════════
 Results:   [En target / Behind / Ahead]
 Effort:    [En target / Behind]
@@ -88,7 +88,7 @@ EVIDENCIA: ___
 
 ### Fase 4: Preparar Agenda del 1:1
 
-Basado en la semana del mes y el diagnostico REKS, generar una agenda de 30 minutos.
+Basado en la semana del mes y el diagnostico ROCA, generar una agenda de 30 minutos.
 
 Leer `skills/coaching-cadence/templates/one-on-one-prep.md` para el template completo.
 
@@ -113,7 +113,7 @@ Leer `skills/coaching-cadence/templates/one-on-one-prep.md` para el template com
 ```
 [0:00-0:05] Check-in personal
 [0:05-0:15] Desarrollo: Donde quiere estar en 6-12 meses?
-[0:15-0:25] Coaching de 1 skill especifica (REKS-based)
+[0:15-0:25] Coaching de 1 skill especifica (ROCA-based)
 [0:25-0:30] Plan de desarrollo + compromisos
 ```
 
@@ -159,7 +159,7 @@ Generar 3-5 preguntas de coaching basadas en el diagnostico:
 
 ### Output Final
 
-1. Diagnostico REKS con evidencia
+1. Diagnostico ROCA con evidencia
 2. Agenda del 1:1 (30 min) adaptada a la semana y diagnostico
 3. Feedback preparado (TOAST)
 4. Preguntas de coaching priorizadas

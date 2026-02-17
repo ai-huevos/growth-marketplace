@@ -64,18 +64,18 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 **Tipo**: Flujo psicológico de landing pages
 **Componentes**: Atención → Interés → Deseo → Confianza → Acción (10 secciones)
 
-### 10. ASK Method (Ryan Levesque)
-**Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/ask-method-fundamentals.md`
+### 10. Metodología SONDA
+**Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/sonda-methodology.md`
 **Usado por**: quiz-funnel skill, /quiz command
 **Tipo**: Framework de segmentación de mercado via quiz funnels
-**Componentes**: SMIQ, Buckets, Micro-compromisos, Outcome Pages
+**Componentes**: PREGUNTA RAÍZ, Buckets, Micro-compromisos, Outcome Pages
 **Scoring**: Bucket Scorecard 0-100 (Volume 30%, ICP Match 25%, Engagement 20%, Decision 15%, Pain 10%)
 
 ### 11. Question Design Framework
 **Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/question-design-framework.md`
 **Usado por**: quiz-funnel skill, /quiz command
 **Tipo**: Framework de diseño de preguntas para quizzes B2B
-**Componentes**: 4 tipos (Grease-the-wheels, Segmentación, SMIQ, Blind-spot), reglas por tipo, errores comunes
+**Componentes**: 4 tipos (Grease-the-wheels, Segmentación, PREGUNTA RAÍZ, Blind-spot), reglas por tipo, errores comunes
 
 ### 12. Lean Stress Test
 **Ubicación**: `growth-foundations/skills/quiz-funnel/frameworks/lean-stress-test.md`
@@ -135,7 +135,7 @@ Top 3 por leverage:
 
 ### 6. Quiz Question Library (53 preguntas)
 **Ubicación**: `growth-foundations/skills/quiz-funnel/patterns/quiz-question-library.md`
-**Contenido**: 53 preguntas reutilizables organizadas por tipo (grease-the-wheels, segmentación, SMIQ, blind-spot, urgencia/decisión). Adaptables a cualquier industria B2B.
+**Contenido**: 53 preguntas reutilizables organizadas por tipo (grease-the-wheels, segmentación, PREGUNTA RAÍZ, blind-spot, urgencia/decisión). Adaptables a cualquier industria B2B.
 
 ### 7. Funnel Mechanics
 **Ubicación**: `growth-foundations/skills/quiz-funnel/patterns/funnel-mechanics.md`

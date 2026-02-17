@@ -128,7 +128,7 @@ Biblioteca de combinaciones de frameworks optimizadas para problemas especificos
 
 | Framework | Nombre | Rol en la Combinacion | Orden |
 |-----------|--------|----------------------|-------|
-| **07** | REKS Goal Setting | Diagnosticar gaps por nivel | 1ro |
+| **07** | ROCA Goal Setting | Diagnosticar gaps por nivel | 1ro |
 | **09** | Sales Playbook | Documentar proceso repetible | 2do |
 | **11** | Coaching Methods | Implementar coaching sistematico | 3ro |
 

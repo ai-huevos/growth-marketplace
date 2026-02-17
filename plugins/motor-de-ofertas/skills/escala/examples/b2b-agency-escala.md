@@ -60,7 +60,7 @@ Caso de estudio de una escalera de valor ESCALA aplicada a una agencia ficticia 
 4. "Que porcentaje de tu budget va a paid vs organic?" (Contexto)
 5. "Tienes un proceso documentado de lead scoring?" (Madurez)
 6. "Cada cuanto optimizas tus campanas de paid?" (Madurez)
-7. "Cual es tu mayor desafio de demand gen ahora mismo?" (SMIQ — open-ended)
+7. "Cual es tu mayor desafio de demand gen ahora mismo?" (PREGUNTA RAÍZ — open-ended)
 8. "Para cuando necesitas resolver esto?" (Urgencia)
 
 ### Tier 2: FRONTEND — "Playbook Demand Gen para SaaS B2B"

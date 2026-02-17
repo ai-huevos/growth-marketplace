@@ -134,14 +134,14 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 | No hay goals basados en actividades | Media | Reps no saben cuantos demos/calls necesitan |
 | Coaching es ad-hoc, no sistematico | Media | 1-on-1s no tienen estructura ni datos |
 
-**Frameworks Primarios**: 7 (REKS Goal-Setting), 9 (Sales Playbook)
+**Frameworks Primarios**: 7 (ROCA Goal-Setting), 9 (Sales Playbook)
 **Frameworks de Soporte**: 11 (Coaching Methods)
 **Fase de Solucion**: Parte 4 — Goal Setting + Sales Playbook
 
 **Pre-requisito**: Dominio 3 resuelto (journey mapeado, etapas definidas).
 
 **Outputs que produce**:
-- REKS Goal Framework por rep
+- ROCA Goal Framework por rep
 - Sales Playbook v1.0 (stage-by-stage)
 - Rep Scorecards con metricas clave
 - Coaching Canvas basado en metricas
@@ -171,7 +171,7 @@ Sistema de clasificacion que categoriza problemas de ventas B2B en 7 dominios, i
 
 **Outputs que produce**:
 - PULSO Discovery Question Bank personalizado
-- ACE Opening script
+- AVE Opening script
 - Customer Story Library (10+ stories, 3-part structure)
 - Discovery Call Checklist (before/during/after)
 - PULSO Completion Rate tracking

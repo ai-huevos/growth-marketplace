@@ -303,7 +303,7 @@ Arquitecto de funnels senior que disena blueprints completos integrando ESCALA (
 El ICP informa el WHO de RADAR. Sin saber quien es el cliente ideal, no se puede disenar una escalera de valor efectiva. El ICP scoring determina para quien se disena cada nivel de ESCALA.
 
 ### flujo Fase 3 ↔ growth-foundations/quiz-funnel
-La Fase 3 de FLUJO (Calificacion) puede implementarse como un quiz funnel del ASK Method. El quiz segmenta leads en buckets que mapean a diferentes niveles de ESCALA.
+La Fase 3 de FLUJO (Calificacion) puede implementarse como un quiz funnel de la Metodología SONDA. El quiz segmenta leads en buckets que mapean a diferentes niveles de ESCALA.
 
 ### flujo Fase 7 ↔ sales-blueprint/discovery-mastery
 La Fase 7 de FLUJO (Cambiar ambiente) es el punto donde el lead marketing se convierte en oportunidad de ventas. "Cambiar ambiente" significa pasar de la interaccion digital a una discovery call con PULSO.

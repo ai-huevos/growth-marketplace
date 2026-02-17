@@ -12,9 +12,9 @@ Template para que Claude complete con el usuario durante un workshop de Quiz Fun
 - **Objetivo del quiz**: [ ] Generar leads [ ] Segmentar mercado [ ] Pre-calificar prospects [ ] Validar hipótesis
 - **Presupuesto para validación**: $___
 
-## 2. SMIQ (Single Most Important Question)
+## 2. PREGUNTA RAÍZ (Pregunta Más Importante)
 
-- **SMIQ seleccionado**: "___"
+- **PREGUNTA RAÍZ seleccionada**: "___"
 - **Por qué esta pregunta**: ___
 - **Respuestas esperadas (hipótesis)**: ___
 
@@ -46,7 +46,7 @@ Template para que Claude complete con el usuario durante un workshop de Quiz Fun
 | 1 | Grease-the-wheels | ___ | A) ___ B) ___ C) ___ | ___ |
 | 2 | Grease-the-wheels | ___ | A) ___ B) ___ C) ___ | ___ |
 | 3 | Segmentación | ___ | A) ___ B) ___ C) ___ | Asigna bucket |
-| 4 | SMIQ | ___ | [Campo abierto] | Descubrir dolor |
+| 4 | PREGUNTA RAÍZ | ___ | [Campo abierto] | Descubrir dolor |
 | 5 | Blind-spot | ___ | A) ___ B) ___ C) ___ | ___ |
 | 6 | Urgencia | ___ | A) ___ B) ___ C) ___ | ___ |
 

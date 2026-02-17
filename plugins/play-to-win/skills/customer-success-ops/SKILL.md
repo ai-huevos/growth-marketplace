@@ -25,7 +25,7 @@ Sistema operativo completo para Customer Success basado en la Metodología Growt
 
 ## Arquitectura del Modelo Operativo
 
-El CS Operating Model tiene tres fases independientes que cubren el lado derecho del bowtie:
+El CS Operating Model tiene tres fases independientes que cubren el lado derecho del ciclo:
 
 ```
 CUSTOMER ACQUISITION          │         CUSTOMER SUCCESS
@@ -46,7 +46,7 @@ LeadGen → LeadDev → Sales → Commit → Onboard → Adopt → Expand
 
 | Elemento | Codigo | Descripcion |
 |----------|--------|-------------|
-| **El Journey (Bowtie)** | C1 | El journey end-to-end del cliente, desde lead generation hasta expansion |
+| **El Journey (CICLO)** | C1 | El journey end-to-end del cliente, desde lead generation hasta expansion |
 | **PULSO Framework** | C2 | Lenguaje diagnostico comun que conecta todas las interacciones con el cliente |
 | **Impacto** | C3 | La realizacion de la promesa de valor — racional (cuantitativo) y emocional (cualitativo) |
 | **Situación Crítica** | C4 | Un evento que, si se pierde, tiene consecuencias negativas — impulsa decisiones y urgencia |

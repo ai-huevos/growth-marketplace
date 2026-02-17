@@ -24,7 +24,7 @@
 1. `icp-analysis` — Perfil de cliente ideal + scoring 0-100
 2. `positioning` — Propuesta de valor, diferenciación, messaging
 3. `competitive-analysis` — Five Forces + mapa de mercado
-4. `quiz-funnel` — ASK Method adaptado a B2B
+4. `quiz-funnel` — Metodología SONDA adaptada a B2B
 5. `content-strategy` — Ski Slope + Topic Triangle + 3 workflows LATAM ⚠️ **NO CONOCIDO POR NLM**
 6. (nota: positioning no tiene subcarpetas, es SKILL.md + 1 framework)
 
@@ -32,7 +32,7 @@
 1. `discovery-mastery` — PULSO discovery calls
 2. `pipeline-management` — Health indicators + forecasting
 3. `proposal-generation` — Enterprise y mid-market proposals
-4. `coaching-cadence` — REKS framework para coaching 1:1
+4. `coaching-cadence` — ROCA framework para coaching 1:1
 
 **copywriting-engine (4):**
 1. `headline-mastery` — 50+ fórmulas de headlines
@@ -74,7 +74,7 @@
 |---------|--------|---------|
 | `/diagnostico` | growth-foundations | ClarQ assessment (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Workshop ICP + scoring |
-| `/quiz` | growth-foundations | Quiz funnel ASK Method builder |
+| `/quiz` | growth-foundations | Quiz funnel Metodología SONDA builder |
 | `/discovery` | sales-blueprint | PULSO discovery session |
 | `/pipeline` | sales-blueprint | Pipeline health analysis |
 | `/propuesta` | sales-blueprint | Proposal generation |
@@ -121,7 +121,7 @@
 ```
 # conversion-architecture.md → 16803e21 (ya existe en copywriting-engine/landing-pages/frameworks/)
 # power-headlines.md → 0e278688 (ya existe en copywriting-engine/headline-mastery/patterns/)
-# reks-framework.md → 31d18bef (ya existe en sales-blueprint/coaching-cadence/frameworks/)
+# roca-framework.md → 31d18bef (ya existe en sales-blueprint/coaching-cadence/frameworks/)
 # scoring-model.md → 993ccec7 (ya existe en growth-foundations/icp-analysis/frameworks/)
 # spiced-framework.md → fa10254c (ya existe en sales-blueprint/discovery-mastery/frameworks/)
 # trigger-library.md → 7b9394e9 (ya existe en copywriting-engine/psychological-triggers/patterns/)
@@ -166,7 +166,7 @@
 │  positioning → Value Prop Canvas + Messaging                │
 │  competitive-analysis → Battle cards + Five Forces          │
 │  content-strategy → Ski Slope + Topic Triangle ← NUEVO     │
-│  /quiz → ASK Method quiz funnel builder                     │
+│  /quiz → Metodología SONDA quiz funnel builder                     │
 └────────────────────────┬────────────────────────────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────────┐
@@ -186,7 +186,7 @@
 │  deal-strategist → PULSO score, MAP, risk matrix           │
 │  /propuesta → Propuesta con Business Case (gate: PULSO≥23) │
 │  /pipeline → Health forecast con semáforo PULSO            │
-│  /coaching → REKS diagnosis + coaching plan                 │
+│  /coaching → ROCA diagnosis + coaching plan                 │
 └────────────────────────┬────────────────────────────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────────┐

@@ -17,7 +17,7 @@ Tipo de 1:1 (rotacion mensual):
   [ ] Semana 4: Pipeline Review + Skills Refresh
 ```
 
-## Diagnostico REKS Pre-1:1
+## Diagnostico ROCA Pre-1:1
 
 Completar con datos ANTES de sentarte con el rep.
 
@@ -63,7 +63,7 @@ Completar con datos ANTES de sentarte con el rep.
 
 | Skill | Score | Evidencia |
 |-------|-------|-----------|
-| Apertura ACE | ___ | ___ |
+| Apertura AVE | ___ | ___ |
 | Discovery PULSO | ___ | ___ |
 | Demo | ___ | ___ |
 | Objection handling | ___ | ___ |
@@ -120,7 +120,7 @@ Evidencia: ___
   - Que skills necesita desarrollar?
   - Que le motiva? Que le frustra?
 [0:15-0:25] Sales coaching personalizado:
-  - 1 skill especifica basada en REKS
+  - 1 skill especifica basada en ROCA
   - Practica / roleplay
 [0:25-0:30] Plan de desarrollo + compromisos
 ```
@@ -135,7 +135,7 @@ Evidencia: ___
   - Resultado vs target del mes
 [0:15-0:25] Skills refresh:
   - Progreso en la skill que estamos trabajando
-  - REKS update: mejoro el area diagnosticada?
+  - ROCA update: mejoro el area diagnosticada?
 [0:25-0:30] Plan del proximo mes + metas
 ```
 
@@ -177,6 +177,6 @@ PREGUNTA (invitar al rep):
 ## Follow-up Post-1:1
 
 - [ ] Enviar resumen por escrito al rep (compromisos de ambos lados)
-- [ ] Actualizar REKS scorecard
+- [ ] Actualizar ROCA scorecard
 - [ ] Agendar check-in intermedio si es necesario
 - [ ] Preparar recursos/materiales que prometi

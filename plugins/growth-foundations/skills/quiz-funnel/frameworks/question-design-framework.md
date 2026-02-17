@@ -44,7 +44,7 @@ En B2B, cada pregunta adicional es fricción. El ejecutivo tiene poco tiempo y m
 | "¿Cómo describirías tu proceso de ventas?" | A) No tengo proceso definido B) Tengo proceso pero no funciona C) Funciona pero quiero optimizar |
 | "¿En qué etapa está tu empresa?" | A) Encontrando product-market fit B) Escalando el equipo C) Optimizando márgenes |
 
-### Tipo 3: SMIQ (Single Most Important Question)
+### Tipo 3: PREGUNTA RAÍZ (Pregunta Más Importante)
 
 **Propósito**: Descubrir el dolor profundo en las propias palabras del prospect. Siempre open-ended.
 
@@ -58,13 +58,13 @@ En B2B, cada pregunta adicional es fricción. El ejecutivo tiene poco tiempo y m
 
 **Ejemplos B2B**:
 
-| Industria | SMIQ |
+| Industria | PREGUNTA RAÍZ |
 |-----------|------|
 | SaaS Sales | "¿Cuál es el mayor obstáculo para cerrar más deals este trimestre?" |
 | Marketing Agency | "¿Qué es lo que más te frustra de tu estrategia actual de generación de leads?" |
 | Consulting | "Si pudieras resolver UN problema en tu operación, ¿cuál sería?" |
 
-**Nota**: Las respuestas al SMIQ son oro puro para copywriting. Usa las palabras exactas del mercado en tu messaging.
+**Nota**: Las respuestas a la PREGUNTA RAÍZ son oro puro para copywriting. Usa las palabras exactas del mercado en tu messaging.
 
 ### Tipo 4: Blind-spot (Preguntas reveladoras)
 
@@ -92,7 +92,7 @@ En B2B, cada pregunta adicional es fricción. El ejecutivo tiene poco tiempo y m
 | 1 | Grease-the-wheels | Calentar, generar compromiso |
 | 2 | Grease-the-wheels | Establecer contexto, dato firmográfico |
 | 3 | Segmentación | Asignar a bucket (pregunta clave) |
-| 4 | SMIQ | Descubrir dolor profundo (open-ended) |
+| 4 | PREGUNTA RAÍZ | Descubrir dolor profundo (open-ended) |
 | 5 | Blind-spot | Revelar gap, generar urgencia |
 | 6 | Segmentación/Urgencia | Confirmar bucket o medir timing |
 
@@ -134,8 +134,8 @@ En B2B, cada pregunta adicional es fricción. El ejecutivo tiene poco tiempo y m
 |---|-------|---------|------------|
 | 1 | Preguntas que juzgan | Prospect se siente evaluado, abandona | Preguntas neutrales que exploran |
 | 2 | Opciones que no resuenan | Prospect no se ve en ninguna opción | Testear opciones con 5 personas reales |
-| 3 | SMIQ como primera pregunta | Demasiada profundidad sin calentamiento | Ponerla en posición 4-5 |
-| 4 | Todas las preguntas cerradas | No descubres nada nuevo | Al menos 1 open-ended (SMIQ) |
+| 3 | PREGUNTA RAÍZ como primera pregunta | Demasiada profundidad sin calentamiento | Ponerla en posición 4-5 |
+| 4 | Todas las preguntas cerradas | No descubres nada nuevo | Al menos 1 open-ended (PREGUNTA RAÍZ) |
 | 5 | Preguntas sobre demografía solamente | No segmentas por dolor | Combinar con preguntas de situación/dolor |
 | 6 | Pedir email al inicio | Abandono masivo | Email gate después de la última pregunta |
 | 7 | Más de 7 preguntas en B2B | Completion rate <40% | Cortar sin piedad |
