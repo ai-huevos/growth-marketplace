@@ -1,0 +1,14 @@
+{
+  "name": "play-to-win",
+  "version": "1.0.0",
+  "description": "Sistema completo Winning by Design — transforma equipos de ventas B2B en 90 dias con metodologias probadas para customer success, relationship mapping, deal analysis, y coaching de alto impacto.",
+  "author": {
+    "name": "AI Huevos",
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["b2b", "winning-by-design", "customer-success", "deal-strategy", "relationship-mapping", "sales-transformation", "spiced", "spanish"]
+}

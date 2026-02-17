@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
-**Quick stats**: 5 plugins, 18 skills, 7 agents, 12 commands, 25 templates, ~127 content files.
+**Quick stats**: 6 plugins, 24 skills, 8 agents, 15 commands, 46 templates, ~170 content files.
 
 > **Note**: The root `README.md` only documents `growth-foundations` (1 of 5 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
 
@@ -45,6 +45,7 @@ plugins/
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | SPICED project discovery, Growth Diagnostic Router, Agent roster |
 | `dotcom-secrets` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma (Russell Brunson adapted to B2B LATAM) |
+| `play-to-win` | Customer success, relationship mapping, deal strategy, renewal/expansion, sales transformation, pre-discovery research | Winning by Design full lifecycle (90-day transformation, CS Operating Model, Playbook Coach) |
 
 ### Tools (non-plugin)
 
@@ -81,6 +82,9 @@ plugins/
 | `/email-sequence` | copywriting-engine | Email sequence builder |
 | `/escala` | dotcom-secrets | ESCALA value ladder builder |
 | `/funnel-diagnosis` | dotcom-secrets | Funnel optimization diagnosis |
+| `/playbook` | play-to-win | GTM playbook synthesizer (AI Sales Coach) |
+| `/deal-analysis` | play-to-win | Win/loss SPICED analysis session |
+| `/kickoff` | play-to-win | Customer kickoff call orchestrator |
 
 ## Conventions
 
@@ -94,7 +98,7 @@ plugins/
 
 All project knowledge — architecture decisions, error patterns, dependency choices, discussions, and context — lives in the **NotebookLM notebook**. This file does NOT store knowledge. The notebook is the single source of truth.
 
-Source documents are maintained in `docs/second-brain/` using the `NN-slug.md` naming convention (24 docs numbered 00–23, plus `GUIA-NOTEBOOKLM.md`). Filenames are self-descriptive — use `ls docs/second-brain/` to browse.
+Source documents are maintained in `docs/second-brain/` using the `NN-slug.md` naming convention (26 docs numbered 00–25, plus `GUIA-NOTEBOOKLM.md`). Filenames are self-descriptive — use `ls docs/second-brain/` to browse.
 
 **Key documents**:
 - `00-proyecto-overview.md` — Project vision, plugins, audience, key metrics

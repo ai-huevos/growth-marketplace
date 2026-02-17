@@ -118,11 +118,55 @@ Template (ADN) → Agente ejecuta → Output (fenotipo) → Resultado (selecció
 |----|----------|-------|-----------------|-----------|
 | T-34 | ai-prompt-patterns | psychological-triggers | 5 mega-prompts (JTBD, Hooks, CRO, Enemy, Multiplication) | Output usable en < 3 iteraciones |
 
+### Plugin: play-to-win
+
+#### sales-transformation
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-35 | sales-health-audit | sales-transformation | Diagnóstico completo de salud del sistema de ventas (7 dominios) | 105 preguntas evaluadas, gaps priorizados |
+| T-36 | playbook-synthesis | sales-transformation | Playbook personalizado de 7 secciones basado en blueprints seleccionados | Playbook ejecutable sin consulta adicional |
+| T-37 | hypothesis-card | sales-transformation | Tarjeta IF/THEN/BECAUSE para testing de hipótesis de ventas | Hipótesis medible en < 2 semanas |
+| T-38 | messaging-architecture | sales-transformation | Matriz de arquitectura de mensajes (7 secciones, por persona) | Mensajes consistentes across equipo |
+
+#### customer-success-ops
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-39 | joint-impact-plan-worksheet | customer-success-ops | Plan de impacto conjunto 12 meses (WHAT/WHO/WHEN/HOW) | Cliente firma JIP en kickoff |
+| T-40 | health-scoring-dashboard | customer-success-ops | Dashboard 4 pilares (Producto, Servicio, Resultado, Sentimiento) | Health score calculado para 100% cuentas |
+| T-41 | trigger-play-cards | customer-success-ops | 10 tarjetas IFTTT (5 riesgo + 5 oportunidad) con acciones específicas | CSM ejecuta play en < 24h del trigger |
+
+#### pre-discovery-research
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-42 | pre-call-brief | pre-discovery-research | Brief de inteligencia pre-llamada (5 capas: Company/Human/Industry/Geo/Timing) | SDR completa brief en < 15 min |
+
+#### deal-strategy
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-43 | win-loss-analysis-template | deal-strategy | Análisis SPICED de win/loss con patrones de concentración y recomendaciones CRM | 12 secciones completas por deal |
+
+#### relationship-mapping
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-44 | org-mapping-worksheet | relationship-mapping | Mapa organizacional 6 pasos con 7 roles del buying center | Todos los stakeholders identificados y clasificados |
+| T-45 | three-by-three-canvas | relationship-mapping | Canvas 3×3 de planificación de relaciones (acciones × stakeholders × timeline) | Plan de multi-threading ejecutable |
+
+#### renewal-expansion
+
+| ID | Template | Skill | Output Contract | Benchmark |
+|----|----------|-------|-----------------|-----------|
+| T-46 | renewal-conversation-script | renewal-expansion | Script de conversación de renovación (ACE → SPI → demo → trade) | Renewal rate > 90% |
+
 ---
 
 ## Estadísticas
 
-- **Total templates**: 34
-- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), dotcom-secrets (11), conversational-pm (1)
+- **Total templates**: 46
+- **Por plugin**: growth-foundations (10), sales-blueprint (7), copywriting-engine (5), dotcom-secrets (11), conversational-pm (1), play-to-win (12)
 - **Última actualización**: 2026-02-16
-- **Sprint**: Playbook Triage — 9 nuevos templates de 10 playbooks B2B marketing
+- **Sprint**: Play to Win — 12 nuevos templates de 31 Winning by Design blueprints
