@@ -22,7 +22,7 @@
     {
       "name": "sales-blueprint",
       "source": "./plugins/sales-blueprint",
-      "description": "Sistema de ejecución de ventas B2B: PULSO discovery, pipeline health, proposals, y coaching REKS. Metodología GrowthOS.",
+      "description": "Sistema de ejecución de ventas B2B: PULSO discovery, pipeline health, proposals, y coaching ROCA. Metodología GrowthOS.",
       "version": "1.0.0",
       "keywords": ["b2b", "sales", "pulso", "discovery", "pipeline", "proposals", "coaching", "spanish"],
       "category": "productivity",

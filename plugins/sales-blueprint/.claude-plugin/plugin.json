@@ -1,7 +1,7 @@
 {
   "name": "sales-blueprint",
   "version": "1.0.0",
-  "description": "B2B sales execution system: PULSO discovery, pipeline health scoring, proposal generation, and REKS coaching cadence. Based on Metodología GrowthOS.",
+  "description": "B2B sales execution system: PULSO discovery, pipeline health scoring, proposal generation, and ROCA coaching cadence. Based on Metodología GrowthOS.",
   "author": {
     "name": "AI Huevos",
     "email": "hola@huevos.ai",

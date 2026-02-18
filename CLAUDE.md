@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
-**Quick stats**: 6 plugins, 29 skills, 8 agents, 18 commands, 56 templates, ~200 content files.
+**Quick stats**: 6 plugins, 31 skills, 8 agents, 18 commands, 56 templates, ~200 content files.
 
 > **Note**: The root `README.md` only documents `growth-foundations` (1 of 6 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
 
@@ -75,7 +75,7 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 
 | Plugin | Focus | Key Methodology |
 |--------|-------|-----------------|
-| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | PULSO segmentation, Metodología SONDA, Ski Slope Strategy |
+| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | PULSO segmentation, Metodología SONDA, Estrategia PENDIENTE |
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Metodología GrowthOS / PULSO |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | PULSO project discovery, Growth Diagnostic Router, Agent roster |
