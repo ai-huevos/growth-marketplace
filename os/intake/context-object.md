@@ -106,6 +106,47 @@ meeting_data:
   transcripts: [] # Array de transcript IDs del MCP
   insights: [] # Insights extraídos de reuniones
 
+# Governance (Constitución Agéntica — os/governance/agentic-constitution.md)
+trust_levels:
+  # Nivel de confianza por skill: HITL (default), HOTL, HOOTL
+  # Se actualiza según criterios de graduación del Art. V
+  icp-analysis: "HOTL"        # Green zone, graduado tras 50+ ejecuciones exitosas
+  positioning: "HITL"          # Yellow zone, requiere validación estratégica
+  competitive-analysis: "HOTL" # Green zone, graduado
+  content-strategy: "HITL"     # Yellow zone
+  quiz-funnel: "HITL"          # Yellow zone
+  clarq-diagnostic: "HOTL"     # Green zone, scoring formulaico
+  # ... (se expande con cada skill usado por el cliente)
+
+escalation_log:
+  # Registro de escalaciones (Art. IV) — alimenta graduación de confianza
+  - timestamp: "2026-02-17T14:30:00Z"
+    trigger: "low_confidence"
+    skill: "proposal-generation"
+    confidence: 62
+    resolution: "Usuario proporcionó contexto adicional sobre decisor"
+    resolved_by: "human"
+    impact: "Output regenerado con confidence 89%"
+
+quality_metrics:
+  # Métricas por skill para tracking de graduación y drift detection
+  icp-analysis:
+    total_executions: 12
+    avg_confidence: 88
+    avg_quality_score: 8.1
+    escalation_rate: 0.08  # 8% — dentro de rango normal
+    human_edit_rate: 0.05  # 5% — bajo, candidato a graduación
+    last_execution: "2026-02-17T11:00:00Z"
+    cost_total_usd: 2.40
+  proposal-generation:
+    total_executions: 3
+    avg_confidence: 74
+    avg_quality_score: 7.8
+    escalation_rate: 0.33  # 33% — alto, mantener HITL
+    human_edit_rate: 0.25
+    last_execution: "2026-02-17T15:00:00Z"
+    cost_total_usd: 1.80
+
 # Metadatos
 metadata:
   growth_stage: "growth" # early, growth, scale
@@ -158,6 +199,33 @@ Artefactos generados por los skills. Cada output tiene:
 - `file`: Nombre del archivo
 - `created_at`: Timestamp
 - Datos específicos del output (varía por tipo)
+
+### trust_levels
+Nivel de confianza por skill, gestionado por la Constitución Agéntica (`os/governance/agentic-constitution.md`, Art. V):
+- `HITL` (Human-In-The-Loop): Default — humano aprueba antes de ejecución
+- `HOTL` (Human-On-The-Loop): Humano monitorea, interviene por excepción (>95% accuracy, 30 días)
+- `HOOTL` (Human-Out-Of-The-Loop): Ejecución autónoma (>99% accuracy, 90 días)
+
+Se actualiza automáticamente según criterios de graduación. Puede degradarse si baja la precisión.
+
+### escalation_log
+Registro cronológico de escalaciones (Art. IV). Cada entrada captura:
+- `trigger`: Tipo de escalación (low_confidence, critical_score, sentiment_risk, quality_failure, fragile_giant)
+- `skill`: Skill que generó la escalación
+- `confidence`: Score de confianza al momento del trigger
+- `resolution`: Cómo se resolvió
+- `impact`: Resultado de la resolución
+
+Alimenta los criterios de graduación de confianza — escalaciones frecuentes bloquean graduación.
+
+### quality_metrics
+Métricas acumuladas por skill para tracking de rendimiento y drift detection:
+- `total_executions`: Conteo total
+- `avg_confidence`: Confianza promedio (0-100)
+- `avg_quality_score`: Quality score promedio del output
+- `escalation_rate`: Porcentaje de ejecuciones que generaron escalación
+- `human_edit_rate`: Porcentaje de outputs editados por el humano
+- `cost_total_usd`: Costo acumulado en tokens
 
 ### meeting_data
 Datos de reuniones si está conectado a Meeting Intelligence MCP:

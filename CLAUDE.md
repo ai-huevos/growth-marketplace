@@ -45,6 +45,8 @@ os/
     atraer.md              ← Phase 2: Content, funnels, lead magnets
     convertir.md           ← Phase 3: Discovery, pipeline, proposals
     escalar.md             ← Phase 4: CS ops, renewals, coaching
+  governance/
+    agentic-constitution.md  ← Agentic Constitution: NEVER/ALWAYS rules, zones, quality gates
   naming/
     framework-registry.md  ← Authoritative name map for all methodologies
   bridges/
@@ -102,6 +104,7 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 - **YAML frontmatter** in SKILL.md files defines trigger keywords that activate the skill automatically. Commands use frontmatter for `description`, `argument-hint`, and `allowed-tools`.
 - **Cross-references**: Skills reference their own `frameworks/`, `templates/`, and `patterns/` subdirectories via relative paths. Commands reference agent files (e.g., `/copy` orchestrates 4 agents).
 - **Scoring models**: ICP uses 0-100 scoring with tiers. ClarQ uses 0-40 with color heatmap. Pipeline uses PULSO-based health indicators.
+- **Agentic Constitution**: `os/governance/agentic-constitution.md` is the binding governance document for all plugins. Defines NEVER/ALWAYS rules, Green/Yellow/Red zone classifications for all 31 skills and 18 commands, escalation triggers, trust graduation (HITL → HOTL → HOOTL), budget guards, and unified quality gates. All agents must comply.
 
 ### Commands
 

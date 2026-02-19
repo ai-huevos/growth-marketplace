@@ -115,10 +115,36 @@ Ejemplo:
 
 Estos comandos están implementados en `plugins/conversational-pm/commands/`.
 
+## Governance
+
+La **Constitución Agéntica** (`governance/agentic-constitution.md`) es el documento vinculante de gobernanza para todo el marketplace. Establece:
+
+- **Reglas NEVER**: Límites inviolables que ningún agente puede traspasar (comunicación externa, PII, anti-alucinación, brand safety)
+- **Reglas ALWAYS**: Imperativos operativos obligatorios (output estructurado, PULSO como lingua franca, español-first, audit trail)
+- **Zonas de Ejecución**: Clasificación Green/Yellow/Red para los 31 skills y 18 comandos
+- **Escalación**: 5 triggers automáticos con protocolo de resolución
+- **Graduación de Confianza**: HITL → HOTL → HOOTL con criterios medibles
+- **Quality Gates**: Marco unificado pre/in/post ejecución que estandariza los gates dispersos en playbook-coach, agent-roster e ideation-agent
+
+### Integración con el Flujo GrowthOS
+
+Cuando `/os` inicia un intake o `/roadmap` genera un plan:
+
+1. El GCO carga los `trust_levels` del cliente para determinar qué skills pueden ejecutarse en modo autónomo
+2. Cada skill verifica su zona (Art. III) y nivel de confianza (Art. V) antes de ejecutar
+3. Los quality gates (Art. VII) validan entrada, proceso y salida
+4. Las escalaciones (Art. IV) se registran en `escalation_log` del GCO
+5. El `/estado` muestra progreso de graduación de confianza por skill
+
+### Compliance
+
+Todo plugin listado en `marketplace.json` está sujeto a la Constitución. Plugins nuevos deben incluir clasificación de zona para cada skill/comando en su PR de incorporación.
+
 ## Referencias
 
 - **Intake protocol**: `intake/seed-questionnaire.md`
 - **GCO schema**: `intake/context-object.md`
 - **Fases**: `phases/definir.md`, `phases/atraer.md`, `phases/convertir.md`, `phases/escalar.md`
+- **Constitución Agéntica**: `governance/agentic-constitution.md`
 - **Framework registry**: `naming/framework-registry.md`
 - **Meeting Intelligence bridge**: `bridges/meeting-intelligence.md`
