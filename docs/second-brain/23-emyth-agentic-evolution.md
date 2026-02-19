@@ -67,7 +67,7 @@ The goal: build a business that works **without you** — not because you're abs
 
 ### 1.4 The Turn-Key Revolution
 
-Inspired by Ray Kroc and McDonald's: the franchise model proves that a business can be designed as a **system** that works the same way every time, operated by people with the least possible skill level. This is not about exploiting workers — it's about making the system so good that the results don't depend on exceptional talent.
+Inspired by Ray Kroc and McDonald's: the franchise model proves that a business can be designed as a **system** that works the same way every time, operated by people with the least possible skill level. This is not about exploiting workers — **it's about making the system so good that the results don't depend on exceptional talent**.
 
 **The Franchise Prototype rule:** Build your business as if you were going to franchise it 5,000 times, even if you never will.
 
