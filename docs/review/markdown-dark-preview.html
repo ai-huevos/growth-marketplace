@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markdown Review — AI Huevos</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/json.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/yaml.min.js"></script>
+  <style>
+    /* Shared */
+    :root, [data-theme="dark"] {
+      --color-white: #FFFFFF;
+      --color-black: #030102;
+      --color-yellow: #FFD826;
+      --color-blue: #3988FF;
+      --color-violet: #B59EF9;
+      --color-orange: #FF5C23;
+      --color-gray-900: #070707;
+      --color-gray-800: #101010;
+      --color-gray-700: #212121;
+      --color-gray-dark: #8B8B8B;
+      --font-primary: 'Scandia', 'Inter', system-ui, -apple-system, sans-serif;
+      --font-mono: 'Geist Mono', 'Monaco', 'Consolas', 'Courier New', monospace;
+    }
+
+    [data-theme="light"] {
+      --color-white: #FFFFFF;
+      --color-black: #030102;
+      --color-yellow: #E5B91E;
+      --color-blue: #2868D4;
+      --color-violet: #9B87E8;
+      --color-orange: #E54E15;
+      --color-gray-900: #F5F5F5;
+      --color-gray-800: #E8E8E8;
+      --color-gray-700: #212121;
+      --color-gray-dark: #8B8B8B;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--color-black);
+      color: var(--color-white);
+      font-family: var(--font-primary);
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    [data-theme="light"] body {
+      background: var(--color-white);
+      color: var(--color-black);
+    }
+
+    /* Drop zone */
+    .drop-zone {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+      background: var(--color-black);
+      border: 2px dashed var(--color-gray-700);
+      border-radius: 12px;
+      margin: 1rem;
+      transition: border-color 0.2s, background 0.2s;
+      z-index: 1;
+    }
+
+    [data-theme="light"] .drop-zone { background: var(--color-white); border-color: var(--color-gray-700); }
+
+    .drop-zone.dragover {
+      border-color: var(--color-blue);
+      background: var(--color-gray-900);
+    }
+
+    [data-theme="light"] .drop-zone.dragover { background: var(--color-gray-800); }
+
+    .drop-zone.hidden { display: none; }
+
+    .drop-zone p { margin: 0; color: var(--color-gray-dark); font-size: 14px; }
+    .drop-zone .prompt { color: var(--color-white); font-size: 18px; font-weight: 500; }
+    [data-theme="light"] .drop-zone .prompt { color: var(--color-black); }
+
+    .drop-zone input[type="file"] {
+      position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+    }
+
+    .file-name {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-blue);
+      word-break: break-all;
+      max-width: 80%;
+      text-align: center;
+    }
+
+    /* Content area */
+    .content-wrap {
+      display: none;
+      padding: 2rem 3rem 4rem;
+      max-width: 72ch;
+      margin: 0 auto;
+    }
+
+    .content-wrap.visible { display: block; }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 0.75rem 0;
+      margin-bottom: 1rem;
+      background: var(--color-black);
+      border-bottom: 1px solid var(--color-gray-700);
+      z-index: 2;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    [data-theme="light"] .toolbar {
+      background: var(--color-white);
+      border-bottom-color: var(--color-gray-700);
+    }
+
+    .toolbar .file-label {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-gray-dark);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .toolbar-actions { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
+
+    .theme-toggle {
+      display: flex;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid var(--color-gray-700);
+    }
+
+    .theme-toggle button {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 0.4em 0.75em;
+      border: none;
+      cursor: pointer;
+      background: transparent;
+      color: var(--color-gray-dark);
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .theme-toggle button.active {
+      background: var(--color-blue);
+      color: var(--color-white);
+    }
+
+    [data-theme="light"] .theme-toggle button.active {
+      background: var(--color-blue);
+      color: var(--color-white);
+    }
+
+    .theme-toggle button:not(.active):hover {
+      background: var(--color-gray-800);
+      color: var(--color-white);
+    }
+
+    [data-theme="light"] .theme-toggle button:not(.active):hover {
+      background: var(--color-gray-800);
+      color: var(--color-black);
+    }
+
+    .toolbar button.primary {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--color-white);
+      background: var(--color-orange);
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .toolbar button.primary:hover {
+      background: var(--color-yellow);
+      color: var(--color-black);
+    }
+
+    /* Markdown body — shared structure */
+    .markdown-body h1, .markdown-body h2, .markdown-body h3,
+    .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+      font-weight: 500;
+      color: var(--color-white);
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+      line-height: 1.2;
+    }
+
+    [data-theme="light"] .markdown-body h1, [data-theme="light"] .markdown-body h2,
+    [data-theme="light"] .markdown-body h3, [data-theme="light"] .markdown-body h4,
+    [data-theme="light"] .markdown-body h5, [data-theme="light"] .markdown-body h6 {
+      color: var(--color-black);
+    }
+
+    .markdown-body h1 { font-size: 32px; border-left: 4px solid var(--color-yellow); padding-left: 0.5em; }
+    .markdown-body h2 { font-size: 28px; border-bottom: 1px solid var(--color-yellow); padding-bottom: 0.25em; }
+    .markdown-body h3 { font-size: 24px; }
+    .markdown-body h4 { font-size: 20px; }
+    .markdown-body h5 { font-size: 18px; }
+    .markdown-body h6 { font-size: 16px; color: var(--color-gray-dark); }
+
+    .markdown-body p { margin: 0 0 1em; }
+    .markdown-body a { color: var(--color-blue); text-decoration: none; }
+    .markdown-body a:hover { color: var(--color-orange); text-decoration: underline; }
+
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1em; padding-left: 1.5em; }
+    .markdown-body ol { list-style-type: none; padding-left: 0; counter-reset: list-item; }
+    .markdown-body ol li { counter-increment: list-item; padding-left: 1.5em; position: relative; margin: 0.25em 0; }
+    .markdown-body ol li::before { content: counter(list-item) ". "; position: absolute; left: 0; color: var(--color-violet); font-weight: 500; }
+    .markdown-body ul li::marker { color: var(--color-yellow); }
+    .markdown-body li { margin: 0.25em 0; }
+
+    .markdown-body blockquote {
+      margin: 1em 0;
+      padding: 0.5em 0 0.5em 1em;
+      border-left: 4px solid var(--color-violet);
+      background: var(--color-gray-800);
+      color: var(--color-gray-dark);
+      font-style: italic;
+    }
+
+    [data-theme="light"] .markdown-body blockquote {
+      background: var(--color-gray-800);
+      color: var(--color-gray-dark);
+    }
+
+    .markdown-body code {
+      font-family: var(--font-mono);
+      font-size: 0.9em;
+      background: var(--color-gray-800);
+      color: var(--color-yellow);
+      padding: 0.15em 0.4em;
+      border-radius: 4px;
+    }
+
+    [data-theme="light"] .markdown-body code {
+      background: var(--color-gray-800);
+      color: var(--color-black);
+    }
+
+    /* Code blocks — use what Highlight.js builds; we only adapt to brand (high contrast) */
+    .markdown-body pre {
+      font-family: var(--font-mono) !important;
+      font-size: 14px !important;
+      line-height: 1.4 !important;
+      background: var(--color-gray-800) !important;
+      color: var(--color-white) !important;
+      padding: 1rem 1.25rem !important;
+      border-radius: 8px !important;
+      overflow-x: auto !important;
+      border: 1px solid var(--color-gray-700) !important;
+    }
+
+    [data-theme="light"] .markdown-body pre {
+      background: var(--color-gray-800) !important;
+      color: var(--color-black) !important;
+      border-color: var(--color-gray-700) !important;
+    }
+
+    .markdown-body pre code {
+      background: none !important;
+      padding: 0 !important;
+      color: inherit !important;
+    }
+
+    /* Highlight.js — brand-adapted (built by others, we only override colors) */
+    .markdown-body pre.hljs,
+    .markdown-body pre .hljs {
+      background: var(--color-gray-800) !important;
+      color: var(--color-white) !important;
+    }
+
+    [data-theme="light"] .markdown-body pre.hljs,
+    [data-theme="light"] .markdown-body pre .hljs {
+      background: var(--color-gray-800) !important;
+      color: var(--color-black) !important;
+    }
+
+    .markdown-body .hljs-keyword { color: var(--color-blue) !important; }
+    .markdown-body .hljs-string { color: var(--color-yellow) !important; }
+    .markdown-body .hljs-comment { color: var(--color-gray-dark) !important; font-style: italic; }
+    .markdown-body .hljs-number { color: var(--color-violet) !important; }
+    .markdown-body .hljs-title { color: var(--color-blue) !important; }
+    .markdown-body .hljs-meta { color: var(--color-gray-dark) !important; }
+    .markdown-body .hljs-built_in { color: var(--color-violet) !important; }
+
+    .markdown-body table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+      font-size: 14px;
+    }
+
+    .markdown-body th, .markdown-body td {
+      border: 1px solid var(--color-gray-700);
+      padding: 0.5em 0.75em;
+      text-align: left;
+    }
+
+    .markdown-body th {
+      background: var(--color-gray-800);
+      color: var(--color-white);
+      font-weight: 500;
+      border-left: 3px solid var(--color-blue);
+    }
+
+    [data-theme="light"] .markdown-body th {
+      background: var(--color-gray-800);
+      color: var(--color-black);
+    }
+
+    .markdown-body td { background: var(--color-gray-900); }
+    [data-theme="light"] .markdown-body td { background: var(--color-gray-900); color: var(--color-black); }
+    .markdown-body tr:hover td { background: var(--color-gray-800); }
+
+    .markdown-body hr {
+      border: none;
+      border-top: 1px solid var(--color-violet);
+      margin: 2em 0;
+    }
+
+    .markdown-body strong { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="drop-zone" id="dropZone">
+    <p class="prompt">Arrastra un archivo .md aquí o haz clic para elegir</p>
+    <p>Markdown review — AI Huevos brand · Dark / Claro</p>
+    <input type="file" id="fileInput" accept=".md,text/markdown,text/x-markdown" />
+  </div>
+
+  <div class="content-wrap" id="contentWrap">
+    <div class="toolbar">
+      <span class="file-label" id="fileLabel">—</span>
+      <div class="toolbar-actions">
+        <div class="theme-toggle" role="group" aria-label="Tema">
+          <button type="button" id="themeDark" aria-pressed="true">Dark</button>
+          <button type="button" id="themeLight" aria-pressed="false">Claro</button>
+        </div>
+        <button type="button" class="primary" id="changeFile">Cambiar archivo</button>
+      </div>
+    </div>
+    <div class="markdown-body" id="output"></div>
+  </div>
+
+  <script>
+    const STORAGE_THEME = 'aihuevos-markdown-theme';
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const contentWrap = document.getElementById('contentWrap');
+    const output = document.getElementById('output');
+    const fileLabel = document.getElementById('fileLabel');
+    const changeFileBtn = document.getElementById('changeFile');
+    const themeDarkBtn = document.getElementById('themeDark');
+    const themeLightBtn = document.getElementById('themeLight');
+
+    function getTheme() {
+      return localStorage.getItem(STORAGE_THEME) || 'dark';
+    }
+
+    function setTheme(theme) {
+      theme = theme === 'light' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem(STORAGE_THEME, theme);
+      themeDarkBtn.classList.toggle('active', theme === 'dark');
+      themeLightBtn.classList.toggle('active', theme === 'light');
+      themeDarkBtn.setAttribute('aria-pressed', theme === 'dark');
+      themeLightBtn.setAttribute('aria-pressed', theme === 'light');
+    }
+
+    themeDarkBtn.addEventListener('click', () => setTheme('dark'));
+    themeLightBtn.addEventListener('click', () => setTheme('light'));
+
+    setTheme(getTheme());
+
+    function render(md) {
+      if (typeof marked !== 'undefined') {
+        marked.setOptions({ gfm: true, breaks: true });
+        output.innerHTML = marked.parse(md || '');
+      } else {
+        output.textContent = md || '';
+      }
+      output.querySelectorAll('pre code').forEach((el) => {
+        if (typeof hljs !== 'undefined' && !el.classList.contains('hljs')) {
+          hljs.highlightElement(el);
+        }
+      });
+    }
+
+    function showContent(name, text) {
+      fileLabel.textContent = name || '—';
+      render(text);
+      dropZone.classList.add('hidden');
+      contentWrap.classList.add('visible');
+    }
+
+    function showDropZone() {
+      dropZone.classList.remove('hidden');
+      contentWrap.classList.remove('visible');
+      fileLabel.textContent = '—';
+      output.innerHTML = '';
+    }
+
+    function readFile(file) {
+      const name = file.name;
+      const reader = new FileReader();
+      reader.onload = (e) => showContent(name, e.target.result);
+      reader.readAsText(file, 'UTF-8');
+    }
+
+    fileInput.addEventListener('change', () => {
+      const file = fileInput.files[0];
+      if (file) readFile(file);
+    });
+
+    changeFileBtn.addEventListener('click', () => {
+      fileInput.value = '';
+      showDropZone();
+    });
+
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('dragover');
+    });
+
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      const file = e.dataTransfer.files[0];
+      if (file && (file.name.endsWith('.md') || file.type.includes('markdown') || file.type === 'text/plain')) {
+        readFile(file);
+      } else {
+        alert('Por favor elige un archivo .md');
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PULSO Diagnosis Output",
+  "description": "Schema for PULSO diagnostic outputs across commands",
+  "type": "object",
+  "required": ["prospect", "total_score", "dimensions"],
+  "properties": {
+    "prospect": {
+      "type": "string",
+      "description": "Prospect/company being diagnosed"
+    },
+    "total_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 50,
+      "description": "Sum of 5 dimensions (0-10 each)"
+    },
+    "qualification": {
+      "enum": ["No Calificado", "Pipeline", "Calificado", "Champion"],
+      "description": "Qualification tier based on score"
+    },
+    "dimensions": {
+      "type": "object",
+      "required": ["panorama", "urgencia", "logro", "situacion_critica", "organizacion"],
+      "properties": {
+        "panorama": {
+          "type": "object",
+          "required": ["score", "evidence", "questions"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "evidence": { "type": "string" },
+            "questions": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "urgencia": {
+          "type": "object",
+          "required": ["score", "evidence", "questions"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "evidence": { "type": "string" },
+            "questions": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "logro": {
+          "type": "object",
+          "required": ["score", "evidence", "questions"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "evidence": { "type": "string" },
+            "questions": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "situacion_critica": {
+          "type": "object",
+          "required": ["score", "evidence", "questions"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "evidence": { "type": "string" },
+            "questions": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "organizacion": {
+          "type": "object",
+          "required": ["score", "evidence", "questions"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "evidence": { "type": "string" },
+            "questions": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "gate_status": {
+      "type": "object",
+      "properties": {
+        "proposal_ready": { "type": "boolean", "description": "Score >= 23" },
+        "champion_identified": { "type": "boolean" },
+        "economic_buyer_mapped": { "type": "boolean" }
+      }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

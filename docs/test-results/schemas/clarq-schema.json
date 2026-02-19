@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClarQ Assessment Output",
+  "description": "Schema for /diagnostico command output",
+  "type": "object",
+  "required": ["company", "score", "dimensions", "phase_recommendation"],
+  "properties": {
+    "company": {
+      "type": "string",
+      "description": "Company name"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 40,
+      "description": "Total ClarQ score (sum of 4 dimensions, 0-10 each)"
+    },
+    "dimensions": {
+      "type": "object",
+      "required": ["gtm", "revenue", "q2c", "capabilities"],
+      "properties": {
+        "gtm": {
+          "type": "object",
+          "required": ["score", "maturity", "gaps"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "maturity": { "enum": ["Inicial", "Definido", "Escalable", "Optimizado"] },
+            "gaps": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "revenue": {
+          "type": "object",
+          "required": ["score", "maturity", "gaps"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "maturity": { "enum": ["Inicial", "Definido", "Escalable", "Optimizado"] },
+            "gaps": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "q2c": {
+          "type": "object",
+          "required": ["score", "maturity", "gaps"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "maturity": { "enum": ["Inicial", "Definido", "Escalable", "Optimizado"] },
+            "gaps": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "capabilities": {
+          "type": "object",
+          "required": ["score", "maturity", "gaps"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+            "maturity": { "enum": ["Inicial", "Definido", "Escalable", "Optimizado"] },
+            "gaps": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "heatmap": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dimension", "color"],
+        "properties": {
+          "dimension": { "type": "string" },
+          "color": { "enum": ["rojo", "amarillo", "verde"] }
+        }
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "phase_recommendation": {
+      "enum": ["DEFINIR", "ATRAER", "CONVERTIR", "ESCALAR"],
+      "description": "Recommended GrowthOS phase based on assessment"
+    },
+    "priority_actions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "maxItems": 5
+    }
+  }
+}

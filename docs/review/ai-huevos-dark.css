@@ -1,0 +1,290 @@
+/**
+ * AI Huevos Brand — Dark mode styles for Markdown preview
+ *
+ * WHERE TO FIND: This file lives in docs/review/ai-huevos-dark.css
+ * In-editor: Open any .md → Markdown: Open Preview (Cmd+Shift+V). Preview uses this CSS.
+ * Standalone: Open docs/review/markdown-dark-preview.html in a browser, drag a .md file.
+ *
+ * Palette: black bg, white text. Yellow + blue (primary); violet (lists, blockquote, hr); orange (hover, CTAs).
+ */
+
+/* AI Huevos design tokens (dark scale) */
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #030102;
+  --color-yellow: #FFD826;
+  --color-blue: #3988FF;
+  --color-violet: #B59EF9;
+  --color-orange: #FF5C23;
+  --color-gray-900: #070707;
+  --color-gray-800: #101010;
+  --color-gray-700: #212121;
+  --color-gray-dark: #8B8B8B;
+  --font-primary: 'Scandia', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono', 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+body {
+  background-color: var(--color-black) !important;
+  color: var(--color-white) !important;
+  font-family: var(--font-primary) !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+  padding: 2rem 3rem 4rem !important;
+  max-width: 72ch;
+  margin: 0 auto !important;
+}
+
+/* Type scale — AI Huevos UI/Web (medium for headings, never bold) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary) !important;
+  font-weight: 500 !important;
+  color: var(--color-white) !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
+  line-height: 1.2 !important;
+}
+
+h1 { font-size: 32px !important; border-left: 4px solid var(--color-yellow) !important; padding-left: 0.5em !important; }
+h2 { font-size: 28px !important; border-bottom: 1px solid var(--color-yellow) !important; padding-bottom: 0.25em !important; }
+h3 { font-size: 24px !important; }
+h4 { font-size: 20px !important; }
+h5 { font-size: 18px !important; }
+h6 { font-size: 16px !important; color: var(--color-gray-dark) !important; }
+
+p {
+  margin: 0 0 1em !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+a {
+  color: var(--color-blue) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--color-orange) !important;
+  text-decoration: underline !important;
+}
+
+/* Lists — violet for ordered (TOC/details), yellow for unordered (primary accent) */
+ul, ol {
+  margin: 0 0 1em !important;
+  padding-left: 1.5em !important;
+}
+
+ol {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  counter-reset: list-item !important;
+}
+
+ol li {
+  counter-increment: list-item !important;
+  padding-left: 1.5em !important;
+  position: relative !important;
+}
+
+ol li::before {
+  content: counter(list-item) ". " !important;
+  position: absolute !important;
+  left: 0 !important;
+  color: var(--color-violet) !important;
+  font-weight: 500 !important;
+}
+
+ul li::marker {
+  color: var(--color-yellow) !important;
+}
+
+li {
+  margin: 0.25em 0 !important;
+}
+
+/* Blockquote — violet accent left border */
+blockquote {
+  margin: 1em 0 !important;
+  padding: 0.5em 0 0.5em 1em !important;
+  border-left: 4px solid var(--color-violet) !important;
+  background-color: var(--color-gray-800) !important;
+  color: var(--color-gray-dark) !important;
+  font-style: italic !important;
+}
+
+/* Code — Geist Mono, dark surface */
+code {
+  font-family: var(--font-mono) !important;
+  font-size: 0.9em !important;
+  background-color: var(--color-gray-800) !important;
+  color: var(--color-yellow) !important;
+  padding: 0.15em 0.4em !important;
+  border-radius: 4px !important;
+}
+
+pre {
+  font-family: var(--font-mono) !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  background-color: var(--color-gray-800) !important;
+  color: var(--color-white) !important;
+  padding: 1rem 1.25rem !important;
+  border-radius: 8px !important;
+  overflow-x: auto !important;
+  border: 1px solid var(--color-gray-700) !important;
+}
+
+pre code {
+  background: none !important;
+  padding: 0 !important;
+  color: inherit !important;
+}
+
+/* Tables — gray-800 surface, subtle borders */
+table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 1em 0 !important;
+  font-size: 14px !important;
+}
+
+th, td {
+  border: 1px solid var(--color-gray-700) !important;
+  padding: 0.5em 0.75em !important;
+  text-align: left !important;
+}
+
+th {
+  background-color: var(--color-gray-800) !important;
+  color: var(--color-white) !important;
+  font-weight: 500 !important;
+  border-left: 3px solid var(--color-blue) !important;
+}
+
+td {
+  background-color: var(--color-gray-900) !important;
+  color: var(--color-white) !important;
+}
+
+tr:hover td {
+  background-color: var(--color-gray-800) !important;
+}
+
+/* Horizontal rule — violet (detail) so not everything is gray */
+hr {
+  border: none !important;
+  border-top: 1px solid var(--color-violet) !important;
+  margin: 2em 0 !important;
+}
+
+/* Strong / emphasis — yellow accent for bold, blue for emphasis when desired */
+strong {
+  font-weight: 600 !important;
+  color: var(--color-white) !important;
+}
+
+em {
+  font-style: italic !important;
+}
+
+/* Only mute explicit frontmatter; do NOT style [data-line]:first-of-type
+   or the first line of the doc will appear gray. */
+.frontmatter {
+  color: var(--color-gray-dark) !important;
+  font-size: 14px !important;
+}
+
+/* ========== CODE BLOCKS — high contrast, no faint gray ========== */
+pre,
+pre code {
+  color: var(--color-white) !important;
+  background-color: var(--color-gray-800) !important;
+}
+pre {
+  border: 1px solid var(--color-gray-700) !important;
+}
+/* Highlight.js (when used) — base uses same tokens so code is always readable */
+pre.hljs,
+pre .hljs {
+  background-color: var(--color-gray-800) !important;
+  color: var(--color-white) !important;
+}
+pre .hljs-keyword { color: var(--color-blue) !important; }
+pre .hljs-string { color: var(--color-yellow) !important; }
+pre .hljs-comment { color: var(--color-gray-dark) !important; font-style: italic; }
+pre .hljs-number { color: var(--color-violet) !important; }
+pre .hljs-title { color: var(--color-blue) !important; }
+pre .hljs-meta { color: var(--color-gray-dark) !important; }
+
+/* ========== LIGHT THEME (clear mode) — same structure, brand for light bg ========== */
+@media (prefers-color-scheme: light), html[data-theme="light"] {
+  :root {
+    --bg: #FFFFFF;
+    --text: #030102;
+    --muted: #8B8B8B;
+    --accent-yellow: #E5B91E;
+    --accent-blue: #2868D4;
+    --accent-violet: #9B87E8;
+    --accent-orange: #E54E15;
+    --surface: #E8E8E8;
+    --surface-alt: #F5F5F5;
+    --border: #212121;
+  }
+
+  body {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 { color: var(--text) !important; }
+  h1 { border-left-color: var(--accent-yellow) !important; }
+  h2 { border-bottom-color: var(--accent-yellow) !important; }
+  h6 { color: var(--muted) !important; }
+
+  a { color: var(--accent-blue) !important; }
+  a:hover { color: var(--accent-orange) !important; }
+
+  ol li::before { color: var(--accent-violet) !important; }
+  ul li::marker { color: var(--accent-yellow) !important; }
+
+  blockquote {
+    border-left-color: var(--accent-violet) !important;
+    background-color: var(--surface) !important;
+    color: var(--muted) !important;
+  }
+
+  code {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+  }
+
+  pre, pre code {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+  }
+  pre { border-color: var(--border) !important; }
+  pre.hljs, pre .hljs {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+  }
+  pre .hljs-keyword { color: var(--accent-blue) !important; }
+  pre .hljs-string { color: var(--accent-yellow) !important; }
+  pre .hljs-comment { color: var(--muted) !important; }
+  pre .hljs-number { color: var(--accent-violet) !important; }
+  pre .hljs-title { color: var(--accent-blue) !important; }
+  pre .hljs-meta { color: var(--muted) !important; }
+
+  table th, table td { border-color: var(--border) !important; }
+  th {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+    border-left-color: var(--accent-blue) !important;
+  }
+  td { background-color: var(--surface-alt) !important; color: var(--text) !important; }
+  tr:hover td { background-color: var(--surface) !important; }
+
+  hr { border-top-color: var(--accent-violet) !important; }
+  strong { color: var(--text) !important; }
+  .frontmatter { color: var(--muted) !important; }
+}

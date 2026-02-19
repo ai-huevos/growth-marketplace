@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ICP Profile Output",
+  "description": "Schema for /icp command output",
+  "type": "object",
+  "required": ["company", "score", "tier", "profile"],
+  "properties": {
+    "company": {
+      "type": "string",
+      "description": "Company creating the ICP"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "ICP fit score"
+    },
+    "tier": {
+      "enum": ["Tier 1", "Tier 2", "Tier 3"],
+      "description": "ICP tier classification"
+    },
+    "profile": {
+      "type": "object",
+      "required": ["firmographics", "psychographics", "pain_points", "buying_triggers"],
+      "properties": {
+        "firmographics": {
+          "type": "object",
+          "required": ["industry", "size", "geography", "revenue_range"],
+          "properties": {
+            "industry": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+            "size": { "type": "string", "description": "Employee count range" },
+            "geography": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+            "revenue_range": { "type": "string" }
+          }
+        },
+        "psychographics": {
+          "type": "object",
+          "required": ["buyer_persona", "priorities", "fears", "aspirations"],
+          "properties": {
+            "buyer_persona": { "type": "string" },
+            "title": { "type": "string" },
+            "priorities": { "type": "array", "items": { "type": "string" } },
+            "fears": { "type": "array", "items": { "type": "string" } },
+            "aspirations": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "pain_points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["pain", "impact", "urgency"],
+            "properties": {
+              "pain": { "type": "string" },
+              "impact": { "type": "string" },
+              "urgency": { "enum": ["Alta", "Media", "Baja"] }
+            }
+          },
+          "minItems": 3
+        },
+        "buying_triggers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 2
+        }
+      }
+    },
+    "disqualifiers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Red flags that disqualify a prospect"
+    },
+    "scoring_criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["criterion", "weight", "score_range"],
+        "properties": {
+          "criterion": { "type": "string" },
+          "weight": { "type": "number" },
+          "score_range": { "type": "string" }
+        }
+      }
+    }
+  }
+}
