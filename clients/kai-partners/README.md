@@ -10,7 +10,8 @@
 | Phase 1: DEFINIR | DONE | ICP, competitive, positioning, product-marketing |
 | **Phase 2: ALMA** | **DONE** | ACF profile, creation myth, brand voice |
 | **Phase 3: ESCALA + IMAN + Case Study** | **DONE** | Value ladder, ORIGEN sequence, PULSAR calendar, Finkargo case study |
-| Phase 4: Launch | PENDING | Domains, Notion, channels |
+| **Phase 3B: Funnel + Website + Quiz** | **DONE** | Landing page (10-section), quiz diagnostic, funnel blueprint |
+| Phase 4: Launch | PENDING | Domains, Notion, channels, implementation |
 
 ## Brand Config Files
 
@@ -23,6 +24,9 @@
 | `sequences/secuencia-pulsar.md` | Weekly engagement calendar (PULSAR) | DRAFT |
 | `offer-architecture/escala-value-ladder.md` | 4-tier premium B2B value ladder (ESCALA) | DRAFT |
 | `case-studies/finkargo.md` | Finkargo case study — day-one launch asset | LAUNCH-READY |
+| `quiz-funnel/diagnostico-energia-ai.md` | Diagnóstico de Energía AI — hybrid Energy+PULSO scoring | DRAFT |
+| `website/landing-page.md` | Full 10-section landing page copywriting | DRAFT |
+| `funnel-architecture/funnel-blueprint.md` | Master funnel blueprint — FLUJO 7-phase system | DRAFT |
 
 ## Panel Non-Negotiables
 
@@ -45,6 +49,9 @@
 | **IMAN (ORIGEN)** | **motor-de-ofertas** | **5/5** | **Phase 3** — 5 emails mapped to ACF parables |
 | **IMAN (PULSAR)** | **motor-de-ofertas** | **4/5** | **Phase 3** — weekly calendar, needs real send data |
 | **Brand Voice** | **copywriting-engine** | **5/5** | **Phase 3** — Finkargo case study, GOLPE arc applied |
+| **Quiz Funnel (SONDA)** | **growth-foundations** | **5/5** | **Phase 3B** — hybrid Energy+PULSO, 10 questions, 4 segments |
+| **Landing Pages** | **copywriting-engine** | **5/5** | **Phase 3B** — full 10-section conversion architecture |
+| **FLUJO** | **motor-de-ofertas** | **5/5** | **Phase 3B** — 7-phase funnel, asset dependency graph, launch plan |
 
 ## Architecture Note
 
