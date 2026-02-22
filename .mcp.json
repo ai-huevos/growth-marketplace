@@ -6,6 +6,24 @@
       "env": {
         "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
       }
+    },
+    "kit": {
+      "command": "npx",
+      "args": ["-y", "kit-mcp-server"],
+      "env": {
+        "KIT_API_KEY": "${KIT_API_KEY}"
+      }
+    },
+    "tally": {
+      "type": "http",
+      "url": "https://api.tally.so/mcp",
+      "headers": {
+        "Authorization": "Bearer ${TALLY_API_KEY}"
+      }
+    },
+    "webflow": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.webflow.com/sse"]
     }
   }
 }

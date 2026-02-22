@@ -11,7 +11,7 @@
 | **Phase 2: ALMA** | **DONE** | ACF profile, creation myth, brand voice |
 | **Phase 3: ESCALA + IMAN + Case Study** | **DONE** | Value ladder, ORIGEN sequence, PULSAR calendar, Finkargo case study |
 | **Phase 3B: Funnel + Website + Quiz** | **DONE** | Landing page (10-section), quiz diagnostic, funnel blueprint |
-| Phase 4: Launch | PENDING | Domains, Notion, channels, implementation |
+| **Phase 4: Launch** | **IN PROGRESS** | MCP config, validation gates, missing assets, platform specs, content bank, n8n workflow |
 
 ## Brand Config Files
 
@@ -27,6 +27,21 @@
 | `quiz-funnel/diagnostico-energia-ai.md` | Diagnóstico de Energía AI — hybrid Energy+PULSO scoring | DRAFT |
 | `website/landing-page.md` | Full 10-section landing page copywriting | DRAFT |
 | `funnel-architecture/funnel-blueprint.md` | Master funnel blueprint — FLUJO 7-phase system | DRAFT |
+| `sequences/secuencia-reengagement.md` | 3-email win-back arc (A6) | DRAFT |
+| `delivery/sprint-sop.md` | Sprint de Descubrimiento SOP — 10-day runbook (A14) | DRAFT |
+| `delivery/mapa-energia-template.md` | Mapa de Energía deliverable template (A15) | DRAFT |
+| `delivery/propuesta-aios-build.md` | AI-OS Build proposal template (A16) | DRAFT |
+| `content-bank/carousel-3-razones.md` | LinkedIn carousel — "3 razones" (A11) | DRAFT |
+| `content-bank/blog-metafora-sol.md` | Blog — "La Metáfora del Sol" (A12) | DRAFT |
+| `content-bank/linkedin-posts-semana-1-2.md` | 10 LinkedIn posts, 2-week content bank | DRAFT |
+| `launch/validation-gates.md` | 5 founder validation gates + VoC strategy | ACTIVE |
+| `launch/launch-dashboard.md` | Go/no-go gates, 8-week timeline, platform status | ACTIVE |
+| `voc/prospect-language-bank.md` | VoC prospect language bank (empty, awaiting data) | COLLECTING |
+| `integrations/n8n-scoring-workflow.md` | n8n workflow: quiz → score → Kit → Notion → Slack | DRAFT |
+| `integrations/notion-leads-database.md` | Notion lead database spec (lightweight CRM) | DRAFT |
+| `integrations/tally-quiz-build-spec.md` | Tally.so quiz build spec (10 questions + gate) | DRAFT |
+| `integrations/kit-sequences-build-spec.md` | Kit email sequences build spec (3 sequences) | DRAFT |
+| `integrations/webflow-landing-build-spec.md` | Webflow landing page build spec (10 sections) | DRAFT |
 
 ## Panel Non-Negotiables
 
@@ -52,6 +67,12 @@
 | **Quiz Funnel (SONDA)** | **growth-foundations** | **5/5** | **Phase 3B** — hybrid Energy+PULSO, 10 questions, 4 segments |
 | **Landing Pages** | **copywriting-engine** | **5/5** | **Phase 3B** — full 10-section conversion architecture |
 | **FLUJO** | **motor-de-ofertas** | **5/5** | **Phase 3B** — 7-phase funnel, asset dependency graph, launch plan |
+| **discovery-demo** | **play-to-win** | ⬜/5 | **Phase 4** — Sprint SOP (A14) |
+| **customer-journey** | **play-to-win** | ⬜/5 | **Phase 4** — Mapa de Energía template (A15) |
+| **propuesta** | **sales-blueprint** | ⬜/5 | **Phase 4** — AI-OS Build proposal (A16) |
+| **alma (IMAN reeng.)** | **motor-de-ofertas** | ⬜/5 | **Phase 4** — Re-engagement sequence (A6) |
+| **copywriting-engine** | **copywriting-engine** | ⬜/5 | **Phase 4** — Carousel + blog (A11, A12) |
+| **product-marketing** | **play-to-win** | ⬜/5 | **Phase 4** — LinkedIn content bank |
 
 ## Architecture Note
 
