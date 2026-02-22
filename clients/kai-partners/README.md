@@ -9,8 +9,8 @@
 | Part 1: Panel Validation | DONE | 6/6 agents, convergence report |
 | Phase 1: DEFINIR | DONE | ICP, competitive, positioning, product-marketing |
 | **Phase 2: ALMA** | **DONE** | ACF profile, creation myth, brand voice |
-| Phase 3: ESCALA | PENDING | Value ladder, offer architecture |
-| Phase 4: Launch | PENDING | Domains, Notion, channels, Finkargo case study |
+| **Phase 3: ESCALA + IMAN + Case Study** | **DONE** | Value ladder, ORIGEN sequence, PULSAR calendar, Finkargo case study |
+| Phase 4: Launch | PENDING | Domains, Notion, channels |
 
 ## Brand Config Files
 
@@ -19,6 +19,10 @@
 | `brand-config/acf-profile.md` | 10-step Attractive Character Framework | DRAFT |
 | `brand-config/creation-myth.md` | 45-second origin story (panel non-negotiable #4) | DRAFT |
 | `brand-config/brand-voice.md` | Voice rules migrated from AI Huevos | IN-REBRAND |
+| `sequences/secuencia-origen.md` | 5-email onboarding (ORIGEN) | DRAFT |
+| `sequences/secuencia-pulsar.md` | Weekly engagement calendar (PULSAR) | DRAFT |
+| `offer-architecture/escala-value-ladder.md` | 4-tier premium B2B value ladder (ESCALA) | DRAFT |
+| `case-studies/finkargo.md` | Finkargo case study — day-one launch asset | LAUNCH-READY |
 
 ## Panel Non-Negotiables
 
@@ -26,7 +30,7 @@
 2. [x] Energy metaphor as primary brand narrative → ACF Step 3, Creation Myth
 3. [x] K as proprietary visual mark → ACF Step 9
 4. [x] 45-second creation myth → `creation-myth.md`
-5. [ ] Finkargo case study under new brand, day one → Phase 4
+5. [x] Finkargo case study under new brand, day one → `case-studies/finkargo.md`
 
 ## Skills Dog-Fooded
 
@@ -37,6 +41,10 @@
 | Positioning | growth-foundations | 5/5 | Phase 1 |
 | Product Marketing | play-to-win | 4/5 | Phase 1 |
 | **ALMA (ACF)** | **motor-de-ofertas** | **5/5** | **Phase 2** — framework fit excellent for rebrand |
+| **ESCALA** | **motor-de-ofertas** | **5/5** | **Phase 3** — premium B2B ladder, LTV:CAC modeled |
+| **IMAN (ORIGEN)** | **motor-de-ofertas** | **5/5** | **Phase 3** — 5 emails mapped to ACF parables |
+| **IMAN (PULSAR)** | **motor-de-ofertas** | **4/5** | **Phase 3** — weekly calendar, needs real send data |
+| **Brand Voice** | **copywriting-engine** | **5/5** | **Phase 3** — Finkargo case study, GOLPE arc applied |
 
 ## Architecture Note
 
