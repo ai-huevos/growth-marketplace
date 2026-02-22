@@ -84,8 +84,8 @@ Cortex, Context, Catalyst, Katalystia, Kaleido, Kriya, Prana, Danksy, Kinetic �
 ### Phase 1: DEFINIR — Brand Foundation (Semanas 1-2)
 - [x] `/icp` → ICP scoring actualizado para KAI Partners → `docs/rebrand-icp-analysis.md`
 - [x] `competitive-analysis` → Landscape vs KAI Partners positioning → `docs/rebrand-competitive-analysis.md`
-- [ ] `positioning` → Nuevo positioning statement + value prop canvas (EN PROGRESO)
-- [ ] `product-marketing` → Hero's Journey + Messaging Architecture Matrix
+- [x] `positioning` → Nuevo positioning statement + value prop canvas → `docs/rebrand-positioning.md`
+- [x] `product-marketing` → Hero's Journey + Messaging Architecture Matrix → `docs/rebrand-product-marketing.md`
 
 ### Phase 2: ALMA — Brand Character (Semana 2)
 - [ ] `alma` ACF 10-step → Perfil de carácter completo
