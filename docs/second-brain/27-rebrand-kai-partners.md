@@ -82,9 +82,9 @@ Cortex, Context, Catalyst, Katalystia, Kaleido, Kriya, Prana, Danksy, Kinetic �
 - Fireflies, Notion, Figma auditados
 
 ### Phase 1: DEFINIR — Brand Foundation (Semanas 1-2)
-- [ ] `/icp` → ICP scoring actualizado para KAI Partners
-- [ ] `competitive-analysis` → Landscape vs KAI Partners positioning
-- [ ] `positioning` → Nuevo positioning statement + value prop canvas
+- [x] `/icp` → ICP scoring actualizado para KAI Partners → `docs/rebrand-icp-analysis.md`
+- [x] `competitive-analysis` → Landscape vs KAI Partners positioning → `docs/rebrand-competitive-analysis.md`
+- [ ] `positioning` → Nuevo positioning statement + value prop canvas (EN PROGRESO)
 - [ ] `product-marketing` → Hero's Journey + Messaging Architecture Matrix
 
 ### Phase 2: ALMA — Brand Character (Semana 2)
