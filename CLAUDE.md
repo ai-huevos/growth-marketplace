@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
-**Quick stats**: 6 plugins, 31 skills, 8 agents, 18 commands, 56 templates, ~200 content files.
+**Quick stats**: 6 plugins, 29 skills, 8 agents, 18 commands, 56 templates, ~216 content files.
 
 > **Note**: The root `README.md` only documents `growth-foundations` (1 of 6 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
 
