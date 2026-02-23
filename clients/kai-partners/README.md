@@ -11,7 +11,7 @@
 | **Phase 2: ALMA** | **DONE** | ACF profile, creation myth, brand voice |
 | **Phase 3: ESCALA + IMAN + Case Study** | **DONE** | Value ladder, ORIGEN sequence, PULSAR calendar, Finkargo case study |
 | **Phase 3B: Funnel + Website + Quiz** | **DONE** | Landing page (10-section), quiz diagnostic, funnel blueprint |
-| **Phase 4: Launch** | **IN PROGRESS** | MCP config, validation gates, missing assets, platform specs, content bank, n8n workflow |
+| **Phase 4: Launch** | **IN PROGRESS** | MCP config, validation gates, missing assets, platform specs, content bank, n8n workflow, G3 sales deck |
 
 ## Brand Config Files
 
@@ -42,6 +42,7 @@
 | `integrations/tally-quiz-build-spec.md` | Tally.so quiz build spec (10 questions + gate) | DRAFT |
 | `integrations/kit-sequences-build-spec.md` | Kit email sequences build spec (3 sequences) | DRAFT |
 | `integrations/webflow-landing-build-spec.md` | Webflow landing page build spec (10 sections) | DRAFT |
+| `sales-decks/g3-logistica-board-deck.md` | G3 Logística board deck — Andy Raskin 5 Moves, 15 slides + video script | DRAFT |
 
 ## Panel Non-Negotiables
 
