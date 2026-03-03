@@ -10,7 +10,7 @@
 
 ---
 
-## Principio: Bold-First *(KEEP — name-independent)*
+## Principio: Bold-First
 
 Todo contenido generado sigue el orden de prioridad:
 
@@ -22,7 +22,7 @@ BOLD → SMART → WARM → RELIABLE
 
 ---
 
-## Reglas de Voz *(KEEP — name-independent)*
+## Reglas de Voz 
 
 | Regla | Hacer | No hacer |
 |-------|-------|----------|
@@ -35,7 +35,7 @@ BOLD → SMART → WARM → RELIABLE
 
 ---
 
-## Vocabulario de Marca *(EVOLVED)*
+## Vocabulario de Marca
 
 ### Usar siempre
 
@@ -45,9 +45,9 @@ BOLD → SMART → WARM → RELIABLE
 | Encontrar | Identificar | KEEP |
 | Construir rieles | Implementar soluciones | KEEP |
 | Organizaciones | Empresas (genérico) | KEEP |
-| Arqueología organizacional | Análisis / discovery | KEEP |
+| Nos gusta entender primero | Análisis / discovery | KEEP |
 | Director AI | Chatbot, asistente | KEEP — evaluar "KAI Director" |
-| Nos quedamos | Soporte post-implementación | KEEP — core brand promise |
+| Dejamos energía fluyendo | Soporte post-implementación | KEEP — core brand promise |
 | **Energía** | Potencial, capacidad | **NEW** — metáfora central |
 | **Sistema operativo / AI-OS** | Plataforma, herramienta | **NEW** — producto core |
 | **Partner** | Proveedor, vendor, consultor | **NEW** — relación, no transacción |
