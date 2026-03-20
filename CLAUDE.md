@@ -12,7 +12,7 @@ AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that packa
 
 ## Architecture
 
-This is a **content-only repository** — no build system, no tests, no dependencies. All files are Markdown.
+This system is transforming into a **Visual Conversational Interface** for marketers and growth founders. While the core frameworks and diagnostics are defined in Markdown, they power an orchestrating front-end (web/mobile UI). The system uses autonomous agents to ingest business context through a natural-language chat and dynamically generates growth strategies, 90-day roadmaps, and visual playbooks on an interactive canvas.
 
 ```
 plugins/
@@ -31,6 +31,14 @@ plugins/
     agents/
       <agent-name>.md            ← Agent definition with role, workflow phases, tools, and expected outputs
 ```
+
+### Visual Conversational App Structure
+
+The future product maps these plugins to a dynamic user interface:
+- **Conversational PM (Chat Interface):** The primary engagement layer where founders describe their business context.
+- **Strategic Visual Canvas:** The dynamic view (pane or mobile bottom sheet) that visually renders the PULSO diagnostics, competitive analysis, and Funnel architectures.
+
+### GrowthOS Orchestrator Layer
 
 ### GrowthOS Orchestrator Layer
 
