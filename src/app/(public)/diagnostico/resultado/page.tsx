@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
+import { SaveAnswers } from "@/components/growthOS/save-answers";
+
 export default function ResultadoPage({ searchParams }: { searchParams: { a?: string } }) {
   if (!searchParams.a) {
     redirect("/diagnostico");
@@ -25,6 +27,7 @@ export default function ResultadoPage({ searchParams }: { searchParams: { a?: st
 
   return (
     <div className="container mx-auto max-w-5xl py-12 px-4 space-y-12">
+      <SaveAnswers answers={searchParams.a} />
       <div className="text-center space-y-4">
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-growos-primary">
           Tu Diagnóstico de Crecimiento
