@@ -4,12 +4,15 @@ import { useChat } from "@ai-sdk/react";
 import { ChatPanel } from "@/components/growthOS/chat-panel";
 import { PreviewPanel } from "@/components/growthOS/preview-panel";
 import { SKILLS_REGISTRY } from "@/lib/constants/skills";
+import { MODEL_OPTIONS, SupportedModel } from "@/lib/ai/models";
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Settings2 } from "lucide-react";
+import { useState } from "react";
 
 export default function ExecuteSkillPage({ params }: { params: { skill: string } }) {
   const skillObj = SKILLS_REGISTRY.find(s => s.slug === params.skill);
+  const [modelId, setModelId] = useState<SupportedModel>('claude-3-5-sonnet');
   
   if (!skillObj) {
     redirect("/dashboard");
@@ -20,6 +23,7 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
     api: "/api/chat",
     body: {
       skillSlug: skillObj.slug,
+      modelId, // Pass the selected model dynamically
     },
     initialMessages: [
       { 
@@ -44,22 +48,38 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
 
   return (
     <div className="flex h-screen flex-col bg-background">
-      <header className="flex h-16 items-center border-b px-6 shadow-sm">
-        <Link 
-          href={`/fase/${skillObj.phase.toLowerCase()}`}
-          className="mr-6 flex items-center text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted p-2 rounded-md transition-colors"
-        >
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Volver a {skillObj.phase}
-        </Link>
-        <div className="flex items-center gap-3">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-growos-primary text-white">
-            <span className="font-bold">MEB</span>
+      <header className="flex h-16 shrink-0 items-center justify-between border-b px-6 shadow-sm">
+        <div className="flex items-center">
+          <Link 
+            href={`/fase/${skillObj.phase.toLowerCase()}`}
+            className="mr-6 flex items-center text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted p-2 rounded-md transition-colors"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Volver a {skillObj.phase}
+          </Link>
+          <div className="flex items-center gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-md bg-growos-primary text-white">
+              <span className="font-bold">MEB</span>
+            </div>
+            <div>
+              <h1 className="text-lg font-bold leading-none">{skillObj.name}</h1>
+              <p className="text-xs text-muted-foreground mt-1 tracking-tight">Motor Estratégico B2B ({skillObj.deliverableType})</p>
+            </div>
           </div>
-          <div>
-            <h1 className="text-lg font-bold leading-none">{skillObj.name}</h1>
-            <p className="text-xs text-muted-foreground mt-1">Motor Estratégico B2B ({skillObj.deliverableType})</p>
-          </div>
+        </div>
+
+        <div className="flex items-center gap-3 bg-muted/50 p-2 rounded-lg border">
+          <Settings2 className="h-4 w-4 text-muted-foreground" />
+          <select 
+            className="text-sm bg-transparent font-medium border-none focus:ring-0 cursor-pointer outline-none"
+            value={modelId}
+            onChange={(e) => setModelId(e.target.value as SupportedModel)}
+            disabled={isLoading}
+          >
+            {MODEL_OPTIONS.map(opt => (
+              <option key={opt.id} value={opt.id}>{opt.name} — {opt.tier}</option>
+            ))}
+          </select>
         </div>
       </header>
 
@@ -72,7 +92,7 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
             isLoading={isLoading} 
           />
         </div>
-        <div className="hidden md:block md:w-[55%] lg:w-[60%]">
+        <div className="hidden md:block md:w-[55%] lg:w-[60%] border-l">
           <PreviewPanel content={extractedMarkdown} />
         </div>
       </div>
