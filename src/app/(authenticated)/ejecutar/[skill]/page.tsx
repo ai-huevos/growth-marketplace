@@ -7,12 +7,15 @@ import { SKILLS_REGISTRY } from "@/lib/constants/skills";
 import { MODEL_OPTIONS, SupportedModel } from "@/lib/ai/models";
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Settings2 } from "lucide-react";
+import { ArrowLeft, Settings2, Save, Check } from "lucide-react";
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 export default function ExecuteSkillPage({ params }: { params: { skill: string } }) {
   const skillObj = SKILLS_REGISTRY.find(s => s.slug === params.skill);
   const [modelId, setModelId] = useState<SupportedModel>('claude-3-5-sonnet');
+  const [isSaving, setIsSaving] = useState(false);
+  const [isSaved, setIsSaved] = useState(false);
   
   if (!skillObj) {
     redirect("/dashboard");
@@ -37,7 +40,8 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const lastMsg = [...messages].reverse().find(m => m.role === "assistant") as any;
-  const extractedMarkdown = lastMsg?.content || "";
+  const rawContent = lastMsg?.content || "";
+  const finalMarkdown = rawContent.replace(/<meb_analysis>[\s\S]*?(?:<\/meb_analysis>|$)/, '').trim();
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mappedMessages = messages.map((m: any) => ({
@@ -45,6 +49,30 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
     role: m.role as "user" | "assistant",
     content: String(m.content || "")
   }));
+
+  const canSave = !isLoading && finalMarkdown.length > 0 && messages.length > 2;
+
+  const handleSave = async () => {
+    setIsSaving(true);
+    try {
+      const res = await fetch('/api/deliverables', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          skillSlug: skillObj.slug,
+          title: skillObj.name,
+          content: rawContent
+        })
+      });
+      if (res.ok) {
+        setIsSaved(true);
+      }
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsSaving(false);
+    }
+  };
 
   return (
     <div className="flex h-screen flex-col bg-background">
@@ -68,18 +96,29 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
           </div>
         </div>
 
-        <div className="flex items-center gap-3 bg-muted/50 p-2 rounded-lg border">
-          <Settings2 className="h-4 w-4 text-muted-foreground" />
-          <select 
-            className="text-sm bg-transparent font-medium border-none focus:ring-0 cursor-pointer outline-none"
-            value={modelId}
-            onChange={(e) => setModelId(e.target.value as SupportedModel)}
-            disabled={isLoading}
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 bg-muted/50 px-3 py-1.5 rounded-lg border">
+            <Settings2 className="h-4 w-4 text-muted-foreground" />
+            <select 
+              className="text-sm bg-transparent font-medium border-none focus:ring-0 cursor-pointer outline-none"
+              value={modelId}
+              onChange={(e) => setModelId(e.target.value as SupportedModel)}
+              disabled={isLoading}
+            >
+              {MODEL_OPTIONS.map(opt => (
+                <option key={opt.id} value={opt.id}>{opt.name}</option>
+              ))}
+            </select>
+          </div>
+          
+          <Button 
+            variant={isSaved ? "outline" : "default"}
+            disabled={!canSave || isSaving || isSaved} 
+            onClick={handleSave}
+            className={isSaved ? "border-growos-success text-growos-success hover:text-growos-success hover:bg-transparent" : ""}
           >
-            {MODEL_OPTIONS.map(opt => (
-              <option key={opt.id} value={opt.id}>{opt.name} — {opt.tier}</option>
-            ))}
-          </select>
+            {isSaved ? <><Check className="mr-2 h-4 w-4" /> Guardado</> : <><Save className="mr-2 h-4 w-4"/> Guardar Entregable</>}
+          </Button>
         </div>
       </header>
 
@@ -93,7 +132,7 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
           />
         </div>
         <div className="hidden md:block md:w-[55%] lg:w-[60%] border-l">
-          <PreviewPanel content={extractedMarkdown} />
+          <PreviewPanel content={rawContent} />
         </div>
       </div>
     </div>

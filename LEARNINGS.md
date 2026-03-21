@@ -1,0 +1,5 @@
+# GrowthOS Learnings Log
+
+- **Vercel AI SDK Typing Issues:** Encountered strict TypeScript `Message` compatibility issues with beta versions of Vercel AI SDK when streaming text. Safely resolved by utilizing dynamic type casting (`as any`) at the `useChat` hook level to bypass strict checks while maintaining stable frontend generation.
+- **Double-Pass vs Single-Pass Latency (ADW):** Learned that executing a mechanical Draft -> Refine double-pass via LLMs doubles latency and token costs. Solved by replacing it with a Single-Pass "Inner Monologue", forcing the model to wrap its internal self-critique in a `<meb_analysis>` block before outputting final deliverables. This mimics ADW behavior perfectly, slashes costs by 50%, and improves user UX by visualizing the AI's "thought process".
+- **ESLint & Next.js Builds:** Next.js production builds aggressively fail on unused variables. Ensured all unused `lucide-react` or `shadcn` component imports are pruned before triggering final deployments.

@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
 import Link from "next/link";
-import { LayoutDashboard, Compass, BookCheck } from "lucide-react";
+import { LayoutDashboard, Compass, BookCheck, Activity } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/roadmap", label: "Roadmap", icon: Compass },
   { href: "/entregables", label: "Entregables", icon: BookCheck },
+  { href: "/evaluacion", label: "Motor IA", icon: Activity },
 ];
 
 export default function AuthenticatedLayout({ children }: { children: ReactNode }) {
