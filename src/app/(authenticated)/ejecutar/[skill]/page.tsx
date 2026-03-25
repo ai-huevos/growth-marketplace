@@ -1,6 +1,6 @@
 "use client";
 
-import { useChat } from "@ai-sdk/react";
+
 import { ChatPanel } from "@/components/growthOS/chat-panel";
 import { PreviewPanel } from "@/components/growthOS/preview-panel";
 import { SKILLS_REGISTRY } from "@/lib/constants/skills";
@@ -21,22 +21,54 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
     redirect("/dashboard");
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { messages, append, isLoading } = useChat({
-    api: "/api/chat",
-    body: {
-      skillSlug: skillObj.slug,
-      modelId, // Pass the selected model dynamically
-    },
-    initialMessages: [
-      { 
-        id: "system_greeting", 
-        role: "assistant", 
-        content: `¡Hola! Vamos a trabajar en tu **${skillObj.name}**. Por favor, dame un poco de contexto (tu producto actual, objetivo o mercado) para generar el entregable de la mejor manera.` 
+  const [messages, setMessages] = useState<any[]>([
+    { 
+      id: "system_greeting", 
+      role: "assistant", 
+      content: `¡Hola! Vamos a trabajar en tu **${skillObj.name}**. Por favor, dame un poco de contexto (tu producto actual, objetivo o mercado) para generar el entregable de la mejor manera.` 
+    }
+  ]);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const append = async (userMsg: { role: string, content: string }) => {
+    const newMsgs = [...messages, { ...userMsg, id: Date.now().toString() }];
+    setMessages(newMsgs);
+    setIsLoading(true);
+
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          skillSlug: skillObj.slug,
+          modelId,
+          messages: newMsgs.map(m => ({ role: m.role, content: m.content }))
+        })
+      });
+
+      if (!res.ok) throw new Error("API Error");
+
+      const reader = res.body?.getReader();
+      const decoder = new TextDecoder();
+      let assistantContent = "";
+
+      // Add a placeholder assistant message
+      setMessages([...newMsgs, { id: "temp", role: "assistant", content: "" }]);
+
+      if (reader) {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          assistantContent += decoder.decode(value, { stream: true });
+          setMessages([...newMsgs, { id: "temp", role: "assistant", content: assistantContent }]);
+        }
       }
-    ]
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } as any) as any;
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const lastMsg = [...messages].reverse().find(m => m.role === "assistant") as any;
@@ -126,8 +158,7 @@ export default function ExecuteSkillPage({ params }: { params: { skill: string }
         <div className="w-full md:w-[45%] lg:w-[40%]">
           <ChatPanel 
             messages={mappedMessages} 
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            onSend={(text) => (append as any)({ role: "user", content: text })}
+            onSend={(text) => append({ role: "user", content: text })}
             isLoading={isLoading} 
           />
         </div>
