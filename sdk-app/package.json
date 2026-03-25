@@ -1,0 +1,40 @@
+{
+  "name": "@aihuevos/growthos-sdk",
+  "version": "0.1.0",
+  "description": "GrowthOS Agent SDK — programmatic runtime for the AI Huevos Growth Marketplace",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "vitest run tests/e2e",
+    "test:constitutional": "vitest run tests/constitutional",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.0",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.0",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "author": "AI Huevos",
+  "license": "MIT",
+  "private": true
+}
