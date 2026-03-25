@@ -1,1 +1,0 @@
-../../../docs/panel-convergence-report.md
