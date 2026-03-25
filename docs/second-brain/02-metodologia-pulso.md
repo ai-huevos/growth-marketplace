@@ -135,7 +135,7 @@ PULSO es el framework de diagnóstico de Metodología GrowthOS. Es el lenguaje c
 
 ### En growth-foundations
 - **ICP Analysis**: Usa PULSO para construir el scoring model del ICP (Pain Match, Impact Potential, Decision Readiness, Critical Event son 4 de las 5 categorías de scoring)
-- **/diagnostico (ClarQ)**: Evalúa la madurez operacional que determina si una empresa PUEDE implementar soluciones (conectado con Situation y Capabilities)
+- **/diagnostico (PlainIQ)**: Evalúa la madurez operacional que determina si una empresa PUEDE implementar soluciones (conectado con Situation y Capabilities)
 
 ### En sales-blueprint
 - **Discovery Mastery**: PULSO es el framework central de discovery. AVE → PULSO diagnóstico → 7 Momentos

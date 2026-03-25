@@ -209,7 +209,7 @@ Un marketplace es un repositorio Git con un archivo `.claude-plugin/marketplace.
     {
       "name": "growth-foundations",
       "source": "./plugins/growth-foundations",
-      "description": "ICP scoring, positioning, competitive analysis, ClarQ diagnostic",
+      "description": "ICP scoring, positioning, competitive analysis, PlainIQ diagnostic",
       "version": "1.0.0",
       "category": "growth",
       "tags": ["icp", "positioning", "pulso", "b2b"],

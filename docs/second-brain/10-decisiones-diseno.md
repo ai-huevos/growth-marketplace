@@ -119,15 +119,15 @@ Este documento captura las decisiones arquitectónicas del proyecto, por qué se
 
 ---
 
-## Decisión 9: Conceptos Propios en ClarQ (Fragile Giant)
+## Decisión 9: Conceptos Propios en PlainIQ (Fragile Giant)
 
-**Decisión**: El framework ClarQ incluye conceptos con nombres propios ("Juan Guillermo Problem", "Barbacha", "Caja Negra", "Blindaje").
+**Decisión**: El framework PlainIQ incluye conceptos con nombres propios ("Juan Guillermo Problem", "Barbacha", "Caja Negra", "Blindaje").
 
 **Rationale**:
 - Los nombres propios hacen los conceptos memorables y compartibles
 - Crean un "vocabulario compartido" entre el consultor y el cliente
 - Son metáforas que el mercado LATAM entiende inmediatamente
-- Diferencian ClarQ de otros frameworks de madurez genéricos
+- Diferencian PlainIQ de otros frameworks de madurez genéricos
 
 **Implicación**: Estos conceptos necesitan documentación clara para nuevos usuarios. Se explican dentro del command `/diagnostico`.
 

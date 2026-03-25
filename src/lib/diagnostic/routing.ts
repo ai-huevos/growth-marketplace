@@ -3,10 +3,10 @@ import { DiagnosticResult } from "./scoring";
 export type Phase = "DEFINIR" | "ATRAER" | "CONVERTIR" | "ESCALAR";
 
 export function determineNextPhase(result: DiagnosticResult): Phase {
-  const { pulso, clarQ } = result;
+  const { pulso, plainIQ } = result;
 
   // If there's low clarity or no clear vision, the company needs Foundation
-  if (clarQ < 40 || pulso.panorama < 50) {
+  if (plainIQ < 40 || pulso.panorama < 50) {
     return "DEFINIR";
   }
   

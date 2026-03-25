@@ -95,7 +95,7 @@ Este documento consolida todos los modelos de scoring y evaluación del marketpl
 
 ---
 
-## 3. ClarQ Score (0-40 puntos)
+## 3. PlainIQ Score (0-40 puntos)
 
 **Plugin**: growth-foundations (/diagnostico command)
 **Propósito**: Evaluar la madurez operacional de una empresa B2B.
@@ -126,7 +126,7 @@ Este documento consolida todos los modelos de scoring y evaluación del marketpl
 | 26-32 | Growth Ready | Procesos establecidos, herramientas adecuadas. | Optimizar y expandir |
 | 33-40 | Scaling | Operación madura, revenue predecible. | Innovar y diversificar |
 
-### Conceptos Propios de ClarQ
+### Conceptos Propios de PlainIQ
 - **"Juan Guillermo Problem"**: Empleado clave con todo el conocimiento (bus factor = 1)
 - **"Barbacha"**: Leakage operativo por procesos manuales no detectados
 - **"Caja Negra"**: Falta de visibilidad real sobre operaciones
@@ -259,7 +259,7 @@ Bucket Scorecard (0-100)► Segmenta DENTRO del ICP en buckets priorizados
 PULSO Score (5-30) ───► Evalúa la oportunidad específica
         │
         ▼
-ClarQ Score (0-40) ────► Evalúa si la empresa puede implementar
+PlainIQ Score (0-40) ────► Evalúa si la empresa puede implementar
         │
         ▼
 ROCA Diagnostic ───────► Mejora al equipo que ejecuta
@@ -278,7 +278,7 @@ Los scores no son solo métricas — funcionan como **gates** que bloquean o hab
 
 | Condición | Efecto |
 |-----------|--------|
-| ClarQ < 16 | Alerta "Fragile Giant", recomienda acciones inmediatas |
+| PlainIQ < 16 | Alerta "Fragile Giant", recomienda acciones inmediatas |
 | ICP < 40 | No califica como target, descartado de pipeline |
 | PULSO < 20 | Deal Strategist emite No-Go, no genera MAP |
 | PULSO < 23 | `/propuesta` bloqueado ("completa discovery primero") |

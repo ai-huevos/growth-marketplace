@@ -92,7 +92,7 @@
 ### Flujo de Datos entre Plugins (Output → Input Chaining)
 
 ```
-/diagnostico ──→ ClarQ Heatmap (GTM/Revenue/Q2C/Capabilities)
+/diagnostico ──→ PlainIQ Heatmap (GTM/Revenue/Q2C/Capabilities)
      │                                    │
      │ gap: "No tengo ICP definido"       │ gap: "Mi funnel no convierte"
      ▼                                    ▼
@@ -338,7 +338,7 @@ Input: Marca ficticia "TechBridge LATAM"
 
 Secuencia:
 1. PM → PULSO discovery (5 variables)
-2. /diagnostico → ClarQ heatmap
+2. /diagnostico → PlainIQ heatmap
 3. /icp → ICP scoring + 3 tiers
 4. positioning → Value Prop Canvas
 5. /escala → Value Ladder
@@ -408,7 +408,7 @@ Métricas:
 #### Checklist de Encadenamiento
 
 ```
-¿ClarQ heatmap → identifica gap para /icp?          [ ] Sí [ ] No
+¿PlainIQ heatmap → identifica gap para /icp?          [ ] Sí [ ] No
 ¿ICP scoring → informa positioning?                  [ ] Sí [ ] No
 ¿Positioning → alimenta content-strategy?            [ ] Sí [ ] No
 ¿Content-strategy → genera brief para /copy?         [ ] Sí [ ] No

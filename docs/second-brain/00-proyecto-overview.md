@@ -42,7 +42,7 @@ Frameworks fundamentales de B2B growth para cualquier equipo. El punto de entrad
 | `competitive-analysis` | Skill | Five Forces de Porter + mapa competitivo visual |
 | `quiz-funnel` | Skill | Quiz funnels Metodología SONDA: PREGUNTA RAÍZ, buckets, stress test <$500 |
 | `content-strategy` | Skill | Estrategia PENDIENTE + TRIÁNGULO DE INGRESOS + 3 workflows LATAM |
-| `/diagnostico` | Command | Assessment ClarQ: GTM, Revenue, Q2C, Capabilities (0-40) |
+| `/diagnostico` | Command | Assessment PlainIQ: GTM, Revenue, Q2C, Capabilities (0-40) |
 | `/icp` | Command | Workshop interactivo para definir y scorear ICP |
 | `/quiz` | Command | Workshop interactivo para diseñar quiz funnel con buckets |
 
@@ -143,7 +143,7 @@ PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización) es el leng
 
 | Comando | Plugin | Propósito |
 |---------|--------|-----------|
-| `/diagnostico` | growth-foundations | Assessment ClarQ (GTM, Revenue, Q2C, Capabilities) |
+| `/diagnostico` | growth-foundations | Assessment PlainIQ (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Workshop interactivo de ICP + scoring |
 | `/quiz` | growth-foundations | Quiz funnel builder (Metodología SONDA) |
 | `/discovery` | sales-blueprint | Prep de discovery call con PULSO |
@@ -170,7 +170,7 @@ PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización) es el leng
 - **Commands**: 18 en total (3 + 4 + 3 + 2 + 3 + 3)
 - **Agents**: 8 en total (0 + 2 + 4 + 1 + 1 + 0)
 - **Templates**: 56 en total (10 + 7 + 5 + 11 + 22 + 1)
-- **Frameworks**: PULSO, ICP Scoring, ClarQ, ROCA, CICLO, AVE, Metodología SONDA, ESCALA, FLUJO, ALMA, IMAN, RADAR, PENDIENTE, TRIÁNGULO DE INGRESOS, Value Proposition Canvas, Five Forces
+- **Frameworks**: PULSO, ICP Scoring, PlainIQ, ROCA, CICLO, AVE, Metodología SONDA, ESCALA, FLUJO, ALMA, IMAN, RADAR, PENDIENTE, TRIÁNGULO DE INGRESOS, Value Proposition Canvas, Five Forces
 - **Datos analizados**: 38,737 headlines, 4,129 triggers, 2,245 CTAs, 1,570 propuestas de valor, 31 blueprints WbD
 - **Licencia**: MIT
 - **Autor**: AI Huevos (huevos.ai)

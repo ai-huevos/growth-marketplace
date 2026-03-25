@@ -53,7 +53,7 @@ PULSO is the "lingua franca" of the marketplace, connecting discovery, pipeline 
 ### A. growth-foundations (Entry Point)
 Provides fundamental frameworks for B2B strategy.
 *   **Key Skills:** `icp-analysis` (PULSO-based scoring), `positioning` (Value Prop Canvas), and `competitive-analysis`.
-*   **Command `/diagnostico`:** Uses the **ClarQ framework** to assess operational maturity (0-40 score) across four dimensions: GTM Strategy, Revenue Streams, Quota-to-Cash, and Capabilities.
+*   **Command `/diagnostico`:** Uses the **PlainIQ framework** to assess operational maturity (0-40 score) across four dimensions: GTM Strategy, Revenue Streams, Quota-to-Cash, and Capabilities.
 *   **Key Concepts:** Identifies operational risks like the **"Juan Guillermo Problem"** (knowledge silos) and **"Barbacha"** (operational leakage from manual processes).
 
 ### B. sales-blueprint (Execution)
@@ -108,7 +108,7 @@ To transform static frameworks into data-connected workflows, the following inte
 
 *   **For Sales Managers:** Implement the **REKS diagnosis** before prescribing training. If "Effort" (activity) is low, coaching "Skills" (how they pitch) will not solve the performance gap.
 *   **For Copywriters:** Combine triggers for maximum impact. The most powerful combinations are **Scarcity + Urgency** for closing sales, and **Greed + Social Proof** for landing page headers.
-*   **For GTM Leaders:** Use the **ClarQ Assessment** (`/diagnostico`) to identify if your organization is a "Fragile Giant"—a company with high revenue but fragile, hero-dependent operations.
+*   **For GTM Leaders:** Use the **PlainIQ Assessment** (`/diagnostico`) to identify if your organization is a "Fragile Giant"—a company with high revenue but fragile, hero-dependent operations.
 *   **For Deal Strategy:** Avoid "single-threaded" deals. The **3x3 Strategy** (minimum 3 contacts across 3 levels: Executive, Management, User) is mandatory to mitigate the #1 risk in enterprise sales.
 
 ---

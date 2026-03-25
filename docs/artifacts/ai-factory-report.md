@@ -47,7 +47,7 @@ Esta estructura de monorepo permite:
 
 El uso sistemático de frameworks no es solo para el orden; es para generar un activo de datos superior. La jerarquía de diagnóstico es fundamental: **no se entrenan Skills si el problema es de Esfuerzo (Decision 10).**
 
-1.  **ClarQ (Madurez):** Detectamos el nivel de madurez operativa (ej. "Fragile Giant") para blindar la empresa.
+1.  **PlainIQ (Madurez):** Detectamos el nivel de madurez operativa (ej. "Fragile Giant") para blindar la empresa.
 2.  **REKS (Performance):** Antes de aplicar **PULSO**, diagnosticamos la jerarquía: **Results** -> **Effort** -> **Knowledge** -> **Skills**. Si el esfuerzo es bajo, un mejor framework no resolverá el problema.
 3.  **PULSO (Conversión):** Capturamos datos estructurados de cada deal.
 4.  **Knowledge Graph:** Los insights se conectan. Los dolores cuantificados en **PULSO** alimentan automáticamente las fórmulas de **headline-mastery** (Target >7.5/10), creando un volante de inercia donde cada dato mejora la comunicación y la venta.

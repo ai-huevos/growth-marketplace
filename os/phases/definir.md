@@ -71,7 +71,7 @@ Esto activa la fase ATRAER con:
 ## Comandos Relacionados
 
 - `/icp` — Workshop interactivo de ICP
-- `/diagnostico` — ClarQ assessment (incluye diagnóstico de capabilities)
+- `/diagnostico` — PlainIQ assessment (incluye diagnóstico de capabilities)
 
 ## Referencias
 

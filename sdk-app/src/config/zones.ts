@@ -36,7 +36,7 @@ const SKILL_ZONES: Record<string, Zone> = {
   "competitive-analysis": "green",
   "content-strategy": "yellow",
   "quiz-funnel": "yellow",
-  "clarq-diagnostic": "green",
+  "plainiq-diagnostic": "green",
 
   // sales-blueprint (5)
   "discovery-mastery": "yellow",

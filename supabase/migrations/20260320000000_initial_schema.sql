@@ -24,7 +24,7 @@ create table public.diagnostic_results (
     org_id uuid references public.organizations(id) on delete cascade not null,
     raw_answers jsonb not null,
     pulso_score jsonb not null,
-    clarq_score integer not null,
+    plainiq_score integer not null,
     recommended_phase text not null,
     created_at timestamp with time zone default timezone('utc'::text, now()) not null
 );

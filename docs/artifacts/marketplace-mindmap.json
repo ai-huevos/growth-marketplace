@@ -72,7 +72,7 @@
           "name": "Commands",
           "children": [
             {
-              "name": "/diagnostico (ClarQ assessment)"
+              "name": "/diagnostico (PlainIQ assessment)"
             },
             {
               "name": "/icp (Interactive workshop)"
@@ -163,7 +163,7 @@
           "name": "ICP (0-100 target fit)"
         },
         {
-          "name": "ClarQ (0-40 maturity)"
+          "name": "PlainIQ (0-40 maturity)"
         },
         {
           "name": "REKS (Performance diagnosis)"

@@ -10,7 +10,7 @@
 
 | # | Test | Plugin/Command | Input | Output Esperado |
 |---|------|----------------|-------|-----------------|
-| 1 | `/diagnostico` | growth-foundations | AI Huevos contexto completo | ClarQ heatmap (GTM/Revenue/Q2C/Capabilities) |
+| 1 | `/diagnostico` | growth-foundations | AI Huevos contexto completo | PlainIQ heatmap (GTM/Revenue/Q2C/Capabilities) |
 | 2 | `/icp` | growth-foundations | Datos reales de AI Huevos | ICP scoring con Tier 1 (GTM Engineer LATAM) |
 | 3 | `/escala` | motor-de-ofertas | 5 plugins como oferta base | Value Ladder (Bait→Frontend→Backend) |
 | 4 | `content-strategy` | growth-foundations | ICP + positioning de Tests 1-2 | Ski Slope plan + Topic Triangle |
@@ -40,7 +40,7 @@ Canal: Claude Code marketplace + distribución directa
 
 ## Archivos de Output
 
-- `test-01-diagnostico.md` — ClarQ heatmap de AI Huevos
+- `test-01-diagnostico.md` — PlainIQ heatmap de AI Huevos
 - `test-02-icp.md` — ICP scoring y tiers
 - `test-03-escala.md` — Value Ladder
 - `test-04-content-strategy.md` — Ski Slope + Topic Triangle

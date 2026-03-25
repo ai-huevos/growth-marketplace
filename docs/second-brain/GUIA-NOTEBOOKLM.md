@@ -20,7 +20,7 @@ Sube los siguientes 11 archivos desde `docs/second-brain/` en este orden:
 ### Documentos por Plugin (subir segundo)
 | # | Archivo | Contenido | Prioridad |
 |---|---------|-----------|-----------|
-| 4 | `03-plugin-growth-foundations.md` | ICP, positioning, competitive analysis, ClarQ | Alta |
+| 4 | `03-plugin-growth-foundations.md` | ICP, positioning, competitive analysis, PlainIQ | Alta |
 | 5 | `04-plugin-sales-blueprint.md` | Discovery, pipeline, proposals, coaching, agents | Alta |
 | 6 | `05-plugin-copywriting-engine.md` | Headlines, emails, landing pages, triggers, 4-agent pipeline | Alta |
 

@@ -37,7 +37,7 @@
               "name": "Competitive Analysis (Porter's 5 Forces)"
             },
             {
-              "name": "ClarQ Diagnostic (/diagnostico)"
+              "name": "PlainIQ Diagnostic (/diagnostico)"
             },
             {
               "name": "Quiz Funnel (ASK Method)"
@@ -135,7 +135,7 @@
           "name": "ICP Score (0-100)"
         },
         {
-          "name": "ClarQ Maturity (0-40)"
+          "name": "PlainIQ Maturity (0-40)"
         },
         {
           "name": "PULSO Deal Score (5-30)"

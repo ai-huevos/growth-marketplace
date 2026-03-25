@@ -9,7 +9,7 @@
 
 | Nombre | Tipo | Descripción | Plugin |
 |--------|------|-------------|--------|
-| **ClarQ** | Diagnóstico | Evaluación de madurez operativa (GTM, Revenue, Q2C, Capabilities) 0-40 puntos | growth-foundations |
+| **PlainIQ** | Diagnóstico | Evaluación de madurez operativa (GTM, Revenue, Q2C, Capabilities) 0-40 puntos | growth-foundations |
 | **ESCALA** | Escalera de valor | Arquitectura de oferta en 4 niveles (Bait → Frontend → Middle → Backend) | motor-de-ofertas |
 | **FLUJO** | Arquitectura de funnels | Sistema de 7 fases de conversión | motor-de-ofertas |
 | **ALMA** | Personaje de marca | Sistema de identidad narrativa y voz de marca | motor-de-ofertas |

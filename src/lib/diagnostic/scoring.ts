@@ -10,7 +10,7 @@ export interface PulsoScore {
 
 export interface DiagnosticResult {
   pulso: PulsoScore;
-  clarQ: number; // Overall Clarity Quotient 0-100
+  plainIQ: number; // Overall Clarity Quotient 0-100
 }
 
 export function calculateScore(answersIds: string[]): DiagnosticResult {
@@ -39,10 +39,10 @@ export function calculateScore(answersIds: string[]): DiagnosticResult {
     organizacion: Math.round(totals.organizacion / questionCount),
   };
 
-  // ClarQ formula combining all PULSO elements (urgencia is inversion-scaled)
-  const clarQ = Math.round(
+  // PlainIQ formula combining all PULSO elements (urgencia is inversion-scaled)
+  const plainIQ = Math.round(
     (pulso.panorama * 2 + pulso.logro * 2 + pulso.situacion + pulso.organizacion - (pulso.urgencia * 0.5)) / 5.5
   );
 
-  return { pulso, clarQ: Math.max(0, Math.min(100, clarQ)) };
+  return { pulso, plainIQ: Math.max(0, Math.min(100, plainIQ)) };
 }

@@ -107,7 +107,7 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 ### Commands
 | Archivo | Propósito |
 |---------|-----------|
-| `commands/diagnostico.md` | Assessment ClarQ 4 dimensiones, heatmap, 0-40 |
+| `commands/diagnostico.md` | Assessment PlainIQ 4 dimensiones, heatmap, 0-40 |
 | `commands/icp.md` | Workshop interactivo ICP, 6 fases |
 | `commands/quiz.md` | Workshop interactivo Quiz Funnel, 8 fases |
 

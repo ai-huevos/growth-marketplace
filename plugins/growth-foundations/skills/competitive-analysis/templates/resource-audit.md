@@ -111,4 +111,4 @@ Listar TODOS los canales posibles antes de filtrar.
 
 ---
 
-*Conecta con: ClarQ Capabilities → /diagnostico, TRIÁNGULO DE INGRESOS → content-strategy, Pipeline forecasting → pipeline-management.*
+*Conecta con: PlainIQ Capabilities → /diagnostico, TRIÁNGULO DE INGRESOS → content-strategy, Pipeline forecasting → pipeline-management.*

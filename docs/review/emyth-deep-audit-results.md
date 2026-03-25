@@ -12,7 +12,7 @@ The marketplace is heavily weighted towards **Growth (Marketing & Sales)**, achi
 
 | Center of Attention | Coverage % | Current Coverage | Critical Gaps | Recommended Components |
 | :--- | :--- | :--- | :--- | :--- |
-| **LEADERSHIP** | **30%** | `sales-transformation`, `/diagnostico` (ClarQ), `playbook-coach` | No "Primary Aim" or "Strategic Objective" tools. No Core Values mechanism. | `strategic-planning` skill, `/vision-workshop` command, `chief-of-staff` agent |
+| **LEADERSHIP** | **30%** | `sales-transformation`, `/diagnostico` (PlainIQ), `playbook-coach` | No "Primary Aim" or "Strategic Objective" tools. No Core Values mechanism. | `strategic-planning` skill, `/vision-workshop` command, `chief-of-staff` agent |
 | **MARKETING** | **95%** | `icp-analysis`, `positioning`, `competitive-analysis`, `content-strategy`, `alma`, `product-marketing`, `icp-tal` | None. Fully fortified. | Optional: `jtbd-interviews` skill |
 | **FINANCE** | **20%** | `escala` (LTV:CAC), `pipeline-management` (forecasting) | Cash flow management missing entirely. No P&L, margins, pricing sensitivity. "Growing broke" risk. | `finance-os` plugin with `unit-economics`, `cash-flow-forecast`, `budget-guard-protocol` skills |
 | **MANAGEMENT** | **40%** | `project-management` (PM), `coaching-cadence` (ROCA), `sales-transformation` | Missing L10 Meeting rhythms, SOP documentation. PM manages projects, not daily ops. | `operating-system` skill (L10, Daily Huddles, IDS), `process-documenter` agent |
@@ -39,7 +39,7 @@ Orchestrator: `conversational-pm` sits above all plugins, routing user intent.
 #### growth-foundations (Diagnosis & Identity)
 | Component | Type | Requires | Produces |
 | :--- | :--- | :--- | :--- |
-| `/diagnostico` | Command | User business description | ClarQ Score (0-40) + Heatmap |
+| `/diagnostico` | Command | User business description | PlainIQ Score (0-40) + Heatmap |
 | `icp-analysis` | Skill | Market data, client list | ICP Score (0-100) + Tier Definitions |
 | `positioning` | Skill | ICP, Competitor URLs | Value Prop Canvas, Messaging Framework |
 | `quiz-funnel` | Skill | ICP, Positioning | Buckets (3-5), Quiz Blueprint |
@@ -126,7 +126,7 @@ System is robust on *strategy* (PULSO, ESCALA) but fragile on *tactical delivery
 ### Verdict: High Coherence, Zero Contradictions
 
 The 8 frameworks operate at different layers of the business stack:
-- **Operational Layer:** ClarQ (Company health)
+- **Operational Layer:** PlainIQ (Company health)
 - **Strategic Layer:** ICP, PENDIENTE, ESCALA (Targeting, Content, Offers)
 - **Tactical/Execution Layer:** FLUJO, SONDA, ALMA (Funnels, Segmentation, Brand)
 - **Human/Deal Layer:** PULSO, ROCA (Sales opportunities, Rep performance)
@@ -136,10 +136,10 @@ The 8 frameworks operate at different layers of the business stack:
 - **ESCALA → PULSO**: Value ladder tier defines Situation and Decision complexity
 - **FLUJO → PULSO**: Phase 7 triggers PULSO diagnostic conversation
 - **PENDIENTE → PULSO**: Content types (Green/Blue/Black) map to funnel stages
-- **ClarQ → PULSO**: Macro Situation assessment (operational maturity)
+- **PlainIQ → PULSO**: Macro Situation assessment (operational maturity)
 
 ### Potential Friction Points (All Resolved)
-- **ClarQ vs PULSO**: ClarQ = company operations, PULSO = specific sales opportunity
+- **PlainIQ vs PULSO**: PlainIQ = company operations, PULSO = specific sales opportunity
 - **ROCA vs PULSO**: ROCA = seller performance, PULSO = buyer needs
 - **ESCALA vs FLUJO**: ESCALA = "What" (offers), FLUJO = "How" (funnel)
 - **RADAR vs ICP**: RADAR = product-ladder fit, ICP = broader market definition
@@ -154,7 +154,7 @@ The 8 frameworks operate at different layers of the business stack:
 3. **PULSO** (The Standard) — Validation that "Who" wants "What"
 4. **PENDIENTE** (Traffic) — Mechanism to attract attention
 
-**Secondary for MVP:** FLUJO/SONDA (scaling), ALMA (brand), ClarQ (consulting), ROCA (team management)
+**Secondary for MVP:** FLUJO/SONDA (scaling), ALMA (brand), PlainIQ (consulting), ROCA (team management)
 
 ---
 
@@ -193,7 +193,7 @@ The 8 frameworks operate at different layers of the business stack:
 | Score Crítico | PULSO < 20 en deal activo | Deal Strategist | Alerta "No-Go", bloquea MAP |
 | Riesgo Sentimental | Frustración/enojo detectado | SDR / IMAN | Detiene secuencia, alerta humano |
 | Fallo de Calidad | Headline Score < 7.5 tras 3 intentos | Copy Engine | Solicita intervención creativa humana |
-| Fragile Giant | ClarQ Score < 16 | Conversational PM | Alerta de riesgo estructural |
+| Fragile Giant | PlainIQ Score < 16 | Conversational PM | Alerta de riesgo estructural |
 
 ### IV. Trust Graduation Criteria
 
@@ -226,7 +226,7 @@ The 8 frameworks operate at different layers of the business stack:
 ### growth-foundations
 
 #### `/diagnostico`
-- **Happy Path:** Full context → ClarQ Score 26-30 (Growth Ready), GTM strong, Capabilities risk
+- **Happy Path:** Full context → PlainIQ Score 26-30 (Growth Ready), GTM strong, Capabilities risk
 - **Edge Case (Fragile Giant):** Revenue depends on 3 clients + single CTO → Score < 16, "Juan Guillermo Problem"
 - **Failure Case:** "una startup de software" → Blocks, requests specific dimensions
 

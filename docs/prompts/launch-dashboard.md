@@ -83,7 +83,7 @@
 ### Flujo E2E Probado Parcialmente
 
 ```
-/diagnostico  →  ClarQ heatmap (GTM, Revenue, Q2C, Capabilities)
+/diagnostico  →  PlainIQ heatmap (GTM, Revenue, Q2C, Capabilities)
 /icp          →  ICP scoring 0-100, 3 tiers
 positioning   →  Value Prop Canvas + Messaging
 /quiz         →  Metodología SONDA quiz funnel
@@ -119,7 +119,7 @@ content-strategy → Ski Slope + Topic Triangle
 
 | Min | Acción | Comando | Output Esperado |
 |-----|--------|---------|-----------------|
-| 0-15 | Diagnóstico operativo | `/diagnostico` | ClarQ heatmap de AI Huevos |
+| 0-15 | Diagnóstico operativo | `/diagnostico` | PlainIQ heatmap de AI Huevos |
 | 15-25 | Perfil de cliente ideal | `/icp` | ICP scoring con 3 tiers |
 | 25-35 | Value Ladder | `/escala` | ESCALA canvas: free → paid → consulting |
 | 35-45 | Estrategia de contenido | `content-strategy` trigger | Ski Slope plan + Topic Triangle |

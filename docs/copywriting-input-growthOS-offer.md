@@ -167,7 +167,7 @@ These are named methodologies that create category ownership. Always use the exa
 | **ROCA** | Resultados, Operación, Conocimiento, Aptitud | Coaching framework: metrics-based, weekly/monthly cadence |
 | **SONDA** | Quiz funnel methodology | Market segmentation into 3-5 actionable buckets |
 | **RADAR** | Dream Customer Discovery | 4 questions: WHO, WHERE, BAIT, RESULT |
-| **ClarQ** | Quick Diagnostic | 4-dimension assessment: GTM, Revenue, Q2C, Capabilities |
+| **PlainIQ** | Quick Diagnostic | 4-dimension assessment: GTM, Revenue, Q2C, Capabilities |
 | **GOLPE** | Narrative Arc | Content structure: GOLPE → DOLOR → PUENTE → PRUEBA → ACCIÓN |
 | **ACE/AVE** | Call Opening | Appreciate, Verify time, End goal |
 

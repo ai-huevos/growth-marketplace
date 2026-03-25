@@ -66,7 +66,7 @@ Provide specific failure scenarios and recommended adaptations."
 ## Query 4: Framework Coherence Check
 
 ```bash
-nlm notebook query second-brain "Analyze coherence between the 8 core frameworks (PULSO, ClarQ, ROCA, ESCALA, FLUJO, ALMA, SONDA, PENDIENTE):
+nlm notebook query second-brain "Analyze coherence between the 8 core frameworks (PULSO, PlainIQ, ROCA, ESCALA, FLUJO, ALMA, SONDA, PENDIENTE):
 
 1. Do any frameworks contradict each other?
 2. Are there overlapping concepts that should be consolidated?

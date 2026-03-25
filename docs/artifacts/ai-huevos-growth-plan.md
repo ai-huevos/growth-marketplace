@@ -9,7 +9,7 @@ El marketplace se compone de **122 archivos** versionados en Git, estructurados 
 
 | Plugin | Versión | Propósito | Skills |
 | :--- | :--- | :--- | :--- |
-| `growth-foundations` | 1.0.0 | Diagnóstico ClarQ y estrategia base (Ski Slope/Topic Triangle). | 6 |
+| `growth-foundations` | 1.0.0 | Diagnóstico PlainIQ y estrategia base (Ski Slope/Topic Triangle). | 6 |
 | `sales-blueprint` | 1.0.0 | Ejecución de ventas consultivas (PULSO/Metodología GrowthOS). | 4 |
 | `copywriting-engine` | 1.0.0 | Motor de persuasión basado en 38k+ titulares analizados. | 4 |
 | `motor-de-ofertas` | 1.0.0 | Arquitectura de funnels y Escala de Valor (ESCALA/FLUJO). | 4 |
@@ -30,7 +30,7 @@ En 2025, el **GTM Engineer** emerge como el arquitecto indispensable. Mientras q
 #### Diagrama de Conexión Metodológica (Modelo Bowtie)
 ```
 [ AWARENESS ]             [ IMPACT ]                 [ GROWTH ]
-  ClarQ Score     --->   PULSO (5-30)       --->    REKS Performance
+  PlainIQ Score     --->   PULSO (5-30)       --->    REKS Performance
 (Madurez Operativa)     (Salud del Deal)            (Escalamiento del Equipo)
 ```
 
@@ -47,9 +47,9 @@ En 2025, el **GTM Engineer** emerge como el arquitecto indispensable. Mientras q
 
 ### 4. Modelo de Valor (Value Ladder): Framework ESCALA
 
-Utilizamos el diagnóstico **ClarQ** para segmentar y mover a los clientes a través de la escala de valor, identificando su nivel de madurez: *Fragile Giant, Growth Constrained, Growth Ready o Scaling*.
+Utilizamos el diagnóstico **PlainIQ** para segmentar y mover a los clientes a través de la escala de valor, identificando su nivel de madurez: *Fragile Giant, Growth Constrained, Growth Ready o Scaling*.
 
-*   **Imán (Gratis):** Plugin `growth-foundations`. El comando `/diagnostico` genera un ClarQ Score inmediato, atrayendo leads al identificar sus brechas operativas.
+*   **Imán (Gratis):** Plugin `growth-foundations`. El comando `/diagnostico` genera un PlainIQ Score inmediato, atrayendo leads al identificar sus brechas operativas.
 *   **Front-End (Pago):** Plugins especializados (`copywriting-engine`, `sales-blueprint`). Herramientas de ejecución rápida para equipos que necesitan pasar de "Growth Constrained" a "Growth Ready".
 *   **Middle (Implementación):** Consultoría de GTM Engineering. Configuración de flujos de agentes y servidores MCP para empresas con procesos complejos.
 *   **Back-End (High-Ticket):** Servicios "Done-for-you" (Modelos Elite). AI Huevos construye y opera la infraestructura de ingresos completa para el cliente.
@@ -73,7 +73,7 @@ Amplificación de bajo riesgo. Invertimos $5/día en posts probados orgánicamen
 ### 6. Sistema de Métricas de Éxito (RevOps Dashboard)
 
 #### Métricas de Producto y Calidad
-*   **ClarQ Score (0-40):** El KPI maestro de madurez. El objetivo es transicionar cuentas de "Fragile Giant" a "Scaling".
+*   **PlainIQ Score (0-40):** El KPI maestro de madurez. El objetivo es transicionar cuentas de "Fragile Giant" a "Scaling".
 *   **PULSO Confidence Level (5-30):**
     *   **5-14:** Nurture (No invertir recursos de ventas).
     *   **23-30:** Oportunidad Activa (Asignar AE y crear Mutual Action Plan).

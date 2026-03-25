@@ -169,9 +169,9 @@ Score = (Volume × 0.30) + (ICP Match × 0.25) + (Engagement × 0.20) + (Decisio
 **Uso**: `/diagnostico <empresa o descripción del negocio>`
 
 ### Qué hace
-Assessment rápido de madurez operacional usando el framework ClarQ. Evalúa una empresa en 4 dimensiones y genera un heatmap rojo/amarillo/verde.
+Assessment rápido de madurez operacional usando el framework PlainIQ. Evalúa una empresa en 4 dimensiones y genera un heatmap rojo/amarillo/verde.
 
-### Framework ClarQ (4 Dimensiones, 0-40)
+### Framework PlainIQ (4 Dimensiones, 0-40)
 
 | Dimensión | Qué evalúa |
 |-----------|-----------|
@@ -283,5 +283,5 @@ Estrategia de contenidos B2B basada en PENDIENTE (Green Circle → Blue Square �
 - El **competitive analysis** produce battle cards usadas por el **Deal Strategist**
 - El **positioning** genera el messaging framework que usa el **copywriting-engine**
 - El **quiz funnel** genera hook pages y outcome pages que usa el **copywriting-engine** (`/headline`, `/copy`)
-- El **/diagnostico ClarQ** identifica la madurez operacional que determina qué otros plugins necesita el cliente
+- El **/diagnostico PlainIQ** identifica la madurez operacional que determina qué otros plugins necesita el cliente
 - Los **tags de bucket** del quiz alimentan el CRM y mapean a etapas de **pipeline-management**

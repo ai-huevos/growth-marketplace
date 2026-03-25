@@ -21,7 +21,7 @@
 ### T-001: `/diagnostico`
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| ClarQ score in range 0-40 | ✅ | 15/40 |
+| PlainIQ score in range 0-40 | ✅ | 15/40 |
 | 4-dimension heatmap present | ✅ | GTM, Revenue, Q2C, Capabilities |
 | Phase recommendation given | ✅ | ESCALAR (based on churn) |
 | Spanish-first content | ✅ | All Spanish |
@@ -319,7 +319,7 @@
 
 | File | Description |
 |------|-------------|
-| `outputs/T-001-diagnostico.md` | ClarQ assessment |
+| `outputs/T-001-diagnostico.md` | PlainIQ assessment |
 | `outputs/T-002-os.md` | GrowthOS intake |
 | `outputs/T-003-icp.md` | ICP profile |
 | `outputs/T-004-quiz.md` | Quiz funnel blueprint |

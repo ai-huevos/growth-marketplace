@@ -1,14 +1,14 @@
 ---
-description: Assessment ClarQ de una empresa B2B. Evalúa GTM, Revenue, Q2C y Capabilities. Output un heatmap de madurez operacional.
+description: Assessment PlainIQ de una empresa B2B. Evalúa GTM, Revenue, Q2C y Capabilities. Output un heatmap de madurez operacional.
 argument-hint: <empresa o descripción del negocio>
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch]
 ---
 
-# Diagnóstico ClarQ
+# Diagnóstico PlainIQ
 
 El usuario quiere un assessment rápido de madurez operacional para: $ARGUMENTS
 
-## Framework ClarQ
+## Framework PlainIQ
 
 Evalúa la empresa en 4 dimensiones. Para cada una, asigna un score y un color:
 - 🟢 Verde (7-10): Maduro, documentado, automatizado
@@ -57,7 +57,7 @@ Evalúa la empresa en 4 dimensiones. Para cada una, asigna un score y un color:
 
 ```
 ╔══════════════════════════════════════════════════╗
-║           DIAGNÓSTICO CLARQ: [EMPRESA]           ║
+║           DIAGNÓSTICO PLAINIQ: [EMPRESA]           ║
 ╠══════════════════════════════════════════════════╣
 ║                                                  ║
 ║  GTM Strategy    [COLOR] ██████████  [X/10]      ║

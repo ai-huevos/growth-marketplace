@@ -143,4 +143,4 @@ Revisión mensual para optimizar recursos.
 
 ---
 
-*Derivado de Playbook 02: Estrategia de Marketing Contextual. Complementa Five Forces (teórico, mercado) con Auditoría de Recursos (pragmático, interno). Conecta con ClarQ dimensión "Capabilities" y pipeline-management.*
+*Derivado de Playbook 02: Estrategia de Marketing Contextual. Complementa Five Forces (teórico, mercado) con Auditoría de Recursos (pragmático, interno). Conecta con PlainIQ dimensión "Capabilities" y pipeline-management.*

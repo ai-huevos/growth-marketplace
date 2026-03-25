@@ -32,7 +32,7 @@ Sistema de 2 frameworks para planificar, priorizar y distribuir contenido B2B qu
 ## Commands
 
 ### /diagnostico
-Assessment rápido usando el framework ClarQ. Evalúa una empresa en 4 dimensiones: GTM Strategy, Revenue Streams, Quota-to-Cash, y Capabilities. Output: heatmap rojo/amarillo/verde.
+Assessment rápido usando el framework PlainIQ. Evalúa una empresa en 4 dimensiones: GTM Strategy, Revenue Streams, Quota-to-Cash, y Capabilities. Output: heatmap rojo/amarillo/verde.
 
 ```
 /diagnostico [nombre de empresa o descripción]

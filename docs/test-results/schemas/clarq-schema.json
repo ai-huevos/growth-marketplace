@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ClarQ Assessment Output",
+  "title": "PlainIQ Assessment Output",
   "description": "Schema for /diagnostico command output",
   "type": "object",
   "required": ["company", "score", "dimensions", "phase_recommendation"],
@@ -13,7 +13,7 @@
       "type": "integer",
       "minimum": 0,
       "maximum": 40,
-      "description": "Total ClarQ score (sum of 4 dimensions, 0-10 each)"
+      "description": "Total PlainIQ score (sum of 4 dimensions, 0-10 each)"
     },
     "dimensions": {
       "type": "object",

@@ -29,7 +29,7 @@ growth-marketplace/                          ← 5 plugins, 18 skills, 7 agentes
 │   │   │   ├── quiz-funnel/         ← Metodología SONDA adaptada a B2B
 │   │   │   └── content-strategy/    ← PENDIENTE + TRIÁNGULO DE INGRESOS
 │   │   └── commands/
-│   │       ├── diagnostico.md       ← /diagnostico (ClarQ assessment)
+│   │       ├── diagnostico.md       ← /diagnostico (PlainIQ assessment)
 │   │       ├── icp.md               ← /icp (workshop interactivo)
 │   │       └── quiz.md              ← /quiz (diseño de quiz funnel)
 │   ├── sales-blueprint/             ← Ejecución de ventas B2B
@@ -165,13 +165,13 @@ Estructura fija:
 
 ### Scoring Models
 - ICP: 0-100 con tiers (80-100, 60-79, 40-59, 0-39)
-- ClarQ: 0-40 con niveles (Fragile Giant, Growth Constrained, Growth Ready, Scaling)
+- PlainIQ: 0-40 con niveles (Fragile Giant, Growth Constrained, Growth Ready, Scaling)
 - PULSO: 5-30 por oportunidad (No calificado, Nurture, Oportunidad activa)
 - ROCA: Diagnóstico cualitativo (Results → Effort → Knowledge → Skills)
 
 ### Formatos de Output
 - Tablas Markdown para scoring y comparaciones
-- ASCII art para heatmaps (ClarQ)
+- ASCII art para heatmaps (PlainIQ)
 - Templates estructurados con placeholders
 - Checklists con [ ] para validación
 

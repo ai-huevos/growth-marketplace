@@ -130,7 +130,7 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 | `competitive-analysis` | Green | Recopilación y estructuración de datos públicos |
 | `content-strategy` | Yellow | Decisiones de PENDIENTE + TRIÁNGULO DE INGRESOS requieren contexto de negocio |
 | `quiz-funnel` (SONDA) | Yellow | Diseño de segmentación requiere validación de buckets |
-| `clarq-diagnostic` | Green | Scoring formulaico (0-40) basado en respuestas estructuradas |
+| `plainiq-diagnostic` | Green | Scoring formulaico (0-40) basado en respuestas estructuradas |
 
 #### sales-blueprint (5 skills)
 
@@ -186,7 +186,7 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 
 | Comando | Plugin | Zona | Justificación |
 |---------|--------|------|---------------|
-| `/diagnostico` | growth-foundations | Green | Scoring ClarQ formulaico, sin side-effects |
+| `/diagnostico` | growth-foundations | Green | Scoring PlainIQ formulaico, sin side-effects |
 | `/icp` | growth-foundations | Green | Workshop interactivo, scoring por reglas |
 | `/quiz` | growth-foundations | Yellow | Diseño de funnel requiere validación de segmentación |
 | `/discovery` | sales-blueprint | Yellow | Prepara agenda, humano conduce la reunión |
@@ -228,7 +228,7 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 | 2 | **Score Crítico** | PULSO < 20 en deal activo | Deal Strategist, Pipeline Mgmt | Alerta "No-Go", bloquea generación de MAP y propuesta |
 | 3 | **Riesgo Sentimental** | Frustración/enojo detectado en comunicación | SDR Agent, Copy Engine | Detiene secuencia automáticamente, alerta a humano |
 | 4 | **Fallo de Calidad** | Score < 7.5 tras 3 intentos consecutivos | Copy Engine (Output Agent) | Solicita intervención creativa humana |
-| 5 | **Fragile Giant** | ClarQ Score < 16 | Conversational PM | Alerta de riesgo estructural: "Este negocio necesita estabilizar antes de crecer" |
+| 5 | **Fragile Giant** | PlainIQ Score < 16 | Conversational PM | Alerta de riesgo estructural: "Este negocio necesita estabilizar antes de crecer" |
 
 ### Protocolo de Resolución de Escalación
 

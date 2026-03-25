@@ -15,7 +15,7 @@
 
 ```
 growth-marketplace/              ← ENGINE (genérico)
-  plugins/                       ← Metodologías (PULSO, ClarQ, etc.)
+  plugins/                       ← Metodologías (PULSO, PlainIQ, etc.)
   tools/                         ← Meta-tools
   docs/second-brain/             ← Conocimiento del sistema
   scripts/                       ← Utilidades

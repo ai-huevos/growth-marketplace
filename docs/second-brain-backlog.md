@@ -16,7 +16,7 @@ Issues detected by automated NLM validation after second-brain doc syncs. Each e
 - [ ] Multiple docs reference a total of 12 commands (stale count). True total is 18. Update docs that cite command count.
 - [ ] Doc-00 lists `growth-foundations` with 5 skills in old section but source of truth confirms 5. Verify content-strategy is counted consistently across docs.
 - [ ] Old file count of 105 persists in other docs. Actual count is ~216. Update `09-inventario-contenido.md` and `22-sistema-realidad-source-of-truth.md`.
-- [ ] Missing cross-references: frameworks (ClarQ, ROCA, ESCALA, FLUJO, PENDIENTE, Metodología SONDA) mentioned without linking to `08-frameworks-patrones.md` or their plugin docs.
+- [ ] Missing cross-references: frameworks (PlainIQ, ROCA, ESCALA, FLUJO, PENDIENTE, Metodología SONDA) mentioned without linking to `08-frameworks-patrones.md` or their plugin docs.
 - [ ] Missing cross-references: plugins introduced without linking to dedicated deep-dive docs (`03-plugin-growth-foundations.md`, `25-plugin-play-to-win.md`, etc.).
 
 ### 2026-02-21 23:39 — 27-rebrand-kai-partners.md (Write)

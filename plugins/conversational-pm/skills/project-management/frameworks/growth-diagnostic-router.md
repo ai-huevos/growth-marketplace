@@ -136,7 +136,7 @@ La PM activa plugins y skills como herramientas. No ejecuta el trabajo técnico 
 
 | Necesidad detectada | Command | Input que la PM prepara | Output esperado |
 |--------------------|---------|------------------------|-----------------|
-| "No sé si mi GTM funciona" | `/diagnostico` | Contexto de negocio | ClarQ heatmap (GTM/Revenue/Q2C/Capabilities) |
+| "No sé si mi GTM funciona" | `/diagnostico` | Contexto de negocio | PlainIQ heatmap (GTM/Revenue/Q2C/Capabilities) |
 | "Necesito copy completo" | `/copy` | ICP + positioning + value prop | Landing page + email sequence (4 agentes) |
 | "Iniciar GrowthOS" | `/os` | Ninguno (nuevo usuario) | Intake conversacional → routing a fase |
 | "Ver mi roadmap" | `/roadmap` | GCO existente | Roadmap de 90 días actualizado |
@@ -163,7 +163,7 @@ Una vez tenga el output, vamos a [siguiente paso].
 La PM conecta los outputs de un plugin como inputs del siguiente:
 
 ```
-/diagnostico → ClarQ heatmap
+/diagnostico → PlainIQ heatmap
      ↓ (revela gap en ICP)
 /icp → Perfil con scoring
      ↓ (ICP definido, falta posicionamiento)
@@ -256,7 +256,7 @@ Cuando la PM se usa con AI Huevos como cliente (el propio marketplace):
 
 1. **PM ingesta** contexto real de AI Huevos (conversación)
 2. **PM diagnostica** growth stage → Pre-Revenue/First Revenue
-3. **PM rutea** a `/diagnostico` → ClarQ heatmap de AI Huevos
+3. **PM rutea** a `/diagnostico` → PlainIQ heatmap de AI Huevos
 4. **PM rutea** a `/icp` → Perfil del GTM Engineer LATAM
 5. **PM rutea** a `/escala` → Value Ladder (plugin gratis → pack → consultoría)
 6. **PM rutea** a `content-strategy` → Ski Slope para AI Huevos blog

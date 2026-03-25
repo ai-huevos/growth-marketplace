@@ -81,7 +81,7 @@
 - **icp-analysis** (nuestro) — Scoring 0-100, 5 dimensiones ponderadas
 - **competitive-analysis** (nuestro) — Five Forces + matriz + battle cards
 - **positioning** (nuestro) — Value Proposition Canvas
-- **ClarQ /diagnostico** (nuestro) — Madurez operativa 0-40
+- **PlainIQ /diagnostico** (nuestro) — Madurez operativa 0-40
 - **GAP**: JTBD skill, signal-based prospecting
 
 ### B: Sales Methodology & Pipeline
@@ -100,7 +100,7 @@
 - **4-agent pipeline** (nuestro) — Research → Insight → Ideation → Output
 
 ### D: Funnel & CRO
-- ClarQ (parcial) — Solo diagnóstico operativo
+- PlainIQ (parcial) — Solo diagnóstico operativo
 - **GAP CRÍTICO**: Funnel diagnostics, PLG/PQL scoring, CRO analysis
 
 ### E: RevOps & Data
@@ -132,7 +132,7 @@
 - Trigger: `/research-gtm [contexto]`
 - Output: GTM Brief completo
 
-**Revenue Ops Pod**: Deal Strategist + ClarQ + Revenue Architect + MEDDPICC Qualifier
+**Revenue Ops Pod**: Deal Strategist + PlainIQ + Revenue Architect + MEDDPICC Qualifier
 - Trigger: `/revenue-check [datos]`
 - Output: Revenue Health Report
 

@@ -265,7 +265,7 @@ CONFIDENCE [Alta/Media/Baja — basada en evidencia]
 - `skills/pre-discovery-research/` — Research de pre-discovery para alimentar contexto
 - Frameworks de referencia en la base de conocimiento Metodología GrowthOS (31 frameworks)
 - Plugin `sales-blueprint` — Ejecucion tactica diaria (discovery, pipeline, proposals, coaching)
-- Plugin `growth-foundations` — ICP scoring, ClarQ diagnostic, competitive analysis
+- Plugin `growth-foundations` — ICP scoring, PlainIQ diagnostic, competitive analysis
 
 ## Quality Gate
 

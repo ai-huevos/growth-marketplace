@@ -1,6 +1,6 @@
 # Matriz de Competencias de Marketing — Evaluación Basada en Evidencia
 
-> Complementa el diagnóstico ClarQ (organizacional) con evaluación individual de competencias. Alimenta la dimensión "Panorama" del PULSO — define qué capacidades tiene el equipo HOY.
+> Complementa el diagnóstico PlainIQ (organizacional) con evaluación individual de competencias. Alimenta la dimensión "Panorama" del PULSO — define qué capacidades tiene el equipo HOY.
 
 ---
 
@@ -142,4 +142,4 @@ Miembro alcanza Nivel 4
 
 ---
 
-*Derivado de Playbook 00: Entendiendo los Skills de Marketing de Alto Rendimiento. Conecta con ClarQ (dimensión Capabilities) y coaching-cadence (ROCA para desarrollo individual).*
+*Derivado de Playbook 00: Entendiendo los Skills de Marketing de Alto Rendimiento. Conecta con PlainIQ (dimensión Capabilities) y coaching-cadence (ROCA para desarrollo individual).*

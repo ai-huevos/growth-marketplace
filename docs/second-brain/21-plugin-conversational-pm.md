@@ -143,7 +143,7 @@ conversational-pm es el **orquestador** que conecta todos los demás plugins:
 
 | Plugin origen | Datos que irriga | Cómo los usa la PM |
 |---------------|------------------|---------------------|
-| growth-foundations | ICP scores, segmentos, ClarQ heatmap | Para definir a quién sirve el sistema |
+| growth-foundations | ICP scores, segmentos, PlainIQ heatmap | Para definir a quién sirve el sistema |
 | sales-blueprint | Pipeline health, PULSO scores por deal | Para priorizar qué datos necesitan dashboards |
 | copywriting-engine | Métricas de conversión, A/B results | Para alimentar dashboards de marketing |
 | motor-de-ofertas | Funnel metrics, ESCALA tiers, email performance | Para conectar el embudo completo al sistema |

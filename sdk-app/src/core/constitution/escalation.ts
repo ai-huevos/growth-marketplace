@@ -91,16 +91,16 @@ export function checkQualityFailure(
 // ─── Trigger 5: Fragile Giant ────────────────────────────────────────
 
 export function checkFragileGiant(
-  clarqScore: number,
+  plainiqScore: number,
   skill: string,
   threshold = 16,
 ): EscalationCheck {
   return {
     trigger: "fragile_giant",
-    fired: clarqScore < threshold,
-    details: `ClarQ Score ${clarqScore} < ${threshold}: Business needs to stabilize before growing`,
+    fired: plainiqScore < threshold,
+    details: `PlainIQ Score ${plainiqScore} < ${threshold}: Business needs to stabilize before growing`,
     skill,
-    value: clarqScore,
+    value: plainiqScore,
     threshold,
   };
 }

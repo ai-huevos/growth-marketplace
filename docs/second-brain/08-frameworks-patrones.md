@@ -20,7 +20,7 @@ Inventario completo de todos los frameworks, templates, patrones y bibliotecas d
 **Componentes**: Firmográfico (30%) + Pain Match (25%) + Impact (20%) + Decision (15%) + Critical Event (10%)
 **Scoring**: 0-100 con 4 tiers
 
-### 3. ClarQ
+### 3. PlainIQ
 **Ubicación**: `growth-foundations/commands/diagnostico.md`
 **Usado por**: /diagnostico command
 **Tipo**: Assessment de madurez operacional

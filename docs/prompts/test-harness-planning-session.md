@@ -22,7 +22,7 @@ Layer 4: GOVERNANCE (Not Yet Built)
 
 Layer 3: ORCHESTRATION
 ├── GrowthOS Phases: DEFINIR → ATRAER → CONVERTIR → ESCALAR
-├── Router: /diagnostico → ClarQ Score → Phase Assignment
+├── Router: /diagnostico → PlainIQ Score → Phase Assignment
 └── PM Agent: conversational-pm orchestrates specialist agents
 
 Layer 2: PROCESS LIBRARY (31 Skills)
@@ -35,7 +35,7 @@ Layer 2: PROCESS LIBRARY (31 Skills)
 
 Layer 1: METHODOLOGY
 ├── PULSO (Panorama, Urgencia, Logro, Situación Crítica, Organización)
-├── ClarQ (GTM, Revenue, Q2C, Capabilities → 0-40 score)
+├── PlainIQ (GTM, Revenue, Q2C, Capabilities → 0-40 score)
 ├── ROCA (Results, Objectives, Capabilities, Activities)
 └── ESCALA, FLUJO, ALMA, SONDA, PENDIENTE
 ```
@@ -60,7 +60,7 @@ Layer 1: METHODOLOGY
 
 | Test ID | Command | Input | Expected Output | Validation Criteria |
 |---------|---------|-------|-----------------|---------------------|
-| T-001 | `/diagnostico` | "TalentFlow: SaaS de RRHH en México, 50 empleados, $2M ARR, 8% churn mensual" | ClarQ Score + Heatmap + Phase Recommendation | Score is 0-40, heatmap has 4 dimensions, recommends DEFINIR or CONVERTIR phase |
+| T-001 | `/diagnostico` | "TalentFlow: SaaS de RRHH en México, 50 empleados, $2M ARR, 8% churn mensual" | PlainIQ Score + Heatmap + Phase Recommendation | Score is 0-40, heatmap has 4 dimensions, recommends DEFINIR or CONVERTIR phase |
 | T-002 | `/os` | Start GrowthOS | Seed questionnaire (4 questions) | Asks company, stage, problem, desired outcome |
 
 ### Phase 1: DEFINIR (ICP + Positioning)
@@ -102,7 +102,7 @@ Layer 1: METHODOLOGY
 
 ### 1. Schema Validation
 Each output must match expected structure. Define JSON schemas for:
-- ClarQ Assessment
+- PlainIQ Assessment
 - ICP Profile
 - PULSO Diagnosis
 - Proposal Document

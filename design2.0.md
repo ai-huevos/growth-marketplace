@@ -30,14 +30,14 @@ Anonymous Visitor
 │
 ├── 3. Results Screen (email-gated)
 │   "Tu empresa está en la fase: [ATRAER]"
-│   ClarQ score visualization (0-40 heatmap)
+│   PlainIQ score visualization (0-40 heatmap)
 │   PULSO spider chart (5 dimensions)
 │   3 specific recommendations
 │   CTA: "Ingresa tu email para recibir el reporte completo"
 │
 ├── 4. Email Capture → Full Report (PDF)
 │   Branded PDF with:
-│   - ClarQ score breakdown by category
+│   - PlainIQ score breakdown by category
 │   - Phase diagnosis with reasoning
 │   - Top 3 recommended actions
 │   - "Powered by GrowthOS" branding
@@ -223,7 +223,7 @@ Enterprise User ($5K-8K/month)
 │  │                                             │    │
 │  └─────────────────────────────────────────────┘    │
 │                                                     │
-│  ── Tu Diagnóstico ClarQ ──                         │
+│  ── Tu Diagnóstico PlainIQ ──                         │
 │  ┌────────────────────────────────────────┐         │
 │  │ GTM Strategy    ████████░░  72/100     │         │
 │  │ Revenue Engine  ████░░░░░░  38/100     │ ← weak │
@@ -254,7 +254,7 @@ Enterprise User ($5K-8K/month)
 **Design decisions:**
 - Phase name is the hero. Big, bold, immediately clear.
 - The tagline below the phase name is emotionally resonant (not technical).
-- ClarQ bars use color coding: green (>70), yellow (40-70), red (<40).
+- PlainIQ bars use color coding: green (>70), yellow (40-70), red (<40).
 - The weakest dimension is visually highlighted — that's where the pain is.
 - Email gate comes AFTER delivering real value. User already got their diagnosis.
 - The 3 actions are specific, not generic. Each maps to a skill in the system.
@@ -394,7 +394,7 @@ Built on shadcn/ui (Next.js native). Key components:
 
 - **PhaseBar** — Horizontal 4-phase progress indicator. Always visible in dashboard.
 - **DiagnosticCard** — Question card with selectable options. One per screen.
-- **ScoreBar** — Horizontal bar chart for ClarQ scores. Color-coded by threshold.
+- **ScoreBar** — Horizontal bar chart for PlainIQ scores. Color-coded by threshold.
 - **SpiderChart** — PULSO 5-dimension radar chart. Shows current + trend.
 - **DeliverableCard** — Thumbnail + title + quality score + date. Grid layout.
 - **ActionCard** — Highlighted next action with skill info + "Ejecutar" CTA.
@@ -476,7 +476,7 @@ PULSO (5 posts minimum)
 ├── Post 3: "El error de vender antes de definir" (DEFINIR insight)
 └── Post 4: "Customer Success no es un departamento" (ESCALAR provocative)
 
-ClarQ Diagnostic (3 posts)
+PlainIQ Diagnostic (3 posts)
 ├── Post 1: "Score your GTM strategy in 2 minutes" (CTA to tool)
 ├── Post 2: "Most B2B companies score below 50/100" (benchmark data)
 └── Post 3: "The 4 dimensions enterprises get wrong" (educational)
@@ -495,7 +495,7 @@ Templates/Deliverables (ongoing)
 ### What to Build First (Phase 1 — No Code)
 
 1. **Typeform diagnostic** (seed questionnaire, 4 questions) — Day 1
-2. **Branded PDF report template** (ClarQ + phase + 3 actions) — Day 2-3
+2. **Branded PDF report template** (PlainIQ + phase + 3 actions) — Day 2-3
 3. **Landing page** (Carrd or Framer, single page) — Day 3-4
 4. **Notion client dashboard template** — Day 5
 5. **First 5 LinkedIn posts** from the content reservoir — Day 6-7

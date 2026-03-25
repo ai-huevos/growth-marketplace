@@ -14,7 +14,7 @@ export default async function DashboardPage() {
 
   let phase = "DEFINIR" as "DEFINIR" | "ATRAER" | "CONVERTIR" | "ESCALAR";
   let pulso = { panorama: 0, urgencia: 0, logro: 0, situacion: 0, organizacion: 0 };
-  let clarQ = 0;
+  let plainIQ = 0;
   let hasDiagnostic = false;
 
   if (user) {
@@ -31,7 +31,7 @@ export default async function DashboardPage() {
       if (latestDiagnostic) {
         phase = latestDiagnostic.recommended_phase;
         pulso = latestDiagnostic.pulso_score;
-        clarQ = latestDiagnostic.clarq_score;
+        plainIQ = latestDiagnostic.plainiq_score;
         hasDiagnostic = true;
       }
     }
@@ -80,7 +80,7 @@ export default async function DashboardPage() {
             <CardTitle className="text-sm font-medium text-muted-foreground">Clarity Quotient</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-black text-growos-primary">{clarQ}/100</div>
+            <div className="text-3xl font-black text-growos-primary">{plainIQ}/100</div>
             {hasDiagnostic && <p className="text-xs text-muted-foreground mt-1">Basado en tu último diagnóstico.</p>}
             {!hasDiagnostic && <p className="text-xs text-growos-danger mt-1">Falta diagnóstico inicial.</p>}
           </CardContent>

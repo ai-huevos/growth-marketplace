@@ -85,7 +85,7 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 
 | Plugin | Focus | Key Methodology |
 |--------|-------|-----------------|
-| `growth-foundations` | ICP, positioning, competitive analysis, ClarQ diagnostic, quiz funnels, content strategy | PULSO segmentation, Metodología SONDA, Estrategia PENDIENTE |
+| `growth-foundations` | ICP, positioning, competitive analysis, PlainIQ diagnostic, quiz funnels, content strategy | PULSO segmentation, Metodología SONDA, Estrategia PENDIENTE |
 | `sales-blueprint` | Discovery, pipeline, proposals, coaching | Metodología GrowthOS / PULSO |
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | PULSO project discovery, Growth Diagnostic Router, Agent roster |
@@ -111,14 +111,14 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 - **GCO (GrowthOS Context Object)**: Persistent state per client containing company info, PULSO diagnosis, current phase, completed skills, and generated outputs. See `os/intake/context-object.md`.
 - **YAML frontmatter** in SKILL.md files defines trigger keywords that activate the skill automatically. Commands use frontmatter for `description`, `argument-hint`, and `allowed-tools`.
 - **Cross-references**: Skills reference their own `frameworks/`, `templates/`, and `patterns/` subdirectories via relative paths. Commands reference agent files (e.g., `/copy` orchestrates 4 agents).
-- **Scoring models**: ICP uses 0-100 scoring with tiers. ClarQ uses 0-40 with color heatmap. Pipeline uses PULSO-based health indicators.
+- **Scoring models**: ICP uses 0-100 scoring with tiers. PlainIQ uses 0-40 with color heatmap. Pipeline uses PULSO-based health indicators.
 - **Agentic Constitution**: `os/governance/agentic-constitution.md` is the binding governance document for all plugins. Defines NEVER/ALWAYS rules, Green/Yellow/Red zone classifications for all 31 skills and 18 commands, escalation triggers, trust graduation (HITL → HOTL → HOOTL), budget guards, and unified quality gates. All agents must comply.
 
 ### Commands
 
 | Command | Plugin | Purpose |
 |---------|--------|---------|
-| `/diagnostico` | growth-foundations | ClarQ assessment (GTM, Revenue, Q2C, Capabilities) |
+| `/diagnostico` | growth-foundations | PlainIQ assessment (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Interactive ICP definition + scoring workshop |
 | `/quiz` | growth-foundations | Metodología SONDA quiz funnel builder |
 | `/discovery` | sales-blueprint | PULSO discovery session orchestrator |

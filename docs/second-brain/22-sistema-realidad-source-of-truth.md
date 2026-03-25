@@ -72,7 +72,7 @@
 ### Comandos (12)
 | Comando | Plugin | Función |
 |---------|--------|---------|
-| `/diagnostico` | growth-foundations | ClarQ assessment (GTM, Revenue, Q2C, Capabilities) |
+| `/diagnostico` | growth-foundations | PlainIQ assessment (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Workshop ICP + scoring |
 | `/quiz` | growth-foundations | Quiz funnel Metodología SONDA builder |
 | `/discovery` | sales-blueprint | PULSO discovery session |
@@ -161,7 +161,7 @@
 ┌─────────────────────────────────────────────────────────────┐
 │              FASE 1: DIAGNÓSTICO + CIMIENTOS                │
 │  growth-foundations                                          │
-│  /diagnostico → ClarQ heatmap (GTM/Revenue/Q2C/Cap)        │
+│  /diagnostico → PlainIQ heatmap (GTM/Revenue/Q2C/Cap)        │
 │  /icp → ICP scoring 0-100, Tier 1/2/3                      │
 │  positioning → Value Prop Canvas + Messaging                │
 │  competitive-analysis → Battle cards + Five Forces          │
@@ -226,8 +226,8 @@ Usar AI Huevos (la propia empresa) como el primer cliente real del marketplace. 
 
 #### Test 1: `/diagnostico` con AI Huevos
 - **Input**: "AI Huevos, empresa de plugins de growth para Claude Code"
-- **Esperado**: ClarQ heatmap mostrando gaps reales de GTM
-- **Valida**: Que el ClarQ framework genera output útil para una startup
+- **Esperado**: PlainIQ heatmap mostrando gaps reales de GTM
+- **Valida**: Que el PlainIQ framework genera output útil para una startup
 
 #### Test 2: `/icp` con AI Huevos
 - **Input**: Datos reales de AI Huevos (ticket, mercado, buyer persona)

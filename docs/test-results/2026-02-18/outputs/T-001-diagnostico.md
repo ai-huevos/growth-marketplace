@@ -1,4 +1,4 @@
-# T-001: Diagnóstico ClarQ — TalentFlow
+# T-001: Diagnóstico PlainIQ — TalentFlow
 
 **Test ID**: T-001
 **Command**: `/diagnostico`
@@ -69,7 +69,7 @@
 
 ```
 ╔══════════════════════════════════════════════════╗
-║           DIAGNÓSTICO CLARQ: TALENTFLOW          ║
+║           DIAGNÓSTICO PLAINIQ: TALENTFLOW          ║
 ╠══════════════════════════════════════════════════╣
 ║                                                  ║
 ║  GTM Strategy    🔴 ███░░░░░░░  3/10             ║
@@ -134,7 +134,7 @@ TalentFlow opera como un **Gigante Frágil**:
 
 ## Fase GrowthOS Recomendada
 
-Basado en el diagnóstico ClarQ:
+Basado en el diagnóstico PlainIQ:
 
 | Fase | Relevancia | Razón |
 |------|------------|-------|
@@ -151,7 +151,7 @@ Basado en el diagnóstico ClarQ:
 
 | Criterio | Status | Notas |
 |----------|--------|-------|
-| ClarQ score en rango 0-40 | ✅ PASS | 15/40 |
+| PlainIQ score en rango 0-40 | ✅ PASS | 15/40 |
 | 4 dimensiones con heatmap | ✅ PASS | GTM, Revenue, Q2C, Capabilities |
 | Fase recomendada | ✅ PASS | ESCALAR (basado en churn) |
 | Spanish-first | ✅ PASS | Sin mezcla de inglés excepto términos técnicos |
@@ -161,4 +161,4 @@ Basado en el diagnóstico ClarQ:
 
 ---
 
-*Output generado: 2026-02-18 | Framework: ClarQ | Test Harness: E2E Wave 1*
+*Output generado: 2026-02-18 | Framework: PlainIQ | Test Harness: E2E Wave 1*

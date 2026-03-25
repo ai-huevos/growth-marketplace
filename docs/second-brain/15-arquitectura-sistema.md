@@ -370,7 +370,7 @@ Usa $ARGUMENTS como placeholder para input del usuario.
 
 ```
 growth-foundations/commands/
-├── diagnostico.md     ← /diagnostico → ClarQ assessment (0-40)
+├── diagnostico.md     ← /diagnostico → PlainIQ assessment (0-40)
 └── icp.md             ← /icp → Workshop interactivo ICP
 
 sales-blueprint/commands/
@@ -490,7 +490,7 @@ El marketplace usa scoring en múltiples niveles. Todos los modelos están docum
 ┌─────────────────────────────────────────────────────────────────┐
 │  MODELO          │ RANGO  │ TIERS / NIVELES                     │
 │─────────────────────────────────────────────────────────────────│
-│  ClarQ           │ 0-40   │ 0-15  Fragile Giant                │
+│  PlainIQ           │ 0-40   │ 0-15  Fragile Giant                │
 │  (diagnóstico)   │        │ 16-25 Growth Constrained            │
 │                  │        │ 26-32 Growth Ready                  │
 │                  │        │ 33-40 Scaling                       │
@@ -527,7 +527,7 @@ El marketplace usa scoring en múltiples niveles. Todos los modelos están docum
 Los scores no son solo métricas — funcionan como **gates** que controlan el flujo:
 
 ```
-ClarQ < 16  →  "Fragile Giant" alert, recomienda acciones inmediatas
+PlainIQ < 16  →  "Fragile Giant" alert, recomienda acciones inmediatas
 ICP < 40    →  No califica como target, descartado
 PULSO < 23 →  /propuesta bloqueado ("completa discovery primero")
 PULSO < 20 →  Deal Strategist: No-Go, no genera MAP
@@ -663,7 +663,7 @@ Agente que diagnostica con un framework y genera acciones basadas en el resultad
 INPUT ──▶ DIAGNÓSTICO ──▶ CLASIFICACIÓN ──▶ ACCIÓN
           (PULSO,         (Tier, Score,     (Outreach,
            ROCA,            Go/No-Go)         MAP,
-           ClarQ)                             Coaching)
+           PlainIQ)                             Coaching)
 ```
 
 **Implementación**: SDR Agent y Deal Strategist en `sales-blueprint`.
@@ -690,7 +690,7 @@ else:
 PULSO no es solo un framework de un plugin — es el **lenguaje compartido** entre los 3 plugins.
 
 ```
-growth-foundations:  PULSO para DIAGNOSTICAR (ICP, ClarQ)
+growth-foundations:  PULSO para DIAGNOSTICAR (ICP, PlainIQ)
 sales-blueprint:    PULSO para EVALUAR (discovery, pipeline, proposals)
 copywriting-engine: PULSO para COMUNICAR (pains → copy, impact → urgency)
 ```
@@ -706,7 +706,7 @@ copywriting-engine: PULSO para COMUNICAR (pains → copy, impact → urgency)
                     │  growth-foundations  │
                     │  (DIAGNÓSTICO)       │
                     │                     │
-                    │  ClarQ → gaps       │
+                    │  PlainIQ → gaps       │
                     │  ICP → targets      │
                     │  Positioning → msg  │
                     └────────┬────────────┘

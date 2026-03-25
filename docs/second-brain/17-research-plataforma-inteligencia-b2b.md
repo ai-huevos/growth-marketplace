@@ -262,7 +262,7 @@ La arquitectura moderna de inteligencia B2B se organiza en tres capas:
 El Growth Marketplace actualmente opera en la **Intelligence Layer** como contenido puro (frameworks de analisis). La oportunidad es evolucionar hacia un sistema que:
 
 1. **Consuma datos reales** de la Data Layer del cliente (via integraciones)
-2. **Aplique frameworks** (PULSO, ICP scoring, ClarQ) sobre esos datos
+2. **Aplique frameworks** (PULSO, ICP scoring, PlainIQ) sobre esos datos
 3. **Genere acciones** en la Orchestration Layer (siguiente mejor accion, alertas, recomendaciones)
 
 ---
@@ -372,7 +372,7 @@ Knowledge Graph Central (Neo4j)
     |--- Nodo: Pipeline Deals ----------> Irriga: Forecasting + coaching
     |--- Nodo: Discovery Insights ------> Irriga: Proposal generation
     |--- Nodo: Copy Performance --------> Irriga: A/B optimization
-    |--- Nodo: ClarQ Diagnostics -------> Irriga: Roadmap de mejoras
+    |--- Nodo: PlainIQ Diagnostics -------> Irriga: Roadmap de mejoras
     |
     v
 Cada framework que ejecutas genera datos que alimentan a TODOS los demas
@@ -401,7 +401,7 @@ Cada framework que ejecutas genera datos que alimentan a TODOS los demas
 | Pipeline health score | Semaforo (PULSO-based) | CRM + Knowledge Graph |
 | Win rate trend | Tendencia 90 dias | CRM |
 | CAC / LTV ratio | Eficiencia | Marketing + Finance |
-| ClarQ score general | Diagnostico de salud | Framework ClarQ |
+| PlainIQ score general | Diagnostico de salud | Framework PlainIQ |
 | NRR (Net Revenue Retention) | Expansion | Customer Success |
 
 **Patrones de diseno**:
@@ -480,7 +480,7 @@ Data Sources (CRM, Marketing, Ops)
 Data Layer (Warehouse + Knowledge Graph)
     |
     v
-Semantic Layer (metricas definidas, PULSO scoring, ClarQ)
+Semantic Layer (metricas definidas, PULSO scoring, PlainIQ)
     |
     v
 Dashboard API (queries optimizadas por nivel)
@@ -512,7 +512,7 @@ Frontend (dashboards responsivos por rol)
                     (Growth Marketplace Plugins)
                     |--- PULSO diagnostic
                     |--- ICP scoring
-                    |--- ClarQ assessment
+                    |--- PlainIQ assessment
                     |--- Proposal generation
                     |--- Coaching ROCA
                             |
@@ -532,11 +532,11 @@ Frontend (dashboards responsivos por rol)
 
 ### 5.2 El Marketplace como Semantic Layer
 
-El insight clave de esta investigacion es que los frameworks del Growth Marketplace (PULSO, ICP scoring, ClarQ, ROCA) **ya funcionan como una capa semantica** — definen el significado de los datos de negocio:
+El insight clave de esta investigacion es que los frameworks del Growth Marketplace (PULSO, ICP scoring, PlainIQ, ROCA) **ya funcionan como una capa semantica** — definen el significado de los datos de negocio:
 
 - PULSO define que hace a un deal "saludable"
 - ICP scoring define que hace a un cliente "ideal"
-- ClarQ define que hace a una organizacion "madura"
+- PlainIQ define que hace a una organizacion "madura"
 - ROCA define que hace a un rep "efectivo"
 
 Estos frameworks no son solo contenido Markdown: son **modelos de dominio** que pueden traducir datos crudos (CRM, marketing, ops) en inteligencia accionable.
@@ -557,7 +557,7 @@ Estos frameworks no son solo contenido Markdown: son **modelos de dominio** que 
 | Capa conversacional | Claude Agents (actual) + evaluar ADK para multi-modelo | Mantener lo que funciona, explorar interoperabilidad |
 | Backend de datos | PostgreSQL + Neo4j en paralelo | Relacional para transacciones, graph para relaciones |
 | Activacion de datos | Reverse ETL (Hightouch/Census) | Patrones probados en el ecosistema composable |
-| Semantic layer | Frameworks propios (PULSO, ClarQ) como DSL | Diferenciador unico del marketplace |
+| Semantic layer | Frameworks propios (PULSO, PlainIQ) como DSL | Diferenciador unico del marketplace |
 | Dashboards | Tres niveles: estrategico, tactico, operacional | Patron probado, cada rol consume lo que necesita |
 | Protocolo de integracion | MCP para tools, evaluar A2A para multi-agente | Estandares abiertos con traccion real |
 

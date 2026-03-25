@@ -18,7 +18,7 @@ The system has 4 distinct layers, and understanding them changes the product str
 │  (copywriting-engine, motor-de-ofertas, play-to-win)     │
 ├─────────────────────────────────────────────────────────┤
 │  LAYER 3: METHODOLOGY FRAMEWORK                          │
-│  PULSO + ESCALA + SONDA + ClarQ + ROCA + FLUJO           │
+│  PULSO + ESCALA + SONDA + PlainIQ + ROCA + FLUJO           │
 │  "The thinking models that connect diagnosis to action"   │
 │  (growth-foundations, sales-blueprint frameworks/)        │
 ├─────────────────────────────────────────────────────────┤
@@ -52,14 +52,14 @@ The system has 4 distinct layers, and understanding them changes the product str
 **Templates are output contracts, not suggestions.** The 56 templates define:
 - What must be delivered (structure)
 - What success looks like (benchmark)
-- How to validate quality (scoring models: ICP 0-100, ClarQ 0-40)
+- How to validate quality (scoring models: ICP 0-100, PlainIQ 0-40)
 
 ### The Hidden Asset Map
 
 | Asset | What It Really Is | Product Value |
 |-------|-------------------|---------------|
 | Seed Questionnaire (4 questions) | Lead qualification engine | Free diagnostic = top of funnel |
-| ClarQ Diagnostic | GTM maturity assessment | Lead magnet + paid deep-dive |
+| PlainIQ Diagnostic | GTM maturity assessment | Lead magnet + paid deep-dive |
 | PULSO Framework | Universal B2B health check | Content series + core methodology |
 | 4-Phase Model | Customer journey / product tiers | Pricing + packaging structure |
 | 56 Templates | Productized deliverables | Service offerings with fixed scope |
@@ -97,7 +97,7 @@ The AI agency landscape has three tiers:
 
 | Dimension | Tier 1 (Tools) | Tier 2 (Agencies) | GrowthOS |
 |-----------|---------------|-------------------|----------|
-| Diagnosis | ❌ None | ✅ Human strategist | ✅ Automated (PULSO, ClarQ) |
+| Diagnosis | ❌ None | ✅ Human strategist | ✅ Automated (PULSO, PlainIQ) |
 | Methodology | ❌ Generic AI | ✅ Agency IP | ✅ Codified (6 frameworks) |
 | Execution | ✅ Fast, cheap | ✅ High quality | ⚠️ Quality depends on prompts |
 | Cumulative learning | ❌ No memory | ✅ Account team knows you | ✅ GCO state object |
@@ -190,7 +190,7 @@ No code needed. Ship in 1 week.
 │  Data Model:                                     │
 │  - organizations (company profile)               │
 │  - gco_state (GrowthOS Context Object per org)   │
-│  - diagnostic_results (ClarQ + PULSO scores)     │
+│  - diagnostic_results (PlainIQ + PULSO scores)     │
 │  - deliverables (generated outputs per phase)    │
 │  - phase_progress (which skills completed)       │
 │  - templates (the 56 output contracts)           │
@@ -203,7 +203,7 @@ No code needed. Ship in 1 week.
 │  Opus for complex diagnosis)                     │
 │                                                  │
 │  System Prompts = Your plugin methodology        │
-│  (PULSO, ESCALA, ClarQ, etc. loaded as context)  │
+│  (PULSO, ESCALA, PlainIQ, etc. loaded as context)  │
 │                                                  │
 │  Workflow:                                       │
 │  1. User input → select relevant template        │
@@ -228,7 +228,7 @@ gco_state (
   id, org_id,
   current_phase,        -- DEFINIR | ATRAER | CONVERTIR | ESCALAR
   pulso_scores,         -- JSONB {panorama, urgencia, logro, situacion, organizacion}
-  clarq_scores,         -- JSONB {gtm, revenue, q2c, capabilities}
+  plainiq_scores,         -- JSONB {gtm, revenue, q2c, capabilities}
   completed_skills,     -- TEXT[] array of skill slugs
   generated_outputs,    -- JSONB [{template_id, created_at, status}]
   metadata,             -- JSONB for extensibility
@@ -237,7 +237,7 @@ gco_state (
 
 diagnostic_results (
   id, org_id,
-  diagnostic_type,      -- 'clarq' | 'pulso' | 'seed'
+  diagnostic_type,      -- 'plainiq' | 'pulso' | 'seed'
   raw_responses,        -- JSONB (questionnaire answers)
   scores,               -- JSONB (computed scores)
   recommended_phase,
@@ -314,7 +314,7 @@ Week 8: Polish + Launch
 ```
 ┌──────────────────────────────────────────────────────┐
 │  DIAGNÓSTICO (Free)                                   │
-│  Seed questionnaire + ClarQ score + phase routing     │
+│  Seed questionnaire + PlainIQ score + phase routing     │
 │  → Lead magnet. Captures email. Shows the gap.        │
 ├──────────────────────────────────────────────────────┤
 │  STARTER — $500/month                                 │
@@ -343,7 +343,7 @@ This maps directly to the 4-phase model:
 
 ### The Diagnostic IS the Funnel
 
-The seed questionnaire (4 questions) → ClarQ score → phase routing is simultaneously:
+The seed questionnaire (4 questions) → PlainIQ score → phase routing is simultaneously:
 1. **Product onboarding** (for paying users)
 2. **Lead magnet** (for marketing)
 3. **Qualification engine** (for sales)
@@ -370,7 +370,7 @@ AWARENESS (Top of Funnel)
     └── ESCALAR: "El modelo operativo de Customer Success"
 
 CONSIDERATION (Mid-Funnel)
-├── ClarQ Deep Dive Report — Personalized diagnostic (gated)
+├── PlainIQ Deep Dive Report — Personalized diagnostic (gated)
 │   Trigger: User completes free diagnostic, wants detailed analysis
 │   Shows: specific gaps, benchmarks vs industry, recommended actions
 │   CTA: "Activa tu roadmap de 90 días"
@@ -385,7 +385,7 @@ CONSIDERATION (Mid-Funnel)
 
 DECISION (Bottom of Funnel)
 ├── 90-Day Roadmap Preview — Generated from their diagnostic
-│   "Based on your ClarQ score, here's your roadmap"
+│   "Based on your PlainIQ score, here's your roadmap"
 │   Free but incomplete — full version requires subscription
 │
 ├── Live Demo — Run /os for them in a call
@@ -403,7 +403,7 @@ Each framework in your system is 4-8 LinkedIn posts. Total content reservoir:
 | Source | Posts | Format |
 |--------|-------|--------|
 | PULSO (5 dimensions) | 5 deep-dives + 1 overview | Carousel / long-form |
-| ClarQ (4 categories) | 4 scoring breakdowns | Infographic |
+| PlainIQ (4 categories) | 4 scoring breakdowns | Infographic |
 | ESCALA (value ladder) | 3-part series | How-to thread |
 | 4-Phase Model | 4 phase explainers | Visual framework |
 | SONDA (quiz methodology) | 2 tactical posts | Step-by-step |
@@ -419,7 +419,7 @@ Every piece of content maps to a product entry point:
 ```
 LinkedIn post about PULSO
   → Links to free diagnostic (seed questionnaire)
-    → User gets ClarQ score + phase routing
+    → User gets PlainIQ score + phase routing
       → Upsell to full report (email capture)
         → Upsell to Starter plan (self-serve)
           → Upsell to Growth/Enterprise (managed)

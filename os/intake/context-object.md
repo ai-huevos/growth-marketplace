@@ -115,7 +115,7 @@ trust_levels:
   competitive-analysis: "HOTL" # Green zone, graduado
   content-strategy: "HITL"     # Yellow zone
   quiz-funnel: "HITL"          # Yellow zone
-  clarq-diagnostic: "HOTL"     # Green zone, scoring formulaico
+  plainiq-diagnostic: "HOTL"     # Green zone, scoring formulaico
   # ... (se expande con cada skill usado por el cliente)
 
 escalation_log:

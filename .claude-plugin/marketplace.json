@@ -13,7 +13,7 @@
     {
       "name": "growth-foundations",
       "source": "./plugins/growth-foundations",
-      "description": "Frameworks fundamentales de B2B growth: ICP scoring, positioning, competitive analysis, y diagnóstico ClarQ.",
+      "description": "Frameworks fundamentales de B2B growth: ICP scoring, positioning, competitive analysis, y diagnóstico PlainIQ.",
       "version": "1.0.0",
       "keywords": ["b2b", "icp", "positioning", "competitive-analysis", "growth", "pulso", "spanish"],
       "category": "productivity",

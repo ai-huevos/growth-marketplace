@@ -15,8 +15,8 @@ export default function ResultadoPage({ searchParams }: { searchParams: { a?: st
   }
 
   const answerIds = searchParams.a.split(",");
-  const { pulso, clarQ } = calculateScore(answerIds);
-  const phase = determineNextPhase({ pulso, clarQ });
+  const { pulso, plainIQ } = calculateScore(answerIds);
+  const phase = determineNextPhase({ pulso, plainIQ });
 
   const phaseColors = {
     DEFINIR: "text-phase-definir",
@@ -33,7 +33,7 @@ export default function ResultadoPage({ searchParams }: { searchParams: { a?: st
           Tu Diagnóstico de Crecimiento
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Basado en tus respuestas, hemos calculado tu Clarity Quotient (ClarQ) y los pilares de tu motor Go-to-Market (PULSO).
+          Basado en tus respuestas, hemos calculado tu Clarity Quotient (PlainIQ) y los pilares de tu motor Go-to-Market (PULSO).
         </p>
       </div>
 
@@ -44,7 +44,7 @@ export default function ResultadoPage({ searchParams }: { searchParams: { a?: st
               Tu Clarity Quotient
             </h2>
             <div className="mt-4 flex items-baseline justify-center gap-1">
-              <span className="text-7xl font-black text-growos-primary">{clarQ}</span>
+              <span className="text-7xl font-black text-growos-primary">{plainIQ}</span>
               <span className="text-2xl font-bold text-muted-foreground">/100</span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground max-w-[280px] text-center mx-auto">

@@ -30,8 +30,8 @@ export async function POST(request: Request) {
     }
 
     // Calculate metrics server-side
-    const { pulso, clarQ } = calculateScore(answerIds);
-    const phase = determineNextPhase({ pulso, clarQ });
+    const { pulso, plainIQ } = calculateScore(answerIds);
+    const phase = determineNextPhase({ pulso, plainIQ });
 
     // Insert results into the DB
     const { data, error } = await supabase
@@ -40,7 +40,7 @@ export async function POST(request: Request) {
         org_id: profile.org_id,
         raw_answers: answerIds,
         pulso_score: pulso,
-        clarq_score: clarQ,
+        plainiq_score: plainIQ,
         recommended_phase: phase
       })
       .select()

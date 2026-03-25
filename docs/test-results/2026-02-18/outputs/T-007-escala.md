@@ -116,7 +116,7 @@
 |----------|-------------|
 | **Nombre** | "Transformación de Retención 90 días" |
 | **Descripción** | Consultoría + implementación + coaching |
-| **Incluye** | Diagnóstico ClarQ + Implementación TalentFlow + 6 sesiones de coaching con equipo HR + Playbook personalizado + Garantía de reducción de rotación |
+| **Incluye** | Diagnóstico PlainIQ + Implementación TalentFlow + 6 sesiones de coaching con equipo HR + Playbook personalizado + Garantía de reducción de rotación |
 | **Precio** | $25,000-50,000 USD (one-time + licencia anual) |
 | **Compromiso** | 90 días de proyecto + licencia anual |
 | **LTV esperado** | $75,000+ (proyecto + 3 años licencia) |

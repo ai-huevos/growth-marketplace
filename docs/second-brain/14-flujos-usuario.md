@@ -182,13 +182,13 @@ Los comandos se invocan manualmente con `/` y ejecutan workflows multi-fase con 
 /diagnostico
 
 Fase 1: Recopilación
-  Claude: "Vamos a evaluar tu madurez comercial con ClarQ."
+  Claude: "Vamos a evaluar tu madurez comercial con PlainIQ."
   Claude: "¿Cuál es tu modelo de negocio?" (espera)
   Claude: "¿Cuántos clientes activos tienes?" (espera)
   Claude: "¿Cómo generas revenue actualmente?" (espera)
   ... (10 preguntas por las 4 dimensiones)
 
-Fase 2: Scoring ClarQ (0-40)
+Fase 2: Scoring PlainIQ (0-40)
   Dimensión             Score    Color
   ─────────────────────────────────────
   GTM Strategy          7/10     🟢
@@ -432,7 +432,7 @@ PULSO conecta los 3 plugins en un flujo lógico:
 │  GROWTH-FOUNDATIONS              SALES-BLUEPRINT             │
 │  ┌─────────────────┐           ┌──────────────────┐         │
 │  │ /diagnostico    │           │ /discovery       │         │
-│  │ ClarQ (0-40)    │──────────▶│ PULSO (5-30)    │         │
+│  │ PlainIQ (0-40)    │──────────▶│ PULSO (5-30)    │         │
 │  │                 │ "Necesitas│ Diagnóstico de   │         │
 │  │ Identifica gaps │  pipeline"│ oportunidad      │         │
 │  └────────┬────────┘           └────────┬─────────┘         │
@@ -487,7 +487,7 @@ PULSO conecta los 3 plugins en un flujo lógico:
 
 ```
 Día 1: Diagnóstico inicial
-  /diagnostico → ClarQ score 18/40 (Growth Constrained)
+  /diagnostico → PlainIQ score 18/40 (Growth Constrained)
   → Descubre: no hay ICP definido, pipeline sin calificar
 
 Día 2: Definir ICP
@@ -537,7 +537,7 @@ ETAPA 1: SETUP
 ETAPA 2: DIAGNÓSTICO (growth-foundations)
 ══════════════════════════════════════════════════
 /diagnostico
-→ ClarQ assessment (10 preguntas, 4 dimensiones)
+→ PlainIQ assessment (10 preguntas, 4 dimensiones)
 → Score: 22/40 "Growth Constrained"
 → Gap principal: No hay ICP definido
 
