@@ -40,8 +40,6 @@ The future product maps these plugins to a dynamic user interface:
 
 ### GrowthOS Orchestrator Layer
 
-### GrowthOS Orchestrator Layer
-
 ```
 os/
   growthOS.md              ← Master orchestrator protocol
@@ -246,6 +244,102 @@ Use `scripts/second-brain-sync.sh` to automate adding files to the second-brain:
 ```
 
 The script auto-detects the next `NN-` number, generates a slug, moves/copies the file to `docs/second-brain/`, and uploads to NotebookLM.
+
+## Development
+
+### Tech Stack
+
+- **Frontend**: Next.js 14, React 18, Tailwind CSS 3, shadcn/ui (radix-nova style, RSC enabled), Framer Motion
+- **AI**: Vercel AI SDK (`ai` + `@ai-sdk/anthropic`), Anthropic SDK (`@anthropic-ai/sdk`), Claude Agent SDK
+- **Database**: Supabase (PostgreSQL 17, local port 54332, API port 54331)
+- **SDK**: `sdk-app/` — `@aihuevos/growthos-sdk` (TypeScript, Vitest, Node >=22)
+- **Config**: TypeScript strict mode, path alias `@/*` → `./src/*`
+
+### Commands
+
+```bash
+# Next.js app (root)
+npm run dev          # Start dev server
+npm run build        # Production build
+npm run start        # Start production server
+npm run lint         # ESLint (next/core-web-vitals + next/typescript)
+
+# SDK app (sdk-app/)
+cd sdk-app
+npm run build        # tsc compile
+npm run dev          # tsx watch mode
+npm test             # vitest run (all tests)
+npm run test:unit    # Unit tests only
+npm run test:integration  # Integration tests
+npm run test:e2e     # E2E tests
+npm run test:constitutional  # Constitutional compliance tests
+npm run typecheck    # tsc --noEmit
+npm run lint         # eslint src/
+
+# Supabase (local)
+npx supabase start   # Start local Supabase
+npx supabase db reset # Reset local DB with migrations
+```
+
+### Environment Setup
+
+Copy `sdk-app/.env.example` to `sdk-app/.env`. Required keys:
+- `ANTHROPIC_API_KEY` — Claude API access
+- `GCO_DIR` — GrowthOS Context Object storage path (default: `~/.growthos/contexts`)
+- `CONTENT_ROOT` — Path to marketplace content (default: `..` from sdk-app)
+
+Budget guards: `BUDGET_SESSION_LIMIT_USD`, `BUDGET_DAILY_LIMIT_USD` (see `.env.example` for defaults).
+
+Optional integrations: `FIREFLIES_API_KEY`, `NOTION_API_KEY`, `SLACK_WEBHOOK_URL`.
+
+### Next.js App Structure (`src/`)
+
+```
+src/
+  app/
+    (authenticated)/        ← Protected routes (dashboard, roadmap, skill execution)
+      dashboard/            ← Main dashboard
+      ejecutar/[skill]/     ← Skill execution
+      entregables/[id]/     ← Deliverables view
+      evaluacion/           ← Assessment
+      fase/[phase]/         ← Phase view
+      roadmap/              ← 90-day roadmap
+    (public)/               ← Public routes (diagnostico, login, test)
+    api/
+      chat/route.ts         ← Chat endpoint (Vercel AI SDK streaming)
+      diagnostic/route.ts   ← Diagnostic API
+      deliverables/route.ts ← Deliverables API
+    auth/callback/          ← Supabase OAuth callback
+  components/
+    growthOS/               ← GrowthOS-specific components (12 files)
+    ui/                     ← shadcn/ui components (13 files)
+    diagnostic/             ← Diagnostic UI
+    deliverables/           ← Deliverables UI
+    chat/                   ← Chat interface
+  lib/
+    ai/                     ← AI/Claude integration
+    diagnostic/             ← Diagnostic logic
+    supabase/               ← Supabase client (SSR + browser)
+    constants/              ← App constants
+    utils.ts                ← Shared utilities (cn() for class merging)
+```
+
+### SDK App Structure (`sdk-app/`)
+
+```
+sdk-app/src/
+  core/
+    constitution/           ← Agentic Constitution runtime (trust, budget, quality gates, escalation, audit)
+    skills/                 ← Skill resolver, loader, YAML parser
+  tools/
+    read-skill.ts           ← Reads and parses SKILL.md files
+  config/                   ← SDK configuration
+  index.ts                  ← Entry point
+```
+
+### Supabase
+
+3 migrations in `supabase/migrations/`. Config in `supabase/config.toml`. Local dev uses default ports (API: 54331, DB: 54332).
 
 ## Git Workflow
 
