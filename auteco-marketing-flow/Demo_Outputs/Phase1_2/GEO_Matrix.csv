@@ -1,0 +1,11 @@
+city,brand,keyword_variant,local_intent_signal
+Bogotá,BAJAJ,motos para domicilios bogota sin cuota inicial,High (Uber Eats/Rappi densisty)
+Medellín,VICTORY,moto para lomas medellin barata,High (Geographical specific)
+Cali,TVS,tvs raider cali concesionarios,Medium (Commuter demand)
+Pereira,BAJAJ,boxer ct 100 eje cafetero,Medium (Rural transit)
+Barranquilla,TVS,motos 125 economicas barranquilla,High (Delivery and quick transit)
+Bogotá,KTM,test drive ktm duke 390 bogota norte,Low/Niche (Premium segment)
+Medellín,HUSQVARNA,rutas norden 901 antioquia,Medium (Adventure tourism Hub)
+Bucaramanga,VICTORY,mrx 150 bucaramanga,Medium (Enduro appeal for surrounding terrain)
+Cartagena,BAJAJ,moto playa barata,Low (Touristic specific)
+Cúcuta,TVS,repuestos tvs cucuta,High (Border trade intensity)

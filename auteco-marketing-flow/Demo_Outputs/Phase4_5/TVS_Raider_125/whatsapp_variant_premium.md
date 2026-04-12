@@ -1,0 +1,1 @@
+[REJECTED BY COMPLIANCE: Tono KTM detectado en marca TVS]

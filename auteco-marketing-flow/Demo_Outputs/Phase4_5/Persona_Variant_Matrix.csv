@@ -1,0 +1,12 @@
+brand,model,asset_type,base_asset_link,persona,variant_link,key_adaptation,compliance_status
+BAJAJ,Boxer CT 100,tiktok_script.md,link,El Domiciliario,link,Tono más informal (parcero),✅ PASSED
+BAJAJ,Boxer CT 100,whatsapp_promo.md,link,El Primer Comprador,link,Énfasis en crédito facil,✅ PASSED
+TVS,Raider 125,tiktok_script.md,link,El Domiciliario,link,Tono más informal (parcero),✅ PASSED
+TVS,Raider 125,whatsapp_promo.md,link,El Primer Comprador,link,Énfasis en crédito facil,✅ PASSED
+TVS,Raider 125,whatsapp_promo.md,link,El Premium,link,Intento de tono aspiracional fallido,🔴 REJECTED
+VICTORY,MRX 150,tiktok_script.md,link,El Domiciliario,link,Tono más informal (parcero),✅ PASSED
+VICTORY,MRX 150,whatsapp_promo.md,link,El Primer Comprador,link,Énfasis en crédito facil,✅ PASSED
+KTM,Duke 390,tiktok_script.md,link,El Domiciliario,link,Tono más informal (parcero),✅ PASSED
+KTM,Duke 390,whatsapp_promo.md,link,El Primer Comprador,link,Énfasis en crédito facil,✅ PASSED
+Husqvarna,Norden 901,tiktok_script.md,link,El Domiciliario,link,Tono más informal (parcero),✅ PASSED
+Husqvarna,Norden 901,whatsapp_promo.md,link,El Primer Comprador,link,Énfasis en crédito facil,✅ PASSED

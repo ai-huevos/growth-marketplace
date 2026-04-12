@@ -7,7 +7,7 @@ console.log("==================================================\n");
 
 // Phase 1: Context (Ingest)
 console.log("[PHASE 1: CONTEXT INGESTION]");
-const specPath = path.join(__dirname, '../docs/dummy-auteco-spec-sheet.md');
+const specPath = path.join(__dirname, '../assets/dummy-auteco-spec-sheet.md');
 if (!fs.existsSync(specPath)) {
     console.error("❌ Spec sheet not found!");
     process.exit(1);
@@ -102,6 +102,19 @@ console.log("[PHASE 6: REVIEW & SHIP]");
 if (testsPassed) {
     console.log("🟢 All Quality Gates Passed. Assets are staged for Human-in-the-Loop review.");
     console.log("📦 Target Destinations: Meta Ads API, Twilio WhatsApp API.");
+    
+    // Validate output to physical drafts folder
+    const draftsDir = path.join(__dirname, '../drafts');
+    if (!fs.existsSync(draftsDir)) {
+        fs.mkdirSync(draftsDir, { recursive: true });
+    }
+    
+    console.log("💾 Writing prototype outputs to drafts folder...");
+    generatedAssets.forEach(asset => {
+        const filePath = path.join(draftsDir, `${asset.type}.md`);
+        fs.writeFileSync(filePath, asset.copy);
+        console.log(`   -> Saved: drafts/${asset.type}.md`);
+    });
 } else {
     console.log("🔴 Quality Gates Failed. Assets routed back to BUILD phase.");
 }
