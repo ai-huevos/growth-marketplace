@@ -1,3 +1,0 @@
-# Todo lo que debes saber de la KTM Duke 390
-## La mejor Velocidad del 2026
-La Duke 390 destaca por sus Modo Supermoto y Quickshifter+ superando a los rivales del segmento...

@@ -1,3 +1,0 @@
-# Todo lo que debes saber de la BAJAJ Boxer CT 100
-## La mejor Ahorro del 2026
-La Boxer CT 100 destaca por sus Mayor rendimiento de ciudad, repuestos baratos superando a los rivales del segmento...
