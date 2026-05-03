@@ -7,13 +7,19 @@ artifact_types:
   - first-call playbooks
 lenses:
   - cialdini    # Trust-building, reciprocity, authority cadence
-  - shepard    # Discovery-driven selling, qualification rigor
   - schwartz   # Awareness-stage detection during the call
   - christensen # JTBD interview technique
+  - hormozi    # Qualification math (decision rules), price-fit detection
 debate_pairs:
-  - [shepard, cialdini, "qualification rigor vs rapport-building"]
-  - [christensen, shepard, "JTBD interview vs solution-fitting interview"]
+  - [cialdini, hormozi, "rapport-building vs hard qualification gates"]
+  - [christensen, hormozi, "JTBD interview vs solution-fit interview"]
   - [schwartz, cialdini, "awareness-stage detection vs consistent persuasion arc"]
+gap_note: |
+  This 4-lens roster intentionally avoids the SEO experts in Domain 7 of the source
+  corpus (roof, shepard, slawski) which were initially mistaken for sales-influence
+  lenses. The corpus lacks a dedicated B2B-sales lens. Phase 2 candidate: convert
+  Sandler / Holden / Eades / Trish Bertuzzi as a "domain 7b - sales motion" lens
+  set if needed.
 output_format: standard
 trigger_phrases:
   - "panel discovery"
@@ -40,14 +46,14 @@ default_output_path: "clients/<client>/diagnostics/discovery-panel-<date>.md"
 
 ## Round 2 — Debate prompts
 
-### Shepard ↔ Cialdini: "Qualification rigor vs rapport-building"
-- Shepard default: qualify hard, qualify early, lose deals you can't close.
+### Cialdini ↔ Hormozi: "Rapport-building vs hard qualification gates"
 - Cialdini default: trust precedes qualification; questions before rapport feel like interrogation.
+- Hormozi default: qualify hard, qualify early; price-fit and offer-fit need to be tested before deep rapport investment.
 - Surface: where is the script's qualification rigor accidentally damaging trust? Where is rapport-building delaying necessary qualification?
 
-### Christensen ↔ Shepard: "JTBD interview vs solution-fitting interview"
+### Christensen ↔ Hormozi: "JTBD interview vs solution-fit interview"
 - Christensen default: ask about the buyer's JOB and the circumstances of the struggle; let solutions emerge.
-- Shepard default: probe specific qualifications (budget, authority, timeline, fit); guide toward the solution.
+- Hormozi default: probe specific qualifications (budget, authority, timeline, value-equation fit); guide toward the offer.
 - Surface: where is the script collecting solution-fit data that's already obvious? Where is JTBD discovery skipped?
 
 ### Schwartz ↔ Cialdini: "Awareness-stage detection vs consistent persuasion arc"

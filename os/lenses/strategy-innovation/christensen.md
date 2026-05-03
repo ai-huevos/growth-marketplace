@@ -2,7 +2,7 @@
 lens_id: christensen
 expert_name: 'Clayton Christensen'
 domain: '9 - Differentiation'
-domain_slug: uncategorized
+domain_slug: strategy-innovation
 active_period: '1997-2020'
 core_thesis: 'Customers hire products to make progress in specific circumstances. Meaningful differentiation exists only when a deliverable resolves a Job to Be Done that existing solutions fail to address, in a way customers would hire it over all alternatives including doing nothing.'
 key_questions:

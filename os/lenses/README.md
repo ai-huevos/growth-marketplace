@@ -24,7 +24,25 @@ os/lenses/
     <lastname>.md              ← one file per expert
 ```
 
-Domain slugs match the 15-domain taxonomy from the Context Profiles Collection (offer-engineering, persuasion, positioning, ux-research, thinking-models, product-design, sales-influence, trust-ethics, strategy-innovation, data-viz, forecasting, systems-ops, quality, ai-future, visual-design).
+Domain slugs (15 total, refined from the source Context Profiles Collection's original numbering by re-categorizing experts into their canonical domains):
+
+| Folder | Holds | Note |
+|---|---|---|
+| `offer-engineering/` | Hormozi | Pure offer architecture |
+| `persuasion/` | Cialdini, Georgi, Laja, Schwartz, Wiebe | All persuasion / copy / influence experts |
+| `positioning/` | Dunford, Neumeier, Ries-Trout | Strategic positioning |
+| `ux-research/` | Krug, Nielsen, Redish | Clarity & information design |
+| `thinking-models/` | Galef, Nosek, Sagan | Epistemology / empirical grounding |
+| `product-design/` | Cooper, Norman (Product), Young | Audience calibration |
+| `seo-search/` | Roof, Shepard, Slawski | SEO / search discovery (renamed from sales-influence — these are not sales experts) |
+| `trust-ethics/` | Cofone, O'Neill | Privacy law + Kantian trust philosophy |
+| `strategy-innovation/` | Christensen, Kim-Mauborgne | Disruption + Blue Ocean |
+| `data-viz/` | Tufte | Information design (Code experts moved to quality/) |
+| `forecasting/` | Marks, Popper, Tetlock | Strategic reasoning |
+| `business-model/` | Campbell, Skok, Weinberg | SaaS economics, LTV/CAC, traction (renamed from systems-ops) |
+| `quality/` | Deming, Feathers, Martin, McConnell, Vernon | Industrial + software quality |
+| `ai-future/` | Amodei, Commey, Microsoft Azure | AI architecture & agents |
+| `visual-design/` | Lupton, Norman (Visual), Vignelli | Visual & interaction design |
 
 ## Lens file format
 

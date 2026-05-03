@@ -168,14 +168,31 @@ function buildBody(source) {
 }
 
 function main() {
-  const [, , src, dst] = process.argv;
+  const [, , src, dst, ...rest] = process.argv;
   if (!src || !dst) {
-    console.error("Usage: node scripts/convert-lens.mjs <source.json> <target.md>");
+    console.error("Usage: node scripts/convert-lens.mjs <source.json> <target.md> [--domain <slug>] [--lens-id <id>]");
     process.exit(2);
   }
+
+  // Optional CLI overrides
+  let lensIdOverride = null;
+  let domainOverride = null;
+  for (let i = 0; i < rest.length; i++) {
+    if (rest[i] === "--domain" && rest[i + 1]) domainOverride = rest[++i];
+    if (rest[i] === "--lens-id" && rest[i + 1]) lensIdOverride = rest[++i];
+  }
+
   const json = JSON.parse(readFileSync(src, "utf8"));
-  const lensId = slugFromFilename(src);
-  const domSlug = domainSlug(json?.expert?.domain || "");
+  const lensId = lensIdOverride || slugFromFilename(src);
+
+  // Domain resolution priority:
+  //   1. --domain CLI arg (explicit override)
+  //   2. Target path's parent folder name (canonical: file location IS the domain)
+  //   3. Auto-detection from JSON expert.domain string (best-effort fallback)
+  const targetParent = basename(dirname(dst));
+  const domSlug = domainOverride
+    || (targetParent && targetParent !== "." ? targetParent : domainSlug(json?.expert?.domain || ""));
+
   const md = buildFrontmatter(json, lensId, domSlug) + buildBody(json) + "\n";
   mkdirSync(dirname(dst), { recursive: true });
   writeFileSync(dst, md, "utf8");

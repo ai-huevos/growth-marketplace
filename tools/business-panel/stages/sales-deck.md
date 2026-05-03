@@ -9,11 +9,11 @@ lenses:
   - dunford     # Sales Pitch Setup → Follow-Through; positioning hierarchy
   - cialdini    # Authority, social proof, commitment, scarcity placement per slide
   - hormozi     # Value Equation per slide; offer presentation discipline
-  - shepard     # Discovery-driven selling, qualification within the deck
+  - schwartz    # Awareness-stage fit per slide; mass desire continuity
 debate_pairs:
   - [dunford, cialdini, "structured Setup vs trust-building openness"]
   - [hormozi, dunford, "offer-forward decks vs positioning-forward decks"]
-  - [shepard, hormozi, "qualification within the deck vs offer-acceleration"]
+  - [schwartz, hormozi, "awareness-stage match per slide vs offer-acceleration"]
 output_format: polish-candidates
 trigger_phrases:
   - "panel sales deck"
@@ -50,10 +50,10 @@ default_output_path: "clients/<client>/diagnostics/sales-deck-panel-<date>.md"
 - Dunford default: positioning sets the frame. Without positioning first, the offer evaluates against the wrong category.
 - Surface: where does this deck spend its first 3 slides — positioning or offer? Is that right for the audience?
 
-### Shepard ↔ Hormozi: "Qualification within the deck vs offer-acceleration"
-- Shepard default: build qualification into every slide; let bad-fit buyers self-disqualify.
-- Hormozi default: maximum offer clarity; let the buyer say no for the right reasons (price, fit) not the wrong ones (confusion).
-- Surface: where would a slide that disqualifies bad-fit buyers actually accelerate the right deals?
+### Schwartz ↔ Hormozi: "Awareness-stage match per slide vs offer-acceleration"
+- Schwartz default: each slide should match the audience's current awareness stage; selling-mode at Unaware/Problem-aware triggers rejection.
+- Hormozi default: maximum offer clarity by slide 3; let the buyer say no for the right reasons (price, fit) not the wrong ones (confusion).
+- Surface: which slides force the audience past their awareness stage? Where does Hormozi-style offer-acceleration cost more than it gains?
 
 ## Round 3 — Synthesis instructions
 
@@ -64,7 +64,7 @@ Standard + polish.
 Produce **3 6-slide deck outlines**, each with a different lens emphasis:
 - **A) Setup-led** (Dunford): slide 1 = shared insight, slide 2 = alternatives & limits, slide 3 = perfect world, slide 4 = product, slide 5 = pricing/risk reversal, slide 6 = next step
 - **B) Offer-led** (Hormozi): slide 1 = single-sentence positioning, slide 2 = product timeline, slide 3 = case + Loom, slide 4 = vs alternatives, slide 5 = pricing + guarantee, slide 6 = next step
-- **C) Qualification-led** (Shepard): slide 1 = audience match, slide 2 = trigger questions, slide 3 = product + scope, slide 4 = case fit, slide 5 = pricing + commitment ladder, slide 6 = next step
+- **C) Awareness-led** (Schwartz): slide 1 = stage-fit hook (Unaware → Most-aware), slide 2 = problem mechanization, slide 3 = solution mechanism, slide 4 = case fit + proof, slide 5 = pricing + commitment ladder, slide 6 = next step
 
 ### Panel verdict
 

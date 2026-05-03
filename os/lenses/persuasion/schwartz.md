@@ -2,7 +2,7 @@
 lens_id: schwartz
 expert_name: 'Eugene M. Schwartz'
 domain: '1A - Persuasion Architecture'
-domain_slug: offer-engineering
+domain_slug: persuasion
 active_period: '1927-1995 (Breakthrough Advertising [1966], The Brilliance Breakthrough)'
 core_thesis: 'Copy does not create desire. It channels pre-existing mass desire onto a specific product through strategically sequenced belief-building. The conversion power originates in the market, not in the writer.'
 key_questions:

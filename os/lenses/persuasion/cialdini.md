@@ -2,7 +2,7 @@
 lens_id: cialdini
 expert_name: 'Robert Cialdini'
 domain: '8 - Trust & Ethics'
-domain_slug: trust-ethics
+domain_slug: persuasion
 active_period: '1984-present'
 core_thesis: 'The same psychological principles that build trust can destroy it when their underlying features are fabricated. The line is not which technique but whether influence elements are genuine (detective) or counterfeited (smuggler). Ethical influence builds durable relationships; manipulation triggers cascading organizational damage.'
 key_questions:

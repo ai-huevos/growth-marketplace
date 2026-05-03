@@ -1,96 +1,138 @@
 # Expert Lens Registry
 
 > Authoritative join table: which lens lives where, which skills/agents use it.
-> One row per lens. Update this every time a lens is added, retired, or wired into a new consumer.
+> One row per lens. Rebuilt from actuals via `node scripts/rebuild-lens-registry.mjs`.
+
+**Status**: 43 lenses converted across 15/15 domains.
 
 ## How to read this
 
 - **lens_id** — the slug used in `lenses:` frontmatter declarations
 - **expert** — full name from the source JSON
-- **domain** — the 15-domain taxonomy slug
+- **domain (JSON)** — the original `expert.domain` string from the JSON source
 - **path** — relative to repo root
 - **skills_using** — every SKILL.md that declares this lens
 - **agents_using** — every agent .md that declares this lens
-- **status** — `active` (live), `draft` (converted but not wired), `parked` (intentionally unused)
+- **status** — `active` (consumed by ≥1 skill/agent) or `draft` (converted but not yet wired)
+- **slug note** — appears when the YAML `domain_slug` field differs from the file's parent folder (intentional override)
 
-## Domain 1 — Offer Engineering & Value Architecture
+## Offer Engineering & Value Architecture
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| hormozi | Alex Hormozi | offer-engineering | `os/lenses/offer-engineering/hormozi.md` | `copywriting-engine/headline-mastery` | — | active |
-| schwartz | Eugene M. Schwartz | offer-engineering | `os/lenses/offer-engineering/schwartz.md` | `copywriting-engine/headline-mastery` | — | active |
+| hormozi | Alex Hormozi | 1A - Offer Engineering & Value Architecture | `os/lenses/offer-engineering/hormozi.md` | copywriting-engine/headline-mastery | — | active |
 
-## Domain 2 — Persuasion Copy & Conversion Execution
+## Persuasion, Copy & Influence
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | Joanna Wiebe | persuasion | `os/lenses/persuasion/wiebe.md` | — | — | planned (Phase 2) |
-| _planned_ | Peep Laja | persuasion | `os/lenses/persuasion/laja.md` | — | — | planned (Phase 2) |
+| cialdini | Robert Cialdini | 8 - Trust & Ethics | `os/lenses/persuasion/cialdini.md` | — | — | draft |
+| georgi | Stefan Georgi | 1A - Copy Architecture & Persuasion Engineering | `os/lenses/persuasion/georgi.md` | — | — | draft |
+| laja | Peep Laja | 1B - Conversion Execution | `os/lenses/persuasion/laja.md` | — | — | draft |
+| schwartz | Eugene M. Schwartz | 1A - Persuasion Architecture | `os/lenses/persuasion/schwartz.md` | copywriting-engine/headline-mastery | — | active |
+| wiebe | Joanna Wiebe | 1B - Copy Execution Quality | `os/lenses/persuasion/wiebe.md` | — | — | draft |
 
-## Domain 3 — Strategic Positioning & Branding
+## Strategic Positioning & Branding
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| dunford | April Dunford | positioning | `os/lenses/positioning/dunford.md` | — (ad-hoc diagnostic 2026-05-02 on `clients/ai-huevos/positioning-master.md`) | — | active (draft, no skill consumer yet) |
-| _planned_ | Marty Neumeier | positioning | `os/lenses/positioning/neumeier.md` | — | — | planned (Phase 2) |
-| _planned_ | Al Ries / Jack Trout | positioning | `os/lenses/positioning/ries-trout.md` | — | — | planned (Phase 2) |
+| dunford | April Dunford | 3 - Strategic Positioning | `os/lenses/positioning/dunford.md` | — | — | draft |
+| neumeier | Marty Neumeier | 3 - Strategic Positioning | `os/lenses/positioning/neumeier.md` | — | — | draft |
+| ries-trout | Al Ries & Jack Trout | 3 - Strategic Positioning | `os/lenses/positioning/ries-trout.md` | — | — | draft |
 
-## Domain 4 — User Research & Testing
+## UX Research & Information Clarity
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | Steve Krug | ux-research | `os/lenses/ux-research/krug.md` | — | — | planned (Phase 3) |
-| _planned_ | Jakob Nielsen | ux-research | `os/lenses/ux-research/nielsen.md` | — | — | planned (Phase 3) |
+| krug | Steve Krug | 4 - Clarity & Information Design | `os/lenses/ux-research/krug.md` | — | — | draft |
+| nielsen | Jakob Nielsen | 4 - Clarity & Information Design | `os/lenses/ux-research/nielsen.md` | — | — | draft |
+| redish | Dr. Ginny Redish | 4 - Clarity & Information Design | `os/lenses/ux-research/redish.md` | — | — | draft |
 
-## Domain 5 — Thinking Models & Epistemology
+## Thinking Models & Epistemology
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | Julia Galef | thinking-models | `os/lenses/thinking-models/galef.md` | — | — | planned (Phase 3) |
-| _planned_ | Brian Nosek | thinking-models | `os/lenses/thinking-models/nosek.md` | — | — | planned (Phase 3) |
-| _planned_ | Carl Sagan | thinking-models | `os/lenses/thinking-models/sagan.md` | — | — | planned (Phase 3) |
+| galef | Julia Galef | 5 - Empirical Grounding | `os/lenses/thinking-models/galef.md` | — | — | draft |
+| nosek | Brian Nosek | 5 - Empirical Grounding | `os/lenses/thinking-models/nosek.md` | — | — | draft |
+| sagan | Carl Sagan | 5 - Empirical Grounding | `os/lenses/thinking-models/sagan.md` | — | — | draft |
 
-## Domain 7 — Sales & Influence Psychology
+## Product Design & Audience Calibration
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | Dale Shepard | sales-influence | `os/lenses/sales-influence/shepard.md` | — | — | planned (Phase 2) |
+| cooper | Alan Cooper | 6 - Audience Calibration | `os/lenses/product-design/cooper.md` | — | — | draft |
+| norman | Don Norman | 6 - Audience Calibration | `os/lenses/product-design/norman-product.md` | — | — | draft |
+| young | Indi Young | 6 - Audience Calibration | `os/lenses/product-design/young.md` | — | — | draft |
 
-## Domain 8 — Trust & Ethics
+## SEO & Search Discovery
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| cialdini | Robert Cialdini | trust-ethics | `os/lenses/trust-ethics/cialdini.md` | — | — | active (draft, no skill consumer yet) |
+| roof | Kyle Roof | 7 - Search & Discovery | `os/lenses/seo-search/roof.md` | — | — | draft |
+| shepard | Cyrus Shepard | 7 - Search & Discovery | `os/lenses/seo-search/shepard.md` | — | — | draft |
+| slawski | Bill Slawski | 7 - Search & Discovery | `os/lenses/seo-search/slawski.md` | — | — | draft |
 
-## Domain 9 — Strategy & Innovation
+## Trust & Ethics
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| christensen | Clayton Christensen | strategy-innovation | `os/lenses/strategy-innovation/christensen.md` | — (ad-hoc diagnostic 2026-05-02 on `clients/ai-huevos/positioning-master.md`) | — | active (draft, no skill consumer yet) |
-| _planned_ | Kim & Mauborgne | strategy-innovation | `os/lenses/strategy-innovation/kim-mauborgne.md` | — | — | planned (Phase 3) |
+| cofone | Ignacio Cofone | 8 - Trust & Ethics | `os/lenses/trust-ethics/cofone.md` | — | — | draft |
+| oneill | Onora O''Neill | 8 - Trust & Ethics | `os/lenses/trust-ethics/oneill.md` | — | — | draft |
 
-## Domain 10 — Data Visualization & Information Design
+## Strategy & Innovation
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | Edward Tufte | data-viz | `os/lenses/data-viz/tufte.md` | — | — | planned (Phase 2) |
+| christensen | Clayton Christensen | 9 - Differentiation | `os/lenses/strategy-innovation/christensen.md` | — | — | draft |
+| kim-mauborgne | W. Chan Kim & Renee Mauborgne | 9 - Differentiation | `os/lenses/strategy-innovation/kim-mauborgne.md` | — | — | draft |
 
-## Domain 11 — Forecasting & Decision-Making
+## Data Visualization & Information Design
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | Philip Tetlock | forecasting | `os/lenses/forecasting/tetlock.md` | — | — | planned (Phase 2) |
+| tufte | Edward Tufte | 10 - Technical Execution | `os/lenses/data-viz/tufte.md` | — | — | draft |
 
-## Domain 12 — Systems & Operations
+## Forecasting & Decision-Making
 
-| lens_id | expert | domain | path | skills_using | agents_using | status |
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
 |---|---|---|---|---|---|---|
-| _planned_ | W. Edwards Deming | systems-ops | `os/lenses/systems-ops/deming.md` | — | — | planned (Phase 2) |
-| _planned_ | David Skok | systems-ops | `os/lenses/systems-ops/skok.md` | — | — | planned (Phase 2) |
+| marks | Howard Marks | 11 - Strategic Reasoning | `os/lenses/forecasting/marks.md` | — | — | draft |
+| popper | Karl Popper | 11 - Strategic Reasoning | `os/lenses/forecasting/popper.md` | — | — | draft |
+| tetlock | Philip Tetlock | 11 - Strategic Reasoning | `os/lenses/forecasting/tetlock.md` | — | — | draft |
 
-## Domains 6, 13, 14, 15 — backlog (Phase 3)
+## Business Model & SaaS Economics
 
-Domain 6 (Product Design — Cooper, Norman, Young), Domain 13 (Quality — Feathers, Vernon), Domain 14 (AI & Future — Amodei, Microsoft/Azure), Domain 15 (Visual Design — Vignelli, Lupton, Norman) sit in the backlog. Convert and wire only when a concrete consumer skill emerges.
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
+|---|---|---|---|---|---|---|
+| campbell | Patrick Campbell | 12 - Business Model Viability | `os/lenses/business-model/campbell.md` | — | — | draft |
+| skok | David Skok | 12 - Business Model Viability | `os/lenses/business-model/skok.md` | — | — | draft |
+| weinberg | Gabriel Weinberg | 12 - Business Model Viability | `os/lenses/business-model/weinberg.md` | — | — | draft |
+
+## Software Quality & Operational Discipline
+
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
+|---|---|---|---|---|---|---|
+| deming | W. Edwards Deming | 13 - Systems & Automation Design | `os/lenses/quality/deming.md` | — | — | draft |
+| feathers | Michael Feathers | 13 - Systems & Automation Design | `os/lenses/quality/feathers.md` | — | — | draft |
+| martin | Robert C. Martin | 10 - Technical Execution | `os/lenses/quality/martin.md` | — | — | draft |
+| mcconnell | Steve McConnell | 10 - Technical Execution | `os/lenses/quality/mcconnell.md` | — | — | draft |
+| vernon | Vaughn Vernon | 13 - Systems & Automation Design | `os/lenses/quality/vernon.md` | — | — | draft |
+
+## AI Architecture & Agents
+
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
+|---|---|---|---|---|---|---|
+| amodei | Dario Amodei & Anthropic | 14 - Agent & AI Design | `os/lenses/ai-future/amodei.md` | — | — | draft |
+| commey | Daniel Commey | 14 - Agent & AI Design | `os/lenses/ai-future/commey.md` | — | — | draft |
+| microsoft-azure | Microsoft Azure Architecture Center | 14 - Agent & AI Design | `os/lenses/ai-future/microsoft-azure.md` | — | — | draft |
+
+## Visual & Interaction Design
+
+| lens_id | expert | domain (JSON) | path | skills_using | agents_using | status |
+|---|---|---|---|---|---|---|
+| lupton | Ellen Lupton | 15 - Visual & Interaction Design | `os/lenses/visual-design/lupton.md` | — | — | draft |
+| norman | Don Norman | 15 - Visual & Interaction Design | `os/lenses/visual-design/norman-visual.md` | — | — | draft |
+| vignelli | Massimo Vignelli | 15 - Visual & Interaction Design | `os/lenses/visual-design/vignelli.md` | — | — | draft |
 
 ---
 
@@ -98,9 +140,7 @@ Domain 6 (Product Design — Cooper, Norman, Young), Domain 13 (Quality — Feat
 
 | Skill | Lenses applied |
 |---|---|
-| `copywriting-engine/skills/headline-mastery` | hormozi, schwartz |
-
-(Will populate as Phase 2 wires more skills.)
+| `copywriting-engine/headline-mastery` | hormozi, schwartz |
 
 ## Ad-hoc diagnostic runs (lens-as-tool, not lens-as-skill-input)
 
@@ -109,17 +149,8 @@ Lenses can be invoked directly on any artifact for diagnostic purposes via the `
 | Date | Artifact | Lenses applied | Output | Notes |
 |---|---|---|---|---|
 | 2026-05-02 | `clients/ai-huevos/positioning-master.md` v1.0 | dunford, hormozi, schwartz, christensen | `clients/ai-huevos/diagnostics/positioning-multilens-2026-05-02.md` | MVP validation (Round 1 only). 4 parallel agents. 8 convergent findings + 3 cross-lens conflicts surfaced. |
-| 2026-05-02 | `clients/ai-huevos/positioning-master.md` v1.0 → v1.1 polish | dunford, hormozi, schwartz, christensen | `clients/ai-huevos/diagnostics/business-panel-2026-05-02.md` | First `tools/business-panel/` production run. Stage: `positioning`. 3-round protocol (independent → debate → consensus). 7 consensus, 2 dissents, 2 groupthink-checks, 5 fresh findings. Verdict: Candidate C ("Reality-based OS"). Successor: `clients/ai-huevos/positioning-master-v1.1-draft.md`. |
+| 2026-05-02 | `clients/ai-huevos/positioning-master.md` v1.0 → v1.1 polish | dunford, hormozi, schwartz, christensen | `clients/ai-huevos/diagnostics/business-panel-2026-05-02.md` | First `tools/business-panel/` production run. Stage: `positioning`. 3-round protocol. 7 consensus, 2 dissents, 2 groupthink-checks, 5 fresh findings. Verdict: Candidate C ("Reality-based OS"). Successor: `clients/ai-huevos/positioning-master-v1.1-draft.md`. |
 
-## Plan-2-skill mapping (Phase 2 targets, not yet active)
+---
 
-| Skill | Planned lenses |
-|---|---|
-| `copywriting-engine/skills/psychological-triggers` | cialdini, wiebe |
-| `motor-de-ofertas/skills/alma` | hormozi, schwartz |
-| `growth-foundations/skills/positioning` | dunford, neumeier |
-| `sales-blueprint/skills/discovery-mastery` | cialdini, shepard |
-| `play-to-win/skills/customer-success-ops` | skok, deming |
-| `copywriting-engine/skills/hook-mastery` (post-promotion) | schwartz, cialdini |
-| `conversational-pm/skills/meeting-to-prd` (post-promotion) | christensen, tetlock |
-| `business-architect/skills/business-blueprint` (post-promotion, new plugin) | hormozi, dunford, schwartz, christensen |
+*Rebuilt: 2026-05-03 via `scripts/rebuild-lens-registry.mjs`. To update skill/agent bindings, edit `SKILL_BINDINGS` / `AGENT_BINDINGS` in the rebuild script and re-run.*

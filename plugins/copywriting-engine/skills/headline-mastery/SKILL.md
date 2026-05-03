@@ -4,7 +4,7 @@ description: Use when generating headlines, titles, subject lines, or hooks. Act
 version: 1.1.0
 lenses:
   - hormozi   # offer-engineering/hormozi.md — Value Equation discipline (Dream Outcome / Likelihood / Time / Effort)
-  - schwartz  # offer-engineering/schwartz.md — Five Stages of Awareness; Mass Desire Channeling
+  - schwartz  # persuasion/schwartz.md — Five Stages of Awareness; Mass Desire Channeling
 ---
 
 # Headline Mastery
@@ -53,7 +53,7 @@ Recopilar del usuario:
 Antes de seleccionar categorias, cargar las dos lentes declaradas en frontmatter (`lenses: [hormozi, schwartz]`). Resolver paths via `os/lenses/registry.md` y leer:
 
 - `os/lenses/offer-engineering/hormozi.md`
-- `os/lenses/offer-engineering/schwartz.md`
+- `os/lenses/persuasion/schwartz.md`
 
 Aplicar el protocolo definido en `tools/lens-loader.md`:
 
