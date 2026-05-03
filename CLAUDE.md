@@ -96,6 +96,8 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 
 `tools/ingestion-orchestrator/` — Triage skill that analyzes incoming content against existing marketplace coverage. Symlinked to `~/.claude/skills/ingestion-orchestrator/`. Triggers: "ingest content", "triage research", "content triage", "ingerir contenido".
 
+`tools/business-panel/` — Multi-lens diagnostic skill that runs a 3-round expert-lens debate on any marketplace artifact (positioning, offer, copy, funnel, sales-deck, discovery, email-sequence). 7 stage protocols pre-configured. Loads lenses from `os/lenses/`, applies `tools/lens-loader.md`, produces consensus + groupthink + dissent + fresh-findings + (where applicable) polish-candidates with panel verdict. Triggers: "business panel", "panel diagnostic", "stress test", "multi-lens review", `/panel <stage> <path>`. See `tools/business-panel/README.md`.
+
 **Active user-level skill symlinks** (`~/.claude/skills/`):
 - `plugin-factory/` → `tools/plugin-factory/`
 - `ingestion-orchestrator/` → `tools/ingestion-orchestrator/`
@@ -134,6 +136,7 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 | `/os` | conversational-pm | Start GrowthOS intake (diagnose growth stage, route to phase) |
 | `/roadmap` | conversational-pm | Generate/update 90-day roadmap based on current phase |
 | `/estado` | conversational-pm | Show current GrowthOS state (phase, skills, outputs, next steps) |
+| `/panel` | conversational-pm | Run a multi-lens Business Panel diagnostic (positioning / offer / copy / funnel / sales-deck / discovery / email-sequence) on any artifact via `tools/business-panel/` |
 
 ## Conventions
 

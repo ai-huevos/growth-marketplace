@@ -1,7 +1,10 @@
 ---
 name: headline-mastery
 description: Use when generating headlines, titles, subject lines, or hooks. Activates for "headline", "titulo", "subject line", "hook", "genera titulares", "power headline", "copywriting headline", "attention grabber".
-version: 1.0.0
+version: 1.1.0
+lenses:
+  - hormozi   # offer-engineering/hormozi.md — Value Equation discipline (Dream Outcome / Likelihood / Time / Effort)
+  - schwartz  # offer-engineering/schwartz.md — Five Stages of Awareness; Mass Desire Channeling
 ---
 
 # Headline Mastery
@@ -44,6 +47,51 @@ Recopilar del usuario:
 | **Resultado deseado** | Que outcome prometes? |
 | **Medio** | Donde se publicara? (email, landing, ad, blog) |
 | **Tono** | Formal, conversacional, urgente, aspiracional? |
+
+### Paso 1.5: Lens Activation (Hormozi + Schwartz)
+
+Antes de seleccionar categorias, cargar las dos lentes declaradas en frontmatter (`lenses: [hormozi, schwartz]`). Resolver paths via `os/lenses/registry.md` y leer:
+
+- `os/lenses/offer-engineering/hormozi.md`
+- `os/lenses/offer-engineering/schwartz.md`
+
+Aplicar el protocolo definido en `tools/lens-loader.md`:
+
+**1. Limitation gate.** Revisar las `limitations` de ambas lentes contra el contexto del cliente (brand-config, regulacion, mercado):
+- Si el cliente esta en mercado regulado o B2B enterprise pesado → **suprimir Hormozi** (su sesgo direct-response y guarantees agresivos no aplica). Documentar la supresion en el footer.
+- Si la audiencia es Most Aware con alta confianza de marca y copy minimo → **suprimir Schwartz** (modelo de mass desire no es central). Documentar.
+
+**2. Seleccion del Awareness Stage (Schwartz).** Antes de Paso 2, fijar la etapa de conciencia del prospecto a partir del input del Paso 1:
+
+| Awareness Stage | Permite headline... | Bloquea headline... |
+|---|---|---|
+| **Unaware** | Curiosidad, historia, imagen aceptable | Producto, oferta, precio |
+| **Problem Aware** | Nombrar problema/consecuencias, prometer alivio | Producto sin contexto del problema |
+| **Solution Aware** | Posicionar mejor mecanismo / "por que esto funciona" | Repetir categoria de solucion |
+| **Product Aware** | Ventaja, oferta, prueba, reversion de riesgo | Educar (ya lo conoce) |
+| **Most Aware** | Precio, deadline, bonus, garantia | Educacion / story / curiosidad |
+
+Mismatch de etapa → headline rechazado en Paso 5 sin importar score.
+
+**3. Self-check Hormozi (key_questions).** Para cada headline candidato del Paso 3 que prometa transformacion u outcome, validar contra los `key_questions` de Hormozi:
+
+- ¿El Dream Outcome esta nombrado como destino, no como vehiculo? (vacaciones, no boleto de avion)
+- ¿Hay senal de Perceived Likelihood — prueba, especificidad, mecanismo, garantia?
+- ¿El Time Delay esta acotado o hay early-win nombrado?
+- ¿El Effort esta minimizado o el headline implica esfuerzo bajo (tools, hechos por ti, en X minutos)?
+
+Headlines que no tocan el Value Equation (DO x PL / TD x ES) reciben score reducido en el criterio "Especificidad" del Paso 5.
+
+**4. Decision rules (composicion Hormozi + Schwartz).** Aplicar sobre cada candidato:
+
+- IF headline trata de "crear deseo" en lugar de canalizar uno existente (Schwartz) → penalizar (axiom de canalizacion).
+- IF headline mezcla multiples deseos compitiendo (Schwartz) → penalizar deseo disperso.
+- IF headline lidera con atributos fisicos sin enlace al deseo (Schwartz) → penalizar.
+- IF Dream Outcome no esta claro (Hormozi) → STOP. No compensar con otras variables.
+- IF Perceived Likelihood debil sin proof/risk-reversal (Hormozi) → recomendar agregar prueba antes de optimizar copy.
+- IF un headline aplicaria solo si `limitations` de la lente fueron suprimidas → marcarlo (no usar en client deck final).
+
+**Conflict Disclosure Rule.** Si Hormozi sugiere stacking agresivo y Schwartz sugiere "una promesa creida supera muchas dudosas" sobre el mismo candidato, surfacing el conflicto en la salida en lugar de elegir uno silenciosamente.
 
 ### Paso 2: Seleccionar categorias de formula
 
@@ -117,6 +165,15 @@ Entregar al usuario:
 - Testear primero: [A vs B]
 - Metrica a medir: [CTR / Open Rate / Engagement]
 - Volumen minimo: [X impresiones para significancia]
+
+---
+Lenses applied: [hormozi, schwartz]
+Awareness stage seleccionada: [Unaware | Problem Aware | Solution Aware | Product Aware | Most Aware]
+Biases disclosed:
+- Direct-response bias (Hormozi): evalua via conversion medible; subponderar brand equity
+- Mass-desire model (Schwartz): puede subestimar nichos pequenos con LTV alto
+Limitations triggered (si aplica): [lista cualquier supresion ejecutada en Paso 1.5]
+Conflicts surfaced (si aplica): [lista decisiones donde las lentes apuntaron en direcciones opuestas]
 ```
 
 ## Variaciones de formulas
