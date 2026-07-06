@@ -2,7 +2,7 @@
 template: persona-update
 version: 1.0
 description: Structured log of new vocabulary, objections, buying criteria, competitive intel, and industry insights extracted from a discovery call. Feeds prospect-language-bank.md.
-target: clients/kai-partners/voc/prospect-language-bank.md
+target: clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md
 ---
 
 # Persona Update — {{COMPANY_NAME}}
@@ -62,7 +62,7 @@ Tipos: Precio, Timing, Decision-maker, Competencia, Scope, Trust, Interno
 
 ## 4. Competitive Intel
 
-| Competidor / Alternativa | Que dijo el prospect | Implicacion para KAI |
+| Competidor / Alternativa | Que dijo el prospect | Implicacion para el cliente instalado |
 |--------------------------|---------------------|---------------------|
 | {{COMPETITOR_1}} | "{{COMP_QUOTE_1}}" | {{IMPLICATION_1}} |
 | {{COMPETITOR_2}} | "{{COMP_QUOTE_2}}" | {{IMPLICATION_2}} |
@@ -94,7 +94,7 @@ Si la call revelo informacion nueva que cambia algun score PULSO:
 
 Despues de poblar este template:
 
-1. **Append to language bank**: Agregar las frases de la seccion 1 a `clients/kai-partners/voc/prospect-language-bank.md` en el cluster correspondiente
+1. **Append to language bank**: Agregar las frases de la seccion 1 a `clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md` en el cluster correspondiente
 2. **Update business-context**: Si hay cambios PULSO (seccion 6), actualizar `deals/<slug>/business-context.md`
 3. **Log objections**: Si hay objeciones nuevas no vistas antes, considerar agregarlas al training material de coaching
 4. **Flag competitive intel**: Si un competidor nuevo aparece, notificar al equipo

@@ -1,7 +1,7 @@
 ---
 name: content-strategy
-description: Use when planning content marketing strategy, prioritizing topics, mapping content to funnel stages, creating content calendars, or designing distribution partnerships. Activates for "content strategy", "estrategia de contenido", "pendiente", "triangulo de ingresos", "que contenido crear", "blog strategy", "content plan", "plan de contenido", "SEO content", "contenido SEO", "calendario de contenido", "content calendar", "content distribution", "distribución de contenido".
-version: 1.0.0
+description: Use when planning content marketing strategy, prioritizing topics, mapping content to funnel stages, creating content calendars, designing distribution partnerships, or running the weekly content-distribution loop. Activates for "content strategy", "estrategia de contenido", "pendiente", "triangulo de ingresos", "que contenido crear", "blog strategy", "content plan", "plan de contenido", "SEO content", "contenido SEO", "calendario de contenido", "content calendar", "content distribution", "distribución de contenido", "loop de distribución", "contrato de ejecución", "distribuir contenido".
+version: 1.1.0
 ---
 
 # Content Strategy — Sistema de 2 Frameworks para Contenido B2B
@@ -140,6 +140,12 @@ Para el SOP completo de partnerships, leer `templates/red-packet-partnership-sop
 - Retargeting a visitantes del blog con Blue Square offers
 - Campañas TOFU→BOFU para VELO
 
+### Paso 6: Ejecutar el loop (Contrato de Ejecución)
+
+El calendario de 12 semanas (Paso 4) y el sistema de distribución (Paso 5) son el **plan**. Para convertirlo en un loop que corre solo — con cadencia semanal, producción en dos oleadas, clasificación de canales, y un `learnings.md` que se auto-actualiza — leer `frameworks/contrato-de-ejecucion.md`.
+
+El loop se orquesta con el comando `/distribuir` (`plugins/growth-foundations/commands/distribuir.md`), que corre como Desktop task y nunca publica automáticamente — abre una cola de revisión para aprobación humana en cada turno.
+
 ## Conexiones PULSO
 
 | Dimensión PULSO | Conexión con Content Strategy |
@@ -172,12 +178,14 @@ Al completar el proceso de Content Strategy, el usuario obtiene:
 4. **SOP de distribución** — Sistema de partnerships + SEO + paid con tracking
 5. **Benchmarks por fase** — Métricas objetivo para medir salud del sistema de contenido
 6. **Templates ejecutables** — AIDA para blog posts, worksheet de priorización, SOP de partnerships
+7. **Loop de distribución corriendo** — Contrato de Ejecución + `/distribuir` orquestando cadencia semanal, dos oleadas de producción, y un `learnings.md` que se auto-actualiza (ver `frameworks/contrato-de-ejecucion.md`)
 
 ## Templates
 
 - Para la worksheet de priorización de temas, leer `templates/topic-priority-worksheet.md`
 - Para el template de blog post AIDA, leer `templates/aida-blog-post-template.md`
 - Para el SOP de partnerships, leer `templates/red-packet-partnership-sop.md`
+- Para el `learnings.md` del loop de distribución, leer `templates/learnings-distribucion.md`
 
 ## Ejemplos de Implementación
 

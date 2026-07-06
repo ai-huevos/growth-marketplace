@@ -1,37 +1,37 @@
 ---
-name: kai-sales-engine
-description: Full-cycle sales orchestration for KAI Partners. Chains marketplace skills + MCPs into a repeatable pipeline from prospecting through closing. Use when preparing prospect research, processing discovery transcripts, generating post-call deliverables, coaching on sales performance, or creating follow-up sequences. Activates for "kai prospect", "kai discovery", "kai coach", "kai desk", "kai follow", "post-discovery", "sales pipeline", "transcript analysis", "deal processing", or "coaching report".
+name: sales-orchestrator
+description: Full-cycle sales orchestration engine, generic and installable per client. Chains marketplace skills + MCPs into a repeatable pipeline from prospecting through closing. Use when preparing prospect research, processing discovery transcripts, generating post-call deliverables, coaching on sales performance, or creating follow-up sequences. Activates for "prospect research", "post-discovery", "sales coach", "desk work", "follow-up sequence", "sales pipeline", "transcript analysis", "deal processing", or "coaching report".
 version: 1.0.0
-client: kai-partners
+client: "{{CLIENT_SLUG}}"
 ---
 
-# KAI Sales Engine
+# Sales Orchestrator
 
-Sistema de orquestacion de ventas full-cycle para KAI Partners. Encadena skills del marketplace + MCPs en un pipeline repetible con entregables de marca.
+Sistema de orquestacion de ventas full-cycle, generico e instalable por cliente. Encadena skills del marketplace + MCPs en un pipeline repetible con entregables de marca. Toda referencia de marca, pricing o almacenamiento de deals se resuelve desde `clients/{{CLIENT_SLUG}}/` en tiempo de instalacion — ver seccion **Instalacion** abajo.
 
 ## Pipeline de 4 Fases
 
 ```
-/kai-prospect <company>       FASE 1: PROSPECTING
+/prospect <company>           FASE 1: PROSPECTING
       |                       Perplexity deep research
       |                       Populated discovery scorecard
       |                       Pre-call brief + hypotheses
       v
   DISCOVERY CALL (human)
       v
-/kai-discovery <transcript>   FASE 2: POST-DISCOVERY
+/post-discovery <transcript>  FASE 2: POST-DISCOVERY
       |                       Fireflies MCP o transcript pegado
       |                       Extract: systems, pains, stakeholders, PULSO, quotes
       |                       Populate business-context.md
       |                       Auto-trigger coaching
       v
-/kai-desk <company>           FASE 3: DESK WORK
+/desk-work <company>          FASE 3: DESK WORK
       |                       HTML Discovery Report (Mermaid diagrams)
-      |                       Mapa de Energia (populated template)
+      |                       Entregable de descubrimiento (populated template)
       |                       Growth Proposal (with pricing-grid)
       |                       Personalized Sales Deck
       v
-/kai-follow <company>         FASE 4: FOLLOW-UP & CLOSING
+/follow-up <company>          FASE 4: FOLLOW-UP & CLOSING
       |                       3-email sequence (populated)
       |                       Gmail MCP -> draft creation
       |                       Update prospect-language-bank
@@ -63,23 +63,22 @@ Sistema de orquestacion de ventas full-cycle para KAI Partners. Encadena skills 
 | Follow-up | Gmail (claude.ai) | Create email drafts (NEVER auto-send) |
 | Follow-up | Kit (project) | Add contact to ORIGEN sequence |
 
-## Brand Rules (Quick Reference)
+## Brand Rules (se resuelven desde el install)
 
-- Voice: Bold-First (BOLD > SMART > WARM > RELIABLE)
-- Narrative arc: GOLPE (Gancho > Observacion > Leccion > Prueba > Empujon)
-- Vocabulary: "energia", "rieles", "fluir", "capturar", "partner", "AI-OS"
-- Anti-words: "solucion end-to-end", "leverage", "synergy", "disruptivo", "robusto", "seamless"
-- Proof point: Finkargo 428x ROI ($35K -> $15M ahorros, 110+ procesos, 3+ anos)
-- Full brand reference: `clients/kai-partners/brand-config/brand-reference.md`
+Este motor no asume ninguna marca especifica. Voice, narrative arc, vocabulario, anti-palabras y proof points del cliente instalado viven en el archivo de configuracion — nunca se hardcodean aqui:
+
+- Full brand reference: `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`
+
+Antes de generar cualquier copy de cara al prospect (email, propuesta, deck, reporte), leer siempre ese archivo para resolver voz, vocabulario, anti-palabras y proof points reales del cliente instalado.
 
 ## Deal Storage Convention
 
 ```
-clients/kai-partners/deals/<company-slug>/
+clients/{{CLIENT_SLUG}}/deals/<deal-slug>/
   business-context.md     <- Structured extraction from transcript
   coaching-report.md      <- Sales performance analysis
   discovery-report.html   <- HTML report with Mermaid diagrams
-  mapa-energia.md         <- Populated Energy Map
+  mapa-energia.md         <- Populated Energy Map (o el entregable equivalente del cliente)
   proposal.md             <- Growth proposal with pricing
   follow-up-emails.md     <- 3-email sequence
 ```
@@ -88,6 +87,24 @@ clients/kai-partners/deals/<company-slug>/
 
 1. Every business-context.md must have all 5 PULSO dimensions scored
 2. Every coaching report must score on the 0-85 scale
-3. Every proposal must reference pricing-grid.md for pricing
-4. Every follow-up email must include at least 1 Finkargo proof point
-5. Every deliverable must pass brand-voice anti-word check
+3. Every proposal must reference `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` for pricing
+4. Every follow-up email must include at least 1 case-study proof point sourced from `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`
+5. Every deliverable must pass the brand-voice anti-word check (`clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`)
+
+## Instalacion
+
+Este skill es un motor generico. Para instalarlo en un cliente especifico, define la variable `{{CLIENT_SLUG}}` (slug del cliente que instala el motor, ej. `kai-partners`, `forte-global`) y provee los siguientes archivos en `clients/{{CLIENT_SLUG}}/`:
+
+| Variable / Archivo | Ruta derivada | Contenido |
+|---|---|---|
+| `{{CLIENT_SLUG}}` | — | Slug del cliente instalado; se sustituye en todas las rutas de abajo |
+| Pricing grid | `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` | Tabla de tiers y precios por region |
+| Brand voice | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Voz, narrative arc, vocabulario, anti-palabras, proof points |
+| Deals | `clients/{{CLIENT_SLUG}}/deals/<deal-slug>/` | Carpeta por deal con los 6 entregables de la Deal Storage Convention |
+| VoC language bank | `clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md` | Banco de vocabulario de prospects, actualizado por `/follow-up` |
+| Delivery templates | `clients/{{CLIENT_SLUG}}/delivery/*.md` | Plantillas de entregables propios del cliente (ej. Mapa de Energia, propuesta de Build, scorecard de discovery) |
+| GCO de instalacion (opcional) | `~/.growthos/contexts/{{CLIENT_SLUG}}.yaml` | Growth Context Object del cliente instalado, si corre GrowthOS sobre si mismo |
+
+**Nota**: el GCO de instalacion (`{{CLIENT_SLUG}}.yaml`) es distinto del GCO por deal (`<deal-slug>.yaml`) que `/follow-up` consulta opcionalmente cuando el prospect ya es cliente de GrowthOS por su cuenta.
+
+**Modo de falla**: si `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` o `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` no existen, detente y pide al operador que configure el cliente (`clients/{{CLIENT_SLUG}}/`) antes de generar cualquier entregable.

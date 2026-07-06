@@ -2,7 +2,7 @@
 template: follow-up-sequence
 version: 1.0
 description: 3-email post-discovery sequence. Day 0 (summary + next steps), Day 3 (case study + insight), Day 7 (soft close with Sprint proposal). Populate {{PLACEHOLDER}} variables from business-context.md.
-brand-reference: clients/kai-partners/brand-config/brand-reference.md
+brand-reference: clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md
 ---
 
 # Follow-Up Email Sequence — Post-Discovery
@@ -41,11 +41,11 @@ Dejo lo que me llevo de nuestra conversacion:
 {{SOFT_CTA}}
 
 Un abrazo,
-Daniel
+{{SENDER_NAME}}
 
 ---
-KAI Partners
-Construido contigo. Probado con tus datos.
+{{CLIENT_DISPLAY_NAME}}
+{{CLIENT_TAGLINE}}
 ```
 
 ### Population Rules — Email 1
@@ -59,6 +59,9 @@ Construido contigo. Probado con tus datos.
 | `{{INSIGHT_REFRAME}}` | coaching-report or business-context | The "aha" moment from the call. Example: "No es un problema de growth, es de posicionamiento" |
 | `{{NEXT_STEPS_LIST}}` | business-context section 8, action items | Numbered list with owners and dates |
 | `{{SOFT_CTA}}` | Context-dependent | Example: "Sigue en pie [dia] para la segunda sesion?" |
+| `{{SENDER_NAME}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Nombre de quien envia el correo (del cliente instalado) |
+| `{{CLIENT_DISPLAY_NAME}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Nombre de marca del cliente instalado |
+| `{{CLIENT_TAGLINE}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Tagline de marca del cliente instalado |
 
 **Tone**: Direct, warm, specific. Show you listened. No pitch. No pricing.
 
@@ -84,30 +87,30 @@ Me recordo a {{CASE_STUDY_COMPANY}}.
 
 No necesitas responder esto — solo queria que lo tuvieras.
 
-Daniel
+{{SENDER_NAME}}
 
 ---
-KAI Partners
-Nos quedamos.
+{{CLIENT_DISPLAY_NAME}}
+{{CLIENT_TAGLINE}}
 ```
 
 ### Population Rules — Email 2
 
 | Variable | Source | Notes |
 |----------|--------|-------|
-| `{{SPECIFIC_PAIN}}` | business-context section 4 | The pain most similar to Finkargo's story |
-| `{{CASE_STUDY_COMPANY}}` | Default: "Finkargo" | Use Finkargo unless another case study is more relevant |
-| `{{CASE_STUDY_NARRATIVE}}` | Brand reference, Finkargo proof engine | 3-4 sentences. GOLPE micro-arc: hook stat → what they did → result |
+| `{{SPECIFIC_PAIN}}` | business-context section 4 | The pain most similar to the case study's story |
+| `{{CASE_STUDY_COMPANY}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Default: the client's primary proof-point case study. Use a different one if more relevant to this prospect |
+| `{{CASE_STUDY_NARRATIVE}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`, proof engine | 3-4 sentences. GOLPE micro-arc: hook stat → what they did → result |
 | `{{BRIDGE_TO_PROSPECT}}` | business-context comparison | 1-2 sentences connecting case study to prospect's specific situation |
-| `{{SINGLE_INSIGHT}}` | Generate | 1 actionable insight the prospect can use even without KAI |
+| `{{SINGLE_INSIGHT}}` | Generate | 1 actionable insight the prospect can use even without the client instalado |
 
-**Template for Finkargo narrative:**
+**Modo de falla**: si `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` no existe, detente y pide al operador que configure el caso de exito principal del cliente antes de enviar este email.
 
-> Finkargo procesaba $650M al ano con Excel y WhatsApp. Cuatro personas cargaban la reconciliacion. Un dia desaparecieron $340K — tardaron 72 horas en detectarla. En 90 dias construimos un AI-OS que reconcilia automaticamente, detecta anomalias en 3 minutos, y libero al equipo para hacer trabajo de verdad. Hoy llevan 3 anos con nosotros y 110+ procesos automatizados.
+**Illustrative narrative pattern** (ejemplo — reemplazar por el caso de exito real del cliente instalado, ver `brand-voice.md`):
 
-**Adapt the narrative** to mirror the prospect's pain. If their pain is "marca inexistente", adjust:
+> {{CASE_STUDY_COMPANY}} procesaba un volumen alto de operaciones con herramientas manuales (hojas de calculo, mensajeria). Un equipo pequeno cargaba la reconciliacion a mano. Un dia se perdio una cifra significativa — tardaron dias en detectarla. En semanas construimos una solucion que automatiza la reconciliacion, detecta anomalias en minutos, y libero al equipo para hacer trabajo de mas valor. Hoy siguen siendo cliente, con decenas de procesos automatizados.
 
-> Finkargo tenia producto pero no marca. Su CEO era conocido en el ecosistema, pero la empresa no. En 90 dias construimos la estrategia de posicionamiento + el motor de contenido. Pasaron de 0 a 25 leads inbound mensuales.
+**Adapt the narrative** to mirror the prospect's pain, siempre con datos reales del cliente instalado (nunca inventar cifras).
 
 **Tone**: Generous. Give value without asking for anything. The "no necesitas responder" line reduces pressure.
 
@@ -126,9 +129,9 @@ He estado pensando en como atacar {{PRIMARY_CHALLENGE}} de manera practica.
 Mi propuesta: un Sprint de Descubrimiento de 10 dias.
 
 **Que es:**
-- Un KAI Partner embebido en tu operacion por 10 dias
+- Un especialista de {{CLIENT_DISPLAY_NAME}} embebido en tu operacion por 10 dias
 - Mapeamos como fluye tu informacion (la realidad, no el organigrama)
-- Entregable: Mapa de Energia con puntos de friccion cuantificados y roadmap
+- Entregable: Mapa de Energia (o el entregable equivalente del cliente instalado) con puntos de friccion cuantificados y roadmap
 
 **Que NO es:**
 - No es una auditoria
@@ -137,7 +140,7 @@ Mi propuesta: un Sprint de Descubrimiento de 10 dias.
 
 **Inversion:** ${{SPRINT_PRICE}} USD
 **Timeline:** 10 dias habiles
-**Entregable:** Mapa de Energia personalizado ({{FINKARGO_REFERENCE}})
+**Entregable:** Mapa de Energia personalizado ({{CASE_STUDY_REFERENCE}})
 
 {{URGENCY_LINE}}
 
@@ -145,12 +148,12 @@ Si te interesa, la proxima semana podemos agendar un kick-off de 30 minutos para
 
 {{CLOSING_LINE}}
 
-Daniel
+{{SENDER_NAME}}
 
 ---
-KAI Partners
-Construido contigo. Probado con tus datos.
-kai@kaipartners.com | kaipartners.com/agenda
+{{CLIENT_DISPLAY_NAME}}
+{{CLIENT_TAGLINE}}
+{{CLIENT_CONTACT_EMAIL}} | {{CLIENT_BOOKING_URL}}
 ```
 
 ### Population Rules — Email 3
@@ -158,16 +161,19 @@ kai@kaipartners.com | kaipartners.com/agenda
 | Variable | Source | Notes |
 |----------|--------|-------|
 | `{{PRIMARY_CHALLENGE}}` | business-context section 4, pain #1 | 1 sentence, prospect vocabulary |
-| `{{SPRINT_PRICE}}` | pricing-grid.md, FRONTEND tier | $500-$1,000 (CO/BO) or $1,000-$1,500 (MX) |
-| `{{FINKARGO_REFERENCE}}` | Brand reference | Short proof: "Finkargo empezo con este mismo Sprint. Hoy tiene 110+ automatizaciones." |
+| `{{SPRINT_PRICE}}` | `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md`, FRONTEND tier | Range per region, as defined in the installed client's pricing grid |
+| `{{CASE_STUDY_REFERENCE}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Short proof point from the installed client's own case study (e.g. "X empezo con este mismo Sprint. Hoy tiene N automatizaciones.") |
 | `{{URGENCY_LINE}}` | business-context section 3 (Situacion Critica) | If SC > 2, add urgency. If SC < 2, add value-based motivation instead |
 | `{{CLOSING_LINE}}` | Context-dependent | Warm close. "Un abrazo" or "Quedo al tanto" |
+| `{{CLIENT_CONTACT_EMAIL}}`, `{{CLIENT_BOOKING_URL}}` | `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` | Contact email and booking link of the installed client |
+
+**Modo de falla**: si `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` no existe, detente y pide al operador que configure el pricing del cliente antes de enviar este email.
 
 **Tier override:** If business-context recommends MIDDLE (Build) directly:
 - Skip Sprint framing
 - Present Build proposal summary instead
-- Price: $5K-$15K range
-- Reference the full proposal document (deals/<slug>/proposal.md)
+- Price: MIDDLE tier range in `pricing-grid.md`
+- Reference the full proposal document (`clients/{{CLIENT_SLUG}}/deals/<slug>/proposal.md`)
 
 **Tone**: Confident but not pushy. The Sprint is positioned as a small experiment, not a commitment. The "que NO es" section preempts objections.
 
@@ -205,8 +211,8 @@ For each email:
 
 1. All `{{PLACEHOLDER}}` variables resolved
 2. All prospect quotes verbatim (not paraphrased)
-3. No anti-words (check brand-reference.md)
-4. At least 1 Finkargo reference in the sequence (Email 2 mandatory)
-5. Pricing matches pricing-grid.md exactly
+3. No anti-words (check `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`)
+4. At least 1 case-study reference from the installed client's own brand-voice.md in the sequence (Email 2 mandatory)
+5. Pricing matches `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` exactly
 6. Each email < 300 words (brevity is respect)
 7. Drafts created, never sent

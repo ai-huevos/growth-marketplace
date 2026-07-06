@@ -1,20 +1,21 @@
 ---
 framework: html-deliverable-spec
 version: 1.0
-description: Specification for KAI-branded HTML discovery reports. Defines layout, CSS, Mermaid diagram patterns, section structure, and responsive breakpoints.
-brand-reference: clients/kai-partners/brand-config/brand-reference.md
+description: Specification for branded HTML discovery reports (generic, per-install branding). Defines layout, CSS, Mermaid diagram patterns, section structure, and responsive breakpoints.
+brand-reference: clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md
 ---
 
-# HTML Deliverable Spec — KAI Discovery Report
+# HTML Deliverable Spec — Discovery Report
 
 > Spec for generating branded HTML reports from business-context.md data.
 > The HTML report is the **hero deliverable** — what the prospect receives and shares internally.
+> **Nota de instalacion**: los tokens de color, textos de marca y contacto de abajo son un ejemplo de referencia (`--kai-*`). El cliente instalado (`clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`) debe sobreescribirlos con su propia paleta, nombre y contacto antes de usar el spec en produccion — de-scoping total de estos valores queda fuera de alcance de este pase (flag en el reporte de la tarea G6).
 
 ---
 
 ## Design Philosophy
 
-1. **Dark-mode first** — matches KAI brand (deep navy backgrounds, energy red accents)
+1. **Dark-mode first** — matches the installed client's brand (example below uses deep navy backgrounds, energy red accents)
 2. **Data-dense, not slide-ware** — tables, diagrams, and numbers over paragraphs
 3. **Self-contained** — single .html file, no external dependencies (inline CSS, Mermaid CDN only)
 4. **Shareable** — prospect forwards it to their CEO; it must stand alone without context
@@ -62,7 +63,7 @@ h3 { font-size: 1.25rem; font-weight: 600; color: var(--kai-red); }
 
 ```
 +----------------------------------------------------------+
-| HEADER: KAI Logo | Report Title | Date | Company         |
+| HEADER: Client Logo | Report Title | Date | Company        |
 +----------------------------------------------------------+
 | HERO STATS: 3-4 key numbers in large type                |
 |   PULSO Score | Pain Points | Estimated Savings | Tier   |
@@ -83,7 +84,7 @@ h3 { font-size: 1.25rem; font-weight: 600; color: var(--kai-red); }
 +----------------------------------------------------------+
 | SECTION 8: Recommended Next Steps                        |
 +----------------------------------------------------------+
-| FOOTER: KAI tagline + contact                            |
+| FOOTER: Client tagline + contact                          |
 +----------------------------------------------------------+
 ```
 
@@ -103,7 +104,7 @@ h3 { font-size: 1.25rem; font-weight: 600; color: var(--kai-red); }
   </div>
   <div class="stat">
     <span class="stat-number">{{FIT_TOTAL}}/35</span>
-    <span class="stat-label">KAI Fit</span>
+    <span class="stat-label">Fit Score</span>
   </div>
   <div class="stat">
     <span class="stat-number">{{RECOMMENDED_TIER}}</span>
@@ -209,7 +210,7 @@ graph TD
 ```mermaid
 graph TD
     subgraph "Propuesta: AI-OS"
-        A[{{SYSTEM_1}}] -->|API| AIOS[AI-OS KAI]
+        A[{{SYSTEM_1}}] -->|API| AIOS[AI-OS {{CLIENT_SLUG}}]
         B[{{SYSTEM_2}}] -->|API| AIOS
         C[{{SYSTEM_3}}] -->|API| AIOS
         AIOS -->|Real-time| DASH[Dashboard]
@@ -286,11 +287,11 @@ xychart-beta
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discovery Report — {{COMPANY_NAME}} | KAI Partners</title>
+  <title>Discovery Report — {{COMPANY_NAME}} | {{CLIENT_DISPLAY_NAME}}</title>
   <style>/* inline all CSS above */</style>
 </head>
 <body>
-  <header><!-- KAI logo + report meta --></header>
+  <header><!-- client logo + report meta --></header>
   <section class="hero-stats"><!-- 4 key stats --></section>
   <section id="company-profile"><!-- table --></section>
   <section id="stakeholders"><!-- cards --></section>
@@ -300,7 +301,7 @@ xychart-beta
   <section id="buying-signals"><!-- positive/negative list --></section>
   <section id="opportunity"><!-- sizing + tier --></section>
   <section id="next-steps"><!-- action items --></section>
-  <footer><!-- KAI tagline + contact --></footer>
+  <footer><!-- client tagline + contact --></footer>
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>mermaid.initialize({startOnLoad:true, theme:'dark'});</script>
 </body>
@@ -320,6 +321,6 @@ xychart-beta
 ## Deployment (Optional)
 
 If Netlify MCP is available, deploy as static page:
-- Path: `kai-reports/{{COMPANY_SLUG}}/index.html`
+- Path: `{{CLIENT_SLUG}}-reports/{{COMPANY_SLUG}}/index.html`
 - Share URL with prospect (time-limited if needed)
 - Otherwise, attach .html file to email via Gmail MCP

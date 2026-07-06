@@ -1,14 +1,16 @@
 ---
 template: discovery-report-html
 version: 1.0
-description: Complete HTML template for KAI Discovery Report. Populate all {{PLACEHOLDER}} variables from business-context.md. Renders Mermaid diagrams for systems landscape.
-spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
+description: Complete HTML template for the Discovery Report (generic, per-install branding). Populate all {{PLACEHOLDER}} variables from business-context.md. Renders Mermaid diagrams for systems landscape.
+spec: os/skills/sales-orchestrator/frameworks/html-deliverable-spec.md
 ---
 
 # Discovery Report HTML Template
 
 > Generate a self-contained .html file by replacing all `{{PLACEHOLDER}}` variables with data from `business-context.md`.
-> Save output to: `clients/kai-partners/deals/<company-slug>/discovery-report.html`
+> Save output to: `clients/{{CLIENT_SLUG}}/deals/<company-slug>/discovery-report.html`
+>
+> **Nota de instalacion**: este template deja fijos algunos textos/estilos de marca (titulo, footer, contacto, variables CSS `--kai-*`) como spec de referencia — de-scoping fuera de alcance de este pase (ver flag en el reporte de la tarea G6). El cliente instalado debe sobreescribir esos valores con su propia marca antes de usar el template en produccion.
 
 ## Complete HTML
 
@@ -18,7 +20,7 @@ spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discovery Report — {{COMPANY_NAME}} | KAI Partners</title>
+  <title>Discovery Report — {{COMPANY_NAME}} | {{CLIENT_DISPLAY_NAME}}</title>
   <style>
     :root {
       --kai-navy: #1A1A2E;
@@ -193,7 +195,7 @@ spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
     <h1>Discovery Report</h1>
     <div class="subtitle">{{COMPANY_NAME}}</div>
     <div class="meta">
-      {{CALL_DATE}} &middot; {{CALL_DURATION}} min &middot; Prepared by KAI Partners
+      {{CALL_DATE}} &middot; {{CALL_DURATION}} min &middot; Prepared by {{CLIENT_DISPLAY_NAME}}
     </div>
   </header>
 
@@ -209,7 +211,7 @@ spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
     </div>
     <div>
       <span class="stat-number">{{FIT_TOTAL}}/35</span>
-      <span class="stat-label">KAI Fit</span>
+      <span class="stat-label">Fit Score</span>
     </div>
     <div>
       <span class="stat-number">{{RECOMMENDED_TIER}}</span>
@@ -349,12 +351,12 @@ spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
     <!--
     Generate a Mermaid graph TD showing:
     - Same systems connected through AI-OS hub
-    - KAI AI-OS node in center (red accent)
+    - {{CLIENT_SLUG}} AI-OS node in center (accent color)
     - Dashboard and team outputs
 
     Example:
     graph TD
-      A["Plataforma Forte"] -->|API| AIOS["AI-OS KAI"]
+      A["{{SYSTEM_1}}"] -->|API| AIOS["AI-OS {{CLIENT_SLUG}}"]
       B["LinkedIn"] -->|Automation| AIOS
       C["Growth Stack"] -->|Integration| AIOS
       AIOS -->|"Real-time"| D["Dashboard"]
@@ -414,9 +416,9 @@ spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
 
   <!-- ═══════════════════════════════════════════ FOOTER ═══ -->
   <footer class="footer">
-    <div class="tagline">Construido contigo. Probado con tus datos.</div>
-    <p>KAI Partners &mdash; Nos quedamos.</p>
-    <p style="margin-top: 1rem;">kai@kaipartners.com &middot; kaipartners.com</p>
+    <div class="tagline">{{CLIENT_TAGLINE}}</div>
+    <p>{{CLIENT_DISPLAY_NAME}}</p>
+    <p style="margin-top: 1rem;">{{CLIENT_CONTACT_EMAIL}} &middot; {{CLIENT_WEBSITE}}</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -441,20 +443,23 @@ spec: clients/kai-partners/sales-engine/frameworks/html-deliverable-spec.md
 
 ## Population Instructions
 
-1. Read `clients/kai-partners/deals/<company-slug>/business-context.md`
-2. Map each section to the corresponding HTML section above
-3. For PULSO bars, calculate:
+1. Read `clients/{{CLIENT_SLUG}}/deals/<company-slug>/business-context.md`
+2. Read `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` to resolve `{{CLIENT_DISPLAY_NAME}}`, `{{CLIENT_TAGLINE}}`, `{{CLIENT_CONTACT_EMAIL}}`, `{{CLIENT_WEBSITE}}`
+3. Map each section to the corresponding HTML section above
+4. For PULSO bars, calculate:
    - `{{X_SCORE_PCT}}` = score / 5 * 100
    - `{{X_COLOR}}` = #48BB78 (4-5), #ECC94B (3), #FC8181 (0-2)
-4. For Mermaid diagrams, generate valid Mermaid syntax from the systems landscape data
-5. For stakeholder/pain/signal cards, generate one `<div class="card">` per item
-6. Save the complete HTML to `clients/kai-partners/deals/<company-slug>/discovery-report.html`
+5. For Mermaid diagrams, generate valid Mermaid syntax from the systems landscape data
+6. For stakeholder/pain/signal cards, generate one `<div class="card">` per item
+7. Save the complete HTML to `clients/{{CLIENT_SLUG}}/deals/<company-slug>/discovery-report.html`
+
+**Modo de falla**: si `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` no existe, detente y pide al operador que configure el cliente antes de generar el reporte.
 
 ## Quality Gates
 
 1. All {{PLACEHOLDER}} variables must be resolved (no raw placeholders in output)
 2. Mermaid diagrams must use valid syntax (test with mermaid.live if unsure)
 3. All quotes must be verbatim from the transcript
-4. No anti-words in any text (check brand-reference.md)
+4. No anti-words in any text (check `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`)
 5. File must be < 500KB
 6. Must render correctly when opened directly in a browser

@@ -1,4 +1,5 @@
-import { executeSkillStream } from '@/lib/ai/engine';
+import { executeSkillStream, type ExecutionLogContext } from '@/lib/ai/engine';
+import { createClient } from '@/lib/supabase/server';
 import { NextResponse } from 'next/server';
 
 export const maxDuration = 120; // Expanded to 2 minutes to allow Double-Execution passes
@@ -45,7 +46,28 @@ Ve al menú superior y presiona el botón **Guardar Entregable** para probar la 
       return new Response(stream, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
     }
 
-    const result = await executeSkillStream(skillSlug, messages, modelId || 'claude-3-5-sonnet');
+    // Resolve the authenticated org/profile so the execution can be logged.
+    // Unauthenticated (mock/dev) requests fall through with no log context —
+    // executeSkillStream skips the write silently in that case.
+    let logContext: ExecutionLogContext | undefined;
+    try {
+      const supabase = createClient();
+      const { data: { user } } = await supabase.auth.getUser();
+      if (user) {
+        const { data: profile } = await supabase
+          .from('profiles')
+          .select('org_id')
+          .eq('id', user.id)
+          .single();
+        if (profile) {
+          logContext = { supabase, orgId: profile.org_id, profileId: user.id };
+        }
+      }
+    } catch {
+      // Auth resolution failure should never block the chat response.
+    }
+
+    const result = await executeSkillStream(skillSlug, messages, modelId || 'claude-3-5-sonnet', logContext);
     return result.toTextStreamResponse();
   } catch (err: unknown) {
     const msg = err instanceof Error ? err.message : String(err);

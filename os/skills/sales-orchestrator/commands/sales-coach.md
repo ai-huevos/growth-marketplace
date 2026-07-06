@@ -4,7 +4,7 @@ argument-hint: <fireflies-transcript-id or "use current deal context">
 allowed-tools: [Read, Write, Glob, Grep]
 ---
 
-# KAI Sales Coach — Conversation Quality Analysis
+# Sales Coach — Conversation Quality Analysis
 
 El usuario quiere un analisis de coaching de una discovery call: $ARGUMENTS
 
@@ -13,13 +13,13 @@ El usuario quiere un analisis de coaching de una discovery call: $ARGUMENTS
 ### Paso 1: Obtener el Transcript
 
 Si no se tiene el transcript en contexto:
-1. Buscar en `clients/kai-partners/deals/<company-slug>/business-context.md` para contexto
+1. Buscar en `clients/{{CLIENT_SLUG}}/deals/<company-slug>/business-context.md` para contexto
 2. Obtener el transcript via Fireflies MCP o pedir que lo peguen
 
 ### Paso 2: Analisis por Dimension
 
 Leer el scorecard framework:
-`clients/kai-partners/sales-engine/frameworks/conversation-quality-scorecard.md`
+`os/skills/sales-orchestrator/frameworks/conversation-quality-scorecard.md`
 
 Evaluar cada dimension con evidencia especifica del transcript:
 
@@ -33,7 +33,7 @@ Evaluar cada dimension con evidencia especifica del transcript:
 
 **2.3 Talk Ratio (0-10)**
 - Estimar porcentaje por speaker basado en volumen de texto del transcript
-- Identificar los segmentos mas largos de monologos (KAI vs. prospect)
+- Identificar los segmentos mas largos de monologos (vendedor vs. prospect)
 
 **2.4 Question Quality (0-10)**
 - Listar las 5 mejores preguntas hechas y por que fueron efectivas
@@ -81,7 +81,7 @@ Seguir el output format del scorecard framework. Incluir:
 
 ### Paso 5: Guardar Report
 
-Guardar en: `clients/kai-partners/deals/<company-slug>/coaching-report.md`
+Guardar en: `clients/{{CLIENT_SLUG}}/deals/<company-slug>/coaching-report.md`
 
 ### Paso 6: Coaching Conversation (interactivo)
 
@@ -92,3 +92,26 @@ Despues de presentar el report, preguntar al usuario:
 3. "Quieres que genere las preguntas especificas que faltaron para la proxima reunion?"
 
 El coaching es una conversacion, no un reporte unidireccional.
+
+### Paso 7: Instrumentación (Revenue OS)
+
+Al guardar el coaching report (Paso 5), registrar el score total (0-85) como juicio del propio modelo (`llm_judge`) — no es una regla determinista ni una calificacion humana.
+
+**Mecanismo**: `execute_sql` (Supabase MCP) si esta disponible; si no, fallback `psql "$DATABASE_URL" -c "..."` (local, puerto 54332); si ninguno esta disponible, anexar el INSERT a `clients/{{CLIENT_SLUG}}/deals/<company-slug>/pending-metrics.sql`. `org_id` se resuelve de `organizations` para el cliente instalado.
+
+```sql
+with log as (
+  insert into public.ai_execution_logs (org_id, profile_id, skill_slug, model_id)
+  values (
+    (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+    '{{PROFILE_ID}}', 'sales-coach', '{{MODEL_ID}}'
+  ) returning id
+)
+insert into public.execution_scores (execution_id, org_id, score_key, score_value, source)
+select log.id,
+  (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+  'conversation_quality', {{COACHING_SCORE_TOTAL}}, 'llm_judge'
+from log;
+```
+
+No bloquea el flujo: si la escritura falla, continuar y avisar en el summary output.

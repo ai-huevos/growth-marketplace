@@ -34,10 +34,21 @@ Tecnicas situacionales para deals estancados: aceleracion de Situaciones Crític
 
 **Triggers**: "trading framework", "framework trading", "decision criteria", "criterios decision", "situacion critica", "evento critico", "advanced sales", "ventas avanzadas", "stuck deals", "deals estancados", "negociacion ventas", "trade not negotiate"
 
+### client-onboarding
+Capa de ejecucion de la activacion post-kickoff: convierte el Plan de Impacto Conjunto en un plan 30-60-90 con gates fechados (dependency check Dia 3-4, quick win Dia 3-5, CSAT Dia 7, gate 30/60/90), hace cumplir el Contrato de Activacion (4 condiciones binarias: scope firmado, quick win entregado, cadencia recurrente, KPIs alineados), y calcula el Time-To-First-Value (TTFV) resultante.
+
+**Triggers**: "onboarding cliente", "time to first value", "TTFV", "activacion cliente", "quick win", "plan 30-60-90", "primeros 90 dias post-cierre"
+
 ## Agents
 
 ### playbook-coach
 Coach de ventas AI que analiza contexto de negocio, selecciona frameworks relevantes de Metodología GrowthOS (2-4 por problema), genera hipotesis testables IF/THEN/BECAUSE, sintetiza playbooks personalizados, y crea paquetes de enablement con materiales de entrenamiento.
+
+### activation-agent
+Orquesta el skill `client-onboarding` de punta a punta: instancia el plan 30-60-90 fechado, hace seguimiento de los gates hasta que el Contrato de Activacion se cumple (o el cliente se marca en riesgo), y escribe el TTFV resultante a la capa de instrumentacion del Revenue OS (`stage_transitions`, `phase_metrics`). Zona Yellow/HITL — nunca envia comunicacion externa sin aprobacion humana.
+
+### health-monitor-agent
+Calcula un health score 0-100 por cliente a partir de senales relacionales (cadencia, latencia, pulse, NPS), lo escribe en `client_health`, deriva la banda (`healthy`/`stable`/`at_risk`/`critical`), enruta la jugada correspondiente (`customer-success-ops` o `renewal-expansion`), y alerta sobre caidas de score independientemente del nivel absoluto. Dispara `referral_ready` cuando NPS≥9 (seam RETENTION→REFERIR).
 
 ## Commands
 
@@ -60,6 +71,13 @@ Inicia un programa de transformacion de ventas de 90 dias: ejecuta el diagnostic
 
 ```
 /kickoff [nombre de la empresa o contexto]
+```
+
+### /salud
+Corre el health-monitor-agent sobre todos los clientes del GCO dir (o uno solo). Calcula health score, banda, alertas de caida, y actualiza la fila RETENTION (gross_churn) de phase_metrics cuando hay churn confirmado.
+
+```
+/salud [client_slug opcional]
 ```
 
 ## Metodologia

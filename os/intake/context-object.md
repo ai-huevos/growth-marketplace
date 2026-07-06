@@ -234,6 +234,43 @@ Datos de reuniones si está conectado a Meeting Intelligence MCP:
 - `transcripts`: IDs de transcripts del MCP
 - `insights`: Insights extraídos de las reuniones
 
+## Extensión Additiva (Fase 5 batch — Revenue OS §6.3)
+
+Campos nuevos, **additivos** al schema existente — no reemplazan ni renombran ningún campo anterior. Se mirror-ean a proyecciones de Supabase (`client_health`, `referral_ledger`) para que un cloud Routine pueda leerlos sin acceso al YAML local (H6/H8, `_revenue-os/03-architecture.md` §1.3, §6.3).
+
+```yaml
+# Extensión additiva — Fase 5 (client-onboarding, health-monitor-agent, motor-de-referidos)
+health_score: 78          # 0-100, calculado por health-monitor-agent (cadencia 40% + latencia 25% + pulse 20% + nps 15%)
+health_band: "stable"     # healthy, stable, at_risk, critical — derivado en Postgres (trigger derive_health_band), nunca recalculado en paralelo por el agente
+ttfv_days: 12             # Time-To-First-Value: días entre el kickoff (Día 0) y la confirmación de las 4 condiciones del Contrato de Activación
+activation_contract:
+  scope_signed: true            # Condición 1 — scope firmado, evidencia dentro de 48h post-kickoff [DESIGN D3]
+  quick_win_delivered: true     # Condición 2 — primer quick win entregado, Día 3-5
+  recurring_cadence: false      # Condición 3 — cadencia recurrente establecida
+  kpis_aligned: false           # Condición 4 — KPI nombrado + baseline real + target con fecha, Gate 30
+referral_ready: false     # true cuando phase.current ∈ {escalar, referir} Y (nps >= 9 O milestone de ESCALAR completo) — nunca al final del contrato
+nps: 9                     # Último NPS capturado (EBR, encuesta, o conversación) — fuente única si client_health aún no existe
+referral_ledger:           # Mirror de la fila Supabase `referral_ledger` (migración 20260320000006)
+  referral_count: 2
+  ladder_rung: "champion"  # advocate, champion, partner — recalculado automáticamente por trigger Supabase
+  last_reward_at: "2026-06-01T10:00:00Z"
+```
+
+### health_score / health_band
+Score 0-100 y banda derivada, escritos por `health-monitor-agent` (`plugins/play-to-win/agents/health-monitor-agent.md`) en cada corrida. El `health_band` nunca se calcula en el agente — lo deriva un trigger de Postgres al insertar en `client_health`, evitando drift entre agente y base de datos.
+
+### ttfv_days
+Time-To-First-Value, escrito por `activation-agent` (`plugins/play-to-win/agents/activation-agent.md`) cuando las 4 condiciones de `activation_contract` se confirman `Cumplida`.
+
+### activation_contract
+Las 4 condiciones del Contrato de Activación (`plugins/play-to-win/skills/client-onboarding/frameworks/contrato-de-activacion.md`): scope firmado, primer quick win entregado, cadencia recurrente establecida, KPIs alineados. Binarias por condición y binarias en conjunto — 3 de 4 cumplidas no es "75% activado", es **no activado**. Estado por defecto `false`/`Sin evidencia`, nunca `true` sin evidencia citada.
+
+### referral_ready / nps
+`referral_ready` es el flag que habilita la entrada a la fase REFERIR (`os/phases/referir.md`) — lo consume `referral-advocacy-agent`. `nps` es la fuente única de verdad para el gate NPS≥9 mientras no exista `client_health` para el cliente.
+
+### referral_ledger
+Mirror del estado de la Escalera de Referidos (peldaño actual + recompensa) para lectura rápida desde el GCO sin round-trip a Supabase; la fuente de verdad sigue siendo la tabla `referral_ledger`.
+
 ## Persistencia del GCO
 
 El GCO se guarda en:

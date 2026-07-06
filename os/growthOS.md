@@ -6,12 +6,12 @@ GrowthOS es el sistema operativo que orquesta todos los plugins del marketplace.
 
 > "No preguntes qué plugin necesitas. Pregunta qué problema quieres resolver."
 
-GrowthOS transforma el marketplace de una colección de herramientas a un sistema que entiende el contexto del usuario y guía su progreso a través de las 4 fases del crecimiento B2B.
+GrowthOS transforma el marketplace de una colección de herramientas a un sistema que entiende el contexto del usuario y guía su progreso a través de las 5 fases del crecimiento B2B.
 
-## El Modelo de 4 Fases
+## El Modelo de 5 Fases
 
 ```
-DEFINIR → ATRAER → CONVERTIR → ESCALAR
+DEFINIR → ATRAER → CONVERTIR → ESCALAR → REFERIR
 ```
 
 Cada fase tiene:
@@ -64,6 +64,17 @@ Ver `phases/convertir.md` para detalles completos.
 
 Ver `phases/escalar.md` para detalles completos.
 
+### REFERIR (Fase 5)
+**Problema**: "Cierro pero no retengo" resuelto, ahora: "Cómo convierto clientes felices en pipeline nuevo" / "Quiero referidos de clientes satisfechos" / "Case studies de clientes"
+
+**Skills activados**: `advocacy-scoring`, `referral-ladder`, `case-study-engine`
+
+**Entrada**: Cliente en ESCALAR con NPS≥9 o milestone completo
+
+**Salida**: `referred_pipeline` > 0
+
+Ver `phases/referir.md` para detalles completos.
+
 ## Flujo de Activación
 
 ### Para Usuarios Nuevos
@@ -86,7 +97,7 @@ El GCO es el estado persistente que GrowthOS mantiene para cada usuario/cliente.
 
 - **company**: Información firmográfica básica
 - **pulso**: Diagnóstico PULSO completo (Panorama, Urgencia, Logro, Situación Crítica, Organización)
-- **phase**: Fase actual (DEFINIR, ATRAER, CONVERTIR, ESCALAR)
+- **phase**: Fase actual (DEFINIR, ATRAER, CONVERTIR, ESCALAR, REFERIR)
 - **completed_skills**: Lista de skills completados con outputs
 - **outputs**: Artefactos generados (ICP, positioning statement, funnel architecture, etc.)
 - **meeting_data**: Datos de reuniones (si está conectado a Meeting Intelligence MCP)

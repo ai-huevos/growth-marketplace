@@ -63,6 +63,15 @@
       "keywords": ["b2b", "growthOS-methodology","customer-success", "deal-strategy", "relationship-mapping", "sales-transformation", "renewal", "pre-discovery", "product-marketing", "icp", "customer-journey", "discovery", "demo", "trading", "critical-events", "decision-criteria", "pulso", "spanish"],
       "category": "productivity",
       "license": "MIT"
+    },
+    {
+      "name": "motor-de-referidos",
+      "source": "./plugins/motor-de-referidos",
+      "description": "Motor de Referidos: 5ta fase GrowthOS (REFERIR). Advocacy scoring por NPS, escalera de referidos, y case-study engine para convertir clientes promotores en pipeline referido B2B LATAM.",
+      "version": "1.0.0",
+      "keywords": ["b2b", "referrals", "referidos", "advocacy", "nps", "case-study", "motor-de-referidos", "referir", "golden-ticket", "spanish"],
+      "category": "productivity",
+      "license": "MIT"
     }
   ]
 }

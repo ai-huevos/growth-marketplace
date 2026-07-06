@@ -119,7 +119,7 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 | Requiere juicio pero con opciones acotadas | Yellow | Agente recomienda, humano decide |
 | Situaciones nuevas, alto riesgo, juicio ético | Red | Humano ejecuta, agente prepara |
 
-### Clasificación por Skill (31 skills)
+### Clasificación por Skill (35 skills)
 
 #### growth-foundations (6 skills)
 
@@ -160,7 +160,7 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 | `alma` | Red | Brand voice/character es profundamente personal, requiere founder |
 | `funnel-optimization` | Green | Diagnóstico de bottleneck basado en métricas numéricas |
 
-#### play-to-win (11 skills)
+#### play-to-win (12 skills)
 
 | Skill | Zona | Justificación |
 |-------|------|---------------|
@@ -175,6 +175,7 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 | `customer-journey` | Yellow | Mapeo de journey requiere validación de touchpoints reales |
 | `discovery-demo` | Yellow | Prepara estructura, pero humano ejecuta la demo |
 | `advanced-techniques` | Yellow | Tácticas avanzadas requieren juicio contextual del vendedor |
+| `client-onboarding` | Yellow | Plan 30-60-90 requiere validación del CS manager antes de activarse |
 
 #### conversational-pm (1 skill)
 
@@ -182,13 +183,22 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 |-------|------|---------------|
 | `project-management` | Yellow | Orquestación de agentes y decisiones de routing requieren validación |
 
-### Clasificación por Comando (18 comandos)
+#### motor-de-referidos (3 skills)
+
+| Skill | Zona | Justificación |
+|-------|------|---------------|
+| `advocacy-scoring` | Green | Gate NPS≥9 binario + IMPULSO 0-100 formulaico, sin comunicación al cliente |
+| `referral-ladder` | Yellow | Recomienda peldaño y recompensa desde `referral_ledger`; el envío real del ask es Red (ver `/referir`) |
+| `case-study-engine` | Yellow | Borrador de case study requiere sign-off de marca y del cliente antes de publicar |
+
+### Clasificación por Comando (21 comandos)
 
 | Comando | Plugin | Zona | Justificación |
 |---------|--------|------|---------------|
 | `/diagnostico` | growth-foundations | Green | Scoring PlainIQ formulaico, sin side-effects |
 | `/icp` | growth-foundations | Green | Workshop interactivo, scoring por reglas |
 | `/quiz` | growth-foundations | Yellow | Diseño de funnel requiere validación de segmentación |
+| `/distribuir` | growth-foundations | Yellow | Produce cola de borradores (dos oleadas + clasificación); nunca publica ni envía sin aprobación |
 | `/discovery` | sales-blueprint | Yellow | Prepara agenda, humano conduce la reunión |
 | `/pipeline` | sales-blueprint | Green | Análisis de datos existentes, diagnóstico |
 | `/propuesta` | sales-blueprint | Red | Documento comercial enviado a cliente, requiere aprobación total |
@@ -201,18 +211,26 @@ Cada skill y comando opera dentro de una zona que define el nivel de autonomía 
 | `/playbook` | play-to-win | Yellow | Síntesis de playbook requiere validación de contexto |
 | `/deal-analysis` | play-to-win | Yellow | Análisis win/loss requiere validación de datos |
 | `/kickoff` | play-to-win | Red | Reunión con cliente, preparación humana crítica |
+| `/salud` | play-to-win | Green | Calcula health score y actualiza `phase_metrics` desde datos existentes, sin comunicación al cliente; cualquier outreach derivado de una alerta queda a criterio humano (Yellow) |
 | `/os` | conversational-pm | Green | Intake y diagnóstico inicial, sin side-effects |
 | `/roadmap` | conversational-pm | Yellow | Roadmap 90 días requiere validación de prioridades |
 | `/estado` | conversational-pm | Green | Lectura de estado actual, sin side-effects |
+| `/referir` | motor-de-referidos | Red | Prepara ask, case study y handoff de referido, pero nunca envía — el outreach real requiere ejecución humana total |
+
+### Clasificación por Agente (nuevos)
+
+| Agente | Plugin | Zona | Justificación |
+|--------|--------|------|---------------|
+| `proposal-pricing-agent` | sales-blueprint | Red | Pricing enviado a cliente en la propuesta; requiere aprobación total antes de envío (mismo criterio que `/propuesta`) |
 
 ### Resumen de Distribución
 
 | Zona | Skills | Comandos | Total |
 |------|--------|----------|-------|
-| **Green** | 10 | 7 | 17 |
-| **Yellow** | 20 | 9 | 29 |
-| **Red** | 1 | 2 | 3 |
-| **Total** | 31 | 18 | 49 |
+| **Green** | 11 | 8 | 19 |
+| **Yellow** | 23 | 10 | 33 |
+| **Red** | 1 | 3 | 4 |
+| **Total** | 35 | 21 | 56 |
 
 > **Nota**: Los componentes Yellow pueden graduarse a Green tras cumplir los criterios del Artículo V. Los componentes Red requieren revisión extraordinaria para reclasificación.
 
@@ -460,6 +478,7 @@ Las correcciones humanas alimentan la mejora continua:
 | Versión | Fecha | Cambio |
 |---------|-------|--------|
 | 1.0 | 2026-02-18 | Versión inicial — 8 artículos, 31 skills + 18 comandos clasificados |
+| 1.1 | 2026-07-05 | Fase 5 (REFERIR) batch — motor-de-referidos (3 skills), client-onboarding (play-to-win), 3 comandos nuevos (`/distribuir`, `/salud`, `/referir`), proposal-pricing-agent clasificado — 35 skills + 21 comandos |
 
 ---
 

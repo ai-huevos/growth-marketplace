@@ -16,6 +16,9 @@
 | **IMAN** | Infraestructura de email | Infraestructura de Mensajes Automáticos (secuencias + nurturing) | motor-de-ofertas |
 | **RADAR** | Descubrimiento de cliente ideal | Identificación del cliente soñado dentro de ESCALA | motor-de-ofertas |
 | **GrowthOS** | Sistema operativo | Capa de orquestación need-driven sobre los plugins | os/ |
+| **REFERIR** | Fase (5) | Quinta fase del modelo GrowthOS: advocacy, escalera de referidos y prueba social, cierra el ciclo hacia ATRAER | os/phases/referir.md |
+| **ESCALERA DE REFERIDOS** | Escalera de milestone-unlock | Progresión de 3 peldaños (Advocate → Champion → Partner) que desbloquea recompensas por umbral de referidos | motor-de-referidos |
+| **IMPULSO** | Índice de Promotores | Score 0-100 (post-gate NPS≥9) que decide cuándo pedir la referencia a un cliente ya calificado | motor-de-referidos |
 
 ---
 

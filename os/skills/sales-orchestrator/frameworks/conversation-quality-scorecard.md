@@ -1,6 +1,6 @@
 # Conversation Quality Scorecard
 
-Framework de evaluacion de calidad de discovery calls para coaching de ventas KAI Partners.
+Framework de evaluacion de calidad de discovery calls para coaching de ventas.
 
 ## Dimensiones de Evaluacion (Total: 0-85)
 
@@ -37,8 +37,8 @@ Framework de evaluacion de calidad de discovery calls para coaching de ventas KA
 |-------|----------|
 | 10 | Prospect hablo 65-75% del tiempo. Conversacion equilibrada y profunda. |
 | 8-9 | Prospect hablo 55-65%. Buen balance. |
-| 6-7 | Prospect hablo 45-55%. Aceptable pero KAI hablo demasiado. |
-| 4-5 | Prospect hablo 35-45%. KAI domino la conversacion. |
+| 6-7 | Prospect hablo 45-55%. Aceptable pero el vendedor hablo demasiado. |
+| 4-5 | Prospect hablo 35-45%. El vendedor domino la conversacion. |
 | 2-3 | Prospect hablo 25-35%. Mas presentacion que discovery. |
 | 0-1 | Prospect hablo < 25%. Fue un pitch, no un discovery. |
 
@@ -68,7 +68,7 @@ Framework de evaluacion de calidad de discovery calls para coaching de ventas KA
 | 1-3 | Intento de historia pero irrelevante o se convirtio en pitch. |
 | 0 | Sin historias de terceros. |
 
-**Regla**: El CLIENTE es el heroe de la historia, no KAI.
+**Regla**: El CLIENTE es el heroe de la historia, no el vendedor.
 
 ### 6. Summarization (0-10)
 
@@ -77,7 +77,7 @@ Framework de evaluacion de calidad de discovery calls para coaching de ventas KA
 | 10 | Resumen claro de lo escuchado antes de cerrar. El prospect confirmo y agrego contexto. |
 | 7-9 | Resumen hecho pero incompleto o el prospect corrigio algo importante. |
 | 4-6 | Resumen parcial o hecho al final sin dar tiempo al prospect de reaccionar. |
-| 1-3 | Resumen muy breve o solo del lado KAI (lo que KAI puede hacer). |
+| 1-3 | Resumen muy breve o solo del lado del vendedor (lo que el vendedor puede hacer). |
 | 0 | Sin resumen. Se paso directo al cierre o se acabo el tiempo. |
 
 ### 7. Next Steps (0-10)
@@ -96,13 +96,13 @@ Framework de evaluacion de calidad de discovery calls para coaching de ventas KA
 
 | Anti-Pattern | Penalidad | Deteccion |
 |--------------|-----------|-----------|
-| **Feature dumping** | -5 | KAI listo features/capacidades sin que el prospect pregunte |
-| **Premature solutioning** | -5 | KAI propuso solucion antes de completar PULSO |
-| **Price dropping** | -3 | KAI menciono precio sin que el prospect pregunte |
-| **Competitor bashing** | -3 | KAI hablo mal de competidores directamente |
-| **Interrupting** | -2 por instancia (max -6) | KAI interrumpio al prospect mid-thought |
+| **Feature dumping** | -5 | El vendedor listo features/capacidades sin que el prospect pregunte |
+| **Premature solutioning** | -5 | El vendedor propuso solucion antes de completar PULSO |
+| **Price dropping** | -3 | El vendedor menciono precio sin que el prospect pregunte |
+| **Competitor bashing** | -3 | El vendedor hablo mal de competidores directamente |
+| **Interrupting** | -2 por instancia (max -6) | El vendedor interrumpio al prospect mid-thought |
 | **Jargon bombing** | -2 | Uso excesivo de terminos tecnicos sin explicar |
-| **Anti-word usage** | -1 por instancia (max -5) | Uso de palabras prohibidas (ver brand-reference.md) |
+| **Anti-word usage** | -1 por instancia (max -5) | Uso de palabras prohibidas (ver `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`) |
 
 ---
 

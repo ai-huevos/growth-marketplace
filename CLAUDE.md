@@ -6,9 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Huevos Growth Marketplace — a marketplace of Claude Code plugins that package B2B growth, marketing, sales, and operations frameworks as installable skills, agents, commands, and hooks. All content is Spanish-first.
 
-**Quick stats**: 6 plugins, 29 skills, 8 agents, 18 commands, 56 templates, ~216 content files.
+**Quick stats**: 7 plugins, 34 skills (33 in plugins/ + 1 in os/skills/), 12 agents, 26 commands (21 plugin commands + 5 sales-orchestrator), 62 templates, ~216+ content files.
 
-> **Note**: The root `README.md` only documents `growth-foundations` (1 of 6 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
+> **Note**: The root `README.md` only documents `growth-foundations` (1 of 7 plugins). For full plugin coverage, refer to each plugin's own `README.md` or the tables below.
 
 ## Architecture
 
@@ -51,6 +51,7 @@ os/
     atraer.md              ← Phase 2: Content, funnels, lead magnets
     convertir.md           ← Phase 3: Discovery, pipeline, proposals
     escalar.md             ← Phase 4: CS ops, renewals, coaching
+    referir.md             ← Phase 5: Advocacy, referral ladder, case studies
   governance/
     agentic-constitution.md  ← Agentic Constitution: NEVER/ALWAYS rules, zones, quality gates
   naming/
@@ -88,7 +89,8 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 | `copywriting-engine` | Headlines, emails, landing pages, psychological triggers | 4-phase agent pipeline |
 | `conversational-pm` | Growth diagnostic orchestrator + project management. PM is the marketplace's front door: ingests business context, diagnoses growth stage, routes to plugins, creates 90-day roadmaps. Two modes: Diagnostic (router) and Technical Build (agent roster). | PULSO project discovery, Growth Diagnostic Router, Agent roster |
 | `motor-de-ofertas` | Funnels, value ladders, brand character, funnel optimization | ESCALA → FLUJO → Alma |
-| `play-to-win` | 11 skills: sales transformation, customer success, deal strategy, relationship mapping, renewal/expansion, pre-discovery research, product marketing, ICP/TAL, customer journey, discovery/demo, advanced techniques | Metodología GrowthOS full lifecycle (90-day transformation, CS Operating Model, Playbook Coach) |
+| `play-to-win` | 12 skills: sales transformation, customer success, deal strategy, relationship mapping, renewal/expansion, pre-discovery research, product marketing, ICP/TAL, customer journey, discovery/demo, advanced techniques, client onboarding | Metodología GrowthOS full lifecycle (90-day transformation, CS Operating Model, Playbook Coach) |
+| `motor-de-referidos` | Advocacy scoring, referral ladder, case study capture — 5ta fase GrowthOS (REFERIR) | IMPULSO, ESCALERA DE REFERIDOS |
 
 ### Tools (non-plugin)
 
@@ -105,12 +107,12 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 ### Key Patterns
 
 - **PULSO** is the common diagnostic language across all sales-oriented plugins (Panorama, Urgencia, Logro, Situación Crítica, Organización). It connects discovery → pipeline → proposals → coaching.
-- **GrowthOS 4-phase model**: DEFINIR (ICP/positioning) → ATRAER (content/funnels) → CONVERTIR (discovery/pipeline) → ESCALAR (CS/renewals). `/os` diagnoses which phase, `/estado` shows progress, `/roadmap` generates 90-day plan.
+- **GrowthOS 5-phase model**: DEFINIR (ICP/positioning) → ATRAER (content/funnels) → CONVERTIR (discovery/pipeline) → ESCALAR (CS/renewals) → REFERIR (advocacy/referral ladder/case studies). `/os` diagnoses which phase, `/estado` shows progress, `/roadmap` generates 90-day plan.
 - **GCO (GrowthOS Context Object)**: Persistent state per client containing company info, PULSO diagnosis, current phase, completed skills, and generated outputs. See `os/intake/context-object.md`.
 - **YAML frontmatter** in SKILL.md files defines trigger keywords that activate the skill automatically. Commands use frontmatter for `description`, `argument-hint`, and `allowed-tools`.
 - **Cross-references**: Skills reference their own `frameworks/`, `templates/`, and `patterns/` subdirectories via relative paths. Commands reference agent files (e.g., `/copy` orchestrates 4 agents).
 - **Scoring models**: ICP uses 0-100 scoring with tiers. PlainIQ uses 0-40 with color heatmap. Pipeline uses PULSO-based health indicators.
-- **Agentic Constitution**: `os/governance/agentic-constitution.md` is the binding governance document for all plugins. Defines NEVER/ALWAYS rules, Green/Yellow/Red zone classifications for all 31 skills and 18 commands, escalation triggers, trust graduation (HITL → HOTL → HOOTL), budget guards, and unified quality gates. All agents must comply.
+- **Agentic Constitution**: `os/governance/agentic-constitution.md` is the binding governance document for all plugins. Defines NEVER/ALWAYS rules, Green/Yellow/Red zone classifications for all 35 skills and 21 commands, escalation triggers, trust graduation (HITL → HOTL → HOOTL), budget guards, and unified quality gates. All agents must comply.
 
 ### Commands
 
@@ -119,6 +121,7 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 | `/diagnostico` | growth-foundations | PlainIQ assessment (GTM, Revenue, Q2C, Capabilities) |
 | `/icp` | growth-foundations | Interactive ICP definition + scoring workshop |
 | `/quiz` | growth-foundations | Metodología SONDA quiz funnel builder |
+| `/distribuir` | growth-foundations | Weekly content-distribution loop (calendar gate, two-wave production, review queue) |
 | `/discovery` | sales-blueprint | PULSO discovery session orchestrator |
 | `/pipeline` | sales-blueprint | Pipeline health analysis |
 | `/propuesta` | sales-blueprint | Proposal generation |
@@ -131,6 +134,8 @@ Monorepo pattern: engine (plugins/, tools/, docs/) stays generic — client-spec
 | `/playbook` | play-to-win | GTM playbook synthesizer (AI Sales Coach) |
 | `/deal-analysis` | play-to-win | Win/loss PULSO analysis session |
 | `/kickoff` | play-to-win | Customer kickoff call orchestrator |
+| `/salud` | play-to-win | Client health scoring + churn-risk alerts across GCO clients |
+| `/referir` | motor-de-referidos | REFERIR phase run: advocacy detection, IMPULSO scoring, referral-ladder rung, case-study + handoff drafts |
 | `/os` | conversational-pm | Start GrowthOS intake (diagnose growth stage, route to phase) |
 | `/roadmap` | conversational-pm | Generate/update 90-day roadmap based on current phase |
 | `/estado` | conversational-pm | Show current GrowthOS state (phase, skills, outputs, next steps) |
@@ -222,8 +227,8 @@ Templates are the **DNA** of the marketplace — they define output contracts (w
 - **Output is sacred**: The template's benchmark defines success, not subjective opinion
 - **Form varies, essence stays**: Agents fill client-specific variables but never alter the methodology core
 - **Every execution logs**: After running a template, append to `docs/execution-log.md` with: date, template ID, agent, context, adaptations, result, notes
-- **Evolution trigger**: 3+ executions missing benchmark → flag template for review in `docs/template-catalog.md`
-- **Template catalog**: `docs/template-catalog.md` indexes all executable templates across all plugins
+- **Evolution trigger**: 3+ executions missing benchmark → flag template for review in the template catalog
+- **Template catalog**: `docs/template-catalog.md` was removed in a Feb 2026 cleanup and is PENDING REBUILD (62 templates to re-index) — until then, each plugin README is the per-plugin template reference
 
 ## Second-Brain Sync
 

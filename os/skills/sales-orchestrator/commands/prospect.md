@@ -4,7 +4,7 @@ argument-hint: <company name or contact name>
 allowed-tools: [Read, Glob, Grep, WebSearch, WebFetch]
 ---
 
-# KAI Prospect — Pre-Call Research
+# Prospect — Pre-Call Research
 
 El usuario quiere preparar una discovery call para: $ARGUMENTS
 
@@ -66,15 +66,17 @@ Referencia: `plugins/sales-blueprint/skills/discovery-mastery/frameworks/questio
 
 ### Fase 5: Historias de Terceros Preparadas
 
-Preparar 2-3 historias relevantes al prospect:
+Preparar 2-3 historias relevantes al prospect, tomadas del banco de proof points del cliente instalado (`clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`):
 
 | Historia | Activar cuando... |
 |----------|-------------------|
-| **Finkargo (80% reduction)** | Mencionan operaciones que no escalan |
-| **Finkargo (428x ROI)** | Dudan del ROI o piden numeros |
+| **{{CASE_STUDY_1}}** (proof point principal del cliente instalado) | Mencionan operaciones que no escalan |
+| **{{CASE_STUDY_2}}** (proof point de ROI del cliente instalado) | Dudan del ROI o piden numeros |
 | **Caso industria similar** | Necesitan referencia de su sector |
 
-Regla: Menos de 2 minutos por historia. El CLIENTE es el heroe, no KAI.
+**Modo de falla**: si `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` no existe, detente y pide al operador que configure el cliente antes de continuar.
+
+Regla: Menos de 2 minutos por historia. El CLIENTE es el heroe, no el vendedor.
 
 ### Fase 6: Objeciones Anticipadas
 
@@ -83,7 +85,9 @@ Listar 3-4 objeciones probables con respuestas preparadas usando framework GOLPE
 ### Fase 7: Output — Discovery Scorecard
 
 Generar scorecard completa siguiendo el template en:
-`clients/kai-partners/delivery/retorna-discovery-scorecard.md`
+`clients/{{CLIENT_SLUG}}/delivery/discovery-scorecard-template.md`
+
+**Modo de falla**: si el template no existe, detente y pide al operador que provea el template de discovery scorecard del cliente instalado.
 
 Adaptar todas las secciones al prospect investigado:
 1. Prospect Intel (tabla completa)
@@ -95,4 +99,22 @@ Adaptar todas las secciones al prospect investigado:
 7. Next Steps (VAGONES)
 8. Quality Control Checklist
 
-Guardar output en: `clients/kai-partners/deals/<company-slug>/discovery-scorecard.md`
+Guardar output en: `clients/{{CLIENT_SLUG}}/deals/<company-slug>/discovery-scorecard.md`
+
+### Fase 8: Instrumentación (Revenue OS)
+
+Al completar el scorecard (Fase 7), registrar la entrada hipotetica a pipeline: transicion ATRAER→CONVERTIR con la hipotesis PULSO total de la Fase 2 (suma de confianza por dimension) como metric_value.
+
+**Mecanismo**: `execute_sql` (Supabase MCP) si esta disponible; si no, fallback `psql "$DATABASE_URL" -c "..."` (local, puerto 54332); si ninguno esta disponible, anexar el INSERT a `clients/{{CLIENT_SLUG}}/deals/<company-slug>/pending-metrics.sql` (nunca perder el dato). `org_id` se resuelve de `organizations` para el cliente instalado.
+
+```sql
+insert into public.stage_transitions
+  (org_id, from_stage, to_stage, headline_metric_key, metric_value, scale)
+values (
+  (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+  'ATRAER', 'CONVERTIR', 'pipeline_entered',
+  {{PULSO_HYPOTHESIS_TOTAL}}, '0-25'
+);
+```
+
+No bloquea el flujo: si la escritura falla, continuar y avisar en el summary output.

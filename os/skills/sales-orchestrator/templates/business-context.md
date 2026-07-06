@@ -9,7 +9,7 @@ status: TEMPLATE
 
 > Extracted from: {{SOURCE}} ({{SOURCE_ID}})
 > Date of call: {{CALL_DATE}}
-> Extracted by: KAI Sales Engine v1.0
+> Extracted by: Sales Orchestrator ({{CLIENT_SLUG}})
 
 ---
 
@@ -97,7 +97,7 @@ Classification: 5-14 = No calificado | 15-22 = Nurture | 23-30 = Oportunidad act
 | **Proximo paso** | {{NEXT_STEP}} |
 | **Razon** | {{PROBABILITY_REASON}} |
 
-Pricing source: `clients/kai-partners/pricing/pricing-grid.md`
+Pricing source: `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md`
 
 ---
 
@@ -125,7 +125,7 @@ Palabras y frases exactas del prospect para reusar en follow-up:
 
 ---
 
-## 10. KAI Fit Assessment
+## 10. Fit Assessment (Cliente Instalado)
 
 | Dimension | Score (1-5) | Notas |
 |-----------|:-----------:|-------|
@@ -133,7 +133,7 @@ Palabras y frases exactas del prospect para reusar en follow-up:
 | **Urgencia / Situacion Critica** | {{FIT_URGENCY}} | {{FIT_URGENCY_NOTES}} |
 | **Capacidad de decision** | {{FIT_DECISION}} | {{FIT_DECISION_NOTES}} |
 | **Budget / Willingness to invest** | {{FIT_BUDGET}} | {{FIT_BUDGET_NOTES}} |
-| **Alineacion con KAI capabilities** | {{FIT_ALIGNMENT}} | {{FIT_ALIGNMENT_NOTES}} |
+| **Alineacion con las capacidades del cliente instalado** | {{FIT_ALIGNMENT}} | {{FIT_ALIGNMENT_NOTES}} |
 | **Cultural fit** | {{FIT_CULTURE}} | {{FIT_CULTURE_NOTES}} |
 | **Tamano de oportunidad** | {{FIT_SIZE}} | {{FIT_SIZE_NOTES}} |
 | **TOTAL** | **{{FIT_TOTAL}}/35** | >25 High Priority / 18-24 Qualified / <18 Nurture |

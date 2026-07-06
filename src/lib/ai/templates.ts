@@ -1,3 +1,5 @@
+import { loadSkillMethodology } from './skill-loader';
+
 export function getSystemPromptForSkill(skillSlug: string) {
   const adwCore = `
 ### CONTEXTO
@@ -43,5 +45,13 @@ Tu respuesta DEBE seguir siempre esta estructura secuencial estricta:
     "customer-success-playbook": `${adwCore}\nObjetivo: Diseña un manual táctico de Customer Success enfocado en el Onboarding y Retención de cuentas Enterprise para los primeros 90 días del ciclo de vida del cliente.`
   };
 
-  return templates[skillSlug] || (adwCore + "\nObjetivo: Actúa como el M.E.B. y asiste al usuario con un problema estratégico B2B general.");
+  const basePrompt = templates[skillSlug] || (adwCore + "\nObjetivo: Actúa como el M.E.B. y asiste al usuario con un problema estratégico B2B general.");
+
+  // Reconnect to the marketplace content: append the skill's own SKILL.md
+  // (methodology) when the app runtime finds one for this slug. Falls back
+  // silently to the hardcoded template above if no matching skill exists.
+  const methodology = loadSkillMethodology(skillSlug);
+  if (!methodology) return basePrompt;
+
+  return `${basePrompt}\n\n<metodologia>\n${methodology}\n</metodologia>`;
 }

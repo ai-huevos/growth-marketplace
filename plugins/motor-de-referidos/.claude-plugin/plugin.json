@@ -1,0 +1,14 @@
+{
+  "name": "motor-de-referidos",
+  "version": "1.0.0",
+  "description": "Motor de Referidos: 5ta fase GrowthOS (REFERIR). Advocacy scoring por NPS, escalera de referidos, y case-study engine para convertir clientes promotores en pipeline referido B2B LATAM.",
+  "author": {
+    "name": "AI Huevos",
+    "email": "hola@huevos.ai",
+    "url": "https://huevos.ai"
+  },
+  "repository": "https://github.com/ai-huevos/growth-marketplace",
+  "homepage": "https://huevos.ai",
+  "license": "MIT",
+  "keywords": ["b2b", "referrals", "referidos", "advocacy", "nps", "case-study", "motor-de-referidos", "referir", "golden-ticket", "spanish"]
+}

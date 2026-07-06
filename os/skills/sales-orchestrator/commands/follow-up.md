@@ -1,21 +1,23 @@
 ---
-description: Generate follow-up email sequence, create Gmail drafts, update prospect language bank, and log persona insights. Reads business-context.md and desk-work outputs. Final phase of the KAI sales pipeline.
+description: Generate follow-up email sequence, create Gmail drafts, update prospect language bank, and log persona insights. Reads business-context.md and desk-work outputs. Final phase of the sales-orchestrator pipeline.
 argument-hint: <company-slug>
 allowed-tools: [Read, Write, Glob, Grep]
 ---
 
-# KAI Follow-Up — Closing Loop
+# Follow-Up — Closing Loop
 
 El usuario quiere generar follow-up para: $ARGUMENTS
 
 ## Pre-requisitos
 
 Verificar que existen:
-- `clients/kai-partners/deals/{{COMPANY_SLUG}}/business-context.md` (status: POPULATED)
-- `clients/kai-partners/deals/{{COMPANY_SLUG}}/coaching-report.md`
-- `clients/kai-partners/deals/{{COMPANY_SLUG}}/discovery-report.html` (optional but recommended)
+- `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/business-context.md` (status: POPULATED)
+- `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/coaching-report.md`
+- `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/discovery-report.html` (optional but recommended)
 
-Si business-context.md no existe, informar al usuario que debe ejecutar `/kai-discovery` primero.
+Si business-context.md no existe, informar al usuario que debe ejecutar `/post-discovery` primero.
+
+**Modo de falla (config de cliente)**: si `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` o `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` no existen, detente y pide al operador que configure `clients/{{CLIENT_SLUG}}/` antes de continuar.
 
 ## Instrucciones
 
@@ -23,17 +25,17 @@ Si business-context.md no existe, informar al usuario que debe ejecutar `/kai-di
 
 Leer los siguientes archivos en paralelo:
 
-1. `clients/kai-partners/deals/{{COMPANY_SLUG}}/business-context.md` — datos del deal
-2. `clients/kai-partners/deals/{{COMPANY_SLUG}}/coaching-report.md` — insights de coaching
-3. `clients/kai-partners/pricing/pricing-grid.md` — pricing source of truth
-4. `clients/kai-partners/brand-config/brand-reference.md` — brand rules
-5. `clients/kai-partners/sales-engine/templates/follow-up-sequence.md` — email sequence template
-6. `clients/kai-partners/sales-engine/templates/persona-update.md` — persona template
-7. `clients/kai-partners/voc/prospect-language-bank.md` — existing VoC data
+1. `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/business-context.md` — datos del deal
+2. `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/coaching-report.md` — insights de coaching
+3. `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` — pricing source of truth
+4. `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md` — brand rules
+5. `os/skills/sales-orchestrator/templates/follow-up-sequence.md` — email sequence template
+6. `os/skills/sales-orchestrator/templates/persona-update.md` — persona template
+7. `clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md` — existing VoC data
 
 ### Paso 1: Populate Follow-Up Email Sequence
 
-Usar `sales-engine/templates/follow-up-sequence.md` como guia.
+Usar `os/skills/sales-orchestrator/templates/follow-up-sequence.md` como guia.
 
 Para cada email (3 total):
 
@@ -45,17 +47,17 @@ Para cada email (3 total):
    - `{{NEXT_STEPS_LIST}}`: Action items de business-context section 8
 
 2. **Email 2 (Day 3)**: Case Study + Insight
-   - Identificar el dolor del prospect mas similar al caso Finkargo
-   - Generar narrativa Finkargo adaptada al contexto
-   - `{{SINGLE_INSIGHT}}`: 1 insight actionable que el prospect puede usar sin KAI
+   - Identificar el dolor del prospect mas similar al caso de exito principal del cliente instalado (`brand-voice.md`)
+   - Generar narrativa de caso de exito adaptada al contexto (ver `{{CASE_STUDY_COMPANY}}` en el template — default ilustrativo, reemplazar por el proof point real del cliente instalado)
+   - `{{SINGLE_INSIGHT}}`: 1 insight actionable que el prospect puede usar sin el cliente instalado
 
 3. **Email 3 (Day 7)**: Soft Close with Sprint
    - Determinar tier recomendado de business-context section 7
-   - Si FRONTEND: Sprint framing ($500-$1,500)
-   - Si MIDDLE: Build framing ($5K-$15K) con Sprint como alternativa baja
-   - Pricing desde pricing-grid.md segun region del prospect
+   - Si FRONTEND: Sprint framing (ver tier FRONTEND en pricing-grid.md)
+   - Si MIDDLE: Build framing (ver tier MIDDLE en pricing-grid.md) con Sprint como alternativa baja
+   - Pricing desde `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` segun region del prospect
 
-Guardar en: `clients/kai-partners/deals/{{COMPANY_SLUG}}/follow-up-emails.md`
+Guardar en: `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/follow-up-emails.md`
 
 Formato del archivo:
 
@@ -108,7 +110,7 @@ Si Gmail MCP esta disponible:
 
 ### Paso 3: Populate Persona Update
 
-Usar `sales-engine/templates/persona-update.md` como guia.
+Usar `os/skills/sales-orchestrator/templates/persona-update.md` como guia.
 
 Extraer de business-context.md:
 - Section 9 (Prospect Vocabulary) → New Vocabulary
@@ -117,11 +119,11 @@ Extraer de business-context.md:
 - Section 5 (Systems Landscape) → Competitive Intel (alternatives in use)
 - Section 1 (Company Profile) → Industry Insights
 
-Guardar en: `clients/kai-partners/deals/{{COMPANY_SLUG}}/persona-update.md`
+Guardar en: `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/persona-update.md`
 
 ### Paso 4: Update Prospect Language Bank
 
-Leer `clients/kai-partners/voc/prospect-language-bank.md` y agregar las frases nuevas del prospect.
+Leer `clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md` y agregar las frases nuevas del prospect.
 
 Proceso:
 1. Leer las frases de persona-update.md seccion 1
@@ -141,7 +143,7 @@ Proceso:
 ### Paso 5: Update GCO (if exists)
 
 Si existe un GCO (GrowthOS Context Object) en `~/.growthos/contexts/`:
-- Buscar GCO del cliente: `~/.growthos/contexts/{{COMPANY_SLUG}}.yaml`
+- Buscar GCO del prospect (deal): `~/.growthos/contexts/{{COMPANY_SLUG}}.yaml` — distinto del GCO de instalacion `~/.growthos/contexts/{{CLIENT_SLUG}}.yaml`
 - Si existe, actualizar con nuevos datos del deal
 - Si no existe, no crear uno (GCO se crea via /os)
 
@@ -165,27 +167,67 @@ PERSONA UPDATE:
   Competitive intel: {{NUM_COMPETITORS}} alternatives noted
 
 FILES GENERATED:
-  - deals/{{SLUG}}/follow-up-emails.md
-  - deals/{{SLUG}}/persona-update.md
-  - voc/prospect-language-bank.md (updated)
+  - clients/{{CLIENT_SLUG}}/deals/{{SLUG}}/follow-up-emails.md
+  - clients/{{CLIENT_SLUG}}/deals/{{SLUG}}/persona-update.md
+  - clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md (updated)
 
 DEAL STATUS: Follow-up sequence ready
 NEXT: Monitor responses. If no reply by Day 14, send manual check-in.
 
 FULL PIPELINE COMPLETE:
-  /kai-prospect   -> Pre-call research
-  /kai-discovery   -> Transcript extraction + coaching
-  /kai-desk        -> 4 deliverables generated
-  /kai-follow      -> Email sequence + VoC captured
+  /prospect        -> Pre-call research
+  /post-discovery  -> Transcript extraction + coaching
+  /desk-work       -> 4 deliverables generated
+  /follow-up       -> Email sequence + VoC captured
 ```
 
 ### Quality Gates
 
 1. All 3 emails have 0 unresolved `{{PLACEHOLDER}}` tags
 2. All prospect quotes are verbatim
-3. No anti-words in any email (check brand-reference.md)
-4. At least 1 Finkargo reference in the sequence
-5. Pricing matches pricing-grid.md
+3. No anti-words in any email (check `clients/{{CLIENT_SLUG}}/brand-config/brand-voice.md`)
+4. At least 1 case-study reference in the sequence (from `brand-voice.md`)
+5. Pricing matches `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md`
 6. Each email < 300 words
 7. Gmail drafts created, NEVER sent
 8. Language bank updated without duplicates
+
+### Paso 7: Instrumentación (Revenue OS) — Resolución del Deal
+
+**No se dispara en cada corrida** — solo cuando el operador informa que el deal se gano o se perdio (esta es la ultima etapa del pipeline, el "closing loop"). Registrar la transicion y recalcular el win rate acumulado del stage REVENUE.
+
+**Mecanismo**: `execute_sql` (Supabase MCP) si esta disponible; si no, fallback `psql "$DATABASE_URL" -c "..."` (local, puerto 54332); si ninguno esta disponible, anexar los statements a `clients/{{CLIENT_SLUG}}/deals/{{COMPANY_SLUG}}/pending-metrics.sql`. `org_id` se resuelve de `organizations` para el cliente instalado.
+
+```sql
+-- 1. Registrar la resolucion (ejecutar SOLO una de las dos, segun resultado)
+-- Ganado — avanza a ESCALAR:
+insert into public.stage_transitions
+  (org_id, from_stage, to_stage, headline_metric_key, metric_value, scale)
+values (
+  (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+  'CONVERTIR', 'ESCALAR', 'win_rate', 1, 'binary'
+);
+
+-- Perdido — no avanza de fase:
+insert into public.stage_transitions
+  (org_id, from_stage, to_stage, headline_metric_key, metric_value, scale)
+values (
+  (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+  'CONVERTIR', 'CONVERTIR', 'win_rate', 0, 'binary'
+);
+
+-- 2. Recalcular phase_metrics.current_value (REVENUE) desde el historial completo
+update public.phase_metrics
+set current_value = sub.win_rate, updated_at = timezone('utc'::text, now())
+from (
+  select org_id,
+    count(*) filter (where metric_value = 1)::numeric / nullif(count(*), 0) as win_rate
+  from public.stage_transitions
+  where headline_metric_key = 'win_rate'
+    and org_id = (select id from public.organizations where name = '{{CLIENT_SLUG}}')
+  group by org_id
+) sub
+where phase_metrics.org_id = sub.org_id and phase_metrics.stage = 'REVENUE';
+```
+
+Nota: `plugins/sales-blueprint/agents/proposal-pricing-agent.md` (Fase 7) ya describe esta misma escritura al cerrarse el deal; si ambos se ejecutan para el mismo cierre, verificar que no se duplique la fila en `stage_transitions`.

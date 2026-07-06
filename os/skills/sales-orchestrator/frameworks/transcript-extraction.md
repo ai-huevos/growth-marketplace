@@ -30,7 +30,7 @@ OUTPUT: Mapa de speakers
 
 | Speaker | Rol | Empresa | Tipo |
 |---------|-----|---------|------|
-| [nombre] | [titulo] | [empresa] | Prospect / KAI |
+| [nombre] | [titulo] | [empresa] | Prospect / Vendedor |
 ```
 
 ### Paso 2: Extraer Company Profile
@@ -118,7 +118,7 @@ Palabras y frases exactas del prospect que revelan como piensa y habla:
 - Como describe su dolor (sus palabras, no las nuestras)
 - Frases que podemos reusar en follow-up
 
-Estos alimentan `clients/kai-partners/voc/prospect-language-bank.md`
+Estos alimentan `clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md`
 
 ### Paso 10: Opportunity Sizing
 
@@ -126,7 +126,7 @@ Estos alimentan `clients/kai-partners/voc/prospect-language-bank.md`
 TICKET ESTIMADO:
   Tier recomendado: [Bait / Frontend / Middle / Backend]
   Rango de precio: $[min] - $[max]
-  Fuente de pricing: clients/kai-partners/pricing/pricing-grid.md
+  Fuente de pricing: clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md
 
 TIMELINE ESTIMADO:
   Ciclo de venta: [corto < 2 sem / medio 2-6 sem / largo > 6 sem]
@@ -140,6 +140,6 @@ CONFIANZA:
 ## Output
 
 El resultado de la extraccion se guarda en:
-`clients/kai-partners/deals/<company-slug>/business-context.md`
+`clients/{{CLIENT_SLUG}}/deals/<company-slug>/business-context.md`
 
-Usar el template: `clients/kai-partners/sales-engine/templates/business-context.md`
+Usar el template: `os/skills/sales-orchestrator/templates/business-context.md`

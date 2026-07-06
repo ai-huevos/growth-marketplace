@@ -32,6 +32,9 @@ Workflow de SDR: research del prospect, calificacion PULSO pre-contacto, y prepa
 ### deal-strategist
 Analisis critico de deals activos. Identifica gaps en PULSO, riesgos no mitigados, genera Mutual Action Plan y estrategia de buying center 3x3.
 
+### proposal-pricing-agent
+Convierte el contexto de negocio + PULSO de un deal + la pricing grid instalada del cliente en un borrador de propuesta con racional de precio explicito. Actua como Deal Desk / RevOps analyst — nunca vende, negocia, ni envia el documento. Zona Red permanente (no gradua mas alla de HITL).
+
 ## Commands
 
 ### /discovery

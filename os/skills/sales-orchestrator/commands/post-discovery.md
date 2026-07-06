@@ -4,9 +4,11 @@ argument-hint: <fireflies-transcript-id or URL or "paste">
 allowed-tools: [Read, Write, Glob, Grep]
 ---
 
-# KAI Post-Discovery — Transcript Processing
+# Post-Discovery — Transcript Processing
 
 El usuario quiere procesar un transcript de discovery call: $ARGUMENTS
+
+**Modo de falla (config de cliente)**: si `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md` no existe, detente y pide al operador que configure `clients/{{CLIENT_SLUG}}/` antes de completar el opportunity sizing.
 
 ## Instrucciones
 
@@ -27,7 +29,7 @@ Determinar la fuente del transcript:
 ### Paso 1: Transcript Extraction
 
 Ejecutar el protocolo completo de extraccion:
-`clients/kai-partners/sales-engine/frameworks/transcript-extraction.md`
+`os/skills/sales-orchestrator/frameworks/transcript-extraction.md`
 
 Esto produce los 10 pasos de extraccion:
 1. Speaker identification
@@ -43,20 +45,20 @@ Esto produce los 10 pasos de extraccion:
 
 ### Paso 2: Populate Business Context
 
-Usar el template en `clients/kai-partners/sales-engine/templates/business-context.md` y reemplazar todos los `{{PLACEHOLDER}}` con datos extraidos del transcript.
+Usar el template en `os/skills/sales-orchestrator/templates/business-context.md` y reemplazar todos los `{{PLACEHOLDER}}` con datos extraidos del transcript.
 
-Guardar en: `clients/kai-partners/deals/<company-slug>/business-context.md`
+Guardar en: `clients/{{CLIENT_SLUG}}/deals/<company-slug>/business-context.md`
 
 **Reglas de poblacion:**
 - Si un dato no esta en el transcript, poner "No mencionado" (no inventar)
 - Las citas textuales deben ser EXACTAS del transcript
 - El PULSO scoring debe ser conservador (no inflar scores)
-- El opportunity sizing debe referenciar `clients/kai-partners/pricing/pricing-grid.md`
+- El opportunity sizing debe referenciar `clients/{{CLIENT_SLUG}}/sales-engine/pricing-grid.md`
 
 ### Paso 3: Auto-trigger Coaching
 
 Despues de la extraccion, ejecutar automaticamente el analisis de coaching:
-`clients/kai-partners/sales-engine/commands/sales-coach.md`
+`os/skills/sales-orchestrator/commands/sales-coach.md`
 
 Pasar el transcript y el business-context generado como input.
 
@@ -89,11 +91,41 @@ TOP 3 IMPROVEMENT AREAS:
 3. [area + recomendacion]
 
 FILES GENERATED:
-- deals/<slug>/business-context.md
-- deals/<slug>/coaching-report.md
+- clients/{{CLIENT_SLUG}}/deals/<slug>/business-context.md
+- clients/{{CLIENT_SLUG}}/deals/<slug>/coaching-report.md
 ```
 
 ### Paso 5: VoC Update
 
 Agregar las entradas de vocabulario del prospect al language bank:
-`clients/kai-partners/voc/prospect-language-bank.md`
+`clients/{{CLIENT_SLUG}}/voc/prospect-language-bank.md`
+
+### Paso 6: Instrumentación (Revenue OS)
+
+Al guardar business-context.md (Paso 2), registrar el checkpoint PULSO dentro de CONVERTIR (from_stage = to_stage, no hay avance de fase todavia) y un score de calidad de extraccion (regla: proporcion de las 10 secciones del framework con datos reales vs. "No mencionado").
+
+**Mecanismo**: `execute_sql` (Supabase MCP) si esta disponible; si no, fallback `psql "$DATABASE_URL" -c "..."` (local, puerto 54332); si ninguno esta disponible, anexar los INSERT a `clients/{{CLIENT_SLUG}}/deals/<company-slug>/pending-metrics.sql`. `org_id` se resuelve de `organizations` para el cliente instalado.
+
+```sql
+insert into public.stage_transitions
+  (org_id, from_stage, to_stage, headline_metric_key, metric_value, scale)
+values (
+  (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+  'CONVERTIR', 'CONVERTIR', 'pulso_discovery', {{PULSO_SCORE_TOTAL}}, '0-25'
+);
+
+with log as (
+  insert into public.ai_execution_logs (org_id, profile_id, skill_slug, model_id)
+  values (
+    (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+    '{{PROFILE_ID}}', 'post-discovery', '{{MODEL_ID}}'
+  ) returning id
+)
+insert into public.execution_scores (execution_id, org_id, score_key, score_value, source)
+select log.id,
+  (select id from public.organizations where name = '{{CLIENT_SLUG}}'),
+  'discovery_quality', {{EXTRACTION_COMPLETENESS_SCORE}}, 'rule'
+from log;
+```
+
+No bloquea el flujo: si la escritura falla, continuar y avisar en el summary output (Paso 4).
