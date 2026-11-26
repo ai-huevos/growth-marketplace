@@ -93,8 +93,8 @@ Mapa de cada archivo del repositorio con su propósito y relaciones.
 | Archivo | Propósito |
 |---------|-----------|
 | `skills/content-strategy/SKILL.md` | PENDIENTE + TRIÁNGULO DE INGRESOS, 4 pasos, workflows LATAM |
-| `skills/content-strategy/frameworks/ski-slope-model.md` | Modelo Green Circle → Blue Square → Black Diamond |
-| `skills/content-strategy/frameworks/topic-triangle.md` | Selección de temas por CPC × tráfico × revenue |
+| `skills/content-strategy/frameworks/pendiente-model.md` | Modelo Green Circle → Blue Square → Black Diamond |
+| `skills/content-strategy/frameworks/triangulo-ingresos.md` | Selección de temas por CPC × tráfico × revenue |
 | `skills/content-strategy/frameworks/content-scaling-model.md` | Modelo de escalamiento de contenido |
 | `skills/content-strategy/templates/topic-priority-worksheet.md` | Worksheet para priorizar temas |
 | `skills/content-strategy/templates/aida-blog-post-template.md` | Template AIDA para blog posts |

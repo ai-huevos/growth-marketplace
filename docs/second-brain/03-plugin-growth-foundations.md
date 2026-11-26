@@ -251,8 +251,8 @@ Estrategia de contenidos B2B basada en PENDIENTE (Green Circle → Blue Square �
 4. **Distribución**: Red Packet partnerships + micro-budget ads
 
 ### Frameworks
-- `frameworks/ski-slope-model.md`: Modelo de 3 niveles de dificultad/conversión
-- `frameworks/topic-triangle.md`: Selección de temas por revenue × tráfico
+- `frameworks/pendiente-model.md`: Modelo de 3 niveles de dificultad/conversión
+- `frameworks/triangulo-ingresos.md`: Selección de temas por revenue × tráfico
 - `frameworks/content-scaling-model.md`: Modelo de escalamiento de contenido
 
 ### Templates

@@ -429,11 +429,11 @@ Every business function documented as an agent-executable workflow:
 - Escalation paths
 
 **Layer 2 — Agent Architecture** (The Org Chart)
-McKinsey's emerging model: 2-5 humans supervising 50-100 specialized agents:
-- Supervisor agents orchestrate multi-step workflows
-- Specialist agents handle domain-specific tasks
-- Router agents triage and delegate incoming work
-- Quality agents monitor and validate outputs
+McKinsey's emerging model: 2-5 humans supervising 50-100 specialized agents. Frameworks like **OpenClawd**, **Paperclip AI**, and **Hermes** define how these interact:
+- **Supervisor/Master Agents** (e.g., Paperclip AI's "CEO" agent) orchestrate multi-step workflows and delegate to departments.
+- **Specialist Workers** handle domain-specific tasks using "Always-On" context architecture (e.g., OpenClawd's persistent memory).
+- **Learning Nodes** (e.g., Hermes AI framework) automatically create reusable "skills" when novel tasks are successfully completed, compounding institutional memory.
+- **Router & Quality Agents** triage incoming work, monitor execution, and enforce heartbeat protocols to prevent infinite loops.
 
 **Layer 3 — Quality System** (The Inspection Protocol)
 Pre/in/post execution monitoring:
@@ -673,6 +673,14 @@ From the AI Engineering library (Chip Huyen, AI Engineering):
 | Finance | Forecasting, attribution, ROI tracking | Green (data), Yellow (decisions) |
 | Management | Process compliance, scorecard monitoring | Green (monitoring), Yellow (interventions) |
 | Leadership | Market intelligence, strategic insights | Red (decisions), Yellow (analysis) |
+
+### 11.4 Contemporary AI Orchestration Frameworks
+
+To deploy these agent stacks predictably, modern B2B growth agencies rely on explicit orchestration frameworks rather than raw LLMs:
+
+1. **OpenClaw (and OpenClawd)**: Functions as an "always-on" operating system for AI agents, allowing them to manage persistent memory, handle complex cross-application workflows, and maintain sovereignty. Ideal for scaling *Lead Gen* and *Fulfillment* securely on private clouds.
+2. **Paperclip AI Framework**: Tailored for building "zero-human" company structures. It relies on a "control plane" where a Master Agent delegates to Specialized Department/Worker agents using a structured "heartbeat protocol." This is the ultimate realization of Gerber’s *Management Strategy* encoded directly into an agent hierarchy. 
+3. **Hermes AI Framework**: Distinguishes itself via a self-improving execution node model. When Hermes successfully handles an edge-case during *Lead Conversion* or *Intelligence* tasks, it automatically synthesizes a reusable "Skill." This creates compounding system intelligence, removing the need for humans to write static SOPs continuously.
 
 ---
 

@@ -39,7 +39,7 @@ Modelo de progresión de dificultad de contenido que refleja los niveles de una 
 
 **Ratio recomendado**: 60% Green / 30% Blue / 10% Black Diamond
 
-Para el modelo completo con reglas de progresión, leer `frameworks/ski-slope-model.md`.
+Para el modelo completo con reglas de progresión, leer `frameworks/pendiente-model.md`.
 
 ### Framework 2: TRIÁNGULO DE INGRESOS
 
@@ -49,7 +49,7 @@ Sistema de priorización de temas basado en señales de intención comercial:
 2. **Score**: Potencial de Revenue (1-10) × Potencial de Tráfico (1-10)
 3. **Prioridad**: Score más alto = crear primero
 
-Para la metodología completa de scoring, leer `frameworks/topic-triangle.md`.
+Para la metodología completa de scoring, leer `frameworks/triangulo-ingresos.md`.
 
 ## Proceso de Content Strategy
 
